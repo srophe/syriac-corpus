@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/tei-html.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="js/jquery-ui-1.11.4.custom/jquery-ui.css">
+  </head>
+  <body>
+    <div id="TEI">
+    </div>
+    <script src="../js/CETEI.js"></script>
+    <script type="text/javascript" src="js/jquery/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+    <script src="" charset="utf-8"></script>
+    <script src="js/appcrit.js" charset="utf-8"></script>
+    <script>
+      var CETEIcean = new CETEI();
+      CETEIcean.getHTML5('https://raw.githubusercontent.com/srophe/draft-data/master/data/works/BYU%20Syriac%20Electronic%20Corpus/32excerpt.xml', loadData);
+
+      // Alternatively, use then()
+      // (new CETEI).getHTML5('testTEI.xml').then(function(data){
+      //   document.getElementById("TEI").appendChild(data);
+      // });
+
+    </script>
+  </body>
+</html>
