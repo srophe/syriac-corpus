@@ -1,0 +1,111 @@
+<?xml-stylesheet type="text/xsl" href="oxgarage2customTEI.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a">The Demonstrations</title>
+                <title type="sub"><!-- Insert title of individual demonstration in the form of: Demonstration 1: On Faith --></title>
+                <title level="s">BYU-Oxford Syriac Corpus</title>
+                <sponsor>Center for the Preservation of Ancient Religious Texts</sponsor>
+                <sponsor>Neal A. Maxwell Institute for Religious Scholarship</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <editor role="general-editor" ref="http://syriaca.org/editors.xml#kheal">Kristian S. Heal</editor>
+                <editor role="general-editor" ref="http://syriaca.org/editors.xml#jwalters">James E. Walters</editor>
+                <editor role="creator" ref="http://syriaca.org/editors.xml#dparisot">D. Ioannes Parisot</editor>
+                <editor role="creator" ref="http://syriaca.org/editors.xml#jwalters">James E. Walters</editor>
+                <!-- Add new lines for additional people involved in the creation process -->
+                <respStmt>
+                    <resp>Created by</resp>
+                    <name type="person" ref="http://syriaca.org/editors.xml#jwalters">James E. Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Based on the work of</resp>
+                    <name type="person" ref="http://syriaca.org/editors.xml#dparisot">D. Ioannes Parisot</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text typed by</resp>
+                    <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Name of the person who transcribed the Syriac text --></name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Syriaca.org: The Syriac Reference Portal </authority> <!-- Should this be considered a stand alone authority? Or should it fall under Syriaca? -->
+                <idno type="URI"><!-- This will require us to come up with the URI schema --></idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+                    </licence>
+                </availability>
+                <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>D. Ioannes Parisot</author>
+                        <title>Aphraatis Demonstrationes I-XXII</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Firmin-Didot et Socii</publisher>
+                            <date when="1894">1894</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <interpretation>
+                    <p/><!-- I assume we'll want to write something here -->
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+                <language ident="syr-Syre">Syriac in Estrangela</language>
+                <language ident="syr-Syrj">Vocalized West Syriac</language>
+                <language ident="syr-Syrn">Vocalized East Syriac</language>
+                <language ident="syr-x-syrm">Melkite Syriac</language>
+                <language ident="syr-x-syrp">Palestinian Syriac</language>
+                <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
+                <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
+                <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="la">Latin</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="cop">Coptic</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-12-02" who="http://syriaca.org/editors.xml#jwalters">Created: file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="part" n="1">
+                <head>
+                    <title><!-- Insert title of the dem here in this form: I. Demonstration on Faith --></title>
+                </head>
+                <head>
+                    <title xml:lang="syr"><!-- Insert syriac title --></title>
+                </head>
+                <div2 type="section" n="1"><!-- Repeat this structure as necessary for each section number; make sure to change the number in n="" -->
+                    <head><!-- Insert section # --></head>
+                    <p/>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
