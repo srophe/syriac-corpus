@@ -1,1 +1,2 @@
 This is the development repository for The Oxford-BYU Syriac Corpus project. All files licensed under the Creative Commons Attribution 4.0 International Public License (https://creativecommons.org/licenses/by/4.0/).
+The Oxford-BYU Syriac Corpus is a joint project of the University of Oxford and Brigham Young University in collaboration with Vanderbilt University and the Initiative for Digital Humanities, Media, and Culture at Texas A&M University.
