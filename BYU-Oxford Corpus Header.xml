@@ -12,13 +12,13 @@
         <funder/>
         <principal>Kristian S. Heal</principal>
         <principal>David G.K. Taylor</principal>
-        <editor role="editor-in-chief" ref="">David G.K. Taylor, University of Oxford</editor>
-        <editor role="editor" ref="">Aaron Butts, The Catholic University of America</editor>
-        <editor role="editor" ref="">Kristian S. Heal, Brigham Young University</editor>
-        <editor role="editor" ref="">George A. Kiraz, Beth Mardutho: The Syriac Institute</editor>
-        <editor role="editor" ref="">David A. Michelson, Vanderbilt University</editor>
-        <editor role="editor" ref="">Daniel L. Schwartz, Texas A&amp;M University</editor>
-        <editor role="editor" ref="">James E. Walters, Rochester College</editor>
+        <editor role="editor-in-chief" ref="http://syriaca.org/person.xml#dtaylor">David G.K. Taylor, University of Oxford</editor>
+        <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The Catholic University of America</editor>
+        <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal, Brigham Young University</editor>
+        <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz, Beth Mardutho: The Syriac Institute</editor>
+        <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A. Michelson, Vanderbilt University</editor>
+        <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz, Texas A&amp;M University</editor>
+        <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">James E. Walters, Rochester College</editor>
         <respStmt>
           <resp>Created by</resp>
           <name type="person" ref=""><!-- Insert name of the person who creates the TEI document --></name>
@@ -37,7 +37,7 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="1.0"/>
+        <edition n="0.1"/>
       </editionStmt>
       <publicationStmt>
         <distributor>
@@ -78,35 +78,17 @@
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <interpretation>
           <p>The Oxford-BYU Syriac Corpus is a joint project of the University of Oxford and Brigham Young University in collaboration with Vanderbilt University and the Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M University.</p>
-          <!-- Have Kristian write a generic description, then also have a specific paragraph for each work, noting specific things, problems, etc. -->
-          <!-- Look at editorialDecl desription in P5 for labels: https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editorialDecl.html -->
-        </interpretation>
+          <!-- Look at editorialDecl desription in P5 for labels (https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editorialDecl.html) and use as necessary to describe the corpus/text in question -->
       </editorialDecl>
     </encodingDesc>
       <profileDesc>
         <langUsage>
           <language ident="syr">Unvocalized Syriac of any variety or period</language>
-          <language ident="syr-Syre">Syriac in Estrangela</language>
-          <language ident="syr-Syrj">Vocalized West Syriac</language>
-          <language ident="syr-Syrn">Vocalized East Syriac</language>
-          <language ident="syr-x-syrm">Melkite Syriac</language>
-          <language ident="syr-x-syrp">Palestinian Syriac</language>
-          <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
-          <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
-          <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
-          <language ident="en">English</language>
-          <language ident="ar">Arabic</language>
-          <language ident="fr">French</language>
-          <language ident="de">German</language>
-          <language ident="la">Latin</language>
-          <language ident="grc">Ancient Greek</language>
-          <language ident="cop">Coptic</language>
         </langUsage>
       </profileDesc>
     <revisionDesc>
-        <change when="" who="">Created: file</change> <!-- when: Insert date in format YYYY-MM-DD -->
+      <change when="" who="http://syriaca.org/person.xml#">Created: file</change> <!-- when: Insert date in format YYYY-MM-DD --><!-- Insert xml abbreviated name after # (i.e. jwalters) -->
     </revisionDesc>
   </teiHeader>
   <text>
