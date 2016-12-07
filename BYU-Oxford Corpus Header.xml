@@ -13,11 +13,11 @@
         <principal>Kristian S. Heal</principal>
         <principal>David G.K. Taylor</principal>
         <editor role="editor-in-chief" ref="">David G.K. Taylor, University of Oxford</editor>
-        <editor role="creator" ref="">Aaron Butts, The Catholic University of America</editor>
+        <editor role="editor" ref="">Aaron Butts, The Catholic University of America</editor>
         <editor role="editor" ref="">Kristian S. Heal, Brigham Young University</editor>
-        <editor role="creator" ref="">George A. Kiraz, Beth Mardutho: The Syriac Institute</editor>
-        <editor role="creator" ref="">David A. Michelson, Vanderbilt University</editor>
-        <editor role="creator" ref="">Daniel L. Schwartz, Texas A&amp;M University</editor>
+        <editor role="editor" ref="">George A. Kiraz, Beth Mardutho: The Syriac Institute</editor>
+        <editor role="editor" ref="">David A. Michelson, Vanderbilt University</editor>
+        <editor role="editor" ref="">Daniel L. Schwartz, Texas A&amp;M University</editor>
         <editor role="editor" ref="">James E. Walters, Rochester College</editor>
         <respStmt>
           <resp>Created by</resp>
