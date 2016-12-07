@@ -9,7 +9,7 @@
         <sponsor>Brigham Young University</sponsor>
         <funder/>
         <principal>Kristian S. Heal</principal>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#">Kristian S. Heal</editor>
+        <editor role="general-editor" ref="">Kristian S. Heal</editor>
         <editor role="general-editor" ref="http://syriaca.org/editors.xml#jwalters">James E. Walters</editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#"><!-- Insert name of editor of the volume from which the text is taken (and add additional lines for multiple editors) --></editor>
         <editor role="creator" ref="http://syriaca.org/editors.xml#jwalters">James E. Walters</editor>
@@ -36,13 +36,18 @@
         <edition n="1.0"/>
       </editionStmt>
       <publicationStmt>
-        <pubPlace/>
-        <authority>Syriaca.org: The Syriac Reference Portal </authority> <!-- Should this be considered a stand alone authority? Or should it fall under Syriaca? -->
-        <idno type="URI"><!-- This will require us to come up with the URI schema --></idno>
+        <distributor>
+          <pubPlace>
+            <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt University, Nashville, Tennessee, USA</placeName>
+          </pubPlace>
+        </distributor>
+        <authority>The Oxford-BYU Syriac Corpus</authority>
+        <idno type="URI"><!-- This will require us to come up with the URI schema, like syriaccorpus.org/1 --></idno>
         <availability>
           <p/>
           <licence target="http://creativecommons.org/licenses/by/3.0/">
-            <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+            <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+            <p>https://creativecommons.org/licenses/by/4.0/</p>
           </licence>
         </availability>
         <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
@@ -60,12 +65,19 @@
                   </imprint>
               </monogr>
           </biblStruct>
+        <listBibl>
+          <biblStruct type=""><!-- Work out how to represent Syriaca work URIs -->
+            <monogr/>
+          </biblStruct>
+        </listBibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <interpretation>
           <p/><!-- I assume we'll want to write something here -->
+          <!-- Have Kristian write a generic description, then also have a specific paragraph for each work, noting specific things, problems, etc. -->
+          <!-- Look at editorialDecl desription in P5 for labels: https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editorialDecl.html -->
         </interpretation>
       </editorialDecl>
     </encodingDesc>
