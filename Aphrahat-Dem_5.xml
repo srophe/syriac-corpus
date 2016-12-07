@@ -94,7 +94,7 @@
     </teiHeader>
     <text>
         <body>
-            <div1>
+            <div1 type="part" n="5">
                 <head>
                     <title>V. Demonstration on Wars</title>
                 </head>
