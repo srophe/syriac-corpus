@@ -2,35 +2,39 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
     <fileDesc>
       <titleStmt>
-        <title xml:lang="en"><!-- Title of the work --></title>
-        <title level="s">BYU-Oxford Syriac Corpus</title>
-        <sponsor>Center for the Preservation of Ancient Religious Texts</sponsor>
-        <sponsor>Neal A. Maxwell Institute for Religious Scholarship</sponsor>
+        <title xml:lang="en" level="a"><!-- Title of the work --></title>
+        <title xml:lang="syr" level="a"><!-- Syriac title of work (if available) --></title>
+        <title level="s">The Oxford-BYU Syriac Corpus</title>
+        <sponsor>University of Oxford</sponsor>
         <sponsor>Brigham Young University</sponsor>
+        <sponsor>Vanderbilt University</sponsor>
+        <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M University</sponsor>
         <funder/>
         <principal>Kristian S. Heal</principal>
-        <editor role="general-editor" ref="">Kristian S. Heal</editor>
-        <editor role="general-editor" ref="http://syriaca.org/editors.xml#jwalters">James E. Walters</editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#"><!-- Insert name of editor of the volume from which the text is taken (and add additional lines for multiple editors) --></editor>
-        <editor role="creator" ref="http://syriaca.org/editors.xml#jwalters">James E. Walters</editor>
-          <!-- Add new lines for additional people involved in the creation process -->
+        <principal>David G.K. Taylor</principal>
+        <editor role="editor-in-chief" ref="">David G.K. Taylor, University of Oxford</editor>
+        <editor role="creator" ref="">Aaron Butts, The Catholic University of America</editor>
+        <editor role="editor" ref="">Kristian S. Heal, Brigham Young University</editor>
+        <editor role="creator" ref="">George A. Kiraz, Beth Mardutho: The Syriac Institute</editor>
+        <editor role="creator" ref="">David A. Michelson, Vanderbilt University</editor>
+        <editor role="creator" ref="">Daniel L. Schwartz, Texas A&amp;M University</editor>
+        <editor role="editor" ref="">James E. Walters, Rochester College</editor>
         <respStmt>
           <resp>Created by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#jwalters">James E. Walters</name>
+          <name type="person" ref=""><!-- Insert name of the person who creates the TEI document --></name>
         </respStmt>
         <respStmt>
         <resp>Based on the work of</resp>
-            <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Insert name of editor of the volume from which the text is taken (and add additional lines for multiple editors) --></name>
+            <name type="person" ref=""><!-- Insert name of editor of the volume from which the text is taken (and add additional lines for multiple editors) --></name>
         </respStmt>
         <respStmt>
           <resp>Edited by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+          <name type="person" ref=""><!--Insert name of the person who edits this document --></name>
         </respStmt>
         <respStmt>
-          <resp>Syriac text typed by</resp>
-          <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Name of the person who transcribed the Syriac text --></name>
+          <resp>Syriac text transcribed by</resp>
+          <name type="person" ref=""><!-- Name of the person who transcribed the Syriac text --></name>
         </respStmt>
-            <!-- Insert other responsibilities? What else do we need? -->
       </titleStmt>
       <editionStmt>
         <edition n="1.0"/>
@@ -75,7 +79,7 @@
     <encodingDesc>
       <editorialDecl>
         <interpretation>
-          <p/><!-- I assume we'll want to write something here -->
+          <p>The Oxford-BYU Syriac Corpus is a joint project of the University of Oxford and Brigham Young University in collaboration with Vanderbilt University and the Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M University.</p>
           <!-- Have Kristian write a generic description, then also have a specific paragraph for each work, noting specific things, problems, etc. -->
           <!-- Look at editorialDecl desription in P5 for labels: https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editorialDecl.html -->
         </interpretation>
@@ -102,7 +106,7 @@
         </langUsage>
       </profileDesc>
     <revisionDesc>
-        <change when="" who="http://syriaca.org/editors.xml#">Created: file</change> <!-- when: Insert date in format YYYY-MM-DD --><!-- who: insert XML format abbreviated name i.e. jwalters -->
+        <change when="" who="">Created: file</change> <!-- when: Insert date in format YYYY-MM-DD -->
     </revisionDesc>
   </teiHeader>
   <text>
