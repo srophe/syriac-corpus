@@ -1,64 +1,64 @@
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="en" level="a"><!-- Title of the work --></title>
-        <title xml:lang="syr" level="a"><!-- Syriac title of work (if available) --></title>
-        <title level="s">The Oxford-BYU Syriac Corpus</title>
-        <sponsor>University of Oxford</sponsor>
-        <sponsor>Brigham Young University</sponsor>
-        <sponsor>Vanderbilt University</sponsor>
-        <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M University</sponsor>
-        <funder/>
-        <principal>Kristian S. Heal</principal>
-        <principal>David G.K. Taylor</principal>
-        <editor role="editor-in-chief" ref="http://syriaca.org/person.xml#dtaylor">David G.K. Taylor, University of Oxford</editor>
-        <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The Catholic University of America</editor>
-        <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal, Brigham Young University</editor>
-        <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz, Beth Mardutho: The Syriac Institute</editor>
-        <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A. Michelson, Vanderbilt University</editor>
-        <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz, Texas A&amp;M University</editor>
-        <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">James E. Walters, Rochester College</editor>
-        <respStmt>
-          <resp>Created by</resp>
-          <name type="person" ref=""><!-- Insert name of the person who creates the TEI document --></name>
-        </respStmt>
-        <respStmt>
-        <resp>Based on the work of</resp>
+      <fileDesc>
+        <titleStmt>
+          <title xml:lang="en" level="a"><!-- Title of the work --></title>
+          <title xml:lang="syr" level="a"><!-- Syriac title of work (if available) --></title>
+          <title level="s">The Oxford-BYU Syriac Corpus</title>
+          <sponsor>University of Oxford</sponsor>
+          <sponsor>Brigham Young University</sponsor>
+          <sponsor>Vanderbilt University</sponsor>
+          <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M University</sponsor>
+          <funder/>
+          <principal>Kristian S. Heal</principal>
+          <principal>David G.K. Taylor</principal>
+          <editor role="editor-in-chief" ref="http://syriaca.org/person.xml#dtaylor">David G.K. Taylor, University of Oxford</editor>
+          <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The Catholic University of America</editor>
+          <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal, Brigham Young University</editor>
+          <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz, Beth Mardutho: The Syriac Institute</editor>
+          <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A. Michelson, Vanderbilt University</editor>
+          <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz, Texas A&amp;M University</editor>
+          <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">James E. Walters, Rochester College</editor>
+          <respStmt>
+            <resp>Created by</resp>
+            <name type="person" ref=""><!-- Insert name of the person who creates the TEI document --></name>
+          </respStmt>
+          <respStmt>
+          <resp>Based on the work of</resp>
             <name type="person" ref=""><!-- Insert name of editor of the volume from which the text is taken (and add additional lines for multiple editors) --></name>
-        </respStmt>
-        <respStmt>
-          <resp>Edited by</resp>
-          <name type="person" ref=""><!--Insert name of the person who edits this document --></name>
-        </respStmt>
-        <respStmt>
-          <resp>Syriac text transcribed by</resp>
-          <name type="person" ref=""><!-- Name of the person who transcribed the Syriac text --></name>
-        </respStmt>
-      </titleStmt>
-      <editionStmt>
-        <edition n="0.1"/>
-      </editionStmt>
-      <publicationStmt>
-        <distributor>
-          <pubPlace>
-            <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt University, Nashville, Tennessee, USA</placeName>
-          </pubPlace>
-        </distributor>
-        <authority>The Oxford-BYU Syriac Corpus</authority>
-        <idno type="URI"><!-- This will require us to come up with the URI schema, like syriaccorpus.org/1 --></idno>
-        <availability>
-          <p/>
-          <licence target="http://creativecommons.org/licenses/by/3.0/">
-            <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
-            <p>https://creativecommons.org/licenses/by/4.0/</p>
-          </licence>
-        </availability>
-        <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
-      </publicationStmt>
-      <sourceDesc>
-          <biblStruct><!-- Insert bibliographic info for source here [note: only if printed resource, not if it's from a manuscript] -->
-              <monogr>
+          </respStmt>
+          <respStmt>
+            <resp>Edited by</resp>
+            <name type="person" ref=""><!--Insert name of the person who edits this document --></name>
+          </respStmt>
+          <respStmt>
+            <resp>Syriac text transcribed by</resp>
+            <name type="person" ref=""><!-- Name of the person who transcribed the Syriac text --></name>
+          </respStmt>
+        </titleStmt>
+        <editionStmt>
+          <edition n="0.1"/>
+        </editionStmt>
+        <publicationStmt>
+          <distributor>
+            <pubPlace>
+              <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt University, Nashville, Tennessee, USA</placeName>
+            </pubPlace>
+          </distributor>
+          <authority>The Oxford-BYU Syriac Corpus</authority>
+          <idno type="URI"><!-- This will require us to come up with the URI schema, like syriaccorpus.org/1 --></idno>
+          <availability>
+            <p/>
+            <licence target="http://creativecommons.org/licenses/by/4.0/">
+              <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+              <p>https://creativecommons.org/licenses/by/4.0/</p>
+            </licence>
+          </availability>
+          <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
+        </publicationStmt>
+        <sourceDesc>
+            <biblStruct><!-- Insert bibliographic info for source here [note: only if printed resource, not if it's from a manuscript] -->
+                <monogr>
                   <author/>
                   <title/>
                   <title type="sub"/>
@@ -67,30 +67,30 @@
                       <publisher/>
                       <date when=""></date>
                   </imprint>
-              </monogr>
-          </biblStruct>
-        <listBibl>
-          <biblStruct type=""><!-- Work out how to represent Syriaca work URIs -->
-            <monogr/>
-          </biblStruct>
-        </listBibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <editorialDecl>
+                </monogr>
+            </biblStruct>
+          <listBibl>
+            <biblStruct type=""><!-- Work out how to represent Syriaca work URIs -->
+              <monogr/>
+            </biblStruct>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <editorialDecl>
           <p>The Oxford-BYU Syriac Corpus is a joint project of the University of Oxford and Brigham Young University in collaboration with Vanderbilt University and the Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M University.</p>
           <!-- Look at editorialDecl desription in P5 for labels (https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editorialDecl.html) and use as necessary to describe the corpus/text in question -->
-      </editorialDecl>
-    </encodingDesc>
+        </editorialDecl>
+      </encodingDesc>
       <profileDesc>
         <langUsage>
           <language ident="syr">Unvocalized Syriac of any variety or period</language>
         </langUsage>
       </profileDesc>
-    <revisionDesc>
-      <change when="" who="http://syriaca.org/person.xml#">Created: file</change> <!-- when: Insert date in format YYYY-MM-DD --><!-- Insert xml abbreviated name after # (i.e. jwalters) -->
-    </revisionDesc>
-  </teiHeader>
+      <revisionDesc>
+        <change when="" who="http://syriaca.org/person.xml#">Created: file</change> <!-- when: Insert date in format YYYY-MM-DD --><!-- Insert xml abbreviated name after # (i.e. jwalters) -->
+      </revisionDesc>
+    </teiHeader>
   <text>
       <body>
           <!-- Text goes here -->
