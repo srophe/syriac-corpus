@@ -1,48 +1,59 @@
-<?xml-stylesheet type="text/xsl" href="oxgarage2customTEI.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a">The Demonstrations</title>
-                <title type="sub"><!-- Insert title of individual demonstration in the form of: Demonstration 1: On Faith --></title>
-                <title level="s">BYU-Oxford Syriac Corpus</title>
-                <sponsor>Center for the Preservation of Ancient Religious Texts</sponsor>
-                <sponsor>Neal A. Maxwell Institute for Religious Scholarship</sponsor>
+                <title xml:lang="en" level="a"><!-- Insert Title of Individual Demonstration  (i.e. Demonstration 1: On Faith) --></title>
+                <title xml:lang="en" level="s">The Demonstrations</title>
+                <title level="s">The Oxford-BYU Syriac Corpus</title>
+                <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>
+                <sponsor>University of Oxford</sponsor>
                 <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M University</sponsor>
                 <funder/>
                 <principal>Kristian S. Heal</principal>
-                <editor role="general-editor" ref="http://syriaca.org/editors.xml#kheal">Kristian S. Heal</editor>
-                <editor role="general-editor" ref="http://syriaca.org/editors.xml#jwalters">James E. Walters</editor>
-                <editor role="creator" ref="http://syriaca.org/editors.xml#dparisot">D. Ioannes Parisot</editor>
-                <editor role="creator" ref="http://syriaca.org/editors.xml#jwalters">James E. Walters</editor>
-                <!-- Add new lines for additional people involved in the creation process -->
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor-in-chief" ref="http://syriaca.org/person.xml#dtaylor">David G.K. Taylor, University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal, Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz, Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A. Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz, Texas A&amp;M University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">James E. Walters, Rochester College</editor>
                 <respStmt>
                     <resp>Created by</resp>
-                    <name type="person" ref="http://syriaca.org/editors.xml#jwalters">James E. Walters</name>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E. Walters</name>
                 </respStmt>
                 <respStmt>
                     <resp>Based on the work of</resp>
-                    <name type="person" ref="http://syriaca.org/editors.xml#dparisot">D. Ioannes Parisot</name>
+                    <name type="person" ref="">D. Ioannes Parisot</name>
                 </respStmt>
                 <respStmt>
                     <resp>Edited by</resp>
-                    <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Editor's first initial and surname follow "#" (e.g., "...#dmichelson") --><!--Initial editor's name here --></name>
+                    <name type="person" ref=""><!--Insert name of the person who edits this document --></name>
                 </respStmt>
                 <respStmt>
-                    <resp>Syriac text typed by</resp>
-                    <name type="person" ref="http://syriaca.org/editors.xml#"><!-- Name of the person who transcribed the Syriac text --></name>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref=""><!-- Name of the person who transcribed the Syriac text --></name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition n="1.0"/>
+                <edition n="0.1"/>
             </editionStmt>
             <publicationStmt>
-                <authority>Syriaca.org: The Syriac Reference Portal </authority> <!-- Should this be considered a stand alone authority? Or should it fall under Syriaca? -->
-                <idno type="URI"><!-- This will require us to come up with the URI schema --></idno>
+                <distributor>
+                    <pubPlace>
+                        <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt University, Nashville, Tennessee, USA</placeName>
+                    </pubPlace>
+                </distributor>
+                <authority>The Oxford-BYU Syriac Corpus</authority>
+                <idno type="URI"><!-- This will require us to come up with the URI schema, like syriaccorpus.org/1 --></idno>
                 <availability>
                     <p/>
-                    <licence target="http://creativecommons.org/licenses/by/3.0/">
-                        <p>Distributed under a Creative Commons Attribution 3.0 Unported License</p>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                        <p>https://creativecommons.org/licenses/by/4.0/</p>
                     </licence>
                 </availability>
                 <date calendar="Gregorian"><!-- Our date of publication of this XML document--></date>
@@ -59,51 +70,139 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
+                <listBibl>
+                    <biblStruct type=""><!-- Work out how to represent Syriaca work URIs -->
+                        <monogr/>
+                    </biblStruct>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <interpretation>
-                    <p/><!-- I assume we'll want to write something here -->
-                </interpretation>
+                <p>The Oxford-BYU Syriac Corpus is a joint project of the University of Oxford and Brigham Young University in collaboration with Vanderbilt University and the Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M University.</p>
+                <!-- Look at editorialDecl desription in P5 for labels (https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editorialDecl.html) and use as necessary to describe the corpus/text in question -->
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
-                <language ident="syr-Syre">Syriac in Estrangela</language>
-                <language ident="syr-Syrj">Vocalized West Syriac</language>
-                <language ident="syr-Syrn">Vocalized East Syriac</language>
-                <language ident="syr-x-syrm">Melkite Syriac</language>
-                <language ident="syr-x-syrp">Palestinian Syriac</language>
-                <language ident="ar-Syrc">Unvocalized or Undetermined Arabic Garshuni</language>
-                <language ident="ar-Syrj">Arabic Garshuni in Vocalized West Syriac Script</language>
-                <language ident="ar-Syrn">Arabic Garshuni in Vocalized East Syriac Script</language>        
-                <language ident="en">English</language>
-                <language ident="ar">Arabic</language>
-                <language ident="fr">French</language>
-                <language ident="de">German</language>
-                <language ident="la">Latin</language>
-                <language ident="grc">Ancient Greek</language>
-                <language ident="cop">Coptic</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2016-12-02" who="http://syriaca.org/editors.xml#jwalters">Created: file</change>
+            <change when="####-##-##" who="http://syriaca.org/person.xml#">Created: file</change><!-- Add date created and the abbreviated name of the person who created the file -->
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div1 type="part" n="1">
+            <div1 type="part" n=""><!-- Change the number in n to match the number of the Demonstration -->
                 <head>
-                    <title><!-- Insert title of the dem here in this form: I. Demonstration on Faith --></title>
+                    <title><!-- Insert title of individual demonstration (i.e. I. Demonstration on Faith) --></title>
                 </head>
                 <head>
-                    <title xml:lang="syr"><!-- Insert syriac title --></title>
+                    <title xml:lang="syr"><!-- Insert Syriac title --></title>
                 </head>
-                <div2 type="section" n="1"><!-- Repeat this structure as necessary for each section number; make sure to change the number in n="" -->
-                    <head><!-- Insert section # --></head>
-                    <p/>
+                <div2 type="section" n="1">
+                    <head>1</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="2">
+                    <head>2</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="3">
+                    <head>3</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="4">
+                    <head>4</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="5">
+                    <head>5</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="6">
+                    <head>6</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="7">
+                    <head>7</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="8">
+                    <head>8</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="9">
+                    <head>9</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="10">
+                    <head>10</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="11">
+                    <head>11</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="12">
+                    <head>12</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="13">
+                    <head>13</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="14">
+                    <head>14</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="15">
+                    <head>15</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="16">
+                    <head>16</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="17">
+                    <head>17</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="18">
+                    <head>18</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="19">
+                    <head>19</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="20">
+                    <head>20</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="21">
+                    <head>21</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="22">
+                    <head>22</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="23">
+                    <head>23</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="24">
+                    <head>24</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="section" n="25">
+                    <head>25</head>
+                    <p xml:lang="syr"></p>
+                </div2>
+                <div2 type="rubric">
+                    <p xml:lang="syr"></p>
                 </div2>
             </div1>
         </body>

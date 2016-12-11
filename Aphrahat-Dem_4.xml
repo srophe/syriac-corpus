@@ -3,11 +3,10 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a">The Demonstrations
-                    <title xml:lang="en" type="sub">Demonstration 4: On Prayer</title>
-                </title>
-                <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>
+                <title xml:lang="en" level="a">Demonstration 4: On Prayer</title>
+                <title xml:lang="en" level="s">The Demonstrations</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
+                <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>
                 <sponsor>University of Oxford</sponsor>
                 <sponsor>Brigham Young University</sponsor>
                 <sponsor>Vanderbilt University</sponsor>
