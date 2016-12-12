@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>TEI data used by The Oxford-BYU Syriac Corpus project</description>
+    <author></author>
+    <website>http://syriaca.org/syriaca-corpus-data</website>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>syriac-corpus-data</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+    <deployed>2015-04-23T13:17:07.65-04:00</deployed>
+</meta>

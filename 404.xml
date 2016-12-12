@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">404 Not Found</title>
+                <sponsor>Syriaca.org: The Syriac Reference Portal</sponsor>
+                <funder>The International Balzan Prize Foundation</funder>
+                <funder>The National Endowment for the Humanities</funder>
+                <principal>David A. Michelson</principal>
+                <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A.
+                    Michelson</editor>
+                <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#jnmsaintlaurent">Jeanne-Nicole Mellon Saint-Laurent</editor>
+                <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#ngibson">Nathan P. Gibson</editor>
+                <respStmt>
+                    <resp>Text selection by</resp>
+                    <name type="person" ref="http://syriaca.org/documentation/editors.xml#jnmsaintlaurent">Jeanne-Nicole Mellon Saint-Laurent</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Data entry by</resp>
+                    <name type="person" ref="http://syriaca.org/documentation/editors.xml#ngibson">Nathan P. Gibson</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Data architecture and encoding by</resp>
+                    <name type="person" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A.
+                        Michelson</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0"/>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Syriaca.org: The Syriac Reference Portal</authority>
+                <idno type="URI">http://syriaca.org/404/tei</idno>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">
+                        <p>Distributed under a Creative Commons Attribution 3.0 Unported
+                            License.</p>
+                    </licence>
+                </availability>
+                <date>2016-04-27+02:00</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar-syr">Arabic Karshuni in Syriac Characters</language>
+                <language ident="ar">Arabic</language>
+                <language ident="cop">Coptic</language>
+                <language ident="cu">Old Church Slavonic</language>
+                <language ident="de">German</language>
+                <language ident="en-x-gedsh">Names or terms Romanized into English according to
+                    the standards adopted by the Gorgias Encyclopedic Dictionary of the Syriac
+                    Heritage</language>
+                <language ident="en">English</language>
+                <language ident="es">Spanish</language>
+                <language ident="fr-x-bhs">Names or terms Romanized into French according to the
+                    standards adopted by the Bibliotheca Hagiographica Syriaca</language>
+                <language ident="fr">French</language>
+                <language ident="gez">Ge'ez</language>
+                <language ident="gr">German</language>
+                <language ident="grc">Ancient or Medieval Greek</language>
+                <language ident="hy">Classical or Modern Armenian</language>
+                <language ident="it">Italian</language>
+                <language ident="ka">Classical or Modern Georgian</language>
+                <language ident="la">Latin</language>
+                <language ident="nl">Dutch</language>
+                <language ident="pt">Portugese</language>
+                <language ident="ru">Russian</language>
+                <language ident="sog">Soghdian</language>
+                <language ident="syr-pal">Syro-Palestinian</language>
+                <language ident="syr-Syrj">Vocalized West Syriac</language>
+                <language ident="syr-Syrn">Vocalized East Syriac</language>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change who="http://syriaca.org/documentation/editors.xml#ngiboson" n="1.0" when="2016-04-27+02:00">CREATED: 404 error page</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head xml:lang="en">404 Error</head>
+            <note xml:lang="syr" source="#bib404-1"><quote>ܠܐ ܬܫܦܠܘܢ ܒܐܓܘܢܐ ܡܠܐ ܢܨܚ̈ܢܐ. ܕܡܢܗ ܟܠ ܛܒ̈ܢ ܠܟܘܢ ܡ̈ܛܝܒܢ܀</quote></note>
+            <note xml:lang="en" source="#bib404-1"><quote>Do not weaken in the contest that is full of feats of valour, 
+                for as a result of it all kind of good things have been prepared for you.</quote></note>
+            <bibl xml:id="bib404-1">
+                <editor>
+                    <forename>Sebastian P.</forename>
+                    <surname>Brock</surname>
+                </editor>
+                <title level="m">The Martyrs of Mount Berʾain</title>
+                <ptr target="http://syriaca.org/bibl/1718"/>
+                <citedRange unit="pp" from="30" to="31">30-31</citedRange>
+                <citedRange unit="section" from="26" to="26">26</citedRange>
+            </bibl>
+        </body>
+    </text>
+</TEI>

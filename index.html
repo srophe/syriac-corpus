@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+    <div class="col-md-9">
+        <h1 data-template="config:app-title">Generated page</h1>
+        <div class="alert alert-success">
+            <p>This is the TEI data repository for Syriaca.org.</p>
+            <p>This repository includes TEI data for Syriaca.org. Data uses a modified TEI schema, found here: <a href="http://syriaca.org/documentation/syriaca-tei-main.rnc">http://syriaca.org/documentation/syriaca-tei-main.rnc</a></p>
+            <p>This is an informational page only. To interact with this TEI data please install the 
+                Sryiaca.org eXist app [<a href="https://github.com/srophe/srophe-eXist-app">https://github.com/srophe/srophe-eXist-app</a>] or get started coding your own application.
+            </p>
+            <p>To add your own template functions, start by editing the XQuery module
+                <a data-template="templates:load-source" href="modules/app.xql">app.xql</a>.</p>
+            <h4>Data Uses/Reuse Statement</h4>
+            <p>TBA</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>The page template uses the <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>
+                    CSS library for the page layout.</p>
+            </div>
+            <div class="col-md-6">
+                <div data-template="app:test"/>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <h2>Application Info</h2>
+        <div data-template="config:app-info"/>
+    </div>
+</div>
