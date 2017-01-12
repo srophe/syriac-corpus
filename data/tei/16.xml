@@ -3,8 +3,8 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a">Demonstration 16: On the Peoples in Place of the People</title>
-                <title xml:lang="en" level="s">The Demonstrations</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8518">Demonstration 16: On the Peoples in Place of the People</title>
+                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The Demonstrations</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>
                 <sponsor>University of Oxford</sponsor>
@@ -48,7 +48,7 @@
                     </pubPlace>
                 </distributor>
                 <authority>The Oxford-BYU Syriac Corpus</authority>
-                <idno type="URI"><!-- This will require us to come up with the URI schema, like syriaccorpus.org/1 --></idno>
+                <idno type="URI">syriaccorpus.org/16</idno>
                 <availability>
                     <p/>
                     <licence target="http://creativecommons.org/licenses/by/4.0/">
@@ -70,11 +70,6 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
-                <listBibl>
-                    <biblStruct type=""><!-- Work out how to represent Syriaca work URIs -->
-                        <monogr/>
-                    </biblStruct>
-                </listBibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
