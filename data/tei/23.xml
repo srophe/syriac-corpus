@@ -73,14 +73,19 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
+                    <analytic>
+                        <editor>D. Ioannes Parisot</editor>
+                        <title level="a">Aphraatis Demonstratio XXIII</title>
+                    </analytic>
                     <monogr>
-                        <author>D. Ioannes Parisot</author>
-                        <title>Aphraatis Demonstratio XXIII</title>
+                        <editor>R. Graffin</editor>
+                        <title level="m">Patrologia Syriaca 1.2</title>
                         <imprint>
                             <pubPlace>Paris</pubPlace>
                             <publisher>Firmin-Didot et Socii</publisher>
-                            <date when="1894">1897</date>
+                            <date when="1894">1907</date>
                         </imprint>
+                        <biblScope unit="pp" from="1" to="489">1-489</biblScope>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
