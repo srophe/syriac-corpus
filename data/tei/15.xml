@@ -60,9 +60,13 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
+                    <analytic>
+                        <editor>D. Ioannes Parisot</editor>
+                        <title level="a">Aphraatis Demonstrationes I-XXII</title>
+                    </analytic>
                     <monogr>
-                        <author>D. Ioannes Parisot</author>
-                        <title>Aphraatis Demonstrationes I-XXII</title>
+                        <editor>R. Graffin</editor>
+                        <title level="m">Patrologia Syriaca 1.1</title>
                         <imprint>
                             <pubPlace>Paris</pubPlace>
                             <publisher>Firmin-Didot et Socii</publisher>
