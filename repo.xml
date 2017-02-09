@@ -2,7 +2,7 @@
 <meta xmlns="http://exist-db.org/xquery/repo">
     <description>TEI data used by The Oxford-BYU Syriac Corpus project</description>
     <author></author>
-    <website>http://syriaca.org/syriaca-corpus-data</website>
+    <website>http://syriac-corpus.org/</website>
     <status>alpha</status>
     <license>GNU-LGPL</license>
     <copyright>true</copyright>
