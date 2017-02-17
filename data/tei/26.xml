@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8504">Memra 1 on Joseph</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8504">Memra 1 on Joseph - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܩܰܕܡܳܝܳܐ ܕܥܰܠ ܝܰܘܣܶܦ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8503">Memre on Joseph</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/42">Jacob of Serugh</author>
@@ -83,12 +83,13 @@
         <body>
             <div1 type="part" n="1">
                 <head>
-                    <title xml:lang="en">On Joseph, Memra 1</title>
+                    <title xml:lang="en">Memra 1 on Joseph</title>
                 </head>
                 <head xml:lang="syr">
                     <title xml:lang="syr">ܡܺܐܡܪܳܐ ܩܰܕܡܳܝܳܐ ܕܥܰܠ ܝܰܘܣܶܦ </title>
                 </head>
                 <div2 xml:lang="syr">
+                    <p xml:lang="syr">
                     <l n="1">ܫܽܘܦܪܳܐ ܡܫܺܝܼܚܳܐ ܕܒܶܗ ܐܶܨܛܰܒܰܬ݂ܘ ܟܽܠܗܽܘܢ ܟܺܐܢ̈ܶܐ</l>
                     <l n="2">ܗܰܒ ܠܺܝܼ ܐܶܚܽܘܪ ܟܰܕ ܬܳܗܰܪ ܐ̱ܢܳܐ ܟܡܳܐ ܫܰܦܺܝܼܪ ܐܰܢ̱ܬ</l>
                     <l n="3">ܨܰܠܡܳܐ ܪܰܒܳܐ ܕܡܶܢܶܗ ܢܳܣܒܺܝܢ ܫܽܘܦܪ̈ܶܐ ܓܰܘ̈ܢܶܐ</l>
@@ -528,7 +529,8 @@
                     <l n="437">ܠܰܘ ܠܰܐ̱ܚܪܺܢܳܐ ܐܶܠܳܐ ܠܕܺܝܠܶܗ ܡܿܳܚܶܐ ܟܽܠ ܝܽܘܡ</l>
                     <l n="438">ܢܶܥܪܽܘܩ ܡܳܕܝܢ ܡܶܢ ܩܶܢܝܳܢܳܐ ܕܟܽܠܶܗ ܢܶܓܕܰܐ ܗ̱ܘ</l>
                     <l n="439">ܒܪܺܝܟ ܕܰܒܚܽܘܒܶܗ ܛܪܰܕ ܠܰܚܣܳܡܳܐ ܡܶܢ ܫܰܪܺܝܪ̈ܶܐ</l>
-                    <p>ܫܠܶܡ ܡܺܐܡܪܳܐ ܩܰܕܡܳܝܳܐ ܕܥܰܠ ܝܰܘܣܶܦ</p>
+                    </p>
+                    <p xml:lang="syr">ܫܠܶܡ ܡܺܐܡܪܳܐ ܩܰܕܡܳܝܳܐ ܕܥܰܠ ܝܰܘܣܶܦ</p>
                 </div2>
             </div1>
         </body>
