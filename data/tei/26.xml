@@ -3,8 +3,8 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8504">Memra 1 on Joseph - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܩܰܕܡܳܝܳܐ ܕܥܰܠ ܝܰܘܣܶܦ</foreign></title>
-                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8503">Memre on Joseph</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8526">Memra 1 on Joseph - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܩܰܕܡܳܝܳܐ ܕܥܰܠ ܝܰܘܣܶܦ</foreign></title>
+                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8527">Memre on Joseph</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/42">Jacob of Serugh</author>
                 <sponsor>University of Oxford</sponsor>
