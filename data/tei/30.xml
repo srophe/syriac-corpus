@@ -77,7 +77,10 @@
                     <msIdentifier>
                         <settlement>Oxford</settlement>
                         <repository>British Library</repository>
-                        <idno>5463</idno>
+                        <idno>Oriental 5463</idno>
+                        <altIdentifier>
+                            <idno>BL Or. 5463</idno>
+                        </altIdentifier>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
