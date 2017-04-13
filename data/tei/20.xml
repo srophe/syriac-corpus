@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8522">Demonstration 20: On Care for the Poor</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8522">Demonstration 20: On Care for the Poor - <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܥܠ ܦܘܪܢܣܐ ܕܡ̈ܣܟܢܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The Demonstrations</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>
@@ -95,7 +95,7 @@
         <body>
             <div1 type="part" n="20">
                 <head>
-                    <title><num>20</num>. Demonstration on Care for the Poor</title>
+                    <title>Demonstration 20: On Care for the Poor</title>
                 </head>
                 <head xml:lang="syr">
                     <title xml:lang="syr">ܬܚܘܝܬܐ ܕܥܠ ܦܘܪܢܣܐ ܕܡ̈ܣܟܢܐ</title>

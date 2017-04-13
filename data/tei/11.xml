@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8513">Demonstration 11: On Circumcision</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8513">Demonstration 11: On Circumcision - <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܓܙܘܪܬܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The Demonstrations</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>
@@ -95,7 +95,7 @@
         <body>
             <div1 type="part" n="11">
                 <head>
-                    <title><num>11</num>. Demonstration on Circumcision</title>
+                    <title>Demonstration 11: On Circumcision</title>
                 </head>
                 <head xml:lang="syr">
                     <title xml:lang="syr">ܬܚܘܝܬܐ ܕܓܙܘܪܬܐ</title>

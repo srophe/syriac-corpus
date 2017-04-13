@@ -3,8 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8503">On Faith
-                    (Demonstration 1) - <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ</foreign></title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8503">Demonstration 1: On Faith - <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The
                     Demonstrations</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
@@ -116,7 +115,7 @@
         <body>
             <div1 type="part" n="1">
                 <head>
-                    <title>On Faith (Demonstration 1)</title>
+                    <title>Demonstration 1: On Faith</title>
                 </head>
                 <head xml:lang="syr">
                     <title xml:lang="syr">ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ܂</title>

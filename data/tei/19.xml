@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8521">Demonstration 19: A Letter against the Jews, because they say that they will be gathered together</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8521">Demonstration 19: A Letter against the Jews, because they say that they will be gathered together - <foreign xml:lang="syr">ܐܓܪܬܐ ܕܠܘܩܒܠ ܝܗܘܕ̈ܝܐ܂ ܥܠ  ܕܐܡܪܝܢ܂ ܕܩܝܡ ܗܘ ܠܗܘܢ ܠܡܬܟܢܫܘ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The Demonstrations</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>
@@ -95,7 +95,7 @@
         <body>
             <div1 type="part" n="19">
                 <head>
-                    <title><num>19</num>. A Letter against the Jews, because they say that they will be gathered together</title>
+                    <title>Demonstration 19: A Letter against the Jews, because they say that they will be gathered together</title>
                 </head>
                 <head xml:lang="syr">
                     <title xml:lang="syr">ܐܓܪܬܐ ܕܠܘܩܒܠ ܝܗܘܕ̈ܝܐ܂ ܥܠ  ܕܐܡܪܝܢ܂ ܕܩܝܡ ܗܘ ܠܗܘܢ ܠܡܬܟܢܫܘ</title>

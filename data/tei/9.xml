@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8511">Demonstration 9: On Humility</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8511">Demonstration 9: On Humility - <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܡܟܝܟܘܬܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The Demonstrations</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>
@@ -96,7 +96,7 @@
         <body>
             <div1 type="part" n="9">
                 <head>
-                    <title><num>9</num>. Demonstration on Humility</title>
+                    <title>Demonstration 9: On Humility</title>
                 </head>
                 <head xml:lang="syr">
                     <title xml:lang="syr">ܬܚܘܝܬܐ ܕܡܟܝܟܘܬܐ</title>
