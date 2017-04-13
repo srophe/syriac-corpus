@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8518">Demonstration 16: On the Peoples in Place of the People</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8518">Demonstration 16: On the Peoples, who have replaced the People - <foreign xml:lang="syr"> ܬܚܘܝܬܐ ܕܥܠ ܥܡܡ̈ܐ ܕܗܘܘ ܚܠܦ ܥܡܐ </foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The Demonstrations</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>
@@ -95,7 +95,7 @@
         <body>
             <div1 type="part" n="16">
                 <head>
-                    <title><num>16</num>. Demonstration on the Peoples in Place of the People</title>
+                    <title>Demonstration 16: On the Peoples, who have replaceed the People</title>
                 </head>
                 <head xml:lang="syr">
                     <title xml:lang="syr"> ܬܚܘܝܬܐ ܕܥܠ ܥܡܡ̈ܐ ܕܗܘܘ ܚܠܦ ܥܡܐ </title>

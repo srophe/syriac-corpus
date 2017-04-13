@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8510">Demonstration 8: On the Resurrection of the Dead</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8510">Demonstration 8: On the Resurrection of the Dead - <foreign xml:lang="syr">ܬܚܘܝܬܐ܂ ܕܚܝܬ ܡܝ̈ܬܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The Demonstrations</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>
@@ -96,7 +96,7 @@
         <body>
             <div1 type="part" n="8">
                 <head>
-                    <title><num>8</num>. Demonstration on the Resurrection of the Dead</title>
+                    <title>Demonstration 8: On the Resurrection of the Dead</title>
                 </head>
                 <head xml:lang="syr">
                     <title xml:lang="syr">ܬܚܘܝܬܐ܂ ܕܚܝܬ ܡܝ̈ܬܐ</title>

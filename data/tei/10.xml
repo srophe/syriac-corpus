@@ -3,7 +3,8 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8512">Demonstration 10: On Shepherds</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8512">Demonstration 10: On Shepherds - <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܪ̈ܥܘܬܐ</foreign>
+                </title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The Demonstrations</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>
@@ -96,7 +97,7 @@
         <body>
             <div1 type="part" n="10">
                 <head>
-                    <title><num>10</num>. Demonstration on Pastors</title>
+                    <title>Demonstration 10: On Shepherds</title>
                 </head>
                 <head xml:lang="syr">
                     <title xml:lang="syr">ܬܚܘܝܬܐ ܕܪ̈ܥܘܬܐ</title>

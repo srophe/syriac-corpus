@@ -3,7 +3,8 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8508">Demonstration 6: On the Bnay Qyama</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8508">Demonstration 6: On the Bnay Qyama - <foreign xml:lang="syr">ܬܚܘܝܬܐ܂ ܕܒ̈ܢܝ܂ ܩܝܡܐ</foreign>
+                </title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The Demonstrations</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>
@@ -96,7 +97,7 @@
         <body>
             <div1 type="part" n="6">
                 <head>
-                    <title><num>6</num>. Demonstration on the Bnay Qyama</title>
+                    <title>Demonstration 6: On the Bnay Qyama</title>
                 </head>
                 <head xml:lang="syr">
                     <title xml:lang="syr">ܬܚܘܝܬܐ܂ ܕܒ̈ܢܝ܂ ܩܝܡܐ</title>
