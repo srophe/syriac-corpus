@@ -121,7 +121,9 @@
                     <title>Chronicle of Edessa (540) - <foreign xml:lang="syr">ܬܫ̈ܥܝܬܐ
                             ܕܣܘܥܪ̈ܢܐ</foreign></title>
                 </head>
-                <div2 type="rubric" n="0">
+
+                <div2 type="rubric" xml:lang="syr" n="0">
+
 
                     <pb ed="http://syriaca.org/bibl/659" n="1"/>
                     <ab type="chronological" n="0"> ܬܘܒ ܬܫ̈ܥܝܬܐ ܕܣܘܥܪ̈ܢܐ ܐܝܟ ܕܒ̈ܦܣܝܩܬܐ.܀ </ab>
