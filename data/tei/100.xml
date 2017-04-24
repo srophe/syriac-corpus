@@ -76,8 +76,19 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc/>
-            <!-- Check on source for this -->
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title level="a">Syriac New Testament  - <foreign xml:lang="syr">ܕܝܬܝܩܐ ܚܕܬܐ ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ</foreign></title>
+                        <editor>British and Foreign Bible Society</editor>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <publisher>United Bible Societies</publisher>
+                            <date when="1920">1920</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
