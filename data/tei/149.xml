@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8624">Odes of Solomon: Ode 6</title>
+                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8620">The Odes of Solomon</title>
+                <title level="s">The Oxford-BYU Syriac Corpus</title>
+                <author>Anonymous</author>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor-in-chief" ref="http://syriaca.org/person.xml#dtaylor">David
+                    G.K. Taylor, University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">James E. Walters,
+                    Rochester College</editor>
+                <respStmt>
+                    <resp>Created by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Based on the work of</resp>
+                    <name type="person" ref="">James H. Chalresworth</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person" ref=""
+                        ><!--Insert name of the person who edits this document --></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref="">Michael Oez</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <pubPlace>
+                        <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt
+                            University, Nashville, Tennessee, USA</placeName>
+                    </pubPlace>
+                </distributor>
+                <authority>The Oxford-BYU Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/149</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                        <p>https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                </availability>
+                <date calendar="Gregorian"
+                    ><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <editor>James H. Chalresworth</editor>
+                    </analytic>
+                    <monogr>
+                        <title level="a">The Odes of Solomon</title>
+                        <imprint>
+                            <pubPlace>Oxford, United Kingdom</pubPlace>
+                            <publisher>Oxford University Press</publisher>
+                            <date when="1973">1973</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>The Oxford-BYU Syriac Corpus is a joint project of the University of Oxford and
+                    Brigham Young University in collaboration with Vanderbilt University and the
+                    Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University.</p>
+                <!-- Look at editorialDecl desription in P5 for labels (https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editorialDecl.html) and use as necessary to describe the corpus/text in question -->
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-05-04" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="part" n="6">
+                <head xml:lang="en">
+                    <title xml:lang="en">Odes of Solomon: Ode 6</title>
+                </head>
+                <div2 type="text" xml:lang="syr">
+                    <lg type="stanza" n="1">
+                        <head>1</head>
+                        
+                        <l>ܐܰܝܟ ܕܰܡܗܰܠܟܳܐ [ܪܽܘܚܳ]ܐ ܒܩܺܝܬܼܳܪܳܐ܆ </l>
+                        <l>ܘܡܶܢ̈ـܷܐ ܡܡܰܠ̈ـܠܳܢ܆
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="2">
+                        <head>2</head>
+                        
+                        <l>ܗܳܟܰܢܳܐ ܡܰܡܠܠܴܐ ܒܗܰܕܳܡܱ̈ܝ ܪܽܘܚܶܗ ܕܡܳܪܝܳܐ܆ </l>
+                        <l>ܘܡܰܡܠܶܠ ܐ̱ܢܳܐ ܒܚܽܘܒܶܗ. 
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="3">
+                        <head>3</head>
+                        
+                        <l>ܡܰܘܒܶܕ ܗ̱ܽܘܼ ܓܶܝܪ ܡܶܕܶܡ ܢܽܘܟܪܳܝ܆</l>
+                        <l>ܘܟܽܠܡܶܕܶܡ ܕܡܳܪܝܰܐ ܗ̱ܘܼ. 
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="4">
+                        <head>4</head>
+                        
+                        <l>ܗܳܟܰܢܳܐ ܓܶܝܪ ܗܘܼܳܐ ܡܶܢ ܒܪܺܝܫܺܝܬ܆</l>
+                        <l>ܘܰܥܕܰܡܳܐ ܠܰܐ̄ܚܪܳܝܬܳܐ.
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="5">
+                        <head>5</head>
+                        
+                        <l>ܕܠܴܐ ܡܶܕܶܡ ܢܶܗܘܶܐ ܣܰܩܽܘܒܠܴܐ܆ </l>
+                        <l>ܘܠܴܐ ܡܶܕܶܡ ܢܩܽܘܡ ܠܩܽܘܒܠܶܗ. 
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="6">
+                        <head>6</head>
+                        
+                        <l>ܐܰܣܓܺܝ ܝܺܕܰܥܬܶܗ ܡܳܪܝܳܐ܆</l>
+                        <l>ܘܛܰܢ ܕܢܶܬܝ̈ܰܕܥܳܢ ܗܳܠܶܝܢ ܕܰܒܛܰܝܒܽܘܬܶܗ ܐܶܬܺܝܗܶܒ ܠܰܢ.
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="7">
+                        <head>7</head>
+                        
+                        <l>ܘܬܶܫܒܽܘܚܬܶܗ ܝܰܗ̱ܒ ܠܰܢ ܠܰܫܡܶܗ܆</l>
+                        <l>ܪ̈ܽܘܚܳܬܰܢ ܠܪܽܘܚܶܗ ܩܰܕܺܝܫܳܐ ܡܫܰܒ̈ܚܳܢ. 
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="8">
+                        <head>8</head>
+                        
+                        <l>ܢܦܰܩ ܓܶܝܪ ܬܰܦܳܐ ܘܰܗܘܳܐ ܢܰܗܪܳܐ ܪܰܒܳܐ ܘܦܰܬܝܳܐ܆ </l>
+                        <l>ܓܪܰܦ ܓܶܝܪ ܟܽܠܡܶܕܶܡ ܘܰܫܚܰܩ ܘܰܐܝܬܺܝ ܠܗܰܝܟܠܴܐ. 
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="9">
+                        <head>9</head>
+                        
+                        <l>ܘܠܴܐ ܐܶܫܟܰܚܘ ܟܠܳܐܘܽܗܝ (ܟܶܠ̈ܝܳܢܶܐ ܕܰܒ̈ܢܰܝ ܐ̱ܢܳܫܳܐ)܆</l>
+                        <l>ܘܳܐܦ ܠܴܐ ܐܽܘܡܳܢ̈ܘܳܬܗܽܘܢܿ ܕܗܿܶܢܽܘܢܿ ܕܟܳܠܶܝܢ ܡܰܝܴ̈ܐ. 
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="10">
+                        <head>10</head>
+                        
+                        <l>ܐܶܬܳܐ ܓܶܝܪ ܥܰܠ ܐܰܦܱ̈ܝ ܟܽܠܳܗܿ ܐܰܪܥܳܐ܆ </l>
+                        <l>(ܘܰܡܠܴܐ ܟܽܠܡܶܕܶܡ.)
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="11">
+                        <head>11</head>
+                        
+                        <l>(ܘܶܐܫܬܺܝܘ ܟܽܠܗܽܘܢܿ ܨܗ̈ܰܝܳܐ ܕܥܰܠ ܐܰܪܥܳܐ)܆</l>
+                        <l>ܘܨܰܗܝܳܐ ܐܶܫܬܪܺܝ ܘܰܕܥܶܟ. 
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="12">
+                        <head>12</head>
+                        
+                        <l>ܡܼܶܢ ܡܪܰܝܡܳܐ ܓܶܝܪ ܐܶܬܺܝܗܶܒ ܡܰܫܬܝܳܐ. </l>
+                    </lg>
+                    
+                    <lg type="stanza" n="13">
+                        <head>13</head>
+                        
+                        <l>ܛܽܘܒܰܝܗܽܘܢܿ ܗܳܟܺܝܠ ܠܰܡܫܰܡ̈ܫܳܢܰܘܗ̱ܝ ܕܗܰܘܿ ܡܰܫܬܝܳܐ܆ </l>
+                        <l>ܗܳܢܽܘܢܿ ܕܶܐܬܗܰܝܡܰܢܘ ܡܰܘ̈ܗ̱ܝ.
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="14">
+                        <head>14</head>
+                        
+                        <l>ܐܰܢܺܝܚܘ ܣܶܦ̈ܘܳܬܳܐ ܝܰܒܺܝ̈ܫܳܬܳܐ܆ </l>
+                        <l>(ܘܨܶܒܝܳܢܳܐ ܕܰܡܫܰܪܰܝ ܗ̱ܘܳܐ ܐܰܩܺܝܡܘ.)
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="15">
+                        <head>15</head>
+                        
+                        <l>(ܘܢܰܦ̈ܫܳܬܳܐ ܘܰܕܩܰܪ̈ܺܝܒܳܢ ܗ̱ܘܰܝ̈ ܠܡܶܦܰܩ܆</l>
+                        <l>ܡܼܶܢ ܡܰܘܬܳܐ ܐܶܚܰܕܘ ܐܶܢܶܝܢ.)
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="16">
+                        <head>16</head>
+                        
+                        <l>ܘܗܰܕܶܡܷ̈ܐ ܕܢܰܦܺܝܠܺܝܢ ܗ̱ܘܰܘ܆ </l>
+                        <l>(ܘܰܬܪܰܨܘ ܘܰܐܩܺܝܡܘ).
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="17">
+                        <head>17</head>
+                        
+                        <l>ܝܰܗ̱ܒܘ ܚܰܝܠܴܐ ܠܡܶܐܬܺܝܬܗܽܘܢ܆ </l>
+                        <l>ܘܢܽܘܗܪܳܐ ܠܥܰܝ̈ܢܰܝܗܽܘܢܿ.
+                        </l>
+                    </lg>
+                    <lg type="stanza" n="18">
+                        <head>18</head>
+                        
+                        <l>ܡܶܛܽܠ ܕܟܽܠ ܐ̱ܢܳܫ ܐܶܫܬܰܘܕܰܥ ܐܶܢܽܘܢܿ ܒܡܳܪܝܳܐ܆
+                            ܘܰܚܝܰܘ ܒܡܰܝܴ̈ܐ ܚܰܝܷ̈ܐ ܕܰܠܥܳܠܰܡ. 
+                            ܗܰܠܶܠܘܽܝܰܐ.
+                        </l>
+                    </lg>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
