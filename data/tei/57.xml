@@ -72,23 +72,27 @@
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
             <sourceDesc>
-                <listBibl>
-                    <bibl xml:id="bibl659">
+                <biblStruct>
+                    <analytic>
                         <editor>Ignazio Guidi</editor>
+                    </analytic>
+                    <monogr>
                         <title level="a">Chronica Minora I</title>
-                        <pubPlace>Paris</pubPlace>
-                        <publisher>Typographeo Reipublicae</publisher>
-                        <date when="1902">1902</date>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Typographeo Reipublicae</publisher>
+                            <date when="1902">1902</date>
+                        </imprint>
                         <extent>2 Volumes</extent>
                         <biblScope type="volume">1</biblScope>
                         <biblScope type="pp">1-13</biblScope>
+                    </monogr>
                     <series>
                         <editor>J.-B. Chabot, I. Guidi, H. Hyvernat, B. Carra De Vaux</editor>
                         <title level="s">Corpus Scriptorum Christianorum Orientalium</title>
                         <biblScope type="vol">III.4</biblScope>
                     </series>
-                </bibl>
-                </listBibl>
+                </biblStruct>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -119,7 +123,7 @@
                 </head>
 
                 <div2 type="rubric" xml:lang="syr">
-                    <pb edRef="bibl659" n="1"/>
+                    <pb edRef="http://syriaca.org/bibl/659" n="1"/>
                     <p> ܬܘܒ ܬܫ̈ܥܝܬܐ ܕܣܘܥܪ̈ܢܐ ܐܝܟ ܕܒ̈ܦܣܝܩܬܐ.܀ </p>
                 </div2>
                 <div2 type="section" xml:lang="syr" n="1">
@@ -140,7 +144,7 @@
                         ܡܿܠܟܐ ܟܕ ܩܐܡ ܗܘܐ ܒܦܘܪܟܣܐ ܪܒܐ ܕܡܬܩܪܐ ܕܦܪ̈ܣܝܐ. ܚܼܙܐ ܗܘܐ ܒܠܡ̈ܦܐܕܐ ܕܢܘܪܐ ܠܡ̈ܝܐ.
                         ܘܦܼܩܕ ܗܘܐܼ. ܘܐܫܬܩܠܘ ܗܘܘ ܬܪ̈ܥܐ ܘܩܛܪ̈ܩܛܐ ܬܡ̈ܢܝܐ ܕܫܘܪܐ ܡܥܪܒܝܐ ܕܡܕܝܢܬܐ ܡܢ ܐܝܟܐ
                         ܕܢܿܦܩ ܢܗܪܐ. ܘܒܗܿ ܒܫܥܬܐܼ. ܬܪ̈ܥܘܗܝ ܗܘܘ ܡ̈ܝܐ ܠܫܘܪܐܿ ܡܥܪܒܝܐ ܕܡܕܝܢܬܐܼ. ܘܥܠܘ ܠܓܘ
-                        ܡܕܝܢܬܐܼ. ܘܥܩܪܘ ܠܐܦܕܢܐ ܪܒܐ ܘܦܐܝܐ <pb edRef="bibl659" n="2"/>
+                        ܡܕܝܢܬܐܼ. ܘܥܩܪܘ ܠܐܦܕܢܐ ܪܒܐ ܘܦܐܝܐ <pb edRef="http://syriaca.org/bibl/659" n="2"/>
                         ܕܡܪܢ ܡܿܠܟܐ. ܘܫܩܠܘ ܗܘܘ ܟܠ ܡܕܡ ܕܐܫܬܟܚ ܗܘܐ ܩܕܡܝܗܘܢ. ܒ̈ܢܝܢܐ ܪ̈ܓܝܓܐ ܘܦܐ̈ܝܐ
                         ܕܡܕܝܢܬܐ. ܟܠ ܡܕܡ ܕܩܪܝܒ ܗܘܐ ܠܢܗܪܐ ܡܢ ܬܝܡܢܝܗܿ ܘܓܪܒܝܝܗܿ. ܘܣܪܚܘ ܗܘܘ ܬܘܒ ܒܗܝܟܠܐ
                         ܕܥܕܬܐ ܕܟܪ̈ܣܿܛܝܢܐܼ. ܘܡܝܬܘ ܗܘܘ ܒܗܢܐ ܥܿܒܕܐܼ. ܝܬܝܪ ܡܢ ܬܪ̈ܝܢ ܐ̈ܠܦܝܢ ܕܒ̈ܢܝܢܫܐ.
@@ -157,7 +161,7 @@
                         ܕܫܪܝܘ ܕܢܥܠܘܢ ܠܡܕܝܢܬܐܼ. ܘܟܠ ܡܿܢ ܕܫܡܿܥ ܩܠܐ ܘܡܗܡܐ ܘܠܐ ܢܦܿܩܼ. ܗܐ ܡ̈ܝܐ ܬܒܥܝܢ ܡܢܗ
                         ܒܣܝܢܐ ܕܫܛ ܦܘܩܕܢܗ ܕܡܿܠܟܐ. ܘܐܬܬܣܝܡ ܗܘܐ ܗܢܐ ܦܘܩܕܢܐ ܡܢ ܗܢܐ ܙܒܢܐ ܕܗܼܘܐ ܒܗ ܗܟܢܐ.
                         ܥܕܡܐ ܠܝܘܡܬ ܥ̈ܠܡܐ. ܡܪܢ ܕܝܢ ܐܒܓܪ ܡܿܠܟܐܼ. ܦܩܼܕ ܗܘܐ ܘܐܬܒܢܝ ܠܗ ܒܢܝܢ ܠܡܥܡܪܐ
-                        ܕܡܠܟܘܬܗ. ܒܝܬ ܣܬܘܐ ܒܝܬ <pb edRef="bibl659" n="3"/> ܬܒܪܐ.
+                        ܕܡܠܟܘܬܗ. ܒܝܬ ܣܬܘܐ ܒܝܬ <pb edRef="http://syriaca.org/bibl/659" n="3"/> ܬܒܪܐ.
                         ܘܬܡܢ ܥܿܡܪ ܗܘܐ ܟܠܗ ܙܒܢܐ ܕܣܬܘܐ. ܘܒܩܝܛܐ ܢܚܬ ܗܘܐ ܠܗ ܠܐܦܕܢܐ ܚܕܬܐ ܕܐܬܒܢܝ ܗܘܐ ܠܗ ܥܠ
                         ܪܝܫ ܡܒܘܥܐ. ܘܐܦ ܗܼܢܘܢ ܚܐܪ̈ܐ ܕܝܠܗܼ. ܒܢܘ ܠܗܘܢ ܒ̈ܢܝܢܐ ܠܡܥܡܪܗܘܢ ܒܫܒܒܘܬܐ ܕܗܿܘܐ ܒܗܿ
                         ܡܿܠܟܐ ܒܫܘܩܐ ܪܡܐ ܕܡܬܩܪܐ ܒـ[ـܝܬ] ܣܚܪ̈ܝܐ. ܘܡܛܠ ܕܢܬܩܝܡ ܗܘܐ ܫܝܢܗܿ ܕܡܕܝܢܬܐ ܩܕܡܝܐܼ.
@@ -246,7 +250,7 @@
                     <head type="default" subtype="ms">MS. § 11</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 11</head>
-                    <p> ܫܢܬ ܫܬܡܐܐ ܘܐܪ̈ܒܥܣܪܐܼ. <pb edRef="bibl659" n="4"/> ܐܬܬܪܥܘ
+                    <p> ܫܢܬ ܫܬܡܐܐ ܘܐܪ̈ܒܥܣܪܐܼ. <pb edRef="http://syriaca.org/bibl/659" n="4"/> ܐܬܬܪܥܘ
                         ܫܘܪ̈ܝܗܿ ܕܐܘܪܗܝ ܕܬܪ̈ܬܝܢ ܙܒ̈ܢܝܼܢ. ܒ̈ܝܘܡܝ ܕܝܩܠܝܛܝܢܘܣ ܡܿܠܟܐ.܀ </p>
                 </div2>
 
@@ -373,7 +377,7 @@
 
                     <head type="alternate" subtype="chronological">Chron. § 26</head>
                     <p> ܘܒܫܢܬ ܫܬܡܐܐ ܘܫܒܥܝܢ ܘܐܪ̈ܒܥ ܒܐܝܪܚ ܚܙܝܪܢܼ. ܢܚܼܬ ܝܘܠܝܢܘܣ ܘܐܩܪܒ ܥܡ <pb
-                            edRef="bibl659" n="5"/> ܦܪ̈ܣܝܐ ܘܡܝܬ ܬܡܢ܀ </p>
+                            edRef="http://syriaca.org/bibl/659" n="5"/> ܦܪ̈ܣܝܐ ܘܡܝܬ ܬܡܢ܀ </p>
                 </div2>
 
                 <div2 type="section" xml:lang="syr" n="27">
@@ -486,7 +490,7 @@
                     <head type="alternate" subtype="chronological">Chron. § 39</head>
                     <p> ܒܫܢܬ ܫܒܥܡܐܐ ܘܫܬ ܒܫܒܥܣܪܐ ܒܟܘܢ ܐܚܪܝ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܬܐܝܕܣܝܣ ܡܿܠܟܐ ܪܒܐ. ܘܒܫܒܥܐ
                         ܘܥܣܪ̈ܝܢ ܒܢܝܣܢ ܥܠ ܐܪܩܕܝܣ ܠܩܘܣܛܢܛܝܢܐ ܦܘܠܝܣ. ܘܒܬܡܢܝܐ ܒܬܫܪܝܢ ܐܚܪܝܼ. ܥܠܬ ܫܠܕܗ
-                        ܕܬܐܘܕܣܝܣ ܠܩܘܣܛܢܛܝܢܐ ܦܘܠܝܣ. <pb edRef="bibl659" n="6"/>
+                        ܕܬܐܘܕܣܝܣ ܠܩܘܣܛܢܛܝܢܐ ܦܘܠܝܣ. <pb edRef="http://syriaca.org/bibl/659" n="6"/>
                     </p>
                 </div2>
 
@@ -622,7 +626,7 @@
                     <head type="default" subtype="ms">MS. § 55</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 55</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ <pb edRef="bibl659" n="7"/> ܘܬܠܬܝܢ ܘܬܫܥܼ. ܗܪܣܝܣ
+                    <p> ܫܢܬ ܫܒܥܡܐܐ <pb edRef="http://syriaca.org/bibl/659" n="7"/> ܘܬܠܬܝܢ ܘܬܫܥܼ. ܗܪܣܝܣ
                         ܕܗܿܢܘܢ ܕܐܡܪܝܢ ܕܒܟܝܢܐ ܢܨܝܒܐ ܚܛܝܼܬܐ ܐܬܝܕܥܬ.܀ </p>
                 </div2>
 
@@ -727,7 +731,7 @@
 
                     <head type="alternate" subtype="chronological">Chron. § 67</head>
                     <p> ܫܢܬ ܫܒܥܡܐܐ ܘܫܬܝܢ ܘܬܠܬ ܡܪܝ ܐܝܣܚܩ ܣܝܘܡܐ ܘܪܝܫ <pb
-                            edRef="bibl659" n="8"/> ܕܝܪܐ ܡܬܝܕܥ ܗܘܐ. </p>
+                            edRef="http://syriaca.org/bibl/659" n="8"/> ܕܝܪܐ ܡܬܝܕܥ ܗܘܐ. </p>
                 </div2>
 
                 <div2 type="section" xml:lang="syr" n="68">
@@ -811,7 +815,7 @@
                         ܡܢܨܒܼ. ܘܗܼܘܐ ܙܘܥܐ ܪܒܐ. ܚܡܝܡܬܐ ܕܝܢ ܕܕܒܪܗܢܐ ܓܙܬ [ܬܠܬܐ] ܝܘ̈ܡܝܢ. ܘܢܝܩܦܘܠܝܣ
                         ܡܕܝܢܬܐ ܐܬܗܦܟܬ. ܘܛܡܪܬ ܒܓܘܗܿ ܟܘܠܗܘܢ ܥܡܘܪ̈ܝܗܿ. ܣܛܪ ܡܢ ܗܝܟܠܐ ܘܐܦܝܣܩܘܦܐ ܘܬܪ̈ܝܢ
                         ܒ̈ܢܝ ܩܠܝܬܗ. ܘܐܬܿܐ ܕܕܡܝܐ ܗܘܬ ܠܢܝܙܟܐ ܐܬܚܙܝܬ ܒܫܡܝܐ ܝܘܡ̈ܬܐ ܣܓܝ̈ܐܐ ܒܐܝܪܚ <pb
-                            edRef="bibl659" n="9"/> ܟܢܘܢ ܐܚܪܝ. </p>
+                            edRef="http://syriaca.org/bibl/659" n="9"/> ܟܢܘܢ ܐܚܪܝ. </p>
                 </div2>
 
                 <div2 type="section" xml:lang="syr" n="77">
@@ -909,7 +913,7 @@
                     <head type="default" subtype="ms">MS. § 87</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 87</head>
-                    <p> ܘܒܫܢܬܐ ܕܬܪ̈ܬܝܢ ܕܡܠܟܘܬܗ ܕܝܣܘܛܝܢܐ <pb edRef="bibl659" n="10"
+                    <p> ܘܒܫܢܬܐ ܕܬܪ̈ܬܝܢ ܕܡܠܟܘܬܗ ܕܝܣܘܛܝܢܐ <pb edRef="http://syriaca.org/bibl/659" n="10"
                         /> ܕܐܝܬܝܗܿ ܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܛܪܕ ܡܢ ܐܢܛܝܟܝܐ ܠܣܐܘܪܐ ܘܠܐܟܣܢܝܐ ܡܢ ܡܒܘܓ ܘܠܟܠ
                         ܡܿܢ ܕܠܐ ܡܩܒܠ ܠܐܪ̈ܒܥܬܝܗܝܢ ܣܘ̈ܢܗܕܘ.܀ </p>
                 </div2>
@@ -948,7 +952,7 @@
 
                     <head type="alternate" subtype="chronological">Chron. § 91</head>
                     <p> ܘܒܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܫܬ. ܥܠܘ ܡ̈ܝܐ ܣܓܗܝܐܐ ܠܐܘܪܗܝ ܙܒܢܬܐ ܕܐܪ̈ܒܥ ܘܬܪܥܘ ܫܘܪ̈ܝܗܿ
-                        ܘܥܩܪܘ <pb edRef="bibl659" n="11"/> ܡܕܝܪ̈ܝܗܿ ܘܚܢܩܘ ܝ̈ܠܕܝܗܿ
+                        ܘܥܩܪܘ <pb edRef="http://syriaca.org/bibl/659" n="11"/> ܡܕܝܪ̈ܝܗܿ ܘܚܢܩܘ ܝ̈ܠܕܝܗܿ
                         ܘܥܒܕ ܒܗܿ ܚܘܒܠܐ ܪܒܐ. </p>
                 </div2>
 
@@ -1019,7 +1023,7 @@
 
                     <head type="alternate" subtype="chronological">Chron. § 96</head>
                     <p> ܘܒܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܫܒܥ ܘܐܝܪܚ ܐܝܪ ܒܥܣܪ̈ܝܢ ܘܬܫܥܐ ܒܗ ܒܝܘܡ <pb
-                            edRef="bibl659" n="12"/> ܥܪܘܒܬܐ ܒܫܒܥ ܫ̈ܥܝܢ ܗܼܘܐ ܙܘܥܐ
+                            edRef="http://syriaca.org/bibl/659" n="12"/> ܥܪܘܒܬܐ ܒܫܒܥ ܫ̈ܥܝܢ ܗܼܘܐ ܙܘܥܐ
                         ܪܒܐ ܘܥܫܝܢܐ. ܘܢܦܠܬ ܒܗ ܣܘܓܐܐ ܕܐܢܛܝܟܝܐ ܘܛܪܬ ܝ̈ܠܘܕܝܗܿ ܘܚܢܩܬ ܥܡܘܪ̈ܝܗܿ. </p>
                 </div2>
 
@@ -1090,7 +1094,7 @@
 
                     <head type="alternate" subtype="chronological">Chron. § 102</head>
                     <p> ܘܒܫܬܢ ܬܡܢܐܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܠܬ ܒܐܝܪܚܞ ܐܝܠܘܠ ܕܝܠܗܿ <pb
-                            edRef="bibl659" n="13"/> ܕܫܢܬܐ. ܥܒܕ ܫܝܢܐ ܫܝܢܐ ܒܝܬ ܦܪ̈ܣܐ
+                            edRef="http://syriaca.org/bibl/659" n="13"/> ܕܫܢܬܐ. ܥܒܕ ܫܝܢܐ ܫܝܢܐ ܒܝܬ ܦܪ̈ܣܐ
                         ܠܪ̈ܗܘܡܝܐ. ܡܪܝ ܪܘܦܝܢܐ ܦܛܪܝܩܝܘܣ. ܘܐܬܡܬܚ ܫܝܢܐ ܗܢܐ ܥܕܡܐ ܠܫܢܬ ܬܡܢܐܡܐܐ ܘܚܡܫܝܢ
                         ܘܚܕܐ. </p>
                 </div2>
