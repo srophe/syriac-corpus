@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Joel Kalvesmaki comments on a Syriac TEI file, commenting on a version I've made TAN-TEI compliant. To avoid confusion, I've toggled or removed preexisting comments -->
+<!-- I've written this to document what kinds of changes would be automatic, and which manual, in thinking about getting the corpus TAN compliant. I've raised a few issues that need to be thought about even if you decide to stay with (non-TAN) TEI. -->
+
+<!-- Auto change: add 2 schemas; I like to provide two versions, one local and one absolute, with one pair commented out -->
+<?xml-model href="../../../../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+
+<!-- Manual change: you need an @id that names the entire file; I've made something up; you need to anticipate how many versions of this work might emerge from the text-bearing object (my term: scriptum) -->
+<!-- Auto change: @TAN-version -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" id="tag:syriaca.org,2016:text:8501:syr:001"
+    TAN-version="1 dev">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <!-- It doesn't matter what you put in the TEI head; that element is a chance for you to be chit-chatty or tight lipped about 
+        whatever you want, and that's up to you; it's TEI's laissez-faire policy. But you'll see when you get to the TAN head, below, you have to 
+        take a different approach. TAN metadata is simultaneously easier and more difficult (because you have to think hard about how you'd define your concepts for a computer). -->
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8503">Demonstration 1:
+                    On Faith - <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ</foreign></title>
+                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The
+                    Demonstrations</title>
+                <title level="s">The Oxford-BYU Syriac Corpus</title>
+                <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor-in-chief" ref="http://syriaca.org/person.xml#dtaylor">David
+                    G.K. Taylor, University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">James E. Walters,
+                    Rochester College</editor>
+                <respStmt>
+                    <resp>Created by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Based on the work of</resp>
+                    <!-- I'm getting errors on blank @ref, so I'm adding dummy values -->
+                    <name type="person" ref="madeup1">D. Ioannes Parisot</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person" ref="madeup2">Insert name of the person who edits this
+                        document </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref="madeup3"> Name of the person who transcribed the Syriac
+                        text </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <!-- I'm getting an error on this element, so I'm comment it out -->
+                    <!--<pubPlace>
+                        <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt
+                            University, Nashville, Tennessee, USA</placeName>
+                    </pubPlace>-->
+                </distributor>
+                <authority>The Oxford-BYU Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/1</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                        <p>https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                </availability>
+                <date calendar="Gregorian"> Our date of publication of this XML document</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <editor>D. Ioannes Parisot</editor>
+                        <title level="a">Aphraatis Demonstrationes I-XXII</title>
+                    </analytic>
+                    <monogr>
+                        <editor>R. Graffin</editor>
+                        <title level="m">Patrologia Syriaca 1.1</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Firmin-Didot et Socii</publisher>
+                            <date when="1894">1894</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>The Oxford-BYU Syriac Corpus is a joint project of the University of Oxford and
+                    Brigham Young University in collaboration with Vanderbilt University and the
+                    Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-01-11" who="http://syriaca.org/person.xml#jwalters">Added work
+                URIs</change>
+            <change when="2016-11-30" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <!-- OK, I know it sounds counterintuitive, but now you need to add a second header, because the TEI header is too loosy goosy and unpredictable. And it doesn't let you say some things you really must. -->
+    <!-- auto change: add head -->
+    <head xmlns="tag:textalign.net,2015:ns">
+        <!-- auto? change: add name of the file -->
+        <name>Aphrahat, Demonstration 1, Syriac</name>
+        <!-- auto change: add rights. In your original TEI header, you declared a license, but you didn't say who granted that license. Who is the rights holder of the data (independent of the source, which is, obivously, in the public domain)? I'm guessing some entity I'm calling Syriaca -->
+        <!-- The @which attribute taps into built-in TAN vocabulary. Saves on space in the header. -->
+        <rights-excluding-sources rights-holder="syriaca" which="by_4.0"/>
+        <!-- semiauto change: add a source. You need an IRI for the print volume you're using as the model. It's your choice 
+            whether you want to name a single volume or the whole. There's a theoretical problem here, in that it's pointless to try to tether 
+        your IRI to a location within a work. If you wish to isolate your transcription to a particular place in the scriptum, you need to do that
+        in a separate file. So perhaps strangely PO as a whole is just as good as PO vol. 1.1 -->
+        <source>
+            <IRI>http://id.lib.harvard.edu/aleph/001634135/catalog</IRI>
+            <name>Patrologia Orientalis</name>
+        </source>
+        <!-- auto change: add declarations -->
+        <declarations>
+            <!-- auto change: add work -->
+            <!-- Note, you can define works as you like. There are works within works, and it's up to you to think how you want to define that. But if you're thinking of this as the work Demonstratio 1, then your original <div1 n="1"> is redundant, or pleonastic. You don't mean, for example, the first leaf div to be Demonstratio 1, §1.1. It's Demonstratio 1, §1.  -->
+            <!-- If you decided that the entire collection of Demonstrations was a work in its own right, then you'd need to coin a div type for Demonstration and enumerate accordingly. -->
+            <work>
+                <IRI>http://syriaca.org/work/8503</IRI>
+                <name xml:lang="eng">Demonstration 1: On Faith</name>
+                <name xml:lang="syc">ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ</name>
+            </work>
+            <!-- auto change: add div-type -->
+            <div-type xml:id="section" which="section"/>
+            <!-- manual change: add div-type for title -->
+            <div-type xml:id="title" which="title"/>
+            <!-- auto/manual change: have you followed normalization processes? You really should add them here. 
+                Why? Because users of your data want to know how you've normalized the source. I leave the shell commented out. -->
+            <!--<filter>
+                <normalization>
+                    <IRI></IRI>
+                    <name></name>
+                </normalization>
+            </filter>-->
+        </declarations>
+        <!-- NB, this long list of agents and roles are likely to repeat from one file to the next; TAN has two shorthand inclusion techniques to simplify and shorten this list. -->
+        <!-- auto change: add principal agent; I've guessed at an entity called Syriaca.org that takes prime responsibility for the file. OK? -->
+        <agent roles="sponsor" xml:id="syriaca">
+            <IRI>tag:syriaca.org,2016:self</IRI>
+            <name>Syriaca.org</name>
+        </agent>
+        <!-- auto change: add other agents -->
+        <agent roles="sponsor" xml:id="oxford">
+            <IRI>http://dbpedia.org/resource/University_of_Oxford</IRI>
+            <name>University of Oxford</name>
+        </agent>
+        <agent roles="sponsor" xml:id="byu">
+            <IRI>http://dbpedia.org/resource/Brigham_Young_University</IRI>
+            <name>Brigham Young University</name>
+        </agent>
+        <agent roles="sponsor" xml:id="vanderbilt">
+            <IRI>http://dbpedia.org/resource/Vanderbilt_University</IRI>
+            <name>Vanderbilt University</name>
+        </agent>
+        <agent roles="sponsor" xml:id="idhmc-tamu">
+            <IRI>tag:syriaca.org,2016:agent:idhmc-tamu</IRI>
+            <name>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                University</name>
+        </agent>
+        <agent roles="editor principal" xml:id="kheal">
+            <IRI>http://syriaca.org/person.xml#kheal</IRI>
+            <name>Kristian S. Heal</name>
+        </agent>
+        <agent roles="editor principal" xml:id="dtaylor">
+            <IRI>http://syriaca.org/person.xml#dtaylor</IRI>
+            <name>David G.K. Taylor</name>
+        </agent>
+        <agent roles="editor" xml:id="abutts">
+            <IRI>http://syriaca.org/person.xml#abutts</IRI>
+            <name>Aaron Butts</name>
+        </agent>
+        <agent roles="editor" xml:id="gkiraz">
+            <IRI>http://syriaca.org/person.xml#gkiraz</IRI>
+            <name>George A. Kiraz</name>
+        </agent>
+        <agent roles="editor" xml:id="dmichelson">
+            <IRI>http://syriaca.org/person.xml#dmichelson</IRI>
+            <name>David A. Michelson</name>
+        </agent>
+        <agent roles="editor" xml:id="dschwartz">
+            <IRI>http://syriaca.org/person.xml#dschwartz</IRI>
+            <name>Daniel L. Schwartz</name>
+        </agent>
+        <agent roles="editor" xml:id="jwalters">
+            <IRI>http://syriaca.org/person.xml#jwalters</IRI>
+            <name>James E. Walters</name>
+        </agent>
+
+        <role xml:id="sponsor" which="sponsor"/>
+        <role xml:id="editor" which="editor"/>
+        <!-- I'm baffled as to what TEI means by principal, so I haven't included it in core TAN definitions. I'm happy to be enlightened. -->
+        <role xml:id="principal">
+            <IRI>tag:syriaca.org,2016:roles:principal</IRI>
+            <name>Principal</name>
+            <name>principal researcher</name>
+        </role>
+        <change when="2017-01-11" who="jwalters">Added work URIs</change>
+        <change when="2016-11-30" who="jwalters">Created: file</change>
+    </head>
+    <text>
+        <!-- auto change: add @xml:lang. You should be using syc here not syr, right? -->
+        <body xml:lang="syc">
+            <!-- TEI community consensus seems to be that <div1>, <div2>, etc. is not the best practice, even if allowed. Further, your <div1> is a repetition of the Demonstration itself. So I've deleted the <div1>. -->
+            <!-- You don't need this <head> either, since it can be automatically inferred via the metadata above. And anyway, I highly -->
+                <!--<head>
+                    <title>Demonstration 1: On Faith</title>
+                </head>-->
+            <!-- But this bit is actually in the scriptum, so it's retained, but homogenized to a typed div -->
+            <!-- We also don't need the @xml:lang tags here, since they're covered by one in the <body> -->
+            <!-- auto change: add @n, @type, convert <head> to <div> -->
+                <div xml:lang="syr" n="title" type="title">
+                    <!-- because <title> is illegal as a child of <div>, I'm making it <ab>; no need for the language tag, either -->
+                    <ab>ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ܂</ab>
+                </div>
+                <div type="section" n="1">
+                    <!-- yes, although this is allowed, I've come around to the firm view that numerals such as this are metadata, not data, and they should be normalized out of your transcription. Plus, the original scriptum doesn't have them. Also, you omitted the alef that starts the entire demonstratio, but I think that's a good thing. Those things can be reconstructed as you wish from the downstream uses of your data -->
+                    <!-- So, that said, in the interest of demonstrating best TAN practices, I'm commenting out the heads, and getting rid of the @xml:langs -->
+                    <!--<head>1</head>-->
+                    <p>ܐܓܪܬܟ ܚܒܝܒܝ܃ ܩܒܠܬ܂ ܘܟܕ ܩܪܝܬܗ ܣܓܝ ܚܕܝܬܢܝ܃ ܕܬܪܥܝܬܟ ܠܗܠܝܢ ܥܘܩ̈ܒܐ
+                        ܫܕܝܬ܂ ܗܕܐ ܓܝܪ ܫܐܠܬܐ ܕܫܐܠܬܢܝ܂ ܡܓܢ ܡܬܝܗܒܐ ܘܡܓܢ ܡܬܢܣܒܐ܂ ܘܡܢ ܕܐܝܬ ܠܗ ܘܨܒܐ ܕܢܟܠܐ
+                        ܡܢ ܡܢ ܕܒܥܐ ܠܗ܃ ܗܘ ܗܘ ܡܕܡ ܕܟܠܐ ܡܬܢܣܒ ܠܗ ܡܢܗ܂ ܡܢ ܕܫܩܠ ܓܝܪ ܒܛܝܒܘܬܐ ܐܦ ܒܛܝܒܘܬܐ
+                        ܘܠܐ ܠܗ ܕܢܬܠ܂ ܘܐܢܬ ܚܒܝܒܝ ܕܫܐܠܬܢܝ܃ ܐܝܟ ܡܕܡ ܕܐܕܪܟܬ ܙܥܘܪܘܬܝ ܐܟܬܘܒ ܠܟ܂ ܘܐܦ ܡܕܡ
+                        ܕܠܐ ܒܥܝܬ ܡܢܝ܃ ܫܐܠ ܐܢܐ ܡܢ ܐܠܗܐ ܘܡܦܝܣ ܐܢܐ ܠܟ. ܫܡܥ ܕܝܢ ܚܒܝܒܝ܂ ܘܦܬܚ ܠܝ ܥܝ̈ܢܝ ܠܒܟ
+                        ܓܘܝ̈ܬܐ܃ ܘܪ̈ܓܫܝ ܗܘܢܟ ܪ̈ܘܚܢܐ܃ ܠܡܕܡ ܕܐܡܪ ܐܢܐ ܠܟ܀ </p>
+                </div>
+                <div type="section" n="2">
+                    <!--<head>2</head>-->
+                    <p>ܗܝܡܢܘܬܐ ܓܝܪ ܒܨܒ̈ܘܬܐ ܗܘ ܣܓܝܐ̈ܬܐ ܡܬܪܟܒܐ܂ ܘܡܢ ܓ̈ܘܢܐ ܣܓ̈ܝܐܐ
+                        ܡܫܬܟܠܠܐ܂ ܠܒܢܝܢܐ ܗܘ ܓܝܪ ܕܡܝܐ܃ ܕܡܢ ܥܒܝ̈ܕܬܐ ܣܓܝܐ̈ܬܐ ܡܬܒܢܐ܃ ܘܣܠܩ ܒܢܝܢܗ ܥܕܡܐ ܠܥܠ܂
+                        ܘܕܥ ܕܝܢ ܚܒܝܒܝ܂ ܕܒܫܬܐ̈ܣܘܗܝ ܕܒܢܝܢܐ ܟܐ̈ܦܐ ܗܘ ܡܬܬܣܝܡܢ܂ ܘܗܝܕܝܢ ܥܠ ܟܐ̈ܦܐ ܣܠܩ ܟܠܗ
+                        ܒܢܝܢܐ ܥܕܡܐ ܕܡܫܬܟܠܠ܂ ܗܟܢܐ ܐܦ ܕܟܠܗ ܗܝܡܢܘܬܢ܂ ܫܬܐܣܬܗ ܟܐܦܐ ܗܝ ܫܪܝܪܬܐ܂ ܕܐܝܬܘܗܝ ܡܪܢ
+                        ܝܫܘܥ ܡܫܝܚܐ܃ ܘܥܠܝܗ ܥܠ ܟܐܦܐ ܣܝܡܐ ܗܝܡܢܘܬܐ܂ ܘܥܠ ܗܝܡܢܘܬܐ ܣܠܩ ܟܠܗ ܒܢܝܢܐ ܥܕܡܐ
+                        ܕܡܫܬܠܡ܂ ܫܬܐܣܬܐ ܕܝܢ ܗܝ ܗܝ ܫܘܪܝܐ ܕܟܠܗ ܒܢܝܢܐ܂ ܡܐ ܕܐܢܫ ܓܝܪ ܐܬܩܪܒ ܠܗܝܡܢܘܬܐ܂ ܐܬܣܝܡ
+                        ܠܗ ܥܠ ܟܐܦܐ܂ ܕܗܘܝܘ ܡܪܢ ܝܫܘܥ ܡܫܝܚܐ܂ ܘܒܢܝܢܗ ܡܢ ܓ̈ܠܠܐ ܠܐ ܡܬܬܙܝܥ܂ ܘܡܢ ܪ̈ܘܚܐ ܠܐ
+                        ܡܬܢܟܐ܂ ܘܡܢ ܡܚܫ̈ܘܠܐ ܠܐ ܢܦܠ܃ ܡܛܠ ܕܣܠܩ ܠܗ ܒܢܝܢܗ ܥܠ ܫܘܥܐ ܕܟܐܦܐ ܫܪܝܪܬܐ܂ ܘܗܢܐ
+                        ܕܩܪܝܬ ܠܡܫܝܚܐ ܟܐܦܐ܂ ܠܐ ܗܘܐ ܡܢ ܪܥܝܢܝ ܐܡܪܬ܂ ܐܠܐ ܢܒ̈ܝܐ ܗܘ ܩܕܡܘ ܩܪܐܘܗܝ ܟܐܦܐ ܘܐܢܐ
+                        ܐܚܘܝܟ܀ </p>
+                </div>
+                <div type="section" n="3">
+                    <!--<head>3</head>-->
+                    <p>ܕܗܫܐ ܕܝܢ ܫܡܥ ܥܠ ܗܝܡܢܘܬܐ܂ ܕܐܬܣܝܡܬ ܥܠ ܟܐܦܐ܂ ܘܥܠ ܒܢܝܢܐ ܕܣܠܩ ܥܠ
+                        ܟܐܦܐ܂ ܠܘܩܕܡ ܓܝܪ ܡܗܝܡܢ ܒܪܢܫܐ܂ ܘܡܐ ܕܗܝܡܢ ܡܚܒ܂ ܘܡܐ ܕܐܚܒ ܡܣܒܪ܂ ܘܡܐ ܕܣܒܪ ܡܙܕܕܩ:
+                        ܘܡܐ ܕܐܙܕܕܩ ܡܬܓܡܪ: ܘܡܐ ܕܐܬܓܡܪ ܡܫܬܟܠܠ: ܘܡܐ ܕܣܠܩ ܟܘܠܗ ܒܢܝܢܗ ܘܐܫܬܟܠܠ ܘܐܬܓܡܪ
+                        ܗܝܕܝܢ ܗܘܐ ܒܝܬܐ ܘܗܝܟܠܐ ܠܡܥܡܪܐ ܕܡܫܝܚܐ܂ ܐܝܟ ܕܐܡܪ ܐܪܡܝܐ ܢܒܝܐ܂ ܗܝܟܠܗ ܕܡܪܝܐ ܗܝܟܠܗ
+                        ܕܡܪܝܐ܃ ܗܝܟܠܗ ܐܢܬܘܢ ܕܡܪܝܐ܂ ܐܢ ܬܫܦܪܘܢ ܐܘܪ̈ܚܬܟܘܢ ܘܥܒܕ̈ܝܟܘܢ܂ ܘܬܘܒ ܐܡܪ ܒܢܒܝܐ܂
+                        ܕܐܥܡܪ ܒܗܘܢ ܘܐܗܠܟ ܒܗܘܢ ܘܐܦ ܫܠܝܚܐ ܛܘܒܢܐ ܗܟܢܐ ܐܡܪ܂ ܕܗܝܟܠܗ ܐܢܬܘܢ ܕܐܠܗܐ܂ ܘܪܘܚܗ
+                        ܕܡܫܝܚܐ ܥܡܪܐ ܒܟܘܢ܂ ܘܐܦ ܡܪܢ ܬܘܒ ܗܟܢܐ ܐܡܪ ܠܬܠܡ̈ܝܕܘܗܝ܂ ܕܐܢܬܘܢ ܒܝ ܐܢܬܘܢ܂ ܘܐܢܐ
+                        ܒܟܘܢ ܐܢܐ܀ </p>
+                </div>
+                <div type="section" n="4">
+                    <!--<head>4</head>-->
+                    <p>ܘܡܐ ܕܗܘܐ ܒܝܬܐ ܒܝܬ ܡܥܡܪܐ܂ ܗܝܕܝܢ ܫܪܝ ܝܨܦ ܒܪܢܫܐ܃ ܕܡܢܐ ܡܬܒܥܐ ܠܗ
+                        ܠܡܢ ܕܥܡܪ ܒܒܢܝܢܐ܂ ܐܟܙܢܐ ܕܐܢ`ܗܘ ܕܢܫܪܐ ܡܠܟܐ܂ ܐܘ ܒܪܢܫܐ ܕܡܝܩܪ ܒܒܝܬܐ܂ ܕܐܬܩܪܝ ܥܠܘܗܝ
+                        ܫܡܐ ܕܡܠܟܐ܂ ܡܬ̈ܒܥܝܢ ܠܗ ܕܝܢ ܠܡܠܟܐ ܟܠܗܝܢ ܥܒܝ̈ܕܬܐ ܕܡܠܟܘܬܐ܃ ܘܟܘܠܗ ܬܫܡܫܬܐ ܕܡܬܒܥܝܐ
+                        ܠܐܝܩܪܗ ܕܡܠܟܐ܂ ܒܒܝܬܐ ܓܝܪ ܕܡܣܪܩ ܡܢ ܟܠ ܛܒ̈ܢ܂ ܡܠܟܐ ܠܐ ܫܪܐ ܒܗ ܘܠܐ ܥܡܪ ܒܓܘܗ܂ ܐܠܐ
+                        ܡܬܒܥܝܐ ܠܗ ܠܡܠܟܐ ܟܠܗ ܬܨܒܝܬܐ ܕܒܝܬܐ܂ ܟܕ ܡܕܡ ܠܐ ܚܣܝܪ ܒܗ ܘܐܢ ܡܕܡ ܚܣܝܪ ܬܡܢ ܒܒܝܬܐ
+                        ܕܡܠܟܐ ܫܪܐ ܒܗ܃ ܠܡܘܬܐ ܗܘ ܡܫܬܠܡ ܢܛܘܪܗ ܕܒܝܬܐ܃ ܥܠ ܕܠܐ ܐܬܩܢ ܬܫܡܫܬܐ ܠܡܠܟܐ܂ ܗܟܢܐ ܐܦ
+                        ܒܪܢܫܐ܂ ܕܗܘܐ ܒܝܬܐ ܘܒܝܬ ܡܥܡܪܐ ܠܡܫܝܚܐ܂ ܢܚܙܐ ܡܢܐ ܐܙܠ ܠܗ ܠܬܫܡܫܬܐ ܕܡܫܝܚܐ ܫܪܐ ܒܗ܃
+                        ܘܒܐܝܠܝܢ ܨܒ̈ܘܢ ܢܫܦܪ ܠܗ܂ ܠܘܩܕܡ ܓܝܪ ܒܢܐ ܒܢܝܢܗ ܥܠ ܟܐܦܐ ܕܗܘܝܘ ܡܫܝܚܐ܃ ܘܥܠܝܗ ܥܠ
+                        ܟܐܦܐ ܡܬܣܝܡܐ ܗܝܡܢܘܬܐ܂ ܘܥܠ ܗܝܡܢܘܬܐ ܣܠܩ ܟܠܗ ܒܢܝܢܐ܂ ܘܡܬܒܥܐ ܠܡܥܡܪܗ ܕܒܝܬܐ܂ ܨܘܡܐ
+                        ܕܟܝܐ ܘܒܗܝܡܢܘܬܐ ܡܬܩܝܡ܂ ܘܡܬܒܥܝܐ ܠܗ ܨܠܘܬܐ ܕܟܝܬܐ܂ ܘܒܗܝܡܢܘܬܐ ܡܬܩܒܠܐ܂ ܘܚܫܚ ܠܗ ܚܘܒܐ
+                        ܘܒܗܝܡܢܘܬܐ ܡܬܪܟܒ܂ ܘܣܢܝܩ ܥܠ ܙܕܩ̈ܬܐ܂ ܘܒܗܝܡܢܘܬܐ ܡ̈ܬܝܗܒܢ܂ ܘܫܐܠ ܡܟܝܟܘܬܐ ܘܒܗܝܡܢܘܬܐ
+                        ܡܨܛܒܬܐ܂ ܘܓܒܐ ܠܗ ܒܬܘܠܘܬܐ ܘܒܗܝܡܢܘܬܐ ܡܬܪܚܡܐ܂ ܘܡܩܪܒ ܠܘܬܗ ܩܕܝܫܘܬܐ܂ ܘܒܗܝܡܢܘܬܐ
+                        ܡܬܢܨܒܐ܂ ܘܪܢܐ ܐܦ ܒܚܟܡܬܐ܂ ܘܒܗܝܡܢܘܬܐ ܡܫܬܟܚܐ܂ ܘܒܥܐ ܠܗ ܬܘܒ ܐܟܣܢܝܘܬܐ ܘܒܗܝܡܢܘܬܐ
+                        ܡܬܝܬܪܐ܂ ܡܬܒܥܝܐ ܠܗ ܦܫܝܛܘܬܐ ܘܒܗܝܡܢܘܬܐ ܡܬܚܠܛܐ܂ ܘܒܥܐ ܐܦ ܡܣܝܒܪܢܘܬܐ ܘܒܗܝܡܢܘܬܐ
+                        ܡܫܬܠܡܐ܂ ܘܡܬܗܘܢ ܒܪܡܝܣܘܬܐ ܘܒܗܝܡܢܘܬܐ ܡܬܩܢܝܐ܂ ܘܪܚܡ ܐܒܝܠܘܬܐ ܘܒܗܝܡܢܘܬܐ ܡܬܚܙܝܐ܂
+                        ܘܒܥܐ ܐܦ ܕܟܝܘܬܐ܂ ܘܒܗܝܡܢܘܬܐ ܡܬܢܛܪܐ܂ ܗܠܝܢ ܟܘܠܗܝܢ ܨܒ̈ܘܬܐ ܫܐܠܐ ܗܝܡܢܘܬܐ܃ ܕܣܝܡܐ ܥܠ
+                        ܫܘܥܐ ܕܟܐܦܐ ܫܪܝܪܬܐ ܕܗܘܝܘ ܡܫܝܚܐ܂ ܘܗܠܝܢ ܥܒ̈ܕܐ ܡܬܒܥܝܢ ܠܗ ܠܡܠܟܐ ܡܫܝܚܐ܂ ܕܥܡܪ ܒܒ̈ܢܝ
+                        ܐܢܫܐ ܕܐܬܒܢܝܘ ܒܗܠܝܢ ܥܒ̈ܕܐ܀ </p>
+                </div>
+                <div type="section" n="5">
+                    <!--<head>5</head>-->
+                    <p>ܘܐܢܗܘ ܕܬܐܡܪ܂ ܕܐܢ ܡܫܝܚܐ ܐܬܬܣܝܡ ܒܫܬܐܣܬܐ܃ ܐܝܟܢܐ ܐܦ ܡܫܝܚܐ ܥܡܪ ܒܗ
+                        ܒܒܢܝܢܐ ܡܐ ܕܐܫܬܟܠܠ܂ ܗܠܝܢ ܓܝܪ ܬܪ̈ܬܝܗܝܢ ܫܠܝܚܐ ܛܘܒܢܐ ܐܡܪ ܐܢܝܢ܂ ܐܡܪ ܓܝܪ܂ ܕܐܢܐ ܐܝܟ
+                        ܐܪܕܟܠܐ ܚܟܝܡܐ ܣܡܬ ܫܬܐܣܬܐ܂ ܘܦܪܫ ܬܡܢ ܥܠܝܗ ܥܠ ܫܬܐܣܬܐ ܘܚܘܝ܂ ܐܡܪ ܓܝܪ ܗܟܢܐ܂ ܕܫܬܐܣܬܐ
+                        ܐܚܪܬܐ ܣܛܪ ܡܢ ܗܕܐ ܕܣܝܡܐ܂ ܐܢܫ ܠܐ ܡܫܟܚ ܠܡܣܡ܂ ܕܗܘܝܘ ܝܫܘܥ ܡܫܝܚܐ܂ ܘܕܡܫܝܚܐ ܬܘܒ ܥܡܪ
+                        ܒܒܢܝܢܐ܂ ܗܝ ܗܝ ܡܠܬܐ ܕܡܢ ܠܥܠ ܐܬܟܬܒܬ܃ ܕܐܪܡܝܐ ܩܪܐ ܗܝ̈ܟܠܐ ܠܒܢ̈ܝ ܐܢܫܐ܂ ܘܐܠܗܐ ܕܥܡܪ
+                        ܒܗܘܢ܂ ܘܫܠܝܚܐ ܐܡܪ܃ ܕܪܘܚܗ ܕܡܫܝܚܐ ܥܒܪܐ ܒܟܘܢ܂ ܘܡܪܢ ܐܡܪ܂ ܕܐܢܐ ܘܐܒܝ ܚܕ ܚܢܢ܂ ܘܡܟܝܠ
+                        ܫܠܡܐ ܗܝ ܡܠܬܐ܂ ܕܡܫܝܚܐ ܥܡܪ ܒܒܢܝ̈ܢܫܐ ܐܝܠܝܢ ܕܡܗܝܡܢܝܢ ܒܗ܂ ܘܗܘܝܘ ܫܬܐܣܬܐ ܕܥܠܘܗܝ ܣܠܩ
+                        ܟܠܗ ܒܢܝܢܐ܀ </p>
+                </div>
+                <div type="section" n="6">
+                    <!--<head>6</head>-->
+                    <p>ܐܬܐ ܠܝ ܕܝܢ ܠܘܬ ܡܠܬܝ ܩܕܡܝܬܐ ܕܐܡܪܬ܃ ܕܡܫܝܚܐ ܐܬܩܪܝ ܟܐܦܐ ܒܢܒ̈ܝܐ܂ ܡܢ
+                        ܩܕܝܡ ܓܝܪ ܕܘܝܕ ܐܡܪ ܥܠܘܗܝ܂ ܕܟܐܦܐ ܕܐܣܠܝܘ ܒܢ̈ܝܐ ܗܝ ܗܘܬ ܠܪܫܗ ܕܒܢܝܢܐ܂ ܘܐܝܟܢܐ
+                        ܐܣܠܝܘܗ ܒܢ̈ܝܐ ܠܗܕܐ ܟܐܦܐ ܕܗܘܝܘ ܡܫܝܚܐ܂ ܐܠܐ ܗܟܢܐ ܐܣܠܝܘܗ܂ ܩܕܡ ܐ̈ܦܘܗܝ ܕܦܝܠܛܘܣ܂
+                        ܘܐܡܪܝܢ ܠܐ ܢܗܘܐ ܗܢܐ ܥܠܝܢ ܡܠܟܐ܂ ܘܬܘܒ ܒܗܘ ܡܬܠܐ ܕܐܡܪ ܡܪܢ܃ ܕܓܒܪܐ ܒܪ ܛܘܗܡܐ ܪܒܐ܂
+                        ܐܙܠ ܕܢܣܒ ܡܠܟܘܬܐ ܘܢܗܦܘܟ ܢܡܠܟ ܥܠܝܗܘܢ܃ ܘܗܢܘܢ ܫܕܪܘ ܒܬܪܗ ܐܝ̈ܙܓܕܐ ܘܐܡܪܝܢ܃ ܠܐ ܢܗܘܐ
+                        ܥܠܝܢ ܗܢܐ ܡܠܟܐ܂ ܒܗܠܝܢ ܐܣܠܝܘܗ ܠܟܐܦܐ ܕܗܘܝܘ ܡܫܝܚܐ܂ ܘܐܝܟܢܐ ܗܘܬ ܠܪܫܗ ܕܒܢܝܢܐ܂ ܐܠܐ
+                        ܐܢ ܕܣܠܩܬ ܠܗ ܥܠ ܒܢܝܢܗܘܢ ܕܥܡ̈ܡܐ܃ ܘܥܠܝܗ ܣܠܩ ܟܠܗ ܒܢܝܢܗܘܢ܂ ܘܡܢ ܐܢܘܢ ܒܢ̈ܝܐ ܐܠܐ ܐܢ
+                        ܟܗ̈ܢܐ ܘܦܪ̈ܝܫܐ ܕܠܐ ܒܢܘ ܒܢܝܢܐ ܫܪܝܪܐ܃ ܐܠܐ ܡܣܬܪ ܣܬܪܝܢ ܗܘܘ ܡܕܡ ܕܗܘ ܒܢܐ ܗܘܐ܃ ܐܝܟ
+                        ܕܟܬܝܒ ܒܚܙܩܝܐܝܠ ܢܒܝܐ܂ ܕܗܘ ܒܢܐ ܗܘܐ ܐܣܬܐ܂ ܘܗܢܘܢ ܛܪܝܢ ܗܘܘ ܠܗ ܕܬܦܠ܂܂܂ ܘܬܘܒ ܟܬܝܒ܃
+                        ܕܒܥܝܬ ܒܗܘܢ ܓܒܪܐ ܕܣܐܓ ܣܝܓܐ܂ ܘܩܐܡ ܒܬܘܪܥܬܐ ܥܠ ܐ̈ܦܝܗ ܕܐܪܥܐ܂ ܕܠܐ ܐܚܒܠܝܗ ܘܠܐ
+                        ܐܫܟܚܬ܂ ܘܬܘܒ ܐܦ ܐܫܥܝܐ ܩܕܡ ܐܬܢܒܝ ܥܠܝܗ ܥܠ ܗܕܐ ܟܐܦܐ܂ ܐܡܪ ܓܝܪ ܕܗܟܢܐ ܐܡܪ ܡܪܝܐ܂ ܕܗܐ
+                        ܣܐܡ ܐܢܐ ܒܨܗܝܘܢ ܟܐܦܐ ܒܚܝܪܬܐ܂ ܒܙܘܝܬܐ ܝܩܝܪܬܐ܂ ܪܝܫ ܐܣܬܐ ܕܫܬܐܣܬܐ܂ ܘܐܡܪ ܬܘܒ ܬܡܢ܃
+                        ܕܟܠ ܕܡܗܝܡܢ ܒܗ ܠܐ ܢܕܚܠ ܘܡܢ ܕܢܦܠ ܥܠ ܗܝ ܟܐܦܐ ܢܬܬܒܪ܂ ܘܟܠ ܕܗܝ ܬܦܠ ܥܠܘܗܝ ܬܫܚܩܝܘܗܝ܂
+                        ܢܦܠ ܥܠܝܗ ܓܝܪ ܥܡܐ ܕܒܝܬ ܐܝܣܪܝܠ܂ ܘܗܘܐ ܬܒܪܗܘܢ ܠܥܠܡ܂ ܘܢܦܠܐ ܬܘܒ ܥܠ ܨܠܡܐ ܘܫܚܩܐ ܠܗ܂
+                        ܘܗܝܡܢܘ ܒܗ ܥܡ̈ܡܐ ܘܠܐ ܕܚܠܝܢ܀ </p>
+                </div>
+                <div type="section" n="7">
+                    <!--<head>7</head>-->
+                    <p>ܘܚܘܝ ܥܠܝܗ ܥܠ ܟܐܦܐ ܕܗܝ ܐܬܣܝܡܬ ܪܝܫ ܐܣܬܐ ܘܫܬܐܣܬܐ܂ ܘܐܢ ܫܬܐܣܬܐ
+                        ܐܬܣܝܡܬ ܗܝ ܟܐܦܐ܂ ܐܝܟܢܐ ܐܦ ܪܝܫ ܐܣܬܐ ܗܘܬ܃ ܐܠܐ ܕܟܕ ܐܬܐ ܡܪܢ ܣܡ ܗܝܡܢܘܬܗ ܒܐܪܥܐ܂
+                        ܒܕܡܘܬ ܫܬܐܣܬܐ܃ ܘܣܠܩ ܠܥܠ ܡܢ ܟܠܗܘܢ ܫܡܝܐ܂ ܒܕܡܘܬ ܪܝܫ ܐܣܬܐ܃ ܘܐܫܬܟܠܠ ܠܗ ܟܠܗ ܒܢܝܢܐ
+                        ܒܟܐ̈ܦܐ ܡܢ ܠܬܚܬ ܘܡܢ ܠܥܠ܂܂܂܂ ܘܥܠ ܗܝܡܢܘܬܐ ܕܐܡܪܬ܂ ܕܣܡ ܗܝܡܢܘܬܗ ܒܐܪܥܐ܂ ܗܕܐ ܕܘܝܕ
+                        ܩܕܡ ܐܟܪܙܗ ܥܠ ܡܫܝܚܐ܂ ܐܡܪ ܓܝܪ ܕܗܝܡܢܘܬܐ ܬܐܥܐ ܡܢ ܐܪܥܐ܂ ܘܕܠܥܠ ܬܘܒ ܐܝܬܘܗܝ܂ ܐܡܪ܂
+                        ܕܙܕܝܩܘܬܐ ܐܕܝܩܬ ܡܢ ܫܡܝܐ܀ </p>
+                </div>
+                <div type="section" n="8">
+                    <!--<head>8</head>-->
+                    <p>ܘܬܘܒ ܐܦ ܕܢܝܐܝܠ܂ ܐܡܪ ܥܠܝܗ ܥܠ ܗܕܐ ܟܐܦܐ ܕܗܘܝܘ ܡܫܝܚܐ܂ ܐܡܪ ܓܝܪ܂
+                        ܕܟܐܦܐ ܐܬܓܙܪܬ ܡܢ ܛܘܪܐ ܕܠܐ ܒܐܝܕ̈ܝܢ܂ ܘܡܚܬܗ ܠܨܠܡܐ ܘܐܬܡܠܝܬ ܡܢܗ ܟܠܗ ܐܪܥ܂ ܗܕܐ ܩܕܡ
+                        ܘܚܘܝ ܥܠܘܗܝ ܥܠ ܡܫܝܚܐ܃ ܕܡܢܗ ܡܬܡܠܝܐ ܟܠܗ ܐܪܥܐ܂ ܡܢ ܗܝܡܢܘܬܗ ܓܝܪ ܕܡܫܝܚܐ܂ ܗܐ ܐܬܡܠܝܘ
+                        ܟܘܠܗܘܢ ܣܘ̈ܦܝܗ ܕܐܪܥܐ܂ ܐܝܟ ܕܐܡܪ ܕܘܝܕ܃ ܕܒܟܠܗ ܐܪܥܐ ܢܦܩܬ ܒܪܬ ܩܠܐ ܕܣܒܪܬܗ ܕܡܫܝܚܐ܂
+                        ܘܬܘܒ ܠܫܠܝ̈ܚܘܗܝ ܟܕ ܫܕܪ ܐܢܘܢ ܗܟܢܐ ܐܡܪ ܠܗܘܢ܂ ܕܦܘܩܘ ܬܠܡܕܘ ܠܟܠܗܘܢ ܥܡ̈ܡܐ ܘܢܗܝܡܢܘܢ
+                        ܒܝ܂ ܘܐܦ ܙܟܪܝܐ ܢܒܝܐ ܬܘܒ ܐܬܢܒܝ ܥܠܝܗ ܥܠ ܟܐܦܐ ܗܕܐ ܕܐܝܬܝܗ ܡܫܝܚܐ܂ ܐܡܪ ܓܝܪ܃ ܕܚܙܝܬ
+                        ܟܐܦܐ ܪܫܝܬܐ܂ ܕܫܘܝܘܬܐ ܘܕܪ̈ܚܡܐ܂ ܘܠܡܢܐ ܐܡܪ ܪܫܝܬܐ܃ ܐܠܐ ܕܡܢ ܪܫܝܬܐ ܠܘܬ ܐܒܘܗܝ ܐܝܬܘܗܝ
+                        ܗܘܐ܂ ܘܕܪ̈ܚܡܐ ܬܘܒ ܕܐܡܪ܃ ܡܛܠ ܕܟܕ ܐܬܐ ܠܥܠܡܐ܂ ܗܟܢܐ ܐܡܪ ܠܬܠܡܝ̈ܕܘܗܝ܂ ܕܗܢܐ ܗܘ
+                        ܦܘܩܕܢܝ ܕܬܪܚܡܘܢ ܚܕ ܠܚܕ܂ ܘܬܘܒ ܐܡܪ ܕܪ̈ܚܡܝ ܩܪܝܬܟܘܢ܂ ܘܫܠܝܚܐ ܛܘܒܢܐ ܗܟܢܐ ܐܡܪ܂ ܕܪܚܡ
+                        ܥܠܝܢ ܐܠܗܐ ܒܚܘܒܐ ܕܒܪܗ܂ ܫܪܝܪܐܝܬ ܪܚܡܢ ܡܫܝܚܐ܂ ܘܐܫܠܡ ܢܦܫܗ ܚܠܦܝܢ܀ </p>
+                </div>
+                <div type="section" n="9">
+                    <!--<head>9</head>-->
+                    <p>ܘܦܪܫ ܘܚܘܝ ܥܠܝܗ ܥܠ ܟܐܦܐ܂ ܕܥܠ ܗܕܐ ܟܐܦܐ ܗܐ ܦܬܚ ܐܢܐ ܫܒܥ ܥܝ̈ܢܝܢ܂
+                        ܘܡܢܐ ܐܢܝܢ ܟܝ ܫܒܥ ܥܝ̈ܢܝܢ ܕܐܬܦܬܚ ܥܠ ܟܐܦܐ܃ ܐܠܐ ܐܢ ܪܘܚܗ ܕܐܠܗܐ܂ ܕܫܪܬ ܥܠ ܡܫܝܚܐ
+                        ܒܫܒܥܐ ܣܘܥܪ̈ܢܝܢ܂ ܐܝܟ ܕܐܡܪ ܐܫܥܝܐ ܢܒܝܐ܃ ܕܬܬܢܝܚ ܘܬܫܪܐ ܥܠܘܗܝ ܪܘܚܐ ܕܐܠܗܐ܂ ܕܚܟܡܬܐ
+                        ܘܕܣܘܟܠܐ܃ ܘܕܬܪܥܝܬܐ ܘܕܓܢܒܪܘܬܐ܃ ܘܕܝܕܥܬܐ ܘܕܕܚܠܬܗ ܕܡܪܝܐ܂ ܗܠܝܢ ܐܢܝܢ ܫܒܥ ܥܝ̈ܢܝܢ
+                        ܕܐܬܦܬܚ ܥܠ ܟܐܦܐ܂ ܘܗܠܝܢ ܐܢܝܢ ܫܒܥ ܥܝܢܘ̈ܗܝ ܕܡܪܝܐ܂ ܕܚܝܪܢ ܒܟܠܗ ܐܪܥܐ܀ </p>
+                </div>
+                <div type="section" n="10">
+                    <!--<head>10</head>-->
+                    <p>ܘܐܦ ܗܕܐ ܥܠܘܗܝ ܥܠ ܡܫܝܚܐ ܐܬܐܡܪܬ܂ ܐܡܪ ܓܝܪ܂ ܕܐܬܝܗܒ ܢܘܗܪܐ ܠܟܘܠܗܘܢ
+                        ܥܡ̈ܡܐ܂ ܐܝܟ ܕܐܡܪ ܐܫܥܝܐ ܢܒܝܐ܃ ܕܝܗܒܬܟ ܢܘܗܪܐ ܠܟܘܠܗܘܢ ܥܡ̈ܡܐ܃ ܕܬܗܘܐ ܦܘܪܩܢܝ ܥܕܡܐ
+                        ܠܣܘ̈ܦܝܗ ܕܐܪܥܐ܂ ܘܐܦ ܕܘܝܕ ܬܘܒ ܐܡܪ܃ ܕܫܪܓܐ ܗܝ ܡܠܬܟ ܠܪ̈ܓܠܝ ܘܢܘܗܪܐ ܠܫܒ̈ܝܠܝ܂ ܘܐܦ
+                        ܡܠܬܗ ܘܡܐܡܪܗ ܕܡܪܝܐ ܡܫܝܚܐ ܗܘ܂ ܐܝܟ ܕܟܬܝܒ ܒܪܝܫ ܣܒܪܬܗ ܕܡܚܝܢܢ܃ ܕܒܪܫܝܬ ܐܝܬܘܗܝ ܗܘܐ
+                        ܡܠܬܐ܂ ܘܥܠ ܢܘܗܪܐ ܬܘܒ ܬܡܢ ܐܣܗܕ܃ ܕܗܘ ܢܘܗܪܐ ܒܚܫܘܟܐ ܡܢܗܪ ܗܘܐ܂ ܘܚܫܘܟܐ ܠܐ ܐܕܪܟܗ܂
+                        ܘܡܢܐ ܗܝ ܟܝ ܗܕܐ܃ ܕܢܘܗܪܐ ܒܚܫܘܟܐ ܡܢܗܪ ܗܘܐ܃ ܘܚܫܘܟܐ ܠܐ ܐܕܪܟܗ܃ ܐܠܐ ܐܢ ܡܫܝܚܐ܂ ܕܐܢܗܪ
+                        ܢܘܗܪܗ ܒܓܘ ܥܡܐ ܕܒܝܬ ܐܝܣܪܝܠ܃ ܘܥܡܐ ܕܒܝܬ ܐܝܣܪܝܠ ܠܐ ܐܕܪܟܘ ܢܘܗܪܗ ܕܡܫܝܚܐ ܒܕܠܐ ܗܝܡܢܘ
+                        ܒܗ܂ ܐܝܟ ܕܟܬܝܒ܃ ܕܠܕܝܠܗ ܐܬܐ ܘܕܝܠܗ ܠܐ ܩܒܠܘܗܝ܂ ܘܐܦ ܗܘ ܡܪܢ ܝܫܘܥ ܟܢܝ ܐܢܘܢ ܚܫܘܟܐ܂
+                        ܐܡܪ ܓܝܪ ܠܬܠܡ̈ܝܕܘܗܝ܃ ܕܡܕܡ ܕܐܡܪ ܐܢܐ ܠܟܘܢ ܒܚܫܘܟܐ܂ ܐܘܡܪܘܗܝ ܐܢܬܘܢ ܒܢܗܝܪܐ܂ ܒܥܡ̈ܡܐ
+                        ܠܡ ܢܢܗܪ ܢܘܗܪܟܘܢ܃ ܡܛܠ ܕܗܢܘܢ ܩܒܠܘ ܢܘܗܪܗ ܕܡܫܝܚܐ܃ ܕܐܝܬܘܗܝ ܢܘܗܪܐ ܠܥܡ̈ܡܐ܂ ܘܐܡܪ ܬܘܒ
+                        ܠܫܠܝ̈ܚܘܗܝ܂ ܕܐܢܬܘܢ ܐܢܘܢ ܢܘܗܪܗ ܕܥܠܡܐ܂ ܘܬܘܒ ܐܡܪ ܠܗܘܢ܃ ܕܢܢܗܪ ܢܘܗܪܟܘܢ ܩܕܡ ܒܢ̈ܝ
+                        ܐܢܫܐ܂ ܕܢܚܙܘܢ ܥܒ̈ܕܝܟܘܢ ܛܒ̈ܐ܂ ܘܢܫܒܚܘܢ ܠܐܒܘܟܘܢ ܕܒܫܡܝܐ܂ ܘܬܘܒ ܚܘܝ ܥܠ ܢܦܫܗ ܕܗܘܝܘ
+                        ܢܘܗܪܐ܂ ܐܡܪ ܠܗܘܢ ܓܝܪ ܠܬܠܡܝ̈ܕܘܗܝ܂ ܕܗܠܟܘ ܥܕ ܐܝܬ ܠܘܬܟܘܢ ܢܘܗܪܐ܃ ܥܕܠܐ ܡܕܪܟ ܠܟܘܢ
+                        ܚܫܘܟܐ܂ ܘܬܘܒ ܐܡܪ ܠܗܘܢ܃ ܕܗܝܡܢܘ ܒܢܘܗܪܐ ܕܒ̈ܢܘܗܝ ܕܢܘܗܪܐ ܬܗܘܘܢ܂ ܘܬܘܒ ܐܡܪ܃ ܕܐܢܐ ܐܢܐ
+                        ܢܘܗܪܗ ܕܥܠܡܐ܂ ܘܬܘܒ ܐܡܪ܂ ܕܠܐ ܐܢܫ ܡܢܗܪ ܫܪܓܐ܃ ܘܣܐܡ ܠܗ ܬܚܝܬ ܣܐܬܐ܃ ܐܘ ܬܚܝܬ ܥܪܣܐ܃
+                        ܐܘ ܣܐܡ ܠܗ ܒܐܬܪܐ ܛܫܝܐ܂ ܐܠܐ ܣܐܡ ܠܗ ܠܥܠ ܡܢ ܡܢܪܬܐ܂ ܕܟܠ ܐܢܫ ܢܚܙܐ ܢܘܗܪܗ ܕܫܪܓܐ܂
+                        ܘܫܪܓܐ ܢܗܝܪܐ ܗܘܝܘ ܡܫܝܚܐ܃ ܐܝܟ ܕܐܡܪ ܕܘܝܕ܃ ܕܫܪܓܐ ܗܝ ܡܠܬܟ ܠܪ̈ܓܠܝ ܘܢܘܗܪܐ ܠܫ̈ܒܝܠܝ܀
+                    </p>
+                </div>
+                <div type="section" n="11">
+                    <!--<head>11</head>-->
+                    <p>ܘܬܘܒ ܐܦ ܗܘܫܥ ܢܒܝܐ ܐܡܪ܂ ܐܢܗܪܘ ܠܟܘܢ ܫܪܓܐ ܘܒܥܐܘܗܝ ܠܡܪܝܐ܂ ܘܡܪܢ
+                        ܝܫܘܥ ܡܫܝܚܐ ܐܡܪ܃ ܐܝܕܐ ܗܝ ܐܢܬܬܐ ܕܐܝܬ ܠܗ ܥܣܪܐ ܙܘ̈ܙܝܢ ܘܬܘܒܕ ܚܕ ܡܢܗܘܢ܃ ܘܠܐ ܡܢܗܪܐ
+                        ܫܪܓܐ ܘܚܡܐ ܒܝܬܐ܃ ܘܒܥܝܐ ܙܘܙܗ ܕܐܘܒܕܬ܂܂܂܂ ܘܡܢܐ ܗܝ ܟܝ ܗܕܐ ܐܢܬܬܐ܃ ܐܠܐ ܐܢ ܟܢܘܫܬܐ
+                        ܕܒܝܬ ܐܝܣܪܝܠ܃ ܕܐܬܝܗܒܘ ܠܗ ܥܣܪܐ ܦܘܩ̈ܕܢܝܢ܂ ܘܐܘܒܕܘܗܝ ܠܦܘܩܕܢܐ ܩܕܡܝܐ܂ ܗܘ ܕܙܗܪ ܐܢܘܢ
+                        ܒܗ ܘܐܡܪ܃ ܕܐܢܐ ܐܢܐ ܡܪܝܐ ܐܠܗܟܘܢ ܕܐܣܩܬܟܘܢ ܡܢ ܐܪܥܐ ܕܡܨܪܝܢ܂ ܘܡܐ ܕܗܢܐ ܦܘܩܕܢܐ ܩܕܡܝܐ
+                        ܐܘܒܕܘ܃ ܘܐܦ ܬܫܥܐ ܕܒܬܪܗ ܠܐ ܡܫܟܚܝܢ ܢܛܪܝܢ ܗܘܘ ܠܗܘܢ܃ ܡܛܠ ܕܒܩܕܡܝܐ ܬܠܝܢ ܬܫܥܐ܂ ܠܐ
+                        ܓܝܪ ܡܫܟܚܐ ܗܘܬ ܨܒܘܬܐ܂ ܕܟܕ ܣܓܕܝܢ ܠܒܥܠܐ ܕܢܛܪܘܢ ܬܫܥܐ ܦܘ̈ܩܕܢܝܢ܂ ܐܘܒܕܘܗܝ ܓܝܪ
+                        ܠܦܘܩܕܢܐ ܩܕܡܝܐ ܒܕܡܘܬ ܗܝ ܐܢܬܬܐ ܕܐܘܒܕܬ ܙܘܙܐ ܚܕ ܡܢ ܥܣܪܐ܂ ܘܩܪܐ ܠܗܘܢ ܢܒܝܐ܂ ܕܐܢܗܪܘ
+                        ܠܟܘܢ ܫܪܓܐ ܘܒܥܐܘܗܝ ܠܡܪܝܐ܂ ܘܬܘܒ ܘܐܦ ܐܫܥܝܐ ܢܒܝܐ ܐܡܪ܃ ܕܒܥܘ ܠܡܪܝܐ܂ ܘܡܐ
+                        ܕܐܫܟܚܬܘܢܝܗܝ ܩܪܐܘܗܝ ܘܡܐ ܕܩܪܒ܂ ܢܫܒܘܩ ܚܛܝܐ ܐܘܪܚܗ ܘܓܒܪܐ ܥܘܠܐ ܬܪܥܝܬܗ܂ ܫܪܓܐ ܗܘ ܓܝܪ
+                        ܢܗܪ܃ ܘܗܢܘܢ ܠܐ ܒܥܘ ܒܗ ܠܡܪܝܐ ܐܠܗܗܘܢ ܘܢܘܗܪܗ ܒܚܫܘܟܐ ܐܢܗܪ܃ ܘܚܫܘܟܐ ܠܐ ܐܕܪܟܗ܂ ܘܥܠ
+                        ܡܢܪܬܐ ܣܠܩ ܫܪܓܐ܂ ܘܕܒܓܘܗ ܕܒܝܬܐ ܠܐ ܚܙܘ ܢܘܗܪܗ܂ ܘܡܢܐ ܗܝ ܟܝ ܗܕܐ ܕܥܠ ܡܢܪܬܐ ܣܠܩ
+                        ܫܪܓܐ܃ ܐܠܐ ܐܢ ܡܣܩܗ ܕܥܠ ܨܠܝܒܐ܂ ܘܒܗܕܐ ܟܘܠܗ ܒܝܬܐ ܚܫܟ ܠܗ ܥܠܝܗܘܢ܂ ܟܕ ܨܠܒܘܗܝ ܓܝܪ
+                        ܚܫܟ ܠܗ ܢܘܗܪܐ ܡܢܗܘܢ܃ ܘܢܗܪ ܠܗ ܒܝܬ ܥܡ̈ܡܐ܂ ܡܛܠ ܕܡܢ ܥܕܢܐ ܕܫܬ ܫܥ̈ܝܢ ܕܨܠܒܘܗܝ ܘܥܕܡܐ
+                        ܠܬܫܥ ܫܥ̈ܝܢ܂ ܗܘܐ ܠܗ ܚܫܘܟܐ ܒܟܠܗ ܐܪܥܐ ܕܐܝܣܪܝܠ܂ ܘܥܪܒ ܫܡܫܐ ܒܛܗܪܐ܂ ܘܚܫܟܬ ܠܗ ܐܪܥܐ
+                        ܒܝܘܡܐ ܢܗܝܪܐ ܐܝܟ ܕܟܬܝܒ ܒܙܟܪܝܐ ܢܒܝܐ܃ ܕܢܗܘܐ ܒܝܘܡܐ ܗܘ ܐܡܪ ܡܪܝܐ ܐܥܪܒ ܫܡܫܐ ܒܛܗܪܐ܃
+                        ܘܐܚܫܟ ܠܐܪܥܐ ܒܝܘܡܐ ܢܗܝܪܐ܀ </p>
+                </div>
+                <div type="section" n="12">
+                    <!--<head>12</head>-->
+                    <p>ܐܬܐ ܠܝ ܗܟܝܠ ܠܘܬ ܡܠܬܝ ܩܕܡܝܬܐ ܕܗܝܡܢܘܬܐ܃ ܕܥܠܝܗ ܣܠܩܝܢ ܟܠܗܘܢ ܥܒ̈ܕܐ
+                        ܫܦܝܪ̈ܐ ܕܒܢܝܢܐ܂ ܘܥܠ ܒܢܝܢܐ ܬܘܒ ܕܐܡܪܬ܂ ܠܐ ܗܘܐ ܢܘܟܪܐܝܬ ܐܡܪܬ܂ ܐܠܐ ܫܠܝܚܐ ܛܘܒܢܐ ܟܬܒ
+                        ܒܐܓܪܬܐ ܕܩܘܪ̈ܢܬܝܐ ܩܕܡܝܬܐ ܘܐܡܪ܃ ܕܐܢܐ ܐܝܟ ܐܪܕܟܠܐ ܚܟܝܡܐ ܣܡܬ ܫܬܐܣܬܐ܂ ܘܟܠ ܐܢܫ ܕܝܢ
+                        ܒܢܐ ܥܠܝܗ܂ ܐܝܬ ܕܒܢܐ ܣܐܡܐ ܘܕܗܒܐ ܘܟܐ̈ܦܐ ܛܒ̈ܬܐ܂ ܘܐܝܬ ܕܒܢܐ ܩܢܝܐ ܘܥܡܝܪܐ ܘܚܒܬܐ܂
+                        ܘܒܝܘܡܐ ܐܚܪܝܐ ܡܬܒܚܪ ܗܘ ܒܢܝܢܐ ܒܢܘܪܐ ܕܗܒܐ ܓܝܪ ܘܣܐܡܐ ܘܟܐ̈ܦܐ ܛܒ̈ܬܐ ܡܬܢܛܪܝܢ ܒܓܘ
+                        ܢܘܪܐ܂ ܡܛܠ ܕܒܢܝܢܐ ܐܢܘܢ ܫܪܝܪܐ܂ ܘܥܡܝܪܐ ܘܩܢܝܐ ܘܚܒܬܐ ܫܠܛܐ ܒܗܘܢ ܢܘܪܐ ܘܝܩܕܝܢ܂ ܘܡܢܐ
+                        ܗܘ ܕܗܒܐ ܘܣܐܡܐ ܘܟܐ̈ܦܐ ܛܒ̈ܬܐ ܕܒܢܝܢܐ ܣܠܩ ܒܗܘܢ܃ ܐܠܐ ܐܢ ܥܒ̈ܕܐ ܛܒ̈ܐ ܕܗܝܡܢܘܬܐ܃
+                        ܕܡܬܢܛܪܝܢ ܒܓܘ ܢܘܪܐ܂ ܡܛܠ ܕܒܒܢܝܢܐ ܗܘ ܫܪܝܪܐ ܥܡܪ ܡܫܝܚܐ܂ ܘܗܘܝܘ ܡܢܛܪ ܠܗ ܡܢ ܢܘܪܐ܂
+                        ܘܢܚܙܐ ܘܢܣܬܟܠ ܡܢ ܕܡܘܬܐ ܕܝܗܒ ܠܢ ܐܠܗܐ ܐܦ ܒܗܢܐ ܥܠܡܐ܃ ܡܛܘܠ ܕܢܫܪܘܢ ܠܢ ܡܘ̈ܠܟܢܐ ܕܗܘ
+                        ܥܠܡܐ܂ ܘܢܣܬܟܠ ܕܝܢ ܡܢ ܗܢܘܢ ܬܠܬܐ ܓܒܪ̈ܝܢ ܙܕܝ̈ܩܐ܃ ܕܢܦܠܘ ܒܓܘ ܢܘܪܐ ܘܠܐ ܝܩܕܘ܃ ܚܢܢܝܐ
+                        ܘܥܙܪܝܐ ܘܡܝܫܐܝܠ ܕܠܐ ܫܠܛܬ ܒܗܘܢ ܢܘܪܐ܂ ܡܛܠ ܕܒܢܘ ܒܢܝܢܐ ܫܪܝܪܐ܂ ܘܐܣܠܝܘ ܦܘܩܕܢܗ
+                        ܕܢܒܘܟܕܢܨܪ ܡܠܟܐ܂ ܘܠܐ ܣܓܕܘ ܠܨܠܡܐ ܕܥܒܕ܂ ܘܐܝܠܝܢ ܕܥܒܪܘ ܥܠ ܦܘܩܕܢܗ ܕܐܠܗܐ܂ ܒܥܓܠ ܫܠܛܬ
+                        ܒܗܘܢ ܢܘܪܐ܂ ܘܥܘܩܕܬ ܐܢܘܢ ܘܝܩܕܘ ܕܠܐ ܚܘܣܢ܂ ܝܩܕܘ ܓܝܪ ܣܕܘ̈ܡܝܐ ܒܕܡܘܬ ܥܡܝܪܐ ܘܩܢܝܐ
+                        ܘܚܒܬܐ܂ ܘܬܘܒ ܝܩܕܘ ܢܕܒ ܘܐܒܝܗܘ ܕܥܒܪܘ ܥܠ ܦܘܩܕܢܗ ܕܐܠܗܐ܂ ܬܘܒ ܝܩܕܘ ܡܐܬܝܢ ܘܚܡܫܝܢ
+                        ܓܒܪ̈ܝܢ܂ ܕܡܩܪܒܝܢ ܗܘܘ ܒܣ̈ܡܐ܂ ܬܘܒ ܝܩܕܘ ܬܪܝܢ ܪܘܪ̈ܒܢܝܢ ܘܡܐܐ ܕܥܡܗܘܢ ܥܠ ܕܐܬܩܪܒܘ
+                        ܠܛܘܪܐ ܕܝܬܒ ܗܘܐ ܒܗ ܐܠܝܐ܃ ܕܣܠܩ ܒܡܪܟܒܬܐ ܕܢܘܪܐ ܠܫܡܝܐ܂ ܘܝܩܕܘ ܬܘܒ ܐܟ̈ܠܝ ܩܪܨܐ ܥܠ
+                        ܕܚܦܪܘ ܓܘܡܨܐ ܠܓܒܪ̈ܐ ܙܕܝܩ̈ܐ܂ ܡܛܠ`ܗܢܐ ܚܒܝܒܝ ܡܬܒܚܪܝܢ ܙܕܝ̈ܩܐ ܒܢܘܪܐ܂ ܒܕܡܘܬ ܕܗܒܐ
+                        ܘܣܐܡܐ ܘܟܐ̈ܦܐ ܛܒ̈ܬܐ܂ ܘܥܘ̈ܠܐ ܝܩܕܝܢ ܒܢܘܪܐ܂ ܒܕܡܘܬ ܥܡܝܪܐ ܘܩܢܝܐ ܘܚܒܬܐ܃ ܕܫܠܛܐ ܒܗܘܢ
+                        ܢܘܪܐ܃ ܘܝܩܕܝܢ: ܐܝܟ ܕܐܡܪ ܐܫܥܝܐ ܢܒܝܐ܂ ܕܒܢܘܪܐ ܕܐܢ ܡܪܝܐ܃ ܘܒܚܪ ܒܗ ܠܟܠ ܒܣܪ܂ ܘܬܘܒ
+                        ܐܡܪ܃ ܕܬܦܩܘܢ ܘܬܚܙܘܢ ܫܠܕܝ̈ܗܘܢ ܕܓܒܪ̈ܐ ܕܐܥܠܝܘ ܒܝ܃ ܕܠܐ ܡܝܬܐ ܬܘܠܥܗܘܢ܂ ܘܢܘܪܗܘܢ ܠܐ
+                        ܕܥܟܐ܂ ܘܢܗܘܘܢ ܕܘܡܪܐ ܠܟܠ ܒܣܪ܀ </p>
+                </div>
+                <div type="section" n="13">
+                    <!--<head>13</head>-->
+                    <p>ܘܦܫܩ ܠܢ ܬܘܒ ܫܠܝܚܐ ܥܠ ܗܢܐ ܒܢܝܢܐ܂ ܘܥܠ ܗܕܐ ܫܬܐܣܬܐ܂ ܐܡܪ ܓܝܪ ܗܟܢܐ܂
+                        ܕܫܬܐܣܬܐ ܐܚܪܬܐ ܣܛܪ ܡܢ ܗܕܐ ܕܣܝܡܐ܂ ܐܢܫ ܠܐ ܡܫܟܚ ܠܡܣܡ܃ ܕܗܘܝܘ ܝܫܘܥ ܡܫܝܚܐ܂ ܬܘܒ ܐܡܪ
+                        ܫܠܝܚܐ ܥܠ ܗܝܡܢܘܬܐ ܕܥܡ ܣܒܪܐ ܘܚܘܒܐ ܚܠܝܛܐ܂ ܐܡܪ ܓܝܪ ܗܟܢܐ܂ ܕܗܠܝܢ ܐܢܝܢ ܬܠܬ ܕܡܟܬܪܢ܂
+                        ܗܝܡܢܘܬܐ ܘܣܒܪܐ ܘܚܘܒܐ܂ ܘܚܘܝ ܥܠ ܗܝܡܢܘܬܐ܂ ܕܠܘܩܕܡ ܗܝ ܡܬܣܝܡܐ ܥܠ ܫܬܐܣܬܐ ܫܪܝܪܬܐ܀
+                    </p>
+                </div>
+                <div type="section" n="14">
+                    <!--<head>14</head>-->
+                    <p>ܗܒܝܠ ܓܝܪ ܡܛܠ ܗܝܡܢܘܬܗ ܐܬܩܒܠ ܩܘܪܒܢܗ܂ ܘܚܢܘܟ ܡܛܠ ܕܫܦܪ ܒܗܝܡܢܘܬܗ
+                        ܐܫܬܢܝ ܡܢ ܡܘܬܐ܂ ܘܢܘܚ ܡܛܠ ܕܗܝܡܢ܂ ܐܣܬܬܪ ܡܢ ܡܡܘܠܐ܂ ܘܐܒܪܗܡ ܒܗܝܡܢܘܬܗ ܐܬܒܪܟ܂
+                        ܘܐܬܚܫܒܬ ܠܗ ܠܟܐܢܘ܂ ܘܐܝܣܚܩ ܒܕܗܝܡܢ ܐܬܪܚܡ܂ ܘܝܥܩܘܒ ܡܛܘܠ ܗܝܡܢܘܬܗ ܐܬܢܛܪ܂ ܘܝܘܣܦ ܡܛܠ
+                        ܗܝܡܢܘܬܗ ܐܬܢܣܝ ܒܡܝܐ ܕܚܪܝܢܐ܂ ܘܐܬܦܨܝ ܡܢ ܢܣܝܘܢܐ܂ ܘܣܡ ܒܗ ܡܪܗ ܣܗܕܘܬܐ܃ ܐܝܟ ܕܐܡܪ
+                        ܕܘܝܕ܃ ܕܣܗܕܘܬܐ ܒܝܘܣܦ ܣܡܗ܂ ܘܐܦ ܡܘܫܐ ܒܗܝܡܢܘܬܐ ܥܒܕ ܚܝ̈ܠܐ ܣ̈ܓܝܐܐ ܘܬܡܝ̈ܗܐ܂
+                        ܘܒܗܝܡܢܘܬܐ ܓܡܪ ܠܡܨܪ̈ܝܐ ܒܥܣܪ ܡܚ̈ܘܢ܂ ܬܘܒ ܒܗܝܡܢܘܬܐ ܦܠܓ ܝܡܐ ܘܐܥܒܪ ܠܥܡܗ܂ ܘܛܒܥ
+                        ܠܡܨܪ̈ܝܐ ܒܓܘܗ܂ ܘܒܗܝܡܢܘܬܐ ܫܕܐ ܩܝܣܐ ܒܡܝܐ ܡܪ̈ܝܪܐ ܘܚܠܝܘ܂ ܘܒܗܝܡܢܘܬܐ ܐܚܬ ܡܢܢܐ ܘܣܒܥ
+                        ܠܥܡܗ܂ ܘܒܗܝܡܢܘܬܐ ܦܫܛ ܐܝ̈ܕܘܗܝ ܘܙܟܐ ܠܥܡܠܝܩ܂ ܐܝܟ ܕܟܬܝܒ܃ ܕܗܘܝ ܐܝ̈ܕܘܗܝ ܒܗܝܡܢܘܬܐ܃
+                        ܥܕܡܐ ܕܥܪܒܬ ܫܡܫܐ܂ ܐܦ ܒܗܝܡܢܘܬܐ ܣܠܩ ܠܛܘܪܐ ܕܣܝܢܝ܃ ܟܕ ܨܡ ܬܪ̈ܬܝܢ ܙܒ̈ܢܝܢ ܐܪܒܥܝܢ
+                        ܐܪܒܥܝܢ ܝܘ̈ܡܝܢ܂ ܬܘܒ ܒܗܝܡܢܘܬܐ ܙܟܐ ܠܣܝܚܘܢ ܘܠܥܘܓ ܡ̈ܠܟܝܗܘܢ ܕܐܡܘܪ̈ܝܐ܂܀ </p>
+                </div>
+                <div type="section" n="15">
+                    <!--<head>15</head>-->
+                    <p>ܬܡܝܗܐ ܗܝ ܗܕܐ ܚܒܝܒܝ ܘܪܒܐ ܬܕܡܘܪܬܐ܃ ܕܥܒܕ ܡܘܫܐ ܒܝܡܐ ܕܣܘܦ܃ ܟܕ
+                        ܐܬܦܠܓܘ ܡܝܐ ܒܗܝܡܢܘܬܐ܃ ܘܒܕܡܘܬ ܛܘܪ̈ܐ ܪ̈ܡܐ ܘܫܩܝ̈ܦܐ ܥܫܝ̈ܢܐ ܩܡܘ܃ ܘܟܠܝܢ܃ ܘܟܠܝܢ ܗܘܘ
+                        ܘܩܝܡܝܢ ܒܦܘܩܕܢܐ܃ ܘܨܪܝܪܝܢ ܐܝܟ ܕܒܙ̈ܩܐ܃ ܘܚܒܝܫܝܢ ܒܪܘܡܐ ܐܝܟ ܕܒܥܘܡܩܐ܃ ܘܪܟܝܟܘܬܗܘܢ ܠܐ
+                        ܥܒܪܬ ܬܚܘܡܐ܃ ܘܚܠܦܘ ܟܝܢܐ ܕܒܪܝܬܗܘܢ܃ ܘܗܘܘ ܡܫ̈ܬܡܥܢܐ ܒܪ̈ܝܬܐ ܕܠܐ ܪܓܫܬܐ܃ ܘܙܩܝܦܝܢ
+                        ܓ̈ܠܠܐ ܘܡܣܟܝܢ ܠܦܘܪܥܢܐ ܕܐܡܬܝ ܥܡܐ ܢܥܒܪ܃ ܘܬܡܝܗܝܢ ܡܚܫ̈ܘܠܐ ܘܡܟܬܪܝܢ܃ ܘܚܝܪܝܢ ܠܦܘܩܕܢܐ
+                        ܘܠܦܘܪܥܢܐ܃ ܘܐܬܓܠܝ ܫܬܐܣ̈ܐ ܕܡܢ ܕܪ̈ܝ ܥܠܡܐ܃ ܘܪܛܒܐ ܕܡܢ ܒܪܫܝܬ ܗܘܐ ܠܗ ܝܒܝܫܐ ܡܢ ܫܠܝܐ܃
+                        ܘܐܪܝܡܘ ܬܪ̈ܥܐ ܪ̈ܫܝܗܘܢ ܘܐܬܬܪܝܡܘ ܬܪ̈ܥܐ ܕܡܢ ܥܠܡ܃ ܘܥܠ ܥܡܘܕܐ ܕܢܘܗܪܐ ܘܐܢܗܪ ܠܟܠܗ
+                        ܡܫܪܝܬܐ܃ ܘܥܒܪ ܥܡܐ ܒܗܝܡܢܘܬܐ܃ ܘܗܘܐ ܕܝܢܐ ܕܟܐܢܘܬܐ ܟܦܪܥܘܢ ܘܒܚܝܠܗ ܘܒܡܪ̈ܟܒܬܗ܀ </p>
+                </div>
+                <div type="section" n="16">
+                    <!--<head>16</head>-->
+                    <p>ܗܟܢܐ ܐܦ ܝܫܘܥ ܒܪܢܘܢ܂ ܦܠܓ ܝܘܪܕܢܢ ܒܗܝܡܢܘܬܗ܃ ܘܥܒܪܘ ܒ̈ܢܝ ܐܝܣܪܝܠ ܐܝܟ
+                        ܕܒܝ̈ܘܡܝ ܡܘܫܐ܂ ܕܥ ܕܝܢ ܚܒܝܒܝ܂ ܕܗܝ ܡܥܒܪܬܐ ܕܝܘܪܕܢܢ܂ ܬܠܬ ܙܒ̈ܢܝܢ ܐܬܦܠܓܬ܂ ܠܘܩܕܡ ܚܕܐ
+                        ܒܝܕ ܝܫܘܥ ܒܪܢܘܢ܂ ܘܕܬܪ̈ܬܝܢ ܒܝܕ ܐܠܝܐ܂ ܘܗܝܕܝܢ ܒܝܕ ܐܠܝܫܥ܂ ܡܠܬܐ ܓܝܪ ܕܟܬܒܐ ܡܘܕܥܐ܂
+                        ܕܠܘܩܒܠ ܡܥܒܪܬܐ ܗܝ ܕܐܝܪܝܚܘ܂ ܬܡܢ ܐܣܬܠܩ ܐܠܝܐ ܠܫܡܝܐ܂ ܟܕ ܗܦܟ ܓܝܪ ܐܠܝܫܥ ܡܢ ܒܬܪܗ܂
+                        ܘܦܠܓ ܝܘܪܕܢܢ ܘܥܒܪ܂ ܢܦܩܘ ܒܢ̈ܝ ܢܒ̈ܝܐ ܕܐܝܪܝܚܘ܂ ܠܐܘܪܥܗ ܕܐܠܝܫܥ ܘܐܡܪܘ܂ ܕܫܪܬ ܪܘܚܗ
+                        ܕܐܠܝܐ ܥܠ ܐܠܝܫܥ܂ ܘܥܡܐ ܟܕ ܥܒܪܘ ܒܝܘ̈ܡܝ ܝܫܘܥ ܒܪܢܘܢ܂ ܗܟܢܐ ܓܝܪ ܟܬܝܒ܂ ܕܥܒܪܘ ܥܡܐ
+                        ܠܘܩܒܠ ܐܝܪܝܚܘ܂ ܘܐܦ ܝܫܘܥ ܒܪܢܘܢ ܒܗܝܡܢܘܬܐ܂ ܐܪܡܝ ܫܘܪ̈ܝܗ ܕܐܝܪܝܚܘ܂ ܘܢܦܠܘ ܕܠܐ ܥܡܠܐ܂
+                        ܘܬܘܒ ܒܗܝܡܢܘܬܗ܂ ܚܪܒ ܡ̈ܠܟܐ ܬܠܬܝܢ ܘܚܕ܂ ܘܐܘܪܬ ܐܪܥܐ ܠܒ̈ܢܝ ܐܝܣܪܝܠ܂ ܘܬܘܒ ܒܗ
+                        ܒܗܝܡܢܘܬܗ܂ ܦܫܛ ܐܝ̈ܕܘܗܝ ܠܘܬ ܫܡܝܐ܂ ܘܟܠܐ ܠܫܡܫܐ ܒܓܒܥܘܢ܂ ܘܠܣܗܪܐ ܒܦܩܥܬܐ ܕܐܝܠܘܢ܂
+                        ܘܟܠܘ ܘܩܡܘ ܡܢ ܡܕܝܪ̈ܝܗܘܢ܂ ܣܟܐ ܕܝܢ܂ ܟܠܗܘܢ ܙܕܝ̈ܩܐ ܐܒ̈ܗܝܢ܂ ܟܘܠ ܡܕܡ ܕܥܒܕܘ ܒܗܝܡܢܘܬܐ
+                        ܐܬܢܨܚܘ܂ ܐܝܟ ܕܐܦ ܫܠܝܚܐ ܛܘܒܢܐ ܣܗܕ ܥܠ ܟܠܗܘܢ܂ ܕܒܗܝܡܢܘܬܐ ܐܬܟܫܪܘ܂ ܬܘܒ ܐܡܪ ܫܠܝܡܘܢ܂
+                        ܕܣܓ̈ܝܐܝܢ ܓܒܪ̈ܐ ܡܪ̈ܚܡܢܐ ܡܬܩܪܝܢ܂ ܓܒܪܐ ܕܝܢ ܡܗܝܡܢܐ ܡܢܘ ܡܫܟܚ܂ ܘܐܦ ܐܝܘܒ ܗܟܢܐ ܐܡܪ܂
+                        ܕܬܡܝܡܘܬܝ ܠܐ ܬܥܒܪ ܡܢܝ܂ ܘܒܙܕܝܩܘܬܝ ܐܚܡܣܢ܀ </p>
+                </div>
+                <div type="section" n="17">
+                    <!--<head>17</head>-->
+                    <p>ܘܐܦ ܡܚܝܢܢ܂ ܟܠ ܡܢ ܕܡܬܩܪܒ ܗܘܐ ܠܗ ܕܢܬܐܣܐ܂ ܗܟܢܐ ܐܡܪ ܗܘܐ ܠܗ܂ ܕܐܝܟ
+                        ܗܝܡܢܘܬܟ ܢܗܘܐ ܠܟ܂ ܘܟܕ ܣܡܝܐ ܩܪܒ ܠܗ ܐܡܪ ܠܗ܂ ܡܗܝܡܢ ܐܢܬ ܕܡܫܟܚ ܐܢܐ ܕܐܣܝܟ܂ ܐܡܪ ܠܗ
+                        ܗܘ ܣܡܝܐ܂ ܐܝܢ ܡܪܝ ܡܗܝܡܢ ܐܢܐ܂ ܘܗܝܡܢܘܬܗ ܥܝ̈ܢܘܗܝ ܦܬܚܬ܂ ܘܠܗܘ ܕܒܪܗ ܟܪܝܗ ܗܘܐ ܐܡܪ
+                        ܠܗ܂ ܗܝܡܢ ܘܢܚܐ ܒܪܟ܂ ܐܡܪ ܠܗ ܡܗܝܡܢ ܐܢܐ ܡܪܝ܂ ܥܕܪ ܠܗܝܡܢܘܬܝ ܙܥܘܪܬܐ܂ ܘܒܗܝܡܢܘܬܗ
+                        ܐܬܚܠܡ ܒܪܗ܂ ܘܐܦ ܥܒܕ ܡܠܟܐ ܟܕ ܩܪܒ ܠܗ܂ ܒܗܝܡܢܘܬܗ ܐܬܚܠܡ ܛܠܝܗ܂ ܟܕ ܐܡܪ ܠܗ ܠܡܪܢ܂ ܕܐܡܪ
+                        ܒܡܠܬܐ ܘܢܬܐܣܐ ܛܠܝܝ܂ ܘܐܬܕܡܪ ܡܪܢ ܒܗܝܡܢܘܬܗ܂ ܘܐܝܟ ܗܝܡܢܘܬܗ ܗܘܐ ܠܗ܂ ܘܐܦ ܪܒ ܟܢܘܫܬܐ܂
+                        ܟܕ ܒܥܐ ܡܢܗ ܥܠ ܒܪܬܗ܂ ܗܟܢܐ ܐܡܪ ܠܗ܂ ܒܠܚܘܕ ܡܗܝܡܢܘ ܗܝܡܢ ܘܬܚܐ ܒܪܬܟ܂ ܘܗܝܡܢ ܘܬܚܐ
+                        ܒܪܬܗ ܘܩܡܬ܂ ܘܟܕ ܡܝܬ ܠܥܙܪ܂ ܐܡܪ ܠܗ ܡܪܢ ܠܡܪܬܐ܂ ܐܢ`ܗܘ ܕܡܗܝܡܢܬܝ ܢܩܘܡ ܐܚܘܟܝ܂ ܐܡܪܐ
+                        ܠܗ ܡܪܬܐ܂ ܐܝܢ ܡܪܝ ܡܗܝܡܢܐ ܐܢܐ܂ ܘܐܩܝܡܗ ܡܢ ܒܬܪ ܐܪܒܥܐ ܝܘܡ̈ܝܢ܂ ܘܐܦ ܫܡܥܘܢ ܕܐܬܩܪܝ
+                        ܟܐܦܐ܂ ܡܛܠ ܗܝܡܢܘܬܗ ܐܬܩܪܝ ܟܐܦܐ ܫܪܝܪܬܐ܂ ܘܟܕ ܝܗܒ ܬܘܒ ܡܪܢ ܐܪܙܐ ܕܡܥܡܘܕܝܬܐ
+                        ܠܫ̈ܠܝܚܘܗܝ܂ ܗܟܢܐ ܐܡܪ ܠܗܘܢ܂ ܕܡܢ ܕܡܗܝܡܢ ܘܥܡܕ ܢܚܐ܂ ܘܡܢ ܕܠܐ ܡܗܝܡܢ ܡܬܕܝܢ܂ ܬܘܒ ܐܡܪ
+                        ܠܗܘܢ ܠܫ̈ܠܝܚܘܗܝ܂ ܕܐܢ ܬܗܝܡܢܘܢ ܘܠܐ ܬܬܦܠܓܘܢ܂ ܠܝܬ ܡܕܡ ܕܠܐ ܬܫܟܚܘܢ ܠܡܥܒܕ܂ ܟܕ ܗܠܟ
+                        ܓܝܪ ܡܪܢ ܥܠ ܓ̈ܠܠܝ ܝܡܐ܂ ܐܦ ܫܡܥܘܢ ܒܗܝܡܢܘܬܗ ܥܡܗ ܗܠܟ܂ ܘܟܕ ܐܬܦܠܓ ܥܠ ܗܝܡܢܘܬܗ܂ ܘܫܪܝ
+                        ܗܘܐ ܠܡܛܒܥ܂ ܩܪܝܗܝ ܡܪܢ ܙܥܘܪ ܗܝܡܢܘܬܐ܂ ܘܟܕ ܫܐܠܘܗܝ ܫ̈ܠܝܚܘܗܝ ܠܡܪܢ܂ ܡܕܡ ܠܐ ܒܥܘ ܠܗ܂
+                        ܐܠܐ ܐܡܪܝܢ ܠܗ ܐܘܣܦ ܠܢ ܗܝܡܢܘܬܐ܂ ܐܡܪ ܠܗܘܢ ܕܐܢ ܗܘܬ ܒܟܘܢ ܗܝܡܢܘܬܐ܂ ܐܦ ܛܘܪܐ ܢܫܢܐ ܡܢ
+                        ܩܕܡܝܟܘܢ܂ ܘܐܡܪ ܠܗܘܢ܂ ܕܠܐ ܬܬܦܠܓܘܢ ܘܬܛܒܥܘܢ ܠܟܘܢ ܒܓܘ ܥܠܡܐ܂ ܒܕܡܘܬ ܫܡܥܘܢ܂ ܕܟܕ
+                        ܐܬܦܠܓ ܫܪܝ ܠܡܛܒܥ ܒܓܘ ܝܡܐ܂ ܘܬܘܒ ܗܟܢܐ ܐܡܪ܂ ܕܗܕܐ ܐܬܐ ܬܗܘܐ ܠܐܝܠܝܢ ܕܡܗܝܡܢܝܢ܂
+                        ܕܒ̈ܠܫܢܐ ܚܕ̈ܬܐ ܢܡܠܠܘܢ܂ ܘܫ̈ܐܕܐ ܢܗܘܘܢ ܡܦܩܝܢ܂ ܘܐܝ̈ܕܝܗܘܢ ܢܗܘܘܢ ܣܝܡܝܢ ܥܠ ܟܪ̈ܝܗܐ
+                        ܘܡܬܚܠܡܝܢ܀ </p>
+                </div>
+                <div type="section" n="18">
+                    <!--<head>18</head>-->
+                    <p>ܢܬܩܪܒ ܗܟܝܠ ܚܒܝܒܝ܂ ܠܗ ܠܗܝܡܢܘܬܐ܂ ܕܗܟܢܐ ܣܓܝܐܝܢ ܚܝ̈ܠܝܗ. ܗܝܡܢܘܬܐ
+                        ܓܝܪ ܠܫܡܝܐ ܐܣܩܬ܂ ܠܡܡܘܠܐ ܙܟܬ܂ ܘܥܩܪܘܬܐ ܐܘܠܕܬ܂ ܘܡܢ ܚܪܒܐ ܦܨܝܬ܂ ܘܡܢ ܓܘܒܐ ܐܣܩܬ܂
+                        ܘܠܡܣ̈ܟܢܐ ܐܥܬܪܬ܂ ܘܠܐܣܝܪ̈ܐ ܫܪܬ܂ ܘܠܪ̈ܕܝܦܐ ܫܘܙܒܬ܂ ܘܢܘܪܐ ܐܚܬܬ܂ ܘܝܡܐ ܦܠܓܬ܂ ܘܛܪܢܐ
+                        ܒܙܥܬ܂ ܘܡܝܐ ܠܕܨܗܝܢ ܐܫܩܝܬ܂ ܘܟ̈ܦܢܐ ܣܒܥܬ܂ ܘܡܝ̈ܬܐ ܐܚܝܬ܂ ܘܡܢ ܫܝܘܠ ܐܣܩܬ܂ ܘܓ̈ܠܠܐ
+                        ܫܬܩܬ܂ ܘܟܪ̈ܝܗܐ ܐܣܝܬ܂ ܘܚ̈ܝܠܐ ܙܟܬ܂ ܘܫܘܪ̈ܐ ܣܚܦܬ܂ ܘܦܘ̈ܡܐ ܕܐܪ̈ܝܘܬܐ ܣܟܪܬ܂ ܘܫܠܗܒܝܬܐ
+                        ܕܢܘܪܐ ܕܥܟܬ܂ ܘܠܫܒܗܪ̈ܢܐ ܡܟܟܬ܂ ܘܠܡ̈ܟܝܟܐ ܠܐܝܩܪܐ ܡܛܝܬ܂ ܗܠܝܢ ܟܠܗܘܢ ܚܝ̈ܠܐ܂ ܒܗ
+                        ܒܗܝܡܢܘܬܐ ܐܣܬܥܪܘ܀ </p>
+                </div>
+                <div type="section" n="19">
+                    <!--<head>19</head>-->
+                    <p>ܗܕܐ ܗܝ ܓܝܪ ܗܝܡܢܘܬܐ܂ ܟܕ ܐܢܫ ܢܗܝܡܢ ܒܐܠܗܐ ܡܪܐ ܟܠ܂ ܕܥܒܕ ܫܡܝܐ ܘܐܪܥܐ
+                        ܘܝܡ̈ܡܐ ܘܟܠ ܕܐܝܬ ܒܗܘܢ܃ ܘܗܘ ܥܒܕ ܠܐܕܡ ܒܨܠܡܗ܃ ܘܗܘ ܝܗܒ ܐܘܪܝܬܐ ܠܡܘܫܐ܃ ܘܗܘ ܫܕܪ ܡܢ
+                        ܪܘܚܗ ܒܢ̈ܒܝܐ܃ ܘܗܘ ܬܘܒ ܫܕܪ ܠܡܫܝܚܗ ܠܥܠܡܐ܂ ܘܕܢܗܝܡܢ ܐܢܫ ܒܚܝܬ ܡܝ̈ܬܐ܂ ܘܬܘܒ ܢܗܝܡܢ ܐܦ
+                        ܒܐܪܙܐ ܕܡܥܡܘܕܝܬܐ܂ ܗܕܐ ܗܝ ܗܝܡܢܘܬܐ ܕܥܕܬܗ ܕܐܠܗܐ܂ ܘܕܢܬܦܪܩ ܐܢܫ ܡܢ ܕܠܡܛܪ ܫܥ̈ܐ ܘܫ̈ܒܐ
+                        ܘܝܪ̈ܚܐ ܘܥܕ̈ܢܐ܃ ܘܩܨ̈ܡܐ ܘܢܚ̈ܫܐ܃ ܘܟܠܕܝܘܬܐ ܘܚܪܫܘܬܐ܂ ܘܡܢ ܙܢܝܘܬܐ ܘܡܢ ܙܡܪܐ܃ ܘܡܢ
+                        ܝܘ̈ܠܦܢܐ ܣܪ̈ܝܩܐ ܡܐ̈ܢܘܗܝ ܕܒܝܫܐ܃ ܘܡܢ ܫܘܕܠܐ ܕܡ̈ܠܐ ܚ̈ܠܝܬܐ܃ ܘܡܢ ܓܘܕܦܐ ܘܡܢ ܓܘܪܐ܂
+                        ܘܕܠܐ ܐܢܫ ܢܣܗܕ ܣܗܕܘܬܐ ܕܓܠܬܐ܂ ܘܕܠܐ ܢܡܠܠ ܐܢܫ ܒܬܪ̈ܝܢ ܠܫ̈ܢܝܢ܂ ܗܠܝܢ ܐܢܘܢ ܓܝܪ
+                        ܥܒ̈ܕܝܗ ܕܗܝܡܢܘܬܐ ܕܣܝܡܐ ܥܠ ܟܐܦܐ ܫܪܝܪܬܐ ܕܗܘܝܘ ܡܫܝܚܐ܃ ܕܥܠܘܗܝ ܣܠܩ ܟܠܗ ܒܢܝܢܐ܀ </p>
+                </div>
+                <div type="section" n="20">
+                    <!--<head>20</head>-->
+                    <p>ܘܣܓܝ ܬܘܒ ܚܒܝܒܝ ܐܝܬ ܒܗܘܢ ܒܟ̈ܬܒܐ ܩܕ̈ܝܫܐ ܫܪܒܐ ܕܗܝܡܢܘܬܐ܂ ܐܠܐ ܗܠܝܢ
+                        ܩܠܝܠ ܡܢ ܣܓܝ ܟܬܒܬ ܐܥܗܕܬ ܠܚܘܒܟ܂ ܕܬܕܥ ܘܬܘܕܥ ܘܬܗܝܡܢ ܐܦ ܬܬܗܝܡܢ܂ ܘܡܐ ܕܩܪܝܬ ܘܝܠܦܬ
+                        ܥܒ̈ܕܝܗ ܕܗܝܡܢܘܬܐ܂ ܬܬܕܡܐ ܠܗܝ ܐܪܥܐ ܦܠܝܚܬܐ܃ ܕܢܦܠ ܒܗ ܙܪܥܐ ܛܒܐ܃ ܘܝܗܒܬ ܦܐܪ̈ܐ ܚܕ
+                        ܒܡܐܐ ܘܒܫܬܝܢ ܘܒܬܠܬܝܢ ܘܟܕ ܬܐܙܠ ܠܘܬ ܡܪܟ ܢܩܪܝܟ ܥܒܕܐ ܛܒܐ ܘܟܫܝܪܐ ܘܡܗܝܡܢܐ܃ ܕܡܛܠ
+                        ܗܝܡܢܘܬܗ ܕܣܓܝܬ܂ ܥܠ ܠܡܠܟܘܬܐ ܕܡܪܗ܀ ܫܠܡܬ ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ܂ </p>
+                </div>
+            
+        </body>
+    </text>
+</TEI>
