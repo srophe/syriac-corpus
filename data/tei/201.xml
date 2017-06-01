@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8676">Memra Fourteen: On the Upright and the Perfect - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܰܐܪܒܰܥܬܰܥܣܰܪ ܕܥܰܠ ܟܺܐܢ̈ܶܐ ܘܥܰܠ ܓܡܺܝܪ̈ܶܐ</foreign></title>
+                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8693">The Book of Steps</title>
+                <title level="s">The Oxford-BYU Syriac Corpus</title>
+                <author>Anonymous</author>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor-in-chief" ref="http://syriaca.org/person.xml#dtaylor">David
+                    G.K. Taylor, University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">James E. Walters,
+                    Rochester College</editor>
+                <respStmt>
+                    <resp>Created by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Based on the work of</resp>
+                    <name type="person" ref="">Robert A. Kitchen</name>
+                    <name type="person" ref="">Martien F. G. Parmentier</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person" ref=""
+                        ><!--Insert name of the person who edits this document --></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#moez">Michael Oez</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <pubPlace>
+                        <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt
+                            University, Nashville, Tennessee, USA</placeName>
+                    </pubPlace>
+                </distributor>
+                <authority>The Oxford-BYU Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/201</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                        <p>https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                </availability>
+                <date calendar="Gregorian"
+                    ><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <editor>Robert A. Kitchen</editor>
+                        <editor>Martien F. G. Parmentier</editor>
+                    </analytic>
+                    <monogr>
+                        <title level="a">The Syriac Book of Steps 2</title>
+                        <imprint>
+                            <pubPlace>Piscataway, NJ</pubPlace>
+                            <publisher>Gorgias Press</publisher>
+                            <date when="2009">2011</date>
+                        </imprint>
+                        <biblScope unit="page">54-61</biblScope>
+                    </monogr>
+                    <series>
+                        <title level="s">Texts from Christian Late Antiquity</title>
+                        <biblScope type="vol">12b</biblScope>
+                    </series>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>The Oxford-BYU Syriac Corpus is a joint project of the University of Oxford and
+                    Brigham Young University in collaboration with Vanderbilt University and the
+                    Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University.</p>
+                <!-- Look at editorialDecl desription in P5 for labels (https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editorialDecl.html) and use as necessary to describe the corpus/text in question -->
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-05-31" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div1 type="part" n="14">
+                <head>
+                    <title>Memra Fourteen: On the Upright and the Perfect - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܰܐܪܒܰܥܬܰܥܣܰܪ ܕܥܰܠ ܟܺܐܢ̈ܶܐ ܘܥܰܠ ܓܡܺܝܪ̈ܶܐ</foreign></title>
+                </head>
+                <div2 type="title">
+                    <p xml:lang="syr">
+                        
+                        ܡܺܐܡܪܳܐ ܕܰܐܪܒܰܥܬܰܥܣܰܪ ܕܥܰܠ ܟܺܐܢ̈ܶܐ ܘܥܰܠ ܓܡܺܝܪ̈ܶܐ
+                    </p>
+                </div2>
+                <div2 type="section" n="1">
+                    <head>1</head>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܠܳܐ ܓܳܝܪܺܝܢ ܘܠܳܐ ܡܶܬܚܰܝܒܺܝܢ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܠܳܐ ܪܳܓܺܝܢ ܘܠܳܐ ܡܶܬܒܰܨܪܺܝܢ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܠܳܐ ܒܳܙܺܝܢ ܘܠܳܐ ܛܳܠܡܺܝܢ ܘܠܳܐ ܥܳܠܒܺܝܢ ܘܠܳܐ ܒܳܥܶܝܢ ܠܰܕܠܳܐ ܕܺܝܠܗܽܘܢ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܠܳܐ ܩܳܢܶܝܢ ܘܠܳܐ ܒܳܢܶܝܢ ܘܠܳܐ ܢܳܨܒܶܝܢ: ܘܠܳܐ ܝܳܪܬܺܝܢ ܒܰܐܪܥܳܐ: ܘܠܳܐ ܦܳܠܚܺܝܢ ܡܶܛܽܠ ܣܰܝܒܳܪܬܳܐ ܘܰܠܒܽܘܫܳܐ: ܐܶܠܳܐ ܚܳܐܶܝܢ ܒܛܰܝܒܽܘܬܳܐ ܡܶܣܟܺܢܳܐܺܝܬ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܠܳܐ ܝܳܡܶܝܢ ܐܶܠܳܐ ܐܺܝܢ ܘܠܳܐ ܥܰܠ ܟܽܠ ܨܒܽܘ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܐܰܝܟ ܕܨܳܒܶܐ ܡܳܪܰܢ ܐܳܡܪܺܝܢ ܒܰܠܚܽܘܕ: ܡܶܛܽܠ ܕܳܐܦܠܳܐ ܒܺܐܝܢ ܘܠܳܐ ܢܶܬܥܰܒܪܽܘܢ ܘܢܶܬܒܰܨܪܽܘܢ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܩܰܕܺܝܫܺܝܢ ܡܶܢ ܒܺܝܫܬܳܗ  ܕܰܐܪܥܳܐ: ܠܰܘ ܡܶܢ ܩܶܢܝܳܢܳܗ ܘܛܳܒ̈ܳܬܳܗ ܘܫܰܘܬܳܦܽܘܬܳܗ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܡܥܰܠܶܝܢ ܡܶܢ ܟܽܠܳܗ ܝܳܪܬܽܘܬܳܗ ܕܰܐܪܥܳܐ ܕܡܶܬܚܰܙܝܳܐ ܘܡܶܢ ܟܽܠܗܶܝܢ ܒܺܝܫ̈ܳܬܳܗ ܘܡܶܢ ܟܽܠܶܗ ܩܶܢܝܳܢܳܗ ܘܡܶܢ ܟܽܠܗܽܘܢ ܢܶܟ̈ܣܶܐ ܘܡܶܢ ܙܽܘܘܳܓܳܐ ܕܙܰܒܢܳܐ ܘܡܶܢ ܟܽܠܗܶܝܢ ܪ̈ܓܺܝܓܳܬܳܗ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܦܳܪܫܺܝܢ ܚܰܝ̈ܘܳܬܳܐ ܛܰܡ̈ܐܳܬܳܐ ܡܶܢ ܕܰܟܝ̈ܳܬܳܐ ܘܳܐܟܠܺܝܢ ܡܶܢܗܶܝܢ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܡܥܰܠܶܝܢ ܡܶܢ ܕܰܟܝ̈ܳܬܳܐ ܘܡܶܢ ܛܰܡ̈ܐܳܬܳܐ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܒܳܢܶܝܢ ܘܩܳܢܶܝܢ ܠܰܘ ܐܰܝܟ ܕܰܠܥܳܠܰܡ ܘܗܳܘܶܝܢ ܒܥܳܠܡܳܐ ܐܰܝܟ ܢܽܘܟܪ̈ܳܝܶܐ: ܓܡܺܝܪ̈ܶܐ ܠܳܐ ܒܳܢܶܝܢ ܘܠܳܐ ܩܳܢܶܝܢ ܘܠܳܐ ܡܩܰܘܶܐ ܪܶܥܝܳܢܗܽܘܢ ܒܰܐܪܥܳܐ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܦܳܪܫܺܝܢ ܛܳܒ̈ܶܐ ܡܶܢ ܒܺܝܫ̈ܶܐ ܘܡܶܬܪܰܚܡܺܝܢ ܥܠܰܝܗܽܘܢ: ܓܡܺܝܪ̈ܶܐ ܐܰܝܟ ܕܰܡܝܰܬܪܺܝܢ ܡܶܢܗܽܘܢ ܣܳܝܡܺܝܢ ܠܗܽܘܢ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܥܳܩܪܺܝܢ ܚܶܡܬܳܐ ܘܡܶܬܬܢܺܝܚܺܝܢ ܡܶܢܳܗ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܠܰܘ ܡܶܢ ܚܶܡܬܳܐ ܒܰܠܚܽܘܕ ܡܶܬܬܢܺܝܚܺܝܢ: ܐܶܠܳܐ ܐܳܦ ܠܩܳܛܽܘܠܰܝ̈ܗܽܘܢ ܪܳܚܡܺܝܢ ܘܰܠܟܽܠܢܳܫ ܘܰܡܨܰܠܶܝܢ ܥܠܰܝܗܽܘܢ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܬܳܒܥܺܝܢ ܕܺܝܠܗܽܘܢ ܡܶܢ ܐܰܝܟܳܐ ܕܰܐܘܙܶܦܘ ܐܰܘ ܙܒܰܢܘ: ܕܠܳܐ ܪܶܒܺܝܬܳܐ ܘܰܕܠܳܐ ܩܨܳܨ̈ܶܐ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܠܳܐ ܝܳܙܦܺܝܢ ܘܠܳܐ ܩܳܢܶܝܢ: ܝܰܬܺܝܪ ܡܶܢ ܣܰܝܒܳܪܬܳܐ ܡܶܣܟܺܢܬܳܐ ܘܰܠܒܽܘܫܳܐ ܡܡܰܟܟܳܐ܀
+                    </p>
+                </div2>
+                <div2 type="section" n="2">
+                    <head>2</head>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܪܳܫܶܝܢ ܘܠܳܐ ܪܳܓܙܺܝܢ: ܐܶܠܳܐ ܐܶܢ ܐܰܪܬܺܝܘ ܒܡܰܟܺܝܟܽܘܬܳܐ: ܘܰܐܠܶܦܘ ܒܚܽܘܒܳܐ. ܟܺܐܢ̈ܶܐ ܡܣܰܒܥܺܝܢ ܟܰܦ̈ܢܶܐ ܘܡܰܠܒܫܺܝܢ ܥܰܪ̈ܛܶܠܳܝܶܐ ܘܦܳܪܩܺܝܢ ܠܰܐܠܺܝ̈ܨܶܐ ܡܶܢ ܩܶܢܝܳܢܗܽܘܢ ܘܡܶܢ ܢܶܟܣܰܝ̈ܗܽܘܢ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܝܳܗܒܺܝܢ ܠܶܗ ܠܟܽܠܶܗ ܩܶܢܝܳܢܗܽܘܢ ܒܚܰܕ ܝܰܘܡܳܐ ܠܰܣܢ̈ܺܝܩܶܐ ܘܠܰܐܠܺܝ̈ܨܶܐ ܘܫܳܩܠܺܝܢ ܨܠܺܝܒܗܽܘܢ ܘܳܐܙܺܠ̱ܝܢ ܒܳܬܰܪ ܡܳܪܗܽܘܢ ܒܪܽܘܚ: ܘܰܒܪܽܘܚ ܡܫܰܡܫܺܝܢ ܠܶܗ: ܟܰܕ ܪܳܚܡܺܝܢ ܠܟܽܠܗܽܘܢ ܒܢܰܝ̈ܢܳܫܳܐ ܘܰܡܨܰܠܶܝܢ ܥܠܰܝܗܽܘܢ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܐܺܝܬ ܠܗܽܘܢ ܚܰܕ ܬܰܪܥܳܐ ܐܰܘ ܬܪ̈ܶܝܢ ܒܰܫܡܰܝܳܐ: ܘܢܳܩܫܺܝܢ ܒܗܽܘܢ ܚܰܡܶܫ ܙܰܒܢ̈ܺܝܢ ܒܝܰܘܡܳܐ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܟܽܠܳܗ ܫܡܰܝܳܐ ܬܰܪ̈ܥܶܐ ܗ̱ܝ ܩܕܳܡܰܝܗܽܘܢ ܘܟܽܠܶܗ ܝܰܘܡܳܐ ܚܳܝܪܺܝܢ ܬܰܡܳܢ: ܘܡܰܘܕܶܝܢ ܘܰܡܫܰܒܚܺܝܢ ܠܡܳܪܰܢ ܘܡܶܢ ܫܽܘܒܚܳܐ ܠܫܽܘܒܚܳܐ ܡܗܰܠܟܺܝܢ ܒܪܽܘܚ: ܘܚܳܙܶܝܢ ܠܡܳܪܰܢ ܐܰܝܟ ܕܰܒܡܰܚܙܺܝܬܳܐ ܒܠܶܒܗܽܘܢ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܠܟܳܐ ܡܶܢ ܡܕܺܝܢ̱ܬܳܐ ܕܰܓܡܺܝܪ̈ܶܐ ܝܳܪܬܺܝܢ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܒܰܥܕܶܝܢ ܘܒܽܐܘܪܺܫܠܶܡ ܥܶܠܳܝܬܳܐ ܗܳܘܶܝܢ ܥܰܡ ܡܳܪܰܢ: ܡܶܛܽܠ ܕܶܐܬܕܰܡܺܝܘ ܒܶܗ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܠܳܐ ܡܨܶܝܢ ܥܳܒܕܺܝܢ ܟܽܠܶܗ ܨܶܒܝܳܢܶܗ ܕܡܳܪܰܢ ܐܶܠܳܐ ܐܶܢ ܐܶܬܰܘ ܠܩܰܕܺܝܫܽܘܬܳܐ ܘܶܐܣܬܰܪܰܩܘ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܗܶܢܽܘܢ ܥܳܒܕܺܝܢ ܘܗܳܘܶܝܢ ܥܰܡ ܡܳܪܰܢ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܠܳܐ ܝܳܕܥܺܝܢ ܟܽܠܗܽܘܢ ܕܽܘܒܳܪ̈ܰܘܗ̱ܝ ܕܡܳܪܰܢ ܝܰܘܡܳܢ: ܐܶܠܳܐ ܐܶܢ ܐܶܬܰܘ ܠܩܰܕܺܝܫܽܘܬܳܐ ܘܶܐܣܬܰܪܰܩܘ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܘܥܳܒܕܺܝܢ ܘܫܳܡܥܺܝܢ ܩܳܠܶܗ ܕܡܳܪܰܢ ܐܰܝܟ ܕܶܐܡܰܪ: ܕܥܳܢ̈ܝ ܩܳܠܝ ܫܳܡܥܳܐ ܘܒܳܬܰܪܝ ܐܳܬܝܳܐ: ܘܠܳܐ ܝܳܕܥܳܐ ܩܳܠܶܗ ܕܢܽܘܟܪܳܝܳܐ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܒܰܐܪܬܺܝܬܳܐ ܡܫܰܒܚܺܝܢ ܠܰܐܠܳܗܳܐ ܘܡܰܣܛܶܝܢ ܡܶܢ ܒܺܝܫܬܳܐ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܡܰܕܪܟܺܝܢ ܪܰܘܡܳܐ ܘܥܽܘܡܩܳܐ ܘܽܐܘܪܟܳܐ ܘܰܦܬܳܝܳܐ: ܥܰܡ ܟܽܠܗܽܘܢ ܩܰܕ̈ܺܝܫܶܐ ܕܶܐܬܓܡܰܪܘ ܐܰܕܪܶܟܘ ܘܰܙܟܰܘ ܘܰܣܠܶܩܘ ܠܽܐܘܪܺܫܠܶܡ ܥܶܠܳܝܬܳܐ. ܓܡܺܝܪ̈ܶܐ ܗܽܘ ܡܳܛܶܝܢ ܠܨܶܗܝܽܘܢ ܘܠܽܐܘܪܺܫܠܶܡ ܕܒܰܫܡܰܝܳܐ ܘܰܠܦܰܪܕܰܝܣܳܐ ܪܽܘܚܳܢܳܐ: 
+                    </p>
+                    <p xml:lang="syr">
+                        ܘܟܺܐܢ̈ܶܐ ܠܟܳܐ ܡܶܢܗܽܘܢ ܣܰܓܺܝ ܠܡܰܚܣܶܢ ܡܳܛܶܝܢ: ܘܣܰܓܺܝ ܡܬܰܚܬܶܝܢ ܡܶܢ ܓܡܺܝܪ̈ܶܐ܀
+                    </p>
+                </div2>
+                <div2 type="section" n="3">
+                    <head>3</head>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܠܳܐ ܡܶܫܬܰܓܫܺܝܢ ܘܠܳܐ ܛܳܥܶܝܢ ܡܶܢ ܦܽܘܩܕܳܢܰܘ̈ܗ̱ܝ ܕܡܳܪܰܢ ܕܰܒܟܺܐܢܽܘܬܳܐ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܡܝܰܬܪܺܝܢ ܘܰܡܥܰܠܶܝܢ ܠܥܶܠ ܡܶܢܗܽܘܢ ܘܡܰܦܢܶܝܢ ܠܟܽܠ ܛܳܥܰܝ̈ܳܐ. ܘܕܰܕܟܶܐ ܠܶܒܶܗ ܠܡܳܪܰܢ ܚܳܙܶܐ: ܘܰܐܝܢܳܐ ܕܠܳܐ ܕܟܶܐ ܠܶܒܶܗ ܠܳܐ ܡܨܶܐ ܕܢܶܚܙܶܝܘܗ̱ܝ: ܐܶܠܳܐ ܝܳܪܶܬ ܐܰܬܪܳܐ ܕܙܳܕܶܩ ܠܶܗ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܟܺܐܢ̈ܶܐ ܠܳܐ ܠܳܝܛܺܝܢ ܠܐ̱ܢܳܫ ܘܠܳܐ ܩܳܪܶܝܢ ܠܐ̱ܢܳܫ ܪܰܩܳܐ ܐܰܘ ܣܰܟܠܳܐ ܐܰܘ ܫܺܝܛܳܐ ܘܠܳܐ ܡܕܰܓܠܺܝܢ ܒܐ̱ܢܳܫ: ܓܡܺܝܪ̈ܶܐ ܕܶܝܢ ܡܝܰܩܪܺܝܢ ܘܰܡܒܰܪܟܺܝܢ ܠܟܽܠܢܳܫ ܘܡܰܠܦܺܝܢ ܠܟܽܠܢܳܫ ܕܠܳܐ ܢܕܰܓܶܠ ܒܚܰܒܪܶܗ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܘܟܽܠ ܐ̱ܢܳܫ  ܐܰܝܟ ܪܶܗܛܶܗ ܘܰܐܝܟ ܡܫܽܘܚܬܶܗ ܘܰܐܝܟ ܕܰܫܚܺܝܩ ܪܶܥܝܳܢܶܗ ܘܰܐܝܟ ܕܰܡܡܰܟܶܟ ܢܰܦܫܶܗ: ܗܳܟܰܢ ܡܶܬܬܪܺܝܡ. ܘܫܰܪܟܳܐ ܟܽܠܢܳܫ ܡܶܬܦܪܰܥ ܐܰܝܟ ܡܶܕܶܡ ܕܰܥܒܺܝܕ ܠܶܗ ܘܶܐܢ ܕܛܳܒ ܘܶܐܢ ܕܒܺܝܫ ܡܶܢ ܗܳܢܳܐ ܥܳܠܡܳܐ ܒܗܰܘ ܥܳܠܡܳܐ ܐܰܝܟ ܥܒ̈ܳܕܰܘܗ̱ܝ ܐܶܢ ܕܛܳܒ ܘܶܐܢ ܕܒܺܝܫ: ܐܰܝܟ 
+                    </p>
+                    <p xml:lang="syr">
+                        ܕܶܐܡܰܪ ܫܠܺܝܚܳܐ: ܕܟܽܠܰܢ ܠܰܡܩܳܡ ܐܺܝܬ ܠܰܢ ܩܕܳܡ ܒܺܝܡ ܕܰܡܫܺܝܚܳܐ: ܕܢܶܬܦܪܰܥ ܐ̱ܢܳܫ ܐ̱ܢܳܫ ܡܶܢܰܢ ܒܦܰܓܪܶܗ ܡܶܕܶܡ ܕܰܥܒܺܝܕ ܠܶܗ. 
+                    </p>
+                    <p xml:lang="syr">
+                        ܐܺܝܬ ܐ̱ܢܳܫ ܕܰܩܫܶܐ ܬܰܫܢܺܝܩܶܗ ܡܶܢ ܕܚܰܒܪܶܗ: ܘܺܐܝܬ ܕܘܳܠܶܐ ܕܢܶܗܘܽܘܢ ܥܠܰܘܗ̱ܝ ܪ̈ܰܚܡܶܐ: ܡܶܛܽܠ ܕܶܐܬܪܰܚܰܡ ܘܡܶܢ ܬܰܫܢܺܝܩܳܐ ܡܶܬܦܰܠܰܛ. ܡܰܢ ܕܶܝܢ ܕܫܳܡܰܥ ܡܶܠܬܶܗ ܕܡܳܪܰܢ ܐܰܘ ܕܟܺܐܢܽܘܬܳܐ ܐܰܘ ܕܰܓܡܺܝܪܽܘܬܳܐ: ܠܕܺܝܢܳܐ ܠܳܐ ܐܳܬܶܐ: ܐܶܠܳܐ ܘܶܐܢ ܐܳܬܶܐ ܡܶܛܽܠ ܕܢܶܫܬܰܒܰܚ ܩܕܳܡ ܒܺܝܡ ܕܰܡܫܺܝܚܳܐ ܠܥܺܝܢ ܥܳܠܡܳܐ ܟܽܠܶܗ: ܐܰܘ ܕܰܢܕܽܘܢ ܠܚܰܛܳܝܶܐ: ܐܰܝܟ ܕܶܐܡܰܪ ܡܳܪܰܢ: ܕܡܰܢ ܕܫܳܡܰܥ ܠܡܶܠܰܝ̈ ܫܰܢܺܝ ܠܶܗ ܡܶܢ ܡܰܘܬܳܐ ܠܚܰܝ̈ܶܐ. ܓܰܒܪܳܐ ܕܶܝܢ ܕܰܒܪܽܘܚ: ܗܳܢܰܘ ܕܶܝܢ ܕܝܳܕܰܥ ܫܪܳܪܳܐ ܘܶܐܬܓܡܰܪ: ܠܟܽܠܢܳܫ ܕܳܐܶܢ ܘܡܶܢ ܐ̱ܢܳܫ ܠܳܐ ܡܶܬܕܺܝܢ܀
+                    </p>
+                </div2>
+                <div2 type="section" n="4">
+                    <head>4</head>
+                    <p xml:lang="syr">
+                        ܒܪܺܝܟ ܐܰܢ̱ܬ ܡܳܪܝܳܐ ܝܶܫܽܘܥ ܡܫܺܝܚܳܐ ܟܡܳܐ ܬܪܺܝܨ ܐܰܢ̱ܬ ܘܰܟܡܳܐ ܛܳܒ ܐܰܢ̱ܬ: ܕܠܳܐ ܡܶܬܬܟܺܝܠܳܐ ܪܰܒܽܘܬܳܟ: ܘܠܳܐ ܡܶܬܡܰܫܚܳܐ ܛܰܝܒܽܘܬܳܟ. ܘܟܽܠܢܳܫ ܐܰܝܟ ܕܒܳܥܶܐ ܠܳܟ: ܗܳܟܰܢܳܐ ܡܶܫܟܰܚ ܠܳܟ. ܘܰܐܝܟ ܕܳܐܠܶܨ ܝܰܨܪܶܗ ܕܢܶܛܰܪ ܢܳܡܽܘܣܳܟ: ܗܳܟܰܢ ܝܳܪܶܒ: ܘܰܟܡܳܐ ܕܢܰܣܓܶܐ ܢܡܰܟܶܟ ܢܰܦܫܶܗ: ܗܳܟܰܢ ܢܶܫܬܰܒܰܚ܀
+                    </p>
+                    <p xml:lang="syr">
+                        ܫܠܶܡ ܡܺܐܡܪܳܐ ܕܰܐܪܒܰܬܰܥܣܰܪ ܕܥܰܠ ܟܺܐܢ̈ܶܐ ܘܥܰܠ ܓܡܺܝܪ̈ܶܐ܀
+                </p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI>
