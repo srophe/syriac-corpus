@@ -108,9 +108,9 @@
         </revisionDesc>
     </teiHeader>
     <text>
-        <body xml:lang="syr">
-                <div n="title" type="title">
-                    <ab>ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ܂</ab>
+        <body>
+                <div type="title" n="0">
+                    <ab xml:lang="syr">ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ܂</ab>
                 </div>
                 <div type="section" n="1">
                     <head type="editorial">1</head>
