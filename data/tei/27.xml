@@ -39,17 +39,16 @@
                 </respStmt>
                 <respStmt>
                     <resp>Based on the work of</resp>
-                    <name type="person" ref="">D. Alphonse Mingana</name>
+                    <name type="person">D. Alphonse Mingana</name>
                 </respStmt>
                 <respStmt>
                     <resp>Edited by</resp>
-                    <name type="person" ref=""
+                    <name type="person"
                         ><!--Insert name of the person who edits this document --></name>
                 </respStmt>
                 <respStmt>
                     <resp>Syriac text transcribed by</resp>
-                    <name type="person" ref=""
-                        ><!-- Name of the person who transcribed the Syriac text --></name>
+                    <name type="person"><!-- Name of the person who transcribed the Syriac text --></name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -78,6 +77,7 @@
                 <biblStruct>
                     <analytic>
                         <editor>D. Alphonsi Mingana</editor>
+                        <idno type="URI">http://syriaca.org/1765</idno>
                     </analytic>
                     <monogr>
                         <title level="a">Narsai Doctoris Syri Homiliae et Carmina</title>
