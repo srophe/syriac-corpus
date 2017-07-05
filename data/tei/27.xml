@@ -56,10 +56,8 @@
             </editionStmt>
             <publicationStmt>
                 <distributor>
-                    <pubPlace>
                         <placeName>Jean and Alexander Heard Library System, Vanderbilt
                             University, Nashville, Tennessee, USA</placeName>
-                    </pubPlace>
                 </distributor>
                 <authority>The Oxford-BYU Syriac Corpus</authority>
                 <idno type="URI">https://syriaccorpus.org/27</idno>
@@ -107,6 +105,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text structure</change>
             <change when="2017-01-11" who="http://syriaca.org/person.xml#jwalters">Added work
                 URIs</change>
             <change when="2016-11-30" who="http://syriaca.org/person.xml#jwalters">Created:
@@ -115,14 +114,10 @@
     </teiHeader>
     <text>
         <body>
-            <div1 type="part" n="1">
-            <head xml:lang="en">
-                <title xml:lang="en">On the Divine Revelations to Abraham (Memra 1)</title>
-            </head>
-            <head xml:lang="syr">
-                <title xml:lang="syr">ܥܠ ܓܠܝܢ̈ܐ ܐܠܗܝ̈ܐ ܕܗܘܘ ܠܘܬ ܐܒܪܗܡ</title>
-            </head>
-                <div2 type="rubric" xml:lang="syr">
+            <div type="ab" n="0">
+                <ab xml:lang="syr">ܥܠ ܓܠܝܢ̈ܐ ܐܠܗܝ̈ܐ ܕܗܘܘ ܠܘܬ ܐܒܪܗܡ</ab>
+            </div>
+                <div type="rubric" xml:lang="syr">
                 <pb ed="http://syriaca.org/bibl/1765" n="1"/>
                     <l>ܡܐܡܪܐ ܩܕܡܝܐ</l>
                     <l>ܕܚܲܕܼܒܿܫܲܒܵܐ ܩܲܕܼܡܵܝܵܐ ܕܣܘܼܒܵܪܵܐ</l>
@@ -130,8 +125,8 @@
                     <l>ܥܘܼܢܵܝܵܐ</l>
                     <l>ܥܝܼܪܵܐ ܠܡܲܪܝܲܡ ܓܠ̣ܵܐ ܘܣܲܒܿܪܵܗ̇: ܕܡܸܢܹܟܼܝ ܕܿܢܲܚ</l>
                     <l>:ܢܘܼܗܪܹܗ ܕܥܵܠܡܵܐ: ܐܲܚܲܝ̈</l>
-                </div2>
-                <div2 type="text" xml:lang="syr">
+                </div>
+                <div type="text" xml:lang="syr">
                 <l n="1">:ܬܘܵܬܼ ܪ̣ܥܝܵܢܵܐ ܬܘ̣ܵܬܲܢܝ ܕܐܸܦܢܹܐ ܠܘܵܬܼ ܝܘܼܠܦܵܢܵܐ</l>
                 <l n="2">ܘܐܸܪܕܹܿܐ ܒܐܘܼܪܚܵܐ ܕܝܥ̣ܢܝܵܢ ܣܸܦܪܹ̈ܐ ܕܦܵܫܹ̇ܬܼ ܡܸܢܵܗ̇ ܀</l>
                 <l n="3">:ܒܥܸܢܝܵܢ ܣܸܦܪܹ̈ܐ ܐܲܠܵܗܵܝܹ̈ܐ ܥܢܹܐ ܗ̄ܘ̣ܵܐ ܪܸܥܝܵܢܝ</l>
@@ -1051,8 +1046,7 @@
                 <l n="890">ܘܒܼܵܗ̇ ܐܸܬܼܢܲܗܲܪܘ ܐܲܪ̈ܥܵܢܵܝܹܐ ܘܲܫܡܲܝܵܢܹ̈ܐ ܀</l>
                 <l n="891">:ܗܵܐ ܢܗ݂ܲܪ ܥܵܠܡܵܐ ܒܢܘܼܗܪܵܐ ܪܲܒܵܐ ܕܫܸܡ ܒܵܪܘܿܝܵܐ</l>
                 <l n="892">ܢܩܵܘܹܐ ܒܢܘܼܗܪܹܗ ܕܠܵܐ ܢܸܫܬܲܢܲܩ ܒܚܸܫܟܵܐ ܕܲܠܒܲܪ ܀</l>
-                </div2>
-            </div1>
+                </div>   
         </body>
     </text>
 </TEI>
