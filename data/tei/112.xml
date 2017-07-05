@@ -27,11 +27,11 @@
                 </respStmt>
                 <respStmt>
                     <resp>Edited by</resp>
-                    <name type="person" ref=""><!--Insert name of the person who edits this document --></name>
+                    <name type="person"><!--Insert name of the person who edits this document --></name>
                 </respStmt>
                 <respStmt>
                     <resp>Syriac text transcribed by</resp>
-                    <name type="person" ref=""><!-- Name of the person who transcribed the Syriac text --></name>
+                    <name type="person"><!-- Name of the person who transcribed the Syriac text --></name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -40,7 +40,7 @@
             <publicationStmt>
                 <distributor>
                     <pubPlace>
-                        <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt University, Nashville, Tennessee, USA</placeName>
+                        <placeName>Jean and Alexander Heard Library System, Vanderbilt University, Nashville, Tennessee, USA</placeName>
                     </pubPlace>
                 </distributor>
                 <authority>The Oxford-BYU Syriac Corpus</authority>

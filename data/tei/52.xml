@@ -38,16 +38,16 @@
                 </respStmt>
                 <respStmt>
                     <resp>Based on the work of</resp>
-                    <name type="person" ref="">D. Alphonse Mingana</name>
+                    <name type="person">D. Alphonse Mingana</name>
                 </respStmt>
                 <respStmt>
                     <resp>Edited by</resp>
-                    <name type="person" ref=""
+                    <name type="person"
                         ><!--Insert name of the person who edits this document --></name>
                 </respStmt>
                 <respStmt>
                     <resp>Syriac text transcribed by</resp>
-                    <name type="person" ref=""
+                    <name type="person"
                         ><!-- Name of the person who transcribed the Syriac text --></name>
                 </respStmt>
             </titleStmt>
@@ -57,7 +57,7 @@
             <publicationStmt>
                 <distributor>
                     <pubPlace>
-                        <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt
+                        <placeName>Jean and Alexander Heard Library System, Vanderbilt
                             University, Nashville, Tennessee, USA</placeName>
                     </pubPlace>
                 </distributor>
