@@ -73,6 +73,7 @@
                     <analytic>
                         <editor>D. Ioannes Parisot</editor>
                         <title level="a">Aphraatis Demonstrationes I-XXII</title>
+                        <idno type="URI">http://syriaca.org/bibl/2329</idno>
                     </analytic>
                     <monogr>
                         <editor>R. Graffin</editor>
@@ -101,6 +102,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-07-04" who="http://syriaca.org/person.xml#jwalters">Edited text structure</change>
             <change when="2017-01-11" who="http://syriaca.org/person.xml#jwalters">Added work
                 URIs</change>
             <change when="2016-11-30" who="http://syriaca.org/person.xml#jwalters">Created:
@@ -110,7 +112,7 @@
     <text>
         <body>
                 <div type="title" n="0">
-                    <ab xml:lang="syr">ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ܂</ab>
+                    <ab xml:lang="syr">ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ</ab>
                 </div>
                 <div type="section" n="1">
                     <head type="editorial">1</head>

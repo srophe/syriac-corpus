@@ -27,11 +27,11 @@
                 </respStmt>
                 <respStmt>
                     <resp>Edited by</resp>
-                    <name type="person" ref=""><!--Insert name of the person who edits this document --></name>
+                    <name type="person"><!--Insert name of the person who edits this document --></name>
                 </respStmt>
                 <respStmt>
                     <resp>Syriac text transcribed by</resp>
-                    <name type="person" ref=""><!-- Name of the person who transcribed the Syriac text --></name>
+                    <name type="person"><!-- Name of the person who transcribed the Syriac text --></name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -39,9 +39,7 @@
             </editionStmt>
             <publicationStmt>
                 <distributor>
-                    <pubPlace>
-                        <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt University, Nashville, Tennessee, USA</placeName>
-                    </pubPlace>
+                        <placeName>Jean and Alexander Heard Library System, Vanderbilt University, Nashville, Tennessee, USA</placeName>
                 </distributor>
                 <authority>The Oxford-BYU Syriac Corpus</authority>
                 <idno type="URI">https://syriaccorpus.org/26</idno>
@@ -59,6 +57,9 @@
                     <msIdentifier>
                         <msName>Vatican syr. 117, fol. 412b-32a</msName>
                         <msName>Mardin 136</msName>
+                        <altIdentifier>
+                            <idno type="URI">http://syriaca.org/manuscript/2294</idno>
+                        </altIdentifier>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
@@ -75,23 +76,20 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-07-04" who="http://syriaca.org/person.xml#jwalters">Edited text structure</change>
             <change when="2017-01-11" who="http://syriaca.org/person.xml#jwalters">Added work URIs</change>
             <change when="2016-11-30" who="http://syriaca.org/person.xml#jwalters">Created: file</change>
         </revisionDesc>
     </teiHeader>    
     <text>
         <body>
-            <div1 type="part" n="1">
-                <head>
-                    <title xml:lang="en">On Joseph (Memra 1)</title>
-                </head>
-                <head xml:lang="syr">
-                    <title xml:lang="syr">ܡܺܐܡܪܳܐ ܩܰܕܡܳܝܳܐ ܕܥܰܠ ܝܰܘܣܶܦ </title>
-                </head>
-                <div2 type="rubric" xml:lang="syr">
+                <div type="title" n="0">
+                    <ab xml:lang="syr">ܡܺܐܡܪܳܐ ܩܰܕܡܳܝܳܐ ܕܥܰܠ ܝܰܘܣܶܦ </ab>
+                </div>
+                <div type="rubric" xml:lang="syr">
                     <l>ܡܺܐܡܪܳܐ ܩܰܕܡܳܝܳܐ ܕܥܰܠ ܝܰܘܣܶܦ</l>
-                </div2>
-                <div2 type="text" xml:lang="syr">
+                </div>
+                <div type="text" xml:lang="syr">
                     <l n="1">ܫܽܘܦܪܳܐ ܡܫܺܝܼܚܳܐ ܕܒܶܗ ܐܶܨܛܰܒܰܬ݂ܘ ܟܽܠܗܽܘܢ ܟܺܐܢ̈ܶܐ</l>
                     <l n="2">ܗܰܒ ܠܺܝܼ ܐܶܚܽܘܪ ܟܰܕ ܬܳܗܰܪ ܐ̱ܢܳܐ ܟܡܳܐ ܫܰܦܺܝܼܪ ܐܰܢ̱ܬ</l>
                     <l n="3">ܨܰܠܡܳܐ ܪܰܒܳܐ ܕܡܶܢܶܗ ܢܳܣܒܺܝܢ ܫܽܘܦܪ̈ܶܐ ܓܰܘ̈ܢܶܐ</l>
@@ -533,8 +531,7 @@
                     <l n="439">ܒܪܺܝܟ ܕܰܒܚܽܘܒܶܗ ܛܪܰܕ ܠܰܚܣܳܡܳܐ ܡܶܢ ܫܰܪܺܝܪ̈ܶܐ</l>
                     
                     <l>ܫܠܶܡ ܡܺܐܡܪܳܐ ܩܰܕܡܳܝܳܐ ܕܥܰܠ ܝܰܘܣܶܦ</l>
-                </div2>
-            </div1>
+                </div>
         </body>
     </text>
 </TEI>
