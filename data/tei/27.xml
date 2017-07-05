@@ -104,7 +104,7 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc> 
             <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text structure</change>
             <change when="2017-01-11" who="http://syriaca.org/person.xml#jwalters">Added work
                 URIs</change>
