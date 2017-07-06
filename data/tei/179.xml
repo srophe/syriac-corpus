@@ -3,8 +3,10 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8654">Odes of Solomon: Ode 36</title>
-                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8620">The Odes of Solomon</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8654">Odes of Solomon:
+                    Ode 36</title>
+                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8620">The Odes of
+                    Solomon</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author>Anonymous</author>
                 <sponsor>University of Oxford</sponsor>
@@ -53,9 +55,8 @@
             </editionStmt>
             <publicationStmt>
                 <distributor>
-                                            <placeName>Jean and Alexander Heard Library System, Vanderbilt
-                            University, Nashville, Tennessee, USA</placeName>
-                    </pubPlace>
+                    <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
                 </distributor>
                 <authority>The Oxford-BYU Syriac Corpus</authority>
                 <idno type="URI">https://syriaccorpus.org/179</idno>
@@ -73,6 +74,7 @@
                 <biblStruct>
                     <analytic>
                         <editor>James H. Charlesworth</editor>
+                        <idno type="URI">http://syriaca.org/bibl/2455</idno>
                     </analytic>
                     <monogr>
                         <title level="a">The Odes of Solomon</title>
@@ -100,76 +102,71 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-07-06" who="http://syriaca.org/person.xml#jwalters">Edited text
+                structure</change>
             <change when="2016-05-06" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div1 type="part" n="36">
-                <head xml:lang="en">
-                    <title xml:lang="en">Odes of Solomon: Ode 36</title>
-                </head>
-                <div2 type="text" xml:lang="syr">
-                    <lg type="stanza" n="1">
-                        <head>1</head>
-                        
-                        <l>ܐܶܬܬܢܺܝܚ݀ܰܬ ܥܰܠ ܪܽܘܚܶܗ ܕܡܳܪܝܳܐ܆ </l>
-                        <l>ܘܰܐܪܺܝܡܬܳܢܝ ܠܪܰܘܡܳܐ.
-                        </l>
-                    </lg>
-                    <lg type="stanza" n="2">
-                        <head>2</head>
-                        
-                        <l>ܘܰܐܩܺܝܡܬܳܢܝ ܥܰܠ ܪ̈ܶܓܠܰܝ ܒܪܰܘܡܶܗ ܕܡܳܪܝܳܐ܆ </l>
-                        <l>ܩܕܳܡ ܫܽܘܡܠܳܝܶܗ ܘܬܶܫܒܽܘܚܬܶܗ܆</l>
-                        <l>ܟܰܕ ܡܫܰܒܰܚ ܐ̱ܢܳܐ ܒܬܽܘܩܳܢܳܐ ܕܰܙܡܺܝܪ̈ܳܬܶܗ. </l>
-                    </lg>
-                    
-                    <lg type="stanza" n="3">
-                        <head>3</head>
-                        <l>ܝܺܠܶܕܬܳܢܝ ܡܼܶܢ ܩܕܳܡ ܐܰܦܰܘܗ̱̈ܝ ܕܡܳܪܝܳܐ܆ </l>
-                        <l>ܘܟܰܕ ܒܰܪܢܳܫܳܐ ܐܺܝܬܰܝ܆</l> 
-                        <l>ܐܶܫܿܬܰܡܗܶܬ ܢܰܗܺܝܪܳܐ ܒܪܶܗ ܕܰܐܠܳܗܳܐ.</l> 
-                    </lg>
-                    
-                    <lg type="stanza" n="4">
-                        <head>4</head>
-                        
-                        <l>ܟܰܕ ܡܫܰܒܰܚ ܐ̱ܢܳܐ ܒܰܡܫܰܒ̈ܚܶܐ܆</l>
-                        <l>ܘܪܰܒ ܐ̱ܢܳܐ ܒܪܰܘܪ̈ܒܳܢܶܐ. 
-                        </l>
-                    </lg>
-                    <lg type="stanza" n="5">
-                        <head>5</head>
-                        
-                        <l>ܐܰܝܟ ܪܰܒܽܘܬܶܗ ܓܶܝܪ ܕܰܡܪܰܝܡܳܐ ܗܳܟܰܢܳܐ ܥܒܰܕܬܰܢܝ܆</l>
-                        <l>ܘܐܰܝܟ ܚܽܘܕܳܬܶܗ ܚܰܕܬܰܢܝ. 
-                        </l>
-                    </lg>
-                    <lg type="stanza" n="6">
-                        <head>6</head>
-                        
-                        <l>ܘܡܰܫܚܰܢܝ ܡܼܶܢ ܡܫܰܡܠܝܽܘܬܶܗ܆ </l>
-                        <l>ܘܰܗܿܘܺܝܬ ܚܰܕ ܡܼܶܢ ܩܰܪ̈ܺܝܒܰܘܗ̱ܝ.
-                        </l>
-                    </lg>
-                    <lg type="stanza" n="7">
-                        <head>7</head>
-                        
-                        <l>ܘܶܐܬܦܰܬܰܚ ܦܽܘܡܝ ܐܰܝܟ ܥܢܳܢܳܐ ܕܛܰܠܴܐ܆ </l>
-                        <l>ܘܰܓܣܳܐ ܠܶܒܝ ܓܣܺܝܬܳܐ ܕܙܰܕܺܝܩܽܘܬܳܐ. 
-                        </l>
-                    </lg>
-                    <lg type="stanza" n="8">
-                        <head>8</head>
-                        
-                        <l>ܘܰܗܘܳܐ ܩܽܘܪܳܒܝ ܒܰܫܠܳܡܳܐ܆</l>
-                            <l>ܘܶܐܫܬܰܪܪܰܬ ܒܪܽܘܚܳܐ ܕܰܡܕܰܒܪܳܢܽܘܬܳܐ.</l> 
-                            <l>ܗܰܠܶܠܘܽܝܰܐ.</l>
-                    </lg>
-                </div2>
-            </div1>
+
+
+            <div type="text" xml:lang="syr">
+                <lg type="stanza" n="1">
+                    <head>1</head>
+
+                    <l>ܐܶܬܬܢܺܝܚ݀ܰܬ ܥܰܠ ܪܽܘܚܶܗ ܕܡܳܪܝܳܐ܆ </l>
+                    <l>ܘܰܐܪܺܝܡܬܳܢܝ ܠܪܰܘܡܳܐ. </l>
+                </lg>
+                <lg type="stanza" n="2">
+                    <head>2</head>
+
+                    <l>ܘܰܐܩܺܝܡܬܳܢܝ ܥܰܠ ܪ̈ܶܓܠܰܝ ܒܪܰܘܡܶܗ ܕܡܳܪܝܳܐ܆ </l>
+                    <l>ܩܕܳܡ ܫܽܘܡܠܳܝܶܗ ܘܬܶܫܒܽܘܚܬܶܗ܆</l>
+                    <l>ܟܰܕ ܡܫܰܒܰܚ ܐ̱ܢܳܐ ܒܬܽܘܩܳܢܳܐ ܕܰܙܡܺܝܪ̈ܳܬܶܗ. </l>
+                </lg>
+
+                <lg type="stanza" n="3">
+                    <head>3</head>
+                    <l>ܝܺܠܶܕܬܳܢܝ ܡܼܶܢ ܩܕܳܡ ܐܰܦܰܘܗ̱̈ܝ ܕܡܳܪܝܳܐ܆ </l>
+                    <l>ܘܟܰܕ ܒܰܪܢܳܫܳܐ ܐܺܝܬܰܝ܆</l>
+                    <l>ܐܶܫܿܬܰܡܗܶܬ ܢܰܗܺܝܪܳܐ ܒܪܶܗ ܕܰܐܠܳܗܳܐ.</l>
+                </lg>
+
+                <lg type="stanza" n="4">
+                    <head>4</head>
+
+                    <l>ܟܰܕ ܡܫܰܒܰܚ ܐ̱ܢܳܐ ܒܰܡܫܰܒ̈ܚܶܐ܆</l>
+                    <l>ܘܪܰܒ ܐ̱ܢܳܐ ܒܪܰܘܪ̈ܒܳܢܶܐ. </l>
+                </lg>
+                <lg type="stanza" n="5">
+                    <head>5</head>
+
+                    <l>ܐܰܝܟ ܪܰܒܽܘܬܶܗ ܓܶܝܪ ܕܰܡܪܰܝܡܳܐ ܗܳܟܰܢܳܐ ܥܒܰܕܬܰܢܝ܆</l>
+                    <l>ܘܐܰܝܟ ܚܽܘܕܳܬܶܗ ܚܰܕܬܰܢܝ. </l>
+                </lg>
+                <lg type="stanza" n="6">
+                    <head>6</head>
+
+                    <l>ܘܡܰܫܚܰܢܝ ܡܼܶܢ ܡܫܰܡܠܝܽܘܬܶܗ܆ </l>
+                    <l>ܘܰܗܿܘܺܝܬ ܚܰܕ ܡܼܶܢ ܩܰܪ̈ܺܝܒܰܘܗ̱ܝ. </l>
+                </lg>
+                <lg type="stanza" n="7">
+                    <head>7</head>
+
+                    <l>ܘܶܐܬܦܰܬܰܚ ܦܽܘܡܝ ܐܰܝܟ ܥܢܳܢܳܐ ܕܛܰܠܴܐ܆ </l>
+                    <l>ܘܰܓܣܳܐ ܠܶܒܝ ܓܣܺܝܬܳܐ ܕܙܰܕܺܝܩܽܘܬܳܐ. </l>
+                </lg>
+                <lg type="stanza" n="8">
+                    <head>8</head>
+
+                    <l>ܘܰܗܘܳܐ ܩܽܘܪܳܒܝ ܒܰܫܠܳܡܳܐ܆</l>
+                    <l>ܘܶܐܫܬܰܪܪܰܬ ܒܪܽܘܚܳܐ ܕܰܡܕܰܒܪܳܢܽܘܬܳܐ.</l>
+                    <l>ܗܰܠܶܠܘܽܝܰܐ.</l>
+                </lg>
+            </div>
+
         </body>
     </text>
 </TEI>
