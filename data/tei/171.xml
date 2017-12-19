@@ -3,8 +3,10 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8646">Odes of Solomon: Ode 28</title>
-                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8620">The Odes of Solomon</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8646">Odes of Solomon:
+                    Ode 28</title>
+                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8620">The Odes of
+                    Solomon</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author>Anonymous</author>
                 <sponsor>University of Oxford</sponsor>
@@ -36,16 +38,16 @@
                 </respStmt>
                 <respStmt>
                     <resp>Based on the work of</resp>
-                    <name type="person" ref="">James H. Chalresworth</name>
+                    <name type="person">James H. Chalresworth</name>
                 </respStmt>
                 <respStmt>
                     <resp>Edited by</resp>
-                    <name type="person" ref=""
+                    <name type="person"
                         ><!--Insert name of the person who edits this document --></name>
                 </respStmt>
                 <respStmt>
                     <resp>Syriac text transcribed by</resp>
-                    <name type="person" ref="">Michael Oez</name>
+                    <name type="person">Michael Oez</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -53,10 +55,8 @@
             </editionStmt>
             <publicationStmt>
                 <distributor>
-                    <pubPlace>
-                        <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt
-                            University, Nashville, Tennessee, USA</placeName>
-                    </pubPlace>
+                    <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
                 </distributor>
                 <authority>The Oxford-BYU Syriac Corpus</authority>
                 <idno type="URI">https://syriaccorpus.org/171</idno>
@@ -73,7 +73,8 @@
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <editor>James H. Chalresworth</editor>
+                        <editor>James H. Charlesworth</editor>
+                        <idno type="URI">http://syriaca.org/bibl/2455</idno>
                     </analytic>
                     <monogr>
                         <title level="a">The Odes of Solomon</title>
@@ -101,139 +102,132 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-07-06" who="http://syriaca.org/person.xml#jwalters">Edited text
+                structure</change>
             <change when="2016-05-05" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div1 type="part" n="28">
-                <head xml:lang="en">
-                    <title xml:lang="en">Odes of Solomon: Ode 28</title>
-                </head>
-                <div2 type="text" xml:lang="syr">
-                    <lg type="stanza" n="1">
-                        <head>1</head>
-                        
-                        <l>ܐܰܝܟ ܓܶܦܷ̈ܐ ܕܝܰܘ̈ܢܶܐ ܥܰܠ ܦܰܪ̈ܽܘܓܰܝܗܶܝܢ܆ 
-                            ܘܦܽܘ̈ܡܶܐ ܕܦܰܪ̈ܽܘܓܰܝܗܶܝܢ ܠܘܳܬ ܦܽܘ̈ܡܰܝܗܶܝܢ܆ </l>
-                        <l>ܗܳܟܰܢܳܐ ܐܳܦ ܓܶܦܷ̈ܝܗܿ ܕܪܽܘܚܳܐ ܥܰܠ ܠܶܒܝ. 
-                        </l>
-                    </lg>
-                    <lg type="stanza" n="2">
-                        <head>2</head>
-                        
-                        <l>ܡܶܬܒܰܣܰܡ ܠܶܒܝ ܘܕܳܐܶܨ܆</l>
-                        <l>ܐܰܝܟ ܥܽܘܼܠܴܐ ܕܕܳܐܷܨ ܒܟܰܪܣܳܐ ܕܐܶܡܶܗ. 
-                        </l>
-                    </lg>
-                    <lg type="stanza" n="3">
-                        <head>3</head>
-                        
-                        <l>ܗܰܝܡܿܢܶܬ ܡܶܛܠ ܗܳܢܳܐ ܐܳܦ ܐܶܬܬܢܻܿܚܶܬ܆ </l>
-                        <l>ܡܶܛܽܠ ܕܰܡܗܰܝܡܰܢ ܗ̱ܽܘܼ ܗܰܘܿ ܕܗܰܝܡܢܶܬ ܒܶܗ. 
-                        </l>
-                    </lg>
-                    <lg type="stanza" n="4">
-                        <head>4</head>
-                        
-                        <l>ܡܒܰܪܳܟܽܘ ܒܰܪܟܰܢܝ܆</l>
-                        <l>ܘܪܺܝܫܝ ܠܘܳܬܶܗ ܗ̱ܽܘܼ.
-                        </l>
-                    </lg>
-                    <lg type="stanza" n="5">
-                        <head>5</head>
-                        
-                        <l>ܘܚܰܪܒܳܐ ܠܴܐ ܬܦܰܠܓܰܢܝ ܡܶܢܶܗ܆ </l>
-                        <l>ܐܳܦܠܴܐ ܣܰܦܣܺܪܳܐ. 
-                        </l>
-                    </lg>
-                    <lg type="stanza" n="6">
-                        <head>6 (5)</head>
-                        
-                        <l>ܡܶܛܽܠ ܕܐܶܬܥܰܬܕܶܬ ܡܼܶܢ ܩܕܳܡ ܕܢܶܗܘܶܐ ܐܰܒܕܳܢܳܐ܆</l> 
-                        <l>ܘܐܷܬܣܺܝܡܶܬ ܒܟܶܢܦܰܘ̈ܗ̱ܝ ܕܠܴܐ ܚܒܴܿܠܴܐ.</l> 
-                    </lg>
-                    <lg type="stanza" n="7">
-                        <head>7 (6)</head>
-                        
-                        <l>ܘܥܰܦܩܽܘܢܝ ܚܰܝܷ̈ܐ ܕܠܴܐ ܡܰܘܬܳܐ܆</l> 
-                        <l>ܘܢܰܫܩܽܘܢܝ.</l>
-                    </lg>
-                    <lg type="stanza" n="8">
-                        <head>8 (7)</head>
-                        
-                        <l>ܘܡܶܢܗܽܘܢܿ ܐܺܝܬܶܝܗܿ ܪܽܘܚܳܐ ܕܒܺܝ܆
-                        </l><l>ܘܠܴܐ ܡܶܫܚܳܐ ܠܰܡܡܳܬ ܡܶܛܽܠ ܕܚܰܝܷ̈ܐ ܗ̱ܝ.</l> 
-                    </lg>
-                    <lg type="stanza" n="9">
-                        <head>9 (8)</head>
-                        
-                        <l>ܐܶܬܕܰܡܰܪܘ ܐܰܝܠܶܝܢ ܕܚܳܙܶܝܢ ܗ̱ܘܘ ܠܺܝ܆</l> 
-                        <l>ܡܶܛܽܠ ܕܐܶܬܪܰܕܦܶܬ.</l> 
-                    </lg>
-                    <lg type="stanza" n="10">
-                        <head>10 (9)</head>
-                        
-                        <l>ܘܰܣܒܼܰܪܘ ܕܶܐܬܒܰܠܥܶܬ ܠܺܝ܆
-                        </l><l>ܡܶܛܽܠ ܕܐܶܬܚܰܙܝܰܬ ܠܗܽܘܢܿ ܐܰܝܟ ܚܰܕ ܡܼܶܢ ܐܰܒܺܝ̈ܕܶܐ.</l>
-                    </lg>
-                    <lg type="stanza" n="11">
-                        <head>11 (10)</head>
-                        
-                        <l>ܘܰܛܠܾܘܡܝܳܐ ܕܶܝܢ ܕܺܝܠܝ܆</l>
-                        <l>ܦܽܘܪܩܳܢܳܐ ܗܘܳܐ ܠܺܝ.</l> 
-                    </lg>
-                    <lg type="stanza" n="12">
-                        <head>12 (11)</head>
-                        <l>ܘܣܽܘܠܳܢܗܽܘܢܿ ܕܶܝܢ ܗܘܝܿܺܬ܆ </l>
-                        <l>ܡܶܛܽܠ ܕܛܢܳܢܳܐ ܠܰܝܬ ܗ̱ܘܳܐ ܒܺܝ. </l>
-                    </lg>
-                    <lg type="stanza" n="13">
-                        <head>13 (12)</head>
-                        <l>ܡܶܛܽܠ ܕܰܠܟܽܠܢܳܫ ܥܴܿܒܶܕ ܗ̱ܘܺܝܿܬ ܛܳܒܳܬܐ܆ </l>
-                        <l>ܐܶܣܿܬܢܺܝܬ. </l>
-                    </lg>
-                    <lg type="stanza" n="14">
-                        <head>14 (13)</head>
-                        <l>ܘܚܰܕܪܽܘܢܝ ܐܰܝܟ ܟܰܠܒܷ̈ܐ ܦܰܩܪܷ̈ܐ܆ </l>
-                        <l>ܗܿܳܢܽܘܢܿ ܕܰܒܠܴܐ ܝܻܕܰܥܬܳܐ ܐܳܙܺܠ̱ܝܢ ܥܰܠ ܡܳܪ̈ܰܝܗܽܘܢܿ. </l>
-                    </lg>
-                    <lg type="stanza" n="15">
-                        <head>15 (14)</head>
-                        <l>ܡܶܛܽܠ ܕܰܡܚܰܒܠܴܐ ܗ̱ܝܼ ܬܰܪܥܺܝܬܗܽܘܢܿ܆ </l>
-                        <l>ܘܰܡܫܰܚܠܰܦ ܪܶܥܝܳܢܗܽܘܢܿ.</l>
-                    </lg>
-                    <lg type="stanza" n="16">
-                        <head>16 (15)</head>
-                        <l>ܐܶܢܳܐ ܕܶܝܢ ܡܰܝܴ̈ܐ ܐܰܚܺܝܕ ܗ̱ܘܺܝܿܬ ܒܝܰܡܺܝܢܝ܆</l>
-                        <l>ܘܰܠܡܰܪܺܝܪܽܘܬܗܽܘܢ ܛܶܥܿܢܶܬ ܒܚܰܠܝܽܘܬܝ. </l>
-                    </lg>
-                    <lg type="stanza" n="17">
-                        <head>17 (16)</head>
-                        <l>ܘܠܴܐ ܐܶ݀ܒܕܶܬ ܡܶܛܽܠ ܕܠܴܐ ܗ̱ܘܺܝܿܬ ܐܰܚܽܘܬܗܽܘܢܿ܆</l>
-                        <l>ܐܳܦܠܴܐ ܓܶܝܪ (ܝܺܠܺܝܕܽܘܬܝ ܐܰܟܘܳܬܗܽܘܢܿ).</l>
-                    </lg>
-                    <lg type="stanza" n="18">
-                        <head>18 (17)</head>
-                        <l>ܘܰܒܥܰܘ ܡܰܘܬܝ ܘܠܴܐ ܐܶܫܟܰܚܘ܆
-                            ܡܶܛܽܠ ܕܩܰܫܺܝܫ ܗ̱ܘܺܝܿܬ ܡܼܶܢ ܕܽܘܟܪܳܢܗܽܘܢܿ܆</l>
-                        <l>ܘܰܣܪܺܝܩܳܐܺܝܬ ܢܳܦܣܺܝܢ ܗ̱ܘܰܘ ܥܠܰܝ.</l>
-                    </lg>
-                    <lg type="stanza" n="19">
-                        <head>19 (18)</head>
-                        <l>ܘܐܰܝܠܶܝܢ ܕܡܼܶܢ ܒܳܬܰܪܝ ܗܘܰܘ܆</l>
-                        <l>ܡܰܓܳܢ ܕܽܘܟܪܳܢܳܐ ܕܗܰܘܿ ܕܡܼܶܢ ܩܕܳܡܰܝܗܽܘܢܿ ܒܥܼܰܘ ܠܡܰܘܒܳܕܽܘ.</l>
-                    </lg>
-                    <lg type="stanza" n="20">
-                        <head>20 (19)</head>
-                        <l>ܡܶܛܽܠ ܕܠܴܐ ܡܶܬܩܰܕܡܳܐ ܬܰܪܥܺܝܬܶܗ ܕܰܡܪܰܝܡܳܐ܆ 
-                            ܘܠܶܒܶܗ ܡܝܰܬܰܪ ܗ̱ܽܘܼ ܡܼܶܢ ܟܽܠ ܚܶܟܡܳܐ.</l>
-                        <l>ܗܰܠܶܠܘܽܝܰܐ.
-                        </l>
-                    </lg>
-                </div2>
-            </div1>
+
+
+            <div type="text" xml:lang="syr">
+                <lg type="stanza" n="1">
+                    <head>1</head>
+
+                    <l>ܐܰܝܟ ܓܶܦܷ̈ܐ ܕܝܰܘ̈ܢܶܐ ܥܰܠ ܦܰܪ̈ܽܘܓܰܝܗܶܝܢ܆ ܘܦܽܘ̈ܡܶܐ ܕܦܰܪ̈ܽܘܓܰܝܗܶܝܢ ܠܘܳܬ
+                        ܦܽܘ̈ܡܰܝܗܶܝܢ܆ </l>
+                    <l>ܗܳܟܰܢܳܐ ܐܳܦ ܓܶܦܷ̈ܝܗܿ ܕܪܽܘܚܳܐ ܥܰܠ ܠܶܒܝ. </l>
+                </lg>
+                <lg type="stanza" n="2">
+                    <head>2</head>
+
+                    <l>ܡܶܬܒܰܣܰܡ ܠܶܒܝ ܘܕܳܐܶܨ܆</l>
+                    <l>ܐܰܝܟ ܥܽܘܼܠܴܐ ܕܕܳܐܷܨ ܒܟܰܪܣܳܐ ܕܐܶܡܶܗ. </l>
+                </lg>
+                <lg type="stanza" n="3">
+                    <head>3</head>
+
+                    <l>ܗܰܝܡܿܢܶܬ ܡܶܛܠ ܗܳܢܳܐ ܐܳܦ ܐܶܬܬܢܻܿܚܶܬ܆ </l>
+                    <l>ܡܶܛܽܠ ܕܰܡܗܰܝܡܰܢ ܗ̱ܽܘܼ ܗܰܘܿ ܕܗܰܝܡܢܶܬ ܒܶܗ. </l>
+                </lg>
+                <lg type="stanza" n="4">
+                    <head>4</head>
+
+                    <l>ܡܒܰܪܳܟܽܘ ܒܰܪܟܰܢܝ܆</l>
+                    <l>ܘܪܺܝܫܝ ܠܘܳܬܶܗ ܗ̱ܽܘܼ. </l>
+                </lg>
+                <lg type="stanza" n="5">
+                    <head>5</head>
+
+                    <l>ܘܚܰܪܒܳܐ ܠܴܐ ܬܦܰܠܓܰܢܝ ܡܶܢܶܗ܆ </l>
+                    <l>ܐܳܦܠܴܐ ܣܰܦܣܺܪܳܐ. </l>
+                </lg>
+                <lg type="stanza" n="6">
+                    <head>6 (5)</head>
+
+                    <l>ܡܶܛܽܠ ܕܐܶܬܥܰܬܕܶܬ ܡܼܶܢ ܩܕܳܡ ܕܢܶܗܘܶܐ ܐܰܒܕܳܢܳܐ܆</l>
+                    <l>ܘܐܷܬܣܺܝܡܶܬ ܒܟܶܢܦܰܘ̈ܗ̱ܝ ܕܠܴܐ ܚܒܴܿܠܴܐ.</l>
+                </lg>
+                <lg type="stanza" n="7">
+                    <head>7 (6)</head>
+
+                    <l>ܘܥܰܦܩܽܘܢܝ ܚܰܝܷ̈ܐ ܕܠܴܐ ܡܰܘܬܳܐ܆</l>
+                    <l>ܘܢܰܫܩܽܘܢܝ.</l>
+                </lg>
+                <lg type="stanza" n="8">
+                    <head>8 (7)</head>
+
+                    <l>ܘܡܶܢܗܽܘܢܿ ܐܺܝܬܶܝܗܿ ܪܽܘܚܳܐ ܕܒܺܝ܆ </l>
+                    <l>ܘܠܴܐ ܡܶܫܚܳܐ ܠܰܡܡܳܬ ܡܶܛܽܠ ܕܚܰܝܷ̈ܐ ܗ̱ܝ.</l>
+                </lg>
+                <lg type="stanza" n="9">
+                    <head>9 (8)</head>
+
+                    <l>ܐܶܬܕܰܡܰܪܘ ܐܰܝܠܶܝܢ ܕܚܳܙܶܝܢ ܗ̱ܘܘ ܠܺܝ܆</l>
+                    <l>ܡܶܛܽܠ ܕܐܶܬܪܰܕܦܶܬ.</l>
+                </lg>
+                <lg type="stanza" n="10">
+                    <head>10 (9)</head>
+
+                    <l>ܘܰܣܒܼܰܪܘ ܕܶܐܬܒܰܠܥܶܬ ܠܺܝ܆ </l>
+                    <l>ܡܶܛܽܠ ܕܐܶܬܚܰܙܝܰܬ ܠܗܽܘܢܿ ܐܰܝܟ ܚܰܕ ܡܼܶܢ ܐܰܒܺܝ̈ܕܶܐ.</l>
+                </lg>
+                <lg type="stanza" n="11">
+                    <head>11 (10)</head>
+
+                    <l>ܘܰܛܠܾܘܡܝܳܐ ܕܶܝܢ ܕܺܝܠܝ܆</l>
+                    <l>ܦܽܘܪܩܳܢܳܐ ܗܘܳܐ ܠܺܝ.</l>
+                </lg>
+                <lg type="stanza" n="12">
+                    <head>12 (11)</head>
+                    <l>ܘܣܽܘܠܳܢܗܽܘܢܿ ܕܶܝܢ ܗܘܝܿܺܬ܆ </l>
+                    <l>ܡܶܛܽܠ ܕܛܢܳܢܳܐ ܠܰܝܬ ܗ̱ܘܳܐ ܒܺܝ. </l>
+                </lg>
+                <lg type="stanza" n="13">
+                    <head>13 (12)</head>
+                    <l>ܡܶܛܽܠ ܕܰܠܟܽܠܢܳܫ ܥܴܿܒܶܕ ܗ̱ܘܺܝܿܬ ܛܳܒܳܬܐ܆ </l>
+                    <l>ܐܶܣܿܬܢܺܝܬ. </l>
+                </lg>
+                <lg type="stanza" n="14">
+                    <head>14 (13)</head>
+                    <l>ܘܚܰܕܪܽܘܢܝ ܐܰܝܟ ܟܰܠܒܷ̈ܐ ܦܰܩܪܷ̈ܐ܆ </l>
+                    <l>ܗܿܳܢܽܘܢܿ ܕܰܒܠܴܐ ܝܻܕܰܥܬܳܐ ܐܳܙܺܠ̱ܝܢ ܥܰܠ ܡܳܪ̈ܰܝܗܽܘܢܿ. </l>
+                </lg>
+                <lg type="stanza" n="15">
+                    <head>15 (14)</head>
+                    <l>ܡܶܛܽܠ ܕܰܡܚܰܒܠܴܐ ܗ̱ܝܼ ܬܰܪܥܺܝܬܗܽܘܢܿ܆ </l>
+                    <l>ܘܰܡܫܰܚܠܰܦ ܪܶܥܝܳܢܗܽܘܢܿ.</l>
+                </lg>
+                <lg type="stanza" n="16">
+                    <head>16 (15)</head>
+                    <l>ܐܶܢܳܐ ܕܶܝܢ ܡܰܝܴ̈ܐ ܐܰܚܺܝܕ ܗ̱ܘܺܝܿܬ ܒܝܰܡܺܝܢܝ܆</l>
+                    <l>ܘܰܠܡܰܪܺܝܪܽܘܬܗܽܘܢ ܛܶܥܿܢܶܬ ܒܚܰܠܝܽܘܬܝ. </l>
+                </lg>
+                <lg type="stanza" n="17">
+                    <head>17 (16)</head>
+                    <l>ܘܠܴܐ ܐܶ݀ܒܕܶܬ ܡܶܛܽܠ ܕܠܴܐ ܗ̱ܘܺܝܿܬ ܐܰܚܽܘܬܗܽܘܢܿ܆</l>
+                    <l>ܐܳܦܠܴܐ ܓܶܝܪ (ܝܺܠܺܝܕܽܘܬܝ ܐܰܟܘܳܬܗܽܘܢܿ).</l>
+                </lg>
+                <lg type="stanza" n="18">
+                    <head>18 (17)</head>
+                    <l>ܘܰܒܥܰܘ ܡܰܘܬܝ ܘܠܴܐ ܐܶܫܟܰܚܘ܆ ܡܶܛܽܠ ܕܩܰܫܺܝܫ ܗ̱ܘܺܝܿܬ ܡܼܶܢ ܕܽܘܟܪܳܢܗܽܘܢܿ܆</l>
+                    <l>ܘܰܣܪܺܝܩܳܐܺܝܬ ܢܳܦܣܺܝܢ ܗ̱ܘܰܘ ܥܠܰܝ.</l>
+                </lg>
+                <lg type="stanza" n="19">
+                    <head>19 (18)</head>
+                    <l>ܘܐܰܝܠܶܝܢ ܕܡܼܶܢ ܒܳܬܰܪܝ ܗܘܰܘ܆</l>
+                    <l>ܡܰܓܳܢ ܕܽܘܟܪܳܢܳܐ ܕܗܰܘܿ ܕܡܼܶܢ ܩܕܳܡܰܝܗܽܘܢܿ ܒܥܼܰܘ ܠܡܰܘܒܳܕܽܘ.</l>
+                </lg>
+                <lg type="stanza" n="20">
+                    <head>20 (19)</head>
+                    <l>ܡܶܛܽܠ ܕܠܴܐ ܡܶܬܩܰܕܡܳܐ ܬܰܪܥܺܝܬܶܗ ܕܰܡܪܰܝܡܳܐ܆ ܘܠܶܒܶܗ ܡܝܰܬܰܪ ܗ̱ܽܘܼ ܡܼܶܢ ܟܽܠ
+                        ܚܶܟܡܳܐ.</l>
+                    <l>ܗܰܠܶܠܘܽܝܰܐ. </l>
+                </lg>
+            </div>
+
         </body>
     </text>
 </TEI>

@@ -38,16 +38,16 @@
                 </respStmt>
                 <respStmt>
                     <resp>Based on the work of</resp>
-                    <name type="person" ref="">D. Alphonse Mingana</name>
+                    <name type="person">D. Alphonse Mingana</name>
                 </respStmt>
                 <respStmt>
                     <resp>Edited by</resp>
-                    <name type="person" ref=""
+                    <name type="person"
                         ><!--Insert name of the person who edits this document --></name>
                 </respStmt>
                 <respStmt>
                     <resp>Syriac text transcribed by</resp>
-                    <name type="person" ref=""
+                    <name type="person"
                         ><!-- Name of the person who transcribed the Syriac text --></name>
                 </respStmt>
             </titleStmt>
@@ -56,10 +56,8 @@
             </editionStmt>
             <publicationStmt>
                 <distributor>
-                    <pubPlace>
-                        <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt
+                            <placeName>Jean and Alexander Heard Library System, Vanderbilt
                             University, Nashville, Tennessee, USA</placeName>
-                    </pubPlace>
                 </distributor>
                 <authority>The Oxford-BYU Syriac Corpus</authority>
                 <idno type="URI">https://syriaccorpus.org/28</idno>
@@ -77,6 +75,7 @@
                 <biblStruct>
                     <analytic>
                         <editor>D. Alphonsi Mingana</editor>
+<idno type="URI">http://syriaca.org/bibl/1765</idno>
                     </analytic>
                     <monogr>
                         <title level="a">Narsai Doctoris Syri Homiliae et Carmina</title>
@@ -107,6 +106,8 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+<change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text structure</change>
+
             <change when="2017-01-11" who="http://syriaca.org/person.xml#jwalters">Added work
                 URIs</change>
             <change when="2016-11-30" who="http://syriaca.org/person.xml#jwalters">Created:
@@ -115,22 +116,18 @@
     </teiHeader>
     <text>
         <body>
-            <div1 type="part" n="2">
-                <head>
-                    <title>On Divine Revelations to the Patriarchs and the Prophets (Memra 2)</title>
-                </head>
-                <head xml:lang="syr">
-                    <title xml:lang="syr">ܥܠ ܓܠܝ̈ܢܐ ܐܠܗ̈ܝܐ ܕܗܘܘ ܠܘܬ ܐܒܗ̈ܬܐ ܘܢܒ̈ܝܐ</title>
-                </head>
-                <div2 type="rubric" xml:lang="syr">
+                <div type="title" n="0"> 
+                    <ab xml:lang="syr">ܥܠ ܓܠܝ̈ܢܐ ܐܠܗ̈ܝܐ ܕܗܘܘ ܠܘܬ ܐܒܗ̈ܬܐ ܘܢܒ̈ܝܐ</ab>
+                </div>
+                <div type="rubric" xml:lang="syr">
                 <pb ed="http://syriaca.org/bibl/1765" n="29"/>
                     <l>ܡܐܡܪܐ ܬܪܝܢܐ</l>
                     <l>ܕܚܲܕܼܒܫܲܒܵܐ ܕܲܬܼܪܹܝܢ ܕܣܘܼܒܵܪܵܐ</l>
                     <l>ܥܠ ܓܠܝ̈ܢܐ ܐܠܗ̈ܝܐ ܕܗܘܘ ܠܘܬ ܐܒܗ̈ܬܐ ܘܢܒ̈ܝܐ</l>
                     <l>ܥܘܼܢܵܝܵܐ</l>
                     <l>ܒܪܝܼܟܼܘܼ ܕܡܲܠܸܦ ܘܪܵܕܹܐ ܘܩܵܢܹ̇ܐ ܠܲܢ: ܐܲܚܲܝ̈: </l>
-                </div2>
-                <div2 type="text" xml:lang="syr">           
+                </div>
+                <div type="text" xml:lang="syr">           
                     <l n="1">:ܨܠܸܡ ܓܸܠܝܵܢܵܘ̈ܗܝ ܨܵܪ ܒܵܪܘܿܝܵܐ ܒܪܸܥܝܵܢ ܐ̄ܢܵܫܵܐ</l>
                     <l n="2">:ܘܫܲܪܝܼܘ ܐ̄ܢܵܫܵܐ ܠܲܡܨܵܪ ܨܲܠܡܹ̈ܐ ܪ̈ܘܼܚܵܢܵܝܹܐ</l>
                     <l n="3">:ܣܲܡ ܚ̣ܿܝܘܼܬܼܵܐ ܣܵܡ ܒܲܟܼܝܵܢܵܐ ܡܠܸܐ ܡܝܼܬܼܘܼܬܼܵܐ</l>
@@ -1127,8 +1124,8 @@
                     <l n="913">ܟܲܕܼ ܫܘܼܒܼܚܹܗ ܒܹܗ ܡܚܲܦܸܛ ܠܥܲܒܼܕܵܘ̈ܗܝ ܕܢܲܫܒܿܚܘܼܢܵܝܗܝ ܀</l>
                     <l n="914">ܥܘܢܝܼܬܼܵܐ: ܒܪܝܼܟܼܘܼ ܕܪܲܡܪܸܡ ܠܥܲܒܼܕܵܘ̈ܗܝ ܒܓܸܠܝܵܢܹܗ.</l>
                     <l n="915">ܘܲܥܒ݂ܲܕܼ ܐܸܢܘܿܢ ܢܵܘܣܹ̈ܐ ܠܪܲܒܿܘܼܬܹܗ ܀</l>
-                </div2>
-            </div1>
+                </div>
+            
         </body>
     </text>
 </TEI>

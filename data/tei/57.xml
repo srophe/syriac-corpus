@@ -36,11 +36,11 @@
                 </respStmt>
                 <respStmt>
                     <resp>Based on the work of</resp>
-                    <name type="person" ref="">Ignazio Guidi</name>
+                    <name type="person">Ignazio Guidi</name>
                 </respStmt>
                 <respStmt>
                     <resp>Edited by</resp>
-                    <name type="person" ref=""
+                    <name type="person"
                         ><!--Insert name of the person who edits this document --></name>
                 </respStmt>
                 <respStmt>
@@ -54,10 +54,8 @@
             </editionStmt>
             <publicationStmt>
                 <distributor>
-                    <pubPlace>
-                        <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt
+                                            <placeName>Jean and Alexander Heard Library System, Vanderbilt
                             University, Nashville, Tennessee, USA</placeName>
-                    </pubPlace>
                 </distributor>
                 <authority>The Oxford-BYU Syriac Corpus</authority>
                 <idno type="URI">https://syriaccorpus.org/57</idno>
@@ -75,6 +73,7 @@
                 <biblStruct>
                     <analytic>
                         <editor>Ignazio Guidi</editor>
+                        <idno type="URI">http://syriaca.org/bibl/659</idno>
                     </analytic>
                     <monogr>
                         <title level="a">Chronica Minora I</title>
@@ -110,28 +109,29 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text
+                structure</change>
             <change when="2017-04-20" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div1 type="text">
-                <head>
-                    <title>Chronicle of Edessa (540) - <foreign xml:lang="syr">ܬܫ̈ܥܝܬܐ
-                            ܕܣܘܥܪ̈ܢܐ</foreign></title>
-                </head>
+                <div type="title">
+                    <ab xml:lang="syr">ܬܫ̈ܥܝܬܐ
+                            ܕܣܘܥܪ̈ܢܐ</ab>
+                </div>
 
-                <div2 type="rubric" xml:lang="syr">
+                <div type="rubric">
                     <pb edRef="http://syriaca.org/bibl/659" n="1"/>
-                    <p> ܬܘܒ ܬܫ̈ܥܝܬܐ ܕܣܘܥܪ̈ܢܐ ܐܝܟ ܕܒ̈ܦܣܝܩܬܐ.܀ </p>
-                </div2>
-                <div2 type="section" xml:lang="syr" n="1">
+                    <p xml:lang="syr"> ܬܘܒ ܬܫ̈ܥܝܬܐ ܕܣܘܥܪ̈ܢܐ ܐܝܟ ܕܒ̈ܦܣܝܩܬܐ.܀ </p>
+                </div>
+                <div type="section" n="1">
 
-                    <head type="default" subtype="ms">MS. § 1</head>
+                    <head type="editorial" subtype="ms">MS. § 1</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 8</head>
-                    <p> ܒܫܢܬ ܚܡܫܡܐܐ ܘܬܠܬܥܣܪ̈ܐ ܒܡܠܟܘܬܗ ܕܣܘܪܘܣ. ܘܒܡܠܟܘܬܗ ܕܐܒܓܪ ܡܿܠܟܐ ܒܪ ܡܥܢܘ ܡܿܠܟܐܼ.
+                    <p xml:lang="syr"> ܒܫܢܬ ܚܡܫܡܐܐ ܘܬܠܬܥܣܪ̈ܐ ܒܡܠܟܘܬܗ ܕܣܘܪܘܣ. ܘܒܡܠܟܘܬܗ ܕܐܒܓܪ ܡܿܠܟܐ ܒܪ ܡܥܢܘ ܡܿܠܟܐܼ.
                         ܒܐܝܪܚ ܬܫܪܝܢ ܐܚܪܝܼ. ܥܫܢ ܗܘܐ ܡܒܘܥܐ ܕܡ̈ܝܐ ܕܢܿܦܩ ܡܢ ܐܦܕܢܐ ܪܒܐܿ. ܕܐܒܓܪ ܡܿܠܟܐ ܒܪܐ.
                         ܘܥܫܢ ܘܣܠܩ ܐܝܟ ܥܝܕܗ ܩܕܡܝܐ. ܘܡܼܠܐ ܗܘܐ ܘܫܦܥ ܠܟܘܠ ܓܒ̈ܝܢ. ܘܫܪܝ ܗܘܘ ܕܪ̈ܬܐ ܘܐܣ̈ܛܘܐ
                         ܘܒ̈ܬܐ ܕܡܠܟܘܬܐ ܕܢܬܡܠܘܢ ܡ̈ܝܐ. ܘܟܕ ܚܼܙܐ ܡܪܝܢ ܐܒܓܪ ܡܿܠܟܐܼ. ܣܠܩ ܗܘܐ ܠܗ ܠܬܩܢܐ
@@ -171,759 +171,759 @@
                         ܗܼܢܘܢ ܟܬܒܘܗܝ ܠܣܘܥܪܢܐ ܗܢܐܼ. ܘܠܦܘܩܕܢ ܕܐܒܓܪ ܡܿܠܟܐ. ܘܒܪܕܝܢ ܘܒܘܠܝܕ ܗܠܝܢ ܕܗܢܘܢ
                         ܩܝܡܝܢ ܗܘܘ ܥܠܐ ܐܪܟܝܐܘܢ ܕܐܘܪܗܝ.ܗܢܘܢ ܩܒܠܘ ܗܘܘ ܘܣܡܘ ܠܓܘ ܡܢܗܘܢܼ. ܐܝܟ ܫܪ̈ܝܪܐ
                         ܕܡܕܝܢܬܐ.܀ </p>
-                </div2>
-                <div2 type="section" xml:lang="syr" n="2">
+                </div>
+                <div type="section" n="2">
 
-                    <head type="default" subtype="ms">MS. § 2</head>
+                    <head type="editorial" subtype="ms">MS. § 2</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 1</head>
-                    <p> ܒܫܢܬ ܡܐܐ ܘܬܡܢܝܢ ܫܪܝܘ ܡ̈ܠܟܐ ܕܢܩܘܡܘܢ ܒܐܘܪܗܝ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܒܫܢܬ ܡܐܐ ܘܬܡܢܝܢ ܫܪܝܘ ܡ̈ܠܟܐ ܕܢܩܘܡܘܢ ܒܐܘܪܗܝ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="3">
+                <div type="section" n="3">
 
-                    <head type="default" subtype="ms">MS. § 3</head>
+                    <head type="editorial" subtype="ms">MS. § 3</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 2</head>
-                    <p> ܒܫܢܬ ܡܐܬܝܢ ܘܫܬܝܢ ܘܫܬܼ. ܐܡܠܟ ܗܘܐ ܐܓܘܣܛܣ ܩܣܪ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܒܫܢܬ ܡܐܬܝܢ ܘܫܬܝܢ ܘܫܬܼ. ܐܡܠܟ ܗܘܐ ܐܓܘܣܛܣ ܩܣܪ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="4">
+                <div type="section" n="4">
 
-                    <head type="default" subtype="ms">MS. § 4</head>
+                    <head type="editorial" subtype="ms">MS. § 4</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 3</head>
-                    <p> ܘܒܫܢܬ ܬܠܬܡܐܐ ܘܬܫܥܼ. ܐܬܝܠܕ ܡܪܢ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܘܒܫܢܬ ܬܠܬܡܐܐ ܘܬܫܥܼ. ܐܬܝܠܕ ܡܪܢ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="5">
+                <div type="section" n="5">
 
-                    <head type="default" subtype="ms">MS. § 5</head>
+                    <head type="editorial" subtype="ms">MS. § 5</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 4</head>
-                    <p> ܘܒܫܢܬ ܐܪ̈ܒܥܡܐܐܼ. ܒܢܼܐ ܐܒܓܪ ܡܿܠܟܐ ܢܦܫܐ ܠܐܝܩܪܐ ܕܡܘܬܗ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܘܒܫܢܬ ܐܪ̈ܒܥܡܐܐܼ. ܒܢܼܐ ܐܒܓܪ ܡܿܠܟܐ ܢܦܫܐ ܠܐܝܩܪܐ ܕܡܘܬܗ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="6">
+                <div type="section" n="6">
 
-                    <head type="default" subtype="ms">MS. § 6</head>
+                    <head type="editorial" subtype="ms">MS. § 6</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 5</head>
-                    <p> ܒܫܢܬ ܐܪ̈ܒܥܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܫܥܼ. ܢܦܼܩ ܡܪܩܝܘܢ ܡܢ ܥܕܬܐ ܩܬܘܠܝܩܐ. </p>
-                </div2>
+                    <p xml:lang="syr"> ܒܫܢܬ ܐܪ̈ܒܥܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܫܥܼ. ܢܦܼܩ ܡܪܩܝܘܢ ܡܢ ܥܕܬܐ ܩܬܘܠܝܩܐ. </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="7">
+                <div type="section" n="7">
 
-                    <head type="default" subtype="ms">MS. § 7</head>
+                    <head type="editorial" subtype="ms">MS. § 7</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 7</head>
-                    <p> ܘܠܘܩܝܣ ܕܝܢ ܩܣܪ ܥܡ ܐܚܗܘܝ ܫܥܒܕ ܐܢܘܢ ܠܦܪ̈ܬܘܝܐ ܠܪ̈ܗܘܡܝܐ ܒܫܢܬ ܚ̈ܡܫܐ ܕܡܠܟܘܬܗ.܀
+                    <p xml:lang="syr"> ܘܠܘܩܝܣ ܕܝܢ ܩܣܪ ܥܡ ܐܚܗܘܝ ܫܥܒܕ ܐܢܘܢ ܠܦܪ̈ܬܘܝܐ ܠܪ̈ܗܘܡܝܐ ܒܫܢܬ ܚ̈ܡܫܐ ܕܡܠܟܘܬܗ.܀
                     </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="8">
+                <div type="section" n="8">
 
-                    <head type="default" subtype="ms">MS. § 8</head>
+                    <head type="editorial" subtype="ms">MS. § 8</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 6</head>
-                    <p> ܫܢܬ ܐܪ̈ܒܥܡܐܐ ܘܫܬܝܢ ܘܚܡܫ ܒܐܝܪܚ ܬܡܘܙ ܒܚܕܥܣܪ ܒܗܼ. ܐܬܝܠܕ ܒܪܕܝܨܢ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܐܪ̈ܒܥܡܐܐ ܘܫܬܝܢ ܘܚܡܫ ܒܐܝܪܚ ܬܡܘܙ ܒܚܕܥܣܪ ܒܗܼ. ܐܬܝܠܕ ܒܪܕܝܨܢ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="9">
+                <div type="section" n="9">
 
-                    <head type="default" subtype="ms">MS. § 9</head>
+                    <head type="editorial" subtype="ms">MS. § 9</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 9</head>
-                    <p> ܘܒܫܢܬ ܚܡܫܡܐܐ ܘܫܒܥܣܪ̈ܐܼ. ܒܢܐ ܐܒܓܪ ܒܝܪ̈ܬܐ ܒܟܪܟܐ ܕܝܠܗ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܘܒܫܢܬ ܚܡܫܡܐܐ ܘܫܒܥܣܪ̈ܐܼ. ܒܢܐ ܐܒܓܪ ܒܝܪ̈ܬܐ ܒܟܪܟܐ ܕܝܠܗ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="10">
+                <div type="section" n="10">
 
-                    <head type="default" subtype="ms">MS. § 10</head>
+                    <head type="editorial" subtype="ms">MS. § 10</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 10</head>
-                    <p> ܒܫܢܬ ܚܡܫܡܐܐ ܘܚܡܫܝܢ ܘܚܕܐܼ. ܐܬܝܠܕ ܡܐܢܝ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܒܫܢܬ ܚܡܫܡܐܐ ܘܚܡܫܝܢ ܘܚܕܐܼ. ܐܬܝܠܕ ܡܐܢܝ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="11">
+                <div type="section" n="11">
 
-                    <head type="default" subtype="ms">MS. § 11</head>
+                    <head type="editorial" subtype="ms">MS. § 11</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 11</head>
-                    <p> ܫܢܬ ܫܬܡܐܐ ܘܐܪ̈ܒܥܣܪܐܼ. <pb edRef="http://syriaca.org/bibl/659" n="4"/> ܐܬܬܪܥܘ
+                    <p xml:lang="syr"> ܫܢܬ ܫܬܡܐܐ ܘܐܪ̈ܒܥܣܪܐܼ. <pb edRef="http://syriaca.org/bibl/659" n="4"/> ܐܬܬܪܥܘ
                         ܫܘܪ̈ܝܗܿ ܕܐܘܪܗܝ ܕܬܪ̈ܬܝܢ ܙܒ̈ܢܝܼܢ. ܒ̈ܝܘܡܝ ܕܝܩܠܝܛܝܢܘܣ ܡܿܠܟܐ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="12">
+                <div type="section" n="12">
 
-                    <head type="default" subtype="ms">MS. § 12</head>
+                    <head type="editorial" subtype="ms">MS. § 12</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 12</head>
-                    <p> ܒܫܢܬ ܫܬܡܐܐ ܘܥܣܪ̈ܝܢ ܘܐܪ̈ܒܥܼ. ܣܡ ܩܘܢܐ ܐܦܝܣܩܘܦܐ ܫ̈ܬܐܣܐ ܕܥܕܬܐ ܕܐܘܪܗܝ. ܘܒܢܐ ܘܫܠܡܗ
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܬܡܐܐ ܘܥܣܪ̈ܝܢ ܘܐܪ̈ܒܥܼ. ܣܡ ܩܘܢܐ ܐܦܝܣܩܘܦܐ ܫ̈ܬܐܣܐ ܕܥܕܬܐ ܕܐܘܪܗܝ. ܘܒܢܐ ܘܫܠܡܗ
                         ܠܒܢܝܢܐܼ. ܫܥܕ ܐܦܣܩܦܐ ܕܗܼܘܐ ܡܢ ܒܬܪܗ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="13">
+                <div type="section" n="13">
 
-                    <head type="default" subtype="ms">MS. § 13</head>
+                    <head type="editorial" subtype="ms">MS. § 13</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 13</head>
-                    <p> ܒܫܢܬ ܫܬܡܐܐ ܘܬܠܬܝܢ ܘܚܡܫ܆ ܐܬܒܢܝܬ ܩܘܡܝܛܪܝܢ ܕܐܘܪܗܝ ܒܝ̈ܘܡܝ ܐܬܝܠܗܐ ܐܦܝܣܩܘܦܐܼ. ܩܕܡ
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܬܡܐܐ ܘܬܠܬܝܢ ܘܚܡܫ܆ ܐܬܒܢܝܬ ܩܘܡܝܛܪܝܢ ܕܐܘܪܗܝ ܒܝ̈ܘܡܝ ܐܬܝܠܗܐ ܐܦܝܣܩܘܦܐܼ. ܩܕܡ
                         ܫܢܬܐ ܕܗܘܬ ܒܗܿ ܣܘܢܗܕܘܣ ܪܒܬܐ ܒܢܝܩܝܐ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="14">
+                <div type="section" n="14">
 
-                    <head type="default" subtype="ms">MS. § 14</head>
+                    <head type="editorial" subtype="ms">MS. § 14</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 14</head>
-                    <p> ܫܢܬ ܫܬܡܐܐ ܘܬܠܬܝܢ ܘܫܬܼ. ܩܡ ܐܝܬܠܗܐ ܐܦܣܩܦܐ ܒܐܘܪܗܝ. ܘܗܼܘ ܒܢܼܐ ܩܘܡܛܪܝܢ ܘܓܒܼܐ
+                    <p xml:lang="syr"> ܫܢܬ ܫܬܡܐܐ ܘܬܠܬܝܢ ܘܫܬܼ. ܩܡ ܐܝܬܠܗܐ ܐܦܣܩܦܐ ܒܐܘܪܗܝ. ܘܗܼܘ ܒܢܼܐ ܩܘܡܛܪܝܢ ܘܓܒܼܐ
                         ܡܕܢܚܝܐ ܕܥܕܬܐ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="15">
+                <div type="section" n="15">
 
-                    <head type="default" subtype="ms">MS. § 15</head>
+                    <head type="editorial" subtype="ms">MS. § 15</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 15</head>
-                    <p> ܘܒܬܪܗܿ ܕܫܢܬܐܼ. ܐܬܟܢܫܬ ܣܘܢܗܕܘܣ ܒܢܝܩܝܐܿ. ܕܬܠܬܡܐܐ ܘܬܡܢܬܥܣܪ̈ ܐܦܝܣ̈ܩܘܦܝܢ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܘܒܬܪܗܿ ܕܫܢܬܐܼ. ܐܬܟܢܫܬ ܣܘܢܗܕܘܣ ܒܢܝܩܝܐܿ. ܕܬܠܬܡܐܐ ܘܬܡܢܬܥܣܪ̈ ܐܦܝܣ̈ܩܘܦܝܢ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="16">
+                <div type="section" n="16">
 
-                    <head type="default" subtype="ms">MS. § 16</head>
+                    <head type="editorial" subtype="ms">MS. § 16</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 16</head>
-                    <p> ܫܢܬ ܫܬܡܐܐ ܘܬܠܬܝܢ ܘܬܫܥܼ. ܗܼܘܐ ܒܢܝܢܐ ܘܬܘܣܦܬܐ ܒܥܕܬܐ ܕܐܘܪܗܝ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܫܬܡܐܐ ܘܬܠܬܝܢ ܘܬܫܥܼ. ܗܼܘܐ ܒܢܝܢܐ ܘܬܘܣܦܬܐ ܒܥܕܬܐ ܕܐܘܪܗܝ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="17">
+                <div type="section" n="17">
 
-                    <head type="default" subtype="ms">MS. § 17</head>
+                    <head type="editorial" subtype="ms">MS. § 17</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 17</head>
-                    <p> ܒܫܢܬ ܫܬܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܫܥܼ. ܡܝܬ ܡܪܝ ܝܥܩܘܒ ܐܦܝܣܩܘܦܐ ܕܢܨܝܒܝܢ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܬܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܫܥܼ. ܡܝܬ ܡܪܝ ܝܥܩܘܒ ܐܦܝܣܩܘܦܐ ܕܢܨܝܒܝܢ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="18">
+                <div type="section" n="18">
 
-                    <head type="default" subtype="ms">MS. § 18</head>
+                    <head type="editorial" subtype="ms">MS. § 18</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 18</head>
-                    <p> ܫܢܬ ܫܬܡܐܐ ܘܚ̈ܡܫܝܢ ܘܫܒܥܼ. ܗܼܘܐ ܐܒܪܗܡ ܐܦܝܣܩܘܦܐ ܒܐܘܪܗܝ. ܘܗܼܘ ܒܼܢܐ ܒܝܬ ܡ̈ܘܕܝܢܐ.܀
+                    <p xml:lang="syr"> ܫܢܬ ܫܬܡܐܐ ܘܚ̈ܡܫܝܢ ܘܫܒܥܼ. ܗܼܘܐ ܐܒܪܗܡ ܐܦܝܣܩܘܦܐ ܒܐܘܪܗܝ. ܘܗܼܘ ܒܼܢܐ ܒܝܬ ܡ̈ܘܕܝܢܐ.܀
                     </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="19">
+                <div type="section" n="19">
 
-                    <head type="default" subtype="ms">MS. § 19</head>
+                    <head type="editorial" subtype="ms">MS. § 19</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 19</head>
-                    <p> ܫܢܬ ܒܬܡܐܐ ܘܫܬܝܼܢ. ܒܢܼܐ ܩܘܣܛܢܛܝܣ ܒܪ ܩܘܣܛܢܛܝܢܘܣ ܠܐܡܕ ܡܕܝܢܬܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܒܬܡܐܐ ܘܫܬܝܼܢ. ܒܢܼܐ ܩܘܣܛܢܛܝܣ ܒܪ ܩܘܣܛܢܛܝܢܘܣ ܠܐܡܕ ܡܕܝܢܬܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="20">
+                <div type="section" n="20">
 
-                    <head type="default" subtype="ms">MS. § 20</head>
+                    <head type="editorial" subtype="ms">MS. § 20</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 20</head>
-                    <p> ܘܒܫܢܬ ܫܬܡܐܐ ܘܫܬܝܢ ܘܚܕܐܼ. ܒܢܼܐ ܬܘܒ ܗܘܼ ܩܘܣܛܢܛܝܣ ܠܬܠܐ ܡܕܝܢܬܐ. ܗܿܝ ܕܡܢ ܩܕܝܡܼ.
+                    <p xml:lang="syr"> ܘܒܫܢܬ ܫܬܡܐܐ ܘܫܬܝܢ ܘܚܕܐܼ. ܒܢܼܐ ܬܘܒ ܗܘܼ ܩܘܣܛܢܛܝܣ ܠܬܠܐ ܡܕܝܢܬܐ. ܗܿܝ ܕܡܢ ܩܕܝܡܼ.
                         ܐܢܛܝܦܘܠܝܣ ܡܬܩܪܝܐ ܗܘܬ܀܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="21">
+                <div type="section" n="21">
 
-                    <head type="default" subtype="ms">MS. § 21</head>
+                    <head type="editorial" subtype="ms">MS. § 21</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 21</head>
-                    <p> ܫܢܬ ܫܬܡܐܐ ܘܫܬܝܢ ܘܫܒܥܼ. ܗܘܼܐ ܐܒܪܗܡ ܩܝܕܘܢܝܐ ܚܒܝܫܐ܀܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܫܬܡܐܐ ܘܫܬܝܢ ܘܫܒܥܼ. ܗܘܼܐ ܐܒܪܗܡ ܩܝܕܘܢܝܐ ܚܒܝܫܐ܀܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="22">
+                <div type="section" n="22">
 
-                    <head type="default" subtype="ms">MS. § 22</head>
+                    <head type="editorial" subtype="ms">MS. § 22</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 23</head>
-                    <p> ܒܫܢܬ ܫܬܡܐܐ ܘܫ̈ܒܥܝܢ ܘܬܪ̈ܬܝܼܢ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܐܒܪܗܡ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ. </p>
-                </div2>
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܬܡܐܐ ܘܫ̈ܒܥܝܢ ܘܬܪ̈ܬܝܼܢ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܐܒܪܗܡ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ. </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="23">
+                <div type="section" n="23">
 
-                    <head type="default" subtype="ms">MS. § 23</head>
+                    <head type="editorial" subtype="ms">MS. § 23</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 24</head>
-                    <p> ܘܒܗܿ ܒܫܢܬܐܼ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܘܠܓܫ ܐܦܝܣܩܘܦܐ ܕܢܨܝܒܝܢ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܘܒܗܿ ܒܫܢܬܐܼ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܘܠܓܫ ܐܦܝܣܩܘܦܐ ܕܢܨܝܒܝܢ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="24">
+                <div type="section" n="24">
 
-                    <head type="default" subtype="ms">MS. § 24</head>
+                    <head type="editorial" subtype="ms">MS. § 24</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 25</head>
-                    <p> ܘܒܗܿ ܒܫܢܬܐ ܐܬܐ ܒܪܨܐ ܐܦܝܣܩܘܦܐ ܡܢ ܚܪܢ ܠܐܘܪܗܝ ܒܦܘܩܕܢܐ ܕܡܿܠܟܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܘܒܗܿ ܒܫܢܬܐ ܐܬܐ ܒܪܨܐ ܐܦܝܣܩܘܦܐ ܡܢ ܚܪܢ ܠܐܘܪܗܝ ܒܦܘܩܕܢܐ ܕܡܿܠܟܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="25">
+                <div type="section" n="25">
 
-                    <head type="default" subtype="ms">MS. § 25</head>
+                    <head type="editorial" subtype="ms">MS. § 25</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 22</head>
-                    <p> ܒܫܢܬ ܫܬܡܐܐ ܘܫܒܥܝܼܢ ܐܬܗܦܟܬ ܢܝܩܘܡܕܝܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܬܡܐܐ ܘܫܒܥܝܼܢ ܐܬܗܦܟܬ ܢܝܩܘܡܕܝܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="26">
+                <div type="section" n="26">
 
-                    <head type="default" subtype="ms">MS. § 26</head>
+                    <head type="editorial" subtype="ms">MS. § 26</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 26</head>
-                    <p> ܘܒܫܢܬ ܫܬܡܐܐ ܘܫܒܥܝܢ ܘܐܪ̈ܒܥ ܒܐܝܪܚ ܚܙܝܪܢܼ. ܢܚܼܬ ܝܘܠܝܢܘܣ ܘܐܩܪܒ ܥܡ <pb
+                    <p xml:lang="syr"> ܘܒܫܢܬ ܫܬܡܐܐ ܘܫܒܥܝܢ ܘܐܪ̈ܒܥ ܒܐܝܪܚ ܚܙܝܪܢܼ. ܢܚܼܬ ܝܘܠܝܢܘܣ ܘܐܩܪܒ ܥܡ <pb
                             edRef="http://syriaca.org/bibl/659" n="5"/> ܦܪ̈ܣܝܐ ܘܡܝܬ ܬܡܢ܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="27">
+                <div type="section" n="27">
 
-                    <head type="default" subtype="ms">MS. § 27</head>
+                    <head type="editorial" subtype="ms">MS. § 27</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 27</head>
-                    <p> ܒܫܢܬ ܫܬܡܐܐ ܘܫܒܥܝܢ ܘܚ̈ܡܫܐ ܒܐܝܪܚ ܫܒܛ ܐܡܠܟ ܘܠܢܛܝܢܣ ܪܒܐ. ܘܘܠܝܣ ܐܚܘܗܝ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܬܡܐܐ ܘܫܒܥܝܢ ܘܚ̈ܡܫܐ ܒܐܝܪܚ ܫܒܛ ܐܡܠܟ ܘܠܢܛܝܢܣ ܪܒܐ. ܘܘܠܝܣ ܐܚܘܗܝ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="28">
+                <div type="section" n="28">
 
-                    <head type="default" subtype="ms">MS. § 28</head>
+                    <head type="editorial" subtype="ms">MS. § 28</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 28</head>
-                    <p> ܒܫܢܬ ܫܬܡܐܐ ܘܫܒܥܝܢ ܘܬܡܢܐܼ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܝܘܠܝܢܐ ܣܒܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܬܡܐܐ ܘܫܒܥܝܢ ܘܬܡܢܐܼ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܝܘܠܝܢܐ ܣܒܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="29">
+                <div type="section" n="29">
 
-                    <head type="default" subtype="ms">MS. § 29</head>
+                    <head type="editorial" subtype="ms">MS. § 29</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 29</head>
-                    <p> ܫܢܬ ܫܬܡܐܐ ܘܬܡܢܐܝܢ ܘܚܕܐܼ. ܐܬܒܢܝܬ ܒܝܬ ܡܥܡܘܕܝܢܬܐ ܪܒܬܐ ܕܐܘܪܗܝ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܫܬܡܐܐ ܘܬܡܢܐܝܢ ܘܚܕܐܼ. ܐܬܒܢܝܬ ܒܝܬ ܡܥܡܘܕܝܢܬܐ ܪܒܬܐ ܕܐܘܪܗܝ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="30">
+                <div type="section" n="30">
 
-                    <head type="default" subtype="ms">MS. § 30</head>
+                    <head type="editorial" subtype="ms">MS. § 30</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 30</head>
-                    <p> ܒܫܢܬ ܫܬܡܐܐ ܘܬܡܢܐܝܬ ܘܐܪ̈ܒܥ ܒܐܝܪܚ ܚܙܝܪܢ ܒܬܫܥܐ ܒܗܼ. ܢܦܩ ܡܢ ܥܠܡܐ ܡܪܝ ܐܦܪܝܢ
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܬܡܐܐ ܘܬܡܢܐܝܬ ܘܐܪ̈ܒܥ ܒܐܝܪܚ ܚܙܝܪܢ ܒܬܫܥܐ ܒܗܼ. ܢܦܩ ܡܢ ܥܠܡܐ ܡܪܝ ܐܦܪܝܢ
                         ܕܚ̈ܟܡܬܗ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="31">
+                <div type="section" n="31">
 
-                    <head type="default" subtype="ms">MS. § 31</head>
+                    <head type="editorial" subtype="ms">MS. § 31</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 31</head>
-                    <p> ܘܒܐܝܪܚ ܐܝܠܘܠ ܕܝܠܗܿ ܕܫܢܬܐܼ. ܢܦܼܩ ܥܡܐ ܡܢ ܥܕܬܐ ܕܐܘܪܗܝ ܒܪܕܘܦܝܐ ܕܐܪ̈ܝܢܘ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܘܒܐܝܪܚ ܐܝܠܘܠ ܕܝܠܗܿ ܕܫܢܬܐܼ. ܢܦܼܩ ܥܡܐ ܡܢ ܥܕܬܐ ܕܐܘܪܗܝ ܒܪܕܘܦܝܐ ܕܐܪ̈ܝܢܘ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="32">
+                <div type="section" n="32">
 
-                    <head type="default" subtype="ms">MS. § 32</head>
+                    <head type="editorial" subtype="ms">MS. § 32</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 32</head>
-                    <p> ܒܫܢܬ ܫܬܡܐܐ ܘܬܡܢܐܝܢ ܘܬܫܥ ܒܐܝܪܚ ܐܕܪܼ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܒܪܣܐ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ.
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܬܡܐܐ ܘܬܡܢܐܝܢ ܘܬܫܥ ܒܐܝܪܚ ܐܕܪܼ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܒܪܣܐ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ.
                     </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="33">
+                <div type="section" n="33">
 
-                    <head type="default" subtype="ms">MS. § 33</head>
+                    <head type="editorial" subtype="ms">MS. § 33</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 33</head>
-                    <p> ܘܒܫܘܡ ܫܒܥܐ ܘܥܣܪ̈ܝܢ ܒܐܝܪܚ ܟܢܘܢ ܩܕܡ ܕܝܠܗܿ ܕܫܢܬܐ ܥܠܘ ܐܪ̈ܬܕܘܟܣܐ ܘܩܒܠܘ ܥܕܬܐ
+                    <p xml:lang="syr"> ܘܒܫܘܡ ܫܒܥܐ ܘܥܣܪ̈ܝܢ ܒܐܝܪܚ ܟܢܘܢ ܩܕܡ ܕܝܠܗܿ ܕܫܢܬܐ ܥܠܘ ܐܪ̈ܬܕܘܟܣܐ ܘܩܒܠܘ ܥܕܬܐ
                         ܕܐܘܪܗܝ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="34">
+                <div type="section" n="34">
 
-                    <head type="default" subtype="ms">MS. § 34</head>
+                    <head type="editorial" subtype="ms">MS. § 34</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 34</head>
-                    <p> ܘܒܗܘܢ ܒ̈ܝܘܡܬܐ ܗܘܼܐ ܡܪܝ ܐܘܠܓܝܣ ܐܦܝܣܩܘܦܐ ܒܫܢܬܐ ܕܐܡܠܟ ܒܗܿ ܬܐܘܕܣܝܣ ܪܒܐ ܘܗܼܘ ܡܪܝ
+                    <p xml:lang="syr"> ܘܒܗܘܢ ܒ̈ܝܘܡܬܐ ܗܘܼܐ ܡܪܝ ܐܘܠܓܝܣ ܐܦܝܣܩܘܦܐ ܒܫܢܬܐ ܕܐܡܠܟ ܒܗܿ ܬܐܘܕܣܝܣ ܪܒܐ ܘܗܼܘ ܡܪܝ
                         ܐܘܠܓܝܣ ܒܼܢܐ ܒܝܬ ܡܪܝ ܕܢܝܐܝܠ ܕܐܬܩܪܝ ܒܝܬ ܡܪܝ ܕܝܡܛ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="35">
+                <div type="section" n="35">
 
-                    <head type="default" subtype="ms">MS. § 35</head>
+                    <head type="editorial" subtype="ms">MS. § 35</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 35</head>
-                    <p> ܫܢܬ ܫܬܡܐܐ ܘܬܫܥܝܢ ܘܬܪ̈ܬܝܼܢ. ܒܢܐ ܬܐܘܕܣܝܣ ܪܒܐ ܒܐܙܪܝܢܐ ܠܪܫܥܝܢܐ ܡܕܝܢܬܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܫܬܡܐܐ ܘܬܫܥܝܢ ܘܬܪ̈ܬܝܼܢ. ܒܢܐ ܬܐܘܕܣܝܣ ܪܒܐ ܒܐܙܪܝܢܐ ܠܪܫܥܝܢܐ ܡܕܝܢܬܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="36">
+                <div type="section" n="36">
 
-                    <head type="default" subtype="ms">MS. § 36</head>
+                    <head type="editorial" subtype="ms">MS. § 36</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 36</head>
-                    <p> ܫܢܬ ܫܬܡܐܐ ܘܬܫܥܝܢ ܘܬܠܬܼ. ܐܬܟܢܫܬ ܣܘܢܗܕܘܣ ܕܡܐܐ ܘܚ̈ܡܫܝܢ ܐ̈ܦܝܣܩܘܦܐ
+                    <p xml:lang="syr"> ܫܢܬ ܫܬܡܐܐ ܘܬܫܥܝܢ ܘܬܠܬܼ. ܐܬܟܢܫܬ ܣܘܢܗܕܘܣ ܕܡܐܐ ܘܚ̈ܡܫܝܢ ܐ̈ܦܝܣܩܘܦܐ
                         ܒܩܘܣܛܢܛܝܢܦܘܠܝܣ܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="37">
+                <div type="section" n="37">
 
-                    <head type="default" subtype="ms">MS. § 37</head>
+                    <head type="editorial" subtype="ms">MS. § 37</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 37</head>
-                    <p> ܒܫܢܬ ܫܬܡܐܐ ܘܬܫܥܝܢ ܘܬܡܢܐܼ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܐܘܠܓܝܣ ܐܦܣܩܦܐ ܒܥܪܘܒܬܐ ܕܙܩܝܦܘܬܐ.܀
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܬܡܐܐ ܘܬܫܥܝܢ ܘܬܡܢܐܼ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܐܘܠܓܝܣ ܐܦܣܩܦܐ ܒܥܪܘܒܬܐ ܕܙܩܝܦܘܬܐ.܀
                     </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="38">
+                <div type="section" n="38">
 
-                    <head type="default" subtype="ms">MS. § 38</head>
+                    <head type="editorial" subtype="ms">MS. § 38</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 38</head>
-                    <p> ܒܫܢܬ ܫܒܥܡܐܐ ܘܚܡܫ ܒܐܝܪܚ ܐܒܝ ܒܝܘܡ ܬܪ̈ܝܢ ܘܥܣܪܗܝܢ ܒܗܼ. ܐܝܬܝܘ ܓܠܘܣܩܡܗ ܕܡܪܝ ܬܐܘܡܐ
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܒܥܡܐܐ ܘܚܡܫ ܒܐܝܪܚ ܐܒܝ ܒܝܘܡ ܬܪ̈ܝܢ ܘܥܣܪܗܝܢ ܒܗܼ. ܐܝܬܝܘ ܓܠܘܣܩܡܗ ܕܡܪܝ ܬܐܘܡܐ
                         ܫܠܝܚܐܿ. ܠܗܝܟܠܐ ܪܒܐ ܕܝܠܗ. ܒܝ̈ܘܡܝ ܡܪܝ ܩܘܪܐ ܐܦܝܣܩܘܦܐ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="39">
+                <div type="section" n="39">
 
-                    <head type="default" subtype="ms">MS. § 39</head>
+                    <head type="editorial" subtype="ms">MS. § 39</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 39</head>
-                    <p> ܒܫܢܬ ܫܒܥܡܐܐ ܘܫܬ ܒܫܒܥܣܪܐ ܒܟܘܢ ܐܚܪܝ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܬܐܝܕܣܝܣ ܡܿܠܟܐ ܪܒܐ. ܘܒܫܒܥܐ
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܒܥܡܐܐ ܘܫܬ ܒܫܒܥܣܪܐ ܒܟܘܢ ܐܚܪܝ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܬܐܝܕܣܝܣ ܡܿܠܟܐ ܪܒܐ. ܘܒܫܒܥܐ
                         ܘܥܣܪ̈ܝܢ ܒܢܝܣܢ ܥܠ ܐܪܩܕܝܣ ܠܩܘܣܛܢܛܝܢܐ ܦܘܠܝܣ. ܘܒܬܡܢܝܐ ܒܬܫܪܝܢ ܐܚܪܝܼ. ܥܠܬ ܫܠܕܗ
                         ܕܬܐܘܕܣܝܣ ܠܩܘܣܛܢܛܝܢܐ ܦܘܠܝܣ. <pb edRef="http://syriaca.org/bibl/659" n="6"/>
                     </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="40">
+                <div type="section" n="40">
 
-                    <head type="default" subtype="ms">MS. § 40</head>
+                    <head type="editorial" subtype="ms">MS. § 40</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 40</head>
-                    <p> ܘܒܐܝܪܚ ܬܡܘܙ ܕܝܠܗܿ ܕܫܢܬܐܼ. ܥܒܪܘ ܐܘ̈ܢܝܐ ܠܒܝܬ ܪ̈ܗܘܡܝܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܘܒܐܝܪܚ ܬܡܘܙ ܕܝܠܗܿ ܕܫܢܬܐܼ. ܥܒܪܘ ܐܘ̈ܢܝܐ ܠܒܝܬ ܪ̈ܗܘܡܝܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="41">
+                <div type="section" n="41">
 
-                    <head type="default" subtype="ms">MS. § 41</head>
+                    <head type="editorial" subtype="ms">MS. § 41</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 41</head>
-                    <p> ܒܫܢܬ ܫܒܥܡܐܐ ܘܫܒܥ ܒܐܝܪܚ ܬܡܘܙ ܒܥܣܪ̈ܝܢ ܘܬܪ̈ܝܢ ܒܗܼ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܩܘܪܐ
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܒܥܡܐܐ ܘܫܒܥ ܒܐܝܪܚ ܬܡܘܙ ܒܥܣܪ̈ܝܢ ܘܬܪ̈ܝܢ ܒܗܼ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܩܘܪܐ
                         ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="42">
+                <div type="section" n="42">
 
-                    <head type="default" subtype="ms">MS. § 42</head>
+                    <head type="editorial" subtype="ms">MS. § 42</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 42</head>
-                    <p> ܘܒܫܢܬ ܫܒܥܡܐܐ ܘܬܡܢܐܼ. ܗܼܘܐ ܡܪܝ ܣܠܘܢܐ ܐܦܝܣܩܘܦܐ ܒܐܘܪܗܝ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܘܒܫܢܬ ܫܒܥܡܐܐ ܘܬܡܢܐܼ. ܗܼܘܐ ܡܪܝ ܣܠܘܢܐ ܐܦܝܣܩܘܦܐ ܒܐܘܪܗܝ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="43">
+                <div type="section" n="43">
 
-                    <head type="default" subtype="ms">MS. § 43</head>
+                    <head type="editorial" subtype="ms">MS. § 43</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 43</head>
-                    <p> ܒܫܢܬ ܫܒܥܡܐܐ ܘܥܣܪ̈ ܒܫܒܥܣܪ̈ܐ ܒܬܫܪܝܢ ܩܕܡܼ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܣܝܠܘܢܐ ܐܦܝܣܩܦܐ
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܒܥܡܐܐ ܘܥܣܪ̈ ܒܫܒܥܣܪ̈ܐ ܒܬܫܪܝܢ ܩܕܡܼ. ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܣܝܠܘܢܐ ܐܦܝܣܩܦܐ
                         ܕܐܘܪܗܝ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="44">
+                <div type="section" n="44">
 
-                    <head type="default" subtype="ms">MS. § 44</head>
+                    <head type="editorial" subtype="ms">MS. § 44</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 44</head>
-                    <p> ܘܒܬܠܬܐ ܘܥܣܪ̈ܝܢ ܒܐܝܪܚ ܬܫܪܝܢ ܐܚܪܝ ܕܝܠܗܿ ܕܫܢܬܐ ܗܼܘܐ ܡܪܝ ܦܩܝܕܐ ܐܦܝܣܩܘܦܐ ܒܐܘܪܗܝ.
+                    <p xml:lang="syr"> ܘܒܬܠܬܐ ܘܥܣܪ̈ܝܢ ܒܐܝܪܚ ܬܫܪܝܢ ܐܚܪܝ ܕܝܠܗܿ ܕܫܢܬܐ ܗܼܘܐ ܡܪܝ ܦܩܝܕܐ ܐܦܝܣܩܘܦܐ ܒܐܘܪܗܝ.
                     </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="45">
+                <div type="section" n="45">
 
-                    <head type="default" subtype="ms">MS. § 45</head>
+                    <head type="editorial" subtype="ms">MS. § 45</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 45</head>
-                    <p> ܘܒܗܿ ܒܫܢܬܐ ܩܡ ܝܘܚܢܢ ܟܪܘܣܣܛܡܘܣ ܐܦܣܩܦܐ ܒܩܘܣܛܢܛܝܢܐ ܦܘܠܝܣ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܘܒܗܿ ܒܫܢܬܐ ܩܡ ܝܘܚܢܢ ܟܪܘܣܣܛܡܘܣ ܐܦܣܩܦܐ ܒܩܘܣܛܢܛܝܢܐ ܦܘܠܝܣ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="46">
+                <div type="section" n="46">
 
-                    <head type="default" subtype="ms">MS. § 46</head>
+                    <head type="editorial" subtype="ms">MS. § 46</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 46</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܐܪ̈ܒܥܣܪܐ ܫܪܝ ܬܐܘܕܪܘܣ ܐܦܝܣܩܘܦܐ ܕܡܡܦܣܝܣܛܐ ܠܡܦܫܩܘ ܟܬ̈ܒܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܐܪ̈ܒܥܣܪܐ ܫܪܝ ܬܐܘܕܪܘܣ ܐܦܝܣܩܘܦܐ ܕܡܡܦܣܝܣܛܐ ܠܡܦܫܩܘ ܟܬ̈ܒܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="47">
+                <div type="section" n="47">
 
-                    <head type="default" subtype="ms">MS. § 47</head>
+                    <head type="editorial" subtype="ms">MS. § 47</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 47</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܚܡܫܥܣܪ̈ܐ ܥܒܣܡܝܐ ܩܫܝܫܐ ܒܪ ܚܬܗ ܕܛܘܒܢܐ ܡܪܝ ܐܦܪܣܡ ܣܡ ܡܕܪ̈ܫܐ ܘܡܐܡܪ̈ܐ
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܚܡܫܥܣܪ̈ܐ ܥܒܣܡܝܐ ܩܫܝܫܐ ܒܪ ܚܬܗ ܕܛܘܒܢܐ ܡܪܝ ܐܦܪܣܡ ܣܡ ܡܕܪ̈ܫܐ ܘܡܐܡܪ̈ܐ
                         ܥܠ ܡܐܬܝܬܐ ܕܗ̈ܘܢܝܐ ܠܒܝܬ ܪ̈ܗܘܡܝܐ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="48">
+                <div type="section" n="48">
 
-                    <head type="default" subtype="ms">MS. § 48</head>
+                    <head type="editorial" subtype="ms">MS. § 48</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 48</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܥܣܪܗܝܼܢ. ܗܼܘܐ ܡܪܝ ܕܝܘܓܢܝܣ ܐܦܝܣܩܘܦܐ ܒܐܘܪܗܝ. ܘܗܼܘ ܫܪܝ ܠܡܒܢܐ ܒܝܬ
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܥܣܪܗܝܼܢ. ܗܼܘܐ ܡܪܝ ܕܝܘܓܢܝܣ ܐܦܝܣܩܘܦܐ ܒܐܘܪܗܝ. ܘܗܼܘ ܫܪܝ ܠܡܒܢܐ ܒܝܬ
                         ܡܪܝ ܒܪܠܗܐ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="49">
+                <div type="section" n="49">
 
-                    <head type="default" subtype="ms">MS. § 49</head>
+                    <head type="editorial" subtype="ms">MS. § 49</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 49</head>
-                    <p> ܘܒܗܿ ܒܫܢܬ ܒܢܘܡܢܝܐ ܕܐܒܝ ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܦܩܝܕܐ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ. </p>
-                </div2>
+                    <p xml:lang="syr"> ܘܒܗܿ ܒܫܢܬ ܒܢܘܡܢܝܐ ܕܐܒܝ ܢܦܼܩ ܡܢ ܥܠܡܐ ܡܪܝ ܦܩܝܕܐ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ. </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="50">
+                <div type="section" n="50">
 
-                    <head type="default" subtype="ms">MS. § 50</head>
+                    <head type="editorial" subtype="ms">MS. § 50</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 50</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܥܣܪ̈ܝܢ ܘܚܕܐܼ. ܗܼܘܐ ܩܘܪܝܠܘܣ ܐܦܝܣܩܘܦܐ ܒܐܠܟܣܢܕܪܝܐ ܪܒܬܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܥܣܪ̈ܝܢ ܘܚܕܐܼ. ܗܼܘܐ ܩܘܪܝܠܘܣ ܐܦܝܣܩܘܦܐ ܒܐܠܟܣܢܕܪܝܐ ܪܒܬܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="51">
+                <div type="section" n="51">
 
-                    <head type="default" subtype="ms">MS. § 51</head>
+                    <head type="editorial" subtype="ms">MS. § 51</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 51</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܥܣܪ̈ܝܢ ܘܬܠܬܼ. ܗܼܘܐ ܒܐܘܪܗܝ ܪܒܘܠܐ ܐܦܝܣܩܦܐ. ܘܒܼܢܐ ܒܝܬ ܡܪܝ ܣܛܦܢܘܣ.
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܥܣܪ̈ܝܢ ܘܬܠܬܼ. ܗܼܘܐ ܒܐܘܪܗܝ ܪܒܘܠܐ ܐܦܝܣܩܦܐ. ܘܒܼܢܐ ܒܝܬ ܡܪܝ ܣܛܦܢܘܣ.
                         ܕܐܝܬܘܗܝ ܗܘܐ ܡܢ ܠܘܩܕܡ ܒܝܬ ܫܒܬܐ ܕܝ̈ܗܘܕܝܐ. ܒܢܝܗܝ ܕܝܢ ܒܦܘܩܕܢܗ ܕܡܿܠܟܐ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="52">
+                <div type="section" n="52">
 
-                    <head type="default" subtype="ms">MS. § 52</head>
+                    <head type="editorial" subtype="ms">MS. § 52</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 52</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܥܣܪ̈ܝܢ ܘܐܪ̈ܒܥܼ. ܬܘܒ ܐܬܬܪܥܘ ܫܘܪ̈ܝܗܿ ܕܐܘܪܗܝ ܒ̈ܡܝܐ ܙܒܢܬܐ ܕܬܠܬ
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܥܣܪ̈ܝܢ ܘܐܪ̈ܒܥܼ. ܬܘܒ ܐܬܬܪܥܘ ܫܘܪ̈ܝܗܿ ܕܐܘܪܗܝ ܒ̈ܡܝܐ ܙܒܢܬܐ ܕܬܠܬ
                         ܒܝ̈ܘܡܝ ܐܢܘܪܝܣ ܘܐܪܩܕܝܣ ܡ̈ܠܟܐ ܙܟ̈ܝܐ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="53">
+                <div type="section" n="53">
 
-                    <head type="default" subtype="ms">MS. § 53</head>
+                    <head type="editorial" subtype="ms">MS. § 53</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 53</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܬܠܬܝܢ ܘܬܪ̈ܬܝܼܢ. ܩܡ ܐܘܛܘܟܝܣ ܕܝܪܝܐ ܗܢܐ ܕܛܠܡ ܦܓܪܢܘܬܐ. </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܬܠܬܝܢ ܘܬܪ̈ܬܝܼܢ. ܩܡ ܐܘܛܘܟܝܣ ܕܝܪܝܐ ܗܢܐ ܕܛܠܡ ܦܓܪܢܘܬܐ. </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="54">
+                <div type="section" n="54">
 
-                    <head type="default" subtype="ms">MS. § 54</head>
+                    <head type="editorial" subtype="ms">MS. § 54</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 54</head>
-                    <p> ܒܗܢܐ ܙܒܢܐ ܐܣܗܕ ܛܘܒܢܐ ܝܥܩܘܒ ܡܦܣܩܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܒܗܢܐ ܙܒܢܐ ܐܣܗܕ ܛܘܒܢܐ ܝܥܩܘܒ ܡܦܣܩܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="55">
+                <div type="section" n="55">
 
-                    <head type="default" subtype="ms">MS. § 55</head>
+                    <head type="editorial" subtype="ms">MS. § 55</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 55</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ <pb edRef="http://syriaca.org/bibl/659" n="7"/> ܘܬܠܬܝܢ ܘܬܫܥܼ. ܗܪܣܝܣ
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ <pb edRef="http://syriaca.org/bibl/659" n="7"/> ܘܬܠܬܝܢ ܘܬܫܥܼ. ܗܪܣܝܣ
                         ܕܗܿܢܘܢ ܕܐܡܪܝܢ ܕܒܟܝܢܐ ܢܨܝܒܐ ܚܛܝܼܬܐ ܐܬܝܕܥܬ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="56">
+                <div type="section" n="56">
 
-                    <head type="default" subtype="ms">MS. § 56</head>
+                    <head type="editorial" subtype="ms">MS. § 56</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 56</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܐܪ̈ܒܥܝܼܢ. ܐܢܕܪܐܘܣ ܐܦܝܣܩܘܦܐ ܕܫܡܝܫܛ ܡܬܝܕܥ ܗܘܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܐܪ̈ܒܥܝܼܢ. ܐܢܕܪܐܘܣ ܐܦܝܣܩܘܦܐ ܕܫܡܝܫܛ ܡܬܝܕܥ ܗܘܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="57">
+                <div type="section" n="57">
 
-                    <head type="default" subtype="ms">MS. § 57</head>
+                    <head type="editorial" subtype="ms">MS. § 57</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 57</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܚܕܐܼ. ܢܚܬ ܥܦܪܐ ܡܢ ܫܡܝܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܚܕܐܼ. ܢܚܬ ܥܦܪܐ ܡܢ ܫܡܝܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="58">
+                <div type="section" n="58">
 
-                    <head type="default" subtype="ms">MS. § 58</head>
+                    <head type="editorial" subtype="ms">MS. § 58</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 58</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܐܪ̈ܒܥܼ. ܐܬܟܢܫܬ ܣܘܢܗܕܘܣ ܩܕܡܝܬܐ ܒܐܦܣܘܣ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܐܪ̈ܒܥܼ. ܐܬܟܢܫܬ ܣܘܢܗܕܘܣ ܩܕܡܝܬܐ ܒܐܦܣܘܣ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="59">
+                <div type="section" n="59">
 
-                    <head type="default" subtype="ms">MS. § 59</head>
+                    <head type="editorial" subtype="ms">MS. § 59</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 59</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܫܬ ܢܦܼܩ ܪܒܘܠܐ ܐܦܣܩܘܦܐ ܕܐܘܪܗܝ ܡܢ ܥܠܡܐ ܒܬܡܢܝܐ ܒܐܒ. ܘܗܼܘܐ
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܫܬ ܢܦܼܩ ܪܒܘܠܐ ܐܦܣܩܘܦܐ ܕܐܘܪܗܝ ܡܢ ܥܠܡܐ ܒܬܡܢܝܐ ܒܐܒ. ܘܗܼܘܐ
                         ܚܠܦܘܗܝ ܪܒܐ ܗܝܒܐ. ܗܢܐ ܒܼܢܐܼ ܥܕܬܐ ܚܕܬܐܿ. ܗܿܝ ܕܝܘܡܢܐ ܒܝܬ ܫ̈ܠܝܚܐ ܡܬܩܪܝܐ܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="60">
+                <div type="section" n="60">
 
-                    <head type="default" subtype="ms">MS. § 60</head>
+                    <head type="editorial" subtype="ms">MS. § 60</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 60</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܫܥ ܒ̈ܝܘܡܝ ܡܝܬܪܐ ܗܝܒܐܼ. ܐܝܬܝ ܣܢܛܘܪܐ ܦܬܘܪܐ ܪܒܐ ܕܣܐܡܐ
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܫܥ ܒ̈ܝܘܡܝ ܡܝܬܪܐ ܗܝܒܐܼ. ܐܝܬܝ ܣܢܛܘܪܐ ܦܬܘܪܐ ܪܒܐ ܕܣܐܡܐ
                         ܕܐܝܬ ܒܗ ܫܒܥܡܐܐ ܘܥܣܪ̈ܝܢ ܠܝܛܪ̈ܝܼܢ. ܘܐܬܬܣܝܡ ܒܥܕܬܐ ܥܬܝܩܬܐ ܕܐܘܪܗܝ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="61">
+                <div type="section" n="61">
 
-                    <head type="default" subtype="ms">MS. § 61</head>
+                    <head type="editorial" subtype="ms">MS. § 61</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 61</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܚ̈ܡܫܝܢ ܘܬܠܬ ܥܒܕ ܢܘܣܐ ܕܣܐܡܐ ܠܐܝܩܪܐ ܕܓܪ̈ܡܘܗܝ ܕܬܐܘܡܐ ܫܠܝܚܐ ܩܕܝܫܐ
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܚ̈ܡܫܝܢ ܘܬܠܬ ܥܒܕ ܢܘܣܐ ܕܣܐܡܐ ܠܐܝܩܪܐ ܕܓܪ̈ܡܘܗܝ ܕܬܐܘܡܐ ܫܠܝܚܐ ܩܕܝܫܐ
                         ܐܢܛܠ ܣܛܪܛܠܛܝܣ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="62">
+                <div type="section" n="62">
 
-                    <head type="default" subtype="ms">MS. § 62</head>
+                    <head type="editorial" subtype="ms">MS. § 62</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 62</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܚ̈ܡܫܝܢ ܘܫܬ ܗܼܘܐ ܕܝܣܩܪܐ ܐܦܣܩܦܐ ܒܐܠܟܣܢܕܪܝܐ ܪܒܬܐ. </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܚ̈ܡܫܝܢ ܘܫܬ ܗܼܘܐ ܕܝܣܩܪܐ ܐܦܣܩܦܐ ܒܐܠܟܣܢܕܪܝܐ ܪܒܬܐ. </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="63">
+                <div type="section" n="63">
 
-                    <head type="default" subtype="ms">MS. § 63</head>
+                    <head type="editorial" subtype="ms">MS. § 63</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 63</head>
-                    <p> ܘܐܬܟܢܫܬ ܬܘܒ ܠܐܦܣܣ ܣܘܢܗܕܣ ܐܚܪܝܬܐ. ܗܢܐ ܐܚܪܡ ܠܪܒܐ ܦܠܘܝܢܣ ܐܦܝܣܩܘܦܐ ܕܩܘܣܛܢܛܝܢܐ
+                    <p xml:lang="syr"> ܘܐܬܟܢܫܬ ܬܘܒ ܠܐܦܣܣ ܣܘܢܗܕܣ ܐܚܪܝܬܐ. ܗܢܐ ܐܚܪܡ ܠܪܒܐ ܦܠܘܝܢܣ ܐܦܝܣܩܘܦܐ ܕܩܘܣܛܢܛܝܢܐ
                         ܘܦܘܠܝܣ. ܘܠܕܘܡܢܐ ܕܐܢܛܝܟܝܐ ܘܠܐܝܪܝܢܐܘܣ ܕܨܘܪ ܘܠܗܝܒܐ ܕܐܘܪܗܝ ܘܠܐܘܣܒܝܣ ܕܕܐܘܪܠܝܘܢ
                         ܘܠܕܢܝܐܝܠ ܕܚܪܢ. ܘܠܣܦܪܘܢܝܘܣ ܕܬܠܐ. ܘܠܬܐܪܕܝܛܣ ܕܩܘܪܣ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="64">
+                <div type="section" n="64">
 
-                    <head type="default" subtype="ms">MS. § 64</head>
+                    <head type="editorial" subtype="ms">MS. § 64</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 64</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܚ̈ܡܫܝܢ ܘܬܫܥ ܢܦܼܩ ܗܝܒܐ ܐܦܝܣܩܘܦܐ ܡܢ ܐܘܪܗܝ ܒܝܘܡ ܚܕ ܒܐܝܪܚ ܟܢܘܢ ܐܚܪܝ.
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܚ̈ܡܫܝܢ ܘܬܫܥ ܢܦܼܩ ܗܝܒܐ ܐܦܝܣܩܘܦܐ ܡܢ ܐܘܪܗܝ ܒܝܘܡ ܚܕ ܒܐܝܪܚ ܟܢܘܢ ܐܚܪܝ.
                         ܘܒܝܘܡ ܚܕ ܘܥܣܪ̈ܝܢ ܒܬܡܘܙ ܝܪܚܐ ܥܠ ܢܘܢܐ ܚܠܦܘܗܝ ܘܩܘܝ ܬܪ̈ܬܝܢ ܫ̈ܢܝܢ. ܘܥܒܕ ܒܥܕܬܐ
                         ܐܝܪܛܝܘܢ.܀܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="65">
+                <div type="section" n="65">
 
-                    <head type="default" subtype="ms">MS. § 65</head>
+                    <head type="editorial" subtype="ms">MS. § 65</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 65</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܫܬܝܢ ܩܡ ܠܐܘܢ ܐܦܝܣܩܘܦܐ ܒܪܗܘܡܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܫܬܝܢ ܩܡ ܠܐܘܢ ܐܦܝܣܩܘܦܐ ܒܪܗܘܡܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="66">
+                <div type="section" n="66">
 
-                    <head type="default" subtype="ms">MS. § 66</head>
+                    <head type="editorial" subtype="ms">MS. § 66</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 66</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܫܬܝܢ ܘܬܪ̈ܬܝܢ ܐܬܟܢܫܬ ܣܘܢܗܕܘܣ ܒܟܠܩܝܕܘܢܐ ܡܕܝܢܬܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܫܬܝܢ ܘܬܪ̈ܬܝܢ ܐܬܟܢܫܬ ܣܘܢܗܕܘܣ ܒܟܠܩܝܕܘܢܐ ܡܕܝܢܬܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="67">
+                <div type="section" n="67">
 
-                    <head type="default" subtype="ms">MS. § 67</head>
+                    <head type="editorial" subtype="ms">MS. § 67</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 67</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܫܬܝܢ ܘܬܠܬ ܡܪܝ ܐܝܣܚܩ ܣܝܘܡܐ ܘܪܝܫ <pb
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܫܬܝܢ ܘܬܠܬ ܡܪܝ ܐܝܣܚܩ ܣܝܘܡܐ ܘܪܝܫ <pb
                             edRef="http://syriaca.org/bibl/659" n="8"/> ܕܝܪܐ ܡܬܝܕܥ ܗܘܐ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="68">
+                <div type="section" n="68">
 
-                    <head type="default" subtype="ms">MS. § 68</head>
+                    <head type="editorial" subtype="ms">MS. § 68</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 68</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܫܬܝܢ ܘܬܫܥ ܒܐܝܪܚ ܬܫܪܝܢ ܩܕܡ ܒܥܣܪ̈ܝܢ ܘܬܡܢܝܐ ܒܗ ܐܬܬܢܝܚ ܗܝܒܐ ܐܦܝܣܩܘܦܐ
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܫܬܝܢ ܘܬܫܥ ܒܐܝܪܚ ܬܫܪܝܢ ܩܕܡ ܒܥܣܪ̈ܝܢ ܘܬܡܢܝܐ ܒܗ ܐܬܬܢܝܚ ܗܝܒܐ ܐܦܝܣܩܘܦܐ
                         ܕܐܘܪܗܝ. ܘܐܬܐ ܠܕܘܟܬܗ ܢܘܢܐ. ܘܒܼܢܐ ܒܝܬ ܡܪܝ ܝܘܚܢܢ ܡܥܡܡܕܢܐ ܘܐܓܘܪܣܐ ܕܒܝܬ ܡ̈ܣܟܢܐ
                         ܡ̈ܢܣܝܐ ܠܒܪ ܡܢ ܬܪܥܐ ܕܒܝܬ ܫܡܫ. ܒܢܐ ܕܝܢ ܒܗ ܒܐܓܘܪܣܐ ܕܡ̈ܣܟܢܐ ܒܝܬ ܣܗ̈ܕܐ ܠܡܪܝ ܩܘܙܡܐ
                         ܘܡܪܝ ܕܡܝܢܐ. ܒܢܼܐ ܕܝܢ ܐܦ ܕܝܪ̈ܬܐ ܘܦܘܪ̈ܩܣܐ. ܘܥܒܕ ܓܝܫܪ̈ܐ ܘܫܝܢ ܐܘܪ̈ܚܬܐ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="69">
+                <div type="section" n="69">
 
-                    <head type="default" subtype="ms">MS. § 69</head>
+                    <head type="editorial" subtype="ms">MS. § 69</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 69</head>
-                    <p> ܒܫܢܬ ܫܒܥܡܐܐ ܘܫܒܥܝܢ ܘܚܕܐ ܢܦܼܩ ܛܘܒܢܐ ܫܡܥܘܢ ܕܐܣܛܘܢܗ ܡܢ ܥܠܡܐ ܒܬܪܗܝܢ ܒܐܝܠܘܠ
+                    <p xml:lang="syr"> ܒܫܢܬ ܫܒܥܡܐܐ ܘܫܒܥܝܢ ܘܚܕܐ ܢܦܼܩ ܛܘܒܢܐ ܫܡܥܘܢ ܕܐܣܛܘܢܗ ܡܢ ܥܠܡܐ ܒܬܪܗܝܢ ܒܐܝܠܘܠ
                         ܒܐܪ̈ܒܥܐ ܒܫܒܐ ܥܕܢ ܚܕܥܣܪ̈ܐ ܫ̈ܥܝܢ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="70">
+                <div type="section" n="70">
 
-                    <head type="default" subtype="ms">MS. § 70</head>
+                    <head type="editorial" subtype="ms">MS. § 70</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 70</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܫܒܥܝܢ ܘܫܒܥ ܒܢܐ ܠܐܘܢ ܒܐܙܪܘܝܢܐ ܠܩܠܝܢܝܩܘܣ ܘܫܡܗܗܿ ܥܠ ܫܡܗ ܠܐܘܢܛܦܘܠܝܣ.
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܫܒܥܝܢ ܘܫܒܥ ܒܢܐ ܠܐܘܢ ܒܐܙܪܘܝܢܐ ܠܩܠܝܢܝܩܘܣ ܘܫܡܗܗܿ ܥܠ ܫܡܗ ܠܐܘܢܛܦܘܠܝܣ.
                         ܘܣܡ ܒܗܿ ܐܦ ܐܦܝܣܩܘܦܐ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="71">
+                <div type="section" n="71">
 
-                    <head type="default" subtype="ms">MS. § 71</head>
+                    <head type="editorial" subtype="ms">MS. § 71</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 71</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܬܡܢܐܝܢ ܘܬܪ̈ܬܝܼܢ. ܐܬܬܢܝܚ ܢܘܢܐ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ܆ ܘܗܼܘܐ ܚܠܦܘܗܝ
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܬܡܢܐܝܢ ܘܬܪ̈ܬܝܼܢ. ܐܬܬܢܝܚ ܢܘܢܐ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ܆ ܘܗܼܘܐ ܚܠܦܘܗܝ
                         ܩܘܪܐ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="72">
+                <div type="section" n="72">
 
-                    <head type="default" subtype="ms">MS. § 72</head>
+                    <head type="editorial" subtype="ms">MS. § 72</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 72</head>
-                    <p> ܫܢܬ ܫܒܥܡܐܐ ܘܬܫ̈ܥܝܢ ܘܚ̈ܡܫ ܡܪܕ ܠܐܘܢܛܝܣ ܥܠ ܙܝܢܘܢ ܘܐܡܠܟ ܒܐܢܛܝܟܝܐ ܬܪ̈ܬܝܢ ܫ̈ܢܝܢ.܀
+                    <p xml:lang="syr"> ܫܢܬ ܫܒܥܡܐܐ ܘܬܫ̈ܥܝܢ ܘܚ̈ܡܫ ܡܪܕ ܠܐܘܢܛܝܣ ܥܠ ܙܝܢܘܢ ܘܐܡܠܟ ܒܐܢܛܝܟܝܐ ܬܪ̈ܬܝܢ ܫ̈ܢܝܢ.܀
                     </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="73">
+                <div type="section" n="73">
 
-                    <head type="default" subtype="ms">MS. § 73</head>
+                    <head type="editorial" subtype="ms">MS. § 73</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 73</head>
-                    <p> ܫܢܬ ܬܡܢܐܡܐܐ ܐܬܥܩܪܬ ܐܣܟܘܠܐ ܕܦܪ̈ܣܝܐ ܡܢ ܐܘܪܗܝ. </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܬܡܢܐܡܐܐ ܐܬܥܩܪܬ ܐܣܟܘܠܐ ܕܦܪ̈ܣܝܐ ܡܢ ܐܘܪܗܝ. </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="74">
+                <div type="section" n="74">
 
-                    <head type="default" subtype="ms">MS. § 74</head>
+                    <head type="editorial" subtype="ms">MS. § 74</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 74</head>
-                    <p> ܫܢܬ ܬܡܢܐܡܐܐ ܘܬܫܥ ܐܫܬܒܩ ܕܗܒܐ ܠܐܘ̈ܡܢܐ ܕܒܟܠܗܿ ܐܪܥܐ ܒܐܝܪܚ ܐܝܪ. </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܬܡܢܐܡܐܐ ܘܬܫܥ ܐܫܬܒܩ ܕܗܒܐ ܠܐܘ̈ܡܢܐ ܕܒܟܠܗܿ ܐܪܥܐ ܒܐܝܪܚ ܐܝܪ. </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="75">
+                <div type="section" n="75">
 
-                    <head type="default" subtype="ms">MS. § 75</head>
+                    <head type="editorial" subtype="ms">MS. § 75</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 75</head>
-                    <p> ܘܒܐܝܪܚ ܚܙܝܪܢ ܒܫܬܐ ܒܗ ܐܬܬܢܝܚ ܩܘܪܐ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ. ܘܗܼܘܐ ܚܠܦܘܗܝ ܦܛܪܐ ܘܥܠ
+                    <p xml:lang="syr"> ܘܒܐܝܪܚ ܚܙܝܪܢ ܒܫܬܐ ܒܗ ܐܬܬܢܝܚ ܩܘܪܐ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ. ܘܗܼܘܐ ܚܠܦܘܗܝ ܦܛܪܐ ܘܥܠ
                         ܠܐܘܪܗܝ. ܒܬܪܥܣܪ ܒܐܝܠܘܠ ܕܝܠܗܿ ܕܫܢܬܐ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="76">
+                <div type="section" n="76">
 
-                    <head type="default" subtype="ms">MS. § 76</head>
+                    <head type="editorial" subtype="ms">MS. § 76</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 76</head>
-                    <p> ܫܢܬ ܬܡܢܐܡܐܐ ܘܥܣܪ̈ ܩܡܨܐ ܣܓܝܐܐ ܐܬܚܙܝ. ܡܕܡ ܕܝܢ ܠܐ ܣܓܝ ܣܪܚ ܒܫܢܬܐ ܗܿܝ. ܢܨܒ ܕܝܢ
+                    <p xml:lang="syr"> ܫܢܬ ܬܡܢܐܡܐܐ ܘܥܣܪ̈ ܩܡܨܐ ܣܓܝܐܐ ܐܬܚܙܝ. ܡܕܡ ܕܝܢ ܠܐ ܣܓܝ ܣܪܚ ܒܫܢܬܐ ܗܿܝ. ܢܨܒ ܕܝܢ
                         ܡܢܨܒܼ. ܘܗܼܘܐ ܙܘܥܐ ܪܒܐ. ܚܡܝܡܬܐ ܕܝܢ ܕܕܒܪܗܢܐ ܓܙܬ [ܬܠܬܐ] ܝܘ̈ܡܝܢ. ܘܢܝܩܦܘܠܝܣ
                         ܡܕܝܢܬܐ ܐܬܗܦܟܬ. ܘܛܡܪܬ ܒܓܘܗܿ ܟܘܠܗܘܢ ܥܡܘܪ̈ܝܗܿ. ܣܛܪ ܡܢ ܗܝܟܠܐ ܘܐܦܝܣܩܘܦܐ ܘܬܪ̈ܝܢ
                         ܒ̈ܢܝ ܩܠܝܬܗ. ܘܐܬܿܐ ܕܕܡܝܐ ܗܘܬ ܠܢܝܙܟܐ ܐܬܚܙܝܬ ܒܫܡܝܐ ܝܘܡ̈ܬܐ ܣܓܝ̈ܐܐ ܒܐܝܪܚ <pb
                             edRef="http://syriaca.org/bibl/659" n="9"/> ܟܢܘܢ ܐܚܪܝ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="77">
+                <div type="section" n="77">
 
-                    <head type="default" subtype="ms">MS. § 77</head>
+                    <head type="editorial" subtype="ms">MS. § 77</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 77</head>
-                    <p> ܐܢܣܛܘܣ ܕܝܢ ܡܿܠܟܐ ܠܐܘܦܝܡܝܣ ܐܦܣܩܦܐ ܕܩܘܣܛܢܛܝܢܐ ܦܘܠܝܣ. ܕܚܩ ܡܢ ܕܘܟܬܗ ܘܗܘܼܐ ܚܠܦܘܗܝ
+                    <p xml:lang="syr"> ܐܢܣܛܘܣ ܕܝܢ ܡܿܠܟܐ ܠܐܘܦܝܡܝܣ ܐܦܣܩܦܐ ܕܩܘܣܛܢܛܝܢܐ ܦܘܠܝܣ. ܕܚܩ ܡܢ ܕܘܟܬܗ ܘܗܘܼܐ ܚܠܦܘܗܝ
                         ܡܩܕܘܢ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="78">
+                <div type="section" n="78">
 
-                    <head type="default" subtype="ms">MS. § 78</head>
+                    <head type="editorial" subtype="ms">MS. § 78</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 78</head>
-                    <p> ܫܢܬ ܬܡܢܐܡܐܐ ܘܚܕܥܣܪ̈ܐ ܩܡܨܐ ܣܓܝܐܐ ܐܬܐ ܘܣܪܚ ܘܐܟܠ ܟܠܗ ܥܒܘܪܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܫܢܬ ܬܡܢܐܡܐܐ ܘܚܕܥܣܪ̈ܐ ܩܡܨܐ ܣܓܝܐܐ ܐܬܐ ܘܣܪܚ ܘܐܟܠ ܟܠܗ ܥܒܘܪܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="79">
+                <div type="section" n="79">
 
-                    <head type="default" subtype="ms">MS. § 79</head>
+                    <head type="editorial" subtype="ms">MS. § 79</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 79</head>
-                    <p> ܫܢܬ ܐܡܢܐܡܐܐ ܘܬܠܬܥܣܪ̈ܐ ܢܘܪܐ ܣܓܝܐܬܐ ܐܬܚܙܝܬ ܒܦܢܝܬܐ ܕܓܪܒܝܐ ܕܡܬܢܒܪܫܐ ܟܠܗ ܠܠܝܐ
+                    <p xml:lang="syr"> ܫܢܬ ܐܡܢܐܡܐܐ ܘܬܠܬܥܣܪ̈ܐ ܢܘܪܐ ܣܓܝܐܬܐ ܐܬܚܙܝܬ ܒܦܢܝܬܐ ܕܓܪܒܝܐ ܕܡܬܢܒܪܫܐ ܟܠܗ ܠܠܝܐ
                         ܒܥܣܪ̈ܝܢ ܘܬܪ̈ܝܢ ܒܐܒ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="80">
+                <div type="section" n="80">
 
-                    <head type="default" subtype="ms">MS. § 80</head>
+                    <head type="editorial" subtype="ms">MS. § 80</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 80</head>
-                    <p> ܒܫܢܬ ܬܡܢܐܡܐܐ ܘܐܪܒܥܣܪ̈ܐ ܩܘܕ ܡܿܠܟܐ ܕܦܪ̈ܣܝܐ ܫܪܐ ܥܠ ܐܡܕܡ ܡܕܢܝܬܐ ܕܒܝܬ ܢܗܪ̈ܘܬܐ
+                    <p xml:lang="syr"> ܒܫܢܬ ܬܡܢܐܡܐܐ ܘܐܪܒܥܣܪ̈ܐ ܩܘܕ ܡܿܠܟܐ ܕܦܪ̈ܣܝܐ ܫܪܐ ܥܠ ܐܡܕܡ ܡܕܢܝܬܐ ܕܒܝܬ ܢܗܪ̈ܘܬܐ
                         ܒܝܘܡ ܚܡܫܐ ܒܐܝܪܚ ܬܫܪܝܢ ܩܕܡ ܘܐܩܪܒ ܥܡܗܿ ܘܟܒܫܗܿ ܠܬܫ̈ܥܝܢ ܘܫ̈ܒܥܐ ܝܘܡ̈ܝܢ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="81">
+                <div type="section" n="81">
 
-                    <head type="default" subtype="ms">MS. § 81</head>
+                    <head type="editorial" subtype="ms">MS. § 81</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 81</head>
-                    <p> ܘܒܐܝܪܚ ܐܝܠܘܠ ܕܝܠܗܿ ܕܫܢܬܐ ܗܿܝ ܐܬܐ ܘܫܼܪܐ ܥܠ ܐܘܪܗܝ. ܘܒܛܝܒܘܬܗ ܕܐܠܗܐ ܡܕܡ ܠܐ ܐܚܣܪ
+                    <p xml:lang="syr"> ܘܒܐܝܪܚ ܐܝܠܘܠ ܕܝܠܗܿ ܕܫܢܬܐ ܗܿܝ ܐܬܐ ܘܫܼܪܐ ܥܠ ܐܘܪܗܝ. ܘܒܛܝܒܘܬܗ ܕܐܠܗܐ ܡܕܡ ܠܐ ܐܚܣܪ
                         ܐܠܐ ܐܢ ܕܐܘܩܕ ܒܝܬ ܡܪܝ ܣܪܓܝܣ ܘܒܣܠܝܩܐ ܓܪܒܝܝܬܐ ܕܒܝܬ ܡ̈ܘܕܝܢܐ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="82">
+                <div type="section" n="82">
 
-                    <head type="default" subtype="ms">MS. § 82</head>
+                    <head type="editorial" subtype="ms">MS. § 82</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 82</head>
-                    <p> ܫܢܬ ܬܡܢܐܡܐܐ ܘܥܣܪܗܝܢ ܘܚܕܐ. ܐܬܬܢܝܚ ܦܛܪܐ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ ܒܝܘܡ ܫܒܬܐ ܕܩܝܡܬܐ.
+                    <p xml:lang="syr"> ܫܢܬ ܬܡܢܐܡܐܐ ܘܥܣܪܗܝܢ ܘܚܕܐ. ܐܬܬܢܝܚ ܦܛܪܐ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝ ܒܝܘܡ ܫܒܬܐ ܕܩܝܡܬܐ.
                         ܘܗܼܘܐ ܚܠܦܘܗܝ ܦܘܠܐ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="83">
+                <div type="section" n="83">
 
-                    <head type="default" subtype="ms">MS. § 83</head>
+                    <head type="editorial" subtype="ms">MS. § 83</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 83</head>
-                    <p> ܘܒܫܢܬ ܥܣܪ̈ܝܢ ܘܚܕܐ ܕܡܠܟܘܬܗ ܕܐܢܣܛܘܣ ܦܩܕ ܕܢܫܪܘܢ ܠܓܠܘܣܩܡܐ ܕܐܘܦܝܡܝܐ ܣܗܕܬܐ. ܘܢܦܩܘܢ
+                    <p xml:lang="syr"> ܘܒܫܢܬ ܥܣܪ̈ܝܢ ܘܚܕܐ ܕܡܠܟܘܬܗ ܕܐܢܣܛܘܣ ܦܩܕ ܕܢܫܪܘܢ ܠܓܠܘܣܩܡܐ ܕܐܘܦܝܡܝܐ ܣܗܕܬܐ. ܘܢܦܩܘܢ
                         ܡܢ ܬܡܢ ܟܬܒܐ ܗܘܿ ܕܣܡܬ ܬܡܢ ܣܘܢܗܕܘܣ ܕܐܬܟܢܫܬ ܒܟܠܩܝܕܘܢܐ ܘܢܘܩܕܘܢܝܗܝ. ܘܢܦܩܬ ܡܢ ܬܡܢ
                         ܢܘܪܐ ܘܡܚܬ ܥܠ ܐܦܝ̈ܗܘܢ ܕܗܿܢܘܢ ܕܨܿܒܝܢ ܗܘܘ ܕܢܦܩܘܢܝܗܝ. ܘܡܛܠ ܗܢܐ ܦܫ ܐܢܣܛܘܣ ܡܢ
                         ܕܢܦܩܗ ܡܢ ܬܡܢ ܘܢܘܩܕܝܗܿ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="84">
+                <div type="section" n="84">
 
-                    <head type="default" subtype="ms">MS. § 84</head>
+                    <head type="editorial" subtype="ms">MS. § 84</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 84</head>
-                    <p> ܐܦܩ ܕܝܢ ܠܡܩܕܘܢ ܐܦܝܣܩܘܦܐ ܕܩܘܣܛܢܛܝܢܦܘܠܝܣܼ. ܥܠ ܕܠܐ ܐܚܪܡ ܠܣܘܢܗܕܣ. ܘܚܠܦܘܗܝ ܗܼܘܐ
+                    <p xml:lang="syr"> ܐܦܩ ܕܝܢ ܠܡܩܕܘܢ ܐܦܝܣܩܘܦܐ ܕܩܘܣܛܢܛܝܢܦܘܠܝܣܼ. ܥܠ ܕܠܐ ܐܚܪܡ ܠܣܘܢܗܕܣ. ܘܚܠܦܘܗܝ ܗܼܘܐ
                         ܛܝܡܬܐܘܣ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="85">
+                <div type="section" n="85">
 
-                    <head type="default" subtype="ms">MS. § 85</head>
+                    <head type="editorial" subtype="ms">MS. § 85</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 85</head>
-                    <p> ܘܒܥܣܪ̈ܝܢ ܘܐܪ̈ܒܥ ܕܝܠܗ ܕܐܢܣܛܘܣ ܡܕܪ ܥܠܘܗܝ ܒܝܛܠܝܢܐ.܀ </p>
-                </div2>
+                    <p xml:lang="syr"> ܘܒܥܣܪ̈ܝܢ ܘܐܪ̈ܒܥ ܕܝܠܗ ܕܐܢܣܛܘܣ ܡܕܪ ܥܠܘܗܝ ܒܝܛܠܝܢܐ.܀ </p>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="86">
+                <div type="section" n="86">
 
-                    <head type="default" subtype="ms">MS. § 86</head>
+                    <head type="editorial" subtype="ms">MS. § 86</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 86</head>
-                    <p> ܒܫܢܬ ܬܡܢܐܡܐܐ ܘܥܣܪ̈ܝܢ ܘܬܫܥ ܒܐܝܪܚ ܬܡܘܙ ܒܬܫܥܐ ܒܗ. ܢܦܼܩ ܐܢܣܛܘܣ ܡܿܠܟܐ ܡܢ ܥܠܡܐ.
+                    <p xml:lang="syr"> ܒܫܢܬ ܬܡܢܐܡܐܐ ܘܥܣܪ̈ܝܢ ܘܬܫܥ ܒܐܝܪܚ ܬܡܘܙ ܒܬܫܥܐ ܒܗ. ܢܦܼܩ ܐܢܣܛܘܣ ܡܿܠܟܐ ܡܢ ܥܠܡܐ.
                         ܘܗܼ،ܐ ܚܠܦܘܗܝ ܝܘܣܛܝܢܐ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="87">
+                <div type="section" n="87">
 
-                    <head type="default" subtype="ms">MS. § 87</head>
+                    <head type="editorial" subtype="ms">MS. § 87</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 87</head>
-                    <p> ܘܒܫܢܬܐ ܕܬܪ̈ܬܝܢ ܕܡܠܟܘܬܗ ܕܝܣܘܛܝܢܐ <pb edRef="http://syriaca.org/bibl/659" n="10"
+                    <p xml:lang="syr"> ܘܒܫܢܬܐ ܕܬܪ̈ܬܝܢ ܕܡܠܟܘܬܗ ܕܝܣܘܛܝܢܐ <pb edRef="http://syriaca.org/bibl/659" n="10"
                         /> ܕܐܝܬܝܗܿ ܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܛܪܕ ܡܢ ܐܢܛܝܟܝܐ ܠܣܐܘܪܐ ܘܠܐܟܣܢܝܐ ܡܢ ܡܒܘܓ ܘܠܟܠ
                         ܡܿܢ ܕܠܐ ܡܩܒܠ ܠܐܪ̈ܒܥܬܝܗܝܢ ܣܘ̈ܢܗܕܘ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="88">
+                <div type="section" n="88">
 
-                    <head type="default" subtype="ms">MS. § 88</head>
+                    <head type="editorial" subtype="ms">MS. § 88</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 89</head>
-                    <p> ܘܒܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܚܕܐ. ܐܬܐ ܦܛܪܝܩ ܠܐܘܪܗܝ ܕܢܦܩܝܘܗܝ ܠܦܘܠܐܼ. ܒܐܝܪܚ ܬܫܪܝܢ
+                    <p xml:lang="syr"> ܘܒܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܚܕܐ. ܐܬܐ ܦܛܪܝܩ ܠܐܘܪܗܝ ܕܢܦܩܝܘܗܝ ܠܦܘܠܐܼ. ܒܐܝܪܚ ܬܫܪܝܢ
                         ܐܚܪܝ ܒܐܪ̈ܒܥܐ ܒܗ. ܘܥܨܐ ܗܘܐ ܠܗ ܕܢܥܒܕ ܚܕܐ ܡܢ ܬܪ̈ܬܝܢ. ܕܐܘ ܢܩܒܠ ܣܘܢܗܕܘܣ ܘܢܩܘܐ ܥܠ
                         ܟܘܪܣܝܗܼ. ܐܘ ܕܐܢ ܠܐ ܡܬܛܦܝܣ ܢܦܩܗ ܡܢ ܟܘܪܣܝܗ. ܗܼܘ ܕܝܢ ܠܚܕܐ ܡܢ ܗܠܝܢ ܠܐ ܐܬܛܦܝܣ
                         ܕܢܥܒܕ. ܐܠܐ ܥܪܩ ܘܥܠ ܐܝܬܒ ܒܝܬ ܡܥܡܘܕܝܬܐ. ܟܕ ܕܝܢ ܚܙܐ ܦܛܪܝܩ ܕܠܐ ܡܬܛܦܝܣ ܕܢܥܒܕ ܚܕܐ
@@ -934,189 +934,189 @@
                         ܦܘܠܐ ܡܢ ܐܘܪܗܝܼ. ܒܥܣܪܗܝܢ ܘܫܒ̈ܥܐ ܒܬܡܘܙ. ܕܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܬܠܬ. ܘܗܼܘܐ ܚܠܦܘܗܝ
                         ܐܣܩܠܝܦ. ܘܥܠ ܠܐܘܪܗܝ ܒܥܣܪ̈ܝܢ ܘܬܠܬܐ ܒܬܫܪܝܢ ܩܕܡ ܕܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܐܪ̈ܒܥ. ܒܬܪ
                         ܬܠܬܐ ܝܪ̈ܚܝܢ ܕܢܦܼܩ ܦܘܠܐ ܐܦܝܣܩܘܦܐ ܡܢ ܐܘܪܗܝ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="89">
+                <div type="section" n="89">
 
-                    <head type="default" subtype="ms">MS. § 89</head>
+                    <head type="editorial" subtype="ms">MS. § 89</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 90</head>
-                    <p> ܘܒܐܝܪܚ ܟܢܘܢ ܩܕܡ ܒܥܣܪ̈ܝܢ ܘܐܪ̈ܒܥܐ ܒܗ. ܒܬܪ ܡܥܠܬܗ ܕܐܣܩܠܦ ܐܦܝܣܩܘܦܐ ܠܐܘܪܗܝ. ܛܪܕ
+                    <p xml:lang="syr"> ܘܒܐܝܪܚ ܟܢܘܢ ܩܕܡ ܒܥܣܪ̈ܝܢ ܘܐܪ̈ܒܥܐ ܒܗ. ܒܬܪ ܡܥܠܬܗ ܕܐܣܩܠܦ ܐܦܝܣܩܘܦܐ ܠܐܘܪܗܝ. ܛܪܕ
                         ܐܢܘܢ ܠܕܝܪ̈ܝܐ ܕܡ̈ܕܢܚܝܐ. ܠܗܘܢܼ ܘܠܟܠܗܘܢ ܕܝܪ̈ܝܐ ܚܒܪ̈ܝܗܘܢ ܕܐܟܘܬܗܘܢ ܥܠ ܕܠܐ ܫܠܡܘ
                         ܠܣܘܢܗܕܘܣ ܗܿܝ ܕܟܠܩܝܕܘܢܐ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="90">
+                <div type="section" n="90">
 
-                    <head type="default" subtype="ms">MS. § 90</head>
+                    <head type="editorial" subtype="ms">MS. § 90</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 91</head>
-                    <p> ܘܒܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܫܬ. ܥܠܘ ܡ̈ܝܐ ܣܓܗܝܐܐ ܠܐܘܪܗܝ ܙܒܢܬܐ ܕܐܪ̈ܒܥ ܘܬܪܥܘ ܫܘܪ̈ܝܗܿ
+                    <p xml:lang="syr"> ܘܒܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܫܬ. ܥܠܘ ܡ̈ܝܐ ܣܓܗܝܐܐ ܠܐܘܪܗܝ ܙܒܢܬܐ ܕܐܪ̈ܒܥ ܘܬܪܥܘ ܫܘܪ̈ܝܗܿ
                         ܘܥܩܪܘ <pb edRef="http://syriaca.org/bibl/659" n="11"/> ܡܕܝܪ̈ܝܗܿ ܘܚܢܩܘ ܝ̈ܠܕܝܗܿ
                         ܘܥܒܕ ܒܗܿ ܚܘܒܠܐ ܪܒܐ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="91">
+                <div type="section" n="91">
 
-                    <head type="default" subtype="ms">MS. § 91</head>
+                    <head type="editorial" subtype="ms">MS. § 91</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 92</head>
-                    <p> ܘܒܗܕܐ ܥܼܠܬܐܼ. ܥܪܩ ܐܣܩܠܝܦ ܐܦܝܣܩܘܦܐ ܡܢ ܐܘܪܗܝ ܘܣܠܟ ܠܐܢܛܝܘܟܝܐ ܡܕܝܢܬܐܼ. ܨܝܕ ܐܘܦܪܣ
+                    <p xml:lang="syr"> ܘܒܗܕܐ ܥܼܠܬܐܼ. ܥܪܩ ܐܣܩܠܝܦ ܐܦܝܣܩܘܦܐ ܡܢ ܐܘܪܗܝ ܘܣܠܟ ܠܐܢܛܝܘܟܝܐ ܡܕܝܢܬܐܼ. ܨܝܕ ܐܘܦܪܣ
                         ܦܛܪܝܪܟܝܣ. ܘܗܼܘܐ ܬܡܢ ܢܬܝܪ ܚܣܝܪ ܐܝܟ ܫܒ̈ܥܝܢ ܝܘܡ̈ܝܢ. ܘܡܝܬ ܬܡܢ ܒܐܢܛܝܘܟܝܐ. ܒܥܣܪ̈ܝܢ
                         ܘܫܒܥܐ ܒܐܝܪܚ ܚܙܝܪܢ ܕܝܠܗܿ ܕܫܢܬܐ. ܘܐܬܩܒܪ ܬܡܢ ܒܐܢܛܝܘܟܝܐ. ܘܒܐܪ̈ܒܥܐ ܒܐܝܪܚ ܐܝܠܘܠ
                         ܕܝܠܗܿ ܕܫܢܬܐ ܐܝܬܝܘܗܝ ܠܦܓܪܗ ܡܢ ܐܢܛܝܘܟܝܐ. ܘܩܒܪܘܗܝ ܒܝܬ ܡܪܝ ܒܪܠܗܐ ܥܠ ܡܪܝ ܢܘܢܐ
                         ܐܦܝܣܩܘܦܐ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="92">
+                <div type="section" n="92">
 
-                    <head type="default" subtype="ms">MS. § 92</head>
+                    <head type="editorial" subtype="ms">MS. § 92</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 93</head>
-                    <p> ܘܟܕ ܫܡܼܥ ܦܘܠܐ ܕܡܝܬ ܐܣܩܠܝܦ ܐܬܬܘܝ ܘܩܿܪܒ ܒܥܘܬܐ ܠܡܪܝ ܝܘܣܛܝܢܝܢܐ ܦܛܪܝܩܝܘܣ. ܘܥܼܒܕ
+                    <p xml:lang="syr"> ܘܟܕ ܫܡܼܥ ܦܘܠܐ ܕܡܝܬ ܐܣܩܠܝܦ ܐܬܬܘܝ ܘܩܿܪܒ ܒܥܘܬܐ ܠܡܪܝ ܝܘܣܛܝܢܝܢܐ ܦܛܪܝܩܝܘܣ. ܘܥܼܒܕ
                         ܬܘܒ ܠܝܒܠܢ ܠܐܘܦܪܣ ܦܛܪܝܪܟܝܣ. ܘܡܛܠ ܠܝܒܠܢ ܕܥܒܕ ܘܡܛܠ ܐܓܪܬܗ ܕܡܫܒܚܐ ܘܪܚܿܡ ܐܠܗܐ ܡܪܝ
                         ܝܘܣܛܝܢܝܢܘܣ ܦܛܪܝܩܝܘܣ ܐܬܦܢܝ ܘܥܛܦ ܠܟܘܪܣܝܗ. ܘܥܠ ܠܐܘܪܗܝ ܒܬܡܢܝܐ ܒܐܕܪ ܕܫܢܬ ܬܡܢܐܡܐܐ
                         ܘܬܠܬܝܢ ܘܫ̈ܒܥ. ܒܬܪ ܬܡ̈ܢܝܐ ܝܪ̈ܚܝܢ ܠܡܘܬܗ ܕܡܪܝ ܐܣܩܠܝܦ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="93">
+                <div type="section" n="93">
 
-                    <head type="default" subtype="ms">MS. § 93</head>
+                    <head type="editorial" subtype="ms">MS. § 93</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 94</head>
-                    <p> ܚܝܐ ܕܝܢ ܗܼܘ ܦܘܠܐ ܐܦܝܣܩܘܦܐ ܡܢ ܒܬܪ ܕܦܼܢܐ ܠܟܘܪܣܝܗ ܐܘܪܚܐ ܕܬܠܬ ܝܪ̈ܚܐ ܬܡ̈ܢܝܐ ܒܨܝܪ
+                    <p xml:lang="syr"> ܚܝܐ ܕܝܢ ܗܼܘ ܦܘܠܐ ܐܦܝܣܩܘܦܐ ܡܢ ܒܬܪ ܕܦܼܢܐ ܠܟܘܪܣܝܗ ܐܘܪܚܐ ܕܬܠܬ ܝܪ̈ܚܐ ܬܡ̈ܢܝܐ ܒܨܝܪ
                         ܝܘܡ̈ܬܐ ܬܡ̈ܢܝܐ ܘܒ̈ܬܠܬܝܢ ܒܐܝܪܚ ܬܫܪܝܢ ܩܕܝܡ ܕܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܬܡܢܐ ܐܬܬܢܝܚ
                         ܦܘܠܐ ܐܦܝܣܩܘܦܐ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="94">
+                <div type="section" n="94">
 
-                    <head type="default" subtype="ms">MS. § 94</head>
+                    <head type="editorial" subtype="ms">MS. § 94</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 95</head>
-                    <p> ܘܗܘܐ ܚܠܦܘܗܝ ܐܢܕܪܐܘܣ ܘܥܠ ܠܐܘܪܗܝ ܒܫܒܥܐ ܒܐܝܪܚ ܫܒܛ ܕܝܠܗܿ ܕܫܢܬܐ ܕܫܢܬ ܬܡܢܢܡܐܐ
+                    <p xml:lang="syr"> ܘܗܘܐ ܚܠܦܘܗܝ ܐܢܕܪܐܘܣ ܘܥܠ ܠܐܘܪܗܝ ܒܫܒܥܐ ܒܐܝܪܚ ܫܒܛ ܕܝܠܗܿ ܕܫܢܬܐ ܕܫܢܬ ܬܡܢܢܡܐܐ
                         ܘܬܠܬܝܢ ܘܬܡܢܐ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="95">
+                <div type="section" n="95">
 
-                    <head type="default" subtype="ms">MS. § 95</head>
+                    <head type="editorial" subtype="ms">MS. § 95</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 88</head>
-                    <p> ܗܘܬ ܠܗ ܕܝܢ ܒܛܝܪܘܬܐ ܘܝܨܝܦܘܬܐ ܠܪܚܿܡ ܐܠܗܐ ܡܿܠܟܐ ܝܘܣܛܝܢܝܢܐ. ܥܕܡܐ ܕܠܐܪ̈ܒܥ ܣܘܢ̈ܗܕܘ
+                    <p xml:lang="syr"> ܗܘܬ ܠܗ ܕܝܢ ܒܛܝܪܘܬܐ ܘܝܨܝܦܘܬܐ ܠܪܚܿܡ ܐܠܗܐ ܡܿܠܟܐ ܝܘܣܛܝܢܝܢܐ. ܥܕܡܐ ܕܠܐܪ̈ܒܥ ܣܘܢ̈ܗܕܘ
                         ܩܕܝ̈ܫܬܐ ܒܕܝܦܛܘܟܢ ܕܥܕܬܐ ܟܬܒ. ܗܢܘ ܕܝܢ ܠܗܿܝ ܕܢܝܩܝܐ ܘܠܗܿܝ ܕܩܘܣܛܢܛܝܢܦܘܠܝܣ. ܘܠܗܿܝ
                         ܩܕܡܝܬܐ ܕܒܐܦܣܘܣ ܘܠܗܿܝ ܕܟܠܩܕܘܢܐ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="96">
+                <div type="section" n="96">
 
-                    <head type="default" subtype="ms">MS. § 96</head>
+                    <head type="editorial" subtype="ms">MS. § 96</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 104</head>
-                    <p> ܒܫܢܬ ܬܠܬܥܣܪ̈ܐ ܕܡܠܟܘܬܗ ܕܝܘܣܛܝܢܝܢܐ ܕܐܝܬܝܗܿ ܫܢܬ ܬܡܢܐܡܐܐ ܘܚܡܫܝܢ ܕܐܢܕܩܛܝܘܢܐ
+                    <p xml:lang="syr"> ܒܫܢܬ ܬܠܬܥܣܪ̈ܐ ܕܡܠܟܘܬܗ ܕܝܘܣܛܝܢܝܢܐ ܕܐܝܬܝܗܿ ܫܢܬ ܬܡܢܐܡܐܐ ܘܚܡܫܝܢ ܕܐܢܕܩܛܝܘܢܐ
                         ܕܕܘܛܪܐ. ܐܬܿܐ ܕܕܡܝܐ ܠܢܝܙܟܐ ܐܬܚܙܝܬ ܒܫܡܝܐ ܒܚܡܫܐ ܒܬܫܪܝܢ ܩܕܡ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="97">
+                <div type="section" n="97">
 
-                    <head type="default" subtype="ms">MS. § 97</head>
+                    <head type="editorial" subtype="ms">MS. § 97</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 96</head>
-                    <p> ܘܒܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܫܒܥ ܘܐܝܪܚ ܐܝܪ ܒܥܣܪ̈ܝܢ ܘܬܫܥܐ ܒܗ ܒܝܘܡ <pb
+                    <p xml:lang="syr"> ܘܒܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܫܒܥ ܘܐܝܪܚ ܐܝܪ ܒܥܣܪ̈ܝܢ ܘܬܫܥܐ ܒܗ ܒܝܘܡ <pb
                             edRef="http://syriaca.org/bibl/659" n="12"/> ܥܪܘܒܬܐ ܒܫܒܥ ܫ̈ܥܝܢ ܗܼܘܐ ܙܘܥܐ
                         ܪܒܐ ܘܥܫܝܢܐ. ܘܢܦܠܬ ܒܗ ܣܘܓܐܐ ܕܐܢܛܝܟܝܐ ܘܛܪܬ ܝ̈ܠܘܕܝܗܿ ܘܚܢܩܬ ܥܡܘܪ̈ܝܗܿ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="98">
+                <div type="section" n="98">
 
-                    <head type="default" subtype="ms">MS. § 98</head>
+                    <head type="editorial" subtype="ms">MS. § 98</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 99</head>
-                    <p> ܘܒܫܢܬ ܬܡܢܡܐܐ ܘܬܠܬܝܢ ܘܬܫܥ ܒܐܝܪܚ ܬܫܪܝܢ ܐܚܪܝ ܒܚܡܫܬܥܣܪ ܒܗ ܗܼܘܐ ܝܩܕܢܐ ܪܒܐ
+                    <p xml:lang="syr"> ܘܒܫܢܬ ܬܡܢܡܐܐ ܘܬܠܬܝܢ ܘܬܫܥ ܒܐܝܪܚ ܬܫܪܝܢ ܐܚܪܝ ܒܚܡܫܬܥܣܪ ܒܗ ܗܼܘܐ ܝܩܕܢܐ ܪܒܐ
                         ܒܐܢܛܝܟܝܐ. ܘܐܘܩܕ ܣܘܓܗ ܕܡܕܡ ܕܦܫ ܡܢ ܙܘܥܐ. ܟܕ ܫܘܪܝܗܧ ܕܢܘܪܐ ܠܐ ܐܬܝܕܥ ܡܢ ܐܝܡܟܐ ܗܘ.
                     </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="99">
+                <div type="section" n="99">
 
-                    <head type="default" subtype="ms">MS. § 99</head>
+                    <head type="editorial" subtype="ms">MS. § 99</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 97</head>
-                    <p> ܘܡܝܬ ܒܗܢܐ ܙܘܥܐ ܐܦ ܐܘܦܪܣ ܦܛܪܝܪܟܐ ܘܐܬܛܡܪ ܬܚܝܬ ܡܕܝܪ̈ܐ ܘܐܝܟ ܕܐܡܪܝܢ ܟܠܗ ܝܘܡܐ ܗܘܐ
+                    <p xml:lang="syr"> ܘܡܝܬ ܒܗܢܐ ܙܘܥܐ ܐܦ ܐܘܦܪܣ ܦܛܪܝܪܟܐ ܘܐܬܛܡܪ ܬܚܝܬ ܡܕܝܪ̈ܐ ܘܐܝܟ ܕܐܡܪܝܢ ܟܠܗ ܝܘܡܐ ܗܘܐ
                         ܓܥܐ ܡܢ ܬܚܝܬ ܡܕܝܪ̈ܐ. ܗܼܘܐ ܕܝܢ ܒܬܪܗ ܐܦܝܣܩܘܦܐ ܒܗܿ ܒܐܢܛܝܟܝܐ ܐܦܪܝܡ ܐܡܕܝܐ. ܕܐܝܬܘܗܝ
                         ܗܘܐ ܩܘܡܣ ܕܐܢܛܠܐ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="100">
+                <div type="section" n="100">
 
-                    <head type="default" subtype="ms">MS. § 100</head>
+                    <head type="editorial" subtype="ms">MS. § 100</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 103</head>
-                    <p> ܘܒܫܢܬ ܬܡܢܐܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܐܪ̈ܒܥ ܒܐܝܪܚ ܟܢܘܢ ܩܕܡ ܒܫܬܐ ܒܗ ܢܦܩ ܡܢ ܥܠܡܐ ܡܪܝ ܐܢܕܪܐܘܣ
+                    <p xml:lang="syr"> ܘܒܫܢܬ ܬܡܢܐܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܐܪ̈ܒܥ ܒܐܝܪܚ ܟܢܘܢ ܩܕܡ ܒܫܬܐ ܒܗ ܢܦܩ ܡܢ ܥܠܡܐ ܡܪܝ ܐܢܕܪܐܘܣ
                         ܐܦܝܣܩܘܦܐ. ܘܐܬܬܣܝܡ ܒܝܬ ܡܪܝ ܒܪܠܗܐ. ܥܠ ܓܪ̈ܡܘܗܝ ܕܡܪܝ ܢܘܢܐ ܘܕܡܪܝ ܐܣܩܠܝܦ. ܘܗܼܐ
                         ܚܠܦܘܗܝ ܐܕܝ. ܘܥܠ ܠܐܘܪܗܝ ܒܥܣܪ̈ܝܢ ܘܬܡ̈ܢܝܐ ܒܐܚܝܪ ܐܒ ܕܫܢܬ ܬܡܢܐܡܐܐ ܘܐܪ̈ܒܥܝܢ
                         ܘܐܪ̈ܒܥ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="101">
+                <div type="section" n="101">
 
-                    <head type="default" subtype="ms">MS. § 101</head>
+                    <head type="editorial" subtype="ms">MS. § 101</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 98</head>
-                    <p> ܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܬܡܢܐ ܒܝܘܡ ܚܕ ܒܐܝܪܚ ܢܝܣܢ. ܗܼܘܐ ܡܪܝ ܝܘܣܛܝܢܝܢܐ ܩܣܪ. ܘܒܥܣܪ̈ܐ
+                    <p xml:lang="syr"> ܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܬܡܢܐ ܒܝܘܡ ܚܕ ܒܐܝܪܚ ܢܝܣܢ. ܗܼܘܐ ܡܪܝ ܝܘܣܛܝܢܝܢܐ ܩܣܪ. ܘܒܥܣܪ̈ܐ
                         ܒܐܝܪܚ ܢܝܣܢ. ܗܼܘܐ ܡܪܝ ܝܘܣܛܝܢܝܢܐ ܩܣܪ. ܘܒܥܣܪ̈ܐ ܒܐܝܪܚ ܐܒ ܕܝܠܗ ܕܫܢܬܐܼ. ܐܬܬܢܝܚ
                         ܡܿܠܟܐ ܝܘܣܛܝܢܝܢܐ. ܘܐܡܠܟ ܡܪܝ ܝܘܣܛܝܢܝܢܐ ܒܠܚܘܕܘܗܝ.܀ </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="102">
+                <div type="section" n="102">
 
-                    <head type="default" subtype="ms">MS. § 102</head>
+                    <head type="editorial" subtype="ms">MS. § 102</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 100</head>
-                    <p> ܫܢܬ ܬܡܢܐܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܪ̈ܬܝܢ ܒܐܝܪܚ ܬܡܘܙ. ܐܬܐ ܢܚܬ ܡܪܝ ܕܝܡܣܬܢ ܠܐܘܪܗܝ ܐܝܟ ܕܢܕܒܪ
+                    <p xml:lang="syr"> ܫܢܬ ܬܡܢܐܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܪ̈ܬܝܢ ܒܐܝܪܚ ܬܡܘܙ. ܐܬܐ ܢܚܬ ܡܪܝ ܕܝܡܣܬܢ ܠܐܘܪܗܝ ܐܝܟ ܕܢܕܒܪ
                         ܠܚܝ̈ܠܘܬܐ ܕܪ̈ܗܘܡܝܐ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="103">
+                <div type="section" n="103">
 
-                    <head type="default" subtype="ms">MS. § 103</head>
+                    <head type="editorial" subtype="ms">MS. § 103</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 101</head>
-                    <p> ܘܒܐܝܪܚ ܟܢܘܢ ܩܕܡ ܕܫܢܬ ܬܡܢܐܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܠܬ ܒܬܡܢܬܥܣܪ̈ ܒܗ ܒܝܪܚܐ ܥܠܘ ܗܘ̈ܢܝܐ
+                    <p xml:lang="syr"> ܘܒܐܝܪܚ ܟܢܘܢ ܩܕܡ ܕܫܢܬ ܬܡܢܐܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܠܬ ܒܬܡܢܬܥܣܪ̈ ܒܗ ܒܝܪܚܐ ܥܠܘ ܗܘ̈ܢܝܐ
                         ܠܒܝܬ ܪ̈ܗܘܡܝܐ. ܘܫܒܘ ܘܐܚܪܒܘ ܥܕܡܐ ܠܒܝܬ ܚ̈ܠܒܝܐ. ܘܥܡܐ ܠܕܘܕܩܛܢ ܕܐܢܛܝܟܝܐ. ܘܡܢ ܗܕܐ
                         ܥܩܬܐ ܐܬܟܼܪܗ ܡܪܝ ܕܡܣܬܢ ܘܡܝܬ ܒܬܠܐ ܡܕܝܢܬܐ. ܒܥܣܪܐ ܒܐܝܪܚ ܟܢܘܢ ܐܚܪܝ ܕܝܠܗ ܕܫܢܬܐ.܀
                     </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="104">
+                <div type="section" n="104">
 
-                    <head type="default" subtype="ms">MS. § 104</head>
+                    <head type="editorial" subtype="ms">MS. § 104</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 102</head>
-                    <p> ܘܒܫܬܢ ܬܡܢܐܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܠܬ ܒܐܝܪܚܞ ܐܝܠܘܠ ܕܝܠܗܿ <pb
+                    <p xml:lang="syr"> ܘܒܫܬܢ ܬܡܢܐܡܐܐ ܘܐܪ̈ܒܥܝܢ ܘܬܠܬ ܒܐܝܪܚܞ ܐܝܠܘܠ ܕܝܠܗܿ <pb
                             edRef="http://syriaca.org/bibl/659" n="13"/> ܕܫܢܬܐ. ܥܒܕ ܫܝܢܐ ܫܝܢܐ ܒܝܬ ܦܪ̈ܣܐ
                         ܠܪ̈ܗܘܡܝܐ. ܡܪܝ ܪܘܦܝܢܐ ܦܛܪܝܩܝܘܣ. ܘܐܬܡܬܚ ܫܝܢܐ ܗܢܐ ܥܕܡܐ ܠܫܢܬ ܬܡܢܐܡܐܐ ܘܚܡܫܝܢ
                         ܘܚܕܐ. </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="105">
+                <div type="section" n="105">
 
-                    <head type="default" subtype="ms">MS. § 105</head>
+                    <head type="editorial" subtype="ms">MS. § 105</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 105</head>
-                    <p> ܘܒܗܿ ܒܫܢܬܐ ܗܕܐ ܒܐܝܪܚ ܬܡܢܐܡܐܐ ܘܚܡܫܝܢ ܘܚܕܐ. ܘܒܗܿ ܒܫܢܬܐ ܗܕܐ ܒܐܝܪܚ ܐܝܪ ܫܼܪܐ
+                    <p xml:lang="syr"> ܘܒܗܿ ܒܫܢܬܐ ܗܕܐ ܒܐܝܪܚ ܬܡܢܐܡܐܐ ܘܚܡܫܝܢ ܘܚܕܐ. ܘܒܗܿ ܒܫܢܬܐ ܗܕܐ ܒܐܝܪܚ ܐܝܪ ܫܼܪܐ
                         ܟܣܪܘܢ ܡܿܠܟܐ ܕܦܘܪ̈ܣܝܐ ܫܝܢܐ. ܘܥܒܪ ܠܒܝܬ ܪ̈ܗܘܡܝܐ. ܘܚܪܒ ܠܫܘܪܐ ܘܠܚܠܒ ܘܠܐܢܛܝܟܝܐ.
                         ܘܐܦ ܒܐ̈ܦܡܝܐ ܐܫܬܠܛ. ܘܗܦܟ ܘܐܬܐ ܥܕܡܐ ܠܐܘܪܗܝ. ܒܛܝܒܘܬܗ ܕܝܢ ܕܐܠܗܐ ܢܛܘܪܗܿ ܡܕܡ ܠܐ
                         ܣܪܚ ܒܗܿ. ܐܠܐ ܐܦܩܘ ܠܗ ܪܘܪ̈ܒܢܐ ܕܡܕܝܢܬܐ. ܘܫܼܩܠ ܬܪ̈ܝܢ ܩܢܛܝܢܪ̈ܐ ܕܗܒܐ ܘܗܦܟ ܠܐܬܪܗ.܀
                     </p>
-                </div2>
+                </div>
 
-                <div2 type="section" xml:lang="syr" n="106">
+                <div type="section" n="106">
 
-                    <head type="default" subtype="ms">MS. § 106</head>
+                    <head type="editorial" subtype="ms">MS. § 106</head>
 
                     <head type="alternate" subtype="chronological">Chron. § 106</head>
-                    <p> ܐܝܟ ܕܝܠܦܢܢ ܡܢ ܬܫ̈ܥܝܬܐ ܩܕܡ̈ܝܬܐ ܗܐ ܐܪ̈ܒܥ ܙܒ̈ܢܝܢ ܡܬܪ̈ܥܝܢ ܡ̈ܝܐ ܫܘܪ̈ܝܗܿ ܕܡܒܪܟܬܐ
+                    <p xml:lang="syr"> ܐܝܟ ܕܝܠܦܢܢ ܡܢ ܬܫ̈ܥܝܬܐ ܩܕܡ̈ܝܬܐ ܗܐ ܐܪ̈ܒܥ ܙܒ̈ܢܝܢ ܡܬܪ̈ܥܝܢ ܡ̈ܝܐ ܫܘܪ̈ܝܗܿ ܕܡܒܪܟܬܐ
                         ܘܪ̈ܡܝܢ ܡ̈ܓܕܠܝܗܿ. ܘܡ̇ܢܩܝܢ ܝ̈ܠܕܝܗܿ ܗܐ ܡܢ ܕܐܣܬܠܩ ܡܫܝܚܐ ܠܘܬ ܐܒܘܗܝ ܡܫܒܚܐ. ܙܒܢܬܐ
                         ܩܕܡܝܬܐ ܐܬܪ̈ܥܘ ܫܘܪ̈ܝܗܿ ܒܝ̈ܘܡܝ ܣܘܪܘܣ ܡܿܠܟܐ ܕܪ̈ܗܘܡܝܐ. ܕܐܝܬܝܗܿ ܫܢܬ ܚܡܫܡܐܐ
                         ܘܬܠܬܥܣܪ̈ܐ ܒܡܢܝܢܐ ܕܝ̈ܘܢܝܐ. ܒܐܝܪܚ ܬܫܪܝܢ ܐܚܪܝ. ܘܙܒܢܬܐ ܕܬܪ̈ܬܝܢ ܐܬܬܪ̈ܥܘ ܬܘܒ
@@ -1125,8 +1125,8 @@
                         ܫܢܬ ܫܒܥܡܐܐ ܘܥܣܪܗܝܢ ܘܐܪ̈ܒܥ ܒܐܝܪܚ ܐܕܪ. ܒܬܡܢܥܣܪ̈ܐ ܒܗ ܒܬܠܬܐ ܒܫܒܐ ܟܕ ܐܝܬܘܗܝ ܗܘܐ
                         ܡܝܪ ܬܘܒ ܐܬܬܪ̈ܥܘ ܒ̈ܝܘܡܝ ܝܘܣܛܝܢܐ ܡܿܠܟܐ. ܕܐܝܬܝܗܿ ܫܢܬ ܬܡܢܐܡܐܐ ܘܬܠܬܝܢ ܘܫܬ. ܟܕ
                         ܐܝܬܘܗܝ ܗܘܐ ܐܣܩܠܝܦ ܐܦܝܣܩܘܦܐ ܒܐܘܪܗܝ. </p>
-                </div2>
-            </div1>
+                </div>
+            
         </body>
     </text>
 </TEI>

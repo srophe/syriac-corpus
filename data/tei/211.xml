@@ -36,12 +36,12 @@
                 </respStmt>
                 <respStmt>
                     <resp>Based on the work of</resp>
-                    <name type="person" ref="">Robert A. Kitchen</name>
-                    <name type="person" ref="">Martien F. G. Parmentier</name>
+                    <name type="person">Robert A. Kitchen</name>
+                    <name type="person">Martien F. G. Parmentier</name>
                 </respStmt>
                 <respStmt>
                     <resp>Edited by</resp>
-                    <name type="person" ref=""
+                    <name type="person"
                         ><!--Insert name of the person who edits this document --></name>
                 </respStmt>
                 <respStmt>
@@ -54,10 +54,9 @@
             </editionStmt>
             <publicationStmt>
                 <distributor>
-                    <pubPlace>
-                        <placeName ref="">Jean and Alexander Heard Library System, Vanderbilt
+                                            <placeName>Jean and Alexander Heard Library System, Vanderbilt
                             University, Nashville, Tennessee, USA</placeName>
-                    </pubPlace>
+
                 </distributor>
                 <authority>The Oxford-BYU Syriac Corpus</authority>
                 <idno type="URI">https://syriaccorpus.org/211</idno>
