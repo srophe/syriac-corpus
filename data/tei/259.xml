@@ -73,9 +73,17 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
+                    <analytic>
+                        <editor>Edmund Beck</editor>
+                        <title level="a">Des Heiligen Ephraem der Syrers Carmina Nisibena</title>
+                        <idno type="URI">http://syriaca.org/bibl/####</idno>
+                    </analytic>
                     <monogr>
+                        <title level="m">Corpus Scriptorum Christianorum Orientalium</title>
                         <imprint>
-                            <biblScope/>
+                            <pubPlace>Louvain</pubPlace>
+                            <publisher>Secrétariat du CorpusSCO</publisher>
+                            <date when="1961">1961</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -96,14 +104,14 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2017-11-01" who="http://syriaca.org/person.xml#jwalters">Created:
+            <change when="2018-02-16" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="title" n="0">
-                <ab xml:lang="syr">Hymn I</ab>
+            <div type="title" n="1">
+                <ab xml:lang="en">Hymn I</ab>
             </div>
             <div type="body">
                 <lg type="superscript">
