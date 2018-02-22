@@ -76,9 +76,9 @@
                     <msIdentifier>
                         <settlement>Vatican City</settlement>
                         <repository>Vatican Library</repository>
-                        <idno>588</idno>
+                        <idno>Syr. 588</idno>
                         <altIdentifier>
-                            <idno>Vat. Syr. 588</idno>
+                            <idno>Vat. Sir. 588</idno>
                         </altIdentifier>
                         <altIdentifier>
                             <idno type="URI">http://syriaca.org/manuscript/2290</idno>

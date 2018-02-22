@@ -70,8 +70,15 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <msName>Vatican syr. 117, fol. 412b-32a</msName>
-                        <msName>Mardin 136</msName>
+                        <settlement>Vatican City</settlement>
+                        <repository>Vatican Library</repository>
+                        <idno type="shelfmark">Syr. 117</idno>
+                        <altIdentifier>
+                            <idno>Vat. sir. 117</idno>
+                        </altIdentifier>
+                        <altIdentifier>
+                            <idno type="URI">http://syriaca.org/manuscript/2294</idno>
+                        </altIdentifier>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
