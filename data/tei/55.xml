@@ -75,9 +75,9 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <settlement>Oxford</settlement>
+                        <settlement>London</settlement>
                         <repository>British Library</repository>
-                        <idno>Oriental 9368</idno>
+                        <idno type="shelfmark">Oriental 9368</idno>
                         <altIdentifier>
                             <idno>BL Or. 9368</idno>
                         </altIdentifier>
