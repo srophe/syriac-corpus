@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8782">Hymn 49 on
+                    Nisibis</title>
+                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">Hymns on Nisibis -
+                    <foreign xml:lang="syr">ܦܢܩܝܬܐ ܕܡܕܪ̈ܫܐ ܕܢܨܝܒܝܢ ܕܣܝܡܝܢ ܠܛܘܒܢܐ ܡܪܝ ܐܦܪܝܡ
+                    </foreign></title>
+                <title level="s">The Oxford-BYU Syriac Corpus</title>
+                <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor-in-chief" ref="http://syriaca.org/person.xml#dtaylor">David
+                    G.K. Taylor, University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">James E. Walters,
+                    Rochester College</editor>
+                <respStmt>
+                    <resp>Created by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Based on the work of</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#ebeck">Edmund Beck</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person"
+                        ><!--Insert name of the person who edits this document --></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#moez">Michael Oez</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
+                </distributor>
+                <authority>The Oxford-BYU Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/303</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                        <p>https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                </availability>
+                <date calendar="Gregorian"
+                    ><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <editor>Edmund Beck</editor>
+                        <title level="a">Des Heiligen Ephraem der Syrers Carmina Nisibena</title>
+                        <idno type="URI">http://syriaca.org/bibl/####</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="m">Corpus Scriptorum Christianorum Orientalium</title>
+                        <imprint>
+                            <pubPlace>Louvain</pubPlace>
+                            <publisher>Secrétariat du CorpusSCO</publisher>
+                            <date when="1961">1963</date>
+                            <biblScope type="vol">240</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>The Oxford-BYU Syriac Corpus is a joint project of the University of Oxford and
+                    Brigham Young University in collaboration with Vanderbilt University and the
+                    Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University.</p>
+                <!-- Look at editorialDecl desription in P5 for labels (https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editorialDecl.html) and use as necessary to describe the corpus/text in question -->
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-02-26" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="title" n="49">
+                <ab xml:lang="en">Hymn XLIX</ab>
+            </div>
+            <div type="body">
+                <lg type="superscript">
+                    <l xml:lang="syr">ܙ ܒܪ ܩܠܗ</l>
+                </lg>
+                <lg type="stanza" n="1"> 
+                    <l xml:lang="syr">ܚܘܪ ܒܪܝ ܒܟܐܢܘܬܗܿ </l>
+                    <l xml:lang="syr">ܕܐܪܥܐ ܕܫܕܝܢ ܒܗܿ</l>
+                    <l xml:lang="syr">ܚܛܬܐ ܡܫܚܠܬܐ </l>
+                    <l xml:lang="syr">ܫܒܫܬܐ ܡܦܪܣܝܬܐ </l>
+                    <l xml:lang="syr">ܙܘ̈ܕܐ ܐܦ ܢܚ̈ܬܐ </l>
+                    <l xml:lang="syr">ܡܛܥܢܐ ܠܬܪ̈ܬܝܗܝܢ </l>
+                    <l xml:lang="syr">ܣܓܘ̈ܠܐ ܕܠܐ ܝܙܦܬ </l>
+                    <l xml:lang="syr">ܦܪܥܐ </l>
+                    <l xml:lang="syr">ܩܪܢܐ ܘܪܒܝܬܐ </l>
+                    <l xml:lang="syr">ܦܪܥܐ ܠܐܟܪܐ</l>
+                    <l xml:lang="syr">ܟܡܐ ܦܪܥܐ ܠܡܪܗܿ </l>
+                    <l xml:lang="syr">ܙܪ̈ܥܘܗܝ ܕܠܐ ܪܒܿܝ</l>
+                    
+                </lg>
+                
+                <lg type="refrain">
+                    <l xml:lang="syr">ܥܘܢܝܬܐ : ܫܪܪܟ ܕܒܢ ܢܗܘܐ </l>
+                    <l xml:lang="syr">ܚܡܝܪܐ ܕܢܿܓܕ ܠܢ </l>
+                    
+                </lg>
+                <lg type="stanza" n="2"> 
+                    <l xml:lang="syr">ܠܘ ܓܝܪ ܚܕ ܦܓܪܐ </l>
+                    <l xml:lang="syr">ܡܙܕܪܥ ܘܣܓܝ̈ܐܐ </l>
+                    <l xml:lang="syr">ܐܝܟ ܚܛܬܐ ܡܢܗ </l>
+                    <l xml:lang="syr">ܢܒܥܝܢ ܒܢܘܚܡܐ </l>
+                    <l xml:lang="syr">ܚܕ ܗܘ ܢܦܠ ܘܐܩܝܡ </l>
+                    <l xml:lang="syr">ܫܒܠܐ ܕܫܪ̈ܒܬܢ</l>
+                    <l xml:lang="syr">ܕܢܿܟܣ ܠܟܦܘܪ̈ܐ </l>
+                    <l xml:lang="syr">ܟܡܐ ܟܦܪܘ </l>
+                    <l>܀܀܀</l>
+                    <l xml:lang="syr">ܕܐܠܐ ܠܒܫ ܦܓܪܢ </l>
+                    <l>Missing Lines 10 - 11</l>
+                    <l xml:lang="syr">ܒܙܐܦܐ ܗܘ ܩܨܐ ܠܚܡܗ</l>
+                    
+                </lg>
+                <lg type="stanza" n="3"> 
+                    <l xml:lang="syr">ܐܪܥܐ ܕܐܦ ܪܚܫܐ </l>
+                    <l xml:lang="syr">ܡܘܠܕܐ ܒܦܘܩܕܢܐ </l>
+                    <l xml:lang="syr">ܥܘ̈ܩܣܐ ܕܢܟܝ̈ܢܐ </l>
+                    <l xml:lang="syr">ܡܪܚܫܐ ܒܚܝܘܬܗܿ</l>
+                    <l xml:lang="syr">ܟܡܐ ܚܕܝܐ ܒܒܪܗܿ </l>
+                    <l xml:lang="syr">ܕܢܚܐ ܘܢܬܢܚܡ</l>
+                    <l xml:lang="syr">ܕܒܥܠܬܗ ܝܪܒܬ </l>
+                    <l xml:lang="syr">ܕܐܬܓܒܠ</l>
+                    <l xml:lang="syr">ܕܐܝܕܗ ܕܒܪܘܝܐ </l>
+                    <l xml:lang="syr">ܝܩܪܬ ܠܕܚܝܚܗܿ</l>
+                    <l xml:lang="syr">ܘܒܥܠܬܗ ܡܪܢ </l>
+                    <l xml:lang="syr">ܐܬܪܟܢ ܘܗܿܠܟ ܒܗܿ</l>
+                    
+                </lg>
+                <lg type="stanza" n="4"> 
+                    <l xml:lang="syr">ܒܝܫܐ ܗܝ ܥܩܪܘܬܐ </l>
+                    <l xml:lang="syr">ܡܢ ܫܘܝܠ ܒܦܘܚܡܐ </l>
+                    <l xml:lang="syr">ܙܪܥܐ ܕܚܝܘܬܐ </l>
+                    <l xml:lang="syr">ܡܬܚܢܩ ܒܓܘ ܥܘܒܗܿ</l>
+                    <l xml:lang="syr">ܒܫܝܘܠ ܓܝܪ ܡܡܬܘܡ </l>
+                    <l xml:lang="syr">ܠܐ ܡܬܩܒܪ ܚܝܐ </l>
+                    <l xml:lang="syr">ܦܓܪܐ ܗܘ ܥܐܠ ܠܗܿ </l>
+                    <l xml:lang="syr">ܡܐ ܕܡܝܬ</l>
+                    <l xml:lang="syr">ܐܢ ܟܝܬ ܥܩܪܘܬܐ </l>
+                    <l xml:lang="syr">ܦܢܝܬ ܒ̈ܢܝ ܐܢܫܐ </l>
+                    <l xml:lang="syr">ܟܡܐ ܦܪܥܐ ܟܪܣܗܿ </l>
+                    <l xml:lang="syr">ܕܐܪܥܐ ܒܢܘܚܡܐ </l>
+                    
+                </lg>
+                <lg type="stanza" n="5"> 
+                    <l xml:lang="syr">ܩܫܝܐ ܗܝ ܐܦ ܢܘܪܐ </l>
+                    <l xml:lang="syr">ܡܢ ܫܝܘܠ ܒܢܣܝܢܐ </l>
+                    <l xml:lang="syr">ܕܚ̈ܝܐ ܐܦ ܡ̈ܝܬܐ </l>
+                    
+                    <l>܀܀܀</l>
+                    
+                    <l xml:lang="syr">ܒܠܥܐ ܒܟܦܢܘܬܗܿ</l>
+                    <l xml:lang="syr">ܠܦܓܪܐ ܒܓܘ ܥܘܒܗܿ </l>
+                    <l xml:lang="syr">ܢܛܪܬ ܒܦܘܩܕܢܐ </l>
+                    <l xml:lang="syr">ܛܠܘܡܬܐ ܝܗܒܬ </l>
+                    <l xml:lang="syr">ܘܐܣܓܝܬ</l>
+                    <l xml:lang="syr">ܩܪܢܐ ܘܪܒܝܬܐ </l>
+                    <l xml:lang="syr">ܦܢܝܬ ܠܚ̈ܙܝܐ </l>
+                    <l xml:lang="syr">ܕܚܠܦ ܬܠܝ̈ܬܝܐ </l>
+                    <l xml:lang="syr">ܚܘܝܬ ܐܪ̈ܒܝܥܝܐ </l>
+                    
+                </lg>
+                <lg type="stanza" n="6"> 
+                    <l xml:lang="syr">ܢܘܪܐ ܗܝ ܕܣܓ̈ܝܐܐ </l>
+                    <l xml:lang="syr">ܓܪܣܬ ܒܝܥܢܘܬܗܿ</l>
+                    <l xml:lang="syr">ܬܠܬܐ ܢܦܼܠܘ ܗܘܘ ܒܗܿ </l>
+                    <l xml:lang="syr">ܘܣܓܝܘ ܒܓܘ ܥܘܒܗܿ</l>
+                    <l xml:lang="syr">ܢܘܪܐ ܕܟܡܬ ܗܘܬ </l>
+                    <l xml:lang="syr">ܥܠ ܟܠ ܕܐܟܠܬ ܗܘܬ</l>
+                    <l xml:lang="syr">ܦܪܥܬܗ ܠܗܿܘ ܕܨܒܼܐ </l>
+                    <l xml:lang="syr">ܕܢܬܛܠܡ </l>
+                    <l xml:lang="syr">ܕܐܘܙܦ ܕܢܘܒܕ ܗܘܐ </l>
+                    <l xml:lang="syr">ܘܟܕ ܠܐ ܬܒܥ ܦܪܥܬ</l>
+                    <l xml:lang="syr">ܐܣܓܝ ܢܣܼܒ ܘܒܗܼܬ </l>
+                    <l xml:lang="syr">ܘܐܬܦܪܥ ܘܐܬܟܐܪ</l>
+                    
+                </lg>
+                <lg type="stanza" n="7"> 
+                    <l xml:lang="syr">ܕܡܿܐ ܗܘ ܠܣܛܢܐ </l>
+                    <l xml:lang="syr">ܕܡܘܙܦ ܘܠܐ ܬܒܿܥ </l>
+                    <l xml:lang="syr">ܟܣܦܗ ܡܛܒܥ ܠܗ </l>
+                    <l xml:lang="syr">ܠܘܬܗ ܕܝܙܦܐ </l>
+                    <l xml:lang="syr">ܡܘܙܦ ܘܡܿܣܩ ܠܗ </l>
+                    <l xml:lang="syr">ܩܨܨܐ ܘܪܒܝܬܐ </l>
+                    <l xml:lang="syr">ܢܘܪܐ ܠܒܪ ܛܘܗܡܗܿ </l>
+                    <l xml:lang="syr">ܦܢܝܬ</l>
+                    <l xml:lang="syr">ܡܕܡ ܕܠܐ ܬܒܥܗܿ </l>
+                    <l xml:lang="syr">ܟܡܐ ܦܪܥܐ ܐܪܥܐ </l>
+                    <l xml:lang="syr">ܚܘܒܬܗܿ ܒܢܘܚܡܐ </l>
+                    <l xml:lang="syr">ܠܟܐܢܐ ܕܬܒܿܥ ܠܗܿ</l>
+                    
+                    <l>܀܀܀</l>
+                    
+                </lg>
+                <lg type="stanza" n="8"> 
+                    <l xml:lang="syr">ܦܓܪܐ ܕܡܝܬ ܡܘܠܕ </l>
+                    <l xml:lang="syr">ܬܘ̈ܠܥܐ ܕܠܐ ܙܘܘܓ </l>
+                    <l xml:lang="syr">ܘܐܢ ܗܼܘ ܕܡܝܬܘܬܐ </l>
+                    <l xml:lang="syr">ܐܘܠܕܬ ܠܚܝܘܬܐ </l>
+                    <l xml:lang="syr">ܟܡܐ ܟܝܬ ܡܚܐ ܟܘܠ </l>
+                    <l xml:lang="syr">ܢܚܝܗܿ ܠܡܝܬܘܬܐ </l>
+                    <l xml:lang="syr">ܦܓܪܐ ܕܡܝܬ ܡܘܠܕ </l>
+                    <l xml:lang="syr">ܒܓܘ ܫܝܘܠ</l>
+                    <l xml:lang="syr">ܘܐܢܗܼܘ ܕܡܝܬܘܬܐ </l>
+                    <l xml:lang="syr">ܪܦܬܬ ܒܚܝܘܬܐ </l>
+                    <l xml:lang="syr">ܟܡܐ ܪܦܬܝܢ ܓܪ̈ܡܘܗܝ </l>
+                    <l xml:lang="syr">ܒܩܠܗ ܕܡܚܐ ܟܠ</l>
+                    
+                </lg>
+                <lg type="stanza" n="9"> 
+                    <l xml:lang="syr">ܢܒܝܐ ܕܒܦܩܥܬܐ </l>
+                    <l xml:lang="syr">ܢܠܦܟ ܕܐܝܟܢܐ </l>
+                    <l xml:lang="syr">ܓܪ̈ܡܐ ܕܠܐ ܙܘܥܐ </l>
+                    <l xml:lang="syr">ܪܦܬܘ ܗܘܘ ܒܦܘܩܕܢܐ </l>
+                    <l xml:lang="syr">ܒܝܬܐ ܒܢܐ ܢܦܫܗ </l>
+                    <l xml:lang="syr">ܕܐܪܕܟܠܗ ܦܩܕ ܠܗ </l>
+                    <l xml:lang="syr">ܘܡܘܬܐ ܕܡܠܟܐ ܗܘܐ </l>
+                    <l xml:lang="syr">ܒܓܘ ܫܝܘܠ</l>
+                    <l xml:lang="syr">ܦܥܠܐ ܗܘܐ ܡܢ ܫܠܝ </l>
+                    <l xml:lang="syr">ܕܓܪ̈ܡܐ ܡܩܪܒ ܗܘܐ </l>
+                    <l xml:lang="syr">ܘܬܥܼܫ ܒܒܢܝܢܗ </l>
+                    <l xml:lang="syr">ܕܗܿܘ ܗܝܟܠܐ ܕܐܪܡܝ </l>
+                    
+                </lg>
+                <lg type="stanza" n="10"> 
+                    <l xml:lang="syr">ܣܬܘܐ ܕܠܐ ܪ̈ܚܡܐ </l>
+                    <l xml:lang="syr">ܒܛܘܦܣܐ ܕܓܝܿܣܐ </l>
+                    <l xml:lang="syr">ܢܿܦܩ ܘܢܚ̈ܬܝܗܘܢ </l>
+                    <l xml:lang="syr">ܡܫܠܚ ܕܐܝ̈ܠܢܐ </l>
+                    <l xml:lang="syr">ܡܟܡܪ ܠܗܘܢ ܥܪܛܠ </l>
+                    <l xml:lang="syr">ܕܡܥܕܐ ܠܒܘܫ̈ܝܗܘܢ </l>
+                    <l xml:lang="syr">ܕܘܡܝܐ ܗܘܼܐ ܠܡܘܬܐ </l>
+                    <l xml:lang="syr">ܒܟܠܗܝܢ </l>
+                    <l xml:lang="syr">ܢܝܣܢ ܡܦܪܥ ܠܟ </l>
+                    <l xml:lang="syr">ܘܪܐܙܗ ܕܡܚܐ ܟܠ</l>
+                    <l xml:lang="syr">ܠܦܩ̈ܚܐ ܘܠܐܝ̈ܠܢܐ </l>
+                    <l xml:lang="syr">ܡܦܢܐ ܠܒܘܫ̈ܝܗܘܢ </l>
+                    
+                </lg>
+                <lg type="stanza" n="11"> 
+                    <l xml:lang="syr">ܠܥܣ̈ܒܐ ܘܥܩܪܗܐ </l>
+                    <l xml:lang="syr">ܘܦܩܚ̈ܐ ܘܗܒ̈ܒܐ </l>
+                    <l xml:lang="syr">ܡܢܚܡ ܒܫܘܦܪ̈ܝܗܘܢ </l>
+                    <l xml:lang="syr">ܘܨܒܿܥ ܠܓܘ̈ܢܝܗܘܢ </l>
+                    <l xml:lang="syr">ܛܿܒܐ ܕܥܠ ܦܩ̈ܚܐ </l>
+                    <l xml:lang="syr">ܕܠܐ ܐܘܦܘܗܝ ܡܕܡ</l>
+                    <l xml:lang="syr">ܒܛܝܠ ܠܗܿ ܠܛܝܒܘܬܗ </l>
+                    <l xml:lang="syr">ܒܟܠܗܝܢ </l>
+                    <l xml:lang="syr">ܚܣ ܠܗܿ ܠܟܐܢܘܬܗ </l>
+                    <l xml:lang="syr">ܕܛܿܠܡ ܘܛܥܿܐ ܗܘܐ </l>
+                    <l xml:lang="syr">ܠܦܓܪ̈ܐ ܕܚܒܝ̈ܒܘܗܝ </l>
+                    <l xml:lang="syr">ܒܫܘܒܚܐ ܕܡܐܬܝܬܗ</l>
+                    
+                </lg>
+                <lg type="stanza" n="12"> 
+                    <l xml:lang="syr">ܡܢܘ ܡܿܛܫܐ ܠܗ </l>
+                    <l xml:lang="syr">ܠܫܡܫܐ ܒܓܘ ܥܘܒܗ</l>
+                    <l xml:lang="syr">ܡܢܘ ܡܿܟܣܐ ܠܗ </l>
+                    <l xml:lang="syr">ܠܛܘܪܐ ܒܟ̈ܢܦܬܗ </l>
+                    <l xml:lang="syr">ܡܢܘ ܡܚܿܦܐ ܠܗ </l>
+                    <l xml:lang="syr">ܠܩܘܫܬܐ ܒܚܪܝܢܗ</l>
+                    <l xml:lang="syr">ܗܿܘܐ ܗܘ ܓܝܪ ܣܒܪܐ </l>
+                    <l xml:lang="syr">ܠܫܟ̈ܒܐ </l>
+                    <l xml:lang="syr">ܡܢܘ ܡܕܓܠ ܠܗ </l>
+                    <l xml:lang="syr">ܠܟܢܫܐ ܕܢܣܝܢܐ </l>
+                    <l xml:lang="syr">ܛܿܒܐ ܕܪ̈ܒܘܢܘܗܝ </l>
+                    <l xml:lang="syr">ܣܗܕܝܢ ܠܢܘܚܡܗ</l>
+                    
+                </lg>
+                <lg type="stanza" n="13"> 
+                    <l xml:lang="syr">ܐܢ ܚܕܝܐ ܣܪܐ </l>
+                    <l xml:lang="syr">ܕܬܩܒܠ ܠܐܒܪܗܡ </l>
+                    <l xml:lang="syr">ܘܢܗܘܘܢ ܒܡܠܟܘܬܐ </l>
+                    <l xml:lang="syr">ܬܪ̈ܝܗܘܢ ܒܕܟܘܬܐ </l>
+                    <l xml:lang="syr">ܟܡܐ ܚܕܝܐ ܢܦܫܐ </l>
+                    <l>܀܀܀</l>
+                    <l xml:lang="syr">ܕܬܩܒܠ ܠܫܘܬܦܗܿ</l>
+                    <l xml:lang="syr">ܦܘܪܫܢܗܘܢ ܣܗܿܕ </l>
+                    <l xml:lang="syr">ܠܚܘܒܗܘܢ </l>
+                    <l xml:lang="syr">ܕܡ̈ܥܐ ܢܦܝܣܢܟ </l>
+                    <l xml:lang="syr">ܕܡܐ ܕܦܪܫܝܢ ܒܿܟܝܢ </l>
+                    <l xml:lang="syr">ܕܬܘܒ ܚܕ ܠܚܕ ܨܿܒܝܢ </l>
+                    <l xml:lang="syr">ܕܢܚܙܘܢ ܒܢܘܚܡܐ </l>
+                    
+                </lg>
+                <lg type="stanza" n="14"> 
+                    <l xml:lang="syr">ܠܦܓܪܐ ܩܪܝ ܕܢܗܘܐ </l>
+                    <l xml:lang="syr">ܣܗܕܐ ܕܢܘܚܡܗ</l>
+                    <l xml:lang="syr">ܕܟܕ ܐܬܓܒܠ ܐܕܡ </l>
+                    <l xml:lang="syr">ܡܢ ܗܿܝ ܫܚܝܡܘܬܐ </l>
+                    <l xml:lang="syr">ܡܥܝܢܐ ܕܦܘܪ̈ܫܢܐ </l>
+                    <l xml:lang="syr">ܢܣܟ ܒܗ ܒܕܚܝܚܐ </l>
+                    <l xml:lang="syr">ܥܦܪܐ ܗܘ ܕܐܫܬܚܠܦ </l>
+                    <l xml:lang="syr">ܠܟܠ ܨܒܘ</l>
+                    <l xml:lang="syr">ܕܡܠܠ ܚܼܙܐ ܘܫܡܼܥ </l>
+                    <l xml:lang="syr">ܘܐܪܝܚ ܘܓܫ ܘܛܥܼܡ </l>
+                    <l xml:lang="syr">ܘܐܪܡܚ ܚܼܛܐ ܘܢܦܼܠ </l>
+                    <l xml:lang="syr">ܘܐܬܚܢܢ ܚܼܝܐ ܘܣܼܠܩ</l>
+                    
+                </lg>
+                <lg type="stanza" n="15"> 
+                    <l xml:lang="syr">ܫܘܥܐ ܘܛܪܢܐ </l>
+                    <l xml:lang="syr">ܕܐܣܬܕܩ ܒܦܘܩܕܢܐ </l>
+                    <l xml:lang="syr">ܕܒܠܼܥ ܕܠܐ ܐܣܟܠ </l>
+                    <l xml:lang="syr">ܘܐܬܬܒܥ ܕܠܐ ܩܒܿܠ </l>
+                    <l xml:lang="syr">ܘܟܕ ܠܐ ܝܙܦ ܡܢ ܐܢܫ </l>
+                    <l xml:lang="syr">ܠܟܠ ܐܢܫ ܦܪܥ ܫܩܝܐ </l>
+                    <l xml:lang="syr">ܡܘܬܐ ܕܐܬܝܥܢ </l>
+                    <l xml:lang="syr">ܡܣܬܪܩ</l>
+                    <l xml:lang="syr">ܒܦܩܥܐ ܕܡܢ ܫܠܝܐ </l>
+                    <l xml:lang="syr">ܘܪܥܡܗܿ ܕܗܿܝ ܩܪܢܐ </l>
+                    <l xml:lang="syr">ܕܗܼܝ ܩܿܪܢܐ ܡ̈ܝܬܐ </l>
+                    <l xml:lang="syr">ܠܐܘܪܥܗ ܕܒܪ ܡܠܟܐ </l>
+                    
+                </lg>
+                <lg type="stanza" n="16"> 
+                    <l xml:lang="syr">ܘܐܝܟܢ ܕܐܢ ܡܢ ܫܠܝ </l>
+                    <l>܀܀܀</l>
+                    <l xml:lang="syr">ܒܓܘ ܠܠܝܐ ܢܓܕܫ </l>
+                    <l xml:lang="syr">ܪܥܡܐ ܕܛܒ ܥܙܝܙ </l>
+                    <l xml:lang="syr">ܘܦܩܥܐ ܕܛܒ ܚܣܝܢ </l>
+                    <l xml:lang="syr">ܡܬܘܗ ܡܥܝܪ ܕܡ̈ܟܐ </l>
+                    <l xml:lang="syr">ܘܡܿܢܕ ܠܛܒ̈ܝܥܐ </l>
+                    <l xml:lang="syr">ܗܟܢ ܒܗܿܝ ܩܪܢܐ </l>
+                    <l xml:lang="syr">ܐܚܪܝܬܐ </l>
+                    <l xml:lang="syr">ܩܠܗܿ ܡܩܝܡ ܡ̈ܝܬܐ </l>
+                    <l xml:lang="syr">ܠܐ ܗܘܼܐ ܕܥܙܝܙܐ ܗܘ </l>
+                    <l xml:lang="syr">ܐܠܐ ܕܦܘܩܕܢܐ </l>
+                    <l xml:lang="syr">ܫܪܐ ܒܗܿ ܒܢܘܚܡܐ </l>
+                </lg>
+                <lg type="stanza" n="17"> 
+                    <l xml:lang="syr">ܘܡܐ ܕܐܬܬܥܝܪܘ ܡܢ ܫܠܝ </l>
+                    <l xml:lang="syr">ܬܘܗܝܢ ܘܡܬܪܗܒܝܢ </l>
+                    <l xml:lang="syr">ܕܚܕ ܡܬܕܟܪ ܥܘܠܗ </l>
+                    <l xml:lang="syr">ܐܚܪܢܐ ܠܛܡܐܘܬܗ</l>
+                    <l xml:lang="syr">ܗܿܝ ܫܥܬܐ ܛܘܒܘܗܝ </l>
+                    <l xml:lang="syr">ܠܐܝܢܐ ܕܥܗܿܕ ܠܗܿ</l>
+                    <l xml:lang="syr">ܕܒܗܿ ܙܝܥܝܢ ܬܡܢ </l>
+                    <l xml:lang="syr">ܘܢܝܕܝܢ </l>
+                    <l xml:lang="syr">ܕܚܒ̈ܠܐ ܗܘ ܡܚܝܢ ܒܗܿ </l>
+                    <l xml:lang="syr">ܕܪܘܓܙܐ ܠܥܿܘ̈ܠܐ </l>
+                    <l xml:lang="syr">ܢܒܥܘܢ ܥܠܝ ܟܐ̈ܢܐ </l>
+                    <l xml:lang="syr">ܟܠܗܘܢ ܒܗܿܘ ܥܕܢ </l>
+                    
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>
