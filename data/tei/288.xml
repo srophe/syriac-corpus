@@ -6,7 +6,7 @@
                 <title xml:lang="en" level="a" ref="http://syriaca.org/work/8767">Hymn 34 on
                     Nisibis</title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8737">Hymns on Nisibis -
-                    <foreign xml:lang="syr">ܦܢܩܝܬܐ ܕܡܕܪ̈ܫܐ ܕܢܨܝܒܝܢ ܕܣܝܡܝܢ ܠܛܘܒܢܐ ܡܪܝ ܐܦܪܝܡ
+                        <foreign xml:lang="syr">ܦܢܩܝܬܐ ܕܡܕܪ̈ܫܐ ܕܢܨܝܒܝܢ ܕܣܝܡܝܢ ܠܛܘܒܢܐ ܡܪܝ ܐܦܪܝܡ
                     </foreign></title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/13">Ephrem the Syrian</author>
@@ -84,6 +84,7 @@
                             <pubPlace>Louvain</pubPlace>
                             <publisher>Secrétariat du CorpusSCO</publisher>
                             <date when="1961">1961</date>
+                            <biblScope type="vol">218</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -125,13 +126,13 @@
                     <l xml:lang="syr">ܘܥܼܨܒ ܘܐܣܝ ܒܡܠܬܐ ܕܩܘܫܬܐ </l>
                     <l xml:lang="syr">ܕܐܒܪܡ ܠܐ ܣܦܼܩ ܠܟܝ ܡܢܘ ܕܣܿܦܩ ܠܟܝ </l>
                     <l xml:lang="syr">ܚܪܢ ܕܟܘܪܗܢܗܿ ܒܣܼܡ ܠܗܿ</l>
-                    
+
                 </lg>
-                
+
                 <lg type="refrain">
                     <l xml:lang="syr">ܥܘܢܝܬܐ : ܒܪܝܟ ܗܘ ܕܠܐ ܡܢ ܡܬܘܡ ܫܒܩܗܿ ܠܐܢܫܘܬܐ </l>
                     <l xml:lang="syr">ܕܐܣܓܝ ܒܟܠ ܕܪ̈ܝܢ ܣܥܘܪ̈ܝܗܿ</l>
-                    
+
                 </lg>
                 <lg type="stanza" n="2">
                     <l xml:lang="syr">ܐܣܝܐ ܝܥܩܘܒ ܡܫܡܗܐ ܠܚܪܢ ܐܬܐ ܕܢܕܝܩ ܥܠܝܗܿ</l>
@@ -140,7 +141,7 @@
                     <l xml:lang="syr">ܘܕܚܼܙܐ ܕܫܢܬ ܐܦ ܗܡܣܬ ܒܗ </l>
                     <l xml:lang="syr">ܐܪܦܝܗܿ ܘܫܿܢܝ ܗܐ ܡܝ̈ܟܝ ܡܪ̈ܝܪܝܢ</l>
                     <l xml:lang="syr">ܘܝ̈ܠܕܝܟܝ ܓܕܝ̈ܕܝܢ ܚܪܢ ܐܬܚܿܠܝ ܒܨܠܝܒܐ</l>
-                    
+
                 </lg>
                 <lg type="stanza" n="3">
                     <l xml:lang="syr">ܒܒܠ ܐܝܬܝܗܿ ܫܒܒܬܐ ܕܗܿܘ ܒܢܝܢܐ ܕܦܫܘ ܒ̈ܢܝܘܘܝ</l>
@@ -149,7 +150,7 @@
                     <l xml:lang="syr">ܕܡܫܒܚܬܐ ܐܘܪܗܝ ܦܐܝܬܐ </l>
                     <l xml:lang="syr">ܒܪܬܐ ܕܡܝ ܠܐܡܟܝ ܕܡܠܚܐ ܗܝ ܒܓܘ ܬܒܝܠ</l>
                     <l xml:lang="syr">ܘܡܕܟܝ ܒܝܘܠܦܢܗܿ ܪܥܝܢܟܝ</l>
-                    
+
                 </lg>
                 <lg type="stanza" n="4">
                     <l xml:lang="syr">ܐܝܢܐ ܕܚܐܪ ܕܫܥܬܐ ܒܓܘ ܡܚܙܝܬܐ ܡܨܛܒܬ ܒܗܿ</l>
@@ -158,7 +159,7 @@
                     <l xml:lang="syr">ܒܡܒܪܟܬܐ ܕܣܝܡܐ ܩܕܡܝܟܝ ܕܬܫܦܪܝܢ ܠܝܫܘܥ</l>
                     <l xml:lang="syr">ܚܘܪܝ ܒܗܿ ܘܫܦܪܝ ܒܗܿ ܕܬܗܘܐ ܠܥܘܕܪܢܟܝ</l>
                     <l xml:lang="syr">ܕܠܡܐ ܠܟܘܐܪܐ ܬܗܘܐ ܠܟܝ</l>
-                    
+
                 </lg>
                 <lg type="stanza" n="5">
                     <l xml:lang="syr">ܚܙܘ ܠܡܨܪܝܢ ܟܪܝܗܬܐ ܕܐܦ ܐܬܚܠܡܬ ܒܡܐܣܐ ܟܠ</l>
@@ -167,7 +168,7 @@
                     <l xml:lang="syr">ܕܒܟܠ ܥ̈ܠܠܢ ܣܬܪܐ ܗܝ ܡܚܘܬܗܿ</l>
                     <l xml:lang="syr">ܒܒܠ ܘܐܦ ܚܪܢ ܘܡܨܪܝܢ ܬܠܬܝܗܝܢ</l>
                     <l xml:lang="syr">ܫܡ̈ܗܐ ܬܠܝ̈ܬܝܐ ܥܡܼܕ ܘܠܒܼܫ</l>
-                    
+
                 </lg>
                 <lg type="stanza" n="6">
                     <l xml:lang="syr">ܡܐ ܕܡܿܐ ܕܝܢ ܥܠܡܐ ܠܨܠܡܐ ܪܒܐ ܕܚܼܙܐ ܛܪܘܢܐ </l>
@@ -176,7 +177,7 @@
                     <l xml:lang="syr">ܓܘܫܡܐ ܗܘ ܪܒܐ ܕܐ̈ܣܘܬܐ ܪܘܪ̈ܒܐ ܥܡܠܘ ܒܗ</l>
                     <l xml:lang="syr">ܛܿܒܐ ܒܝܕ ܥܒ̈ܕܘܗܝ ܡܬܚܗ ܠܣܘܥܪܢܐ </l>
                     <l xml:lang="syr">ܐܝܟ ܐܣܝܐ ܪܒܐ ܠܟܠ ܦܢܝ̈ܢ</l>
-                    
+
                 </lg>
                 <lg type="stanza" n="7">
                     <l xml:lang="syr">ܘܐܝܟ ܕܐܒܪܗܡ ܐܣܝܐ ܡܢ ܨܝܕ ܪܝܫܐ ܐܣܝ ܘܢܚܼܬ</l>
@@ -185,7 +186,7 @@
                     <l xml:lang="syr">ܘܡܢ ܚܘܠܡܢܐ ܡܦܠܐ ܗܘ ܒܣܡ ܠܗ</l>
                     <l xml:lang="syr">ܒܪܝܟ ܗܘ ܕܠܐ ܡܢ ܡܬܘܡ ܫܒܩܗܿ ܠܐܢܫܘܬܐ </l>
                     <l xml:lang="syr">ܕܐܣܓܝ ܒܟܠ ܕܪ̈ܝܢ ܥܘܪ̈ܢܝܗܿ</l>
-                    
+
                 </lg>
                 <lg type="stanza" n="8">
                     <l xml:lang="syr">ܘܐܝܟ ܕܠܥܩܒܐ ܟܪܝܗܬܐ ܐܣܝ ܝܘܣܦ ܠܐܪܥܐ ܕܡܨܪܝܢ </l>
@@ -194,7 +195,7 @@
                     <l xml:lang="syr">ܕܫܼܢܐ ܒܕܒܪܐ ܘܐܬܚܠܡ ܘܐܘܕܝ</l>
                     <l xml:lang="syr">ܡܨܪܝܢ ܐܣܝܬܐ ܡܗܝܪܬ ܒܣܡܡ̈ܢܝܗܿ</l>
                     <l xml:lang="syr">ܟܐ̈ܒܝܗܿ ܒܨܒܝܢܗܿ ܐܬܩܿܫܝܘ </l>
-                    
+
                 </lg>
                 <lg type="stanza" n="9">
                     <l xml:lang="syr">ܟܝܢܐ ܟܠܗ ܐܬܟܪܗ ܒܕܡܘܬ ܓܘܫܡܐ ܒܟܘܪܗܢ ܛܘܥܝܝ</l>
@@ -203,7 +204,7 @@
                     <l xml:lang="syr">ܘܢܩܘܡ ܢܘܕܐ ܠܐܣܝܐ ܕܚܢܗ </l>
                     <l xml:lang="syr">ܫܘܒܚܐ ܠܗܿܘ ܕܐܟܪܟ ܠܟܐ̈ܢܐ ܒܟܠ ܦܢܝܗܢ </l>
                     <l xml:lang="syr">ܕܠܟܪܝܗܬܐ ܬܒܝܠ ܢܣܥܘܪ ܗܘܐ </l>
-                    
+
                 </lg>
                 <lg type="stanza" n="10">
                     <l xml:lang="syr">ܠܐ ܣܦܼܩܘ ܠܗ ܕܝܢ ܠܥܠܡܐ ܐ̈ܣܘܬܐ ܒܣܡ̈ܡܢܝܗܘܢ </l>
@@ -212,7 +213,7 @@
                     <l xml:lang="syr">ܘܐܣܝ ܚܫܢ ܒܦܓܪܗ ܘܕܡܗ </l>
                     <l xml:lang="syr">ܐܚܠܡܗܿ ܡܚܘܬܢ ܫܘܒܚܐ ܠܣܡ ܚ̈ܝܐ </l>
                     <l xml:lang="syr">ܕܗܘܝܘ ܣܦܼܩ ܘܐܣܝ ܟܐܒܐ ܕܢܦܫ̈ܬܐ ܒܝܘܠܦܢܗ</l>
-                    
+
                 </lg>
                 <lg type="stanza" n="11">
                     <l xml:lang="syr">ܝܫܘܥ ܐܝܬܘܗܝ ܐܣܝܢ ܘܐܝܟ ܡܐ ܕܡܡܬܘܡ ܒܗ ܗܘ ܗܘܝܢܢ</l>
@@ -221,7 +222,7 @@
                     <l xml:lang="syr">ܕܐܦ ܥܒܘܕܐ ܗܘ ܐܦ ܥܨܘܒܐ ܗܘ ܘܐܣܝܐ ܘܣܡܐ </l>
                     <l xml:lang="syr">ܫܘܒܚܐ ܠܡܿܢ ܕܒܼܪܐ ܡܕܡ ܕܠܝܬܘܗܝ ܗܘܐ </l>
                     <l xml:lang="syr">ܘܟܕ ܬܘܒ ܚܛܐ ܘܢܦܼܠ ܐܩܝܡܗ</l>
-                    
+
                 </lg>
                 <lg type="stanza" n="12">
                     <l xml:lang="syr">ܐܣܘ̈ܬܐ ܕܥܠܡܐ ܒܚܫܐ ܗܘ ܡܨܝܢ ܠܡܐܣܝܘ</l>
@@ -230,7 +231,7 @@
                     <l xml:lang="syr">ܕܐܦ ܗܼܝ ܨܒܥܟ ܓܫܬܐ ܗܝ ܕܪ̈ܚܡܐ </l>
                     <l xml:lang="syr">ܒܪܝܟ ܗܘ ܕܡܢ ܢܚ̈ܬܘܗܝ ܒܪ̈ܝܟܐ ܘܪ̈ܟܝܟܐ </l>
                     <l xml:lang="syr">ܚܝܠܐ ܢܦܼܩ ܘܐܣܝ ܢܝܚܐܝܬ</l>
-                    
+
                 </lg>
                 <lg type="stanza" n="13">
                     <l xml:lang="syr">ܛܿܒܐ ܕܠܐܝ ܒܥܠܡܐ ܕܢܗܘܐ ܟܠܗ ܓܘܫܡܐ ܚܠܝܡܐ </l>
@@ -239,7 +240,7 @@
                     <l xml:lang="syr">ܘܢܗܘܐ ܩܒܥܗ ܥܡܗܘܢ ܠܥܠܡ </l>
                     <l xml:lang="syr">ܛܿܒܐ ܕܩܒܼܥ ܗܘܐ ܠܐܕܢܐ ܕܐܬܦܣܩܬ </l>
                     <l xml:lang="syr">ܠܐ ܬܦܣܩܢܝ ܡܢܟ ܕܐܪܓܙܬܟ</l>
-                    
+
                 </lg>
             </div>
         </body>
