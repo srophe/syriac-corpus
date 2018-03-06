@@ -106,12 +106,8 @@
     </teiHeader>
     <text>
         <body>
-            <div1 type="part">
-                <head>
-                    <title>On the Solitaries - <foreign xml:lang="syr">ܥܸܠܬܐ ܕܕܘܒܪ̈ܐ
-                            ܕܝܼܚܝܕܝܘܬܐ</foreign></title>
-                </head>
-                <div2 type="rubric" xml:lang="syr">
+                
+                <div type="title" xml:lang="syr">
 <pb ed="http://syriaca.org/manuscript/2293" n="f.73v"/>
 
 <l>ܬܘܒ ܡܲܪܬܝ̇ܢܘܬܐ ܕܠܘܬ</l>
@@ -119,8 +115,8 @@
 <l>ܕܝܼܚܝܕܝܘܬܐ ܕܲܥܒܼܝܕܐ ܠܗ. ܠܘܬ ܐܢܫ ܕܲܒܼܥܐ ܡܢܗ</l>
 <l>........................................</l>
 
-</div2>
-<div2 type="text" xml:lang="syr">
+</div>
+<div type="text" xml:lang="syr">
 
 <l>ܡܛܠ ܕܚܙܝܬܟ ܕܪܓܝܓ ܐܢܬ ܠܡܪܪܐ ܒܐܘܪܚܐ ܡܘܒܸܠܬ</l>
 <pb ed="http://syriaca.org/manuscript/2293" n="f.74r"/>
@@ -2081,8 +2077,8 @@
 <l>ܐܦܤܩܘ̈ܦܐ ܕܐܵܢܛܝܟܝܐ. ܘܐ̇ܝܠܝܢ ܐ̈ܢܝܢ ܒܝܼ̈ܫܠܐ ܕܤܒܼܠܘ</l>
 <l>ܡܢ ܐܹܘܤܹܒܝܸܣ ܘܿܒ̈ܢܝ ܬܪܥܝܬܗܘܢ ܐܵܪܝ̇ܢܹܐ ܪ̈ܫܝܥܐ ܛ</l>
     
-</div2>
-            </div1>
+</div>
+            
         </body>
     </text>
 </TEI>

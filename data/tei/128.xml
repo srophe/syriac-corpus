@@ -119,7 +119,7 @@
                 <ab xml:lang="syr">ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܐܦܣܝ̈ܐ</ab>
             </div>
             <div type="chapter" n="1" xml:lang="syr">
-                <head>Chapter 1</head>
+                <head xml:lang="en">Chapter 1</head>
                 <milestone unit="SyrChapter" n="1"/>
                 <ab type="verse" n="1">ܦ݁ܰܘܠܳܘܣ ܫܠܺܝܚܳܐ ܕ݁ܝܶܫܽܘܥ ܡܫܺܝܚܳܐ ܂ ܒ݁ܨܶܒ݂ܝܳܢܶܗ ܕ݁ܰܐܠܳܗܳܐ ܆
                     ܠܰܐܝܠܶܝܢ ܕ݁ܺܐܝܬ݂ܰܝܗܽܘܢ ܒ݁ܶܐܦ݂ܶܣܳܘܣ . ܩܰܕ݁ܺܝܫܶܐ̈ ܘܰܡܗܰܝܡܢܶܐ̈ ܒ݁ܝܶܫܽܘܥ ܡܫܺܝܚܳܐ
@@ -174,7 +174,7 @@
                     .</ab>
             </div>
             <div type="chapter" n="2" xml:lang="syr">
-                <head>Chapter 2</head>
+                <head xml:lang="en">Chapter 2</head>
                 <ab type="verse" n="1">ܘܳܐܦ݂ ܠܟ݂ܽܘܢ ܕ݁ܡܺܝܬ݂ܺܝܢ ܗ̱ܘܰܝܬ݁ܽܘܢ ܒ݁ܰܚܛܳܗܰܝܟ݁ܽܘܢ̈
                     ܘܰܒ݂ܣܰܟ݂ܠܘܳܬ݂ܟ݂ܽܘܢ̈ ܇</ab>
                 <ab type="verse" n="2">ܒ݁ܗܳܠܶܝܢ ܕ݁ܡܶܢ ܩܕ݂ܺܝܡ ܗܰܠܶܟ݂ܬ݁ܽܘܢ ܗܘܰܝܬ݁ܽܘܢ ܒ݁ܗܶܝܢ ܇ ܐܰܝܟ݂
@@ -227,7 +227,7 @@
                     ܕ݁ܰܐܠܳܗܳܐ ܒ݁ܪܽܘܚ ܀.܀.܀܀</ab>
             </div>
             <div type="chapter" n="3" xml:lang="syr">
-                <head>Chapter 3</head>
+                <head xml:lang="en">Chapter 3</head>
                 <milestone unit="SyrChapter" n="2"/>
                 <ab type="verse" n="1">ܡܶܛܽܠ ܗܳܢܳܐ ܐܶܢܳܐ ܦ݁ܰܘܠܳܘܣ . ܐܰܣܺܝܪܳܐ ܐܶܢܳܐ ܕ݁ܝܶܫܽܘܥ ܡܫܺܝܚܳܐ
                     ܥܰܠ ܐܰܦ݁ܰܝܟ݁ܽܘܢ̈ ܥܰܡ̱ܡܶܐ̈ ܆</ab>
@@ -274,7 +274,7 @@
                     ܕ݁ܳܪܶܐ̈ ܕ݁ܥܳܠܡܰܝ̈ ܥܳܠܡܺܝܢ ܂ ܐܰܡܺܝ</ab>
             </div>
             <div type="chapter" n="4" xml:lang="syr">
-                <head>Chapter 4</head>
+                <head xml:lang="en">Chapter 4</head>
                 <ab type="verse" n="1">ܒ݁ܳܥܶܐ ܐ̱ܢܳܐ ܗܳܟ݂ܺܝܠ ܡܶܢܟ݂ܽܘܢ ܐܶܢܳܐ ܐܰܣܺܝܪܳܐ ܒ݁ܡܳܪܰܢ ܆
                     ܕ݁ܰܬ݂ܗܰܠܟ݂ܽܘܢ ܐܰܝܟ݁ܰܢܳܐ ܕ݁ܝܳܐܶܐ ܠܩܶܪܝܳܢܳܐ ܕ݁ܶܐܬ݂ܩܪܺܝܬ݁ܽܘܢ ܇</ab>
                 <ab type="verse" n="2">ܒ݁ܟ݂ܽܠܳܗ ܡܰܟ݁ܺܝܟ݂ܽܘܬ݂ ܪܶܥܝܳܢܳܐ ܇ ܘܢܺܝܚܽܘܬ݂ܳܐ ܘܢܰܓ݁ܺܝܪܽܘܬ݂
@@ -348,7 +348,7 @@
                     .</ab>
             </div>
             <div type="chapter" n="5" xml:lang="syr">
-                <head>Chapter 5</head>
+                <head xml:lang="en">Chapter 5</head>
                 <ab type="verse" n="1">ܗܘܰܝܬ݁ܽܘܢ ܗܳܟ݂ܺܝܠ ܡܶܬ݁ܕ݁ܰܡܶܝܢ ܒ݁ܰܐܠܳܗܳܐ ܂ ܐܰܝܟ݂ ܒ݁ܢܰܝܳܐ̈
                     ܚܰܒ݁ܺܝܒ݂ܶܐ̈ .</ab>
                 <ab type="verse" n="2">ܘܗܰܠܶܟ݂ܘ ܒ݁ܚܽܘܒ݁ܳܐ ܆ ܐܰܝܟ݂ ܕ݁ܳܐܦ݂ ܡܫܺܝܚܳܐ ܐܰܚܒ݂ܰܢ ܘܰܐܫܠܶܡ
@@ -421,7 +421,7 @@
                     ܒ݁ܰܥܠܳܗ ܀</ab>
             </div>
             <div type="chapter" n="6" xml:lang="syr">
-                <head>Chapter 6</head>
+                <head xml:lang="en">Chapter 6</head>
                 <ab type="verse" n="1">ܒ݁ܢܰܝܳܐ̈ ܅ ܐܶܫܬ݁ܰܡ̱ܥܘ ܠܰܐܒ݂ܳܗܰܝܟ݁ܽܘܢ̈ ܒ݁ܡܳܪܰܢ ܆ ܗܳܕ݂ܶܐ ܓ݁ܶܝܪ
                     ܟ݁ܺܐܢܳܐ .</ab>
                 <ab type="verse" n="2">ܘܗܳܢܰܘ ܦ݁ܽܘܩܕ݁ܳܢܳܐ ܩܰܕ݂ܡܳܝܳܐ ܕ݁ܰܡܠܺܝܟ݂ . ܝܰܩܰܪ ܠܰܐܒ݂ܽܘܟ݂

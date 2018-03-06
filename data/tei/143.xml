@@ -121,7 +121,7 @@
                 <ab xml:lang="syr">ܐܓܪܬܐ ܕܬܠܬ ܕܝܘܚܢܢ ܫܠܝܚܐ</ab>
             </div>
             <div type="chapter" n="1" xml:lang="syr">
-                <head>Chapter 1</head>
+                <head xml:lang="en">Chapter 1</head>
                 <ab type="verse" n="1">ܩܰܫܺܝܫܳܐ ܁ ܠܓ݂ܰܐܺܝܳܘܣ ܚܰܒ݁ܺܝܒ݂ ܠܗܰܘ ܕ݁ܶܐܢܳܐ ܡܰܚܶܒ݂ ܐ̱ܢܳܐ
                     ܒ݁ܰܫܪܳܪܳܐ ܀</ab>
                 <ab type="verse" n="2">ܚܰܒ݁ܺܝܒ݂ܰܢ ܆ ܒ݁ܟ݂ܽܠܡܶܕ݁ܶܡ ܡܨܰܠܶܐ ܐ̱ܢܳܐ ܥܠܰܝܟ݁ ܆ ܕ݁ܬ݂ܶܨܠܰܚ

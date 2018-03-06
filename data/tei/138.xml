@@ -121,7 +121,7 @@
                 <ab xml:lang="syr">ܐܓܪܬܐ ܕܝܥܩܘܒ ܫܠܝܚܐ</ab>
             </div>
             <div type="chapter" n="1" xml:lang="syr">
-                <head>Chapter 1</head>
+                <head xml:lang="en">Chapter 1</head>
                 <milestone unit="SyrChapter" n="1"/>
                 <ab type="verse" n="1">ܝܰܥܩܽܘܒ݂ ܥܰܒ݂ܕ݁ܶܗ ܕ݁ܰܐܠܳܗܳܐ : ܘܰܕ݂ܡܳܪܰܢ ܝܶܫܽܘܥ ܡܫܺܝܚܳܐ ܆
                     ܠܬ݂ܰܪܬ݁ܰܥܣܪܶܐ̈ ܫܰܪܒ݂ܳܢ̈ ܕ݁ܰܙܪܺܝܥܳܢ̈ ܒ݁ܥܰܡ̱ܡܶܐ̈ ܂ ܫܠܳܡ ܀</ab>
@@ -182,7 +182,7 @@
                     ܐ̱ܢܳܫ ܢܰܦ݂ܫܶܗ ܡܶܢ ܥܳܠܡܳܐ ܂ ܕ݁ܠܳܐ ܛܽܘܠܫܳܐ ܀</ab>
             </div>
             <div type="chapter" n="2" xml:lang="syr">
-                <head>Chapter 2</head>
+                <head xml:lang="en">Chapter 2</head>
                 <ab type="verse" n="1">ܐܰܚܰܝ̈ ܆ ܠܳܐ ܒ݁ܡܰܣܰܒ݂ ܒ݁ܰܐܦ݁ܶܐ̈ ܬ݁ܶܗܘܽܘܢ ܐܰܚܺܝܕ݂ܺܝܢ
                     ܠܗܰܝܡܳܢܽܘܬ݂ܳܐ ܕ݁ܬ݂ܶܫܒ݁ܽܘܚܬ݁ܶܗ ܕ݁ܡܳܪܰܢ ܝܶܫܽܘܥ ܡܫܺܝܚܳܐ .</ab>
                 <ab type="verse" n="2">ܐܶܢ ܓ݁ܶܝܪ ܢܶܥܽܘܠ ܠܰܟ݂ܢܽܘܫܬ݁ܟ݂ܽܘܢ ܐ̱ܢܳܫ ܕ݁ܥܶܙܩܳܬ݂ܶܗ̈
@@ -247,7 +247,7 @@
                     ܗܰܝܡܳܢܽܘܬ݂ܳܐ ܕ݁ܠܳܐ ܥܒ݂ܳܕ݂ܶܐ̈ ܡܺܝܬ݂ܳܐ ܗ̱ܝ ܀</ab>
             </div>
             <div type="chapter" n="3" xml:lang="syr">
-                <head>Chapter 3</head>
+                <head xml:lang="en">Chapter 3</head>
                 <ab type="verse" n="1">ܠܳܐ ܣܰܓ݁ܺܝܶܐܐ̈ ܡܰܠܦ݂ܳܢܶܐ̈ ܢܶܗܘܽܘܢ ܒ݁ܟ݂ܽܘܢ ܂ ܐܰܚܰܝ̈ . ܐܶܠܳܐ
                     ܗܘܰܝܬ݁ܽܘܢ ܝܳܕ݂ܥܺܝܢ ܆ ܕ݁ܕ݂ܺܝܢܳܐ ܝܰܬ݁ܺܝܪܳܐ ܚܰܝܳܒ݂ܺܝܢܰܢ .</ab>
                 <ab type="verse" n="2">ܣܰܓ݁ܺܝܳܐܬ݂ܳܐ̈ ܓ݁ܶܝܪ ܡܶܫܬ݁ܰܪܥܺܝܢܰܢ ܟ݁ܽܠܰܢ . ܟ݁ܽܠ ܕ݁ܰܒ݂ܡܶܠܬ݂ܳܐ
@@ -292,7 +292,7 @@
                     ܠܰܐܝܠܶܝܢ ܕ݁ܥܳܒ݂ܕ݁ܺܝܢ ܫܠܳܡܳܐ .</ab>
             </div>
             <div type="chapter" n="4" xml:lang="syr">
-                <head>Chapter 4</head>
+                <head xml:lang="en">Chapter 4</head>
                 <ab type="verse" n="1">ܡܶܢ ܐܰܝܟ݁ܳܐ ܐܺܝܬ݂ ܒ݁ܟ݂ܽܘܢ ܩܪܳܒ݂ܶܐ̈ ܘܡܰܨܘܳܬ݂ܳܐ̈ . ܠܳܐ ܗ̱ܘܳܐ
                     ܡܶܢ ܪܓ݂ܺܝܓ݂ܳܬ݂ܳܐ̈ ܕ݁ܡܰܩܪܒ݂ܳܢ̈ ܒ݁ܗܰܕ݁ܳܡܰܝܟ݁ܽܘܢ̈ ܆</ab>
                 <ab type="verse" n="2">ܡܶܬ݂ܪܰܓ݂ܪܓ݂ܺܝܢ ܐܢ̱ܬ݁ܽܘܢ ܘܠܰܝܬ݁ ܠܟ݂ܽܘܢ . ܘܩܳܛܠܺܝܢ ܐܢ̱ܬ݁ܽܘܢ
@@ -333,7 +333,7 @@
                     ܠܶܗ ܀</ab>
             </div>
             <div type="chapter" n="5" xml:lang="syr">
-                <head>Chapter 5</head>
+                <head xml:lang="en">Chapter 5</head>
                 <ab type="verse" n="1">ܐܳܘ ܥܰܬ݁ܺܝܪܶܐ̈ ܅ ܐܰܝܠܶܠܘ ܘܰܒ݂ܟ݂ܰܘ ܥܰܠ ܕ݁ܽܘܘܳܢܶܐ̈ ܕ݁ܳܐܬ݂ܶܝܢ
                     ܥܠܰܝܟ݁ܽܘܢ .</ab>
                 <ab type="verse" n="2">ܥܽܘܬ݂ܪܟ݂ܽܘܢ ܓ݁ܶܝܪ ܐܶܬ݂ܚܰܒ݁ܰܠ ܘܰܣܪܺܝ . ܘܡܳܐܢܰܝܟ݁ܽܘܢ̈
