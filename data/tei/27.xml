@@ -114,7 +114,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="ab" n="0">
+            <div type="title" n="0">
                 <ab xml:lang="syr">ܥܠ ܓܠܝܢ̈ܐ ܐܠܗܝ̈ܐ ܕܗܘܘ ܠܘܬ ܐܒܪܗܡ</ab>
             </div>
                 <div type="rubric" xml:lang="syr">

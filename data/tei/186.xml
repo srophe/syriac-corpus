@@ -108,17 +108,12 @@
         </revisionDesc>
     </teiHeader>
     <text>
-        <body>
-            <div1 type="text">
-                <head>
-                    <title>Book of the Laws of the Countries - <foreign xml:lang="syr">ܟܬܒܐ ܕܢܡ̈ܘܣܐ ܕܐܬܪ̈ܘܬܐ</foreign></title>
-                </head>
-
-                <div2 type="rubric" xml:lang="syr">
+        <body>             
+                <div type="title" xml:lang="syr">
                          <pb edRef="zotero1043" n="4"/>
                          <ab xml:lang="syr" type="rubric">ܟܬܒܐ ܕܢܡ̈ܘܣܐ ܕܐܬܪ̈ܘܬܐ܀</ab>
-                </div2>
-                <div2 type="text" xml:lang="syr">
+                </div>
+                <div type="text" xml:lang="syr">
                     <ab xml:lang="syr"> ܡܢ ܩܕܡ ܝܘܡ̈ܬܐ ܥܠܝܢ ܗܘܝܢ ܠܡܣܥܪ ‏‏ܠܫܡܫܓܪܡ ܐܚܘܢ܃ ܘܐܬܐ ܐܫܟܚܢ ܬܡܢ
                         ܒܪܕܝܨܢ܂ ܘܟܕ ܓܫܗ ܘܚܼܙܐ ‏‏ܕܫܦܝܪ ܥܒܝܕ ܫܐܠܼܢ ܕܡܢܐ ܡܡܠܠܝܢ ܗܘܝܬܘܢ܂ ܫܡܿܥܬ ܓܝܪ ܩܠܟܘܢ
                         ܡܢ ‏‏ܠܒܪ ܟܕ ܥܐܠ ܐܢܐ܂ ܡܥܕ ܗܘܐ ܓܝܪ ܕܐܡܬܝ ܕܡܫܟܚ ܗܘܐ ܠܢ ‏‏ܕܡܡܠܠܝܢ ܗܘܝܢ ܡܕܡ ܡܢ
@@ -571,8 +566,7 @@
                         ‏‏ܙܘܥ̈ܐ ܒܝ̈ܫܐܼ܂ ܘܫܠܡܝܢ ܟܠܗܘܢ ܡܪ̈ܕܐ܂ ܘܡܬܛܦܝܣܝܢ ܣܟ̈ܠܐܼ ܘܡܬܿܡܠܝܢ ‏‏ܚܘܣܪ̈ܢܐ܂
                         ܘܗܿܘܐ ܫܝܢܐ ܘܫܠܡܐ ܡܢ ܡܘܗܒܬܗ ܕܡܪܝܐܼ ܕܟܠܗܘܢ ܟ̈ܝܢܐ܂܀ ‏‏ܫܠܡ ܟܬܒܐ ܕܢܡ̈ܘܣܐ
                         ܕܐܬܪ̈ܘܬܐ܂ ‏ </ab>
-                </div2>
-            </div1>
+                </div>
         </body>
     </text>
 </TEI>

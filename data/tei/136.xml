@@ -119,7 +119,7 @@
                 <ab xml:lang="syr">ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܦܝܠܝܡܘܢ</ab>
             </div>
             <div type="chapter" n="1" xml:lang="syr">
-                <head>Chapter 1</head>
+                <head xml:lang="en">Chapter 1</head>
                 <ab type="verse" n="1">ܦ݁ܰܘܠܳܘܣ ܐܰܣܺܝܪܶܗ ܕ݁ܝܶܫܽܘܥ ܡܫܺܝܚܳܐ ܁ ܘܛܺܝܡܳܬ݂ܶܐܳܘܣ ܐܰܚܳܐ ܆
                     ܠܦ݂ܺܝܠܺܡܳܘܢ ܚܰܒ݁ܺܝܒ݂ܳܐ ܘܦ݂ܳܠܚܳܐ ܕ݁ܥܰܡܰܢ .</ab>
                 <ab type="verse" n="2">ܘܠܰܐܦ݁ܝܰܐ ܚܰܒ݁ܺܝܒ݂ܬ݁ܰܢ . ܘܠܰܐܪܟ݂ܺܝܦ݁ܳܘܣ ܦ݁ܳܠܚܳܐ ܕ݁ܥܰܡܰܢ .
