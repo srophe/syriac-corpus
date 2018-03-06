@@ -115,7 +115,7 @@
     <text>
         <body>
             <div type="title" xml:lang="syr" n="1">
-<head type="editorial">1</head>
+<head type="editorial">First Act</head>
                 <pb ed="http://syriaca.org/bibl/1755" n="172"/>
                 <l>ܬܘܒ ܦܪܟܣܝܣ ܕܝܗܘܕܐ ܬܐܘܡܐ ܫܠܝܚܐ </l>
                 <l>ܟܕ ܙܒܿܢܗ ܠܚܒܢ ܬܓܪܐ ܕܢܚܘܬ ܢܬܠܡܕ</l>
@@ -276,7 +276,7 @@
             </div>
 
             <div type="title" xml:lang="syr" n="2">
-<head type="editorial">2</head>
+<head type="editorial">Second Act</head>
                 <pb ed="http://syriaca.org/bibl/1755" n="185"/>
                 <l>ܦܪܟܣܝܣ ܕܬܪ̈ܬܝܢ ܟܕ ܥܼܠ ܬܐܘܡܐ ܫܠܝܚܐ ܠܗܢܕܘ</l>
                 <l>ܘܒܢܼܐ ܒܝܪܬܐ ܠܡܿܠܟܐ ܒܫܡܝܐ.</l>
@@ -420,7 +420,7 @@
             </div>
 
             <div type="title" xml:lang="syr" n="3">
-<head type="editorial">3</head>
+<head type="editorial">Third Act</head>
 
                 <l>ܬܘܒ ܦܪܟܣܝܣ ܕܬܠܬ. ܕܝܗܘܕܐ</l>
                 <l>ܕܥܠ ܚܘܝܐ ܐܘܟܡܐ.</l>
@@ -559,7 +559,7 @@
             </div>
 
             <div type="title" xml:lang="syr" n="4">
-<head type="editorial">4</head>
+<head type="editorial">Fourth Act</head>
 
                 <l>[ܬܘܒ ܦܪܟܣܝܣ ܕܐܪܒܥ.]</l>
                 <l>ܘܟܕ ܥܠ ܕܘܟܬܗ ܒܐܪܘܚܐ ܩܐܿܡ ܗܘܐ ܫܠܚܝܐ : ܘܥܡ ܟܢ̈ܫܐ ܗܿܢܘܢ ܡܿܡܠܠ ܥܠ ܡܿܠܟܘܬܗܕ ܐܠܗܐ : ܘܥ
@@ -609,7 +609,7 @@
             </div>
 
             <div type="title" xml:lang="syr" n="5">
-<head type="editorial">5</head>
+<head type="editorial">Fifth Act</head>
 
                 <l>[ܬܘܒ ܦܪܟܣܝܣ ܕܚܡܫ.]</l>
                 <l>ܘܥܠ ܗܘܐ ܫܠܝܚܐ ܠܡܕܝܢܬܐܼ. ܟܕ ܟܢ̈ܫܐ ܗܿܢܘܢ ܥܡܗ. ܪܢܿܐ ܗܘܐ ܕܢܐܙܠ ܠܒܝܬ ܐܢ̈ܫܘܗܝ. ܕܗܿܘ
@@ -721,7 +721,7 @@
 
 
             <div type="title" xml:lang="syr" n="6">
-<head type="editorial">6</head>
+<head type="editorial">Sixth Act</head>
                 <pb ed="http://syriaca.org/bibl/1755" n="220"/>
                 <l>[ܬܘܒ ܦܪܟܣܝܣ ܕܫܬܐ.]</l>
                 <l>ܐܝܬ ܗܘܐ ܕܝܢ ܬܡܿܢ ܥܠܝܡܐ ܚܕ ܕܣܥܼܝܪܐ ܗܘܬ ܠܗ </l>
@@ -863,7 +863,7 @@
 
 
             <div type="title" xml:lang="syr" n="7">
-<head type="editorial">7</head>
+<head type="editorial">Seventh Act</head>
                 <pb ed="http://syriaca.org/bibl/1755" n="232"/>
                 <l>[ܬܘܒ ܦܪܟܣܝܣ ܕܫܒܥ.]</l>
                 <l> ܘܟܕ ܝܗܘܕܐ ܒܟܠܗܿ ܗܢܕܘ ܡܿܟܪܙ ܗܘܐ. ܪܒ ܚܝܠܐ ܕܡܠܟܐ ܚܕ ܐܬܼܐ ܠܘܬܗܼ ܘܐܡܼܪ ܠܗ. ܒܥܿܐ
@@ -1102,7 +1102,7 @@
             </div>
 
             <div type="title" xml:lang="syr" n="8">
-<head type="editorial">8</head>
+<head type="editorial">Eighth Act</head>
                 <l>[ܬܘܒ ܦܪܟܣܝܣ ܕܬܡܢܐ.]</l>
                 <l>ܘܗܦܼܟ ܗܘܐ ܝܗܘܕܐ ܡܢܗܘܢ. ܘܠܒܝܬܗ ܕܗܿܘ ܪܒ ܚܝܠܐ ܐܙܼܠ ܗܘܐ. ܘܟܢܫܐ ܣܓܝܐܐ ܥܡܗ. ܓܼܕܫ ܕܝܢ
                     ܐܢܬܬܐ ܚܕܐ ܕܩܪܝܒܗ ܕܡܿܠܟܐܼ. ܫܡܗܿ</l>
@@ -1376,7 +1376,7 @@
             </div>
 
             <div type="title" xml:lang="syr" n="9">
-<head type="editorial">9</head>
+<head type="editorial">Hymn of Judas Thomas</head>
                 <l>ܡܕܪܫܐ ܕܝܗܘܕܐ ܬܐܡܐ ܫܠܝܚܐ</l>
                 <l>ܕܒܐܬܪܐ ܕܗ̈ܢܕܘܝܐ</l>
             </div>
@@ -1445,7 +1445,7 @@
 
 
             <div type="title" xml:lang="syr" n="10">
-<head type="editorial">10</head>
+<head type="editorial">Song of Praise of Thomas the Apostle</head>
                 <l>ܬܘܒ ܬܫܒܘܚܬܐ ܕܬܐܘܡܐ ܫܠܝܚܐ.</l>
             </div>
 
