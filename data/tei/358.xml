@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8839">On Our Lord's Question and on the Revelation That Simon Received from the Father -
+                    <foreign>ܥܲܠ ܫܘܼܐܵܠܹܗ ܕܡܵܪܲܢ ܘܥܲܠ ܓܸܠܝܵܢܵܐ ܕܩܲܒܸܿܠܼ ܫܸܡܥܘܿܢ ܡܼܢ ܐܲܒܼܵܐ</foreign></title>
+                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8820">The Memre of Jacob
+                    of Serugh</title>
+                <title level="s">The Oxford-BYU Syriac Corpus</title>
+                <author ref="http://syriaca.org/person/42">Jacob of Serugh</author>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor-in-chief" ref="http://syriaca.org/person.xml#dtaylor">David
+                    G.K. Taylor, University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">James E. Walters,
+                    Rochester College</editor>
+                <respStmt>
+                    <resp>Created by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Based on the work of</resp>
+                    <name type="person">Paul Bedjan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person"
+                        ><!--Insert name of the person who edits this document --></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person">Fr. Shlimon</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
+                </distributor>
+                <authority>The Oxford-BYU Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/358</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                        <p>https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                </availability>
+                <date calendar="Gregorian"
+                    ><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <editor>Paul Bedjan</editor>
+                        <title level="a">On Our Lord's Question and on the Revelation That Simon Received from the Father</title>
+                        <idno type="URI">http://syriaca.org/bibl/1732</idno>
+                    </analytic>
+                    <monogr>
+                        <title level="m">Homiliae selectae Mar-Jacobi Sarugensis</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Harrassowitz</publisher>
+                            <date when="1905">1905</date>
+                        </imprint>
+                        <extent>5 Volumes</extent>
+                        <biblScope type="vol">1</biblScope>
+                        <biblScope type="pp">460-482</biblScope>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>The Oxford-BYU Syriac Corpus is a joint project of the University of Oxford and
+                    Brigham Young University in collaboration with Vanderbilt University and the
+                    Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University.</p>
+                <!-- Look at editorialDecl desription in P5 for labels (https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editorialDecl.html) and use as necessary to describe the corpus/text in question -->
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-03-30" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="rubric" xml:lang="syr">
+                <pb ed="http://syriaca.org/bibl/1732" n="460"/>
+                <l>ܕܝܼܠܹܗ ܕܩܲܕܝܼܫܵܐ ܡܵܪܝ ܝܲܥܩܘܿܒܼ </l>
+                <l>ܡܐܡܪܐ ݁ܢܛ</l>
+                <l> ݁(ܕܥܲܠ ܫܘܼܐܵܠܹܗ ܕܡܵܪܲܢ*<note place="foot" xml:id="ftn1" n="1"><p
+                    rend="footnote text" xml:lang="syr">* ܡܪܢ Sic ܕܡܪܢ In tabula</p></note>: </l>
+                <l>ܘܥܲܠ ܓܸܠܝܵܢܵܐ ܕܩܲܒܸܿܠܼ ܫܸܡܥܘܿܢ ܡܼܢ ܐܲܒܼܵܐ<note place="foot" xml:id="ftn2" n="2"><p
+                    rend="footnote text" xml:lang="syr"> - ܥܲܠ ܗܵܝܝ ܕܐܸܡܲܪ ܡܵܪܲܢ ܠܫܹܡܥܘܿܢ ܟܹܐܦܵܐ: ܕܡܲܢܘܼ
+                    ܐܵܡܪܝܼܢ ܥܠܲܝ ܐ̄ܢܵܫܵܐ ܕܐܝܼܬܲܝ O.</p></note>.</l>
+            </div>
+            <div type="text" xml:lang="syr">
+                <l>ܐ̄ܒܼܵܐ ܪܲܚܡܵܢܵܐ ܕܦܲܪܩܲܢ ܒܲܕܡܹܗ ܕܝܼܚܝܼܕܵܝܹܗ: </l><l>ܡܸܢܵܟܼ ܐܸܣܲܒܼ ܚܲܝܠܵܐ ܠܡܹܐܡܪܹܗ
+                ܕܝܼܚܝܼܕܵܝܵܟܼ܀ </l><l>ܒܪܵܐ ܫܲܪܝܼܪܵܐ ܕܐܸܬܸܵܐ ܠܘܵܬܲܢ ܕܲܢܚܲܪܲܪ<note place="foot"
+                    xml:id="ftn3" n="3"><p rend="footnote text" xml:lang="syr"> - ܕܢܚܕܬ O.</p></note> ܠܲܢ:
+                </l><l>ܒܵܟܼ ܐܹܡܲܠܸܠ ܥܲܠ ܓܸܠܝܵܢܵܟܼ ܡܸܛܠܵܬܼܵܟܼ܀ </l><l>ܪܘܼܚܵܐ ܕܩܘܼܕܫܵܐ ܣܵܦܿܪܵܐ ܕܣܲܟܼ̈ܠܹܐ
+                ܘܲܕܗܸܕܝܘܿܛܹ̈ܐ: </l><l>ܒܵܟܼ ܐܸܬܼܚܲܟܲܡ ܘܐܲܙܝܼܥ ܡܹܐܡܪܵܐ ܕܟܼܠܹܗ ܬܲܗܪܵܐ ܗܼ̄ܘ܀ </l><l>ܐ̄ܒܼܵܐ
+                ܝܵܠܘܿܕܵܐ ܗܲܒܼ ܠܝܼ ܡܸܠܬܼܵܐ ܡܸܛܠ ܝܲܠܕܵܟܼ: </l><l>ܠܲܡܡܲܠܵܠܘܼ ܒܚܘܼܒܵܐ ܫܲܪܒܹܿܗ
+                ܥܲܬܿܝܼܪܵܐܝܼܬܼ܀ </l><l>ܒܪܵܐ ܝܑܼܠܝܼܕܵܐ ܓܠܝܼ ܒܝܼ ܫܘܼܦܪܵܟܼ ܡܸܛܠ ܐܲܒܼܘܼܟܼ: </l><l>ܕܲܢܡܲܠܸܠ
+                ܦܘܼܡܝ ܟܲܕ ܪܵܡ ܩܵܠܹܗ ܒܫܘܼܒܼܚܵܐ ܚܲܕܬܼܵܐ܀ </l><l>ܪܘܼܚܵܐ ܣܢܹܐܓܼܪܵܐ ܕܒܹܗ ܡܸܙܕܲܡܪܵܐ ܣܒܲܪܬܼܵܐ
+                ܟܠܵܗܿ: </l><l>ܒܵܟܼ ܢܸܬܼܗܲܦܲܟܼ ܠܸܫܵܢܝ ܕܵܘܝܵܐ<note place="foot" xml:id="ftn4" n="4"><p
+                        rend="footnote text" xml:lang="syr"> - ܪܦܝܐ O.</p></note> ܥܲܠ ܬܸܫܒܿܘܿܚܬܵܟܼ܀ </l><l>ܐܲܒܼܵܐ
+                ܕܫܲܕܲܪ ܒܪܹܗ ܚܲܒܿܝܼܒܼܵܐ ܕܐܲܚܵܐ ܢܗܹܐ ܠܲܢ: </l><l>ܦܬܲܚ ܠܝܼ ܣܸܦ̈ܘܵܬܼܝ ܠܲܡܡܲܠܵܠܘܼ ܥܠܵܘܗܝ
+                ܕܝܼܚܝܼܕܵܟܼ܀</l>
+            <pb ed="http://syriaca.org/bibl/1732" n="461"/>
+            <l>ܝܑܼܚܝܼܕܵܝܵܐ ܕܝܲܗ̄ܒܼ ܠܲܢ ܟܠܹܗ ܥܘܼܬܼܪܹܗ ܕܐܲܒܼܘܼܗܝ: </l><l>ܒܥܘܼܬܼܪܵܐ ܕܐ̄ܪܵܙܲܝܟ ܬܸܬܿܙܝܼܥ
+                ܡܸܠܲܬܼܝ ܨܹܝܕ ܫܵܡ̈ܘܿܥܹܐ܀ </l><l>ܪܘܼܚܵܐ ܕܲܢܦܲܩܼ ܫܲܦܼܝܼ ܥܲܪܡܵܐ ܩܕܵܡ ܬܲܠܡܝܼ̈ܕܹܐ:
+                </l><l>ܫܲܦܵܐ ܫܒܼܝܼܠܵܐ ܠܡܼܐܡܲܪ ܬܲܗܪܵܐ ܕܙܵܥܼ ܢܕܢܲܚ ܡܹܢܝ<note place="foot" xml:id="ftn5"
+                    n="5"><p rend="footnote text" xml:lang="syr"> - ܒܝ O.</p></note>܀ </l><l>ܐ̄ܒܼܵܐ ܕܟܼܠ ܡܹܢܹܗ
+                ܘܟܼܠܗܹܝܢ ܕܲܗܸܘܲܝ̈ ܡܸܛܠܵܬܹܗ: </l><l>ܡܸܢܵܟܼ ܐܸܣܲܒܼ ܥܸܠܬܼܵܐ ܠܡܹܐܡܪܵܐ ܕܠܵܐ ܡܸܣܬܲܝܲܟܼ܀
+                </l><l>ܒܪܵܐ ܕܟܼܠ ܒܐܝܼܕܹܗ ܒܸܠܥܵܕܵܘܗܝ ܕܹܝܢ ܐܵܦܠܵܐ ܡܸܕܹܡ: </l><l>ܒܐܝܼܕܵܟܼ ܠܐܲܒܼܘܼܟܼ ܐܸܙܡܲܪ
+                ܫܘܼܒܼܚܵܐ ܡܠܸܐ ܦܘܼܪܫܵܢܵܐ܀ </l><l>ܪܘܼܚܵܐ ܓܲܙܵܐ ܕܲܢܒܼܝܼܘܼܬܼܵܐ ܘܕܲܫܠܝܼܚܘܼܬܼܵܐ: </l><l>ܡܼܢ
+                ܣܝܼ̈ܡܵܬܼܵܟܼ ܗܲܒܼ ܠܝܼ ܥܘܼܬܼܪܵܐ ܠܲܡܡܲܠܵܠܘܼ<note place="foot" xml:id="ftn6" n="6"><p
+                        rend="footnote text" xml:lang="syr"> - ܠܡܦܠܓܘ O.</p></note>܀ </l><l>ܐ̄ܒܼܵܐ ܕܲܒܼܚܘܼܒܹܗ ܐܲܫܠܸܡ
+                ܠܲܒܼܪܹܗ ܚܠܵܦ ܚܲܛܵܝܹ̈ܐ: </l><l>ܚܠܵܦܲܝ ܡܲܠܸܠ ܡܸܛܠ ܝܲܠܕܵܟܼ ܨܹܝܕ ܫܵܡ̈ܘܿܥܹܐ܀ </l><l>ܒܪܵܐ
+                ܕܐܸܬܿܬܲܚܬܿܝܼ ܕܢܸܗܘܸܐ ܡܸܢܲܢ ܟܲܕ ܡܵܪܲܢ ܗܼ̄ܘ: </l><l>ܕܢܲܚ ܒܝܼ ܒܬܲܗܪܵܐ ܘܢܸܕܢܲܚ ܢܘܼܗܪܵܟܼ ܡܢ
+                ܦܸܬܼܓܼܵܡܲܝ̈܀ </l><l>ܪܘܼܚܵܐ ܕܡܲܟܸܟܼ ܟܠܗܘܿܢ ܪܵܘܡܹܐ ܒܲܥܪܝܼܪܵܝܹܐ: </l><l>ܐܲܢ̄ܬܿ ܐܲܬܼܩܸܢ ܠܝܼ
+                ܐܘܼܪܚܵܐ ܠܡܸ̈ܠܲܝ ܚܲܠܵܫܵ̈ܬܼܵܐ܀ </l><l>ܡܿܢ ܕܹܝܢ ܝܲܗܼ̄ܒܼ ܠܝܼ ܚܘܼܒܵܐ ܕܩܵܐܹܡ ܐܲܝܟܼ
+                ܬܵܒܼܘܿܥܵܐ: </l><l>ܨܹܝܕ ܫܵܡ̈ܘܿܥܹܐ ܘܢܵܓܹܕ ܠܗܘܿܢ ܨܹܝܕ ܝܘܼܠܦܵܢܵܐ܀ </l><l>ܡܿܢ ܕܹܝܢ ܔܲܗܝܵܐ
+                ܐܸܕܢܵܐ ܠܩܵܠܵܐ ܕܵܡܲܠܦܵܢܘܼܬܼܵܐ: </l><l>ܕܒܲܣܝܼܡ ܗ̄ܘܼܵܐ ܠܵܗܿ ܫܸܩܝܵܐ ܚܲܠܝܵܐ ܕܠܵܐ ܚܸܪܝܵܢܵܐ܀
+                </l><l>ܡܢ ܕܹܝܢ ܗܲܠܸܟܼ ܢܲܗܪܵܘܵܬܼܵܐ ܕܚܘܼܒܵܐ ܪܲܒܵܐ:</l>
+            <pb ed="http://syriaca.org/bibl/1732" n="462"/>
+            <l>ܡܢ ܐܵܡܘܼܪܵܐ ܘܡܢ ܫܵܡ̈ܘܿܥܹܐ ܒܚܲܕ ܨܸܒܼܝܵܢܵܐ܀ </l><l>ܡܿܢ ܕܹܝܢ ܟܠܢܵܫ ܠܚܲܕ ܨܸܒܼܝܵܢܵܐ ܪܗܸܛܼ
+                ܕܐܲܠܵܗܵܐ: </l><l>ܕܨܵܒܹܿܐ ܕܟܼܠܢܵܫ ܢܹܐܬܲܪ ܡܸܢܹܗ ܟܲܕ ܠܵܐ ܚܵܣܲܪ<note place="foot"
+                    xml:id="ftn7" n="7"><p rend="footnote text" xml:lang="syr"> - ܚܣܡ O.</p></note>܀ </l><l>ܥܲܠ
+                ܝܘܼܬܼܪܵܢܵܐ ܢܸܚܒܿܘܿܨ ܟܠܢܵܫ ܠܲܡܟܲܢܵܫܘܼ: </l><l>ܐܸܢ ܐܵܡܘܿܪܹܐ ܘܐܸܢ ܫܵܡ̈ܘܿܥܹܐ
+                ܕܗܲܝܡܵܢܘܼܬܼܵܐ܀ </l><l>ܐܘܿ ܠܵܟܼ ܕܐܵܡܲܪ ܝܑܲܨܿܦ ܘܐܵܘܬܲܪ ܟܲܕ ܐܵܡܲܪ ܐܲܢ̄ܬܿ: </l><l>ܘܐܸܢ
+                ܝܘܼܬܼܪܵܢܵܐ ܠܵܐ ܥܵܒܹܿܕ ܐܲܢ̄ܬܿ ܫܸܬܼܩܵܐ ܫܲܡܸܫ܀ </l><l>ܘܐܲܢ̄ܬܿ<note place="foot"
+                    xml:id="ftn8" n="8"><p rend="footnote text" xml:lang="syr"> - ܐܘ O.</p></note> ܫܵܡܘܿܥܵܐ ܝܑܼܬܲܪ
+                ܐܵܦ ܐܲܢ̄ܬܿ ܟܲܕ ܨܵܐܹܿܬܼ ܐܲܢ̄ܬܿ: </l><l>ܘܐܸܢ ܠܵܐ ܬܹܐܬܲܪ ܠܡܘܿܢ ܒܲܛܝܼܠ ܐܲܢ̄ܬܿ ܨܹܝܕ
+                ܐܵܡܘܿܪܵܐ܀ </l><l>ܚܘܼܒܵܐ ܢܲܝܬܹܝܟܼ ܕܐܵܦ ܠܝܼ ܚܘܼܒܵܐ ܡܙܝܼܥ ܠܝܼ ܕܐܹܡܲܪ: </l><l>ܝܘܼܬܼܪܵܢܵܐ
+                ܓܹܝܪ ܐܸܠܵܐ ܒܚܘܼܒܵܐ ܠܵܐ ܡܸܬܼܟܲܢܲܫ<note place="foot" xml:id="ftn9" n="9"><p
+                        rend="footnote text" xml:lang="syr"> - ܡܫܬܡܫ O.</p></note> ܀ </l><l>ܠܵܐ ܚܵܪܥܵܐܝܼܬܼ ܬܨܘܼܬܼ
+                ܡܸܠܲܝ̈ ܠܲܡܨܲܝܵܕܘܼ: </l><l>ܕܚܘܼܒܵܐ ܡܸܡܬܼܘܿܡ ܢܸܨܠܸܐ ܦܲܚܵܐ ܠܵܐ ܡܸܫܬܲܥܒܲܕ܀ </l><l>ܕܲܟܼܝܵܐ
+                ܗܼ̄ܝ ܡܸܠܬܼܵܐ ܡܼܢ ܚܵܪܥܘܼܬܼܵܐ ܘܚܲܟܿܝܼܡܘܼܬܼܵܐ: </l><l>ܕܲܟܵܐ ܐܵܦ ܐܲܢ̄ܬܿ ܫܸܡܥܵܟܼ ܡܵܕܹܝܢ
+                ܠܲܦܫܝܼ̈ܛܵܬܼܵܐ܀ </l><l>ܚܘܿܬܼ ܡܢ ܪܵܘܡܵܐ ܕܚܲܟܿܝܼܡܘܼܬܼܵܐ ܕܒܹܗ ܩܵܐܹܿܡ ܐܲܢ̄ܬܿ:
+                </l><l>ܘܐܸܬܼܡܲܟܲܟܼ ܠܝܼ ܐܹܡܲܠܸܠ ܠܵܟܼ ܬܲܡܝܼܡܵܐܝܼܬܼ܀ </l><l>ܐܸܠܘܼܠܵܐ ܢܚܸܬܼ ܐܸܬܼܡܲܟܲܟܼ ܠܲܢ
+                ܒܲܪ ܐܲܠܵܗܵܐ: </l><l>ܡܢ ܡܵܛܹܿܐ ܗ̄ܘܼܵܐ ܢܡܲܠܸܠ(ܨܹܐܕܵܘܗܝ ܐܲܝܟܵܐ<note place="foot"
+                    xml:id="ftn10" n="10"><p rend="footnote text" xml:lang="syr"> - ܥܡܗ ܐܝܟܢ O.</p></note>
+                ܕܐܝܼܬܼܵܘܗܝ܀ </l><l>ܐܸܠܘܼ ܒܚܘܼܒܵܐ<note place="foot" xml:id="ftn11" n="11"><p
+                        rend="footnote text" xml:lang="syr"> - ܒܚܘܒܗ O.</p></note> ܠܵܐ ܐܸܬܿܬܲܚܬܝܼ ܠܡܸܣܟܹܿܢܘܼܬܼܵܐ:
+                </l><l></l>
+            <pb ed="http://syriaca.org/bibl/1732" n="463"/>
+            <l>ܡܲܢܼܘܼ ܡܨܹܐ ܗ̄ܘܼܵܐ ܢܡܲܠܸܠ ܥܘܼܬܼܪܵܘܗܝ ܪܘܼܚܵܢܵܝܹܐ܀ </l><l>ܐܸܠܘܼܠܵܐ ܨܒܸܵܐ ܘܐܸܬܸܵܐ(ܠܲܒܼܫܵܗܿ
+                    ܠܲܟܼܪܝܼܗܘܼܬܼܵܐ<note place="foot" xml:id="ftn12" n="12"><p rend="footnote text" xml:lang="syr">
+                        - ܠܥܠܡܢ ܠܟܪܝܗܘܬܢ O.</p></note>: </l><l>ܐܲܝܢܵܐ ܦܘܼܡܵܐ ܡܸܫܬܲܥܸܐ ܗ̄ܘܼܵܐ
+                ܠܓܲܢ̄ܒܵܪܘܼܬܹܗ܀ </l><l>ܢܚܸܬܼ ܗܵܘܿ<note place="foot" xml:id="ftn13" n="13"><p
+                        rend="footnote text" xml:lang="syr"> - ܗܘܐ O.</p></note> ܪܵܡܵܐ ܘܝܲܗܼ̄ܒܼ ܠܲܢ ܢܲܦ̮ܫܹܗ
+                ܕܲܢܡܲܠܸܠ ܠܹܗ<note place="foot" xml:id="ftn14" n="14"><p rend="footnote text" xml:lang="syr"> - ܒܗ
+                        O.</p></note>: </l><l>ܠܵܐ ܒܪܵܡܘܼܬܼܵܐ ܢܸܫܡܲܥ ܡܵܕܹܝܢ ܥܲܠ ܓܸܠܝܵܢܹܗ܀ </l><l>ܒܐܘܼܪܚܵܐ
+                ܪܲܒܿܬܼܵܐ ܕܐܲܪܡܝܼ ܒܥܵܠܡܵܐ ܒܲܪ ܐܲܠܵܗܵܐ: </l><l>ܐܸܠܵܐ ܠܒܸܫܼ ܐ̄ܢܵܫ ܡܲܟܝܟܼܘܼܬܼܵܐ ܠܵܐ
+                ܡܗܲܠܸܟܼ ܒܵܗܿ܀ </l><l>ܐܸܠܵܐ ܒܚܘܼܒܵܐ ܕܐܝܼܬܼܵܘܗܝ ܢܸܒܼܥܵܐ ܕܫܲܦܝܼܪܵܬܼܵܐ: </l><l>ܠܵܐ ܐ̄ܢܵܫ
+                ܡܸܫܟܲܚ ܠܲܡܡܲܠܵܠܘܼ ܥܲܠ ܝܑܼܚܝܼܕܵܐ܀ </l><l>ܐܘܼ ܕܫܵܡܲܥܿ ܠܝܼ ܐܲܝܟܼ ܕܐܵܡܲܪ ܐ̄ܢܵܐ ܫܡܲܥ
+                ܦܸܬܼܓܼܵܡܲܝ̈: </l><l>ܒܚܘܼܒܵܐ ܕܢܲܦ̮ܫܵܐ(ܕܝܵܕܲܥܿ ܢܸܪܚܲܡ<note place="foot" xml:id="ftn15"
+                    n="15"><p rend="footnote text" xml:lang="syr"> - ܕܪܥܐ ܕܢܫܡܼܥ O.</p></note> ܠܲܦܫܝ̈ܛܵܬܼܵܐ܀
+                </l><l>ܕܲܥ ܡܼܢ ܢܲܦ̮ܫܹܗ ܕܗܵܘܿ ܕܲܡܡܲܠܸܠ ܐܸܢ ܦܵܪܘܿܫܵܐ<note place="foot" xml:id="ftn16"
+                    n="16"><p rend="footnote text" xml:lang="syr"> - ܦܪܘܫ O.</p></note> ܐܢ̄ܬܿ: </l><l>ܕܪܵܡ ܗ̄ܘ ܡܸܢܹܗ
+                ܡܸܐܡܪܵܐ ܕܫܲܪܝܼ ܠܲܡܡܲܠܵܠܘܼ܀ </l><l>ܠܒܲܪ ܐܲܠܵܗܵܐ ܕܠܵܐ ܡܸܬܼܡܲܠܲܠ ܡܼܢ ܡܲܠܵܠܹ̈ܐ:
+                </l><l>ܡܲܢܼܘܼ ܡܡܲܠܸܠ<note place="foot" xml:id="ftn17" n="17"><p rend="footnote text" xml:lang="syr">
+                        - ܡܡܲܠܠܘ Sic R.</p></note> ܐܸܠܵܐ ܡܲܠܠܹܗ ܕܠܵܐ ܚܸܪܝܵܢܵܐ܀ </l><l>ܐܲܝܢܵܐ ܣܵܦܿܪܵܐ
+                ܐܵܘ ܚܲܟܿܝܼܡܵܐ ܐܵܘ ܕܵܪܘܿܫܵܐ: </l><l>ܡܨܸܐ ܕܲܢܦܲܫܸܩ ܥܲܠ ܕܘܼܡܵܪܵܐ ܕܠܵܐ ܡܸܬܼܦܲܫܲܩ܀ </l><l>ܡܢ
+                ܡܸܫܬܵܘܕܹܐ ܕܝܵܕܲܥܿ ܠܲܒܼܪܵܐ ܢܦܲܫܸܩ(ܠܲܫܡܸܗ: </l><l>ܕܐܸܠܵܐ ܐܲܒܼܵܐ ܠܵܐ ܐ̄ܢܵܫ ܝܵܕܲܥܿ ܠܲܒܼܪܵܐ
+                    ܡܲܢܼܘܼ<note place="foot" xml:id="ftn18" n="18"><p rend="footnote text" xml:lang="syr"> - ܫܪܒܗ:
+                        ܐܠܐ ܐܒܐ ܕܝܿܕܥ ܠܒܪܗ ܐܝܟܢ ܕܐܝܬܘܗܝ O.</p></note>܀</l>
+            <pb ed="http://syriaca.org/bibl/1732" n="464"/>
+            <l>ܐܵܘ ܥܲܠ ܐܲܒܼܵܐ ܡܲܢܼܘܼ ܓܵܙܹܿܡ ܠܲܡܡܲܠܵܠܘܼ: </l><l>ܕܲܒܼܪܵܐ<note place="foot"
+                    xml:id="ftn19" n="19"><p rend="footnote text" xml:lang="syr"> - ܕܒܪܐ ܗܘ R.</p></note> ܒܲܠܚܘܿܕ
+                ܝܵܕܲܥܿ ܠܐܲܒܼܵܐ ܕܐܲܟܼܘܵܬܹܗ ܗܼ̄ܘ܀ </l><l>ܘܐܲܢ̄ܬܿ ܫܵܡܘܿܥܵܐ ܐܲܝܟܲܢ ܬܸܬܼܒܲܥ ܐܸܢ ܟܹܐܢܵܐ<note
+                    place="foot" xml:id="ftn20" n="20"><p rend="footnote text" xml:lang="syr"> - ܟܐܐ R.</p></note>
+                ܐܲܢ̄ܬܿ: </l><l>ܕܥܲܠ ܗܵܘܿ ܝܲܠܕܵܐ ܒܣܵܟܼܵܐ ܢܡܲܠܸܠ(ܕܲܕܠܵܐ ܣܵܟܼܵܐ ܗ̄ܘܼ<note place="foot"
+                    xml:id="ftn21" n="21"><p rend="footnote text" xml:lang="syr"> - ܗܘܿ ܕܡܡܿܠܠ O.</p></note>܀
+                </l><l>ܐܵܦܠܵܐ ܐܸܕܢܵܟܼ ܕܝܼܠܵܟܼ ܥܵܪܝܵܐ ܠܣܵܟܹܗ ܕܒܼܪܵܐ: </l><l>ܘܠܵܐ ܐܵܡܘܿܪܵܐ ܡܨܸܐ ܕܲܢܡܲܠܠܹܗ
+                ܐܲܟܼܡܵܐ ܕܐܝܼܬܼܵܘܗܝ܀ </l><l>ܠܵܐ ܬܸܫܬܵܘܕܹܐ ܕܐܝܼܬܼ ܠܵܟܼ ܫܸܡܥܵܐ ܕܐܵܚܹܿܕ ܫܲܪܒܹܿܗ: </l><l>ܕܠܵܐ
+                ܐܸܫܿܬܵܘܕܝܼܬܼ ܕܐܝܼܬܼ ܠܝܼ ܡܸܠܬܼܵܐ ܕܡܵܛܿܝܵܐ ܨܹܐܕܵܘܗܝ܀ </l><l>ܐܲܝܢܵܐ ܕܣܵܒܲܪ ܕܲܡܣܲܝܸܟܼ ܠܹܗ
+                ܠܒܲܪ ܐܲܠܵܗܵܐ: </l><l>ܡܸܛܥܵܐ ܛܵܥܹܿܐ ܐܸܢ ܫܵܡܘܿܥܵܐ ܗ̄ܘ ܘܐܸܢ ܐܵܡܘܿܪܵܐ܀ </l><l>ܟܦܝܼܪ
+                ܒܝܼܕܲܥܬܼܵܐ ܕܣܵܒܼܪܵܐ ܕܡܵܛܿܝܵܐ ܠܣܵܟܹܿܗ ܕܲܒܼܪܵܐ: </l><l>ܘܲܒܼܪܸܥܝܵܢܵܐ ܕܣܵܒܲܪ ܕܐܲܕܪܸܟܼ ܐܵܘ
+                ܡܲܕܪܸܟܼ ܠܹܗ܀ </l><l>ܐܸܢܗܸܘ ܕܬܲܕܪܸܟܼ ܣܵܟܹܗ<note place="foot" xml:id="ftn22" n="22"><p
+                        rend="footnote text" xml:lang="syr"> - ܠܣܟܗ O.</p></note> ܒܵܥܹܝܬܿ ܡܹܢܝ ܠܵܐ ܬܸܫܡܲܥ:
+                    </l><l>ܕܠܝܼ<note place="foot" xml:id="ftn23" n="23"><p rend="footnote text" xml:lang="syr"> - ܕܠܟ
+                        R.</p></note> ܠܵܐ ܐܝܼܬܼ ܠܝܼ ܡܸܠܬܼܵܐ ܕܡܵܛܿܝܵܐ ܠܪܵܘܡܹܗ ܕܲܒܼܪܵܐ܀ </l><l>ܡܢ ܓܝܹܪ
+                ܦܵܣܲܥܿ ܥܲܠ ܡܲܣ̈ܩܵܢܹܐ ܕܠܵܐ ܡܸܬܿܕܲܪܟܝܼܢ: </l><l>ܕܢܸܣܲܩ ܢܹܐܡܲܪ ܡܹܐܡܪܵܐ ܕܪܵܡ ܗܼ̄ܘ ܡܼܢ
+                ܡܲܠܵܠܹ̈ܐ܀ </l><l>ܒܪܵܐ ܒܐܲܒܼܘܼܗܝ ܗܼ̄ܘ ܘܡܲܢܼܘܼ ܡܵܫܲܚ ܪܵܘܡܹܗ ܕܐܲܒܼܵܐ: </l><l>ܕܒܹܗ ܗܼ̄ܘ
+                ܝܲܠܕܹܗ ܘܲܒܼܓܼܵܘ ܥܘܼܒܹܗ ܟܣܸܐ ܒܐܝܼܬܼܘܼܬܹܗ܀ </l><l>ܡܲܢܼܘܼ ܡܡܲܠܸܠ ܥܲܠ ܗܵܘܿ ܕܲܟܼܣܸܐ ܒܥܘܼܒܵܐ
+                ܕܐܲܒܼܘܼܗܝ: </l><l>ܘܟܲܕ ܠܵܐ ܫܲܢܝܼ ܫܼܪܵܐ ܒܲܒܼܬܼܘܼܠܬܵܐ ܕܡܲܠܝܵܐ ܬܲܗܪܵܐ܀ </l><l></l>
+            <pb ed="http://syriaca.org/bibl/1732" n="465"/>
+            <l>ܒܐܲܒܼܵܐ ܟܲܣܝܵܐ ܘܒܸܐܡܵܐ ܒܬܼܘܼܠܬܵܐ ܒܪܵܐ ܫܲܪܝܼܪܵܐ: </l><l>ܘܗܵܘܿ ܕܲܡܦܲܫܸܩ ܢܸܫܠܸܐ ܘܢܸܬܼܗܲܪ
+                ܐܝܼܬܼ ܠܹܗ ܒܲܠܚܘܿܕ܀ </l><l>ܪܕܵܐ ܟܲܕ ܠܵܐ ܙܵܚܼ ܘܐܸܬܸܵܐ ܠܘܵܬܲܢ ܟܲܕ ܠܵܐ ܫܲܢܝܼ:
+                </l><l>ܘܲܒܼܪܵܘܡܵܐ ܗ̄ܘܼܵܐ ܘܲܒܼܥܘܼܡܩܵܐ ܗ̄ܘܼܵܐ ܘܡܢ ܡܵܘܦܸܐ ܠܹܗ܀ </l><l>ܕܲܫܪܵܐ ܒܥܘܼܡܩܵܐ ܠܵܐ
+                ܐܸܣܬܲܦܲܩ ܪܵܘܡܵܐ ܡܸܢܹܗ: </l><l>ܕܟܼܠܹܗ ܒܟܼܠ ܗ̄ܘܼܵܐ ܘܲܒܼܡܲܪܝܲܡ ܗ̄ܘܼܵܐ ܘܲܒܼܝܵܠܘܿܕܹܗ܀
+                </l><l>ܐܸܬܸ̈ܐ ܠܵܘ ܢܸܣܬܲܝܲܟܼ ܐܵܘ ܢܸܬܼܦܲܫܲܩ: </l><l>ܐܸܠܵܐ ܕܢܸܣܥܘܿܪ ܥܵܢ̈ܵܐ ܟܪܝܼܗܬܵܐ ܘܢܸܦܢܸܐ
+                ܠܐܲܬܼܪܹܗ܀ </l><l>ܚܙܵܝܗܝ ܗ̄ܘܼܵܐ ܥܵܠܡܵܐ<note place="foot" xml:id="ftn24" n="24"><p
+                        rend="footnote text" xml:lang="syr"> - ܠܥܠܡܐ R.</p></note> ܠܪܲܒܵܐ ܒܣܵܟܼܵܗܿ<note
+                    place="foot" xml:id="ftn25" n="25"><p rend="footnote text" xml:lang="syr"> - ܒܟܪܣܗܿ
+                    O.</p></note> ܕܲܙܥܘܿܪܘܼܬܼܵܐ: </l><l>ܘܪܵܒܼܘ ܡܲܠܵܠܹ̈ܐ ܘܕܲܢܡܲܠܠܘܼܢܵܝܗܝ ܠܵܐ ܐܸܫܟܲܚܘ
+                ܗ̄ܘܼܵܘ܀ </l><l>ܚܙܵܐܐܘܼܗܝ ܐ̄ܢܵܫܵܐ ܕܐܸܬܸ̈ܐ ܒܲܒܼܣܲܪ ܟܲܕ ܐܲܠܵܗܵܐ ܗܼ̄ܘ: </l><l>ܘܡܵܢܵܐ
+                ܢܹܐܡܪܘܼܢ ܥܲܠ ܡܹܐܬܼܝܼܬܹܗ ܠܵܐ ܝܑܼܕܲܥܼܘ ܗ̄ܘܼܵܘ܀ </l><l>ܚܙܵܐܘܼܗܝ ܕܲܡܠܸܐ ܚܲܝܠܵܐ ܘܥܘܼܫܢܵܐ
+                ܘܓܲܢ̄ܒܵܪܘܼܬܼܵܐ: </l><l>ܘܫܝܼܛܵܐ ܚܙܵܬܹܗ ܘܪܵܡܝܼܢ ܚܲܝܠܵܘ̈ܗܝ ܡܢ ܠܸܫܵܢܹ̈ܐ܀ </l><l>ܣܡܲܝܵ̈ܐ
+                ܡܦܲܬܲܚ ܓܲܪܒܹܐ ܡܕܲܟܸܿܐ ܕܘܼ̈ܓܹܐ ܡܲܫܡܲܥ: </l><l>ܟܪܝܼܗܹܐ ܡܲܚܠܸܡ ܘܲܡܩܝܼܡ ܡܝܼ̈ܬܹܐ
+                ܐܲܠܵܗܵܐܝܼܬܼ܀ </l><l>ܡܵܐ ܕܲܚܙܵܐܘܼܗܝ ܒܲܡܚܝܼܠܘܼܬܼܵܐ ܐܲܝܟܼ ܒܲܪܢܵܫܵܐ: </l><l>ܗܦܲܟܼܘ
+                ܘܲܚܙܵܐܘܼܗܝ ܒܓܲܢ̄ܒܵܪܘܼܬܼܵܐ ܐܲܝܟܼ ܐܲܠܵܗܵܐ܀ </l><l>ܒܲܙܒܲܢ ܟܵܦܹܿܢ ܐܲܝܟܼ ܒܲܪܢܵܫܵܐ ܕܲܡܠܸܐ
+                ܚܲܫܹ̈ܐ: </l><l>ܘܒܲܙܒܲܢ ܙܵܐܹܿܢ ܐܲܝܟܼ ܐܲܠܵܗܵܐ ܕܐܝܼܬܼ ܠܹܗ ܪܲܚܡܹܐ܀ </l><l>ܘܡܸܨܥܲܬܼ ܗܵܕܹܐ
+                ܐܘܼܪܚܵܐ ܚܕܲܬܵܐ ܕܡܲܠܝܵܐ ܬܲܗܪܵܐ:</l>
+            <pb ed="http://syriaca.org/bibl/1732" n="466"/>
+            <l>ܬܗܲܪܘ ܚܲܙܵܝܹ̈ܐ ܘܢܹܐܡܪܘܼܢ ܡܲܢܼܘܼ ܠܵܐ ܝܑܼܕܲܥܼܘ ܗ̄ܘܼܵܘ܀ </l><l>ܐܸܬܼܡܲܨܲܥܘ ܩܵܡܼܘ ܒܵܝܬܼ
+                ܪܲܒܿܘܼܬܼܵܐ ܠܲܙܥܘܿܪܘܼܬܼܵܐ: </l><l>ܘܠܵܐ ܣܵܦܿܩܝܼܢ ܗ̄ܘܼܵܘ ܢܹܐܡܪܘܼܢ ܡܲܢܼܘܼ ܕܠܵܐ ܕܘܼܘܵܕܵܐ܀
+                </l><l>ܕܢܹܐܡܪܘܼܢ ܥܠܵܘܗܝ ܕܐܲܠܵܗܵܐ ܗ̄ܘܼܵܐ ܡܸܠܬܼܵܐ ܗܼ̄ܝ: </l><l>ܕܐܲܝܟܼ ܒܲܪܢܵܫܵܐ ܚܵܙܹܝܢ
+                ܗ̄ܘܼܵܘ ܠܹܗ ܒܹܝܬܼ ܫܘܼܩܲܝ̈ܗܘܿܢ܀ </l><l>ܘܲܕܒܲܪܢܵܫܵܐ ܢܸܣܬܲܟܿܠܘܼܢܵܝܗܝ ܠܵܐ ܡܲܪܦܹܝܢ ܗ̄ܘܼܵܘ:
+                </l><l>ܚܲܝ̈ܠܹܐ ܕܲܣܼܥܲܪ ܣܵܗܿܕܝܼܢ ܗ̄ܘܼܵܘ ܠܹܗ ܕܐܲܠܵܗܵܐ ܗ̄ܘܼܵܐ܀ </l><l>ܚܠܝܼܛ ܥܲܡ ܐ̄ܢܵܫܵܐ
+                ܘܣܵܥܲܪ ܚܲܝ̈ܠܹܐ ܐܲܠܵܗܵܐܝܼܬܼ: </l><l>ܘܠܵܐ ܐ̄ܢܵܫ ܝܵܕܲܥ ܢܹܐܡܲܪ ܡܲܢܘܼ ܡܢ ܐܲܪܥܵܢܹܐ܀
+                </l><l>ܘܟܲܕ ܠܵܐ ܝܑܼܕܲܥܼܘ ܒܵܕܹܝܢ ܠܲܫ̈ܡܵܗܵܬܼܵܐ<note place="foot" xml:id="ftn26" n="26"
+                        ><p rend="footnote text" xml:lang="syr"> - ܠܫܡ̈ܘܬܐ R.</p></note> : </l><l>ܕܢܹܐܡܪܘܼܢ ܡܲܢܼܘܼ
+                ܟܲܕ ܠܵܐ ܝܵܕܥܿܝܼܢ ܡܢ ܚܸܟܼܡܲܬܼܗܘܿܢ܀ </l><l>ܐܝܼܬܼ ܕܐܵܡܲܪ ܗ̄ܘܼܵܐ ܕܐܹܠܝܼܵܐ<note
+                    place="foot" xml:id="ftn27" n="27"><p rend="footnote text" xml:lang="syr"> - ܕܐܠܗܐ
+                    R.</p></note> ܗ̄ܘܼܵܐ ܡܸܛܠ ܚܲܝܐܵܘ̈ܗܝ: </l><l>ܐ̄ܚܪܹܢܵܐ ܐܵܡܲܪ ܕܐܹܪܲܡܝܵܐ ܗ̄ܘܼܵܐ ܥܲܠ
+                ܕܲܓܼܒܸܐ ܗ̄ܘܼܵܐ܀ </l><l>ܐܝܼܬܼ ܕܐܸܬܿܕܵܘܲܕ ܘܕܲܐܝܟܲܢ<note place="foot" xml:id="ftn28"
+                    n="28"><p rend="footnote text" xml:lang="syr"> - ܘܐܝܟܢ O.</p></note> ܢܸܩܪܹܝܘܗܝ ܠܵܐ ܝܵܕܲܥܿ
+                ܗ̄ܘܼܵܐ: </l><l>ܐܸܠܵܐ ܕܲܩܪܵܝܗܝ ܚܲܕ ܡܼܢ ܢܒܼܝܹ̈ܐ ܕܲܫܡܹܗ ܠܲܝܬܵܘܗܝ܀ </l><l>ܘܩܵܡܼܘ ܩܵܪܹܝܢ
+                ܠܹܗ(ܚܲܕ[ܡܼܢ ܢܒܼܝܹ̈ܐ*<note place="foot" xml:id="ftn29" n="29"><p rend="footnote text" xml:lang="syr"
+                        >* - Ab edit. Add.</p></note>؟] ܕܲܓܼܢܝܼܙ ܗ̄ܘ ܫܡܹܗ<note place="foot"
+                    xml:id="ftn30" n="30"><p rend="footnote text" xml:lang="syr"> - ܢܒܝܐ ܕܫܡܗ ܐܢܫ ܠܐ ܝܕܥ
+                    O.</p></note>܀ </l><l>ܐܘܿ ܚܲܙܵܝܹ̈ܐ ܠܵܐ ܬܣܝܼܡܘܼܢ ܠܹܗ ܫܡܵܐ ܕܠܵܐ ܕܝܼܠܹܗ: </l><l>ܠܒܲܪ
+                ܐܲܠܵܗܵܐ ܠܵܐ ܬܸܩܪܘܿܢ<note place="foot" xml:id="ftn31" n="31"><p rend="footnote text" xml:lang="syr">
+                        - ܢܩܿܦ O.</p></note> ܠܹܗ ܫܡܵܐ ܢܘܼܟܼܪܵܝܵܐ܀ </l><l>ܠܵܐ ܐܹܠܝܼܵܐ ܘܠܵܐ ܐܹܪܲܡܝܵܐ
+                    ܬܸܩܪܘܿܢ<note place="foot" xml:id="ftn32" n="32"><p rend="footnote text" xml:lang="syr"> -
+                        ܬܐܡܪܘܢ O.</p></note> ܠܲܒܼܪܵܐ:</l>
+            <pb ed="http://syriaca.org/bibl/1732" n="467"/>
+            <l>ܐܵܦܠܵܐ ܢܒܼܝܼܵܐ ܕܲܢܛܝܼܪ ܗ̄ܘ ܫܡܹܗ ܨܹܝܕ ܝܵܠܘܿܕܹܗ܀ </l><l>ܫܡܵܗܹ̈ܐ ܫܐ̈ܝܼܠܹܐ ܓܲܒܿܝܼܘ ܣܵܡܼܘ
+                ܠܹܗ ܠܒܲܪ ܐܲܠܵܗܵܐ: </l><l>ܘܠܵܐ ܒܣܸܡܘ ܗ̄ܘܼܵܘ ܠܹܗ ܘܢܸܥܪܘܿܩ ܡܸܢܗܘܿܢ ܐܸܬܿܛܲܝܲܒܼ ܗ̄ܘܼܵܐ܀
+                </l><l>ܚܵܣ ܥܲܠ ܥܵܠܡܵܐ ܕܲܡܕܵܘܲܕ ܗ̄ܘܼܵܐ ܘܒܼܵܥܹܐ ܠܲܫܡܹܗ: </l><l>ܘܲܨܒܼܵܐ ܕܢܲܠܦܹܗ ܕܐܲܝܢܵܐ
+                ܐܝܼܬܼ ܠܹܗ ܫܡܵܐ ܫܲܪܝܼܪܵܐ܀ </l><l>ܘܲܕܒܲܪ ܐܸܢܘܿܢ ܠܲܬܼܪܸܥܣܲܪܬܹܗ ܢܘܼܗܪܵܐ ܡܵܪܲܢ: </l><l>ܕܢܲܠܸܦ
+                ܐܸܢܘܿܢ ܕܲܫܡܹܗ ܐܲܝܢܵܘ ܢܲܗܝܼܪܵܐܝܼܬܼ܀ </l><l>ܐܲܥܒܲܪ ܐܸܢܘܿܢ ܟܠܹܗ ܐܲܬܼܪܵܐ ܘܥܲܠܘ ܠܲܬܼܚܘܼܡܵܐ:
+                </l><l>ܕܗܵܝܿ ܝܑܼܕܲܥܬܼܵܐ ܕܓܼܵܠܝܵܐ ܐ̄ܪܵܙܹܐ ܐܲܠܵܗܵܝܹ̈ܐ܀ </l><l>ܡܛܼܵܘ<note place="foot"
+                    xml:id="ftn33" n="33"><p rend="footnote text" xml:lang="syr"> - ܐܬܘ O.</p></note> ܠܲܬܼܚܘܼܡܵܐ
+                ܕܢܘܼܗܪܵܐ ܪܲܒܵܐ ܘܲܕܹܓܸܠܝܵܢܹ̈ܐ: </l><l>ܘܫܲܪܝܼ ܪܲܒܵܐ ܐܲܝܟܼ ܕܲܢܫܲܐܸܠ ܨܹܝܕ ܬܲܠܡܝܼܕܵܘ̈ܗܝ܀
+                </l><l>ܡܲܢܼܘܼ ܐܵܡܿܪܝܼܢ ܐ̄ܢܵܫܵܐ ܕܐܝܼܬܲܝ ܫܲܐܸܠ ܐܸܢܘܿܢ: </l><l>ܕܢܸܦ̮ܬܲܚ ܬܲܡܵܢ ܬܲܪܥܵܐ
+                ܠܐ̄ܪܵܙܹܐ ܠܡܸܬܼܡܲܠܵܠܘܼ܀ </l><l>ܕܒܲܪ ܠܲܛܠܵܝܹ̈ܐ ܣܵܦܿܪܵܐ ܕܡܲܠܸܦ ܫܲܦܝܼܪܵܬܼܵܐ: </l><l>ܘܫܲܐܸܠ
+                ܐܸܢܘܿܢ ܕܢܲܠܸܦ ܐܸܢܘܿܢ ܚܲܟܿܝܼܡܵܐܝܼܬܼ܀ </l><l>ܗܘܸܵܐ ܡܫܲܐܠܵܢܵܐ ܠܵܘ ܕܲܣܢܝܼܩ ܗ̄ܘܼܵܐ ܥܲܠ
+                ܝܘܼܠܦܵܢܵܐ: </l><l>ܐܸܠܵܐ ܕܢܲܣܠܸܐ<note place="foot" xml:id="ftn34" n="34"><p
+                        rend="footnote text" xml:lang="syr"> - ܕܢܣܢܐ R.</p></note> ܫܡܵܗܹ̈ܐ ܫܐܝܼ̈ܠܹܐ ܕܣܵܡܼ ܠܹܗ
+                ܥܲܡܵܐ܀ </l><l>ܚܼܙܵܐ ܠܬܲܠܡܝܼ̈ܕܹܐ ܕܠܵܐ ܡܫܲܐܠܝܼܢ ܗ̄ܘܼܵܘ ܢܹܐܠܦܘܼܢ<note place="foot"
+                    xml:id="ftn35" n="35"><p rend="footnote text" xml:lang="syr"> - ܕܢܐܠܦܘܢ O.</p></note> ܠܲܫܡܹܗ:
+                </l><l>ܘܲܚܠܵܦܲܝܗܘܿܢ ܗܸܘ ܡܫܲܐܸܠ ܗ̄ܘܼܵܐ ܕܢܲܠܸܦ ܐܸܢܘܿܢ܀ </l><l>ܫܡܵܗܹ̈ܐ ܛܠܝܼ̈ܡܹܐ ܘܪܵܘܒܵܐ
+                ܘܡܲܡܠܠܵܐ ܨܒܼܵܐ ܕܲܢܫܲܬܸܩ: </l><l>ܥܲܠ ܗܵܝܿ ܫܲܐܸܠ ܡܘܿܢ ܡܸܬܼܡܲܠܲܠ ܡܼܢ ܣܲܓܝܼ̈ܐܹܐ܀ </l><l></l>
+            <pb ed="http://syriaca.org/bibl/1732" n="468"/>
+            <l>ܡܵܐ ܕܡܲܠܦܵܢܵܐ ܠܛܲܠܝܵܐ ܡܫܲܐܸܠ ܦܘܼܫܵܩܵܐ: </l><l>ܠܛܲܠܝܵܐ ܡܢܲܦܸܩ ܘܲܡܕܲܪܸܫ ܠܹܗ ܕܢܸܗܘܸܐ
+                    ܢܲܗܝܼܪ<note place="foot" xml:id="ftn36" n="36"><p rend="footnote text" xml:lang="syr"> - ܢܗܝܪܐ
+                        R.</p></note>܀ </l><l>ܫܲܐܸܠ ܐܸܢܘܿܢ ܠܵܐ ܗ̄ܘܼܵܐ ܕܢܹܐܠܲܦ ܡܼܢ ܬܲܠܡܝܼ̈ܕܹܐ<note
+                    place="foot" xml:id="ftn37" n="37"><p rend="footnote text" xml:lang="syr"> - ܬܠܡܝܕܘ̈ܗܝ
+                    O.</p></note>: </l><l>ܐܸܠܵܐ ܕܢܹܐܠܦܘܼܢ ܗܸܢܘܿܢ ܡܸܢܹܗ ܫܲܪܝܼܪܵܐܝܼܬܼ܀ </l><l>ܐܵܦ ܗܸܘ<note
+                    place="foot" xml:id="ftn38" n="38"><p rend="footnote text" xml:lang="syr"> - ܒܗܿ O.</p></note>
+                ܒܗܵܕܹܐ ܕܲܡܫܲܐܸܠ ܗ̄ܘܼܵܐ ܠܐܲܒܼܘܼܗܝ ܕܵܡܹܿܐ: </l><l>ܕܠܵܐ ܢܸܗܘܸܐ ܒܨܝܼܪ ܐܵܦܠܵܐ ܒܗܵܕܹܐ<note
+                    place="foot" xml:id="ftn39" n="39"><p rend="footnote text" xml:lang="syr"> - ܒܡܕܡ O.</p></note>
+                ܡܼܢ ܝܵܠܘܿܕܹܗ܀ </l><l>ܫܲܐܸܠ ܐܲܒܼܵܐ ܒܹܝܬܼ ܐܝܼܠܵܢܹ̈ܐ ܕܐܲܝܟܵܐ ܐܢ̄ܬܿ ܐܵܕܵܡ: </l><l>ܡܢ ܛܘܼܪ
+                ܣܝܼܢܲܝ ܕܡܵܢܵܘ ܗܵܢܵܐ ܕܐܝܼܬܼ ܠܵܟܼ ܒܐܝܼܕܵܟܼ܀ </l><l>ܠܡܘܼܫܹܐ ܘܠܵܐܕܵܡ ܫܲܐܸܠܼ ܐܲܒܼܵܐ ܘܗܵܟܲܢ
+                ܝܲܠܕܹܗ: </l><l>ܐܵܦ ܗܸܘ ܫܲܐܸܠܼ ܕܡܲܢܼܘܼ ܐܵܡܪܝܼܢ ܐ̄ܢܵܫܵܐ ܕܐܝܼܬܲܝ܀ </l><l>ܒܗܵܘ̈ܢܹܐ ܚܵܐܲܪ
+                ܘܲܒܼܕܸܥܝܵܢܹܐ ܕܥܵܠܡܵܐ ܟܠܹܗ: </l><l>ܘܒܼܵܚܲܪ ܟܠܗܘܿܢ ܠܸܒܵܘܵ̈ܬܼܵܐ ܘܚܘܼܫܵܒܲܝ̈ܗܘܿܢ܀ </l><l>ܠܵܐ
+                ܡܨܸܐ ܠܸܒܵܐ ܡܙܝܼܥ ܚܘܼܫܵܒܼܵܐ ܡܢ ܒܸܠܥܵܕܵܘܗܝ: </l><l>ܐܵܦܠܵܐ ܗܵܘܢܵܐ(ܢܕܘܼܠ ܒܹܗ ܪܸܢܝܵܐ
+                    ܘܠܵܐ<note place="foot" xml:id="ftn40" n="40"><p rend="footnote text" xml:lang="syr"> - ܢܕܝܠ ܒܗ
+                        ܪܢܝܐ ܕܠܐ O.</p></note> ܢܲܪܓܸܫ ܒܹܗ܀ </l><l>ܘܟܲܕ ܫܲܘ̈ܝܵܢ ܠܹܗ ܐܵܦ ܟܲܣ̈ܝܵܬܼܵܐ ܐܵܦ
+                ܓܲܠ̈ܝܵܬܼܵܐ: </l><l>ܘܚܲܕ ܐܸܢܹܝܢ ܠܹܗ ܗܵܠܹܝܢ ܕܲܥܒܲܪ ܐܵܦ ܕܲܥܬܼܝܼ̈ܕܵܢ܀ </l><l>ܫܲܐܸܠܼ
+                ܒܲܙܒܲܢ(ܐܲܒܼܵܐ ܘܫܲܐܸܠܼ<note place="foot" xml:id="ftn41" n="41"><p
+                        rend="footnote text" xml:lang="syr"> - ܐܦ ܗܘ ܐܒܐ O.</p></note> ܐܵܦ ܗܸܘ ܝܲܠܕܹܗ: </l><l>ܕܗܵܘܿ
+                ܕܐܸܫܬܲܐܲܠ ܢܸܗܘܸܐ(ܝܵܕܲܥܿ ܡܢ ܒܵܨܹܿܐ<note place="foot" xml:id="ftn42" n="42"><p
+                        rend="footnote text" xml:lang="syr"> - ܝܿܠܦ ܡܢ ܝܿܕܥ O.</p></note> ܟܠ܀ </l><l>ܡܲܢܼܘܼ ܐܵܡܿܪܝܼܢ
+                ܐ̄ܢܵܫܵܐ ܕܐܝܼܬܲܝ ܟܲܕ ܝܵܕܲܥܿ ܗ̄ܘܼܵܐ: </l><l>ܕܡܵܢܵܐ ܐܵܡܿܪܝܼܢ ܐܵܦ ܡܵܐ ܕܲܫܠܹܝܢ
+                ܚܘܼܫܵܒܲܝ̈ܗܘܿܢ܀ </l><l></l>
+            <pb ed="http://syriaca.org/bibl/1732" n="469"/>
+            <l>ܣܲܓܿܝܼ ܪܚܼܡ ܗ̄ܘܼܵܐ ܗܵܘܿ ܥܸܕܵܢܵܐ ܘܗܵܘܿ ܫܘܼܐܵܠܵܐ: </l><l>ܕܡܼܢ ܝܵܕܘܿܥܵܐ ܙܵܥܼ ܕܢܸܬܼܡܲܠܲܠ
+                ܚܲܒܿܝܼܒܼܵܐܝܼܬܼ܀ </l><l>ܩܵܐܹܿܡ ܫܸܡܫܵܐ ܘܲܡܡܲܠܸܠ ܗ̄ܘܼܵܐ ܥܲܡ ܙܲܠܝܼܩܵܘ̈ܗܝ: </l><l>ܘܲܡܠܸܐ
+                ܢܘܼܗܪܵܐ ܬܚܘܼܡܵܐ ܪܲܒܵܐ ܕܗܲܝܡܵܢܘܼܬܼܵܐ܀ </l><l>ܬܪܸܥܣܲܪ ܢܘܼܗܪܝܼܢ ܥܲܡ ܐܝܼܡܵܡܵܐ
+                ܕܙܲܕܝܼܩܘܼܬܼܵܐ: </l><l>ܫܵܥܲܝ̈ ܝܵܘܡܵܐ ܕܲܒܼܕܹܢܚܲܝ̈ܗܹܝܢ ܢܵܗܪܵܐ<note place="foot"
+                    xml:id="ftn43" n="43"><p rend="footnote text" xml:lang="syr"> - ܢܗܪܬ O.</p></note> ܬܹܒܹܝܠ܀
+                </l><l>ܬܪܸܥܣܲܪ ܨܸܡܚܝܼ̈ܢ ܡܼܢ ܐܸܣܦܹܪܹܗ ܕܫܸܡܫܵܐ ܡܵܪܲܢ: </l><l>ܩܵܡܼܘ ܗ̄ܘܼܵܘ ܨܹܐܕܵܘܗܝ
+                    ܢܲܠܸܦ<note place="foot" xml:id="ftn44" n="44"><p rend="footnote text" xml:lang="syr"> - ܕܢܲܠܦ
+                        O. </p></note> ܐܸܢܘܿܢ ܕܲܫܡܹܗ ܐܲܝܢܵܘ܀ </l><l>ܓܘܼܕܵܐ ܕܡܲܠܝܵܐ ܢܘܼܗܪܵܐ ܘܚܲܝܹ̈ܐ
+                ܘܒܲܣܝܼܡܘܼܬܼܵܐ: </l><l>ܫܪܵܪܵܐ ܘܣܲܒܼܪܵܐ ܘܫܲܝܢܵܐ ܘܚܘܼܒܵܐ ܘܗܲܝܡܵܢܘܼܬܼܵܐ܀ </l><l>ܬܪܸܥܣܲܪ
+                ܕܹܢܚ̈ܝܼܢ ܕܲܡܣܲܚܦܝܼܢ ܠܹܗ ܠܠܸܠܝܵܐ ܢܸܦܘܿܩ: </l><l>ܡܼܢ ܐܲܪܥܵܬܼܵܐ ܕܲܡܟܲܪ ܢܘܼܗܪܵܐ ܢܲܦܨܲܚ
+                ܐܸܢܹܝܢ܀ </l><l>ܪܲܒܲܝ ܚܲܝ̈ܠܹܐ ܬܪܸܥܣܲܪ ܕܲܢܦܲܩܼܘ ܥܲܡ<note place="foot" xml:id="ftn45"
+                    n="45"><p rend="footnote text" xml:lang="syr"> - ܩܕܡ O.</p></note> ܒܲܪ ܡܲܠܟܵܐ: </l><l>ܕܲܢܣܝܼܡܘܼܢ
+                    ܠܵܗܿ<note place="foot" xml:id="ftn46" n="46"><p rend="footnote text" xml:lang="syr"> - ܠܗ
+                        R.</p></note>ܬܚܘܼܡܵܐ ܕܫܲܝܢܵܐ ܠܗܲܝܡܵܢܘܼܬܼܵܐ܀ </l><l>ܬܪܸܥܣܲܪ ܛܲܒܼ̈ܥܹܐ ܕܣܵܡܼ
+                ܒܲܟܼܠܝܼܠܹܗ ܒܲܪ ܐܲܠܵܗܵܐ: </l><l>(ܘܲܢܦܲܠܼܘ ܩܘܼܕܡܵܘܗܝ ܟܠܵܘܹ̈ܐ ܘܬܼܵܓܹ̈ܐ<note place="foot"
+                    xml:id="ftn47" n="47"><p rend="footnote text" xml:lang="syr"> - ܕܢܦܠܘܢ ܼ ܼ ܕܟܘܡܪܐ O.</p></note>
+                ܕܲܣܪܝܼܩܘܼܬܼܵܐ܀ </l><l>ܬܪܸܥܣܲܪ ܓܲܒܼܪܹܐ ܕܓܲܒܿܝܼ ܫܩܲܠܼ<note place="foot" xml:id="ftn48"
+                    n="48"><p rend="footnote text" xml:lang="syr"> - ܘܫܩܠ R.</p></note> ܠܹܗ ܝܵܪܬܵܐ ܛܵܒܼܵܐ:
+                </l><l>ܕܲܒܼܗܘܿܢ ܢܸܒܼܢܸܐ<note place="foot" xml:id="ftn49" n="49"><p
+                        rend="footnote text" xml:lang="syr"> - ܢܩܝܡ R.</p></note> ܟܠ ܚܲܪܒܵܬܼܵܐ ܕܲܣܚܝܼܦܵܢ ܗ̄ܘܲܝ̈܀
+                </l><l>ܦܵܥ̈ܠܹܐ ܬܪܸܥܣܲܪ ܕܲܕܒܲܪ ܥܲܡܹܗ ܒܲܪ ܟܲܫܝܼܪܵܐ<note place="foot" xml:id="ftn50"
+                    n="50"><p rend="footnote text" xml:lang="syr"> - ܐܝܡܡܐ O.</p></note>: </l><l>ܕܲܠܬܼܘܼܪܥܵܬܹܗ
+                ܕܥܵܠܡܵܐ ܢܣܘܼܓܼܘܼܢ ܒܲܚܦܝܼܛܘܼܬܼܵܐ܀ </l><l></l>
+            <pb ed="http://syriaca.org/bibl/1732" n="470"/>
+            <l>ܩܵܡ ܗ̄ܘܼܵܐ ܚܲܬܼܢܵܐ ܕܢܸܒܼܢܸܐ ܒܲܝܬܼܵܐ ܠܟܲܠܬܼܵܐ ܕܲܡܟܲܪ: </l><l>ܘܐܲܝܬܝܼ ܟܹܐܦܹ̈ܐ ܬܲܪܬܹܝܢ
+                ܘܲܥܣܲܪ ܢܸܪܫܘܿܡ ܐܸܣܹ̈ܝܗܿ<note place="foot" xml:id="ftn51" n="51"><p
+                        rend="footnote text" xml:lang="syr"> - ܐܣ̈ܐ R.</p></note> ܀ </l><l>ܘܚܵܪ ܗ̄ܘܼܵܐ ܒܟܼܠܗܹܝܢ
+                ܕܐܲܝܕܵܐ ܢܸܓܼܒܸܿܐ ܢܣܝܼܡ ܩܲܕܡܵܝܑܬܼ: </l><l>ܢܲܛܼܪܵܗܿ ܠܐܲܒܼܘܼܗܝ ܕܲܒܼܓܸܠܝܵܢܵܐ ܢܚܵܘܸܐ
+                ܫܘܼܦܪܵܗܿ܀ </l><l>ܒܲܬܼܚܘܼܡ ܚܲܝܹ̈ܐ ܩܛܲܪ ܠܵܗܿ ܓܢܘܿܢܵܐ ܠܲܡܫܲܒܲܚܬܵܐ: </l><l>ܘܲܒܼܫܘܼܘ̈ܕܵܝܹܐ
+                ܡܟܲܠܸܠ ܗ̄ܘܼܵܐ ܠܵܗܿ ܚܲܒܿܝܼܒܼܵܐܝܼܬܼ܀ </l><l>ܪܲܫܡܹܗ ܠܒܲܝܬܵܐ ܒܲܬܼܪܸܥܣܲܪܬܵܐ<note
+                    place="foot" xml:id="ftn52" n="52"><p rend="footnote text" xml:lang="syr"> - ܒܬܪܥܣܪܬܗ
+                    O.</p></note> ܕܡܲܠܝܵܐ ܢܘܼܗܪܵܐ: </l><l>ܘܲܚܕܵܐ ܟܹܐܦܵܐ ܓܒܼܵܐ ܠܫܲܬܼܐܣܹ̈ܝܗܿ
+                ܟܲܗ̈ܝܼܢܵܬܼܵܐ܀ </l><l>ܘܢܲܛܼܪܹܗ ܠܐ̄ܪܵܙܵܐ ܕܐܲܒܼܵܐ ܢܸܗܘܸܐ ܥܸܠܬܼܵܐ ܗܵܝܕܹܝܢ: </l><l>ܠܵܗܿ ܠܗܵܝܿ
+                ܟܹܐܦܵܐ ܕܒܼܐܝܼܕܵܘ̈ܗܝ ܕܲܒܼܪܵܐ ܡܸܬܼܒܲܢܝܵܐ<note place="foot" xml:id="ftn53" n="53"><p
+                        rend="footnote text" xml:lang="syr"> - ܡܬܟܢܝܐ O.</p></note> ܗ̄ܘܼܵܬܼ܀ </l><l>ܘܫܲܪܝܼ ܢܫܲܐܸܠ ܟܲܕ
+                ܝܵܕܲܥܿ ܗ̄ܘܼܵܐ(ܡܘܿܢ ܥܵܒܹܿܕ ܗ̄ܘܼܵܐ: </l><l>ܕܒܼܗܵܝܿ ܥܸܠܬܼܵܐ ܕܗܵܘ ܫܘܼܐܵܠܵܐ ܥܹܕܬܵܐ<note
+                    place="foot" xml:id="ftn54" n="54"><p rend="footnote text" xml:lang="syr"> - ܕܡܢ ܼ ܼ ܕܟܐܗܿ ܼ ܼ
+                        ܫܐܘܠܐ ܕܥܕܬܐ O.</p></note> ܬܸܬܼܩܲܢ܀ </l><l>ܡܲܢܘܼ ܐܵܡܿܪܝܼܢ ܐ̄ܢܵܫܵܐ ܕܐܝܼܬܲܝ ܐܲܝܟܼ
+                ܠܵܐ ܝܵܕܲܥܿ: </l><l>ܘܫܲܪܝܼܘ ܗܵܠܹܝܢ<note place="foot" xml:id="ftn55" n="55"><p
+                        rend="footnote text" xml:lang="syr"> - ܗܼܢܘܢ O.</p></note> ܕܲܢܡܲܠܠܘܼܢ ܠܹܗ ܛܸܒܵܐ ܕܲܠܒܲܪ܀
+                </l><l>ܡܵܪܝ ܐܝܼܬܼ ܕܐܵܡܿܪܝܼܢ ܕܐܹܠܝܼܵܐ ܐܲܢ̄ܬܿ ܘܐܝܼܬܼ ܕܐܹܪܲܡܝܵܐ: </l><l>ܘܐܝܼܬܼ ܕܲܢܒܼܝܼܵܐ
+                ܐ̄ܚܪܹܢܵܐ ܚܲܫܼܒܿܘܼܟܼ<note place="foot" xml:id="ftn56" n="56"><p rend="footnote text" xml:lang="syr">
+                        - ܚܫܼܒܟ R.</p></note> ܡܢ ܩܲܕܡܵܝܹ̈ܐ܀ </l><l>ܡܦܲܠܲܓܼ ܥܲܡܵܐ ܠܲܡ̈ܢܵܘܵܬܼܵܐ
+                ܣܲܓܿܝܼ̈ܐܵܬܼܵܐ: </l><l>ܘܣܸܕܹܩܹ̈ܐ<note place="foot" xml:id="ftn57" n="57"><p
+                        rend="footnote text" xml:lang="syr"> - ܘܣܕܩܐ O.</p></note> ܘܡܲܡ̈ܠܠܹܐ ܡܲܠܝܵܐ ܝܑܼܗܘܼܕ
+                ܡܸܛܠܵܬܼܵܟܼ܀ </l><l>ܐ̄ܢܵܫ ܐ̄ܢܵܫ ܚܲܫܒܵܟܼ ܐܲܝܟܲܢ ܕܲܣܒܲܪ ܟܲܕ ܣܲܓܿܝܼܐܝܼܢ: </l><l>ܐܵܦ ܚܸܪܝܵܢܹܐ
+                ܐܵܦ ܦܘܼ̈ܠܵܓܹܐ ܡܸܛܠܵܬܼܵܟܼ܀ </l><l></l>
+            <pb ed="http://syriaca.org/bibl/1732" n="471"/>
+            <l>ܠܲܒܼ̈ܢܵܬܼ ܩܵܠܹ̈ܐ ܕܟܸܠܹܗ ܥܲܡܵܐ ܬܢܵܘ ܬܲܠܡܝܼ̈ܕܹܐ: </l><l>ܘܡܘܿܢ ܡܸܬܼܡܲܠܲܠ ܒܲܝܢܵܬܼ ܟܸܢܫܹ̈ܐ
+                ܥܲܠ ܦܵܪܘܿܩܲܢ܀ </l><l>ܐܸܡܲܪ ܡܵܪܲܢ ܗܵܐ ܒܲܪܵܝܹܐ ܐܲܝܟܼ ܒܲܪܵܝܹܐ: </l><l>ܡܲܠܸܠܼܘ ܟܠܗܘܿܢ ܡܲܠܸܠܘ
+                ܐܲܢ̄ܬܿܘܿܢ ܐܲܝܟܼ ܓܵܘܵܝܹ̈ܐ܀ </l><l>ܗܵܐ ܬܢܲܝܬܿܘܿܢ ܠܝܼ ܡܘܿܢ<note place="foot"
+                    xml:id="ftn58" n="58"><p rend="footnote text" xml:lang="syr"> - ܕܡܢ O.</p></note> ܡܸܬܼܡܲܠܲܠ ܡܢ
+                ܪܲܚܝܼܩܹܐ: </l><l>ܬܢܵܘ ܠܝܼ ܗܵܫܵܐ ܡܲܡܠܠܵܐ<note place="foot" xml:id="ftn59" n="59"><p
+                        rend="footnote text" xml:lang="syr"> - ܐܢܬܘܢ O.</p></note> ܕܝܼܠܟܼܘܿܢ ܐܲܝܟܼ ܩܲܪܝܼܒܹܐ܀
+                </l><l>ܗܵܐ ܫܸܡܿܥܹܬܼ ܠܝܼ ܒܲܝܢܵܬܼ ܣܵܢ̈ܐܹܐ ܡܘܿܢ ܡܸܬܼܡܲܠܲܠ: </l><l>ܐܲܢ̄ܬܿܘܿܢ ܪܵܚܡܹܐ ܓܠܵܘ ܠܝܼ
+                ܗܵܫܵܐ ܪܸܥܝܵܢܲܝܟܿܘܿܢ܀ </l><l>ܫܵܦܼ ܫܘܼܐܵܠܵܐ ܡܢ ܫܘܼܪܝܵܐ ܕܒܹܗ ܩܵܐܹܡ ܗ̄ܘܼܵܐ: </l><l>ܘܥܲܠܼ
+                ܐܸܬܼܓܵܘܝܼ ܨܹܝܕ ܬܲܠܡܝܼ̈ܕܹܐ ܢܥܲܩܸܒܼ ܐܸܢܘܿܢ܀ </l><l>ܚܵܝܼ ܡܵܪܲܢ ܕܠܵܘ ܗܵܘܿ ܡܲܡܠܠܵܐ ܕܡܼܢ
+                ܒܲܪܵܝܹܐ: </l><l>ܣܢܝܼܩ ܗ̄ܘܼܵܐ ܢܹܐܠܲܦ ܐܸܠܵܐ ܥܸܠܬܼܵܐ ܠܫܲܪܒܹܗ ܥܲܒܼܕܹܗ܀ </l><l>ܐܸܠܘܼ ܕܢܹܐܠܲܦ
+                ܡܘܿܢ ܡܸܬܼܡܲܠܲܠ ܫܲܐܸܠ ܐܸܢܘܿܢ: </l><l>ܠܡܘܿܢ ܡܢ ܕܲܫܡܲܥܼ ܥܲܦ ܫܘܼܐܵܠܵܐ ܥܲܠ<note
+                    place="foot" xml:id="ftn60" n="60"><p rend="footnote text" xml:lang="syr"> - ܨܝܕ O.</p></note>
+                ܬܲܠܡܝܼ̈ܕܹܐ܀ </l><l>ܠܡܲܡܠܠܹܗ ܕܥܲܡܵܐ ܗܵܐ ܫܲܡܥܹܗ ܗ̄ܘܼܵܐ ܟܲܕ ܫܲܐܸܠܼ ܗ̄ܘܼܵܐ: </l><l>ܘܐܸܠܘܼ
+                ܕܢܹܐܠܲܦ ܫܲܐܸܠܼ ܐܸܢܘܿܢ ܠܵܐ ܡܲܗܦܸܟܼ ܗ̄ܘܼܵܐ܀ </l><l>ܚܵܘܝܼ ܒܓܸܠܝܵܐ ܕܗܵܘܿ ܫܘܼܐܵܠܵܐ ܨܹܝܕ
+                ܒܲܪܵܝܹܐ: </l><l>ܬܒܲܥܬܼܵܐ(ܐܲܥܸܠܼ ܨܹܝܕ ܓܵܘܵܝܹ̈ܐ ܢܥܲܩܸܒܼ<note place="foot" xml:id="ftn61"
+                    n="61"><p rend="footnote text" xml:lang="syr"> - ܐܥܝܪ ܼ ܼ ܢܫܐܠ O.</p></note> ܐܸܢܘܿܢ܀ </l><l>ܥܲܠ
+                ܟܵܪܘܿܙܹܐ ܕܗܲܝܡܵܢܘܼܬܼܵܐ ܐܲܪܡܼܝܼ ܐܘܼܪܚܵܐ: </l><l>ܕܐܲܝܟܼ ܫܲܪܝܼܪܹܐ ܢܹܐܡܪܘܼܢ ܠܲܫܡܹܗ<note
+                    place="foot" xml:id="ftn62" n="62"><p rend="footnote text" xml:lang="syr"> - ܕܫܡܗ O.</p></note>
+                ܐܲܝܢܵܘ܀</l>
+            <pb ed="http://syriaca.org/bibl/1732" n="472"/>
+            <l>ܬܒܲܥܬܼܵܐ ܪܲܒܿܬܼܵܐ ܩܵܡܲܬܸ ܬܲܡܵܢ ܥܲܠ ܬܲܠܡܝܼ̈ܕܹܐ: </l><l>ܕܢܹܐܡܪܘܼܢ ܡܲܢܘܼ ܟܲܣܝܵܐ ܕܥܲܡܵܐ ܠܵܐ
+                ܝܵܕܲܥܿ ܠܹܗ܀ </l><l>ܫܒܲܩܼ ܪܸܥܝܵܢܹܐ ܕܡܸܬܼܡܲܠܠܝܼܢ ܗ̄ܘܼܵܘ ܡܢ ܝܗ̄ܘܼ̈ܕܵܝܹܐ: </l><l>ܘܠܲܒܼ̈ܢܲܝ
+                ܒܲܝܬܹܗ ܬܒܲܥܼ ܢܹܐܡܪܘܼܢܵܝܗܝ( ܕܐܲܝܟܲܢ ܐܝܼܬܼܵܘܗܝ܀ </l><l>ܫܲܒܼܩܵܗܿ ܘܫܵܛܼܵܗܿ ܠܗܵܝܿ
+                ܡܲܚܫܲܒܼܬܼܵܐ ܕܝܗ̄ܘܼܕܵܝܘܼܬܼܵܐ<note place="foot" xml:id="ftn63" n="63"><p
+                        rend="footnote text" xml:lang="syr"> - ܐܟܡܐ ܕܐܝܬܘܗܝ ܼ ܫܛܗܿ ܘܫܒܩܗܿ ܼ ܼ ܕܝܘ̈ܕܝܐ
+                O.</p></note>: </l><l>ܘܫܲܪܝܼܡܫܲܐܸܠ ܥܲܠ ܚܘܼܫܵܒܼܵܗܿ ܕܲܫܠܝܼܚܘܼܬܼܵܐ܀ </l><l>ܠܗܘܿܢ ܬܵܒܲܥܿ
+                ܗ̄ܘܼܵܐ ܕܢܹܐܡܪܘܼܢ ܡܲܢܼܘܼ ܐܲܝܟܼ ܫܲܪܝܼܪܹܐ: </l><l>ܕܲܥܠܲܝܗܘܿܢ ܗ̄ܘܼܵܐ ܩܠܝܼܕܵܐ ܕܓܲܙܵܐ(ܕܒܹܝܬܼ
+                    ܐܲܠܵܗܵܐ<note place="foot" xml:id="ftn64" n="64"><p rend="footnote text" xml:lang="syr"> -
+                        ܕܗܝܡܢܘܬܐ O.</p></note>܀ </l><l>ܡܲܢ ܐܵܡܪܝܼܢ ܐܢ̄ܬܿܘܿܢ ܕܐܝܼܬܲܝ ܐܸܢܵܐ ܐܘܿ
+                ܬܲܠܡܝܼ̈ܕܲܝ: </l><l>ܘܙܵܥܘ ܬܲܠܡܝܼ̈ܕܹܐ ܡܢ ܫܘܼܐܵܠܵܐ ܬܡܝܼܗܵܐ ܕܲܫܡܲܥܘ܀ </l><l>ܐܲܩܝܼܡ ܐܸܢܘܿܢ
+                ܒܲܝܢܵܬܼ(ܡܝܼ̈ܬܹܐ ܠܚܲܝܹ̈ܐ ܡܵܪܲܢ: </l><l>ܕܢܸܕܿܥܘܼܢ<note place="foot" xml:id="ftn65"
+                    n="65"><p rend="footnote text" xml:lang="syr"> - ܚܝ̈ܐ ܠܡܘܬܐ ܡܪܢ : ܕܢܐܡܪܘܢ O.</p></note> ܡܲܢܘܼ
+                ܘܐܸܠܵܐ ܐܵܡܪܝܼܢ ܡܸܬܼܒܲܣܪܝܼܢ ܗ̄ܘܼܵܘ܀ </l><l>ܫܡܲܥ ܗ̄ܘܼܵܐ ܫܸܡܥܘܿܢ ܟܲܕ ܬܵܒܲܥ ܠܹܗ ܒܪܵܐ
+                ܫܲܪܝܼܪܵܐ: </l><l>ܕܢܸܩܪܹܝܘܗܝ ܒܲܫܡܹܗ(ܘܙܵܥܼ ܕܲܢܡܲܠܸܠ<note place="foot" xml:id="ftn66"
+                    n="66"><p rend="footnote text" xml:lang="syr"> - ܙܥ ܗܘܐ ܢܡܠܠ O.</p></note> ܒܸܠܥܵܕ ܐܲܒܼܘܼܗܝ܀
+                </l><l>ܘܐܲܛܝܼܪ ܗܵܘܢܹܗ ܪܹܫ ܬܲܠܡܝܼ̈ܕܹܐ ܠܪܵܘܡܵܐ ܕܠܥܸܠ: </l><l>ܘܲܒܼܚܘܼܫܵܒܹܗ ܠܐܲܬܼܪܹܗ
+                ܕܐܲܒܼܘܼܗܝ ܐܸܬܼܥܲܠܝܼ ܗ̄ܘܼܵܐ܀ </l><l>ܣܠܸܩܼ ܡܢ ܐܲܪܥܵܐ ܘܡܢ ܒܸܪܝܵܬܼܵܐ ܕܡܸܬܼܚܲܙ̈ܝܵܢ ܗ̄ܘܲܝ̈:
+                </l><l>ܘܐܲܪܦܝܼ ܠܒܼܵܬܼܪܹܗ ܗܘܵܝܹ̈ܐ<note place="foot" xml:id="ftn67" n="67"><p
+                        rend="footnote text" xml:lang="syr"> - ܗܘ̈ܢܐ O.</p></note> ܘܥܵܠܡܹ̈ܐ ܘܟܼܠܡܵܐ ܕܲܒܼܗܘܿܢ܀
+                </l><l>ܦܣܲܥܼ ܗ̄ܘܼܵܐ ܒܗܵܘܢܹܗ ܡܢ ܒܸܢܝܵܢܹܗ ܕܗܲܝܟܲܠ ܬܹܒܹܝܠ:</l>
+            <pb ed="http://syriaca.org/bibl/1732" n="473"/>
+            <l>(ܘܲܠܬܲܚܬܵܝܹ̈ܐ ܫܡܲܝܵܐ ܐܲܪܦܝܼ ܘܬܼܘܼܒܼ ܐܸܬܼܥܲܠܝܼ<note place="foot" xml:id="ftn68" n="68"
+                        ><p rend="footnote text" xml:lang="syr"> - ܘܠܡܨ̈ܥܝܐ ܼ ܼ ܐܓܘܝ O.</p></note> ܀ </l><l>ܘܥܲܠ
+                ܗ̄ܘܵܐ ܩܵܡ ܠܹܗ ܒܲܩܕܘܼܫ ܩܘܼ̈ܕܫܹܐ(ܟܲܣܝܵܐ ܕܐܝܼܬܼܵܝܵܐ<note place="foot" xml:id="ftn69"
+                    n="69"><p rend="footnote text" xml:lang="syr"> - ܕܐܒܐ ܟܣܝܐ O.</p></note> : </l><l>ܩܕܵܡܵܘܗܝ
+                ܕܐܲܒܼܵܐ ܘܫܲܪܝܼ ܡܦܝܼܣ ܠܹܗ ܒܠܸܒܵܐ ܕܲܟܼܝܵܐ܀ </l><l>ܡܵܪܝ ܡܲܢ ܡܲܡܪܲܚ<note place="foot"
+                    xml:id="ftn70" n="70"><p rend="footnote text" xml:lang="syr"> - ܡܡܪܚ ܗܘܼܐ R.</p></note> ܕܲܢܣܝܼܡ
+                ܠܹܗ ܫܡܵܐ ܠܝܼܚܝܼܕܵܝܵܟܼ: </l><l>ܐܲܢ̄ܬܿ(ܝܑܼܠܸܕܬܵܝܗܝ ܐܲܢ̄ܬܿ ܐܲܠܸܦܲܝܢܝ ܐܲܝܟܲܢ<note
+                    place="foot" xml:id="ftn71" n="71"><p rend="footnote text" xml:lang="syr"> - ܝܠܕܬܝܘܗܝ ܼ ܼ ܕܐܝܟܢ
+                        R.</p></note> ܐܸܩܪܹܝܘܗܝ܀ </l><l>ܡܟܼܵܢܵܐ ܗܼ̄ܝ ܗܵܕܹܐ ܕܲܢܣܝܼܡ ܐܲܒܼܵܐ ܠܲܫܡܵܐ
+                ܕܲܒܼܪܹܗ: </l><l>ܕܝܼܠܵܟܼ ܗܼ̄ܝ ܡܵܪܝ ܦܩܘܿܕ<note place="foot" xml:id="ftn72" n="72"><p
+                        rend="footnote text" xml:lang="syr"> - ܐܡܪ O.</p></note> ܠܼ ܐܸܩܪܹܝܘܗܝ ܐܲܝܟܼ ܨܸܒܼܝܵܢܵܟܼ܀
+                </l><l>ܠܵܘ ܕܝܼܠܝ ܐܝܼܬܹܝܗܿ ܐܸܩܪܸܐ ܠܹܗ ܫܡܵܐ ܠܝܼܚܝܼܕܵܝܵܟܼ: </l><l>ܓܠܝܼ ܠܝܼ ܡܲܢ̣ܘܼ ܐܸܚܘܿܬܼ
+                ܐܸܓܼܠܹܝܘܗܝ ܡ̣ܢ<note place="foot" xml:id="ftn73" n="73"><p rend="footnote text" xml:lang="syr"> - ܡܐ
+                        O.</p></note> ܕܐܲܠܸܦܬܵܢܝ܀ </l><l>ܐܸܠܵܐ ܐܲܝܟܲܢ ܐܸܩܪܹܝܘܗܝ ܠܵܐ ܩܵܪܹܐ<note
+                    place="foot" xml:id="ftn74" n="74"><p rend="footnote text" xml:lang="syr"> - ܝܿܕܥ
+                O.</p></note>ܐ̄ܢܵܐ: </l><l>ܩܪܝܼܘܗܝ ܐܲܢ̄ܬܿ ܒܲܫܡܹܗ ܘܲܦܩܘܿܕ ܐܵܦ ܠܝܼ ܐܸܩܪܹܝܘܗܝ ܗܵܟܲܢ܀
+                </l><l>ܥܲܠܼ ܗ̄ܘܼܵܐ ܦܝܵܣܵܐ ܕܫܸܡܥܘܿܢ ܪܹܫܵܐ ܕܲܫܠܝܼܚܘܼܬܼܵܐ: </l><l>ܩܕܵܡܵܘܗܝ ܕܐܲܒܼܵܐ ܘܲܓܠܼܵܐ
+                ܐ̄ܪܵܙܹܗ ܠܗܵܘܿ ܫܲܪܝܼܪܵܐ܀ </l><l>ܢܦܲܩܼ ܓܸܠܝܵܢܵܐ ܡܢ ܒܹܝܬܼ ܐܲܒܵܐ ܠܗܵܘܿ ܬܲܠܡܝܼܕܵܐ:
+                </l><l>ܘܫܲܩܠܹܗ ܘܲܢܚܸܬܼ ܐܲܝܟܼ ܕܲܠܣܲܩܪܵܐ ܡܼܢ ܒܹܝܬܼ ܡܲܠܟܵܐ܀ </l><l>ܒܲܪܡܵܝ ܐܝܼܕܹܗ ܕܐܲܒܼܵܐ
+                ܟܲܣܝܵܐ ܚܵܘܝܼ ܛܲܒܼܥܵܐ: </l><l>ܘܲܟܼܬܼܝܼܒܼ ܗ̄ܘܼܵܐ ܒܵܗܿ ܕܐܲܢ̄ܬܿ ܗ̄ܘ ܡܫܝܼܚܵܐ ܒܪܹܗ
+                ܕܐܲܠܵܗܵܐ܀</l>
+            <l>(ܘܐܲܪܝܼܡ ܩܵܠܹܗ ܐܲܝܟܼ ܕܐܸܬܼܦܲܩܲܕ ܡܼܢ ܓܸܠܝܵܢܵܐ: </l><l>ܨܹܝܕ ܦܵܪܘܿܩܲܢ ܕܐܲܢ̄ܬܿ ܗܼ̄ܘ ܡܫܝܼܚܵܐ
+                ܒܪܹܗ ܕܐܲܠܵܗܵܐ<note place="foot" xml:id="ftn75" n="75"><p rend="footnote text" xml:lang="syr"> - Ex
+                        o.</p></note>܀</l>
+            <pb ed="http://syriaca.org/bibl/1732" n="474"/>
+            <l>ܫܡܹܗ ܫܲܪܝܼܪܵܐ ܟܣܸܐ ܗ̄ܘܼܵܐ ܒܐܲܒܼܵܐ ܘܝܲܠܦܹܗ<note place="foot" xml:id="ftn76" n="76"><p
+                        rend="footnote text" xml:lang="syr"> - ܘܫܩܠܗ O.</p></note> ܫܸܡܥܘܿܢ: </l><l>ܘܐܸܬܸܵܐ ܘܚܵܘܝܼ
+                ܠܡܵܪܹܗ ܕܲܫܡܵܐ<note place="foot" xml:id="ftn77" n="77"><p rend="footnote text" xml:lang="syr"> -
+                        ܕܫܡܗ R.</p></note>ܝܵܕܲܥܿ ܗ̄ܘܼܵܐ ܠܹܗ܀ </l><l>ܝܲܠܦܹܗ ܘܲܬܼܢܵܝܗܝ ܠܲܫܡܵܐ ܣܓܼܝܼܕܵܐ
+                ܕܒܲܪ ܐܲܠܵܗܵܐ: </l><l>ܕܠܵܐ ܠܡܵܘܣܵܦܘܼ ܐܵܦܠܵܐ ܠܡܸܒܼܨܲܪ ܐܝܼܬܼ ܠܹܗ ܦܘܼܪܣܵܐ܀ </l><l>ܓܠܼܵܐ ܠܹܗ
+                ܐܲܒܼܵܐ ܠܸܫܡܥܘܿܢ ܓܲܒܼܝܵܐ ܥܲܠ ܚܲܒܿܝܼܒܹܗ: </l><l>ܘܟܲܣܝܼ ܗ̄ܘܼܵܐ ܗܸܘ ܕܡܲܢܘܼ ܓܠܵܐ
+                ܠܹܗ(ܐ̄ܪܵܙܵܐ ܪܲܒܵܐ<note place="foot" xml:id="ftn78" n="78"><p rend="footnote text" xml:lang="syr"> -
+                        ܥܠ ܗܘ ܐܪܙܐ ܼ</p></note>܀ </l><l>ܘܲܒܼܪܵܐ ܕܝܵܕܲܥܿ ܠܐܲܒܼܵܐ ܟܲܣܝܵܐ ܘܲܠܓܸܝܵܢܵܘ̈ܗܝ:
+                </l><l>ܚܵܘܝܹܗ ܠܫܸܡܥܘܿܢ ܡܲܢܘܼ ܓܠܵܐ ܠܹܗ ܫܡܹܗ ܐܲܝܟܲܢ ܗܼ̄ܘ܀ </l><l>ܐܲܝܟܼ ܡܢ ܢܲܦ̮ܫܹܗ ܩܪܵܝܗܝ
+                ܗ̄ܘܼܵܐ ܫܸܡܥܘܿܢ ܟܲܕ ܩܵܪܹܐ ܠܹܗ: </l><l>ܘܚܵܘܝܹܗ( ܡܵܪܲܢ ܕܗܵܘܿ ܓܸܠܝܵܢܵܐ ܠܵܘ<note
+                    place="foot" xml:id="ftn79" n="79"><p rend="footnote text" xml:lang="syr"> - ܡܫܝܚܐ ܕܓܠܝܢܐ ܗܘܐ
+                        ܘܠܘ O.</p></note> ܕܝܼܠܹܗ ܗ̄ܘܼ܀ </l><l>ܠܵܐ ܗ̄ܘܼܵܐ ܒܸܣܪܵܐ ܘܲܕܡܵܐ ܓܠܵܐ ܠܵܟܼ ܐܲܝܟܼ
+                ܕܲܠܡܹܐܡܲܪ: </l><l>ܠܵܘ<note place="foot" xml:id="ftn80" n="80"><p rend="footnote text" xml:lang="syr">
+                        - ܕܠܘ O.</p></note> ܐܲܢ̄ܬܿ ܡܸܢܵܟܼ ܐܲܝܬܝܼܬܿ ܠܲܫܡܵܐ ܕܠܵܐ ܓܸܠܝܵܢܵܐ܀ </l><l>ܠܵܘ
+                ܝܑܼܕܲܥܬܼܵܟܼ ܕܝܼܠܵܟܼ ܝܸܕܥܲܬܸ ܬܸܩܪܹܝܢܝ ܗܵܟܲܢ: </l><l>ܐܵܒܼܝ ܗ̄ܘܼ ܓܠܵܐ ܠܵܟܼ ܕܐܸܠܵܐ ܐܸܢ ܗܸܘ
+                ܠܵܐ ܝܵܕܲܥܿ ܠܝܼ܀ </l><l>ܒܲܫܡܵܐ ܪܚܝܼܡܵܐ ܕܐܲܝܬܝܼ ܫܸܡܥܘܿܢ ܡܢ ܒܹܝܬܼ ܐܲܒܼܵܐ: </l><l>ܩܪܵܝܗܝ
+                ܗ̄ܘܼܵܐ ܠܡܵܪܹܗ ܕܐܲܢ̄ܬܿ ܗ̄ܘܼ ܡܫܝܼܚܵܐ ܒܪܹܗ ܕܐܲܠܵܗܵܐ܀ </l><l>ܘܡܸܚܕܵܐ ܟܠܝܼܠܵܐ ܐܲܝܟܼ
+                    ܡܼܢ<note place="foot" xml:id="ftn81" n="81"><p rend="footnote text" xml:lang="syr"> - ܕܡܢ
+                        O.</p></note> ܐܝܼܕܵܐ ܕܡܲܠܟܵܐ ܩܲܒܸܠܼ: </l><l>ܛܘܼܒܼܵܐ ܪܲܒܵܐ ܠܗܲܝܡܵܢܘܼܬܼܵܐ ܕܠܵܐ
+                ܡܸܨܛܲܠܝܵܐ܀ </l><l>ܕܲܫܢܵܐ ܝܲܗ̄ܒܼ ܠܹܗ ܚܠܵܦ ܬܵܘܕܝܼܬܼܵܐ ܠܗܵܘܿ ܬܲܠܡܝܼܕܵܐ: </l><l>ܕܢܵܘܕܹܐ
+                ܟܠܢܵܫ ܐܲܝܟܲܢ ܕܐܵܘܕܝܼ ܘܛܘܼܒܼܵܐ ܢܸܣܲܒܼ܀ </l><l></l>
+            <pb ed="http://syriaca.org/bibl/1732" n="475"/>
+            <l>ܐܵܦ ܡܸܛܠ ܗܵܝܿ ܫܲܐܸܠ ܡܵܪܲܢ ܟܲܕ ܫܲܐܸܠ ܗ̄ܘ̣ܵܐ: </l><l>ܕܢܸܬܸܿܠ ܛܘܼܒܼܵܐ ܠܟܼܠ ܡ̇ܢ
+                ܕܐܲܚܝܼܕ(ܗܲܝܡܵܢܘܼܬܼܵܐ܀ </l><l>ܫܡܵܐ<note place="foot" xml:id="ftn82" n="82"><p
+                        rend="footnote text" xml:lang="syr"> - ܒܗܝܡܢܘܬܐ ܼ ܫܡܗ O.</p></note> ܒܓܸܠܝܵܢܵܐ ܐܲܝܬܿܝܼ
+                ܫܸܡܥܘܿܢ ܡܢ ܒܹܝܬܼ ܐܲܒܼܵܐ: </l><l>ܘܲܢܣܲܒܼ ܐܲܓܼܪܹܗ ܛܘܼܒܼܵܐ ܟܠܝܼܠܵܐ ܐܲܠܵܗܵܝܵܐ܀ </l><l>ܝܲܗ̄ܒܼ
+                ܠܹܗ ܛܘܼܒܼܵܐ ܐܲܝܟܼ ܚܘܼܬܵܡܵܐ ܕܗܲܝܡܵܢܘܼܬܼܵܐ: </l><l>ܕܗܸܝ ܬܵܘܕܝܼܬܼܵܐ ܬܸܠܒܿܘܿܟܼ ܢܘܿܡܝܼ
+                ܒܥܵܠܡܵܐ ܟܠܹܗ܀ </l><l>ܚܵܘܝܹܗ ܠܫܸܡܥܘܿܢ ܕܟܲܕ ܓܵܠܹܐ ܠܹܗ ܨܹܝܕ ܐܲܒܼܘܼܗܝ ܗ̄ܘܼܵܐ: </l><l>ܐ̄ܪܵܙܵܐ
+                ܟܲܣܝܵܐ ܕܢܲܝܬܸܐ ܠܥܵܠܡܵܐ ܫܡܵܐ ܫܲܪܝܼܪܵܐ܀ </l><l>ܚܵܘܝܼ ܕܲܫܘܸܐ ܥܲܡ ܝܵܠܘܿܕܹܗ ܘܲܒܼܓܸܠܝܵܢܹ̈ܐ:
+                </l><l>ܘܲܒܼܟܲܣ̈ܝܵܬܼܵܐ( ܘܲܒܼܦܘܼ̈ܫܵܩܹܐ ܕܟܼܠ ܚܸܟܼ̈ܡܵܬܼܵܐ<note place="foot" xml:id="ftn83"
+                    n="83"><p rend="footnote text" xml:lang="syr"> - ܒܫܘܐܠܐ ܕܣܬܝܪܬܐ O.</p></note>܀ </l><l>ܐܘܿ
+                ܬܲܠܡܝܼܕܼܵܐ ܨܹܝܕܼ ܐܲܒܼܵܐ ܗ̄ܘܹܿܝܬܼ ܟܲܕܼ ܓܵܠܹܐ ܠܵܟܼ: </l><l>ܐܲܝܟܼ ܕܐܵܦ ܗܵܫܵܐ ܠܘܵܬܼܝ ܗ̄ܘܼ
+                ܐܲܒܼܵܐ ܘܠܵܐ ܡܲܪܚܸܩ ܡܹܢܝ܀ </l><l>ܘܠܵܐ ܓܸܠܝܵܢܵܐ ܝܲܗ̄ܒܼ ܠܵܟܼ ܐܲܒܼܵܐ ܡܢ ܒܸܠܥܵܕܲܝ:
+                </l><l>ܐܵܦܠܵܐ ܛܘܼܒܼܵܐ ܒܸܠܥܵܕܼ ܐܲܒܼܵܐ ܝܵܗܹ̇ܒܼ ܐ̄ܢܵܐ ܠܵܟܼ܀ </l><l>ܓܠܼܵܐ ܠܵܟܼ ܐܲܒܼܵܐ ܠܵܘ
+                ܟܲܕ ܐܸܢܵܐ ܠܵܐ ܝܵܕܲܥ̇ ܗ̄ܘܹ̇ܝܬܼ<note place="foot" xml:id="ftn84" n="84"><p
+                        rend="footnote text" xml:lang="syr"> - ܐܢܐ O.</p></note>: </l><l>ܘܝܸܗܿܒܹܬܼ ܛܘܼܒܼܵܐ ܠܵܘ ܟܲܕ
+                ܐܲܒܼܵܐ ܠܵܐ ܫܵܠܹܡ ܠܝܼ܀ </l><l>ܫܵܘܝܵܐ ܢܲܦ̮ܫܵܟܼ ܘܲܠܓܸܠܝܵܢܹ̈ܐ ܘܲܠܬܼܵܘܕܝܼܬܼܵܐ: </l><l>ܫܪܵܪܵܐ
+                ܡܲܠܝܵܐ ܘܠܵܐ ܡܸܬܼܪܲܟܼܢܵܐ<note place="foot" xml:id="ftn85" n="85"><p
+                        rend="footnote text" xml:lang="syr"> - ܡܬܕܪܟܐ R.</p></note>ܨܹܝܕܼ ܦܘܼ̈ܠܵܓܹܐ܀ </l><l>ܐܲܢ̄ܬܿ
+                ܗ̄ܘܼ ܟܹܐܦܵܐ ܘܲܒܼܫܲܬܼ̱ܐ̱ܣܹ̈ܐ ܕܒܲܝܬܵܐ ܪܲܒܵܐ: </l><l>ܣܵܐܹ̇ܡ ܐ̄ܢܵܐ ܠܵܟܼ ܘܲܥܠܲܝܟ ܠܥܹܕܬܵܐ
+                ܕܲܓܼܒܹܝ̇ܬܼ܀ </l><l></l>
+            <pb ed="http://syriaca.org/bibl/1732" n="476"/>
+            <l>ܫܲܪܝܼܪ ܕܘܼܡܣܵܟܼ ܢ̤ܛܥܲܢ ܝܘܼܩܪܵܐ ܘܠܵܐ ܢ̤ܬܼܪܲܦܹܐ: </l><l>ܠܵܟܼ ܩܲܕܼܡܵܝܵܐ ܒܒ̤ܢܝܵܢܝ ܐܹܣܝܼܡ
+                ܐܲܝܟܼ ܫܲܪܝܼܪܵܐ܀ </l><l>ܗ̤ܘܝܼ ܫܲܬܼܐ̱ܣܬܼܵܐ ܠܗܲܝܟܲܠ ܩܘܼܕܼܫܵܐ<note place="foot"
+                    xml:id="ftn86" n="86"><p rend="footnote text" xml:lang="syr"> - ܢܘܗܪܐ O.</p></note> ܕܡܲܩܲܦ ܠܝܼ
+                ܒܹܗ: </l><l>ܘܲܥܠܲܝܟ ܐܸܬܿܘܿܚ ܟܠܗܘܿܢ ܕܘܼܡܣܹ̈ܝܗ̇ ܕܒܲܪ̄ܬܼ ܐܝܼܡܵܡܵܐ܀ </l><l>ܟܲܠܬܼܵܐ ܡܸܟܲܪܹܬܼ
+                ܘܲܡܛܲܝܲܒܼ ܠܝܼ ܚܠܘܿܠܵܐ ܪܲܒܵܐ: </l><l>ܐܲܢ̄ܬܿ ܩܲܕܼܡܵܝܵܐ ܓܢܝܼ ܒܲܣܡܵܟܼܵܐ ܕܫܲܪܝܼܪܵܐ ܐܲܢ̄ܬܿ܀
+                </l><l>ܠܵܟܼ ܐܹܗܲܝܡܸܢ<note place="foot" xml:id="ftn87" n="87"><p rend="footnote text" xml:lang="syr">
+                        - ܐܫܿܠܛ O.</p></note> ܥܲܠ ܩܲܝܛܘܿܢܵܗ̇ ܕܒܲܪ̄ܬܼ ܐܝܼܡܵܡܵܐ<note place="foot"
+                    xml:id="ftn88" n="88"><p rend="footnote text" xml:lang="syr"> - ܢܗܝܪܐ O.</p></note>:
+                </l><l>ܘܲܥܠܲܝܟ ܐܸܒܼܢܹܗ̇ ܕܪܵܡ ܒܸܢܝܵܢܵܟܼ ܡ̣ܢ ܚܸܪܿܝܵܢܹܐ܀ </l><l>ܫܪܵܪܵܟܼ ܟܹܐܦܵܐ ܗ̄ܘ̣ ܡܸܛܠ
+                ܗܵܢܵܐ ܐܲܢ̄ܬܿ ܗ̄ܘ̣ ܟܹܐܦܵܐ: </l><l>ܘܲܥܠܲܝܟ ܐܸܒܼܢܸܐ ܠܥܹܕܬܵܐ ܕܪܵܡܵܐ ܡ̣ܢ ܦܘܼ̈ܠܵܓܹܐ܀
+                </l><l>ܐܲܢ̄ܬܿ ܗ̄ܘ̣ ܟܹܐܦܵܐ ܘܲܥܠܲܝܟ ܐܸܒܼܢܹܗ̇ ܠܲܡܫܲܒܲܚܬܵܐ: </l><l>ܘܡܘܼ̈ܟܼܠܹܐ ܕܲܫܝܘܿܠ ܠܵܐ
+                ܚܵܣ̇ܢܝܼܢ ܠܵܗ̇ ܒܐܸܣܟܹܡܲܝ̈ܗܘܿܢ܀ </l><l>ܘܡܵܢܵܐ ܐܸܢܘܿܢ ܡܘܼ̈ܟܼܠܹܐ ܕܲܫܝܘܿܠ ܐܘܿ ܫܵܡ̈ܘܿܥܹܐ:
+                </l><l>ܐܸܠܵܐ ܡܵܘܬܵܐ ܐܵܦ ܣܵܛܵܢܵܐ ܕܚܲܪܒܿܘܼܗ̇ ܠܐܲܪܥܵܐ܀ </l><l>ܬܲܪܥܹܐ ܪܵܡܹܐ<note
+                    place="foot" xml:id="ftn89" n="89"><p rend="footnote text" xml:lang="syr"> - ܕܫܝܘܠ
+                    O.</p></note> ܕܲܠܓܼܵܘ ܡܸܢܗܘܿܢ ܚܲܒܼܫܘܼܗܝ ܠܐܵܕܼܵܡ: </l><l>ܘܬܲܡܵܢ ܫܲܪܝܵܐ ܟ̱ܠܵܗ̇
+                ܫܒܼܝܼܬܼܵܐ ܒܹܝܬܼ ܚܸܫܘܿܟܹ̈ܐ܀ </l><l>ܡܘܼ̈ܟܼܠܹܐ ܕܦܲܟܼܪܘܼܗ̇<note place="foot"
+                    xml:id="ftn90" n="90"><p rend="footnote text" xml:lang="syr"> - ܕܒܓܪܘܗܿ O.</p></note> ܠܐܘܼܪܚܵܐ
+                ܕܚܲܝܹ̈ܐ ܕܠܵܐ ܬܗܲܠܸܟܼ ܗ̄ܘܼܵܬܼ: </l><l>ܘܣܵܓܼܘ ܡܲܥܒܲܪܬܵܐ ܕܠܵܐ ܐ̄ܢܵܫ ܢܸܥܒܲܪ<note
+                    place="foot" xml:id="ftn91" n="91"><p rend="footnote text" xml:lang="syr"> - ܢܐܙܠ O.</p></note>
+                ܨܹܝܕܼ ܐܲܠܵܗܵܐ܀ </l><l>ܬܲܪܿܥܹܐ ܘܣܘܼܟܿܪܹܿܐ<note place="foot" xml:id="ftn92" n="92"><p
+                        rend="footnote text" xml:lang="syr"> - ܐܚܝܼ̈ܕܐ O.</p></note> ܕܼܲܒܼܓܼܝܼܪܝܼܢ ܗ̄ܘܼܵܘ ܒܐܲܦܲܝ̈
+                ܐܵܕܼܵܡ: </l><l>ܕܠܵܐ ܬܘܼܒܼ ܢܸܦܘܿܩ ܡ̣ܢ ܚܸܫܘܿܟܼܵܐ ܕܒܹܗ ܒܵܠܹ̇ܐ ܗ̄ܘܼܵܐ܀ </l><l></l>
+            <pb ed="http://syriaca.org/bibl/1732" n="477"/>
+            <l>ܡܸܛܠ ܗܵܠܹܝܢ ܐܸܫܬܵܘܕܝܼ ܠܵܗ̇ ܠܟܲܠܬܼܵܐ ܚܲܬܼܢܵܐ: </l><l>ܕܠܵܐ ܚܵܒܼܫ̇ܝܼܢ ܠܵܗ̇ ܒܐܵܦܲܕܼܢܲܝ̈ܗܘܿܢ
+                ܐܵܘ ܙܵܟܹ̇ܝܢ ܠܵܗ̇܀ </l><l>ܢܘܼܗܪܵܐ ܡܲܟܼܪܵܗ̇ ܘܲܒܼܚܸܫܘܿܟܼܵܐ ܠܵܐ ܡܸܬܼܚܲܒܼܫܵܐ: </l><l>ܚܲܝܵܐ
+                ܦܲܩ̣ܵܗ̇ ܘܡܸܟܹܝܠ ܡܵܘܬܵܐ ܠܵܐ ܚܵܣܹ̇ܢ ܠܵܗ̇܀ </l><l>ܫܲܪܝܼ ܒܒܲܝܬܵܐ ܘܲܓܼܒܼܵܐ ܟܹܐܦܵܐ<note
+                    place="foot" xml:id="ftn93" n="93"><p rend="footnote text" xml:lang="syr"> - ܠܟܐܦܐ
+                    O.</p></note> ܘܣܵܡ̣ ܫܲܬܼܐ̱ܣܬܼܵܐ: </l><l>ܘܝܲܗ̣̄ܒܼ ܪܘܼܡܝܵܢܵܐ ܕܬ̤ܙܟ̤ܐ ܠܡܵܘܬܵܐ
+                ܘܲܠܣܵܛܵܢܵܐ܀ </l><l>ܐܸܫܬܵܘܕܝܼ ܠܵܗ̇ ܕܠܵܐ ܚܵܣ̇ܢܝܼܢ ܠܵܗ̇ ܡܘܼ̈ܟܼܠܹܐ ܕܲܫܝܘܿܠ: </l><l>ܕܲܕܼܠܵܐ
+                ܩܸܢܛܵܐ ܬ̤ܬ̤ܿܠ ܢܲܦ̮ܫܵܗ̇ ܠܡܸܗܘܵܐ ܥܲܡܹܗ<note place="foot" xml:id="ftn94" n="94"><p
+                        rend="footnote text" xml:lang="syr"> - ܥܡܗ̇ O.</p></note>܀ </l><l>ܫܠܝܼܚܵܐ ܪܲܒܵܐ ܗܘ̤ܵܐ
+                ܫܲܬܼܐ̱ܣܬܼܵܐ ܠܒܲܝܬܵܐ<note place="foot" xml:id="ftn95" n="95"><p rend="footnote text" xml:lang="syr">
+                        - ܕܒܝܬܐ O.</p></note> ܪܲܒܵܐ: </l><l>ܕܬܸܥܘܿܠ ܟܲܠܬܼܵܐ ܥܲܠ ܬܘܼܩܵܢܵܐ ܕܠܵܐ
+                ܡܸܬܼܚܲܒܲܠ܀ </l><l>ܩ̣ܛܲܪ ܠܵܗ̇ ܓܢܘܿܢܵܐ ܘܲܕܼܠܵܐ ܬܸܕܼܚܲܠ ܐܸܫܬܵܘܕܝܼ ܠܵܗ̇:
+                </l><l>ܕܲܡܚܲܒܿܠܵܢܹ̈ܐ ܠܵܐ ܡܸܫܬܲܠܛܝܼܢ ܥܲܠ(ܬܘܼܩܵܢܹ̈ܝܗ̇܀ </l><l>ܫܲܪܝܼ ܕܢܸܒܼܢܹܝܗ̇<note
+                    place="foot" xml:id="ftn96" n="96"><p rend="footnote text" xml:lang="syr"> - ܬܘܩܢܗ̇ ܼ ܫܪܝ
+                        ܕܢܒܼܢܐ O.</p></note> ܘܥܲܠ ܗܵܝ̇ ܟܹܐܦܵܐ ܪܲܒܿܬܼܵܐ ܕܐܸܫܟܲܚ: </l><l>ܣܵܡ̣ ܒܸܢܝܵܢܵܗ̇
+                ܕܪܵܘܡܵܗ̇ ܢܸܥܒܲܪ ܐܵܦ ܠܲܥܢܵܢܹ̈ܐ<note place="foot" xml:id="ftn97" n="97"><p
+                        rend="footnote text" xml:lang="syr"> - ܠܪܩܝܥܐ O.</p></note>܀ </l><l>ܬܲܪܬܹܝܢ ܘܲܥܣܲܪ ܟܹܐܦܹ̈ܐ
+                ܣܕܲܪ ܗ̄ܘܼܵܐ( ܒܒܼܝܼܪܲܬܼ ܢܘܼܗܪܵܐ<note place="foot" xml:id="ftn98" n="98"><p
+                        rend="footnote text" xml:lang="syr"> - ܒܒܪܬ ܢܗܝܪܿܐ O.</p></note>: </l><l>ܘܲܚܕܼܵܐ ܓܒܼܵܐ ܗ̄ܘܼܵܐ
+                ܕܟܼܠܹܗ ܒܲܝܬܵܐ ܥܠܹܝܗ̇ ܢܸܲܩ ܗ̄ܘܼܵܐ܀ </l><l>ܨܼܵܪܵܗ̇ ܘܪܲܫܡ̣ܵܗ̇ ܘܓܲܠܦ̣ܵܗ̇ ܠܟܹܐܦܵܐ
+                    ܪܲܒܿܬܼܵܐ<note place="foot" xml:id="ftn99" n="99"><p rend="footnote text" xml:lang="syr"> -
+                        ܓܒܝܼܬܐ O.</p></note> ܕܐܸܫܟܲܚ̣: </l><l>ܘܥܲܡܸܩ̣ ܣܵܡ̣ܵܗ̇ ܒܗܵܘ̇ ܒܸܢܝܵܢܵܐ ܪܲܒܵܐ
+                    ܕܐܲܫܬܝܼ<note place="foot" xml:id="ftn100" n="100"><p rend="footnote text" xml:lang="syr"> - Sic
+                        R. ܕܫܬܝܢ O.</p></note>܀ </l><l>ܚܲܬܼܢܵܐ ܓܒܼܵܗ̇ ܗ̄ܘܼܵܐ ܘܐܲܒܼܘܼܗܝ ܓܲܠܦ̣ܵܗ̇ ܒܗܵܘ̇
+                ܓܸܠܝܵܢܵܐ: </l><l></l>
+            <pb ed="http://syriaca.org/bibl/1732" n="478"/>
+            <l>ܘܓܲܡ̣ܪܵܗ̇ ܪܘܼܚܵܐ ܘܲܒܼܫܲܬܼܐ̱ܣܹ̈ܐ ܕܥܹܕܬܵܐ ܣܵܡ̣ܵܗ̇܀ </l><l>ܕܵܠ̣ ܓܸܠܝܵܢܵܐ ܡ̣ܢ ܝܑܼܕܲܥܬܹܗ
+                ܟܣܝܼܬܼܵܐ ܕܐܲܒܼܵܐ: </l><l>ܘܲܢܚܸܬܼ ܬܲܩܸܢ ܒܲܝܬܵܐ ܠܲܒܼܪܵܐ ܕܢܸܫܬܲܡܲܫ ܒܹܗ܀ </l><l>ܟܲܠܬܼܵܐ
+                ܡܟܼܝܼܪܵܐ ܘܠܵܐ ܝܵܕܼܥܵܐ ܗ̄ܘܼܵܬܼ ܚܲܬܼܢܵܐ ܡܲܢ̣ܘܼ: </l><l>ܘܐܲܒܼܵܐ ܓܠ̣ܵܐ ܠܵܗ̇ ܘܫܸܪܲܬ̤ ܬ̤ܢܘܲܝ
+                    ܕܲܡܟܼܝܼܪܘܼܬܼܵܗ̇<note place="foot" xml:id="ftn101" n="101"><p
+                        rend="footnote text" xml:lang="syr"> - ܕܡܟܝܪܘܬܐ O.</p></note>܀ </l><l>ܬܲܒܼܥ̣ܵܗ̇ ܚܲܬܼܢܵܐ ܕܐܸܢ
+                ܝܵܕܼܥܵܐ ܠܹܗ ܘܥܲܠ ܕܝܼܕܲܥ̣ܬܸܗ: </l><l>ܝܲܗ̣̄ܒܼ ܠܵܗ̇ ܛܘܼܒܼܵܐ ܕܲܠܓܸܝܵܢܹܗ ܕܐܲܒܼܵܐ ܣܸܦܩܲܬ̤܀
+                </l><l>ܐܸܫܬܵܘܕܝܼ ܠܵܗ̇ ܕܠܵܐ ܡܸܙܕܲܟܼܝܵܬ ܡ̣ܢ ܐܲܒܼܕܵܢܵܐ </l>
+            <l>(ܘܙܲܡܸܢ ܥܲܡܡܹ̈ܐ ܘܥܸܒܼܪܹܿܝܗ̇ ܕܐܲܪܥܵܐ ܕܢܸܚܕܘܿܢ ܥܲܡܵܗ̇<note place="foot" xml:id="ftn102"
+                    n="102"><p rend="footnote text" xml:lang="syr"> - ܘܠܡܫܬܘܬܗ̇ ܢܐܬܘܢ ܥܡܡ̈ܐ ܘܥܒܪܿܝܗ̇ ܕܐܪܥܐ
+                    O.</p></note>܀ </l><l>ܡ̣ܢ ܒܹܝܬܼ ܦܲܚܹ̈ܐ ܫܲܩ̣ܠܵܗ̇ ܠܟܲܠܬܼܵܐ ܘܡ̣ܢ ܬܘܼܩ̈ܠܵܬܼܵܐ:
+                </l><l>ܘܬܲܒܲܪ ܦܲܚܹ̈ܐ ܙܐܲܬܼܩܸܢ ܐܘܼܪܚܵܐ ܘܕܲܒܼܪܵܗ̇ ܨܹܐܕܼܵܘܗܝ܀ </l><l>ܒܲܥܵܠܲܝ̈ ܕܝܼܢܵܐ ܬܪܹܝܢ
+                ܐܝܼܬܼ ܗ̄ܘܼܵܐ<note place="foot" xml:id="ftn103" n="103"><p rend="footnote text" xml:lang="syr"> -
+                        ܗܘܘ O.</p></note> ܠܵܗ̇ ܕܣܵܢܹ̇ܝܢ ܗ̄ܘܼܵܘ ܠܵܗ̇: </l><l>ܘܝܲܗ̣̄ܒܼ ܠܵܗ̇ ܕܠܵܐ ܙܵܟܹ̇ܝܢ
+                ܠܵܗ̇܀ </l><l>ܛܪܿܘܼܢܹܐ ܕܲܫܝܘܿܠ ܕܵܝ̇ܫܝܼܢ ܗ̄ܘܼܵܘ ܠܵܗ̇ ܒܲܬܼܚܘܼܡܲܝ̈ܗܘܿܢ: </l><l>ܘܲܦܟܲܪ ܐܸܢܘܿܢ
+                ܘܐܲܬܼܩܸܢ ܏܏ܪܹܓܼܠܹܗ̇ ܥܲܠ ܨܵܘܪܲܝܗܘܿܢ܀ </l><l>ܣܵܡ̣ܵܗ̇ ܒܢܘܼܗܪܵܐ ܘܲܠܚܸܫܘܿܟܼܵܐ ܣܲܚ̣ܦܹܗ
+                ܩܘܼܕܡܹܝܗ̇: </l><l>ܘܲܠܛܸ̈ܠܵܠܹܐ ܕܡܵܘܬܵܐ ܐܲܥܪܸܩ̣<note place="foot" xml:id="ftn104"
+                    n="104"><p rend="footnote text" xml:lang="syr"> - ܐܪܚܼܩ O.</p></note> ܡ̣ܢ ܐܘܼܪܚܵܬܼܵܗ̇܀
+                </l><l>ܒܢ̣ܵܗ̇ ܥܲܠ ܟܹܐܦܵܐ ܪܲܒܿܬܼܵܐ ܕܓܲܒܼܝܵܐ ܘܡܲܠܝܵܐ ܫܘܼܦܪܹܿܐ: </l><l>ܘܐܲܩܝܼܡ ܐܵܣܹ̈ܝܗ̇
+                ܒܲܬܼܪܸܥܣܲܪܬܹܗ ܕܡܲܠܝܵܐ ܢܘܼܗܪܵܐ܀ </l><l>ܦܬܲܚ̣ ܠܵܗ̇ ܬܲܪܿܥܹܐ ܠܘܼܩܒܲܠ(ܙܲܗܪܵܗ̇
+                    ܕܲܫܠܝܼܚܘܼܬܼܵܐ<note place="foot" xml:id="ftn105" n="105"><p rend="footnote text" xml:lang="syr">
+                        - ܙܗܪܐ ܕܫܠܗܒܝܬܐ O.</p></note>:</l>
+            <pb ed="http://syriaca.org/bibl/1732" n="479"/>
+            <l>ܕܬ̤ܗܘ̤ܐ ܫܲܪܝܵܐ ܒܙܝܼܘܵܐ ܕܢܘܼܗܪܵܐ(ܥܲܙܝܼܙܵܐܝܼܬܼ܀ </l><l>ܙܩܝܼܦܹܗ ܣܵܡ̣ ܠܵܗ̇<note
+                    place="foot" xml:id="ftn106" n="106"><p rend="footnote text" xml:lang="syr"> - ܥܬܝܪܐܝܬ ܼ ܣܡ̣
+                        ܒܗ̇ ܙܩܝܦܗ O.</p></note> ܐܲܝܟܼ ܥܲܡܘܼܕܼܵܐ ܛܥܝܼܢ ܒ̣ܪܿܝܵܬܼܵܐ: </l><l>ܘܲܕܼܠ̣ܵܐ
+                ܘܐܲܝܸܩ̣ ܟܹܐܦܲܝ̈(ܢܘܼܗܪܵܐ ܠܒܲܝܬܵܐ ܪܲܒܵܐ܀ </l><l>ܒܩܲܝܣܵܐ ܙܩܝܼܦܵܐ ܕܲܬܼܪܝܼܨܘܼܬܼܵܐ ܫܲܟܼܠܸܠ̣
+                ܥܘܼܡܪܵܗ̇: </l><l>ܘܲܒܼܟܸܢ̈ܦܵܬܼܵܗ̇ ܕܲܠܟܼܵܐ ܘܲܠܗܲܠ ܬܪܲܨ<note place="foot" xml:id="ftn107"
+                    n="107"><p rend="footnote text" xml:lang="syr"> - ܕܗܒܐ ܠܒܝܬܐ ܪܡܐ ܼ ܒܩܝܣܐ ܬܪܝܨܐ ܕܙܩܝܦܘܬܐ ܫܟܠܠ
+                        ܐܣܝ̈ܗ̇ ܼ ܘܒܟܢ̈ܦܬܐ ܕܠܟܐ ܘܠܟܐ ܪܨܦ̣ O.</p></note> ܬܲܛܠܝܼܠܵܗ̇܀ </l><l>ܒܨܸܨܹ̈ܐ
+                ܕܐܝܼܕܼܵܘ̈ܗܝ ܫܲܪܲܪ ܥܲܪܿܩܹܝܗ̇ ܟܲܗܝܼ̈ܢܵܬܼܵܐ: </l><l>ܘܲܠܬܲܨܒܿܝܼܬܼܵܗ̇(ܓܵܘ̈ܢܹܐ ܒܲܕܼܡܹܗ<note
+                    place="foot" xml:id="ftn108" n="108"><p rend="footnote text" xml:lang="syr"> - ܒܕܡܐ ܕܓܘܫܡܗ
+                        O.</p></note> ܨܒܲܥ̣ ܠܐܝܼܩܵܪܵܗ̇܀ </l><l>ܝܲܗ̣̄ܒܼ ܠܵܗ̇ ܛܘܼܒܼܵܐ ܐܲܝܟܼ ܡܵܘܗܲܒܼܬܼܵܐ
+                ܕܡܲܠܝܵܐ ܥܘܼܬܼܪܵܐ: </l><l>ܕܬ̤ܗܘ̤ܐ ܟܠܝܘܿܡ ܒܵܣܡܵܐ ܒܢܘܼܗܪܹܗ ܐܲܠܵܗܵܝܵܐ܀ </l><l>ܠܡܵܘܬܵܐ
+                ܙܲܓܼܪܹܗ ܘܲܠܣܵܛܵܢܵܐ(ܒܚܲܫܹܗ ܣܲܚܦܹܗ<note place="foot" xml:id="ftn109" n="109"><p
+                        rend="footnote text" xml:lang="syr"> - ܒܚܫܐ ܦܟܪܗ O.</p></note>: </l><l>ܘܪܸܘܙܲܬ̤ ܟܲܠܬܼܵܐ
+                ܒܛܘܼܒܹܗ ܕܚܲܬܼܢܵܐ ܘܲܒܼܫܘܼܘ̈ܕܵܝܵܘܗܝ܀ </l><l>ܥܲܠ ܕܲܩ̣ܪܵܝܗܝ ܗ̄ܘܼܵܐ ܠܲܒܼܪܵܐ ܒܲܫܡܹܗ ܗܵܘ̇
+                ܬܲܠܡܝܼܕܼܵܐ: </l><l>ܝܲܗ̣̄ܒܼ ܠܹܗ ܛܘܼܒܼܵܐ ܘܲܒܼܢ̣ܵܐ ܥܹܕܬܵܐ ܥܠܵܘܗܝ ܕܲܫܠܝܼܚܵܐ܀ </l><l>ܥܲܒܼܕܹܗ
+                ܟܹܐܦܵܐ ܘܲܒܼܫܲܬܼܐ̱ܣܹ̈ܐ(ܕܒܲܝܬܹܗ ܣ̣ܵܡܹܗ: </l><l>ܕܲܚܙܵܝܗܝ ܕܐܸܚܹ̇ܕܼ ܟܠܗܘܿܢ ܕܘܼܡ̈ܣܹܐ<note
+                    place="foot" xml:id="ftn110" n="110"><p rend="footnote text" xml:lang="syr"> - ܕܒ̇ܝܬܐ ܣܡܗ̇
+                        ܕܢܚܙܝܘܗܝ ܕܐܚܝܕ ܟܠܗܘܢ ܣܘ̈ܦܐ O.</p></note> ܘܠܵܐ ܡܸܬܼܪܲܦܸܐ܀ </l><l>ܠܵܟܼ ܝܵܗܹ̇ܒܼ
+                ܐ̄ܢܵܐ ܩܠܝܼ̈ܕܹܐ ܕܡܲܠܟܿܘܼܬܼܝ ܐܸܫܬܵܘܕܝܼ ܠܹܗ: </l><l>ܕܗ̤ܘ ܫܲܬܼܐ̱ܣܬܼܵܐ ܘܗ̤ܘ ܪܲܒܿ ܒܲܝܬܵܐ
+                    ܠܒܲܝܬܵܐ<note place="foot" xml:id="ftn111" n="111"><p rend="footnote text" xml:lang="syr"> -
+                        ܕܒܝܬܐ O.</p></note> ܢܸܗܘܸܐ܀ </l><l>ܐܸܢ ܐܵܣܲܪ ܐܲܢ̄ܬܿ ܒܐܲܪܥܵܐ(ܐܲܣܝܼܪ ܐܵܦ
+                ܒܲܫܡܲܝܵܐ: </l><l></l>
+            <pb ed="http://syriaca.org/bibl/1732" n="480"/>
+            <l>ܘܐܸܢܗ̤ܘ<note place="foot" xml:id="ftn112" n="112"><p rend="footnote text" xml:lang="syr"> - ܢܗܘܐ
+                        ܐ̇ܣܝܪ ܒܫܡܝܐ ܼ ܘܐܢ ܬܘܒ O.</p></note> ܕܬ̤ܫܪܸܐ ܒܐܲܪܥܵܐ ܢܸܗܘܸܐ ܫܪܸܐ ܒܲܫܡܲܝܵܐ܀
+                </l><l>ܒܪܵܘܡܵܐ ܘܥܘܼܡܩܵܐ ܝܲܗ̣̄ܒܼ ܫܘܼܠܛܵܢܵܐ ܠܲܫܠܝܼܚܘܼܬܼܵܐ: </l><l>ܕܲܠܥܸܠ ܘܲܠܬܲܚܬܿ ܬ̤ܗܘܸܐ
+                ܦܵܩܕܵܐ ܡܵܪܵܢܵܐܝܼܬܼ܀ </l><l>(ܠܒܲܪ̄ܬܼ ܡܸܣܟܹ̇ܢܹ̈ܐ ܡܟܲܪ ܥܲܬܿܝܼܪܵܐ ܘܟܲܬܼܒܵܗ̇<note
+                    place="foot" xml:id="ftn113" n="113"><p rend="footnote text" xml:lang="syr"> - ܒܪ ܥܬܝܪܐ ܠܒܪܬ
+                        ܡܣܟܢ̈ܐ ܟܬܒܗ̇ O.</p></note> ܒܲܫܡܹܗ: </l><l>ܘܝܲܗ̣̄ܒܼ ܠܵܗ̇ ܩܠܝܼ̈ܕܹܐ ܕܬܸܗܘܸܐ
+                ܡܵܪܬܵܐ ܥܲܠ ܩܸܢܝܵܢܵܘ̈ܗܝ܀ </l><l>ܥܘܼܬܼܪܵܐ ܕܥܘܼܡܩܵܐ ܘܓܲܙܵܐ ܕܪܵܘܡܵܐ ܠܵܗ̇ ܐܲܓܼܥ̤ܠ̣ ܗ̄ܘܼܵܐ:
+                </l><l>ܕܲܠܥ̤ܠ ܘܲܠܬܲܚܬܿ ܬ̤ܗܘ̤ܐ ܡܵܪܬܵܐ ܕܠܵܐ ܡܸܬܼܦܲܩܕܵܐ܀ </l><l>ܫܝܼܛ ܗ̄ܘܼܵܐ ܓܸܢܣܵܗ̇ ܘܲܕܼܠܵܐ
+                ܬ̤ܣܒܲܪ ܕܐܲܝܟܼ ܫܵܐܹ̇ܛ ܠܵܗ̇: </l><l>ܩܠܝܼܕܼܵܘ̈ܗܝ ܟܠܗܘܿܢ ܐܲܪܦ̣ܝܼ ܒܐܝܼܕܹ̈ܝܗ̇ ܕܣܲܓ̇ܝܼ
+                ܪܲܚܡ̣ܵܗ̇܀ </l><l>ܟܠܗܘܿܢ ܬܲܪܿܥܹܐ ܕܐܝܼܬܼ ܠܹܗ ܠܐܲܒܼܘܼܗܝ ܝܲܗ̣̄ܒܼ ܠܵܗ̇ ܬܸܦ̮ܬܲܚ<note
+                    place="foot" xml:id="ftn114" n="114"><p rend="footnote text" xml:lang="syr"> - ܕܬܦܬܚ
+                    O.</p></note>: </l><l>ܕܬܸܚܙܸܐ ܘܬܸܚܕܹܐ ܘܢܸܪܘܲܚ<note place="foot" xml:id="ftn115"
+                    n="115"><p rend="footnote text" xml:lang="syr"> - ܘܢܪܘܙ O.</p></note> ܠܸܒܵܗ̇ ܟܡܵܐ ܥܲܬܝܼܪܵܐ܀
+                </l><l>ܥܲܒܼܕܵܗ̇ ܡܵܪܬܵܐ ܥܲܠ ܥܸܠܵܝܹ̈ܐ ܘܥܲܠ ܬܲܚܬܵܝܹ̈ܐ: </l><l>ܕܪܵܘܡܵܐ ܘܥܘܼܡܩܵܐ ܠܵܗ̇
+                ܢܸܫܬܲܡܥܘܼܢ ܒܸܐܣܟܹܡܲܝ̈ܗܘܿܢ܀ </l><l>ܚܙܵܗ̇ ܕܪܵܚ̇ܡܵܐ ܠܹܗ ܠܝܵܪܬܵܐ ܛܵܒܼܵܐ ܘܠܵܐ ܡܸܨܛܲܠܝܵܐ:
+                </l><l>ܘܡܸܚܕܼܵܐ ܝܲܗ̣̄ܒܼ ܠܵܗ̇ ܟܠܗܘܿܢ ܓܲܙܵܘ̈ܗܝ ܘܲܩܠܝܼܕܲܝ̈ܗܘܿܢ܀ </l><l>ܟܲܕܼ ܡܸܣܟܹܿܢܝܵܐ
+                ܘܲܕܼܘ̤ܐ ܓܸܢܣܵܗ̇ ܘܲܣܢܝܼܩ ܛܘܿܗܡܵܗ̇: </l><l>ܩܠܝܼܕܼܵܘ̈ܗܝ ܝܲܗ̣̄ܒܼ ܠܵܗ̇ ܡܸܛܠ ܕܲܚ̣ܙܵܐ
+                    ܫܲܪܝܼܪܘܼܬܼܵܗ̇<note place="foot" xml:id="ftn116" n="116"><p rend="footnote text" xml:lang="syr">
+                        - ܕܫܪܝܪܐ ܗܘܬ O.</p></note>܀ </l><l>ܠܒܲܪ̄ܬܼ ܡܸܣ̈ܟܹܿܢܹܐ ܫܩܲܠ̣ ܡ̣ܢ ܫܸܦܠܵܐ ܘܡ̣ܢ
+                ܩܸܩ̱ܠܬܵܐ: </l><l>ܘܚܸܛܦܲܬ̤ ܪܵܘܡܵܐ ܥܕܲܡܵܐ ܕܬܸܦܩܘܿܕܼ(ܒܹܝܬܼ ܥܸܠܵܝܹ̈ܐ<note place="foot"
+                    xml:id="ftn117" n="117"><p rend="footnote text" xml:lang="syr"> - ܠܥܠ ܒܫܡܝܐ O.</p></note>܀</l>
+            <pb ed="http://syriaca.org/bibl/1732" n="481"/>
+            <l>ܬܲܪܿܥܹܐ ܪ̈ܵܡܹܐ ܕܲܩܕܼܘܿܫ ܩܘܼܕܼܫܹ̈ܐ<note place="foot" xml:id="ftn118" n="118"><p
+                        rend="footnote text" xml:lang="syr"> - ܩܘ̈ܕܫܝܢ R.</p></note> ܗܵܘ̇ ܥܸܠܵܝܵܐ: </l><l>ܫܲܠܛܵܗ̇
+                ܕܬܸܦ̮ܬܲܚ ܡܸܛܠ ܕܲܚ̣ܙܵܗ̇ ܕܪܲܚܡ̣ܵܗ̇(ܐܲܒܼܘܼܗܝ܀ </l><l>ܚ̣ܙܵܐ<note place="foot"
+                    xml:id="ftn119" n="119"><p rend="footnote text" xml:lang="syr"> - ܐܒܐ ܼ ܚܙܝܗܝ O.</p></note>
+                ܗ̄ܘܼܵܐ ܠܐܲܒܼܵܐ ܕܝܲܗ̣̄ܒܼ ܓܸܠܝܵܢܵܐ ܐܲܝܟܼ ܗܲܡܢܝܼܟܼܵܐ: </l><l>ܘܝܲܗ̣̄ܒܼ ܗ̤ܘ ܥܙܲܩܬܼܵܐ
+                ܘܡܲܠܝܵܐ ܩܠܝܼ̈ܕܹܐ ܕܠܲܐܒܼܵܐ ܢܸܫܠܲܡ<note place="foot" xml:id="ftn120" n="120"><p
+                        rend="footnote text" xml:lang="syr"> - ܬܫܠ̣ܡ O.</p></note>܀ </l><l>ܚ̣ܙܵܐ ܕܝܵܠܘܿܕܹܗ ܪܵܚܹ̇ܡ(
+                ܗ̣̄ܘ ܠܵܗ̇ ܠܲܡܫܲܒܲܚܬܵܐ<note place="foot" xml:id="ftn121" n="121"><p
+                        rend="footnote text" xml:lang="syr"> - ܗܘܐ ܠܗ̇ ܠܡܫܦܠܬܐ O.</p></note>: </l><l>ܘܐܲܦܸܩ̣ ܝܲܗ̣̄ܒܼ
+                ܠܵܗ̇ ܩܠܝܼ̈ܕܹܐ ܘܛܘܼ̈ܒܹܐ ܕܒܲܝܬܵܐ ܟ̱ܠܹܗ<note place="foot" xml:id="ftn122" n="122"><p
+                        rend="footnote text" xml:lang="syr"> - ܬܠܒܘܟܝ O.</p></note>܀ </l><l>ܐ̄ܪܵܙܵܐ ܐܝܼܬܼ ܗ̄ܘܼܵܐ
+                ܒܹܝܬܼ ܠܹܗ ܠܐܲܒܼܘܼܗܝ ܘܲܚ̣ܙܵܐ ܕܲܓܼܠ̣ܵܝܗܝ: </l><l>(ܐܲܒܼܵܐ ܠܥܹܕܬܵܐ<note place="foot"
+                    xml:id="ftn123" n="123"><p rend="footnote text" xml:lang="syr"> - ܓܒܼܐ ܠܛܠܝܬܐ O.</p></note>
+                ܘܡܸܚܕܼܵܐ ܡܵܪܬܵܐ ܠܒܲܝܬܹܗ ܥܲܒܼܕܵܗ̇܀ </l><l>ܚ̣ܙܵܐ ܗ̄ܘܼܵܐ ܚܲܬܼܢܵܐ(ܠܐܲܒܼܘܼܗܝ ܕܲܫܡܹܗ<note
+                    place="foot" xml:id="ftn124" n="124"><p rend="footnote text" xml:lang="syr"> - ܕܐܒܘܗܝ ܒܫܡܗ
+                        O.</p></note> ܠܟܲܠܬܼܵܐ ܝܲܗ̣ܒܹܿܗ: </l><l>ܘܲܨ̣ܒܼܵܐ ܕܢܸܥܒܸܕܼ ܨܸܒܼܵܝܢ(ܐܲܒܼܵܐ
+                    ܕܐܲܣ̣ܓ̇ܝܼ<note place="foot" xml:id="ftn125" n="125"><p rend="footnote text" xml:lang="syr"> -
+                        ܐܒܘܗܝ ܕܣ̇ܓܝ O.</p></note> ܪܲܚܡ̣ܵܗ̇܀ </l><l>ܚ̣ܙܵܐ ܕܲܫܩܲܠ̣ܬܹܗ ܡ̣ܢ ܒܹܝܬܼ ܐܲܒܼܵܐ
+                    ܒܗܵܘ̇<note place="foot" xml:id="ftn126" n="126"><p rend="footnote text" xml:lang="syr"> - ܠܗܘ̇
+                        O.</p></note> ܓܸܠܝܵܢܵܐ: </l><l>ܘܝܲܗ̣̄ܒܼ ܠܵܗ̇ ܩܠܝܼ̈ܕܹܐ(ܕܥܘܼܬܼܪܵܐ ܪܲܒܵܐ
+                    ܘܓܲܙܵܐ<note place="foot" xml:id="ftn127" n="127"><p rend="footnote text" xml:lang="syr"> -
+                        ܘܥܘܬܪܐ ܘܓܙ̈ܐ ܕܒܝܬܐ O.</p></note> ܟ̱ܠܹܗ܀ </l><l>ܪܲܚܡ̣ܵܗ̇ ܐܲܒܼܵܐ ܥܲܠ ܕܲܪܚܸܡ̣ܬܹܗ
+                ܠܝܼܚܝܼܕܼܵܝܹܗ: </l><l>ܘܩܲܒܿܠ̣ܵܗ̇ ܒܘܼܟܼܪܹܗ<note place="foot" xml:id="ftn128" n="128"><p
+                        rend="footnote text" xml:lang="syr"> - ܒܘܟܪܐ O.</p></note> ܕܲܚ̣ܙܵܐ ܠܐܲܒܼܘܼܗܝ ܕܲܡܚܲܒܸܿܒܼ
+                ܠܵܗ̇܀ </l><l>ܬܵܘ ܚܲܙܵܝܹ̈ܐ ܬܗܲܪܘ ܒܲܥ̇ܒܼܵܕܹܗ ܕܚܲܬܼܢܵܐ ܡܲܠܟܵܐ: </l><l>ܕܲܠܡܸܣܟܹܿܢܬܵܐ ܚ̣ܙܵܐ
+                ܕܫܲܪܝܼܪܵܐ ܘܬܼܵܓܼܵܐ ܝܲܗ̣̄ܒܼ ܠܵܗ̇܀ </l><l>ܒܢ̣ܵܐ ܠܵܗ̇ ܒܲܝܬܵܐ ܥܲܠ ܬܲܠܡܝܼܕܼܵܐ ܕܪܵܚܹ̇ܡ
+                ܗ̄ܘܼܵܐ ܠܹܗ: </l><l>ܘܝܲܗ̣̄ܒܼ ܠܵܗ̇ ܩܠܝܼ̈ܕܹܐ ܕܪܵܘܡܵܐ ܘܥܘܼܡܩܵܐ ܡܸܛܠ ܚܘܼܒܹܗ܀ </l><l></l>
+            <pb ed="http://syriaca.org/bibl/1732" n="482"/>
+            <l>ܫܲܠܛ̣ܵܗ̇ ܠܚܹܐܪܬܼܵܐ ܕܬ̤ܚܬܿܘܿܡ ܓܲܙܹ̈ܐ ܘܬܸܫܪܸܐ ܛܲܒܼ̈ܥܹܐ: </l><l>ܒܪܝܼܟܼ ܥܲܬܿܝܼܪܵܐ
+                ܕܲܒܼܡܹܐܬܼܝܼܬܹܗ ܥ̣ܬܲܪܘ ܡܸܣܟܹܿܢܹ̈ܐ܀ </l>
+            </div>
+        </body>
+    </text>
+</TEI>
