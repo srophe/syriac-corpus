@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8707">̱Literal
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8707">Literal
                     Commentary on Exodus - <foreign xml:lang="syr">ܦܘܼܫܩܐ ܣܘܥܪܢܝܐ ܕܣܦܪܐ ܕܬܪܝܢ
                         ܕܡܿܟܢܼܫ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8705">Old Testament
@@ -114,8 +114,8 @@
         <body>
             <div type="rubric">
                 <pb ed="http://syriaca.org/manuscript/2295" n="83"/>
-                <ab xml:lang="syr">ܦܘܼܫܩܐ ܣܘܥܪܢܝܐ ܕܣܦܪܐ ܕܬܪܝܢ ܕܡܿܟܢܼܫ ܡܼܢ ܟܬ̈ܒܐ ܕܡܦܫ̈ܩܢܐ ܒܝܨܝܼܦܘܼܬܐ
-                    ܕܡܪܝ ܕܝܘܢܢܘܣܝܘܣ ܕܗܘܼ ܒܪ ܨܠܝܒܝ</ab>
+                <p xml:lang="syr">ܦܘܼܫܩܐ ܣܘܥܪܢܝܐ ܕܣܦܪܐ ܕܬܪܝܢ ܕܡܿܟܢܼܫ ܡܼܢ ܟܬ̈ܒܐ ܕܡܦܫ̈ܩܢܐ ܒܝܨܝܼܦܘܼܬܐ
+                    ܕܡܪܝ ܕܝܘܢܢܘܣܝܘܣ ܕܗܘܼ ܒܪ ܨܠܝܒܝ</p>
             </div>
             <div type="text">
                 <p xml:lang="syr"> ܩܕܡܝܬ ܥܠܼܬܐ ܕܡܦܩܢܐ ܠܐܝܠܝܢ ܓܝܪ ܕܒܣܦܪܐ ܗܢܐ ܐܣܬܼܥܪ̈ܝ ܐܘ̃ ܐܚܘܢ:
