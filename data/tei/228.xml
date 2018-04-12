@@ -104,15 +104,13 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2018-04-12" who="http://syriaca.org/person.xml#jwalters">Adjusted structure, added source info, added page numbers</change>
             <change when="2017-07-12" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="title">
-                <ab>ܣܦܪܐ ܕܒܪܝܬܐ ܣܘܥܪܢܐܝܬ</ab>
-            </div>
             <div type="rubric">
                 <pb ed="http://syriaca.org/manuscript/2295" n="1"/>
                 <p xml:lang="syr">ܒܫܡ ܐܒܐ ܘܒܪܐ ܘܪܘܚܐ ܩܕ̄ ܚܕ ܐܠܗܐ ܫܪܝܪܐ ܐܡܝܢ: ܒܚܝܪܐ ܐܬܐܘܣ ܡܿܫܪܝܢܢ
