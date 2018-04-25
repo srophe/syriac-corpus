@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8513">Demonstration 11:
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8513" n="11">Demonstration 11:
                     On Circumcision - <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܓܙܘܪܬܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The
                     Demonstrations</title>

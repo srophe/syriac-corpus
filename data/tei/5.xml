@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8507">Demonstration 5:
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8507" n="5">Demonstration 5:
                     On Wars - <foreign xml:lang="syr">ܬܚܘܝܬܐ܂ ܕܩܪ̈ܒܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The
                     Demonstrations</title>
