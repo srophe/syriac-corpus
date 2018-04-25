@@ -49,6 +49,10 @@
             </titleStmt>
             <editionStmt>
                 <edition n="0.1"/>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name type="manuscript">Vat. sir. 117</name>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <distributor>
