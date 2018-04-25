@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8518">Demonstration 16:
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8518" n="16">Demonstration 16:
                     On the Peoples, who have replaced the People - <foreign xml:lang="syr"> ܬܚܘܝܬܐ
                         ܕܥܠ ܥܡܡ̈ܐ ܕܗܘܘ ܚܠܦ ܥܡܐ </foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The

@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8504">Demonstration 2: On Love - <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܚܘܒܐ܂</foreign></title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8504" n="2">Demonstration 2: On Love - <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܚܘܒܐ܂</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The Demonstrations</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/10">Aphrahat, the Persian Sage</author>

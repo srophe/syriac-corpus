@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8521">Demonstration 19:
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8521" n="19">Demonstration 19:
                     A Letter against the Jews, because they say that they will be gathered together
                     - <foreign xml:lang="syr">ܐܓܪܬܐ ܕܠܘܩܒܠ ܝܗܘܕ̈ܝܐ܂ ܥܠ ܕܐܡܪܝܢ܂ ܕܩܝܡ ܗܘ ܠܗܘܢ
                         ܠܡܬܟܢܫܘ</foreign></title>

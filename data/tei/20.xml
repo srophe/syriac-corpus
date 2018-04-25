@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8522">Demonstration 20:
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8522" n="20">Demonstration 20:
                     On Care for the Poor - <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܥܠ ܦܘܪܢܣܐ
                         ܕܡ̈ܣܟܢܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The

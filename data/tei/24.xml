@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8502">Prefatory
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8502" n="0">Prefatory
                     Letter</title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The
                     Demonstrations</title>
