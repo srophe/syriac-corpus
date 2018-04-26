@@ -3,9 +3,9 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8853">Exhortation
-                    of the Apostle Peter [Edition: Walters] - <foreign xml:lang="syr">ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ ܫܠܝܚܐ ܕܥܠ
-                        ܡܪܬܝܢܘܬܐ.</foreign></title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8853">Exhortation of the
+                    Apostle Peter [Edition: Walters] - <foreign xml:lang="syr">ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ
+                        ܫܠܝܚܐ ܕܥܠ ܡܪܬܝܢܘܬܐ.</foreign></title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author>Anonymous</author>
                 <sponsor>University of Oxford</sponsor>
@@ -114,29 +114,23 @@
     </teiHeader>
     <text>
         <front>
-            <docEdition>
-                <biblStruct>
-                    <analytic>
-                        <title>Exhortation of the Apostle Peter [Edition: Walters] - <foreign xml:lang="syr">ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ ܫܠܝܚܐ ܕܥܠ
-                            ܡܪܬܝܢܘܬܐ.</foreign></title>
-                        <editor><name type="person" ref="http://syriaca.org/person.xml#jwalters">James E. Walters</name></editor>
-                        <idno type="URI">https://syriaccorpus.org/372</idno>
-                        <date when="2018-04-26">Published April 26, 2018</date>
-                    </analytic>
-                    <monogr>
-                        <imprint>
-                            <publisher>The Oxford-BYU Syriac Corpus</publisher>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </docEdition>
+            <div type="title">
+                <bibl>
+                    <title>Exhortation of the Apostle Peter [Edition: Walters] - <foreign
+                            xml:lang="syr">ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ ܫܠܝܚܐ ܕܥܠ ܡܪܬܝܢܘܬܐ.</foreign></title>
+                    <editor><name type="person" ref="http://syriaca.org/person.xml#jwalters">James
+                            E. Walters</name></editor>
+                    <idno type="URI">https://syriaccorpus.org/372</idno>
+                    <date when="2018-04-26">Published April 26, 2018</date>
+                </bibl>
+            </div>
             <div type="preface">
                 <head>Preface</head>
                 <p xml:lang="en">This text is a born-digital edition of the <hi rend="ital"
                         >Exhortation of the Apostle Peter</hi>. This edition is based on the only
                     known extant copy of this work, which is found in MS Sachau 165 (Berlin 201;
                     fol. 9v-12v) in the Staatsbibliothek zu Berlin, which Sachau dated to the 14th
-                        century.<note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"
+                        century.<note place="foot" xml:id="ftn1" n="1"><p xml:lang="en" rend="footnote text"
                             >Eduard Sachau, <hi rend="ital">Verzeichniss der syrischen Handschriften
                                 der Königlichen Bibliothek zu Berlin</hi> (Berlin, Asher &amp; Co.,
                             1899), 667</p></note> The manuscript has been digitized, and it can be
@@ -148,7 +142,7 @@
                         Noncanonical Scriptures, Vol. 2</hi>, ed. by Tony Burke and Brent Landau
                     (Grand Rapids, MI: Eerdmans, forthcoming).</p>
             </div>
-</front>
+        </front>
         <body>
             <div type="rubric">
                 <pb n="f.9v"/>
@@ -291,11 +285,11 @@
                     ܠܫܿܢܝܘܬܐ ܢܓܿܕ ܠܗ. ܘܚܲܝܠܗܿ. ܕܢܦܫܗ ܦܿܣܩ ܕܡܟܝܠ ܠܐ ܢܫܟܼܚܝܘ ܢܬܚܝܠ ܘܢܩܘܡ. ܘܡܛܠ ܗܢܐ ܐܘّ
                     ܒܢ̈ܝ. ܠܐ ܦܿܩܚ ܠܟܘܢ ܡܥܡܪܐ ܕܩܲܪܝܒ ܠܝܬܒܐ. ܘܠܐ ܚܙܬܐ ܕܢܫ̈ܐ ܘܠܐ ܣܘܕܐ ܕܥܡܗܝܢ. ܥܘܗܕܢܗܝܢ.
                     ܓܝܪ ܠܐ ܡܬܛܥܐ. ܐܝܢܐ ܕܡܢ ܚܙܬܐ ܘܡܡܠܠܐ ܒܪܥܝܢܢ ܒܥܝܢܢ. <note place="foot"
-                        xml:id="ftn2" n="2"><p rend="footnote text">It appears as though the scribe
+                        xml:id="ftn2" n="2"><p xml:lang="en" rend="footnote text">It appears as though the scribe
                             crossed out a letter on the beginning of this word. </p></note> ܘܠܐ ܬܘܒ
                     ܥܿܗܢ ܠܢ ܕܢܦܣܘܩ ܣܒܪܢ ܘܒܠܐ ܗܝܡܢܘܬܐ ܢܬܚܬܐ ܢܦܫܢ. ܗܐ ܣܿܓ̈ܝܐܐ ܕܐܗܡܝܘ ܒܦܘܪܩܢܗܘܢ ܘܒܣܝܢܐ
                     ܕܚܛܝܼܬܐ ܐܬܛܒܥܘ. ܘܒܝܕ ܬܝܒܘܬܗܘܢ ܠܡܪܚܡܢܘܬܐ ܕܐܠܗܐ ܐܫܬܘܝܘ. </p>
             </div>
-        
+        </body>
     </text>
 </TEI>
