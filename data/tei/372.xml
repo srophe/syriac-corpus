@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8853" n="1">Exhortation
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8853">Exhortation
                     of the Apostle Peter [Edition: Walters] - <foreign xml:lang="syr">ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ ܫܠܝܚܐ ܕܥܠ
                         ܡܪܬܝܢܘܬܐ.</foreign></title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
@@ -113,7 +113,23 @@
         </revisionDesc>
     </teiHeader>
     <text>
-        <body>
+        <front>
+            <docEdition>
+                <biblStruct>
+                    <analytic>
+                        <title>Exhortation of the Apostle Peter [Edition: Walters] - <foreign xml:lang="syr">ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ ܫܠܝܚܐ ܕܥܠ
+                            ܡܪܬܝܢܘܬܐ.</foreign></title>
+                        <editor><name type="person" ref="http://syriaca.org/person.xml#jwalters">James E. Walters</name></editor>
+                        <idno type="URI">https://syriaccorpus.org/372</idno>
+                        <date when="2018-04-26">Published April 26, 2018</date>
+                    </analytic>
+                    <monogr>
+                        <imprint>
+                            <publisher>The Oxford-BYU Syriac Corpus</publisher>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </docEdition>
             <div type="preface">
                 <head>Preface</head>
                 <p xml:lang="en">This text is a born-digital edition of the <hi rend="ital"
@@ -132,6 +148,8 @@
                         Noncanonical Scriptures, Vol. 2</hi>, ed. by Tony Burke and Brent Landau
                     (Grand Rapids, MI: Eerdmans, forthcoming).</p>
             </div>
+</front>
+        <body>
             <div type="rubric">
                 <pb n="f.9v"/>
                 <p xml:lang="syr"> ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ ܫܠܝܚܐ ܕܥܠ ܡܪܬܝܢܘܬܐ. </p>
@@ -278,6 +296,6 @@
                     ܥܿܗܢ ܠܢ ܕܢܦܣܘܩ ܣܒܪܢ ܘܒܠܐ ܗܝܡܢܘܬܐ ܢܬܚܬܐ ܢܦܫܢ. ܗܐ ܣܿܓ̈ܝܐܐ ܕܐܗܡܝܘ ܒܦܘܪܩܢܗܘܢ ܘܒܣܝܢܐ
                     ܕܚܛܝܼܬܐ ܐܬܛܒܥܘ. ܘܒܝܕ ܬܝܒܘܬܗܘܢ ܠܡܪܚܡܢܘܬܐ ܕܐܠܗܐ ܐܫܬܘܝܘ. </p>
             </div>
-        </body>
+        
     </text>
 </TEI>
