@@ -54,10 +54,10 @@
             <editionStmt>
                 <edition n="0.1"/>
                 <respStmt>
-                    <resp>Digital Edition</resp>
-                    <persName><forename>James</forename>
+                    <resp>edited by</resp>
+                    <name><persName><forename>James</forename>
                         <forename>E.</forename>
-                        <surname type="sort">Walters</surname></persName>
+                        <surname type="sort">Walters</surname></persName></name>
                 </respStmt>
             </editionStmt>
             <publicationStmt>

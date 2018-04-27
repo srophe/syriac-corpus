@@ -50,8 +50,8 @@
             <editionStmt>
                 <edition n="0.1"/>
                 <respStmt>
-                    <resp>Transcription</resp>
-                    <name type="manuscript">Vat. sir. 117</name>
+                    <resp>transcription from</resp>
+                    <name><ptr target="sourceDesc"/></name>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -77,7 +77,7 @@
                         <settlement>Vatican City</settlement>
                         <repository>Vatican Library</repository>
                         <idno type="shelfmark">Syr. 117</idno>
-                        <altIdentifier>
+                        <altIdentifier type="preferred">
                             <idno>Vat. sir. 117</idno>
                         </altIdentifier>
                         <altIdentifier>

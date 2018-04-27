@@ -53,10 +53,8 @@
             <editionStmt>
                 <edition n="0.1"/>
                 <respStmt>
-                    <resp>Eclectic Edition</resp>
-                    <persName><forename>D.</forename>
-                        <forename>Ioannes</forename>
-                        <surname type="sort">Parisot</surname></persName>
+                    <resp>based upon</resp>
+                    <name><ptr target="sourceDesc"/></name>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
