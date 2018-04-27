@@ -70,7 +70,8 @@
                         <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
                         <p>https://creativecommons.org/licenses/by/4.0/</p>
                     </licence>
-                </availability>
+                    <p>This electronic edition is designed for open access reuse. The Syriac base text is in the public domain. The TEI XML edition is copyrighted by James E. Walters and released under a under a Creative Commons Attribution 4.0 International Public License (CC BY 4.0). The HTML page is copyrighted by Vanderbilt University and released under a under a Creative Commons Attribution 4.0 International Public License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/). Attribution for reuse should follow the suggested citation and also credit the copyright holder of the TEI XML edition.</p>
+                  </availability>
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
