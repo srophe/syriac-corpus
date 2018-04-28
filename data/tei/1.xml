@@ -3,7 +3,9 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8503" n="1">Demonstration 1: On Faith - <foreign xml:lang="syr">ܬܚܘܝܬܐ ܕܗܝܡܢܘܬܐ</foreign></title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8503" n="1"
+                    >Demonstration 1: On Faith - <foreign xml:lang="syr">ܬܚܘܝܬܐ
+                    ܕܗܝܡܢܘܬܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8501">The
                     Demonstrations</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
@@ -70,27 +72,36 @@
                         <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
                         <p>https://creativecommons.org/licenses/by/4.0/</p>
                     </licence>
-                    <ab><note>This electronic edition is designed for open access reuse. The Syriac base text is in the public domain. The TEI XML edition is copyrighted by James E. Walters and released under a under a Creative Commons Attribution 4.0 International Public License (CC BY 4.0). The HTML page is copyrighted by Vanderbilt University and released under a under a Creative Commons Attribution 4.0 International Public License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/). Attribution for reuse should follow the suggested citation and also credit the copyright holder of the TEI XML edition.</note></ab>
-                  </availability>
+                    <ab><note>This electronic edition is designed for open access reuse. The Syriac
+                            base text is in the public domain. The TEI XML edition is copyrighted by
+                            James E. Walters and released under a under a Creative Commons
+                            Attribution 4.0 International Public License (CC BY 4.0). The HTML page
+                            is copyrighted by Vanderbilt University and released under a under a
+                            Creative Commons Attribution 4.0 International Public License (CC-BY
+                            4.0, https://creativecommons.org/licenses/by/4.0/). Attribution for
+                            reuse should follow the suggested citation and also credit the copyright
+                            holder of the TEI XML edition.</note></ab>
+                </availability>
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
-                    <analytic>
-                        <editor>D. Ioannes Parisot</editor>
-                        <title level="a">Aphraatis Demonstrationes I-XXII</title>
-                        <idno type="URI">http://syriaca.org/bibl/2329</idno>
-                    </analytic>
                     <monogr>
-                        <editor>R. Graffin</editor>
-                        <title level="m">Patrologia Syriaca 1.1</title>
+                        <editor><forename>Jean</forename><surname>Parisot</surname></editor>
+                        <title level="m">Aphraatis Sapientis Persae Demonstrationes</title>
+                        <idno type="URI">http://syriaca.org/bibl/2329</idno>
+                        <idno type="zotero">897</idno>
+                        <ref
+                            target="https://archive.org/stream/bub_gb_Sy0vAAAAMAAJ#page/n4/mode/1up"/>
                         <imprint>
                             <pubPlace>Paris</pubPlace>
-                            <publisher>Firmin-Didot et Socii</publisher>
-                            <date when="1894">1894</date>
+                            <publisher>Firmin-Didot</publisher>
+                            <date>1894</date>
                         </imprint>
                     </monogr>
+                    <series><title level="s">Patrologia Syriaca</title><biblScope unit="vol"
+                            >1.1</biblScope></series>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
