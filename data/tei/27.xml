@@ -66,7 +66,9 @@
                     <licence target="http://creativecommons.org/licenses/by/4.0/">
                         <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
                         <p>https://creativecommons.org/licenses/by/4.0/</p>
-                    </licence>
+                    </license>
+                    <ab><note>This electronic edition is designed for open access reuse. The Syriac base text is in the public domain. The TEI XML edition is copyrighted by James E. Walters and released under a under a Creative Commons Attribution 4.0 International Public License (CC BY 4.0). The HTML page is copyrighted by Vanderbilt University and released under a under a Creative Commons Attribution 4.0 International Public License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/). Attribution for reuse should follow the suggested citation and also credit the copyright holder of the TEI XML edition.</note></ab>
+
                 </availability>
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
@@ -104,7 +106,7 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc> 
+        <revisionDesc>
             <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text structure</change>
             <change when="2017-01-11" who="http://syriaca.org/person.xml#jwalters">Added work
                 URIs</change>
@@ -1046,7 +1048,7 @@
                 <l n="890">ܘܒܼܵܗ̇ ܐܸܬܼܢܲܗܲܪܘ ܐܲܪ̈ܥܵܢܵܝܹܐ ܘܲܫܡܲܝܵܢܹ̈ܐ ܀</l>
                 <l n="891">:ܗܵܐ ܢܗ݂ܲܪ ܥܵܠܡܵܐ ܒܢܘܼܗܪܵܐ ܪܲܒܵܐ ܕܫܸܡ ܒܵܪܘܿܝܵܐ</l>
                 <l n="892">ܢܩܵܘܹܐ ܒܢܘܼܗܪܹܗ ܕܠܵܐ ܢܸܫܬܲܢܲܩ ܒܚܸܫܟܵܐ ܕܲܠܒܲܪ ܀</l>
-                </div>   
+                </div>
         </body>
     </text>
 </TEI>
