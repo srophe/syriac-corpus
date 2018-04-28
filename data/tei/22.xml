@@ -76,22 +76,7 @@
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
             <sourceDesc>
-                <biblStruct>
-                    <analytic>
-                        <editor>D. Ioannes Parisot</editor>
-                        <title level="a">Aphraatis Demonstrationes I-XXII</title>
-                        <idno type="URI">http://syriaca.org/bibl/2329</idno>
-                    </analytic>
-                    <monogr>
-                        <editor>R. Graffin</editor>
-                        <title level="m">Patrologia Syriaca 1.1</title>
-                        <imprint>
-                            <pubPlace>Paris</pubPlace>
-                            <publisher>Firmin-Didot et Socii</publisher>
-                            <date when="1894">1894</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
+                <biblStruct><monogr><editor><forename>Jean</forename><surname>Parisot</surname></editor><title level="m">Aphraatis Sapientis Persae Demonstrationes</title><idno type="URI">http://syriaca.org/bibl/2329</idno><idno type="zotero">897</idno><ref target="https://archive.org/stream/bub_gb_Sy0vAAAAMAAJ#page/n4/mode/1up"/><imprint><pubPlace>Paris</pubPlace><publisher>Firmin-Didot</publisher><date>1894</date></imprint></monogr><series><title level="s">Patrologia Syriaca</title><biblScope unit="vol">1.1</biblScope></series></biblStruct>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
