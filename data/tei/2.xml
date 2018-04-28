@@ -22,7 +22,7 @@
                 <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L. Schwartz, Texas A&amp;M University</editor>
                 <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">James E. Walters, Rochester College</editor>
                 <respStmt>
-                    <resp>Created by</resp>
+                    <resp>TEI XML encoding by</resp>
                     <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E. Walters</name>
                 </respStmt>
                 <respStmt>
