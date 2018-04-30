@@ -47,8 +47,8 @@
                 </respStmt>
                 <respStmt>
                     <resp>Syriac text transcribed by</resp>
-                    <name type="person"
-                        ><!-- Name of the person who transcribed the Syriac text --></name>
+                    <name type="person" ref="http://syriaca.org/person.xml#wtoma">William
+                        Toma</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -67,7 +67,15 @@
                         <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
                         <p>https://creativecommons.org/licenses/by/4.0/</p>
                     </licence>
-                    <ab><note>This electronic edition is designed for open access reuse. The Syriac base text is in the public domain. The TEI XML edition is copyrighted by James E. Walters and released under a under a Creative Commons Attribution 4.0 International Public License (CC BY 4.0). The HTML page is copyrighted by Vanderbilt University and released under a under a Creative Commons Attribution 4.0 International Public License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/). Attribution for reuse should follow the suggested citation and also credit the copyright holder of the TEI XML edition.</note></ab>
+                    <ab><note>This electronic edition is designed for open access reuse. The Syriac
+                            base text is in the public domain. The TEI XML edition is copyrighted by
+                            James E. Walters and released under a under a Creative Commons
+                            Attribution 4.0 International Public License (CC BY 4.0). The HTML page
+                            is copyrighted by Vanderbilt University and released under a under a
+                            Creative Commons Attribution 4.0 International Public License (CC-BY
+                            4.0, https://creativecommons.org/licenses/by/4.0/). Attribution for
+                            reuse should follow the suggested citation and also credit the copyright
+                            holder of the TEI XML edition.</note></ab>
 
                 </availability>
                 <date calendar="Gregorian"
@@ -75,20 +83,21 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
-                    <analytic>
-                        <editor>D. Alphonsi Mingana</editor>
-                        <idno type="URI">http://syriaca.org/bibl/1765</idno>
-                    </analytic>
                     <monogr>
-                        <title level="a">Narsai Doctoris Syri Homiliae et Carmina</title>
+                        <editor>
+                            <forename>Alphonse</forename>
+                            <surname>Mingana</surname>
+                        </editor>
+                        <title level="m">Narsai doctoris Syri homiliæ et carmina</title>
+                        <idno type="URI">http://syriaca.org/bibl/1765</idno>
+                        <idno type="zotero">301</idno>
+                        <idno type="URI">http://zotero.org/groups/392292/items/6UFVJ9EG</idno>
+                        <idno type="URI">http://www.worldcat.org/oclc/68740316</idno>
                         <imprint>
-                            <pubPlace>Mosul</pubPlace>
-                            <publisher>Typis Fratrum Praedicatorum</publisher>
-                            <date when="1905">1905</date>
+                            <pubPlace>Mausilii</pubPlace>
+                            <publisher>Typis Fratrum Prædicatorum</publisher>
+                            <date>1905</date>
                         </imprint>
-                        <extent>2 Volumes</extent>
-                        <biblScope type="vol">1</biblScope>
-                        <biblScope type="pp">68-89</biblScope>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
