@@ -48,8 +48,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Syriac text transcribed by</resp>
-                    <name type="person"
-                        ><!-- Name of the person who transcribed the Syriac text --></name>
+<name type="person" ref="http://syriaca.org/person.xml#wtoma">William Toma</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -76,21 +75,22 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
-                    <analytic>
-                        <editor>D. Alphonsi Mingana</editor>
-                        <idno type="URI">http://syriaca.org/bibl/1765</idno>
-                    </analytic>
                     <monogr>
-                        <title level="a">Narsai Doctoris Syri Homiliae et Carmina</title>
-                        <imprint>
-                            <pubPlace>Mosul</pubPlace>
-                            <publisher>Typis Fratrum Praedicatorum</publisher>
-                            <date when="1905">1905</date>
-                        </imprint>
-                        <extent>2 Volumes</extent>
-                        <biblScope type="vol">1</biblScope>
-                        <biblScope type="pp">341-356</biblScope>
-                    </monogr>
+<editor>
+<forename>Alphonse</forename>
+<surname>Mingana</surname>
+</editor>
+<title level="m">Narsai doctoris Syri homiliæ et carmina</title>
+<idno type="URI">http://syriaca.org/bibl/1765</idno>
+<idno type="zotero">301</idno>
+<idno type="URI">http://zotero.org/groups/392292/items/6UFVJ9EG</idno>
+<idno type="URI">http://www.worldcat.org/oclc/68740316</idno>
+<imprint>
+<pubPlace>Mausilii</pubPlace>
+<publisher>Typis Fratrum Prædicatorum</publisher>
+<date>1905</date>
+</imprint>
+</monogr> 
                 </biblStruct>
             </sourceDesc>
         </fileDesc>

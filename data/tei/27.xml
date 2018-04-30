@@ -48,7 +48,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>Syriac text transcribed by</resp>
-                    <name type="person"><!-- Name of the person who transcribed the Syriac text --></name>
+                    <name type="person" ref="http://syriaca.org/person.xml#wtoma">William Toma</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
