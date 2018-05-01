@@ -54,6 +54,10 @@
             </titleStmt>
             <editionStmt>
                 <edition n="0.1"/>
+                <respStmt>
+                    <resp>based upon</resp>
+                    <name><ptr target="#sourceDesc1"/></name>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <distributor>
@@ -82,7 +86,7 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc xml:id="sourcDesc1">
                 <biblStruct>
                     <monogr>
                         <editor><forename>Jean</forename><surname>Parisot</surname></editor>
@@ -116,7 +120,7 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="uncorrectedTranscription">
             <change when="2017-07-04" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>
             <change when="2017-01-11" who="http://syriaca.org/person.xml#jwalters">Added work
@@ -125,7 +129,7 @@
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="printTranscription">
         <body>
             <div type="title" n="0">
                 <ab xml:lang="syr">ܬܚܘܝܬܐ ܕܚܘܒܐ</ab>
