@@ -103,7 +103,8 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UncorrectedTranscription">
+             <change when="2018-05-01" who="http://syriaca.org/person.xml#jwalters">Edited source information, status, and type of text</change>
             <change when="2017-07-04" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>
             <change when="2017-01-11" who="http://syriaca.org/person.xml#jwalters">Added work
