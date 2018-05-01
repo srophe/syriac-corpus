@@ -50,12 +50,15 @@
                 </respStmt>
                 <respStmt>
                     <resp>Syriac text transcribed by</resp>
-                    <name type="person"
-                        ><!-- Name of the person who transcribed the Syriac text --></name>
+                     <name type="person" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition n="0.1"/>
+                <respStmt>
+                    <resp>based upon</resp>
+                    <name><ptr target="#sourceDesc1"/></name>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <distributor>
@@ -76,19 +79,22 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc xml:id="sourceDesc1">
                 <biblStruct>
-                    <analytic>
-                        <editor>British and Foreign Bible Society</editor>
-                        <idno type="URI">http://syriaca.org/bibl/2491</idno>
-                    </analytic>
                     <monogr>
-                        <title level="a">Syriac New Testament - <foreign xml:lang="syr">ܕܝܬܝܩܐ ܚܕܬܐ
-                                ܕܡܪܢ ܝܫܘܥ ܡܫܝܚܐ</foreign></title>
+                        <editor><forename>G. H.</forename><surname>Gwilliam</surname></editor>
+                        <editor><forename>J.</forename><surname>Pinkerton</surname></editor>
+                        <editor><forename>John</forename><surname>Gwynn</surname></editor>
+                        <title level="m">The New Testament in Syriac [<foreign xml:lang="syr">ܕܝܬܝܩܐ ܚܕܬܐ ܕܡܪܢ ܝܫܘܥ
+                            ܡܫܝܚܐ</foreign>]</title>
+                        <idno type="URI">http://syriaca.org/bibl/2491</idno>
+                        <idno type="zotero">1049</idno>
+                        <idno type="URI">http://zotero.org/groups/392292/items/N4KFR4M9</idno>
+                        <ref target="https://archive.org/details/newtestamentinsy00lond"/>
                         <imprint>
                             <pubPlace>London</pubPlace>
-                            <publisher>United Bible Societies</publisher>
-                            <date when="1905">1905</date>
+                            <publisher>British and Foreign Bible Society</publisher>
+                            <date>1905</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -108,14 +114,15 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UncorrectedTranscription">
+<change when="2018-05-01" who="http://syriaca.org/person.xml#jwalters">Edited source information, status, and type of text</change>
             <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>
             <change when="2017-04-25" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="PrintTranscription">
         <body>
 
             <div type="title" n="0">

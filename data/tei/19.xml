@@ -79,7 +79,7 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc xml:id="sourcDesc1">
+            <sourceDesc xml:id="sourceDesc1">
                 <biblStruct><monogr><editor><forename>Jean</forename><surname>Parisot</surname></editor><title level="m">Aphraatis Sapientis Persae Demonstrationes</title><idno type="URI">http://syriaca.org/bibl/2329</idno><idno type="zotero">897</idno><ref target="https://archive.org/stream/bub_gb_Sy0vAAAAMAAJ#page/n4/mode/1up"/><imprint><pubPlace>Paris</pubPlace><publisher>Firmin-Didot</publisher><date>1894</date></imprint></monogr><series><title level="s">Patrologia Syriaca</title><biblScope unit="vol">1.1</biblScope></series></biblStruct>
             </sourceDesc>
         </fileDesc>

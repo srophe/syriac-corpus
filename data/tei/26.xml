@@ -73,7 +73,7 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc xml:id="sourcDesc1">
+            <sourceDesc xml:id="sourceDesc1">
                 <msDesc>
                     <msIdentifier>
                         <settlement>Vatican City</settlement>
