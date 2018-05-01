@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8823">On the Consecration of the Church and on Moses the Prophet  - <foreign>ܥܲܠ ܩܘܼܕܵܫ ܥܹܕܬܵܐ ܘܥܲܠ ܡܘܼܫܹܐ ܢܒ̣ܝܼܵܐ</foreign></title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8823">On the Consecration of the Church and on Moses the Prophet  - <foreign xml:lang="syr">ܥܲܠ ܩܘܼܕܵܫ ܥܹܕܬܵܐ ܘܥܲܠ ܡܘܼܫܹܐ ܢܒ̣ܝܼܵܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8820">The Memre of Jacob of Serugh</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/42">Jacob of Serugh</author>

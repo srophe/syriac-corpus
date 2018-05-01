@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="en" level="a" ref="http://syriaca.org/work/8535">On John the
-                    Baptist (Memra 7) - <foreign>ܥܲܠ ܡܵܪܝ ܝܘܿܚܲܢܵܢ ܡܲܥܡܕܵܢ̇ܐ</foreign></title>
+                    Baptist (Memra 7) - <foreign xml:lang="syr">ܥܲܠ ܡܵܪܝ ܝܘܿܚܲܢܵܢ ܡܲܥܡܕܵܢ̇ܐ</foreign></title>
                 <!-- Insert titles and add work # -->
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8528">The Homilies of
                     Mar Narsai</title>
