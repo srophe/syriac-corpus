@@ -50,8 +50,8 @@
             <editionStmt>
                 <edition n="0.1"/>
                 <respStmt>
-                    <resp>transcription from</resp>
-                    <name><ptr target="sourceDesc"/></name>
+                    <resp>based upon</resp>
+                    <name><ptr target="#sourceDesc1"/></name>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -73,7 +73,7 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc xml:id="sourcDesc1">
                 <msDesc>
                     <msIdentifier>
                         <settlement>Vatican City</settlement>
@@ -112,7 +112,7 @@
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="ManuscriptTranscription">
         <body>
             <div type="title">
                 <ab xml:lang="syr">ܡܺܐܡܪܳܐ ܩܰܕܡܳܝܳܐ ܕܥܰܠ ܝܰܘܣܶܦ </ab>
