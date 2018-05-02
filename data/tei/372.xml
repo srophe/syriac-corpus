@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="en" level="a" ref="http://syriaca.org/work/8853">Exhortation of the
-                    Apostle Peter [Edition: Walters] - <foreign xml:lang="syr">ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ
+                    Apostle Peter - <foreign xml:lang="syr">ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ
                         ܫܠܝܚܐ ܕܥܠ ܡܪܬܝܢܘܬܐ.</foreign></title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author>Anonymous</author>
@@ -34,11 +34,6 @@
                     <resp>TEI XML encoding by</resp>
                     <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
                         Walters</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Based on the work of</resp>
-                    <name type="person"
-                        ><!--Insert name of the person who edits this document --></name>
                 </respStmt>
                 <respStmt>
                     <resp>Edited by</resp>
@@ -109,7 +104,7 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="Proofed Digital Edition">
             <change when="2018-04-25" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
@@ -140,7 +135,7 @@
                         target="http://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN79128011X&amp;PHYSID=PHYS_0007"
                         >here</ref>. This text has never been edited in any prior edition.</p>
                 <p xml:lang="en">There is a forthcoming English translation of this text, along with
-                    a detailed introduction in <hi rend="ital">New Testament Apocrypha: More
+                    a detailed introduction in <hi rend="it">New Testament Apocrypha: More
                         Noncanonical Scriptures, Vol. 2</hi>, ed. by Tony Burke and Brent Landau
                     (Grand Rapids, MI: Eerdmans, forthcoming).</p>
             </div>
