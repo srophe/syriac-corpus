@@ -5,7 +5,7 @@
             <titleStmt>
                 <title xml:lang="en" level="a" ref="http://syriaca.org/work/8853">Exhortation of the
                     Apostle Peter - <foreign xml:lang="syr">ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ
-                        ܫܠܝܚܐ ܕܥܠ ܡܪܬܝܢܘܬܐ.</foreign></title>
+                        ܫܠܝܚܐ ܕܥܠ ܡܪܬܝܢܘܬܐ</foreign></title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author>Anonymous</author>
                 <sponsor>University of Oxford</sponsor>
@@ -104,7 +104,7 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc status="Proofed Digital Edition">
+        <revisionDesc status="ProofedDigitalEdition">
             <change when="2018-04-25" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
