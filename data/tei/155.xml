@@ -7,7 +7,7 @@
                     Ode 12</title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8620">The Odes of
                     Solomon</title>
-                <title level="s">The Oxford-BYU Syriac Corpus</title>
+                <title level="s">Digital Syriac Corpus</title>
                 <author>Anonymous</author>
                 <sponsor>University of Oxford</sponsor>
                 <sponsor>Brigham Young University</sponsor>
@@ -58,7 +58,7 @@
                     <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
                         Nashville, Tennessee, USA</placeName>
                 </distributor>
-                <authority>The Oxford-BYU Syriac Corpus</authority>
+                <authority>Digital Syriac Corpus</authority>
                 <idno type="URI">https://syriaccorpus.org/155</idno>
                 <availability>
                     <p/>
@@ -91,11 +91,8 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <p>The Oxford-BYU Syriac Corpus is a joint project of the University of Oxford and
-                    Brigham Young University in collaboration with Vanderbilt University and the
-                    Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
-                    University.</p>
-                <!-- Look at editorialDecl desription in P5 for labels (https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-editorialDecl.html) and use as necessary to describe the corpus/text in question -->
+                <p>Digital Syriac Corpus is collaboration of University of Oxford, Brigham Young University, Vanderbilt University, and the Center of Digital Humanities Research (CoDHR) at Texas A&amp;M University. </p>
+                
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
