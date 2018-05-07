@@ -111,7 +111,7 @@
             <div type="title">
                 <bibl>
                     <title>Exhortation of the Apostle Peter - <foreign
-                            xml:lang="syr">ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ ܫܠܝܚܐ ܕܥܠ ܡܪܬܝܢܘܬܐ.</foreign></title>
+                            xml:lang="syr">ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ ܫܠܝܚܐ ܕܥܠ ܡܪܬܝܢܘܬܐ</foreign></title>
                     <editor><name type="person" ref="http://syriaca.org/person.xml#jwalters">James
                             E. Walters</name></editor>
                     <idno type="URI">https://syriaccorpus.org/372</idno>
@@ -120,19 +120,19 @@
             </div>
             <div type="preface">
                 <head>Preface</head>
-                <p xml:lang="en">This text is a born-digital edition of the <hi rend="ital"
+                <p xml:lang="en">This text is a born-digital edition of the <hi rend="italic"
                         >Exhortation of the Apostle Peter</hi>. This edition is based on the only
                     known extant copy of this work, which is found in MS Sachau 165 (Berlin 201;
                     fol. 9v-12v) in the Staatsbibliothek zu Berlin, which Sachau dated to the 14th
                         century.<note place="foot" xml:id="ftn1" n="1"><p xml:lang="en" rend="footnote text"
-                            >Eduard Sachau, <hi rend="ital">Verzeichniss der syrischen Handschriften
+                            >Eduard Sachau, <hi rend="italic">Verzeichniss der syrischen Handschriften
                                 der Königlichen Bibliothek zu Berlin</hi> (Berlin, Asher &amp; Co.,
                             1899), 667</p></note> The manuscript has been digitized, and it can be
                     viewed <ref
                         target="http://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN79128011X&amp;PHYSID=PHYS_0007"
                         >here</ref>. This text has never been edited in any prior edition.</p>
                 <p xml:lang="en">There is a forthcoming English translation of this text, along with
-                    a detailed introduction in <hi rend="it">New Testament Apocrypha: More
+                    a detailed introduction in <hi rend="italic">New Testament Apocrypha: More
                         Noncanonical Scriptures, Vol. 2</hi>, ed. by Tony Burke and Brent Landau
                     (Grand Rapids, MI: Eerdmans, forthcoming).</p>
             </div>
@@ -140,7 +140,7 @@
         <body>
             <div type="rubric">
                 <pb n="f.9v"/>
-                <p xml:lang="syr"> ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ ܫܠܝܚܐ ܕܥܠ ܡܪܬܝܢܘܬܐ. </p>
+                <p xml:lang="syr">ܡܡܠܠܐ ܕܛܘܒܢܐ ܦܬܪܘܣ ܫܠܝܚܐ ܕܥܠ ܡܪܬܝܢܘܬܐ</p>
             </div>
             <div type="section" n="1">
                 <head type="editorial" xml:lang="en">Chapter 1</head>
