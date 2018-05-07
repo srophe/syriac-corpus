@@ -6,7 +6,7 @@
                 <title xml:lang="en" level="a" ref="http://syriaca.org/work/8677">Memra Fifteen: On Adam's Marital Desire - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܚܰܡܶܫܬܰܥܣܰܪ ܕܥܰܠ ܡܰܪܕܺܝܬܳܐ ܕܙܽܘܘܳܓܳܐ ܕܰܗܘܳܬ ܒܳܐܕܳܡ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8693">The Book of Steps</title>
                 <title level="s">Digital Syriac Corpus</title>
-                <author style="anonymous">Anonymous</author>
+                <author role="anonymous">Anonymous</author>
                 <sponsor>University of Oxford</sponsor>
                 <sponsor>Brigham Young University</sponsor>
                 <sponsor>Vanderbilt University</sponsor>
