@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8856" n="1">Discourse 1: Prologue</title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8856" n="1">Discourse 1: Prologue - <foreign xml:lang="syr">ܡܺܐܡܪܐ ܩܰܕܡܳܝܐ ܥܶܠܬܐ ܕܟܽܠܳܗ̇ ܦܶܢܩܺܝܬܐ ܗܳܕܶܐ ܒܛܰܝܒܽܘܬܐ  ܕܡܳܪܰܢ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8855">The Discourses of Philoxenos</title>
                 <title level="s">The Oxford-BYU Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/44">Philoxenos of Mabbug</author>
@@ -110,12 +110,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc status="UncorrectedTranscription">
-            <change when="2017-07-04" who="http://syriaca.org/person.xml#jwalters">Edited text
-                structure</change>
-            <change when="2017-01-11" who="http://syriaca.org/person.xml#jwalters">Added work
-                URIs</change>
-            <change when="2016-11-30" who="http://syriaca.org/person.xml#jwalters">Created:
-                file</change>
+            <change when="2018-05-06" who="http://syriaca.org/person.xml#jwalters">Created: file</change>
         </revisionDesc>
     </teiHeader>
     <text type="PrintTranscription">
