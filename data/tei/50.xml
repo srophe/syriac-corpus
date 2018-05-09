@@ -3,8 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8552">On Lent IV (Memra
-                    24) - <foreign xml:lang="syr">ܕܚܲܕܼܒܿܫܲܒܵܐ ܕܐܲܪܒܿܥܵܐ ܕܨܵܘܡܵܐ</foreign></title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8552">On Lent IV - <foreign xml:lang="syr">ܕܚܲܕܼܒܿܫܲܒܵܐ ܕܐܲܪܒܿܥܵܐ ܕܨܵܘܡܵܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8528">The Homilies of
                     Mar Narsai</title>
                 <title level="s">Digital Syriac Corpus</title>
@@ -104,7 +103,7 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UncorrectedTranscription"> 
             <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>
 
@@ -112,7 +111,7 @@
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="PrintTranscription">
         <body>
             <div type="title" n="0">
                 <ab xml:lang="syr">ܕܚܲܕܼܒܿܫܲܒܵܐ ܕܐܲܪܒܿܥܵܐ ܕܨܵܘܡܵܐ</ab>

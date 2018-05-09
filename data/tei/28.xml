@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="en" level="a" ref="http://syriaca.org/work/8530">On the
-                    Divine Revelations to the Patriarchs and the Prophets (Memra 2) - <foreign xml:lang="syr">ܥܠ ܓܠܝ̈ܢܐ ܐܠܗ̈ܝܐ ܕܗܘܘ ܠܘܬ ܐܒܗ̈ܬܐ ܘܢܒ̈ܝܐ</foreign></title>
+                    Divine Revelations to the Patriarchs and the Prophets - <foreign xml:lang="syr">ܥܠ ܓܠܝ̈ܢܐ ܐܠܗ̈ܝܐ ܕܗܘܘ ܠܘܬ ܐܒܗ̈ܬܐ ܘܢܒ̈ܝܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8528">The Homilies of
                     Mar Narsai</title>
                 <title level="s">Digital Syriac Corpus</title>
@@ -104,7 +104,7 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UncorrectedTranscription"> 
 <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text structure</change>
 
             <change when="2017-01-11" who="http://syriaca.org/person.xml#jwalters">Added work
@@ -113,7 +113,7 @@
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="PrintTranscription">
         <body>
                 <div type="title" n="0"> 
                     <ab xml:lang="syr">ܥܠ ܓܠܝ̈ܢܐ ܐܠܗ̈ܝܐ ܕܗܘܘ ܠܘܬ ܐܒܗ̈ܬܐ ܘܢܒ̈ܝܐ</ab>

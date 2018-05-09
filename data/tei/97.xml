@@ -3,8 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8599">On Joseph (Memra
-                    70) - <foreign xml:lang="syr">ܥܲܠ ܝܵܘܣܸܦ ܟܲܕܼ ܙܲܒܿܢܘܼܗܝ
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8599">On Joseph - <foreign xml:lang="syr">ܥܲܠ ܝܵܘܣܸܦ ܟܲܕܼ ܙܲܒܿܢܘܼܗܝ
                     ܐܲܚܵܘ̈ܗܝ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8528">The Homilies of
                     Mar Narsai</title>
@@ -105,7 +104,7 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UncorrectedTranscription"> 
             <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>
 
@@ -113,7 +112,7 @@
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="PrintTranscription">
         <body>
             <div type="title" n="0">
                 <ab xml:lang="syr">ܥܲܠ ܝܵܘܣܸܦ ܟܲܕܼ ܙܲܒܿܢܘܼܗܝ ܐܲܚܵܘ̈ܗܝ</ab>

@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="en" level="a" ref="http://syriaca.org/work/8533">On the Virgin Mary
-                    (Memra 5) - <foreign xml:lang="syr">ܥܲܠ ܡܵܪܬܿܝ ܡܲܪܝܲܡ</foreign></title>
+                    - <foreign xml:lang="syr">ܥܲܠ ܡܵܪܬܿܝ ܡܲܪܝܲܡ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8528">The Homilies of
                     Mar Narsai</title>
                 <title level="s">Digital Syriac Corpus</title>
@@ -52,6 +52,10 @@
             </titleStmt>
             <editionStmt>
                 <edition n="0.1"/>
+<respStmt>
+<resp>based upon</resp>
+<name><ptr target="#sourceDesc1"/></name>
+</respStmt>
             </editionStmt>
             <publicationStmt>
                 <distributor>
@@ -72,14 +76,14 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc xml:id="sourceDesc1">
                 <msDesc>
                     <msIdentifier>
                         <settlement>London</settlement>
                         <repository>British Library</repository>
                         <idno type="shelfmark">Oriental 5463</idno>
-                        <altIdentifier>
-                            <idno>BL Or. 5463</idno>
+                        <altIdentifier type="preferred">
+<idno>BL Or. 5463</idno>
                         </altIdentifier>
                         <altIdentifier>
                             <idno type="URI">http://syriaca.org/manuscript/2289</idno>
@@ -99,7 +103,7 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UncorrectedTranscription"> 
             <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>
             <change when="2017-01-11" who="http://syriaca.org/person.xml#jwalters">Added work
@@ -108,7 +112,7 @@
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="ManuscriptTranscription">
         <body>
             <div type="title">
                 <ab xml:lang="syr">ܥܲܠ ܡܵܪܬܿܝ ܡܲܪܝܲܡ</ab>
