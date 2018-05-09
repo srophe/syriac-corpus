@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8672">Memra Ten - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܥܶܣܪܳܐ</foreign></title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8672" n="10">Memra 10 - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܥܶܣܪܳܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8693">The Book of Steps</title>
                 <title level="s">Digital Syriac Corpus</title>
                 <author role="anonymous">Anonymous</author>

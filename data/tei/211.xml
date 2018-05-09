@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8686">Memra Twenty-four: On Repentance - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܥܶܣܪܺܝܢ ܘܰܐܪܒܥܳܐ ܕܥܰܠ ܬܝܳܒܽܘܬܳܐ</foreign></title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8686" n="24">Memra 24: On Repentance - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܥܶܣܪܺܝܢ ܘܰܐܪܒܥܳܐ ܕܥܰܠ ܬܝܳܒܽܘܬܳܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8693">The Book of Steps</title>
                 <title level="s">Digital Syriac Corpus</title>
                 <author role="anonymous">Anonymous</author>

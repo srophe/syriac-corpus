@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8666">Memra Four: On the Vegetables for the Sick - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܰܐܪܒܥܳܐ ܕܥܰܠ ܝܰܪܩܳܐ ܕܰܟܪ̈ܺܝܗܶܐ</foreign></title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8666" n="4">Memra 4: On the Vegetables for the Sick - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܰܐܪܒܥܳܐ ܕܥܰܠ ܝܰܪܩܳܐ ܕܰܟܪ̈ܺܝܗܶܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8693">The Book of Steps</title>
                 <title level="s">Digital Syriac Corpus</title>
                 <author role="anonymous">Anonymous</author>
