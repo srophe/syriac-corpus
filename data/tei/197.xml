@@ -50,6 +50,10 @@
             </titleStmt>
             <editionStmt>
                 <edition n="0.1"/>
+                <respStmt>
+                      <resp>based upon</resp>
+                      <name><ptr target="#sourceDesc1"/></name>
+                  </respStmt>
             </editionStmt>
             <publicationStmt>
                 <distributor>
@@ -71,24 +75,23 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc xml:id="sourceDesc1">
                 <biblStruct>
-                    <analytic>
-                        <editor>Robert A. Kitchen</editor>
-                    </analytic>
                     <monogr>
-                        <title level="a">The Syriac Book of Steps 1</title>
+                        <editor><forename>Robert</forename><surname>Kitchen</surname></editor>
+                        <title level="m">The Syriac Book of Steps</title>
+                        <idno type="URI">http://syriaca.org/bibl/2538</idno>
+                        <idno type="zotero">1044</idno>
+                        <idno type="URI">http://zotero.org/groups/392292/items/36PCGTA7</idno>
                         <imprint>
                             <pubPlace>Piscataway, NJ</pubPlace>
                             <publisher>Gorgias Press</publisher>
-                            <date when="2009">2009</date>
+                            <date>2009</date>
                         </imprint>
-                        <biblScope unit="page">204-221</biblScope>
+                        <biblScope unit="vol">1</biblScope>
                     </monogr>
-                    <series>
-                        <title level="s">Texts from Christian Late Antiquity</title>
-                        <biblScope type="vol">12a</biblScope>
-                    </series>
+                    <series><title level="s">Texts from Christian Late Antiquity</title><biblScope
+                        unit="vol">12</biblScope></series>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
@@ -103,12 +106,12 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UncorrectedTranscription">
             <change when="2017-05-31" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="PrintTranscription">
         <body>
             
                 
