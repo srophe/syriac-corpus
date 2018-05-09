@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8681">Memra Nineteen: On
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8681" n="19">Memra 19: On
                     the Discernment of the Way of Perfection - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ
                         ܕܰܬܫܰܥܣܰܪ ܕܥܰܠ ܦܽܘܪܫܳܢܳܐ ܕܽܐܘܪܚܳܐ ܕܰܓܡܺܝܪܽܘܬܳܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8693">The Book of
@@ -78,7 +78,6 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc>
                 <sourceDesc xml:id="sourceDesc1">
                     <biblStruct>
                         <monogr>
@@ -98,8 +97,7 @@
                         <series><title level="s">Texts from Christian Late Antiquity</title><biblScope
                             unit="vol">12b</biblScope></series>
                     </biblStruct>
-                </sourceDesc>
-            </sourceDesc>
+                </sourceDesc>            
         </fileDesc>
         <encodingDesc>
             <editorialDecl>

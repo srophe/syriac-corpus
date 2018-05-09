@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8683">Memra Twenty-one:
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8683" n="21">Memra 21:
                     On the Tree of Adam - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܥܶܣܪ̈ܺܝܢ ܘܚܰܕ ܕܥܰܠ
                         ܐܺܝܠܳܢܳܐ ܕܳܐܕܳܡ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8693">The Book of

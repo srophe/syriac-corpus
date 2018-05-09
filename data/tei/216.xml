@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8691">Memra Twenty-nine: On the Discipline of the Body - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܥܶܣܪܺܝܢ ܘܬܶܫܥܳܐ ܕܥܰܠ ܟܽܘܒܳܫ ܦܰܓܪܳܐ</foreign></title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8691" n="29">Memra 29: On the Discipline of the Body - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܥܶܣܪܺܝܢ ܘܬܶܫܥܳܐ ܕܥܰܠ ܟܽܘܒܳܫ ܦܰܓܪܳܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8693">The Book of Steps</title>
                 <title level="s">Digital Syriac Corpus</title>
                 <author role="anonymous">Anonymous</author>

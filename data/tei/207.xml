@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8682">Memra Twenty: On the Difficult Steps that are on the Road of the City of Our Lord - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܥܶܣܪ̈ܺܝܢ ܡܰܣ̈ܩܳܬܳܐ ܩܰܫܝ̈ܳܬܳܐ ܕܺܐܝܬ ܒܽܐܘܪܚܳܐ ܕܰܡܕܺܝܢ̱ܬܶܗ ܕܡܳܪܰܢ</foreign></title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8682" n="20">Memra 20: On the Difficult Steps that are on the Road of the City of Our Lord - <foreign xml:lang="syr">ܡܺܐܡܪܳܐ ܕܥܶܣܪ̈ܺܝܢ ܡܰܣ̈ܩܳܬܳܐ ܩܰܫܝ̈ܳܬܳܐ ܕܺܐܝܬ ܒܽܐܘܪܚܳܐ ܕܰܡܕܺܝܢ̱ܬܶܗ ܕܡܳܪܰܢ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8693">The Book of Steps</title>
                 <title level="s">Digital Syriac Corpus</title>
                 <author role="anonymous">Anonymous</author>
