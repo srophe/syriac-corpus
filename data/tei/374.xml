@@ -3,7 +3,7 @@
     <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
         <fileDesc>
             <titleStmt>
-                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8856" n="1">Discourse 1: Prologue - <foreign xml:lang="syr">ܡܺܐܡܪܐ ܩܰܕܡܳܝܐ ܥܶܠܬܐ ܕܟܽܠܳܗ̇ ܦܶܢܩܺܝܬܐ ܗܳܕܶܐ ܒܛܰܝܒܽܘܬܐ  ܕܡܳܪܰܢ</foreign></title>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8856" n="1">Discourse 1: Prologue - <foreign xml:lang="syr">ܡܐܡܪܐ ܩܕܡܝܐ ܕܥܠ ܥܠܬܗ̇ ܕܦܢܩܝܬܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8855">The Discourses of Philoxenos</title>
                 <title level="s">Digital Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/44">Philoxenos of Mabbug</author>
@@ -98,7 +98,7 @@
         <encodingDesc>
             <editorialDecl>
                 <p>Digital Syriac Corpus is collaboration of University of Oxford, Brigham Young University, Vanderbilt University, and the Center of Digital Humanities Research (CoDHR) at Texas A&amp;M University. </p>
-                
+
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
