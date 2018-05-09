@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="en" level="a" ref="http://syriaca.org/work/8544">On Human Nature
-                    (Memra 16) - <foreign xml:lang="syr">ܥܠ ܟܝܢܐ ܐܢܫܝܐ</foreign></title>
+                    - <foreign xml:lang="syr">ܥܠ ܟܝܢܐ ܐܢܫܝܐ</foreign></title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/8528">The Homilies of
                     Mar Narsai</title>
                 <title level="s">Digital Syriac Corpus</title>
@@ -104,7 +104,7 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UncorrectedTranscription"> 
             <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>
 
@@ -112,7 +112,7 @@
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="PrintTranscription">
         <body>
             <div type="title" n="0">
                 <ab xml:lang="syr">ܥܠ ܟܝܢܐ ܐܢܫܝܐ</ab>
