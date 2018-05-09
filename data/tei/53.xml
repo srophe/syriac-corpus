@@ -53,6 +53,10 @@
             </titleStmt>
             <editionStmt>
                 <edition n="0.1"/>
+                     <respStmt>
+                     <resp>based upon</resp>
+                     <name><ptr target="#sourceDesc1"/></name>
+                 </respStmt>
             </editionStmt>
             <publicationStmt>
                 <distributor>
