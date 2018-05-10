@@ -50,6 +50,10 @@
             </titleStmt>
             <editionStmt>
                 <edition n="0.1"/>
+                <respStmt>
+                    <resp>based upon</resp>
+                    <name><ptr target="#sourceDesc1"/></name>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <distributor>
@@ -65,25 +69,33 @@
                             4.0</p>
                         <p xml:lang="syr">https://creativecommons.org/licenses/by/4.0/</p>
                     </licence>
-                    <ab><note>This electronic edition is designed for open access reuse. The Syriac base text is in the public domain. The TEI XML edition is copyrighted by James E. Walters and is released under a Creative Commons Attribution 4.0 International Public License (CC BY 4.0).</note></ab><ab><note>The HTML page is copyrighted by Vanderbilt University and released under a under a Creative Commons Attribution 4.0 International Public License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/). Attribution for reuse should follow the suggested citation and also credit the copyright holder of the TEI XML edition.</note></ab>
+                    <ab><note>This electronic edition is designed for open access reuse. The Syriac
+                            base text is in the public domain. The TEI XML edition is copyrighted by
+                            James E. Walters and is released under a Creative Commons Attribution
+                            4.0 International Public License (CC BY 4.0).</note></ab>
+                    <ab><note>The HTML page is copyrighted by Vanderbilt University and released
+                            under a under a Creative Commons Attribution 4.0 International Public
+                            License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+                            Attribution for reuse should follow the suggested citation and also
+                            credit the copyright holder of the TEI XML edition.</note></ab>
 
                 </availability>
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc xml:id="sourceDesc1">
                 <biblStruct>
-                    <analytic>
-                        <editor>Sven Dedering</editor>
-                        <idno type="URI"><!-- Insert syriaca work URI --></idno>
-                    </analytic>
                     <monogr>
+                        <editor><forename>Sven</forename><surname>Dedering</surname></editor>
                         <title level="m">Johannes Von Lykopolis. Ein Dialog Über Die Seele Und Die
                             Affekte Des Menschen</title>
+                        <idno type="URI">http://syriaca.org/bibl/2534</idno>
+                        <idno type="zotero">1096</idno>
+                        <idno type="URI">http://zotero.org/groups/392292/items/PKQ3WX72</idno>
                         <imprint>
                             <pubPlace>Leipzig</pubPlace>
                             <publisher>O. Harrassowitz</publisher>
-                            <date when="1894">1936</date>
+                            <date>1936</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -95,7 +107,7 @@
                     of Oxford and Brigham Young University in collaboration with Vanderbilt
                     University and the Initiative for Digital Humanities, Media, and Culture at
                     Texas A&amp;M University.</p>
-                
+
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
@@ -103,12 +115,12 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UneditedTranscription">
             <change when="2018-03-29" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="PrintTranscription">
         <body>
             <div n="1" type="rubric" xml:lang="syr">
                 <head xml:lang="eng">First Discourse</head>

@@ -52,6 +52,10 @@
             </titleStmt>
             <editionStmt>
                 <edition n="0.1"/>
+                     <respStmt>
+                     <resp>based upon</resp>
+                     <name><ptr target="#sourceDesc1"/></name>
+                 </respStmt>
             </editionStmt>
             <publicationStmt>
                 <distributor>
@@ -72,14 +76,23 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <imprint>
-                            <biblScope/>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
+            <sourceDesc xml:id="sourceDesc1">
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Homs, Syria</settlement>
+                        <repository>Syriac Orthodox Archdiocese of Homs</repository>
+                        <idno type="shelfmark">MS 12</idno>
+                        <altIdentifier type="preferred">
+                            <idno type="HMML">SOAH 00012</idno>
+                        </altIdentifier>
+                        <altIdentifier>
+                            <idno type="URI">http://syriaca.org/manuscript/2296</idno>
+                        </altIdentifier>
+                        <altIdentifier>
+                            <idno type="URI">https://w3id.org/vhmml/readingRoom/view/502623</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -93,12 +106,12 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UneditedTranscription">
             <change when="2017-11-01" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="ManuscriptTranscription">
         <body>
             <div type="title">
                 <ab xml:lang="syr">ܦܘܼܫܩܐ ܕܥܡܘܿܣ ܣܘܼܥܪܢܐܝܼܬ</ab>

@@ -53,6 +53,10 @@
             </titleStmt>
             <editionStmt>
                 <edition n="0.1"/>
+                 <respStmt>
+                     <resp>based upon</resp>
+                     <name><ptr target="#sourceDesc1"/></name>
+                 </respStmt>
             </editionStmt>
             <publicationStmt>
                 <distributor>
@@ -73,23 +77,22 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc xml:id="sourceDesc1">
                 <biblStruct>
-                    <analytic>
-                        <editor>Paul Bedjan</editor>
-                        <title level="a">On the Brazen Serpent that Moses Set up in the Wilderness </title>
-                        <idno type="URI">http://syriaca.org/bibl/1732</idno>
-                    </analytic>
                     <monogr>
+                        <editor><forename>Paul</forename><surname>Bedjan</surname></editor>
                         <title level="m">Homiliae selectae Mar-Jacobi Sarugensis</title>
+                        <idno type="URI">http://syriaca.org/bibl/1732</idno>
+                        <idno type="zotero">214</idno>
+                        <idno type="URI">http://zotero.org/groups/392292/items/DSK3TVKN</idno>
+                        <idno type="callNumber">AER-6471</idno>
+                        <ref target="http://archive.org/details/homiliaeselectae01jaco"/>
                         <imprint>
                             <pubPlace>Paris</pubPlace>
                             <publisher>Harrassowitz</publisher>
-                            <date when="1905">1905</date>
+                            <date>1905</date>
                         </imprint>
-                        <extent>5 Volumes</extent>
-                        <biblScope type="vol">1</biblScope>
-                        <biblScope type="pp">49-67</biblScope>
+                        <biblScope unit="vol">1</biblScope>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
@@ -97,7 +100,7 @@
         <encodingDesc>
             <editorialDecl>
                 <p>Digital Syriac Corpus is collaboration of University of Oxford, Brigham Young University, Vanderbilt University, and the Center of Digital Humanities Research (CoDHR) at Texas A&amp;M University. </p>
-                
+
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
@@ -105,13 +108,13 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UneditedTranscription">
             <change when="2018-03-27" who="http://syriaca.org/person.xml#jwalters">Updated text with notes</change>
             <change when="2018-03-10" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="PrintTranscription">
         <body>
             <div type="title">
                 <ab xml:lang="syr">ܥܲܠ ܚܸܘܝܵܐ ܕܲܢܚܵܫܵܐ ܕܐܲܪܝܼܡ ܡܘܼܫܹܐ ܒܡܲܕܼܒ݁ܪܵܐ</ab>

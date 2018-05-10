@@ -37,10 +37,6 @@
                         Walters</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Based on the work of</resp>
-                    <name type="person">Paul A. de Lagarde</name>
-                </respStmt>
-                <respStmt>
                     <resp>Edited by</resp>
                     <name type="person"
                         ><!--Insert name of the person who edits this document --></name>
@@ -52,6 +48,10 @@
             </titleStmt>
             <editionStmt>
                 <edition n="0.1"/>
+                <respStmt>
+                    <resp>based upon</resp>
+                    <name><ptr target="#sourceDesc1"/></name>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <distributor>
@@ -72,19 +72,19 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc xml:id="sourceDesc1">
                 <biblStruct>
-                    <analytic>
-                        <editor>Paul A. de Lagarde</editor>
-                        <idno type="URI">http://syriaca.org/bibl/1819</idno>
-                    </analytic>
                     <monogr>
-                        <title level="a">Clementis Romani Recognitiones syriace</title>
+                        <author><forename>Paul de</forename><surname>Lagarde</surname></author>
+                        <title level="m">Clementis Romani Recognitiones syriace</title>
+                        <idno type="URI">http://syriaca.org/bibl/1819</idno>
+                        <idno type="zotero">357</idno>
+                        <idno type="URI">http://zotero.org/groups/392292/items/4BCQXH3F</idno>
+                        <idno type="URI">http://www.worldcat.org/oclc/7548736</idno>
                         <imprint>
                             <pubPlace>Lipsiae</pubPlace>
                             <publisher>F.A. Brockhaus</publisher>
-                            <date when="1861">1861</date>
-                            <biblScope type="pp">162-167</biblScope>
+                            <date>1861</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -101,12 +101,12 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UneditedTranscription">
             <change when="2017-07-12" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="PrintTranscription">
         <body>
 
             <div type="title" n="0">
