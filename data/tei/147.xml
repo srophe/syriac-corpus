@@ -52,6 +52,7 @@
             </titleStmt>
             <editionStmt>
                 <edition n="0.1"/>
+                <respStmt>                     <resp>based upon</resp>                     <name><ptr target="#sourceDesc1"/></name>                 </respStmt>
             </editionStmt>
             <publicationStmt>
                 <distributor>
@@ -72,21 +73,21 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc xml:id="sourceDesc1">
                 <biblStruct>
-                    <analytic>
-                        <editor>James H. Charlesworth</editor>
-                        <idno type="URI">http://syriaca.org/bibl/2455</idno>
-                    </analytic>
-                    <monogr>
-                        <title level="a">The Odes of Solomon</title>
-                        <imprint>
-                            <pubPlace>Oxford, United Kingdom</pubPlace>
-                            <publisher>Oxford University Press</publisher>
-                            <date when="1973">1973</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
+                     <monogr>
+                         <editor><forename>James H.</forename><surname>Charlesworth</surname></editor>
+                         <title level="m">The Odes of Solomon: The Syriac Texts</title>
+                         <idno type="URI">http://syriaca.org/bibl/2455</idno>
+                         <idno type="zotero">1041</idno>
+                         <idno type="URI">http://zotero.org/groups/392292/items/2F8KPCSU</idno>
+                         <imprint>
+                             <pubPlace>Oxford</pubPlace>
+                             <publisher>Oxford University Press</publisher>
+                             <date>1973</date>
+                         </imprint>
+                     </monogr>
+                 </biblStruct>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -100,14 +101,14 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UncorrectedTranscription">
             <change when="2017-07-06" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>
             <change when="2016-05-04" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="PrintTranscription">
         <body>
 
 
