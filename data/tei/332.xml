@@ -38,10 +38,6 @@
                         Walters</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Based on the work of</resp>
-                    <name type="person">William Wright</name>
-                </respStmt>
-                <respStmt>
                     <resp>Edited by</resp>
                     <name type="person"
                         ><!--Insert name of the person who edits this document --></name>
@@ -53,6 +49,10 @@
             </titleStmt>
             <editionStmt>
                 <edition n="0.1"/>
+                <respStmt>
+                    <resp>based upon</resp>
+                    <name><ptr target="#sourceDesc1"/></name>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <distributor>
@@ -67,38 +67,43 @@
                         <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
                         <p>https://creativecommons.org/licenses/by/4.0/</p>
                     </licence>
-                    <ab><note>This electronic edition is designed for open access reuse. The Syriac base text is in the public domain. The TEI XML edition is copyrighted by James E. Walters and is released under a Creative Commons Attribution 4.0 International Public License (CC BY 4.0).</note></ab><ab><note>The HTML page is copyrighted by Vanderbilt University and released under a under a Creative Commons Attribution 4.0 International Public License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/). Attribution for reuse should follow the suggested citation and also credit the copyright holder of the TEI XML edition.</note></ab>
+                    <ab><note>This electronic edition is designed for open access reuse. The Syriac
+                            base text is in the public domain. The TEI XML edition is copyrighted by
+                            James E. Walters and is released under a Creative Commons Attribution
+                            4.0 International Public License (CC BY 4.0).</note></ab>
+                    <ab><note>The HTML page is copyrighted by Vanderbilt University and released
+                            under a under a Creative Commons Attribution 4.0 International Public
+                            License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+                            Attribution for reuse should follow the suggested citation and also
+                            credit the copyright holder of the TEI XML edition.</note></ab>
 
                 </availability>
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc xml:id="sourceDesc1">
                 <biblStruct>
-                    <analytic>
-                        <editor>William Wright</editor>
-                        <idno type="URI">http://syriaca.org/bibl/1755</idno>
-                    </analytic>
                     <monogr>
-                        <title level="s">Apocryphal Acts of the Apostles, Vol. 1: The Syriac
-                            Texts</title>
-                        <title level="a">Acts of Judas Thomas</title>
+                        <author><forename>William</forename><surname>Wright</surname></author>
+                        <title level="m">Apocryphal Acts of the Apostles</title>
+                        <idno type="URI">http://syriaca.org/bibl/1755</idno>
+                        <idno type="zotero">208</idno>
+                        <idno type="URI">http://zotero.org/groups/392292/items/WWIUZWJZ</idno>
+                        <ref target="http://archive.org/details/apocryphalactsa00wriggoog"/>
                         <imprint>
-                            <pubPlace>̱London</pubPlace>
                             <publisher>Williams and Norgate</publisher>
-                            <date when="1905">1871</date>
+                            <date>1871</date>
                         </imprint>
-                        <extent>2 Volumes</extent>
-                        <biblScope type="vol">1</biblScope>
-                        <biblScope type="pp">ܩܥܒ-ܫܠܓ</biblScope>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <p>Digital Syriac Corpus is collaboration of University of Oxford, Brigham Young University, Vanderbilt University, and the Center of Digital Humanities Research (CoDHR) at Texas A&amp;M University. </p>
-                
+                <p>Digital Syriac Corpus is collaboration of University of Oxford, Brigham Young
+                    University, Vanderbilt University, and the Center of Digital Humanities Research
+                    (CoDHR) at Texas A&amp;M University. </p>
+
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
@@ -106,15 +111,15 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UneditedTranscription">
             <change when="2018-03-01" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="PrintTranscription">
         <body>
             <div type="title" xml:lang="syr" n="1">
-<head type="editorial">First Act</head>
+                <head type="editorial">First Act</head>
                 <pb ed="http://syriaca.org/bibl/1755" n="172"/>
                 <l>ܬܘܒ ܦܪܟܣܝܣ ܕܝܗܘܕܐ ܬܐܘܡܐ ܫܠܝܚܐ </l>
                 <l>ܟܕ ܙܒܿܢܗ ܠܚܒܢ ܬܓܪܐ ܕܢܚܘܬ ܢܬܠܡܕ</l>
@@ -275,7 +280,7 @@
             </div>
 
             <div type="title" xml:lang="syr" n="2">
-<head type="editorial">Second Act</head>
+                <head type="editorial">Second Act</head>
                 <pb ed="http://syriaca.org/bibl/1755" n="185"/>
                 <l>ܦܪܟܣܝܣ ܕܬܪ̈ܬܝܢ ܟܕ ܥܼܠ ܬܐܘܡܐ ܫܠܝܚܐ ܠܗܢܕܘ</l>
                 <l>ܘܒܢܼܐ ܒܝܪܬܐ ܠܡܿܠܟܐ ܒܫܡܝܐ.</l>
@@ -419,7 +424,7 @@
             </div>
 
             <div type="title" xml:lang="syr" n="3">
-<head type="editorial">Third Act</head>
+                <head type="editorial">Third Act</head>
 
                 <l>ܬܘܒ ܦܪܟܣܝܣ ܕܬܠܬ. ܕܝܗܘܕܐ</l>
                 <l>ܕܥܠ ܚܘܝܐ ܐܘܟܡܐ.</l>
@@ -558,7 +563,7 @@
             </div>
 
             <div type="title" xml:lang="syr" n="4">
-<head type="editorial">Fourth Act</head>
+                <head type="editorial">Fourth Act</head>
 
                 <l>[ܬܘܒ ܦܪܟܣܝܣ ܕܐܪܒܥ.]</l>
                 <l>ܘܟܕ ܥܠ ܕܘܟܬܗ ܒܐܪܘܚܐ ܩܐܿܡ ܗܘܐ ܫܠܚܝܐ : ܘܥܡ ܟܢ̈ܫܐ ܗܿܢܘܢ ܡܿܡܠܠ ܥܠ ܡܿܠܟܘܬܗܕ ܐܠܗܐ : ܘܥ
@@ -608,7 +613,7 @@
             </div>
 
             <div type="title" xml:lang="syr" n="5">
-<head type="editorial">Fifth Act</head>
+                <head type="editorial">Fifth Act</head>
 
                 <l>[ܬܘܒ ܦܪܟܣܝܣ ܕܚܡܫ.]</l>
                 <l>ܘܥܠ ܗܘܐ ܫܠܝܚܐ ܠܡܕܝܢܬܐܼ. ܟܕ ܟܢ̈ܫܐ ܗܿܢܘܢ ܥܡܗ. ܪܢܿܐ ܗܘܐ ܕܢܐܙܠ ܠܒܝܬ ܐܢ̈ܫܘܗܝ. ܕܗܿܘ
@@ -720,7 +725,7 @@
 
 
             <div type="title" xml:lang="syr" n="6">
-<head type="editorial">Sixth Act</head>
+                <head type="editorial">Sixth Act</head>
                 <pb ed="http://syriaca.org/bibl/1755" n="220"/>
                 <l>[ܬܘܒ ܦܪܟܣܝܣ ܕܫܬܐ.]</l>
                 <l>ܐܝܬ ܗܘܐ ܕܝܢ ܬܡܿܢ ܥܠܝܡܐ ܚܕ ܕܣܥܼܝܪܐ ܗܘܬ ܠܗ </l>
@@ -862,7 +867,7 @@
 
 
             <div type="title" xml:lang="syr" n="7">
-<head type="editorial">Seventh Act</head>
+                <head type="editorial">Seventh Act</head>
                 <pb ed="http://syriaca.org/bibl/1755" n="232"/>
                 <l>[ܬܘܒ ܦܪܟܣܝܣ ܕܫܒܥ.]</l>
                 <l> ܘܟܕ ܝܗܘܕܐ ܒܟܠܗܿ ܗܢܕܘ ܡܿܟܪܙ ܗܘܐ. ܪܒ ܚܝܠܐ ܕܡܠܟܐ ܚܕ ܐܬܼܐ ܠܘܬܗܼ ܘܐܡܼܪ ܠܗ. ܒܥܿܐ
@@ -1101,7 +1106,7 @@
             </div>
 
             <div type="title" xml:lang="syr" n="8">
-<head type="editorial">Eighth Act</head>
+                <head type="editorial">Eighth Act</head>
                 <l>[ܬܘܒ ܦܪܟܣܝܣ ܕܬܡܢܐ.]</l>
                 <l>ܘܗܦܼܟ ܗܘܐ ܝܗܘܕܐ ܡܢܗܘܢ. ܘܠܒܝܬܗ ܕܗܿܘ ܪܒ ܚܝܠܐ ܐܙܼܠ ܗܘܐ. ܘܟܢܫܐ ܣܓܝܐܐ ܥܡܗ. ܓܼܕܫ ܕܝܢ
                     ܐܢܬܬܐ ܚܕܐ ܕܩܪܝܒܗ ܕܡܿܠܟܐܼ. ܫܡܗܿ</l>
@@ -1375,7 +1380,7 @@
             </div>
 
             <div type="title" xml:lang="syr" n="9">
-<head type="editorial">Hymn of Judas Thomas</head>
+                <head type="editorial">Hymn of Judas Thomas</head>
                 <l>ܡܕܪܫܐ ܕܝܗܘܕܐ ܬܐܡܐ ܫܠܝܚܐ</l>
                 <l>ܕܒܐܬܪܐ ܕܗ̈ܢܕܘܝܐ</l>
             </div>
@@ -1444,7 +1449,7 @@
 
 
             <div type="title" xml:lang="syr" n="10">
-<head type="editorial">Song of Praise of Thomas the Apostle</head>
+                <head type="editorial">Song of Praise of Thomas the Apostle</head>
                 <l>ܬܘܒ ܬܫܒܘܚܬܐ ܕܬܐܘܡܐ ܫܠܝܚܐ.</l>
             </div>
 

@@ -39,10 +39,6 @@
                         Walters</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Based on the work of</resp>
-                    <name type="person">William Wright</name>
-                </respStmt>
-                <respStmt>
                     <resp>Edited by</resp>
                     <name type="person"
                         ><!--Insert name of the person who edits this document --></name>
@@ -54,6 +50,10 @@
             </titleStmt>
             <editionStmt>
                 <edition n="0.1"/>
+                <respStmt>
+                    <resp>based upon</resp>
+                    <name><ptr target="#sourceDesc1"/></name>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <distributor>
@@ -74,24 +74,19 @@
                 <date calendar="Gregorian"
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
-            <sourceDesc>
+            <sourceDesc xml:id="sourceDesc1">
                 <biblStruct>
-                    <analytic>
-                        <editor>William Wright</editor>
-                        <idno type="URI">http://syriaca.org/bibl/1755</idno>
-                    </analytic>
                     <monogr>
-                        <title level="s">Apocryphal Acts of the Apostles, Vol. 1: The Syriac
-                            Texts</title>
-                        <title level="a">History of Thecla, Disciple of Paul the Apostle</title>
+                        <author><forename>William</forename><surname>Wright</surname></author>
+                        <title level="m">Apocryphal Acts of the Apostles</title>
+                        <idno type="URI">http://syriaca.org/bibl/1755</idno>
+                        <idno type="zotero">208</idno>
+                        <idno type="URI">http://zotero.org/groups/392292/items/WWIUZWJZ</idno>
+                        <ref target="http://archive.org/details/apocryphalactsa00wriggoog"/>
                         <imprint>
-                            <pubPlace>̱London</pubPlace>
                             <publisher>Williams and Norgate</publisher>
-                            <date when="1905">1871</date>
+                            <date>1871</date>
                         </imprint>
-                        <extent>2 Volumes</extent>
-                        <biblScope type="vol">1</biblScope>
-                        <biblScope type="pp">ܩܟܙ-ܩܣܛ</biblScope>
                     </monogr>
                 </biblStruct>
             </sourceDesc>
@@ -107,12 +102,12 @@
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="UneditedTranscription">
             <change when="2018-03-06" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="PrintTranscription">
         <body>
             <div type="title" xml:lang="syr">
                 <pb ed="http://syriaca.org/bibl/1755" n="127"/>
