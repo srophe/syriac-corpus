@@ -62,7 +62,8 @@ return
 };
 
 declare function local:get-file-data($file-name, $contents-url){
-let $url := concat($contents-url,'/',$file-name)         
+let $url := concat($contents-url,'/',$file-name)       
+let $branch := if($git-config//github-branch/text() != '') then concat('/',$git-config//github-branch/text())  else '/master'
 let $raw-url := concat(replace(replace($contents-url,'https://api.github.com/repos/','https://raw.githubusercontent.com/'),'/contents','/master'),$file-name)            
 return 
         http:send-request(<http:request http-version="1.1" href="{xs:anyURI($raw-url)}" method="get">
@@ -197,7 +198,7 @@ declare function local:execute-webhook($post-data){
 if(not(empty($post-data))) then 
     let $payload := util:base64-decode($post-data)
     let $json-data := parse-json($payload)
-    let $branch := if($git-config//github-branch/text() != '') then $git-config//github-branch/text() else 'refs/heads/master'
+    let $branch := if($git-config//github-branch/text() != '') then concat('refs/heads/',$git-config//github-branch/text()) else 'refs/heads/master'
     return
         if($json-data?ref[. = $branch]) then 
              try {
