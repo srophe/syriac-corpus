@@ -77,7 +77,6 @@
                     ><!-- Our date of publication of this XML document--></date>
             </publicationStmt>
             <sourceDesc xml:id="sourceDesc1">
-                <sourceDesc xml:id="sourceDesc1">
                     <msDesc>
                         <msIdentifier>
                             <settlement>Homs, Syria</settlement>
@@ -94,7 +93,6 @@
                             </altIdentifier>
                         </msIdentifier>
                     </msDesc>
-                </sourceDesc>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
