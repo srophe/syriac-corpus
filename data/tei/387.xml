@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8869" n="13">Martyrdom of Jacob and His Sister Mary, a Covenanter - <foreign xml:lang="syr">ܤܵܗܕܘܼܬܼܵܐ ܕܝܥܩܘܒ ܩܲܫܝܼܫܵܐ: ܘܲܕܼܡܲܪܝܲܡ ܚܵܬܹܗܒܲܪܬܼ  ܩܝܵܡܵܐ</foreign></title>
+                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8870">Persian Martyr Acts</title>
+                <title level="s">Digital Syriac Corpus</title>
+                <author>Anonymous</author>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dtaylor">David
+                    G.K. Taylor, University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">James E. Walters,
+                    Rochester College</editor>
+                <respStmt>
+                    <resp>TEI XML encoding by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person"
+                        ><!--Insert name of the person who edits this document --></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#wtoma">William Toma</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+                <respStmt>
+                    <resp>based upon</resp>
+                    <name><ptr target="#sourceDesc1"/></name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
+                </distributor>
+                <authority>Digital Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/387</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="syr">Creative Commons — Attribution 4.0 International — CC BY
+                            4.0</p>
+                        <p xml:lang="syr">https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                    <ab><note>This electronic edition is designed for open access reuse. The Syriac
+                            base text is in the public domain. The TEI XML edition is copyrighted by
+                            James E. Walters and is released under a Creative Commons Attribution
+                            4.0 International Public License (CC BY 4.0).</note></ab>
+                    <ab><note>The HTML page is copyrighted by Vanderbilt University and released
+                            under a under a Creative Commons Attribution 4.0 International Public
+                            License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+                            Attribution for reuse should follow the suggested citation and also
+                            credit the copyright holder of the TEI XML edition.</note></ab>
+                </availability>
+                <date calendar="Gregorian"
+                    ><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc xml:id="sourceDesc1">
+                <biblStruct>
+                    <monogr>
+                        <editor>
+                            <forename>Paul</forename>
+                            <surname>Bedjan</surname>
+                        </editor>
+                        <title level="m">Acta martyrum et sanctorum</title>
+                        <idno type="URI">http://syriaca.org/bibl/1697</idno>
+                        <idno type="zotero">2</idno>
+                        <idno type="URI">http://zotero.org/groups/392292/items/KBE4WDD3</idno>
+                        <idno type="URI">http://www.worldcat.org/oclc/13492399</idno>
+                        <imprint>
+                            <pubPlace>Parisiis; Lipsiae</pubPlace>
+                            <publisher>Harrasssowitz</publisher>
+                            <date>1890</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p xml:lang="syr">Digital Syriac Corpus is collaboration of University of Oxford,
+                    Brigham Young University, Vanderbilt University, and the Center of Digital
+                    Humanities Research (CoDHR) at Texas A&amp;M University. </p>
+
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="ProofedDigitalEdition">
+            <change when="2018-11-07" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="PrintTranscription">
+        <body>
+            <div type="rubric" xml:lang="syr">
+                <lg>
+                    <l xml:lang="syr">ܤܵܗܕܘܼܬܼܵܐ</l>
+                    <l xml:lang="syr">ܕܝܥܩܘܒ</l>
+                    <l xml:lang="syr">ܩܲܫܝܼܫܵܐ: ܘܲܕܼܡܲܪܝܲܡ ܚܵܬܹܗܒܲܪܬܼ ܩܝܵܡܵܐ.</l>
+                </lg>
+            </div>
+            <div type="body">
+                
+                <p xml:lang="syr">ܒܲܫܢܲܬܼ ܫܒܲܥ ܕܲܪܕܼܘܼܦܝܲܢ: ܐܸܬܿܬܿܚܵܕܼ ܗ̄ܘ̣ܵܐ ܝܲܥܩܘܿܒܼ ܩܲܫܝܼܫܵܐ
+                    <lb/> ܕܬܸܠܵܐ ܫܠܝܼܠܵܐ ܩܪܝܼܬܼܵܐ: ܘܡܲܪܝܲܡ ܚܵܬܹܗ ܒܲܪܬܼ ܩܝܵܡܵܐ: ܒܦܘܼܩܕܵܢܵܐ <lb/>
+                    ܕܢܲܪܤܲܝ ܛܲܡܫܵܒܼܘܿܪ <note place="foot" xml:id="ftn1" n="1"><p
+                            rend="footnote text"> ܛܡܲܫܒܿܘܿܪ</p></note>: ܘܲܒܼܡܲܚ̈ܘܵܬܵܐ ܒܝܼ̈ܫܵܬܵܐ
+                    ܘܲܒܼܢܸ̈ܓܼܕܹܐ ܕܠܵܐ <lb/> ܚܵܘܤܵܢܵܐ ܡܸܫܬܲܢܲܕܼ ܗ̄ܘ̣ܵܐ ܒܗܘܿܢ: ܟܲܕܼܨܵ ܒܹ̇ܐ <note
+                        place="foot" xml:id="ftn2" n="2"><p rend="footnote text"> ܨܒܼܐ</p></note>
+                    ܗ̄ܘ̣ܵܐ ܕܢܵܘܟܸܿܠ <lb/> ܐܸܢܘܿܢ ܕܡܵܐ. ܗܸܢ̣ܘܿܢ ܕܹܝܢ ܚܲܡ̣ܤܸܢܘ ܐܝܼܕܲܝ̈ܗܘܿܢ ܒܐܲܠܵܗܗܘܿܢ:
+                    ܘܲܒܼܠܸܒܵܐ <lb/> ܕܲܟܼܝܵܐ ܘܲܬܼܪܝܼܨܵܐ ܒܹܗ ܚܵܝܪܝܼܢ ܗ̄ܘ̣ܵܘ: ܘܐܝܵܠܵܐܠܲܡܫܵܘܚܕܘܼܬܼܗܘܿܢ
+                    <lb/> ܠܹܗ ܩܵܪܹܝܢ ܗ̄ܘ̣ܵܘ: ܘܚܲܝܠܵܐ ܘܥܘܼܕܼܪܵܢܵܐܡܸܢܹܗ ܫܵܐ̇ܠܝܼܢ ܗ̄ܘ̣ܵܘ. </p>
+                <p xml:lang="syr"> ܘܟܲܕܼ ܚ̣ܙܵܐ ܗ̤ܘ ܗܵܢܵܐ ܡܵܪܘܿܕܼܵܐ: ܕܲܒܼܡܸܕܸܡ ܠܵܐܡܸܬܼܪܲܦܹܝܢ ܡ̣ܢ
+                    <lb/> ܫܪܵܪܗܘܿܢ: ܦ̣ܩܲܕܼ ܗ̄ܘ̣ܵܐ ܠܓܲܒܼܪܵܐ ܚܲܕܼ ܒܲܪ ܚܹܐܪܹ̈ܐ ܒܲܪ ܥܵܠܡܵܐ: <lb/> ܕܲܫܡܹܗ
+                    ܗ̄ܘ̣ܵܐ ܡܲܗܕܵܕ: ܕܡܸܬܼܩܪܸܐ ܗ̄ܘ̣ܵܐ ܒܲܫܡܵܐ ܟܪܸܤܛܝܵܢܵܐ ܘܠܵܐ <lb/> ܒܲܥܒܼܵܕܹ̈ܐ<note
+                        place="foot" xml:id="ftn3" n="3"><p rend="footnote text">
+                        ܒܲܥܿܒܼܵܕܼܵܐ</p></note>: ܕܢܸܦܘܿܩ ܢܸܫܩܘܿܠ ܐܸܢܘܿܢ ܪܹ̈ܫܲܝܗܘܿܢ. ܘܗ̤ܘ ܗܵܢܵܐ: <lb/>
+                    ܡܸܛܠ ܕܢܸܫܬܿܦܲܪ ܠܹܗ: ܣܵܡܼ ܡܵܘܬܹܗ ܒܚܲܝܵܘ̈ܗܝ: ܘܲܦܤܲܩ̣ <lb/> ܤܲܒܼܪܹܗ ܡܸܛܠ ܙܲܒܼܢܵܐ.
+                    ܘܲܢܦܲܩ̣ ܦܤܲܩ̣ ܪܹ̈ܫܹܐ ܕܲܬܼܪ̈ܲܝܗܘܿܢ ܒܤܲܝܦܵܐ: <lb/> ܒܬܸܠ ܕܲܪܵܐ <note place="foot"
+                        xml:id="ftn4" n="4"><p rend="footnote text"> ܒܬܠܕܪ̈ܐ</p></note> ܩܪܝܼܬܼܵܐ
+                    ܕܥܲܠ ܙܵܒܼܵܐ <note place="foot" xml:id="ftn5" n="5"><p rend="footnote text">
+                            ܢܗܲܪ</p></note> ܪܲܒܵܐ:</p>
+                <p xml:lang="syr">ܐܸܬܼܟܲܠܲܠ̣ܘ ܕܹܝܢ ܩܲܕܝܼ̈ܫܹܐ ܒܲܫܒܲܥܸܤܪܵܐ ܒܝܼܪܲܚ ܐܵܕܼܵܪ <note
+                        place="foot" xml:id="ftn6" n="6"><p rend="footnote text"> ܒܲܫܒܲܬܲܥܣܲܪ
+                            ܒܐܝܼܪܲܚ ܐܵܝܼܪ </p></note> ܒܲܕܼܤܲܗܪܵܐ.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
