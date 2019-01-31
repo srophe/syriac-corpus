@@ -16,6 +16,7 @@
                 -->
             </text>
             <text qname="tei:biblStruct"/>
+            <text qname="tei:teiHeader"/>
             <text qname="tei:div"/>
             <text qname="tei:author" boost="2.0"/>
             <text qname="tei:persName" boost="2.0"/>
