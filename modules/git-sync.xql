@@ -1,7 +1,7 @@
 xquery version "3.1";
 
 (:~ 
- : Webhook endpoint for tcadrt.com data repository, /master/ branch: 
+ : Webhook endpoint for Syrica.org data repository, /master/ branch: 
  : XQuery endpoint to respond to Github webhook requests. Query responds only to push requests from the master branch.  
  : The EXPath Crypto library supplies the HMAC-SHA1 algorithm for matching Github secret.  
  :
@@ -47,6 +47,9 @@ declare variable $exist-collection := $git-config//exist-collection/text();
 (: Github repository :)
 declare variable $repo-name := $git-config//repo-name/text();
 
+(: GitHub Branch :)
+declare variable $branch := $git-config//github-branch/text();
+
 (:~  
  : Recursively creates new collections if necessary  
  : @param $uri url to resource being added to db 
@@ -62,8 +65,9 @@ return
 };
 
 declare function local:get-file-data($file-name, $contents-url){
-let $url := concat($contents-url,'/',$file-name)         
-let $raw-url := concat(replace(replace($contents-url,'https://api.github.com/repos/','https://raw.githubusercontent.com/'),'/contents','/master'),$file-name)            
+let $url := concat($contents-url,'/',$file-name)       
+let $branch := if($branch != '') then concat('/',$branch)  else '/master'
+let $raw-url := concat(replace(replace($contents-url,'https://api.github.com/repos/','https://raw.githubusercontent.com/'),'/contents',$branch),$file-name)            
 return 
         http:send-request(<http:request http-version="1.1" href="{xs:anyURI($raw-url)}" method="get">
                             {if($gitToken != '') then
@@ -197,7 +201,7 @@ declare function local:execute-webhook($post-data){
 if(not(empty($post-data))) then 
     let $payload := util:base64-decode($post-data)
     let $json-data := parse-json($payload)
-    let $branch := if($git-config//github-branch/text() != '') then $git-config//github-branch/text() else 'refs/heads/master'
+    let $branch := if($branch != '') then concat('refs/heads/',$branch) else 'refs/heads/master'
     return
         if($json-data?ref[. = $branch]) then 
              try {
@@ -212,7 +216,7 @@ if(not(empty($post-data))) then
                         let $condition := contains(normalize-space($expected-result/text()),normalize-space($actual-result/text()))                	
                         return
                             if ($condition) then 
-                                local:parse-request($json-data)
+                              local:parse-request($json-data)
             			    else 
             			     (response:set-status-code( 401 ),<response status="fail"><message>Invalid secret. </message></response>)
                     else (response:set-status-code( 401 ),<response status="fail"><message>Invalid trigger.</message></response>)
@@ -223,7 +227,7 @@ if(not(empty($post-data))) then
                     <message>Unacceptable headers {concat($err:code, ": ", $err:description)}</message>
                 </response>)
             }
-        else (response:set-status-code( 401 ),<response status="fail"><message>Not from the master branch.</message></response>)
+        else (response:set-status-code( 401 ),<response status="fail"><message>Not from the {$branch} branch.</message></response>)  
 else    
             (response:set-status-code( 401 ),
             <response status="fail">
@@ -233,4 +237,3 @@ else
 
 let $post-data := request:get-data()
 return local:execute-webhook($post-data)
-    
