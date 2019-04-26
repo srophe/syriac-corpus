@@ -106,8 +106,12 @@
             <langUsage>
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
+            <creation>
+                <origDate type="composition" from="1125" to="1175">Mid-12th century</origDate>
+            </creation>
         </profileDesc>
         <revisionDesc status="UneditedTranscription">
+            <change when="2019-04-26" who="http://syriaca.org/person.xml#jwalters">Added origDate</change>
             <change when="2018-04-12" who="http://syriaca.org/person.xml#jwalters">Adjusted structure, added source info, added page numbers</change>
             <change when="2017-07-12" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>

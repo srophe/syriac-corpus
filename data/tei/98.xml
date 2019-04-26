@@ -102,8 +102,12 @@
             <langUsage>
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
+             <creation>
+                 <origDate type="composition" from="0450" to="0500">Second half of the fifth century CE</origDate>
+             </creation>
         </profileDesc>
-        <revisionDesc status="UncorrectedTranscription"> 
+        <revisionDesc status="uncorrectedTranscription">
+             <change when="2019-04-26" who="http://syriaca.org/person.xml#jwalters">Added origDate</change>  
             <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>
             <change when="2017-04-19" who="http://syriaca.org/person.xml#jwalters">Created:
@@ -126,8 +130,8 @@
                 <l>ܝܼܗ̄ܒܼ ܠܲܢ ܒܛܲܝܒܿܘܼܬܹܗ ܥܘܼܡܪܵܐ ܕܲܫܡܲܝܵܐ܀</l>
                 <l>ܐܲܝܲܚ̈܀</l>
             </div>
-            <div type="text" xml:lang="syr"> Narsai Memra 71. On the Flood [Ln2 (BL.Oriental 5463)
-                f. 92r-97v] <l n="1">:ܚܲܟܿܝܼܡ ܘܲܫܒܼܝܼܚ ܒܵܪܘܿܝܵܐ</l>
+            <div type="text" xml:lang="syr">  
+                <l n="1">:ܚܲܟܿܝܼܡ ܘܲܫܒܼܝܼܚ ܒܵܪܘܿܝܵܐ</l>
                 <l n="2">ܕܡ̣ܢ ܠܵܐ ܡܕܡ ܬܩܢ ܟܠ.</l>
                 <l n="3">:ܘܚܵܘܝܼ ܚܲܝܠܹܗ ܒܥܒܕ̈ܘܗܝ</l>
                 <l n="4">ܕܐܸܡ݂ܲܪ ܘܐܸܬܼܵܘ ܠܲܗܘܝܵܐ܀</l>
