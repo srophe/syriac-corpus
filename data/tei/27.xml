@@ -65,6 +65,7 @@
                 </distributor>
                 <authority>Digital Syriac Corpus</authority>
                 <idno type="URI">https://syriaccorpus.org/27</idno>
+                <date from="0450" to="0500">Late 5th century CE</date>
                 <availability>
                     <p/>
                     <licence target="http://creativecommons.org/licenses/by/4.0/">
@@ -108,6 +109,9 @@
             <langUsage>
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
+            <creation>
+                <origDate type="composition" from="0450" to="0500">Second half of the fifth century CE</origDate>
+            </creation>
         </profileDesc>
         <revisionDesc status="UncorrectedTranscription"> 
             <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text structure</change>

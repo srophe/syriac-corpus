@@ -92,8 +92,14 @@
             <langUsage>
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
+            <creation>
+                <origDate type="composition" when="0343">343 CE
+                    <note>Based on internal dates provided in the text.</note>
+                </origDate>
+            </creation>
         </profileDesc>
         <revisionDesc status="uncorrectedTranscription">
+             <change when="2019-04-26" who="http://syriaca.org/person.xml#jwalters">Added origDate</change>
             <change when="2017-07-04" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>
             <change when="2016-12-11" who="http://syriaca.org/person.xml#jwalters">Created:

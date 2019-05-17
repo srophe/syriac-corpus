@@ -108,8 +108,12 @@
             <langUsage>
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
+             <creation>
+                 <origDate type="composition" from="0450" to="0500">Second half of the fifth century CE</origDate>
+             </creation>
         </profileDesc>
-        <revisionDesc status="UncorrectedTranscription"> 
+        <revisionDesc status="uncorrectedTranscription">
+             <change when="2019-04-26" who="http://syriaca.org/person.xml#jwalters">Added origDate</change>  
             <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>
 
