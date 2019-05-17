@@ -60,6 +60,7 @@
                 </distributor>
                 <authority>Digital Syriac Corpus</authority>
                 <idno type="URI">https://syriaccorpus.org/26</idno>
+                <date from="0475" to="0521">Late 5th/Early 6th century CE</date>
                 <availability>
                     <p/>
                     <licence target="http://creativecommons.org/licenses/by/4.0/">
@@ -98,8 +99,12 @@
             <langUsage>
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
+            <creation>
+                <origDate type="composition" from="0490" to="0520">Late 5th/early 6th century CE</origDate>
+            </creation>
         </profileDesc>
         <revisionDesc status="UncorrectedTranscription">
+            <change when="2019-04-26" who="http://syriaca.org/person.xml#jwalters">Added origDate</change>
              <change when="2018-05-01" who="http://syriaca.org/person.xml#jwalters">Edited source information, status, and type of text</change>
             <change when="2017-07-04" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>

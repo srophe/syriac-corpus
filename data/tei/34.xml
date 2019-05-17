@@ -108,8 +108,12 @@
             <langUsage>
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
+             <creation>
+                 <origDate type="composition" from="0450" to="0500">Second half of the fifth century CE</origDate>
+             </creation>
         </profileDesc>
-        <revisionDesc status="UncorrectedTranscription"> 
+        <revisionDesc status="uncorrectedTranscription">
+             <change when="2019-04-26" who="http://syriaca.org/person.xml#jwalters">Added origDate</change>  
             <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>
 
@@ -592,7 +596,7 @@
                 <l n="420">ܘܲܫܡܲ݁ܥ ܩܵܠܵܐ ܕܟܲܕܼ ܡܸܬܼܡܲܠܲܠ ܠܵܐ ܡܸܬܡܲܠܲܠ ܀</l>
                 <l n="421">:ܡ̇ܢܵܘ ܕܐܸܡܲܪܬܿ ܦܵܘܠܘܿܣ ܓܲܒܼܝܵܐ ܥܲܣܩܵܐ ܒܥܵܬܹܗ</l>
                 <l n="422">ܐܲܝܟܲܢ ܫܵܡܲ݁ܥ ܐܲܝܢܵܐ ܕܫܵܡܲ̇ܥ ܟܕܼ ܠܵܐ ܫܲܠܝܼܟ ܀</l>
-                <l n="423">:ܓܠܝܼ ܠܲܢ ܓܲܒܼܪܵܐ ܡ̇ܢܵܘ ܕܐܸܡܲܪܬܿ ܕܲܥܛܸܠ ܫܸܡܥܹܗ</l>
+                <l n="423">:ܓܠܝܼ ܠܲܢ ܠܲܒܼܪܵܐ ܡ̇ܢܵܘ ܕܐܸܡܲܪܬܿ ܕܲܥܛܸܠ ܫܸܡܥܹܗ</l>
                 <l n="424">ܒܐܲܝܠܹܝܢ ܪ̈ܓܼܫܹܐ ܫܘ݂ܲܝܬܿ ܕܬܼܨܘܼܬܼܝܼܘܗܝ ܐܲܢ̄ܬܿ ܒܲܠܚܘܿܕܲܝܟ ܀</l>
                 <l n="425">:ܐܸܢ ܠܵܐ ܫܲܠܝܼܛ ܠܡܸܬܼܡܲܠܵܠܘܼ ܠܡܵܢ ܐܸܬܼܡܲܠܲܠ</l>
                 <l n="426">ܘܐܸܢ ܐܸܬܼܡܲܠܲܠ ܡ̇ܕܹܝܢ ܫܲܠܝܼܛ ܠܲܡܨܵܬܼ ܫܸܡܥܹܗ ܀</l>
