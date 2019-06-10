@@ -111,6 +111,9 @@
             <langUsage>
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
+            <creation>
+                <origDate type="composition" from="0540" to="0600">Second half of the sixth century CE</origDate>
+            </creation>
         </profileDesc>
         <revisionDesc status="UneditedTranscription">
             <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text
