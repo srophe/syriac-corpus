@@ -97,6 +97,9 @@
             <langUsage>
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
+            <creation>
+                <origDate type="composition">Uncertain</origDate>
+            </creation>
         </profileDesc>
         <revisionDesc status="ProofedDigitalEdition">
             <change when="2018-11-26" who="http://syriaca.org/person.xml#jwalters">Created:

@@ -110,6 +110,10 @@
             <langUsage>
                 <language ident="syr">Unvocalized Syriac of any variety or period</language>
             </langUsage>
+            <creation>
+                 <origDate type="translation" from="0350" to="0450">Late 4th/early 5th century CE
+                 <note>Translated from Greek into Syriac</note></origDate>
+             </creation>
         </profileDesc>
         <revisionDesc status="UncorrectedTranscription">
 <change when="2018-05-01" who="http://syriaca.org/person.xml#jwalters">Edited source information, status, and type of text</change>
