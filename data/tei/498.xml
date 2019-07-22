@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8985">From the Letter of Rabbula to Gamalinus  - <foreign xml:lang="syr">ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܓܡܠܝܢܐ ܐܦܣܩܘܦܐ ܕܦܐܪܝܢ
+                </foreign></title>
+                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8876">Rabbula Corpus</title>
+                <title level="s">Digital Syriac Corpus</title>
+                <author ref="http://syriaca.org/person/26">Rabbula of Edessa</author>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dtaylor">David G.K. Taylor,
+                    University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">James E. Walters,
+                    Rochester College</editor>
+                <respStmt>
+                    <resp>TEI XML encoding by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person"/>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#moez">Michael Oez</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+                <respStmt>
+                    <resp>based upon</resp>
+                    <name><ptr target="#sourceDesc1"/></name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
+                </distributor>
+                <authority>Digital Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/498</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="syr">Creative Commons — Attribution 4.0 International — CC BY
+                            4.0</p>
+                        <p xml:lang="syr">https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                    <ab><note>This electronic edition is designed for open access reuse. The Syriac
+                        base text is in the public domain. The TEI XML edition is copyrighted by
+                        James E. Walters and is released under a Creative Commons Attribution
+                        4.0 International Public License (CC BY 4.0).</note></ab>
+                    <ab><note>The HTML page is copyrighted by Vanderbilt University and released
+                        under a under a Creative Commons Attribution 4.0 International Public
+                        License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+                        Attribution for reuse should follow the suggested citation and also
+                        credit the copyright holder of the TEI XML edition.</note></ab>
+                </availability>
+                <date calendar="Gregorian"
+                    ><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc xml:id="sourceDesc1">
+                <biblStruct>
+                    <monogr>
+                        <editor>
+                            <forename>Julian Joseph</forename>
+                            <surname>Overbeck</surname>
+                        </editor>
+                        <title level="m">S. Ephraemi Syri, Rabulae episcopi Edesseni, Balaei aliorumque Opera selecta e
+                            codicibus syriacis manuscriptis in museo Britannico et bibliotheca Bodleiana asservatis
+                            primus</title>
+                        <idno type="URI">http://syriaca.org/bibl/1917</idno>
+                        <idno type="zotero">444</idno>
+                        <idno type="URI">http://zotero.org/groups/392292/items/S54P8E99</idno>
+                        <idno type="URI">http://www.worldcat.org/oclc/18332207</idno>
+                        <idno type="ISBN">0-8370-7059-7</idno>
+                        <idno type="ISBN">978-0-8370-7059-9</idno>
+                        <ref target="https://archive.org/stream/sephraemisyrirab00ephruoft#page/n4/mode/1up"/>
+                        <imprint>
+                            <pubPlace>Oxonii [Oxford]</pubPlace>
+                            <publisher>Clarendoniano</publisher>
+                            <date>1865</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p xml:lang="syr">Digital Syriac Corpus is collaboration of University of Oxford,
+                    Brigham Young University, Vanderbilt University, and the Center of Digital
+                    Humanities Research (CoDHR) at Texas A&amp;M University. </p>
+                
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+            <creation>
+                <origDate type="composition" from="0400" to="0435">Early 5th century CE</origDate>
+            </creation>
+        </profileDesc>
+        <revisionDesc status="uncorrectedTranscription">
+            <change when="2018-11-07" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="PrintTranscription"> 
+        <body>
+            <div type="rubric">
+                
+                <p xml:lang="syr">ܕܩܕܫܐ ܪܒܘܠܐ ܐܦܝܣܩܘܦܐ ܕܐܘܪܗܝܼ. ܡܢ ܐܓܪܬܐ ܕܠܘܬ ܓܡܠܝܢܐ ܐܦܣܩܘܦܐ ܕܦܐܪܝܢ</p>
+            </div>
+            <div type="text">
+                <p xml:lang="syr">
+                    <pb n="230"/>
+                    
+                    ܐܝܠܝܢ ܓܝܪ ܕܒܗܝܡܢܘܬܐ ܐܟܿܠܝܢ ܠܚܡܐ ܩܕܝܫܐܼ݂ ܒܗܼ ܘܥܡܗ ܐܟܿܠܝܢ ܦܓܪܗ ܚܝܐ ܕܐܠܗܐ ܡܿܩܕܫܢܐ. ܘܐܝܠܝܢ ܕܕܠܐ ܗܝܡܢܘܬܐ ܐܟܿܠܝܢ ܠܗܼ. ܣܝܒܪܬܐ ܗܘ ܡܩܿܒܠܝܼܢ. ܐܝܟ ܫܪܟܐ ܕܚܫܚܬܗ ܕܦܓܪܐ. ܐܢ ܓܝܪ ܢܬܚܼܛܦ ܗܼܘ ܠܚܡܐ: ܘܡܢ ܒܥܠܕܒ̈ܒܐ ܒܩܛܝܪܐ ܢܬܐܟܠܼ. ܠܚܡܐ ܗܘ ܫܚܝܡܐ ܐܟ݀ܠܝܢ. ܡܛܠ ܕܠܝܬ ܠܗܘܢ ܠܐܟ̈ܘܠܘܗܝ ܗܝܡܢܘܬܐ ܕܗܝܼ ܡܪܓܫܐ ܒܚܠܝܘܬܗ. ܠܠܚܡܐ ܓܝܪ ܚܟܐ ܛܿܥܡ ܠܗ. ܠܚܝܠܐ ܕܝܢ ܕܟܣܼܐ ܒܗ ܒܠܚܡܐܼ ܗܝܡܢܘܬܐ ܛܥܡܿܐ ܠܗ. ܠܘ ܓܝܪ ܗܿܘ ܗܘ ܕܡܬܐܟܠ ܒܠܚܘܕ ܦܓܪܗ ܕܡܚܝܢܼܢ. ܐܝܟܢܐ ܕܡܢ ܩܕܡ ܩܠܝܠ ܐܡܪܢܢ. ܐܠܐ ܗܿܘ ܡܕܡ ܕܡܫܬܘܬܦ ܥܡܗܼ. ܐܝܟܐ ܕܡܗܝܡܢܝܢ ܚܢܢ. ܡܫܬܘܬܦ ܓܝܪ ܚܝܠܐ ܕܠܐ ܡܬܐܟܠ ܥܠ ܠܚܡܐ ܡܬܐܟܠܢܐܼ݂ ܘܗܘܿܐ ܚܕ ܠܢܣܘ̈ܒܘܗܝܼ. ܐܝܟܢܐ
+                    
+                    <pb n="231"/>
+                    
+                    ܕܡܫܬܘܬܦܝܢ ܫܡܗ̈ܐ ܟܣ̈ܝܐ ܠܡ̈ܝܐ ܡܬܚ̈ܙܝܢܐܿ. ܘܡܬܼܝܠܕ ܡܢܗܘܢ ܝܠܼܕܐ ܕܡܢ ܪܝܫ. ܡܿܪܚܦܐ ܓܝܪ ܪܘܚܐ ܟܣܝܐܝܬ ܥܠ ܡ̈ܝܐ ܓ̈ܠܝܐܼ݂ ܕܬܘܠܕ ܡܢܗܘܢ ܚܕܬܐܝܬ ܕܡܼܘܬܐ ܕܐܡ ܫܡܿܝܢܐ. 
+                    
+                    
+                </p>
+            </div>
+                   <div type="rubric"> 
+                    <p xml:lang="syr">
+                    ܡܢ ܓܪܬܐ ܕܗܘܬ ܡܢ ܪܒܘܠܐ ܠܘܬ ܓܡܠܝܢܐ ܐܦܣܩܘܦܐ ܕܦܝܪܝܢ. ܡܛܘܠ ܐܝܠܝܢ ܕܡܥܘܠܝܢ ܒܪ̈ܐܙܐ ܘܡܬܬܪܣܝܢ ܡܢܗܘܢ ܐܝܟ ܠܚܡܐ ܫܚܝܡܐ. 
+                    </p>
+                   </div>
+                    <div type="text">
+                        <p xml:lang="syr">
+                    ܫܡܥܬܕܒܐܬܪܐ ܕܝܠܟܘܢ ܕܦܪ̈ܝܐ ܐܢ̈ܫܝܢ ܡܢ ܐܚ̈ܐ ܕܥܘܡܪܗܘܢ ܠܐ ܝܕܥܝܢ. ܘܐܚܪ̈ܢܐ ܡܢ ܪ̈ܝܫܝ ܕܝܪ̈ܬܐ ܡܫ̈ܡܫܢܐ ܕܬܡܢ ܐܦܩܘ ܥܠ ܢܦܫܗܘܢ ܕܓܠܐܝܬ ܫܡܐ ܣܦܝܩܐ ܕܠܚܡܐܼ ܠܐ ܐܟܠܝܢ. ܘܩܪܘ ܥܠ ܩܢܘܡܗܘܢ ܟܕܒܐܝܬ ܫܘܒܗܪܐ ܣܪܝܩܐ. ܕܡ̈ܝܐܼ ܠܐ ܫܬܝܢ. ܘܕܢܙܝܪܝܢ ܡܢ ܚܡܪܐ ܫܡܗܘ ܥܠ ܩܢܘܡܗܘܢ. ܡܕܝܢ ܕܫܡܥܬ ܕܡܥܘܠܝܢ ܒܦܓܪܗ ܘܕܡܗ ܕܒܪܐ ܕܐܠܗܐ ܝܫܘܥ ܕܐܬܥܗܕ . .ܥ ܐܢܐ. ܡܛܘܠ ܕܝܢ ܕܚܣܢܢ ܩܛܝܪܐ [ܒـ]ـܘܠܝܬܐ ܡܚܨܦ ܐܢܐ ܕܐܡܪ ܗܠܝܢ ܕܗܘܿ ܡܕܡ ܕܠܐ ܙܝܥܝܢ ܗܢܘܢ ܠܡܣܥܪ ܕܦܓܪܗ ܘܕܡܗ ܕܝܫܘܥ ܡܫܝܚܐ ܡܪܢ. ܫܢܝܐܝܬ ܘܕܠܐ ܦܘܪܫܢ ܩܪܒܢܢ ܠܗ. ܗܢܘ ܕܝܢ ܦܓܪܐ
+                    
+                    <pb n="232"/>
+                    
+                    ܗܿܘ ܩܕܝܫܐ. ܘܡܩܕܫܢܐ ܕܢܣܒܘܗܝ. ܘܡܐ ܗܿܘ ܚܝܐ ܘܡܚܝܢܐ ܕܫܬܝܘܗܝ. ܗܢܘܢ ܗܠܝܢ ܕܠܐ ܝܕܥܿ ܐܢܐ ܐܝܟܢܐ ܗܟܢܐ ܢܘܢܿ ܣܘܢܩܢܐ ܠܡ ܐܡܝܢܐ ܕܟܦܢܐ ܘܨܗܝܐ ܕܟܝܢܗܘܢ ܪܫܝܥܐܬ ܡܡܠܝܝܢ ܡܢܗ. ܘܕܢܗܘܘܢ ܡܢ ܨܒܝܢܗܘܢ ܐܦ ܐܢ ܝܘܡܐ ܚܕ ܕܠܐ ܩܘܪܒܢܐ. ܣܝܒܪܬܗܘܢܼ ܠܐ ܡܨܝܐ. ܐܠܐ ܐܡܝܢܐܝܬ ܒܟܠ ܝܘܡ ܣܘܓܐܐ ܕܘܪܣܝܐ ܡܢ ܩܘܕܫܐ ܗܘ ܩܐܡ. ܘܡܛܘܠ ܗܢܐ ܐܦ ܨܬܐ ܐܝܕܐ ܕܗܢܘܢ ܥܒܕܝܢ ܠܗܿ ܒܫܘܪܬܚܐ ܡܚܡܥܝܢ ܠܗܿ. ܘܒܫܩܠ ܛܥܢܐ ܡܕܟܝܢ ܠܗܿ. ܘܒܒܛܝܠܘܬܐ ܡܒܫܠܝܢ ܠܗܿ ܐܝܟ ܕܬܗܘܐ ܠܗܘܢ ܠܡܐܟܘܠܬܐ. ܘܠܐ ܗܘܐ ܠܪܐܙ ܦܓܪܗ ܕܡܫܝܚܐ ܗܿܘ ܕܒܦܛܝܪܐ ܡܬܝܠ. ܘܫܪܟܐ ܠܡ ܟܘܠ ܐܡܬܝ ܕܡܬܪܒܨܝܢ ܐܦ ܠܚܡܐ ܫܚܝܡܐ ܕܠܐ ܦܪܝܫ ܡܩܪܒܝܢ ܥܠ ܐܝ̈ܕܝ ܚ̈ܕܕܐ ܘܐܟܠܝܢ ܠܗ. ܘܐܝܬ ܠܡ ܐܡܬܝ ܕܪܕܝܢ ܡܢ ܕܘܟܐ ܠܕܘܟܐ. ܐܘ ܒܐܘܪܚܐ ܢܓܝܪܬܐ ܐܙܠܝܢ. ܕܬܪ̈ܬܝܢ ܙܒ̈ܢܝܢ ܒܝܘܡܐ ܚܕ ܐܘ ܬܠܬܼ. ܡܢܗ ܟܕ ܡܢܗ ܕܦܓܪܗ ܕܡܪܢ ܡܕܥܟܝܢ ܟܦܢܐ ܘܨܗܝܐ ܕܟܝܢܗܘܢܿ ܘܡܐ ܕܣܡܘ ܠܐܝܟܐ ܕܡܡܢܥܝܢ. ܒܪܡܫܐ ܬܘܒ ܠܡ ܡܩܪܒܝܢ ܩܘܪܒܢܐ. ܘܢܣܒܝܢ ܡܢܗ ܐܝܟ ܨܝ̈ܡܐ. ܐܦ ܒܝܘ̈ܡܬܐ ܬܘܒ ܩܕ̈ܝܫܐ ܕܨܘܡܐ ܕܐܪ̈ܒܥܝܢ. ܗܟܢܐ ܡܡܪܚܝܢ ܠܡܣܥܪ ܕܠܐ ܕܚܠܬܐ ܕܐܠܗܐ ܘܕܠܐ ܒܗܬܬܐ ܐܢܫܝܬܐ. ܘܐܢ̈ܫܐ ܕܐܝܟܕܐܡܝܼܢ. ܕܐܟܠܝܢ ܡܢ ܠܚܡܐ ܘܡܢ ܡ̈ܝܐ ܟܘܠܗܘܢ ܝܘ̈ܡܬܐ. ܡܫܬܟܚܝܢ ܠܗܘܢ ܐܟܠܝ ܠܚܡܐ ܩܕܝܫܐ. ܘܫܬܝܢ ܚܡܪܐ ܚܣܝܐ. ܒܕܐܝܟ ܗܠܝܢ ܝܘܡ̈ܬܐ ܫܒ̈ܝܚܐ ܕܢܙܝܪܝܢ ܒܗܘܢ ܘܐܦ ܫ̈ܛܝܐ. ܣܗܕ ܠܝ ܕܝܢ ܪܘܚܐ ܕܒܝ ܐܚܘܢ ܩܕܝܫܐ. ܕܡܬܪܕ ܐܢܐ 
+                    
+                    <pb n="233"/>
+                    
+                    ܠܡܟܬܒ ܠܐܝܩܪܟ ܟܠܗܝܢ ܕܫܡܥܬ ܥܠܝܗܘܢܿ ܒܕܠܐ ܐܫܟܚܬ ܬܐܪܬܝ ܕܬܗܝܡܢ ܐܢܘܢ ܫܪܝܪܐܝܬ. ܘܐܠܘ ܡܨܝܐ ܗܘܬ ܕܕܠܐ ܐܓܪܬܝ ܐܘ ܡܠܬܝ ܕܐܢܐ ܬܕܥ ܗܘܝܬ ܐܝܠܝܢ ܕܨܿܒܐ ܐܢܐ ܠܡܐܠܦ. ܘܗܢܘܢ ܗܠܝܢ ܢܣܒܘܢ ܗܘܘ ܟܘܘܢܐ ܡܢ ܬܘܪܨܟ. ܡܛܘܠ ܕܐܦܠܐ ܡܕܡ ܫܡܝܥ ܥܠܝܗܘܢ ܨܿܒܐ ܗܘܝܬ ܕܬܕܥ. ܐܘ ܐܢܬ ܡܪܝ ܐܘ ܗܢܘܢ. ܠܐ ܗܟܝܠ ܬܪܢܐ ܐܢܬ ܐܘ ܢܣܒܪܘܢ ܗܢܘܢ ܕܟܕ ܡܗܝܡܢ ܠܝ ܫܡܐ ܒܝܫܐ ܕܥܠܝܗܘܢ ܟܬܒܬ ܠܟ ܗܢܝܢ ܗܠܝܢ ܡܛܠܬܗܘܢܿ ܐܠܐ ܟܕ ܡܬܦܠܓ ܐܢܐ ܥܕܟܝܠ ܐܿܡܪ ܐܢܐ ܐܦ ܠܐܚܪ̈ܢܐ. ܕܠܐ ܡܫܟܚܐ ܕܚܛܝܬܐ ܪܒܬܐ ܕܐܝܟ ܗܕܐ ܕܡܢ ܗܠܝܢ ܕܥܡܕܘ ܒܡܫܝܚܐ ܡܢ ܡܬܘܡ ܬܣܬܥܪ ܐܡܪܝܢ ܓܝܪ ܕܡܐ ܕܦܠܚܘܗܝ ܠܩܘܕܫܐ ܒܟܦܦܬܐ. ܐܟܠܘ ܡܢܗ ܟܡܐ ܕܨܒܝܢ ܦܫܝܩܐܝܬ. ܠܗ ܕܝܢ ܠܟܣܐ ܕܕܡܐܼ ܒܡ̈ܝܐ ܚܡ̈ܝܡܐ. ܡܐ ܕܡܫܟܚܝܢ ܚܪܦ ܠܗ ܚܕ ܚܕ ܡܢܗܘܢܿ ܐܝܟ ܚܡܪܐ ܡܡܙܓܐ ܘܫܬܐ. ܘܬܘܒ ܡܿܠܐ ܠܗܼ ܘܝܗܒܿ ܠܚܒܪܗ. ܐܝܟ ܕܡܢ ܣܓܝܐܘܬܗ ܕܚܡܪܐ ܕܫܬܝܢ ܒܫܡ ܩܘܕܫܐ. ܡܬܐܠܨܝܢ ܟܡܐ ܙܒ̈ܢܝܢ ܕܐܦ ܡܢ ܦܘܡܗܘܢ ܢܫܕܘܢܝܗܝ. ܐܘ ܠܗܢܐ ܘܠܐ ܡܥܠܝܐ ܐܢ ܐܝܬܘܗܝ. ܕܡ̈ܐܢܝ ܩܘܕܫܐ ܝܩܝܪ̈ܐܿ. ܕܕܚܝܠܝܢ ܡܛܠ ܪ̈ܐܙܐ ܕܒܗܘܢܿ ܐܦ ܥܠ ܡ̈ܠܝܠܐ ܫܗܡܝܢܐ ܠܡܬܩܪܒܘ ܠܗܘܢ ܬܟܝܐܝܬ ܠܡ̈ܐܢܝ ܬܫܡܫܬܐ ܕܟܪܣܗܘܢܿ ܐܡܣܪܘ ܗܠܝܢ ܥܠ ܚܝ̈ܝܗܘܢ ܘܥܒܕܘ ܐܢܘܢܿ ܘܠܐ ܥܗܕܘ ܐܦ ܐܢ ܠܡܣܒ ܒܪܫܐ ܕܩܒܠ ܒܠܛܫܨܪ ܡܠܟܐ ܚܢܦܐ ܘܐܬܟܣܣ ܗܘܐ. ܕܡܛܠ ܕܒܡ̈ܐܢܝ ܬܫܡܫܬܗ ܕܐܠܗܐ ܐܬܪܥܝ ܕܢܨܥܪܝܘܗܝ
+                    
+                    <pb n="234"/>
+                    
+                    ܗܘܐ ܠܐܠܗܐ ܐܝܟ ܡܪܘܕܐ. ܒܕܐܬܚܫܚ ܒܗܘܢ ܡܒܣܪܢܐܝܬ. ܕܡܘܬܼܐ ܕܦܣܬ ܐܝܕܐ ܕܟܬܒܐ. ܐܫܬܠܚܬ ܡܢ ܡܪܘܡܐ ܕܬܟܬܘܒ ܥܠ ܐܣܬܐ ܕܒܝܬܗ. ܓܙܪ ܕܝܢܐ ܟܐܢܐ ܕܡܪܚܡܢܘܬܗ. ܟܕ ܡܢܐ ܕܝܢ ܢܬܦܚܡܘܢ ܡ̈ܐܢܝ ܬܫܡܫܬܐ ܕܗܝܟܠܐ ܕܒܐܘܪܫܠܡ. ܠܡ̈ܐܢܝ ܬܫܡܫܬܐ ܡ̈ܫܒܚܐ ܕܦܓܪܗ ܘܕܡܗ ܕܒܪܐ ܕܐܠܗܐ. ܐܦ ܠܐ ܓܝܪ ܠܚܡ ܐܦ̈ܐ ܕܟܗ̈ܢܘܗܝ ܕܐܝܣܪܐܝܠ. ܫܘܐ ܕܢܬܦܚܡ ܒܡܕܡ ܠܫܒܝܚܘܬܗ ܕܪܐܙܐ ܡܥܠܝܐ. ܘܐܢ ܗܼܘ ܕܐܢܫ ܠܗܿܘ ܠܚܡܐ ܕܦܬܘܪܐ ܕܐܟܠ ܕܘܝܕ ܟܕ ܟܦܢ. ܡܕܒܡܐ ܠܗ ܠܦܓܪܗ ܡܚܝܢܐ ܕܐܠܗܐ ܡܠܬܐ ܙܕܩܿ ܠܢ ܠܡܚܪ ܒܗ. ܐܝܟ ܕܒܐܢܫ ܫܛܘܪܐ ܕܠܐ ܦܪܫ ܦܓܪܗ ܘܕܡܗ ܕܡܪܝܐ ܡܢ ܠܚܡܐ ܕܐܦ̈ܐ. ܡܛܘܠ ܗܢܐ ܡܚܝܒ ܗܘ ܠܦܓܪܗ ܘܕܡܗ ܕܡܪܢ. ܗܿܘ ܓܝܪ ܛܘܠܫܐ ܦܓܪܢܝܐ ܡܕܟܐ ܗܘܐ ܡܢ ܡܚܣܢ ܟܕ ܡܫܬܘܬܦܢ ܗܘ̈ܝ ܠܗ ܐܦ ܡܥܡ̈ܘܕܝܬܐ ܕܙ̈ܢܝܢ ܙ̈ܢܝܢ. ܘܢܛܘܪ̈ܬܐ ܕܡܕܡ ܡܕܡ. ܗܢܐ ܕܝܢ ܦܓܪܗ ܘܕܡܗ ܡܚܝܢܐ ܕܡܪܐ ܝܫܘܥ. ܠܐ ܗܘܐ ܚܛܗܐ ܕܢܦܫܐ ܘܕܦܓܪܐ ܡܚܣܐ ܗܘܐ ܒܠܚܘܕ ܘܡܩܕܫ ܕܢܣ̈ܘܒܘܗܝ ܡܗܝܡܢܝܢ. ܐܠܐ ܐܦ ܠܗ ܠܐܠܗܐ ܥܼܒܕ ܕܢܗܘܐ ܒܢ. ܘܗܼܘ ܒܝܕ ܪܘܚܗ ܐܝܟ ܕܐܢܚܢܢ ܒܗ ܒܝܕ ܦܓܪܢ. ܡܿܢ ܠܡ ܕܐܟܠ ܦܓܪܝ ܘܫܬܐ ܕܡܝ ܐܿܡܪ ܒܪܐ ܕܐܠܗܐ. ܗܼܘ ܒܝܼ ܘܐܢܐ ܒܗ. ܐܢܐ ܐܩܝܡܝܘܗܝ ܒܝܘܡܐ ܐܚܪܝܐ. ܬܘܒ ܐܚܢܝܐܝܬ ܡܫܟܚܝܢܢ ܠܡܣܬܟܠܘ ܪܒܘܬܗܿ ܕܗܕܐ ܬܫܡܫܬܐ ܕܐܝܬܝܗܿ ܚܕܬܐ ܕܡܢ ܐܠܗܐ ܡܠܬܐ ܠܢ ܐܫܬܠܡܬ ܡܢ ܡܣܡ ܒܪܝܫܐ. ܩܫܝܐ ܘܥܙܝܙܐ ܕܓܙܪ. ܦܘܠܘܣ ܥܠ ܐܝܠܝܢ 
+                    
+                    <pb n="235"/>
+                    
+                    ܕܒܣܡܘ ܒܗܿ ܝܬܝܪ ܡܢ ܗܘܿ ܕܡܩܒܠܝܢ ܐܢܚܢܢ. ܐܝܠܝܢ ܕܥܠ ܗܿܝ ܥܬܝܩܬܐ ܕܡܢ ܡܘܫܐ ܦܣܥܝܢ ܐܡܼܪ ܓܝܪ܆ ܕܐܢ ܗܼܘ ܠܡ ܕܐܝܢܐ ܕܥܠ ܢܡܘܣܗ ܕܡܘܫܐ ܥܒܿܪ ܗܘܐ ܥܠ ܦܘܡ ܬܪ̈ܝܢ ܘܬܠܬܐ ܣܗ̈ܕܝܢ. ܕܠܐ ܪܚܡܝܢ ܡܐܬ ܗܘܐ. ܟܡܐ ܝܬܝܪܐܝܬ ܫܘܐ ܗܘܐ ܠܡܣܡ ܒܪܫܐ ܡܪܝܪܐ ܐܝܢܐ ܕܕܫܗ ܠܒܪܗ ܕܐܠܗܐ. ܘܚܫܒ ܕܡܐ ܕܕܝܬܩܐ ܕܝܠܗ ܐܝܟ ܕܟܘܠ ܐܢܫ. ܘܨܥܪ ܠܪܘܚܐ ܕܛܝܒܘܬܗ ܕܒܗܿ ܐܬܩܕܫܢ. ܗܢܐ ܗܟܝܠ ܠܚܡܐ ܕܚ̈ܝܐ ܕܢܚܬ ܡܢ ܫܡܝܐ. ܡܛܘܠ ܚܕܝܘܬܗ ܕܥܡ ܐܠܗܐ ܡܠܬܐ ܘܝܗܒܿ ܚ̈ܝܐ ܠܥܠܡܐ. ܡܢܘ ܕܗܟܢܐ ܫܢܝ ܕܢܦܚܡܝܘܗܝ ܠܠܚܡ ܐܦ̈ܐ ܒܡܘܕܟܐ ܕܡܢ ܐܪܥܐ. ܐܠܐ ܪܥܝܢܗ ܕܡܢ ܗܕܐ ܡܬܪܥܐ ܐܘ ܣܥܪ. ܝܕܝܥ ܗܘܐ ܘܩܪܝܚܐܝܬ ܬܘܒ ܡܬܚܙܐ. ܕܒܥܒܕܐ ܠܚܡܐ ܗܘܐ ܫܚܝܡܐ ܡܢܐ ܠܗ. ܐܝܟ ܕܚܿܙܐ ܠܗ ܗܿܘ ܕܗܟܢܐ ܫܢܝܐܝܬ ܢܣܒ ܠܗ ܘܠܐ ܡܗܝܡܢ ܠܒܪܐ ܕܐܿܡܪ. ܕܠܚܡܐ ܐܝܢܐ ܕܐܬܠ ܦܓܪܝ ܗܿܘ ܕܥܠ ܐܦ̈ܝ ܚܝ̈ܘܗܝ ܕܥܠܡܐ ܡܬܝܗܒ. ܕܠܐ ܗܘܐ ܗܟܝܠ ܠܚܡܐ ܗܘ ܒܠܚܘܕ ܒܦܓܪܗ ܕܡܫܝܚܐܿ. ܐܝܟ ܕܡܬܚܙܐ ܠܗܘܢܿ ܐܠܐ ܒܠܚܡܐ ܗܘ ܦܓܪܗ ܕܐܠܗܐ ܕܠܐ ܡܬܚܙܐ. ܐܝܟ ܕܡܗܝܡܢܝܢ ܚܢܢ ܘܫܩܠܝܢ ܐܢܚܢܢ ܠܗ. ܠܓܦܪܐ ܦܫܝܩܐܝܬ. ܘܕܩܐ ܡܡܕܟܐ ܠܥܣܝܢ ܦܫܝܩܐܝܬ. ܓܒܬܐ ܠܡ ܡܢܗܿ ܚܠܦ ܠܚܡܐ ܡܣܬܡܥܝܢ. ܒܢ̈ܘܢܐ ܬܘܒܼ ܒܟܘܠ ܛܥ̈ܡܢ ܐܪ̈ܓܝܓܬܗܘܢ ܫܪܝܢ ܒܗܘܢܿ ܒܐܒܐ ܪܓܝܐ ܣܓܝ ܡܬܒܝܐܝܢ. ܘܒܝܒܝܫܐܼ ܝܬܝܪ ܡܬܦܪܓܝܢ. ܥܡ ܟܟܪ̈ܝܬܐ ܕܕܒܫܐ ܘܐܣܦܝܪܐ ܕܒ݁̈ܥܐ. ܘܡܛܠ ܕܚܡܝܡܘܬܗ ܕܚܡܪܐ ܕܫܬܝܢ ܒܫܡ ܩܘܕܫܐ ܝܬܝܪ ܒܨܗܝܐ ܡܠܗܩ
+                    
+                    <pb n="236"/>
+                    
+                    ܠܗܘܢ ܟܠܗ ܠܡ ܩܝܛܐ. ܕܫܟܝܚ ܚܠܒܐ ܕܥܢܐ. ܘܕ̈ܥܙܐ ܐܡܝܢܐܝܬ ܫܬܝܢ ܠܗ. ܘܗܕܐ ܬܘܒ ܒܬܪܥܝܬܐ ܥܒܕܘ ܘܢܣܝܘ ܓܝܪ ܕܪܛܝܒܘܬܗ ܕܠܚܡܐ ܕܩܪܝܒܘܬܗ ܡܫܟܚܝܢ ܡܦܝܓܝܢ. ܝܩܕܢܐ ܕܟܘܠ ܫܥ ܕܡܢ ܚܡܪܐ. ܗܘܿܐ ܒܐܣܘܛܘܬܗܘܢܿ ܡܛܠܬܗܝܢ ܕܝܢ ܕܗܠܝܢ ܘܥܠ ܐܦ̈ܝܗܝܢ ܒܥܕܢܗܿ. ܒܬܐܡܪܐ ܐܝܟ ܕܗܘܝܐ ܐܦ ܠܘܩܒܠܗܘܢ ܡܟܣܢܘܬܗ ܟܐܢܬܐ ܕܐܠܗܐ. ܕܥܒܼܕ ܠܘܬ ܥܠܝ ܡܛܠ ܒܢ̈ܘܗܝ. ܕܗܐ ܝܗܒܬ ܠܟܘܢܼ ܟܠܗܝܢ ܛܒ̈ܬܐ ܕܐܪܥܐ. ܕܕܠܐ ܚܛܗܐ ܬܬܚܫܚܘܢ ܒܗܝܢ. ܐܝܟ ܕܦܪܫܬ ܠܗܘܢ ܟܘܠܗܘܢ ܩܘܪ̈ܒܢܐ ܕܒ̈ܢܝ ܐܝܣܪܐܝܠ ܕܕܠܐ ܥܕܠܝܐ ܢܬܒܣܡܘܢ ܒܗܘܢ ܠܡܢܐ ܐܦ ܐܢܬܘܢ ܐܪܫܥܬܘܢ ܒܦܓܪܝ ܘܒܕܡܝ ܐܝܟ ܗܠܝܢ ܕܐܥܠܝܘ ܒ̈ܕܒܚܝ ܘܒܩܘܪ̈ܒܢܝ. ܘܟܕ ܛܒ ܥܠܒ ܥܘܠܐ ܕܡܢ ܗܠܝܢ ܗܘܐ ܒܐܠܗܐ. ܠܥܘܠܐ ܕܡܢ ܗܢܘܢ ܕܡܣܬܥܪ ܗܘܐ ܒܥܡܐ. ܓܘܢܚܐ ܗܘܐܼ ܘܙܘܥܐ ܪܒܐ ܐܢ ܚܫܝܢ. ܕܕܠܡܐ ܐܦ ܦܚܡܐ ܕܡܣܡ ܒܪܫܐ ܗܿܘ ܕܢܦܩ ܥܠ ܗܠܝܢ ܢܬܓܙܪ ܥܠܝܗܘܢ. ܡܛܠ ܗܢܐ ܠܡܼ ܗܟܢܐ ܐܿܡܪ ܡܪܝܐ ܐܠܗܐ ܕܐܝܣܪܐܝܠ. ܡܐܡܪ ܐܡܪܬ ܗܘܝܬ. ܕܒܝܬܟ ܘܒܝܬ ܐܒܘܟܼ ܢܫܡܫܘܢ ܩܕܡܝ ܥܕܡܐ ܠܥܠܡ. ܘܗܫܐ ܐܿܡܪ ܡܪܝܐܼ ܚܣ ܠܝ. ܡܛܠ ܕܡܝܩܪ̈ܢܝ ܐܝܩܪ. ܘܫܝ̈ܘܛܝ ܢܨܛܥܪܘܢܿ ܚܿܙܐ ܐܢܬ ܐܝܟܢ ܠܥܠܡ ܐܣܠܝ ܐܢܘܢ ܡܢ ܟܗܢܘܬܐ. ܘܨܩܝܪ̈ܐ ܘܢܘܟܪ̈ܝܐ ܥܒܼܕ ܐܢܘܢ ܠܒܝܬܗ. ܡܢܐ ܕܝܢ ܐܼܡܪ ܥܠ ܗܠܝܢ ܕܠܐ ܠܢܒ̈ܝܐ ܕܥܬܝܩܬܐ ܠܬܟܝܢ. ܐܦܠܐ ܠܫ̈ܠܝܚܐ ܕܚܕܬܐ ܡܬܕܡܝܢ. ܟܐܢܐ ܗܘܬ ܕܝܢ ܕܐܦܢ ܡܢ ܪܫܐ ܕܫ̈ܠܝܚܐ ܦܛܪܘܣ ܢܐܠܦܘܢ ܗܘܘ. ܕܡܢܐ ܐܝܬܝܗ ܗܘܬ ܡܟܘܠܬܗ. ܐܫܡܥ ܓܝܪ 
+                    
+                    <pb n="237"/>
+                    
+                    ܓܠܝܐܝܬ ܕܒܡܢܐ ܩܝܡܝܢ ܗܘܘ ܚܝ̈ܘܗܝ ܦܓܪ̈ܢܐ. ܟܕ ܓܝܪ ܒܥܐ ܡܢܗ ܩܠܡܝܣ ܓܒܝܐ ܬܠܡܝܕܗ ܕܢܦܣ ܠܗ ܕܗܼܘ ܒܠܚܘܕܘܗܝ ܢܗܘܐ ܥܒܿܕ ܬܫܡܫܬܗ. ܗܟܢܐ ܐܡܼܪ ܠܗ ܟܕ ܡܫܒܚ ܠܚܦܝܛܘܬܗ ܘܡܗܠ ܒܣܝܒܪܬܗ. ܡܢܘ ܠܡ ܓܝܪ ܡܫܟܚ ܒܚܝܠ ܗܕܐ ܟܠܗܿ ܬܫܡܫܬܐ. ܠܐ ܗܘܐ ܠܡ ܠܚܡܐ ܘܙ̈ܝܬܐ ܐܟܠܝܢ ܐܢܚܢܢ ܐܡܝܢܐܝܬ. ܘܐܢ ܢܓܕܫ ܐܡܬܝ ܕܗܼܘ ܘܢܣܬܩܒܠ ܝܘܪܩܐ. ܐܦܠܐ ܬܘܒ ܡܢ ܦܘܠܘܣ ܟܪܘܙܐ ܕܫܪܪܐ ܩܒܠܘ ܡܫܠܡܢܘܬܐ ܛܒܬܐ. ܗܐ ܓܝܪ ܐܦ ܗܘܼ. ܡܢ ܣܘܓܐܐ ܕܣܘܢܩܢܗ ܫܕܪ ܙܒܢ ܟܘܬܝܢܗ. ܘܒܕ̈ܡܝܗܿ ܠܚܡܐ ܗܿܘ ܒܠܚܘܕ ܟܬܝܒ ܕܙܒܢܘܼ ܘܐܝܬܝܘ ܠܗ ܥܠ ܝܘܪܩܐ. ܕܢܣܝܡ ܐܦ ܠܢ ܢܡܘܣܐ ܒܥܒܕܗ. ܐܝܟ ܕܒܡܠܬܗ ܣܝܒܪܬܐ ܠܡ ܘܬܟܣܝܬܐ ܐܢ ܐܝܬ ܠܼܢ ܣܦܿܩ ܠܢ ܗܢܐ. ܘܐܢ ܙܥܘܪ ܗܘ ܠܗܘܢ ܠܡܕܡܝܘ ܒܫ̈ܠܝܚܐ ܥܡ̈ܘܕܘܗܝ ܕܥܠܡܐ. ܢܡܪܘܢ ܐܦܢ ܒܡܪܐ ܕܫ̈ܠܝܚܐ ܥܒܘܕܐ ܕ̈ܥܠܡܐ ܘܕܟܠ ܕܒܗܘܢܿ ܐܠܐ ܐܟܒܪ ܐܦ ܡܕܒܪܢܘܬܗ ܐܢܫܝܬܐ ܕܐܠܗܢ ܒܣܝܐ ܗ݀ܝ ܒܥ̈ܝܢܝܗܘܢ ܘܫܝܛܐ. ܗܐ ܓܝܪ ܒܡܪܢ ܒܟܠ ܕܘܟܐܼ ܠܚܡܐ ܗܘ ܚܘܝ ܠܢ ܕܠܥܣ ܗܘܐ. ܘܠܚܡܐܼ ܐܦ ܠܐ ܕܚ̈ܛܐ ܗܘܐ ܐܠܐܼ ܕܣܥܪ̈ܐ ܗܘܐ. ܘܫܒܥܐ ܐܚܪܢܝܢ ܕܐܝܠܕܘ ܘܐܟܒܪܘ ܡܢ ܡܠܬܗ. ܘܠܥܣܘ ܡܢܗܘܢ ܐܪ̈ܒܥܐ ܐܠܦ̈ܝܢ. ܘܫܒܩܘ ܫܒܥܐ ܐܣܦܪ̈ܝܕܝܢ ܟܕ ܡܠܝܢ ܠܚܡܐ ܘܐܝܬܝܗܘܢܿ ܘܟܕ ܐܟܠ ܥܡ ܬܠܡ̈ܝܕܘܗܝ ܦܨܚܐ ܠܚܡܐ ܣܝܡ ܗܘܐ ܩܕܡܘܗܝ ܦܛܝܪܐ. ܘܐܦ ܡܢ ܒܬܪ ܩܝܡܬܗ ܕܡܢ ܒܝܬ ܡ̈ܝܬܐ. ܠܚܡܐ ܐܟܠ ܥܡ ܬܠܡ̈ܝܕܘܗܝ ܐܪ̈ܒܥܝܢ ܝܘ̈ܡܝܢ. ܕܬܬܗܝܡܢ ܠܗܘܢ ܡܕܒܪܢܘܬܗ ܕܡܪܢ ܘܦܓܪܢܘܬܗ ܓܫܝܡܬܐ. ܐܝܟܢܐ
+                    
+                    <pb n="238"/>
+                    
+                    ܕܐܦ ܗܢܘܢ ܐܟܬܒܘ. ܕܥܡܗܘܢ ܠܡ ܥܐܠ ܗܘܐ ܘܢܿܦܩ ܝܫܘܥ. ܘܠܒܝܬ ܩܠܝܘܦܐ ܕܠܐ ܨܒܐ ܕܢܫܬܘܕܥܘܢܗܿ ܟܕ ܪܕܐ ܥܡܗܘܢ ܒܐܘܪܚܐ. ܥܠ ܠܚܡܐ ܒܪܟ ܘܩܨܐ ܠܗܘܢ ܒܓܘ ܒܝܬܐ ܘܟܢ ܐܣܬܟܠܘܗܝ. ܐܠܐ ܗܠܝܢ ܐܝܟ ܕܫܿܡܥ ܐܢܐ ܠܟ ܠܛ̈ܥܝܐ ܢܩܝܦܝܢ ܒܥܒ̈ܕܝܗܘܢܿ ܐܦ ܠܐ ܠܫܪܪܐ ܫܠܡܝܢ ܒܣܘܥܪ̈ܢܝܗܘܢܿ ܠܐ ܓܝܪ ܓܙܝܪܐ ܐܝܟ ܡܪ̈ܩܝܘܢܐ ܐܝܬܝܗܘܢ. ܐܦ ܠܐ ܥܢ̈ܘܝܐ ܒܕܡܘܬ ܟܪ̈ܣܛܝܢܐ. ܗܐ ܓܝܪ ܠܐ ܠܗܠܝܢ ܟܦܘܪ̈ܐ ܕܡܝܢ. ܕܕܩܐ ܗܘ ܒܠܚܘܕ ܐܟܠܝܢ ܐܘ ܠܚܡܐ. ܘܥܠ ܩܘܪ̈ܒܢܝܗܘܢ ܟܕܒܐܼ ܠܐ ܣܥܝܢ. ܐܦܠܐ ܡܿܢ ܠܡܗ̈ܝܡܢܐ. ܡܦܣ ܒܗܝܢ ܕܠܚܡܐ ܗܘ ܫܚܝܡܐ ܐܟܠܝܢܢ ܒܡܫܘܚܬܐ. ܘܣܝܡ ܚ̈ܝܝܢ ܫܪ̈ܝܪܐ ܢܣܒܝܢ ܚܢܢ ܒܦܘܪܫܢܐ. ܥܠ ܡܢܐ ܠܐ ܕܪܫܘ ܢܦܫܗܘܢܿ ܗܠܝܢ ܝܥ̈ܢܐ ܕܙܥܘܪ̈ܝܬܐ ܒܠܚܘܕ ܢܣܦܩܢ ܠܗܘܢܼ. ܘܥܠ ܐܝܕܐ ܠܐ ܐܬܬܥܝܕܘ ܗܠܝܢ ܐܣ̈ܘܛܐ ܕܒܡܕܡ ܫܝܛܐ ܘܒܣܝܐ ܢܫܪܘܢ ܡܫܟܐ ܕܟܪܣܗܘܢܿ ܘܡܛܠ ܡܢܐ ܠܐ ܠܚܡܐ ܒܠܚܘܕ ܐܟܠܝܢ ܕܫܟܝܚ ܘܦܫܝܩ ܘܫܘܐ. ܐܠܐ ܓܠܝܐ ܗܼܝ ܕܡܠ ܕܠܐ ܢܬܐܠܨܘܢ. (ܐܢ) ܐܢ ܕܝܢ ܫܪܝܪܐܝܬ ܕܢܐܠܨܘܢ ܠܓܦܪ̈ܝܗܘܢ ܨܒܝܢ ܠܐ ܢܣܒܥܘܢ ܟܕ ܐܟܠܝܢ ܠܚܡܐ ܒܠܚܘܕ. ܘܗܐ ܐܬܚܒܠܘ ܘܐܘܦܝܘ ܘܐܬܦܠܘ. ܐܠܐ ܩܪܝܚܐ ܗܝ ܘܝܕܝܥܐ. ܕܗܠܝܢ ܠܐ ܗܘܐ ܥܡ ܦܓܪ̈ܝܗܘܢ ܡܬܟܬܫܝܢ. ܐܠܐ ܐܦ ܠܐ ܥܡ ܣܛܢܐ ܪܕܝܢ. ܐܠܐ ܚܠܦ ܬܫܒܘܚܬܐ ܣܪܝܬܐ ܥܡܠܝܢ ܒܦܘܪ̈ܣܐ ܕܨܢ̈ܥܬܗܘܢ ܒܝ̈ܫܬܐ. ܘܠܐ ܒܐܘ̈ܠܨܢܐ ܕܥܢܘܝܘܬܐ. ܘܕܫܪܟܐ ܕܐܓܪܬܐ ܬܘܒ ܒ̈ܬܚܘܝܬܐ ܕܡܢ ܟ̈ܬܒܐ.܀
+                    
+                </p>
+                
+                
+            </div>
+        </body>
+    </text>
+</TEI>

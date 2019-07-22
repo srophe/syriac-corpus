@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a" ref="http://syriaca.org/work/8981">Letter from Rabbula to Andrew of Samosata - <foreign xml:lang="syr">ܐܓܪܬܐ ܕܡܪ ܪܒܘܠܐ ܐܦܣܩܘܦܐ ܕܐܘܪܗܝ ܠܘܬ ܐܢܕܪܐܘܣ ܕܫܡܝܫܛ
+                </foreign></title>
+                <title xml:lang="en" level="s" ref="http://syriaca.org/work/8876">Rabbula Corpus</title>
+                <title level="s">Digital Syriac Corpus</title>
+                <author ref="http://syriaca.org/person/26">Rabbula of Edessa</author>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dtaylor">David G.K. Taylor,
+                    University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#jwalters">James E. Walters,
+                    Rochester College</editor>
+                <respStmt>
+                    <resp>TEI XML encoding by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person"/>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#moez">Michael Oez</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+                <respStmt>
+                    <resp>based upon</resp>
+                    <name><ptr target="#sourceDesc1"/></name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
+                </distributor>
+                <authority>Digital Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/494</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="syr">Creative Commons — Attribution 4.0 International — CC BY
+                            4.0</p>
+                        <p xml:lang="syr">https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                    <ab><note>This electronic edition is designed for open access reuse. The Syriac
+                        base text is in the public domain. The TEI XML edition is copyrighted by
+                        James E. Walters and is released under a Creative Commons Attribution
+                        4.0 International Public License (CC BY 4.0).</note></ab>
+                    <ab><note>The HTML page is copyrighted by Vanderbilt University and released
+                        under a under a Creative Commons Attribution 4.0 International Public
+                        License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+                        Attribution for reuse should follow the suggested citation and also
+                        credit the copyright holder of the TEI XML edition.</note></ab>
+                </availability>
+                <date calendar="Gregorian"
+                    ><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc xml:id="sourceDesc1">
+                <biblStruct>
+                    <monogr>
+                        <editor>
+                            <forename>Julian Joseph</forename>
+                            <surname>Overbeck</surname>
+                        </editor>
+                        <title level="m">S. Ephraemi Syri, Rabulae episcopi Edesseni, Balaei aliorumque Opera selecta e
+                            codicibus syriacis manuscriptis in museo Britannico et bibliotheca Bodleiana asservatis
+                            primus</title>
+                        <idno type="URI">http://syriaca.org/bibl/1917</idno>
+                        <idno type="zotero">444</idno>
+                        <idno type="URI">http://zotero.org/groups/392292/items/S54P8E99</idno>
+                        <idno type="URI">http://www.worldcat.org/oclc/18332207</idno>
+                        <idno type="ISBN">0-8370-7059-7</idno>
+                        <idno type="ISBN">978-0-8370-7059-9</idno>
+                        <ref target="https://archive.org/stream/sephraemisyrirab00ephruoft#page/n4/mode/1up"/>
+                        <imprint>
+                            <pubPlace>Oxonii [Oxford]</pubPlace>
+                            <publisher>Clarendoniano</publisher>
+                            <date>1865</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p xml:lang="syr">Digital Syriac Corpus is collaboration of University of Oxford,
+                    Brigham Young University, Vanderbilt University, and the Center of Digital
+                    Humanities Research (CoDHR) at Texas A&amp;M University. </p>
+                
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+            <creation>
+                <origDate type="composition" from="0400" to="0435">Early 5th century CE</origDate>
+            </creation>
+        </profileDesc>
+        <revisionDesc status="uncorrectedTranscription">
+            <change when="2018-11-07" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="PrintTranscription"> 
+        <body>
+            <div type="rubric">
+                <p xml:lang="syr">ܐܓܪܬܐ ܕܡܪ ܪܒܘܠܐ ܐܦܣܩܘܦܐ ܕܐܘܪܗܝ ܠܘܬ ܐܢܕܪܐܘܣ ܕܫܡܝܫܛ.</p>
+            </div>
+            <div type="text"><p xml:lang="syr">
+                
+                ܠܡܪܝ ܡܝܩܪ ܒܟܠ ܘܪܚܡܿ ܠܐܠܗܐ ܐܦܣܩܘܦܐ ܐܢܕܪܐܐ ܪܒܘܠܐ܀ ܟܕ ܡܬܚܦܛ ܐܢܐ ܕܐܦܓܥ ܒܕܚܠܬ ܐܠܗܐ ܕܒܟ: ܒܙܒܢ ܡܿܢ ܟܘܪܗܢܐ ܕܓܼܕܫ ܠܦܓܪܐ: ܒܙܒܢ ܕܝܢ ܩܫܝܘܬܗ ܕܣܬܘܐ܆ ܒܙܒܢܐ ܕܝܢ ܚܪܢܐ܆ ܡܐܝܢܘܬܐ ܕܕܚܠܬ ܐܠܗܐ ܕܒܟ ܟܠܬܢܝ܆ ܟܒܪ ܓܝܪ ܟܕ ܟܘܠ ܡܕܡ ܥܡ ܚ̈ܕܕܐ ܡܚܒܝܢ ܗܘܝܼܢ. ܡܢ ܗܿܝ ܕܢܬܡܚܐ ܒ̈ܛܒܼܐ ܡܢ ܪܘܚܩܐ ܡܓܗܝܢ ܗܘܝܢ. ܗܫܐ ܕܝܢ ܠܡܟܬܒ ܐܠܼܨ ܠܢ ܠܘܬ ܕܚܠܬ ܐܠܗܐ ܕܒܟ܆ ܣܝܡܘܢܐ ܡܕܡ ܕܐܬܼܐ ܠܐܝ̈ܕܝܢ. ܕܐܒܬ ܒܗ ܫܪܝܐ ܕܪ̈ܫܐ ܬܪ̈ܥܣܪ. ܕܡܢ ܕܚܿܠ ܠܐܠܗܐ ܐܦܣܩܘܦܐ ܩܘܪܝܠܘܣ ܡܬܐܡܪܝܢ ܕܐܬܣܝܡܘ. ܠܘܩܕܡ ܡܿܢ ܗܟܝܠ ܐܣܒܪܬ܆ ܕܕܡܝܩܪܐ ܢܣܛܘܪܝܣ ܐܝܬܘܗܝ ܟܬܒܐ. ܕܗܠܝܢ ܕܒܗܝܢ ܓܘܢܐܝܬ ܟܘܠܢ ܥܕܠܝܢ ܗܘܝܢ ܠܗ܆ ܗܢܝܢ ܓܠܝܐܝܬ ܐܝܬ ܗܘܐ ܒܗ. ܟܕ ܕܝܢ ܐܢ̈ܫܝܢ ܕܕܚܣܝܘܬܟ ܕܝܠܟ ܐܝܬܘܝܗ ܡܚܬܡܝܢ ܗܘܘ܆ ܐܬܕܡܪܢܢ. ܙܕܩܬ ܕܝܢ ܕܐܟܬܘܒ ܗܼܝ ܗܕܐ. ܘܒܝܕ
+                
+                <pb n="223"/>
+                
+                ܐܝܠܝܢ ܕܡܬܟܬܒܢ ܡܢ ܢܟܦܘܬܟ ܕܝܠܟ ܐܕܥ. ܣܓܝ ܚܝܪ ܫܓܫ ܠܝ ܦܘܠܓܐ ܕܟܝ̈ܢܐ. ܘܝܬܝܪܐܝܬ ܡܢ ܒܬܪ ܚܕܝܘܬܐ. ܕܬܪ̈ܝܢ ܒ̈ܢܝܢ ܚܠܦ ܚܕ ܡܥܠ ܠܢ ܐܝܟ ܬܡܝܗܐ ܐܢܣܛܣܝܣ ܕܒܡܨܥܬܗܿ ܕܩܘܣܛܢܛܝܢܦܘܠܣ ܐܼܡܪ. ܕܡܘܕܐ ܐܢܐ ܒܐܒܐ ܘܒܒܪܐ ܘܒܪܘܚܐ ܕܩܘܕܫܐ. ܘܒܡܪܢ ܝܫܘܥ ܡܫܝܚܐ. ܠܗܿܘ ܕܐܢܐ ܐܫܠܼܡ ܗܢܐ ܟܠܗ ܪܚܩܝ ܐܢܐܼ. ܐܝܟ ܕܟܘܠ ܡܕܡ ܒܚܕܘܬܐ ܐܩܒܠ ܕܐܣܝܒܪ܆ ܐܘܿ ܕܐܫܬܘܬܦ ܠܓܘܕܦܐ ܡܕܡ ܕܐܝܟ ܗܢܐ܀
+                
+            </p></div>
+        </body>
+    </text>
+</TEI>
