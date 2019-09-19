@@ -113,15 +113,15 @@
                 <origDate type="composition" from="0330" to="0373">mid-4th century</origDate>
             </creation>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc status="Edited">
             <change when="2019-06-12" who="http://syriaca.org/person.xml#jwalters">Updated text with vocalization and header information</change>
             <change when="2018-02-16" who="http://syriaca.org/person.xml#jwalters">Created:
                 file</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text type="DigitalEdition">
         <body>
-            <div xml:lang="syr" type="title" n="1">
+            <div xml:lang="en" type="title" n="1">
                 <ab xml:lang="en">Nisibis I</ab>
             </div>
             <div xml:lang="syr" type="melody">
@@ -141,7 +141,8 @@
                 <l>ܕܠܶܗ ܬܶܪܕܽܘܦ ܘܠܰܐܪܥܳܐ ܬܠܰܒܶܒ</l>
                 <l>ܕܡܽܘܡ̈ܳܬܳܟ ܬܶܛܰܪ ܫܰܝܢܳܐ </l>
                 <l>ܘܩܶܫܬܳܟ ܬܩܰܪܶܒ ܥܰܡ ܪܽܘܓܙܳܐ</l>
-
+            </div>
+            <div type="response" xml:lang="syr">
                 <l>ܥܽܘܢܺܝܬܳܐ: ܡܬܽܘܚ ܩܶܫܬܳܟ ܠܽܘܩܒܰܠ ܡܳܠܐܳܐ </l>
                 <l>ܕܗܳܐ ܙܩܰܦ ܓܶܠܠܰܘ̈ܗ̱ܝ ܠܽܘܩܒܰܠ ܫܽܘܪ̈ܰܝܢ</l>
 
