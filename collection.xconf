@@ -6,15 +6,6 @@
         <lucene diacritics="no">
             <!-- Does not currently search tei header info, other then title -->
             <!-- Should maybe not index placeName, location, state or event?-->
-            <text qname="tei:body">
-                <!--
-                <ignore qname="tei:author"/>
-                <ignore qname="tei:persName"/>
-                <ignore qname="tei:placeName"/>
-                <ignore qname="tei:title"/>
-                <ignore qname="tei:desc"/>
-                -->
-            </text>
             <text qname="tei:biblStruct"/>
             <text qname="tei:teiHeader"/>
             <text qname="tei:div"/>
