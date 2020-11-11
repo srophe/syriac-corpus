@@ -107,6 +107,7 @@
              </creation>
         </profileDesc>
         <revisionDesc status="uncorrectedTranscription">
+            <change when="2020-11-10" who="http://syriaca.org/person.xml#jwalters">User submitted typos corrected</change>  
              <change when="2019-04-26" who="http://syriaca.org/person.xml#jwalters">Added origDate</change>  
             <change when="2017-07-05" who="http://syriaca.org/person.xml#jwalters">Edited text
                 structure</change>
