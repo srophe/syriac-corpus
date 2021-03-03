@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="xar" name="srophe-data">
+<project default="xar" name="syriac-corpus-data">
     <xmlproperty file="expath-pkg.xml"/>
     <property name="project.version" value="${package(version)}"/>
     <property name="project.app" value="syriac-corpus-data"/>
