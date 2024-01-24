@@ -2,7 +2,7 @@
 <project default="xar" name="syriac-corpus-data">
     <xmlproperty file="expath-pkg.xml"/>
     <property name="project.version" value="${package(version)}"/>
-    <property name="project.app" value="syriac-corpus-data"/>
+    <property name="project.app" value="zsyriac-corpus-data"/>
     <property name="build.dir" value="build"/>
     <target name="xar">
         <mkdir dir="${build.dir}"/>
