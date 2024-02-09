@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://expath.org/ns/pkg" name="http://syriac-corpus.org/syriaca-corpus-data" abbrev="syriac-corpus-data" version="1.06" spec="1.0">
+<package xmlns="http://expath.org/ns/pkg" name="http://syriac-corpus.org/syriaca-corpus-data" abbrev="syriac-corpus-data" version="1.07-dev" spec="1.0">
     <title>The Oxford-BYU Syriac Corpus project Data</title>
     <dependency package="http://exist-db.org/apps/shared"/>
 </package>
