@@ -169,7 +169,7 @@
 
             <div>
                 <head>Text</head>
-                <p>
+                <p xml:lang="syr">
                     <l><pb n="fol. 74r col.a"/>ܬܘܒ. ܕܥܠ ܙܒ̈ܢܐ ܐܚܪ̈ܝܐ ܕܡܪܝ ܐܝܣܚܩ.</l>
                     <l/>
                     <l>ܩܘܫܬܐ<pb n="fol. 74r col.b"/> ܙܩܬܢܝ ܘܐܝܟ ܕܠܕܡܟܐ ܩ̣ܪܐ ܘܐܥܝܪܢܝ:</l>
@@ -274,7 +274,7 @@
 
             <div>
                 <head>Translation</head>
-                <p>
+                <p xml:lang="en">
                     <l>Mēmrā of Mar Isaac-On the End Times</l>
                     <l>Next, concerning the end times by Mar Isaac.</l>
                     <l>Truth goaded me, just as to one sleeping, called and awakened me,</l>
