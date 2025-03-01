@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a">Letter from Eusebius, patriarch of Rome, to Papa,
+                    Catholicos of the East</title>
+                <title level="s">Digital Syriac Corpus</title>
+                <author>Eusebius of Rome</author>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dtaylor">David G.K. Taylor,
+                    University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="general editor" ref="http://syriaca.org/person.xml#jwalters">James E.
+                    Walters, Rochester College</editor>
+                <respStmt>
+                    <resp>TEI XML encoding by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#ndirienzo">Nunzia Di
+                        Rienzo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#ndirienzo">Nunzia Di
+                        Rienzo</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+                <respStmt>
+                    <resp>edited by</resp>
+                    <name>
+                        <persName>
+                            <forename>Nunzia</forename>
+                            <surname>Di Rienzo</surname>
+                        </persName>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
+                </distributor>
+                <authority>Digital Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/685</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p>Creative Commons — Attribution 4.0 International — CC BY 4.0</p>
+                        <p>https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                    <ab>
+                        <note>This electronic edition is designed for open access reuse. The Syriac
+                            base text is in the public domain. The TEI XML edition is copyrighted by
+                            James E. Walters and is released under a Creative Commons Attribution
+                            4.0 International Public License (CC BY 4.0).</note>
+                    </ab>
+                    <ab>
+                        <note>The HTML page is copyrighted by Vanderbilt University and released
+                            under a under a Creative Commons Attribution 4.0 International Public
+                            License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+                            Attribution for reuse should follow the suggested citation and also
+                            credit the copyright holder of the TEI XML edition.</note>
+                    </ab>
+
+                </availability>
+                <date calendar="Gregorian"
+                    ><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Digital Syriac Corpus is collaboration of University of Oxford, Brigham Young
+                    University, Vanderbilt University, and the Center of Digital Humanities Research
+                    (CoDHR) at Texas A&amp;M University. </p>
+
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+            <creation>
+                <origDate type="composition" from="0300" to="0400">4th century</origDate>
+            </creation>
+        </profileDesc>
+        <revisionDesc status="ProofedDigitalEdition">
+            <change when="2025-03-01" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="BornDigitalDiplomaticEdition">
+        <front>
+            <div type="title">
+                <bibl>
+                    <title>Letter from Eusebius, patriarch of Rome, to Papa, Catholicos of the
+                        East</title>
+                    <editor>
+                        <name type="person">Nunzia Di Rienzo</name>
+                    </editor>
+                    <idno type="URI">https://syriaccorpus.org/685</idno>
+                    <lb/>
+                    <date when="2018-04-26">Published March 1, 2025</date>
+                </bibl>
+            </div>
+            <div type="preface" xml:lang="en">
+                <head>Preface</head>
+                <p xml:lang="en">This text is a born-digital edition of the <hi rend="italic">Letter
+                        from Eusebius of Rome to Papa bar Aggai</hi>. The letter is part of a corpus
+                    of eight letters representing the correspondence of Papa bar Aggai, early
+                    4th-century bishop of Seleucia, with some exponents of the western political and
+                    religious power. Beside the <hi rend="italic">Letter from Eusebius bishop of
+                        Rome to Papa</hi>, the corpus includes: a letter from Judah Kyriakos bishop
+                    of Jerusalem to Papa, a letter from the Empress Helena to Papa, a letter from
+                    Papa to the Empress Helena, a letter from Jacob bishop of Nisibis to Papa, a
+                    letter from Ephrem to Papa, a letter from Papa to the citizens of Nisibis, the
+                    letter sent by the Western Fathers on the illegal removal of Papa.</p>
+                <p xml:lang="en">This edition is based on the following manuscript witnesses: </p>
+                <list xml:lang="en">
+                    <item>Erbil 509 (olim Alqoš 169/ Baghdad 509), f. 71r (E) (the most ancient and
+                        principal source, probably direct or indirect source for the later extant
+                        witnesses); </item>
+                    <item>Rome, Vatican Library, Borg. Sir. 82, f. 114v (B);</item>
+                    <item>Birmingham, Mingana Collection Syr. 47, f. 34v (M<hi rend="subscript"
+                            >1</hi>);</item>
+                    <item>Birmingham, Mingana Collection Syr. 579, f. 235r (M<hi rend="subscript"
+                            >2</hi>);</item>
+                    <item>Birmingham, Mingana Collection Syr. 586, f. 103r (M<hi rend="subscript"
+                            >3</hi>);</item>
+                    <item>Trichur, Chaldean Syrian Church, APSTCH THRI 65, f. 48r (A) (the
+                        manuscript has been digitized, and it can be viewed <ref
+                            target="https://www.vhmml.org/readingRoom/view/511738"
+                            ><hi>here</hi></ref>);</item>
+                    <item>Baghdad, Chaldean Catholic Church. Patriarchate of Baghdad 377, f. 12r (C)
+                        (the manuscript has been digitized, and it can be viewed <ref
+                            target="https://www.vhmml.org/readingRoom/view/609956"
+                            ><hi>here</hi></ref>).</item>
+                </list>
+
+                <p xml:lang="en"> This text has never been published in any prior edition. </p>
+                <p xml:lang="en"> This edition should not be considered as definitive but as a work
+                    in progress. </p>
+                <p xml:lang="en"> There is an old German translation of the entire corpus (based on
+                    the Syriac text preserved in ms Borg. Sir. 82) in O. Braun, "Der Briefwechsel
+                    des Katholikos Papa von Seleucia. Ein Beitrag zur Geschichte der ostsyrischen
+                    Kirche im vierten Jahrhundert", <hi rend="italic"> Zeitschrift für katholische
+                        Theologie </hi> 18 (1894), pp. 163-182, 546-565. </p>
+                <p xml:lang="en"> An English translation is provided along with the Syriac text. </p>
+                <p xml:lang="en">This edition is the outcome of the Marie Skłodowska-Curie Global
+                    Fellowship 2022 – Project "ForM - FORGED MEMORIES: the Church of Late Antique
+                    Iran and the West", funded by the European Commission. </p>
+
+
+            </div>
+        </front>
+        <body>
+            <div type="text">
+                <head>Text</head>
+                <div type="rubric" xml:lang="syr">
+                    <p xml:lang="syr">ܐܓܲܪܬܵܐ ܕܡܼܢ ܐܹܘܣܹܒܿܝܼܣ ܦܵܛܪܝܵܪܟܵܐ ܕܪܗ̄ܘܿܡܹܐ ܆ ܠܘܵܬܼ ܦܵܦܵܐ
+                        ܩܵܬܼܘܿܠܝܼܩܵܐ ܕܡܲܕܢܚܵܐ <note place="foot" xml:id="ftn0" n="*"><p
+                                xml:lang="en" rend="footnote text">E 71r, A 48r, B 114v, C 12r; M1
+                                34v, M2 235r, M3 103r</p></note> . </p>
+                </div>
+                <div type="section" n="1" xml:lang="syr">
+
+                    <p xml:lang="syr"> ܠܡܵܪܐ ܕܝܼܠܝ ܩܕܝܼܫܵܐ ܡܵܪܝ <note place="foot" xml:id="ftn1"
+                            n="1"><p xml:lang="en" rend="footnote text">M2 omits</p></note> ܦܵܦܵܐ
+                        ܦܵܛܪܝܲܪܟܿܝܼܣ : ܐܹܘܣܹܒܿܝܼܣ ܐܲܚܘܼܟ : ܣܵܓܕ ܠܵܟ. ܐܝܟ ܕܠܵܐ ܡܹܬܼܚܲܦܸܐ ܫܘܼܒܼܚܹܗ
+                        ܕܐܼܠܵܗܵܐ܆ ܐܦܵܠܵܐ ܢܸܨܚ̈ܢܹܐ ܕܩܲܕܝ̈ܫܵܘܗܝ. ܦܲܢܛܲܩܪܲܐܲܛܘ ܙܲܟܵܝܵܐ ܩܘܼܣܛܲܢܛܝܼܢܘܿܣ
+                        ܡܲܠܟܵܐ ܡܒܲܪܟܵܐ ܕܲܠܥܠܲܡ܆ ܥܲܡ ܐܸܡܹܗ ܡܲܠܟܬܼܵܐ ܡܗܲܝܡܲܢܬܿܐ ܇ ܚܕܵܘ ܒܢܹܨܚܵܢ̈ܝܟ
+                            <note place="foot" xml:id="ftn2" n="2"><p xml:lang="en"
+                                rend="footnote text">BM2 omit seyome</p></note>. ܘܐܸܬܿܕܲܡܲܪܘ
+                        ܒܬܼܕܡܪ̈ܬܟ. ܘܐܲܝܟ ܕܲܒܼܗܹܪ̈ܘܿܡܹܐ ܪܹ̈ܫܵܝܹܐ ܐܬܒܲܣܲܡܼܘ ܒܫܸܡ̈ܥܸܐ ܫܲܪܝܼܼܪܹ̈ܐ
+                        ܕܕܘܼܒܵܪ̈ܝܟ ܐܲܠܗܝܹ̈ܐ : ܘܐܵܦ ܢܸܬܼܒܲܪܟܼܘܼܢ ܡܼܢ ܪܲܒܿܘܼܬܼ ܟܵܗܢܘܬܼܟܼܘܢ ܆ ܘܡܼܢ
+                        ܟܘܼܪܣܝܵܐ ܩܲܕܝܼܫܵܐ ܕܡܵܪܝ ܬܐܘܿܡܵܐ ܫܠܝܼܚܵܐ܇ ܕܡܚܝܵܢ <note place="foot"
+                            xml:id="ftn3" n="3"><p xml:lang="en" rend="footnote text">M1 ܕܡܲܬܼܩܲܢ ;
+                                EAM3 ܕܡ ـܢ ; C ܕܡܟܲܝܢ</p></note> ܠܐܕܝ ܫܠܝܼܚܵܐ ܇ ܐܲܝܟ ܡܲܫܠܡܵܢܘܼܬܼܵܐ
+                        ܕܥܹܕܬܵܐ. ܡܲܐܢܝ̈ ܬܹܫܡܸܫܬܵܐ ܥܼܒܲܕܘ ܘܫܲܕܿܪܘ ܠܟܼܘܿܢ ܥܡ ܫܐܠܬܸ <note place="foot"
+                            xml:id="ftn4" n="4"><p xml:lang="en" rend="footnote text">M1 ܫܐܠܬܐ ; C
+                                ܫܹܐܲܠܬܼ ; B ܫܹܐܠܬܗܘܢ</p></note> ܫܠܵܡܗܘܿܢ <note place="foot"
+                            xml:id="ftn5" n="5"><p xml:lang="en" rend="footnote text">C ܫܠܵܡܟܼܘܿܢ
+                                (similarly in M2, where a later hand corrects, in
+                            pencil).</p></note> ܕܒܼܣܩܪܐܣ <note place="foot" xml:id="ftn6" n="6"><p
+                                xml:lang="en" rend="footnote text">M2 ܕܲܒܣܲܩܪܣ</p></note> . ܩܲܒܹܿܠ
+                        ܡܵܪܝ ܚܲܕܝܵܐܝܼܬܼ. ܘܣܝܼܡ ܥܘܼܗܕܵܢܗܘܢ ܒܓܵܘ ܥܹܕܬܵܟ. ܘܢܸܗܘܸܐ ܠܕܘܟܼܪܢܐ ܕܲܠܥܠܲܡ.
+                        ܘܡܼܢ ܝܲܡܵܐ ܕܒܼܘܼܪ̈ܟܵܬܼܟ ܆ ܢܸܫܬܲܦܼܥ ܥܠܲܝܗܘܵܢ ܡܲܠܝܵܐܝܼܬܼ. ܘܲܥܠܲܝܢ ܘܥܲܠ ܡܕܝܢ̄ܬܐ
+                        ܗܵܕܐ ܆ ܘܲܠܟܼܠܹܗ ܐܼܘܚܕܵܢܲܢ. ܨܠܘܬܐ ܕܠܵܐ ܫܲܠܘܵܐ ܬܸܬܼܩܲܪܒܼ. *1 </p>
+                </div>
+            </div>
+            <div>
+                <head>Translation</head>
+                <div type="rubric" xml:lang="en">
+                    <p xml:lang="en">Letter from Eusebius, patriarch of Rome, to Papa, Catholicos of
+                        the East</p>
+                </div>
+                <div type="section" n="1" xml:lang="en">
+                    <p xml:lang="en">To my lord, the holy Mar Papa the patriarch, Eusebius your
+                        brother pays you respect to you. As the glory of God is not hidden, nor the
+                        triumphs of His saints, the Almighty (sic), victorious, forever-blessed
+                        emperor Constantine, with his mother, the believing queen, have rejoiced in
+                        your triumphs, and they are amazed at your wonders. And as in fine aromas,
+                        they have delighted in the true reports of your godly life. And may you also
+                        be blessed by your great priesthood, and by the holy see of Mar Thomas the
+                        apostle, which are connected to the apostle Addai , according to the
+                        tradition of the Church. They (i. e. the emperor and his mother) made
+                        liturgical instruments and sent [them] to you with their salutation in the
+                        imperial rescript (lit. the Sacra). Receive [them], my lord, with joy, and
+                        establish their memory in your Church. And may it be an eternal remembrance.
+                        And may they (i. e. the blessings) be overflowing from the sea of your
+                        blessings over them (i. e. the emperor and his mother) completely, and over
+                        us and this city. And may prayer without end be offered for our whole
+                        empire.</p>
+                </div>
+            </div>
+
+
+        </body>
+    </text>
+</TEI>
