@@ -36,12 +36,12 @@
                 </respStmt>
                 <respStmt>
                     <resp>Edited by</resp>
-                    <name type="person" ref="http://syriaca.org/person.xml#ndirienzo">Nunzia Di
+                    <name type="person" ref="http://syriaca.org/person.xml#adirienzo">Annunziata Di
                         Rienzo</name>
                 </respStmt>
                 <respStmt>
                     <resp>Syriac text transcribed by</resp>
-                    <name type="person" ref="http://syriaca.org/person.xml#ndirienzo">Nunzia Di
+                    <name type="person" ref="http://syriaca.org/person.xml#adirienzo">Annunziata Di
                         Rienzo</name>
                 </respStmt>
             </titleStmt>
@@ -51,7 +51,7 @@
                     <resp>edited by</resp>
                     <name>
                         <persName>
-                            <forename>Nunzia</forename>
+                            <forename>Annunziata</forename>
                             <surname>Di Rienzo</surname>
                         </persName>
                     </name>
@@ -122,11 +122,8 @@
                     <title>Letter from Eusebius, patriarch of Rome, to Papa, Catholicos of the
                         East</title>
                     <editor>
-                        <name type="person">Nunzia Di Rienzo</name>
+                        <name type="person">Annunziata Di Rienzo</name>
                     </editor>
-                    <idno type="URI">https://syriaccorpus.org/685</idno>
-                    <lb/>
-                    <date when="2018-04-26">Published March 1, 2025</date>
                 </bibl>
             </div>
             <div type="preface" xml:lang="en">
@@ -142,7 +139,7 @@
                     letter from Ephrem to Papa, a letter from Papa to the citizens of Nisibis, the
                     letter sent by the Western Fathers on the illegal removal of Papa.</p>
                 <p xml:lang="en">This edition is based on the following manuscript witnesses: </p>
-                <list xml:lang="en">
+                <list rend="simple" xml:lang="en">
                     <item>Erbil 509 (olim Alqoš 169/ Baghdad 509), f. 71r (E) (the most ancient and
                         principal source, probably direct or indirect source for the later extant
                         witnesses); </item>
@@ -185,30 +182,30 @@
                 <div type="rubric" xml:lang="syr">
                     <p xml:lang="syr">ܐܓܲܪܬܵܐ ܕܡܼܢ ܐܹܘܣܹܒܿܝܼܣ ܦܵܛܪܝܵܪܟܵܐ ܕܪܗ̄ܘܿܡܹܐ ܆ ܠܘܵܬܼ ܦܵܦܵܐ
                         ܩܵܬܼܘܿܠܝܼܩܵܐ ܕܡܲܕܢܚܵܐ <note place="foot" xml:id="ftn0" n="*"><p
-                                xml:lang="en" rend="footnote text">E 71r, A 48r, B 114v, C 12r; M1
-                                34v, M2 235r, M3 103r</p></note> . </p>
+                            xml:lang="en" rend="footnote text">E 71r, A 48r, B 114v, C 12r; M<hi rend="subscript">1</hi>
+                            34v, M<hi rend="subscript">2</hi> 235r, M<hi rend="subscript">3</hi> 103r</p></note> . </p>
                 </div>
-                <div type="section" n="1" xml:lang="syr">
+                <div xml:lang="syr">
 
                     <p xml:lang="syr"> ܠܡܵܪܐ ܕܝܼܠܝ ܩܕܝܼܫܵܐ ܡܵܪܝ <note place="foot" xml:id="ftn1"
-                            n="1"><p xml:lang="en" rend="footnote text">M2 omits</p></note> ܦܵܦܵܐ
+                        n="1"><p xml:lang="en" rend="footnote text">M<hi rend="subscript">2</hi> omits</p></note> ܦܵܦܵܐ
                         ܦܵܛܪܝܲܪܟܿܝܼܣ : ܐܹܘܣܹܒܿܝܼܣ ܐܲܚܘܼܟ : ܣܵܓܕ ܠܵܟ. ܐܝܟ ܕܠܵܐ ܡܹܬܼܚܲܦܸܐ ܫܘܼܒܼܚܹܗ
                         ܕܐܼܠܵܗܵܐ܆ ܐܦܵܠܵܐ ܢܸܨܚ̈ܢܹܐ ܕܩܲܕܝ̈ܫܵܘܗܝ. ܦܲܢܛܲܩܪܲܐܲܛܘ ܙܲܟܵܝܵܐ ܩܘܼܣܛܲܢܛܝܼܢܘܿܣ
                         ܡܲܠܟܵܐ ܡܒܲܪܟܵܐ ܕܲܠܥܠܲܡ܆ ܥܲܡ ܐܸܡܹܗ ܡܲܠܟܬܼܵܐ ܡܗܲܝܡܲܢܬܿܐ ܇ ܚܕܵܘ ܒܢܹܨܚܵܢ̈ܝܟ
                             <note place="foot" xml:id="ftn2" n="2"><p xml:lang="en"
-                                rend="footnote text">BM2 omit seyome</p></note>. ܘܐܸܬܿܕܲܡܲܪܘ
+                                rend="footnote text">BM<hi rend="subscript">2</hi> omit seyome</p></note>. ܘܐܸܬܿܕܲܡܲܪܘ
                         ܒܬܼܕܡܪ̈ܬܟ. ܘܐܲܝܟ ܕܲܒܼܗܹܪ̈ܘܿܡܹܐ ܪܹ̈ܫܵܝܹܐ ܐܬܒܲܣܲܡܼܘ ܒܫܸܡ̈ܥܸܐ ܫܲܪܝܼܼܪܹ̈ܐ
                         ܕܕܘܼܒܵܪ̈ܝܟ ܐܲܠܗܝܹ̈ܐ : ܘܐܵܦ ܢܸܬܼܒܲܪܟܼܘܼܢ ܡܼܢ ܪܲܒܿܘܼܬܼ ܟܵܗܢܘܬܼܟܼܘܢ ܆ ܘܡܼܢ
                         ܟܘܼܪܣܝܵܐ ܩܲܕܝܼܫܵܐ ܕܡܵܪܝ ܬܐܘܿܡܵܐ ܫܠܝܼܚܵܐ܇ ܕܡܚܝܵܢ <note place="foot"
-                            xml:id="ftn3" n="3"><p xml:lang="en" rend="footnote text">M1 ܕܡܲܬܼܩܲܢ ;
-                                EAM3 ܕܡ ـܢ ; C ܕܡܟܲܝܢ</p></note> ܠܐܕܝ ܫܠܝܼܚܵܐ ܇ ܐܲܝܟ ܡܲܫܠܡܵܢܘܼܬܼܵܐ
+                            xml:id="ftn3" n="3"><p xml:lang="en" rend="footnote text">M<hi rend="subscript">1</hi> ܕܡܲܬܼܩܲܢ ;
+                                EAM<hi rend="subscript">3</hi> ܕܡ ـܢ ; C ܕܡܟܲܝܢ</p></note> ܠܐܕܝ ܫܠܝܼܚܵܐ ܇ ܐܲܝܟ ܡܲܫܠܡܵܢܘܼܬܼܵܐ
                         ܕܥܹܕܬܵܐ. ܡܲܐܢܝ̈ ܬܹܫܡܸܫܬܵܐ ܥܼܒܲܕܘ ܘܫܲܕܿܪܘ ܠܟܼܘܿܢ ܥܡ ܫܐܠܬܸ <note place="foot"
-                            xml:id="ftn4" n="4"><p xml:lang="en" rend="footnote text">M1 ܫܐܠܬܐ ; C
+                            xml:id="ftn4" n="4"><p xml:lang="en" rend="footnote text">M<hi rend="subscript">1</hi> ܫܐܠܬܐ ; C
                                 ܫܹܐܲܠܬܼ ; B ܫܹܐܠܬܗܘܢ</p></note> ܫܠܵܡܗܘܿܢ <note place="foot"
                             xml:id="ftn5" n="5"><p xml:lang="en" rend="footnote text">C ܫܠܵܡܟܼܘܿܢ
-                                (similarly in M2, where a later hand corrects, in
+                                (similarly in M<hi rend="subscript">2</hi>, where a later hand corrects, in
                             pencil).</p></note> ܕܒܼܣܩܪܐܣ <note place="foot" xml:id="ftn6" n="6"><p
-                                xml:lang="en" rend="footnote text">M2 ܕܲܒܣܲܩܪܣ</p></note> . ܩܲܒܹܿܠ
+                                xml:lang="en" rend="footnote text">M<hi rend="subscript">2</hi> ܕܲܒܣܲܩܪܣ</p></note> . ܩܲܒܹܿܠ
                         ܡܵܪܝ ܚܲܕܝܵܐܝܼܬܼ. ܘܣܝܼܡ ܥܘܼܗܕܵܢܗܘܢ ܒܓܵܘ ܥܹܕܬܵܟ. ܘܢܸܗܘܸܐ ܠܕܘܟܼܪܢܐ ܕܲܠܥܠܲܡ.
                         ܘܡܼܢ ܝܲܡܵܐ ܕܒܼܘܼܪ̈ܟܵܬܼܟ ܆ ܢܸܫܬܲܦܼܥ ܥܠܲܝܗܘܵܢ ܡܲܠܝܵܐܝܼܬܼ. ܘܲܥܠܲܝܢ ܘܥܲܠ ܡܕܝܢ̄ܬܐ
                         ܗܵܕܐ ܆ ܘܲܠܟܼܠܹܗ ܐܼܘܚܕܵܢܲܢ. ܨܠܘܬܐ ܕܠܵܐ ܫܲܠܘܵܐ ܬܸܬܼܩܲܪܒܼ. *1 </p>
@@ -220,7 +217,7 @@
                     <p xml:lang="en">Letter from Eusebius, patriarch of Rome, to Papa, Catholicos of
                         the East</p>
                 </div>
-                <div type="section" n="1" xml:lang="en">
+                <div xml:lang="en">
                     <p xml:lang="en">To my lord, the holy Mar Papa the patriarch, Eusebius your
                         brother pays you respect to you. As the glory of God is not hidden, nor the
                         triumphs of His saints, the Almighty (sic), victorious, forever-blessed
