@@ -128,52 +128,59 @@
             </div>
             <div type="preface" xml:lang="en">
                 <head>Preface</head>
-                <p xml:lang="en">This text is a born-digital edition of the <hi rend="italic">Letter
-                        from Eusebius of Rome to Papa bar Aggai</hi>. The letter is part of a corpus
-                    of eight letters representing the correspondence of Papa bar Aggai, early
-                    4th-century bishop of Seleucia, with some exponents of the western political and
-                    religious power. Beside the <hi rend="italic">Letter from Eusebius bishop of
-                        Rome to Papa</hi>, the corpus includes: a letter from Judah Kyriakos bishop
-                    of Jerusalem to Papa, a letter from the Empress Helena to Papa, a letter from
-                    Papa to the Empress Helena, a letter from Jacob bishop of Nisibis to Papa, a
-                    letter from Ephrem to Papa, a letter from Papa to the citizens of Nisibis, the
-                    letter sent by the Western Fathers on the illegal removal of Papa.</p>
-                <p xml:lang="en">This edition is based on the following manuscript witnesses: </p>
                 <div xml:lang="en">
-                    <p>Erbil 509 (olim Alqoš 169/ Baghdad 509), f. 71r (E) (the most ancient and
-                        principal source, probably direct or indirect source for the later extant
-                        witnesses); </p>
-                    <p>Rome, Vatican Library, Borg. Sir. 82, f. 114v (B);</p>
-                    <p>Birmingham, Mingana Collection Syr. 47, f. 34v (M<hi rend="subscript"
-                        >1</hi>);</p>
-                    <p>Birmingham, Mingana Collection Syr. 579, f. 235r (M<hi rend="subscript"
-                            >2</hi>);</p>
-                    <p>Birmingham, Mingana Collection Syr. 586, f. 103r (M<hi rend="subscript"
-                            >3</hi>);</p>
-                    <p>Trichur, Chaldean Syrian Church, APSTCH THRI 65, f. 48r (A) (the manuscript
-                        has been digitized, and it can be viewed <ref
-                            target="https://www.vhmml.org/readingRoom/view/511738"
-                            ><hi>here</hi></ref>);</p>
-                    <p>Baghdad, Chaldean Catholic Church. Patriarchate of Baghdad 377, f. 12r (C)
-                        (the manuscript has been digitized, and it can be viewed <ref
-                            target="https://www.vhmml.org/readingRoom/view/609956"
-                            ><hi>here</hi></ref>).</p>
+                    <p xml:lang="en">This text is a born-digital edition of the <hi rend="italic"
+                            >Letter from Eusebius of Rome to Papa bar Aggai</hi>. The letter is part
+                        of a corpus of eight letters representing the correspondence of Papa bar
+                        Aggai, early 4th-century bishop of Seleucia, with some exponents of the
+                        western political and religious power. Beside the <hi rend="italic">Letter
+                            from Eusebius bishop of Rome to Papa</hi>, the corpus includes: a letter
+                        from Judah Kyriakos bishop of Jerusalem to Papa, a letter from the Empress
+                        Helena to Papa, a letter from Papa to the Empress Helena, a letter from
+                        Jacob bishop of Nisibis to Papa, a letter from Ephrem to Papa, a letter from
+                        Papa to the citizens of Nisibis, the letter sent by the Western Fathers on
+                        the illegal removal of Papa.</p>
                 </div>
+                <div xml:lang="en">
+                    <p xml:lang="en">This edition is based on the following manuscript
+                        witnesses:</p>
 
+                    <div xml:lang="en">
+                        <l>Erbil 509 (olim Alqoš 169/ Baghdad 509), f. 71r (E) (the most ancient and
+                            principal source, probably direct or indirect source for the later
+                            extant witnesses); </l>
+                        <l>Rome, Vatican Library, Borg. Sir. 82, f. 114v (B);</l>
+                        <l>Birmingham, Mingana Collection Syr. 47, f. 34v (M<hi rend="subscript"
+                                >1</hi>);</l>
+                        <l>Birmingham, Mingana Collection Syr. 579, f. 235r (M<hi rend="subscript"
+                                >2</hi>);</l>
+                        <l>Birmingham, Mingana Collection Syr. 586, f. 103r (M<hi rend="subscript"
+                                >3</hi>);</l>
+                        <l>Trichur, Chaldean Syrian Church, APSTCH THRI 65, f. 48r (A) (the
+                            manuscript has been digitized, and it can be viewed <ref
+                                target="https://www.vhmml.org/readingRoom/view/511738"
+                                ><hi>here</hi></ref>);</l>
+                        <l>Baghdad, Chaldean Catholic Church. Patriarchate of Baghdad 377, f. 12r
+                            (C) (the manuscript has been digitized, and it can be viewed <ref
+                                target="https://www.vhmml.org/readingRoom/view/609956"
+                                ><hi>here</hi></ref>).</l>
+                    </div>
+                </div>
                 <div xml:lang="en">
                     <p xml:lang="en"> This text has never been published in any prior edition. </p>
-                <p xml:lang="en"> This edition should not be considered as definitive but as a work
-                    in progress. </p>
-                <p xml:lang="en"> There is an old German translation of the entire corpus (based on
-                    the Syriac text preserved in ms Borg. Sir. 82) in O. Braun, "Der Briefwechsel
-                    des Katholikos Papa von Seleucia. Ein Beitrag zur Geschichte der ostsyrischen
-                    Kirche im vierten Jahrhundert", <hi rend="italic"> Zeitschrift für katholische
-                        Theologie </hi> 18 (1894), pp. 163-182, 546-565. </p>
-                <p xml:lang="en"> An English translation is provided along with the Syriac text. </p>
-                <p xml:lang="en">This edition is the outcome of the Marie Skłodowska-Curie Global
-                    Fellowship 2022 – Project "ForM - FORGED MEMORIES: the Church of Late Antique
-                    Iran and the West", funded by the European Commission. </p>
-</div>
+                    <p xml:lang="en"> This edition should not be considered as definitive but as a
+                        work in progress. </p>
+                    <p xml:lang="en"> There is an old German translation of the entire corpus (based
+                        on the Syriac text preserved in ms Borg. Sir. 82) in O. Braun, "Der
+                        Briefwechsel des Katholikos Papa von Seleucia. Ein Beitrag zur Geschichte
+                        der ostsyrischen Kirche im vierten Jahrhundert", <hi rend="italic">
+                            Zeitschrift für katholische Theologie </hi> 18 (1894), pp. 163-182,
+                        546-565. </p>
+                    <p xml:lang="en"> An English translation is provided along with the Syriac text. </p>
+                    <p xml:lang="en">This edition is the outcome of the Marie Skłodowska-Curie
+                        Global Fellowship 2022 – Project "ForM - FORGED MEMORIES: the Church of Late
+                        Antique Iran and the West", funded by the European Commission. </p>
+                </div>
 
             </div>
         </front>
@@ -181,6 +188,8 @@
             <div type="text">
                 <head>Text</head>
                 <div type="rubric" xml:lang="syr">
+                    <pb n="E 71r, A 48r, B 114v, C 12r; M1 34v, M2 235r,
+                        M3 103r"/>
                     <p xml:lang="syr">ܐܓܲܪܬܵܐ ܕܡܼܢ ܐܹܘܣܹܒܿܝܼܣ ܦܵܛܪܝܵܪܟܵܐ ܕܪܗ̄ܘܿܡܹܐ ܆ ܠܘܵܬܼ ܦܵܦܵܐ
                         ܩܵܬܼܘܿܠܝܼܩܵܐ ܕܡܲܕܢܚܵܐ <note place="foot" xml:id="ftn0" n="*"><p
                                 xml:lang="en" rend="footnote text">E 71r, A 48r, B 114v, C 12r; M<hi
@@ -189,31 +198,31 @@
                 </div>
                 <div xml:lang="syr">
 
-                    <p xml:lang="syr">ܠܡܵܪܐ ܕܝܼܠܝ ܩܕܝܼܫܵܐ ܡܵܪܝ<note place="foot" xml:id="ftn1"
+                    <p xml:lang="syr">ܠܡܵܪܐ ܕܝܼܠܝ ܩܕܝܼܫܵܐ ܡܵܪܝ <note place="foot" xml:id="ftn1"
                             n="1"><p xml:lang="en" rend="footnote text">M<hi rend="subscript">2</hi>
-                                omits</p></note> ܦܵܦܵܐ ܦܵܛܪܝܲܪܟܿܝܼܣ : ܐܹܘܣܹܒܿܝܼܣ ܐܲܚܘܼܟ : ܣܵܓܕ ܠܵܟ. 
+                                omits</p></note> ܦܵܦܵܐ ܦܵܛܪܝܲܪܟܿܝܼܣ : ܐܹܘܣܹܒܿܝܼܣ ܐܲܚܘܼܟ : ܣܵܓܕ ܠܵܟ.
                         ܐܝܟ ܕܠܵܐ ܡܹܬܼܚܲܦܸܐ ܫܘܼܒܼܚܹܗ ܕܐܼܠܵܗܵܐ܆ ܐܦܵܠܵܐ ܢܸܨܚ̈ܢܹܐ ܕܩܲܕܝ̈ܫܵܘܗܝ.
                         ܦܲܢܛܲܩܪܲܐܲܛܘ ܙܲܟܵܝܵܐ ܩܘܼܣܛܲܢܛܝܼܢܘܿܣ ܡܲܠܟܵܐ ܡܒܲܪܟܵܐ ܕܲܠܥܠܲܡ܆ ܥܲܡ ܐܸܡܹܗ
-                        ܡܲܠܟܬܼܵܐ ܡܗܲܝܡܲܢܬܿܐ ܇ ܚܕܵܘ ܒܢܹܨܚܵܢ̈ܝܟ<note place="foot" xml:id="ftn2" n="2"
+                        ܡܲܠܟܬܼܵܐ ܡܗܲܝܡܲܢܬܿܐ ܇ ܚܕܵܘ ܒܢܹܨܚܵܢ̈ܝܟ <note place="foot" xml:id="ftn2" n="2"
                                 ><p xml:lang="en" rend="footnote text">BM<hi rend="subscript">2</hi>
                                 omit seyome</p></note>. ܘܐܸܬܿܕܲܡܲܪܘ ܒܬܼܕܡܪ̈ܬܟ. ܘܐܲܝܟ ܕܲܒܼܗܹܪ̈ܘܿܡܹܐ
                         ܪܹ̈ܫܵܝܹܐ ܐܬܒܲܣܲܡܼܘ ܒܫܸܡ̈ܥܸܐ ܫܲܪܝܼܼܪܹ̈ܐ ܕܕܘܼܒܵܪ̈ܝܟ ܐܲܠܗܝܹ̈ܐ : ܘܐܵܦ
                         ܢܸܬܼܒܲܪܟܼܘܼܢ ܡܼܢ ܪܲܒܿܘܼܬܼ ܟܵܗܢܘܬܼܟܼܘܢ ܆ ܘܡܼܢ ܟܘܼܪܣܝܵܐ ܩܲܕܝܼܫܵܐ ܕܡܵܪܝ ܬܐܘܿܡܵܐ
-                        ܫܠܝܼܚܵܐ܇ ܕܡܚܝܵܢ<note place="foot" xml:id="ftn3" n="3"><p xml:lang="en"
+                        ܫܠܝܼܚܵܐ܇ ܕܡܚܝܵܢ <note place="foot" xml:id="ftn3" n="3"><p xml:lang="en"
                                 rend="footnote text">M<hi rend="subscript">1</hi> ܕܡܲܬܼܩܲܢ ; EAM<hi
-                                    rend="subscript">3</hi> ܕܡ ـܢ ; C ܕܡܟܲܝܢ</p></note>  ܠܐܕܝ ܫܠܝܼܚܵܐ
+                                    rend="subscript">3</hi> ܕܡ ـܢ ; C ܕܡܟܲܝܢ</p></note> ܠܐܕܝ ܫܠܝܼܚܵܐ
                         ܇ ܐܲܝܟ ܡܲܫܠܡܵܢܘܼܬܼܵܐ ܕܥܹܕܬܵܐ. ܡܲܐܢܝ̈ ܬܹܫܡܸܫܬܵܐ ܥܼܒܲܕܘ ܘܫܲܕܿܪܘ ܠܟܼܘܿܢ ܥܡ
-                        ܫܐܠܬܸ<note place="foot" xml:id="ftn4" n="4"><p xml:lang="en"
+                        ܫܐܠܬܸ <note place="foot" xml:id="ftn4" n="4"><p xml:lang="en"
                                 rend="footnote text">M<hi rend="subscript">1</hi> ܫܐܠܬܐ ; C ܫܹܐܲܠܬܼ
-                                ; B ܫܹܐܠܬܗܘܢ</p></note>  ܫܠܵܡܗܘܿܢ<note place="foot" xml:id="ftn5"
+                                ; B ܫܹܐܠܬܗܘܢ</p></note> ܫܠܵܡܗܘܿܢ <note place="foot" xml:id="ftn5"
                             n="5"><p xml:lang="en" rend="footnote text">C ܫܠܵܡܟܼܘܿܢ (similarly in
                                     M<hi rend="subscript">2</hi>, where a later hand corrects, in
-                                pencil).</p></note>  ܕܒܼܣܩܪܐܣ<note place="foot" xml:id="ftn6" n="6"
+                                pencil).</p></note> ܕܒܼܣܩܪܐܣ <note place="foot" xml:id="ftn6" n="6"
                                 ><p xml:lang="en" rend="footnote text">M<hi rend="subscript">2</hi>
-                                ܕܲܒܣܲܩܪܣ</p></note> . ܩܲܒܹܿܠ ܡܵܪܝ ܚܲܕܝܵܐܝܼܬܼ. ܘܣܝܼܡ ܥܘܼܗܕܵܢܗܘܢ ܒܓܵܘ
+                                ܕܲܒܣܲܩܪܣ</p></note>. ܩܲܒܹܿܠ ܡܵܪܝ ܚܲܕܝܵܐܝܼܬܼ. ܘܣܝܼܡ ܥܘܼܗܕܵܢܗܘܢ ܒܓܵܘ
                         ܥܹܕܬܵܟ. ܘܢܸܗܘܸܐ ܠܕܘܟܼܪܢܐ ܕܲܠܥܠܲܡ. ܘܡܼܢ ܝܲܡܵܐ ܕܒܼܘܼܪ̈ܟܵܬܼܟ ܆ ܢܸܫܬܲܦܼܥ
                         ܥܠܲܝܗܘܵܢ ܡܲܠܝܵܐܝܼܬܼ. ܘܲܥܠܲܝܢ ܘܥܲܠ ܡܕܝܢ̄ܬܐ ܗܵܕܐ ܆ ܘܲܠܟܼܠܹܗ ܐܼܘܚܕܵܢܲܢ. ܨܠܘܬܐ
-                        ܕܠܵܐ ܫܲܠܘܵܐ ܬܸܬܼܩܲܪܒܼ.  </p>
+                        ܕܠܵܐ ܫܲܠܘܵܐ ܬܸܬܼܩܲܪܒܼ. </p>
                 </div>
             </div>
             <div>
