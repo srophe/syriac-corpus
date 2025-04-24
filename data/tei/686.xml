@@ -130,8 +130,8 @@
                 <head>Preface</head>
                 <div xml:lang="eng">
                     <p xml:lang="eng">This text is a born-digital edition of the <hi rend="italic"
-                            >Letter from Judah Kyriakos, bishop of Jerusalem, to Papa bar
-                        Aggai</hi>. The letter is part of a corpus of eight letters representing the
+                        >Letter from Judah Kyriakos, bishop of Jerusalem, to <ref target="http://syriaca.org/person/669">Papa bar
+                        Aggai</ref></hi>. The letter is part of a corpus of eight letters representing the
                         correspondence of Papa bar Aggai, early 4th-century bishop of Seleucia, with
                         some exponents of the western political and religious power. Beside the <hi
                             rend="italic">Letter from Judah Kyriakos bishop of Jerusalem to
@@ -144,14 +144,14 @@
                 <div xml:lang="eng">
                     <p xml:lang="eng">This edition is based on the following manuscript witnesses: </p>
                     <div xml:lang="eng">
-                        <l>Erbil 509 (olim Alqoš 169/ Baghdad 509), f. 71r/v (E) (the most
-                                ancient and principal source, probably direct or indirect source for
-                                the later extant witnesses);</l>
+                        <l>Erbil 509 (olim Alqoš 169/ Baghdad 509), f. 71r/v (E) (the most ancient
+                            and principal source, probably direct or indirect source for the later
+                            extant witnesses);</l>
                         <l>Rome, Vatican Library, Borg. Sir. 82, f. 114v-115r (B);</l>
-                        <l>Birmingham, Mingana Collection Syr. 47, f. 34v-35r (M<hi
-                                rend="subscript">1</hi><hi>);</hi></l>
-                        <l>Birmingham, Mingana Collection Syr. 586, f. 103r/v (M<hi
-                                rend="subscript">3</hi><hi>);</hi></l>
+                        <l>Birmingham, Mingana Collection Syr. 47, f. 34v-35r (M<hi rend="subscript"
+                                >1</hi><hi>);</hi></l>
+                        <l>Birmingham, Mingana Collection Syr. 586, f. 103r/v (M<hi rend="subscript"
+                                >3</hi><hi>);</hi></l>
                         <l>Trichur, Chaldean Syrian Church, APSTCH THRI 65, f. 48r/v (A) (the
                             manuscript has been digitized, and it can be viewed <ref
                                 target="https://www.vhmml.org/readingRoom/view/511738"
@@ -163,62 +163,91 @@
                     </div>
                 </div>
                 <div xml:lang="eng">
-                    <p xml:lang="eng">This text has never been
-                        published in any prior edition.
-                    </p>
-                    <p xml:lang="eng">This edition should not be
-                        considered as definitive but as a still in-progress material.
-                    </p>
-                    <p rend="footnote text" xml:lang="eng">There is
-                        an old German translation of the entire corpus (based on the Syriac text
-                        preserved in ms Borg. Sir. 82) in O. Braun, "Der Briefwechsel des Katholikos
-                        Papa von Seleucia. Ein Beitrag zur Geschichte der ostsyrischen Kirche im vierten
-                        Jahrhundert",
-                        <hi rend="italic"> Zeitschrift für katholische Theologie </hi>18 (1894), pp. 163-182, 546-565.</p>
-                    <p xml:lang="eng">An English translation is
-                        provided along with the Syriac text.</p>
-                    <p xml:lang="eng">This edition is an outcome of
-                        the Marie Skłodowska-Curie Global Fellowship 2022 – Project "ForM - FORGED
-                        MEMORIES: the Church of Late Antique Iran and the West", funded by the European
-                        Commission.</p>
+                    <p xml:lang="eng">This text has never been published in any prior edition. </p>
+                    <p xml:lang="eng">This edition should not be considered as definitive but as a
+                        still in-progress material. </p>
+                    <p rend="footnote text" xml:lang="eng">There is an old German translation of the
+                        entire corpus (based on the Syriac text preserved in ms Borg. Sir. 82) in O.
+                        Braun, "Der Briefwechsel des Katholikos Papa von Seleucia. Ein Beitrag zur
+                        Geschichte der ostsyrischen Kirche im vierten Jahrhundert", <hi
+                            rend="italic"> Zeitschrift für katholische Theologie </hi>18 (1894), pp.
+                        163-182, 546-565.</p>
+                    <p xml:lang="eng">An English translation is provided along with the Syriac
+                        text.</p>
+                    <p xml:lang="eng">This edition is an outcome of the Marie Skłodowska-Curie
+                        Global Fellowship 2022 – Project "ForM - FORGED MEMORIES: the Church of Late
+                        Antique Iran and the West", funded by the European Commission.</p>
                 </div>
             </div>
         </front>
         <body>
             <div type="text">
-                <p xml:lang="syr"><note place="foot" xml:id="ftna" n="a"><p> E 71r; A 48r; B 114v; C 12r;
-                                <hi>M</hi><hi rend="subscript">1</hi> 34v; <hi>M</hi><hi
-                                rend="subscript">3</hi> 103r</p></note> ܐ̄ܚܪܬܼܐ ܕܝܗܘܕܐ ܩܘܼܪܝܵܩܘܿܣ
-                    ܐܲܦܸܝܣܩܘܦܐ ܕܐܘܿܪܸܫܠܸܡ ܠܘܵܐܹܗ ܕܦܵܦܵܐ.</p>
-                <p xml:lang="syr"> ܠܦܵܦܝܲܐ ܦܵܦܵܐ ܪܲܒܵܐ ܕܟܼܵܗ̈ܢܐ ܘܪܸܫܵܐ <note place="foot" xml:id="ftnb" n="b"><p> B
-                            115r; <hi>M</hi><hi rend="subscript">1</hi> 35r</p></note>
-                        ܕܐܸܘܲܢܓܲܠܣ̈ܛܐ:<note place="foot" xml:id="ftn1" n="1"><p>
+                <head><hi rend="bold">Text</hi></head>
+                <p xml:lang="syr"> ܐ̄ܚܪܬܼܐ ܕܝܗܘܕܐ ܩܘܼܪܝܵܩܘܿܣ
+                    ܐܲܦܸܝܣܩܘܦܐ ܕܐܘܿܪܸܫܠܸܡ ܠܘܵܐܹܗ ܕܦܵܦܵܐ.<note place="foot" xml:id="ftna" n="a"><p> E 71r; A 48r; B 114v; C
+                        12r; <hi>M</hi><hi rend="subscript">1</hi> 34v; <hi>M</hi><hi
+                            rend="subscript">3</hi> 103r</p></note></p>
+                <p xml:lang="syr"> ܠܦܵܦܝܲܐ ܦܵܦܵܐ ܪܲܒܵܐ ܕܟܼܵܗ̈ܢܐ ܘܪܸܫܵܐ <note place="foot"
+                        xml:id="ftnb" n="b"><p> B 115r; <hi>M</hi><hi rend="subscript">1</hi>
+                            35r</p></note> ܕܐܸܘܲܢܓܲܠܣ̈ܛܐ: <note place="foot" xml:id="ftn1" n="1"><p>
                             <hi>M</hi><hi rend="subscript">1</hi> adds (ܟܹܐܡܲܬܼ ܕܐܲܪܒܿܥܐ
-                            ܦܵܛܪܝܪ̈ܟܹܐ)</p></note> ܝܼܗܘܼܕܵܐ ܩܘܼܪܝܵܩܘܿܣ ܠܪܒܿܘܼܬܼ ܟܵܗܢܘܼܬܼܵܟ ܒܡܵܪܢ ܆
+                            ܦܵܛܪܝܪ̈ܟܹܐ)</p></note> ܝܼܗܘܼܕܵܐ ܩܘܼܪܝܵܩܘܿܣ ܠܪܒܿܘܼܬܼ ܟܵܗܢܘܼܬܼܵܟ ܒܡܵܪܢ ܆ 
                     ܣܵܓܹܿܕ. ܐܸܫܲܥܝܵܐ ܢܒܼܝܼܵܐ ܩܲܕܡ ܐܼܡܲܪ ܥܠܲܝܟ. ܘܥܲܠ ܩܲܕܿܝܼ̈ܫܹܐ ܕܐܲܟܼܘܵܬܼܟ ܕܬܫܒܘܚܬܗ
-                    ܕܡܵܪܝܐ ܡܼܢ ܣܵܘ̈ܦܹܝܗܿ ܕܐܲܪܥܵܐ ܒܗܿܘܢ ܡܸܬܼܟܲܪܙܵܐ.<note place="foot" xml:id="ftnc"
-                        n="c"><p> C 12v</p></note> ܘܲܒܼܢܲܚ̈ܬܲܝ ܝܲܡܵܐ ܘܲܒܼܥܵܡܪ̈ܝ ܓܵܙܪ̈ܬܐ ܘܲܒܼܥܵܡܪ̈ܝ
+                    ܕܡܵܪܝܐ ܡܼܢ ܣܵܘ̈ܦܹܝܗܿ ܕܐܲܪܥܵܐ ܒܗܿܘܢ ܡܸܬܼܟܲܪܙܵܐ. <note place="foot" xml:id="ftnc"
+                        n="c"><p> C 12v</p></note> ܘܲܒܼܢܲܚ̈ܬܲܝ ܝܲܡܵܐ ܘܲܒܼܥܵܡܪ̈ܝ ܓܵܙܪ̈ܬܐ ܘܲܒܼܥܵܡܪ̈ܝ 
                     ܡܲܕܒܿܪܐ. ܘܡܼܢ ܪܸܫܵܐ ܕܛܘܼܪܹ̈ܐ ܢܸܩܥܘܲܢ ܡܼܢ ܚܘܼܠܵܢܝ̈ܗܘܢ. ܘܲܢܫܲܒܿܚܘܼܢ ܝܵܬܼܒܲܝ̈
-                    ܫܩܝܼ̈ܦܹܐ܆ ܒܩܵܠܐ ܕܩܘܼ̈ܕܵܫܲܝܗܘܿܢ. ܒܣܸܡ<note place="foot" xml:id="ftn2" n="2"><p
-                            rend="Note Text" style="text-align: left; "> C ܒܣܸܡܘ</p></note> ܡܵܪܝ
-                        ܘܥܕܪܬܿ<note place="foot" xml:id="ftn3" n="3"><p>
-                            <hi>M</hi><hi rend="subscript">1 </hi>C ܘܥܲܕܪܘ</p></note> ܠܲܡܕܝܼܢ̄ܬܢ
+                    ܫܩܝܼ̈ܦܹܐ܆ ܒܩܵܠܐ ܕܩܘܼ̈ܕܵܫܲܝܗܘܿܢ. ܒܣܸܡ <note place="foot" xml:id="ftn2" n="2"><p
+                            rend="Note Text" style="text-align: left; "> C ܒܣܸܡܘ</p></note> ܡܵܪܝ 
+                        ܘܥܕܪܬܿ <note place="foot" xml:id="ftn3" n="3"><p>
+                            <hi>M</hi><hi rend="subscript">1 </hi>C ܘܥܲܕܪܘ</p></note> ܠܲܡܕܝܼܢ̄ܬܢ 
                     ܩܲܕܿܝܫܼܬܐ ܇ ܚܲܫܹ̈ܐ ܣܒܼܝܼ̈ܣܹܐ ܘܐܘܼܠܨ̈ܢܹܐ ܥܲܡܘܼ̈ܛܹܐ ܕܲܒܼܗܘܿܢ ܐܸܬܼܢܲܨܲܚܼܬܿ܆
                     ܒܲܡܣܲܝܒܿܪܢܘܼܬܼܵܟ ܕܲܒܼܟܼܠܗܘܿܢ ܐܵܓܘܿܢܝ̈ܟ ܘܢܸܣܝܘܿܢܝ̈ܟ ܕܡܼܢ ܚܲܢ̈ܦܸܐ. ܘܥܵܩܬܵܐ
                     ܘܚܲܕܘܼܬܼܐ ܬܲܪ̈ܬܲܝܗܹܝܢ ܐܸܫܬܲܠܛ ܒܲܢ܆ ܥܵܩܬܼܐ̣ ܡܸܛܠ ܟܲܪܝܘܼܬܲܢ ܥܲܠ <note place="foot"
                         xml:id="ftnd" n="d"><p>
-                            <hi>M</hi><hi rend="subscript">3</hi> 103v</p></note> ܪܲܒܿܘܼܬܼ
+                            <hi>M</hi><hi rend="subscript">3</hi> 103v</p></note> ܪܲܒܿܘܼܬܼ 
                     ܟܲܗܢܘܼܬܼܵܟ. ܘܚܲܕܘܬܼܵܐܼ ܕܢܨܚܼܬܿ ܘܲܫܩܲܠܬܿ ܟܠܝܼܠܵܐ ܕܙܵܟܼܘܼܬܼܵܐ. ܘܪܲܡܪܸܡܼܬܿ ܠܥܹܕܬܵܐ
                     ܒܡܘܼܟܵܟܼܵܟ ܕܥܲܠ ܐܲܦܹܝ̈ܗܿ. ܘܗܸܢܹܝ̈ܢ ܗܵܠܹܝܢ ܡܼܢ ܣܲܓܝܼ̈ܐܐ ܐܸܬܿܛܒܒܿ ܒܡܲܫܡܲܥܬܼܵܐ
-                    ܕܗܹܠܹܢܹܐ <note place="foot" xml:id="ftne" n="e"><p> A 48v</p></note> ܡܲܠܟܿܬܼܵܐ.
+                    ܕܗܹܠܹܢܹܐ <note place="foot" xml:id="ftne" n="e"><p> A 48v</p></note> ܡܲܠܟܿܬܼܵܐ. 
                     ܘܐܝܟ ܕܨܵܒܲܝܵܐ ܕܲܒܼܟܼܠܗܘܿܢ ܐܬܪ̈ܘܬܼܵܐ ܕܬܹܒܼܢܹܐ ܘܲܬܼܪܡܪܸܡ ܥܹܕܿܬܹܗ ܕܡܫܝܼܚܵܐ ܒܟܼܠ
                     ܨܹܒܼܬ̈ܝܼܢ ܆ <note place="foot" xml:id="ftnf" n="f"><p> E 71v</p></note>
-                    ܝܲܬܿܝܼܪܐܝܼܬܼ ܆ ܒܲܡܕܝܼ̈ܢܵܬܼܐ ܪܵܘܪ̈ܒܼܵܬܼܐ ܆ ܨܵܒܲܝܵܐ ܕܒܲܡܕܝܼܢ̄ܬܵܐ ܕܝܼܠܟܼܘܿܢ ܣܵܠܸܝܼܩ
+                    ܝܲܬܿܝܼܪܐܝܼܬܼ ܆ ܒܲܡܕܝܼ̈ܢܵܬܼܐ ܪܵܘܪ̈ܒܼܵܬܼܐ ܆ ܨܵܒܲܝܵܐ ܕܒܲܡܕܝܼܢ̄ܬܵܐ ܕܝܼܠܟܼܘܿܢ ܣܵܠܸܝܼܩ 
                     ܬܹܒܼܢܹܐ ܥܸܕܿܬܵܐ ܠܡܵܪܝܵܐ ܡܫܝܼܚܵܐ. ܘܒܼܵܥܝܵܐ ܡܲܦܣܵܢܘܼܬܼܵܐ ܡܼܢ ܐܲܒܼܵܗܘܼܬܼܟܼܘܿܢ. ܘܥܲܡ
                     ܡܲܦܣܵܢܘܼܬܼܐ ܡܸܠܟܵܐ. ܘܐܲܝܟ ܕܡܸܢܵܗܿ ܐܬܼܦܩܿܕܬܼ ܠܪܒܿܘܼܬܼ ܟܵܗܢܘܼܬܼܟܼܘܿܢ ܟܹܬܼܒܹܿܬܼ.
                     ܐܲܢ̄ܬܿ ܕܹܝܢ ܡܵܪܝ. ܐܲܝܟ ܪܚܡܲܬܸ ܐܲܠܵܗܵܐ ܕܒܼܵܟ܆ ܣܥܼܘܿܪ. ܘܐܵܘܕܲܥܹܝܗܿ ܐܲܝܕܵܐ ܕܥܵܕܪܐ
                     ܠܗܿ. ܟܲܕ ܡܸܬܼܚܲܪܪܐ ܡܼܢ ܟܸܫܠܵܐ. ܨܲܠܵܐ ܥܠܲܝܢ܆ ܘܥܲܠ ܡܲܠܟܵܐ ܙܲܟܵܝܐ ܒܪܵܗܿ
                     ܩܘܼܣܛܲܢܛܝܼܢܘܿܣ: ܘܥܲܠ ܟܠܗܘܿܢ ܦܵܠܚܹ̈ܐ ܕܡܲܠܟܿܘܼܬܹܗ.</p>
+            </div>
+            <div type="translation">
+                <head><hi rend="bold">Translation</hi></head>
+                <div type="rubric">
+                    <p xml:lang="en">Another [letter] from Judah Kyriakos, bishop of Jerusalem, to
+                        Papa. </p>
+                </div>
+                <div>
+                    <p xml:lang="en">To Father Papa, high priest and first of the evangelists (sic)
+                        , Judah Kyriakos pays respect to your high priesthood in our Lord. The
+                        prophet Isaiah has predicted about you and about the saints like you: The
+                        glory of the Lord is proclaimed through them from the ends of the world, and
+                        by the sailors (lit. those who go down to the sea) and the ones who inhabit
+                        the islands and those who live in the desert; and from the top of the
+                        mountains may they cry out from their caverns, and may those who sit on
+                        steep rocks glorify in the voice of their holiness (cf. Isaiah 42, 10-11).
+                        Rejoice, my lord. You helped our holy city. [There was] frequent suffering
+                        and dark oppression in which you triumphed by your endurance in all your
+                        struggles and trials from the pagans. Both distress and joy occupied us: the
+                        distress caused by our sadness on your high priesthood’s behalf, and joy,
+                        since you triumphed and received the crown of victory, and you exalted your
+                        church through your lowliness on its behalf. And these are those things
+                        among many that were reported in Empress Helen’s hearing. Accordingly, she
+                        desires to build up in all places and exalt the church of Christ with every
+                        adornment, especially in the great cities. She desires that in your city of
+                        Seleucia, a church be built to the Lord Christ. And she seeks permission
+                        from your Fatherhood, and with the permission, counsel. And since I was
+                        commanded by her, I wrote to your high priesthood. You, then, my lord, as a
+                        friend of the God who [is] with you, provide and show her [your] helpful
+                        hand, while not taking offense. Pray for us and for the victorious emperor,
+                        her son Constantine, and for all the servants of his kingdom. </p>
+                </div>
             </div>
         </body>
     </text>
