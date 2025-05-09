@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a">Letter of the queen Helena to Papa bar Aggai</title>
+                <title level="s">Digital Syriac Corpus</title>
+                <author>Queen Helena</author>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dtaylor">David G.K. Taylor,
+                    University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="general editor" ref="http://syriaca.org/person.xml#jwalters">James E.
+                    Walters, Rochester College</editor>
+                <respStmt>
+                    <resp>TEI XML encoding by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#adirienzo">Annunziata Di
+                        Rienzo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#adirienzo">Annunziata Di
+                        Rienzo</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+                <respStmt>
+                    <resp>edited by</resp>
+                    <name>
+                        <persName>
+                            <forename>Annunziata</forename>
+                            <surname>Di Rienzo</surname>
+                        </persName>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
+                </distributor>
+                <authority>Digital Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/687</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">Creative Commons — Attribution 4.0 International — CC BY
+                            4.0</p>
+                        <p xml:lang="en">https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                    <ab>
+                        <note>This electronic edition is designed for open access reuse. The Syriac
+                            base text is in the public domain. The TEI XML edition is copyrighted by
+                            James E. Walters and is released under a Creative Commons Attribution
+                            4.0 International Public License (CC BY 4.0).</note>
+                    </ab>
+                    <ab>
+                        <note>The HTML page is copyrighted by Vanderbilt University and released
+                            under a under a Creative Commons Attribution 4.0 International Public
+                            License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+                            Attribution for reuse should follow the suggested citation and also
+                            credit the copyright holder of the TEI XML edition.</note>
+                    </ab>
+
+                </availability>
+                <date calendar="Gregorian"
+                    ><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p xml:lang="en">Digital Syriac Corpus is collaboration of University of Oxford,
+                    Brigham Young University, Vanderbilt University, and the Center of Digital
+                    Humanities Research (CoDHR) at Texas A&amp;M University. </p>
+
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+            <creation>
+                <origDate type="composition" from="0300" to="0400">4th century</origDate>
+            </creation>
+        </profileDesc>
+        <revisionDesc status="ProofedDigitalEdition">
+            <change when="2025-05-09" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="BornDigitalDiplomaticEdition">
+        <front>
+            <div type="title">
+                <bibl>
+                    <title>Letter of the queen Helena to Papa bar Aggai</title>
+                    <editor>
+                        <name type="person">Annunziata Di Rienzo</name>
+                    </editor>
+                </bibl>
+            </div>
+            <div type="preface" xml:lang="en">
+                <head>Preface</head>
+                <div xml:lang="en">
+                    <p xml:lang="en">This text is a born-digital edition of the <hi rend="italic"
+                            >Letter of the <ref target="https://syriaca.org/person/1265">queen
+                                Helena</ref> to <ref target="http://syriaca.org/person/669">Papa bar
+                                Aggai</ref></hi>. The letter is part of a corpus of eight letters
+                        representing the correspondence of Papa bar Aggai, early 4th-century bishop
+                        of Seleucia, with some exponents of the western political and religious
+                        power. Beside the <hi rend="italic">Letter of the queen Helena to Papa</hi>,
+                        the corpus includes: a letter from Eusebius of Rome to Papa, a letter from
+                        Judah Kyriakos bishop of Jerusalem to Papa, a letter from Papa to the
+                        Empress Helena, a letter from Jacob bishop of Nisibis to Papa, a letter from
+                        Ephrem to Papa, a letter from Papa to the citizens of Nisibis, the letter
+                        sent by the Western Fathers on the illegal removal of Papa.</p>
+                </div>
+                <div xml:lang="en">
+                    <p xml:lang="en">This edition is based on the following manuscript witnesses: </p>
+                    <div xml:lang="en">
+                        <p xml:lang="en">Erbil 509 (olim Alqoš 169/ Baghdad 509), f. 71v (E) (the
+                            most ancient and principal source, probably direct or indirect source
+                            for the later extant witnesses);</p>
+                        <p xml:lang="en">Rome, Vatican Library, Borg. Sir. 82, f. 115r/v (B);</p>
+                        <p xml:lang="en">Birmingham, Mingana Collection Syr. 47, f. 35r/v (M<hi
+                                rend="subscript">1);</hi></p>
+                        <p xml:lang="en">Birmingham, Mingana Collection Syr. 586, f. 103v-104r (M<hi
+                                rend="subscript">3);</hi></p>
+                        <p>Trichur, Chaldean Syrian Church, APSTCH THRI 65, f. 48v (A) (the
+                            manuscript has been digitized, and it can be viewed <ref
+                                target="https://www.vhmml.org/readingRoom/view/511738"
+                                >here</ref><hi>);</hi></p>
+                        <p>Baghdad, Chaldean Catholic Church. Patriarchate of Baghdad 377, f. 13r/v
+                            (C) (the manuscript has been digitized, and it can be viewed <ref
+                                target="https://www.vhmml.org/readingRoom/view/609956"
+                            >here</ref>).</p>
+                    </div>
+
+                    <div xml:lang="en">
+                        <p xml:lang="en">This text has never been published in any prior edition. </p>
+                        <p xml:lang="en">This edition should not be considered as definitive but as
+                            a still in-progress material.</p>
+                        <p xml:lang="en">There is an old German translation of the entire corpus
+                            (based on the Syriac text preserved in ms Borg. Sir. 82) in O. Braun,
+                            "Der Briefwechsel des Katholikos Papa von Seleucia. Ein Beitrag zur
+                            Geschichte der ostsyrischen Kirche im vierten Jahrhundert", <hi
+                                rend="italic"> Zeitschrift für katholische Theologie </hi><hi>18
+                                (1894), pp. 163-182, 546-565.</hi></p>
+                        <p xml:lang="en">An English translation is provided along with the Syriac
+                            text.</p>
+                        <p xml:lang="en">This edition is an outcome of the Marie Skłodowska-Curie
+                            Global Fellowship 2022 – Project "ForM - FORGED MEMORIES: the Church of
+                            Late Antique Iran and the West", funded by the European Commission.</p>
+                    </div>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div type="text">
+                <head><hi rend="bold">Text</hi></head>
+                <div type="rubric">
+                    <p xml:lang="syr"><note place="foot" xml:id="ftna" n="a"><p> B 115r/229;
+                                    M<hi rend="subscript">1</hi> 35r; A 48v; E 71v; C 13r;
+                                    M<hi rend="subscript">3</hi> 103v</p></note> [ܐܓܪܬܐ]<note
+                            place="foot" xml:id="ftn1" n="1"><p> M<hi rend="subscript">1</hi>C
+                                add</p></note> ܕܗܹܠܹܢܹܐ ܡܠܟܬܐ ܠܘܬܗ ܕܦܵܦܐ.</p>
+                </div>
+                    <div type="body">
+                        <p xml:lang="syr"> ܠܪܒ ܟܗ̈ܢܐ ܕܡܫܝܚܐ ܘܢܘܣܐ ܕܟܝܐ: ܒܝܬ ܡܫܪܝܐ ܕܪܘܚܐ ܕܩܘܕܫܐ ܡܪܐ
+                            ܕܝܠܝ ܡܪܝ ܦܵܦܵܐ ܦܛܪܝܪܟܝܣ ܕܡܕܢܚܐ : ܐܡܬܟ ܗܹܠܹܢܐ ܒܬܟܫܦܬܐ ܣܓܕܬܐ ܠܪ̈ܓܠܝܟ
+                            ܩܕܝ̈ܫܬܐ ܡܩܪܒܐ. ܡܢܐ ܐܦܪܘܥ ܠܡܪܝܐ ܕܟܠܗܘܢ ܦܘܪ̈ܥܵܢܘܗܝ ܥܠܝ. ܕܐܢ̄ܬܬܐ ܚܛܝܬܐ
+                            ܕܐܟܘܬܝ܆ ܠܩܕܝ̈ܫܐ ܘܟܗ̈ܢܐ ܕܐܟܘܬܟܘܢ ܐܓܪܬܐ ܘܣܹܩܪܐܣ ܒܦܪܗܣܝܐ ܬܟܬܘܒ ܘܬܫܕܪ.
+                            ܝܸܠܦܸܬ ܡܪܝ ܡܼܢ ܠܒܗ ܕܐܠܗܐ ܕܘܝܕ ܕܐܡ̇ܪ: ܕܐܫܒܚ ܠܡܪܝܐ <note place="foot"
+                                xml:id="ftnb" n="b"><p>
+                                    M<hi rend="subscript">1</hi> 35v</p></note> ܒܚܝܝ̈:
+                                ܘܐܙܡܪ ܠܐܠܗܝ ܥܕ ܩܝܵܡ ܐ̄ܢܐ. ܐܦ ܐܢܐ ܡܪܝ ܪܲܢܹܬܼ ܒܢܦܫܝ܆ <note
+                                place="foot" xml:id="ftnc" n="c"><p> B 115v/230</p></note> ܕܟܕ
+                                ܡܫܝܚܐ ܠܗܕܐ ܟܠܗܿ ܪܒܘܬܐ ܩܪܼܐ ܠܢ܆ ܘܠܒܪܟ ܩܘܣܛܢܬܝܢܘܣ ܝܗܼ̄ܒ ܠܗ ܙܟܘܬܐ ܥܠ
+                                ܟܠܗܘܢ<note place="foot" xml:id="ftn2" n="2"><p> B om
+                                </p></note> ܒܥܠܕܒܒܘ̈ܗܝ : ܒܚܝܠܐ ܘܒܥܘܕܪܢܐ܆ ܒܢܝܫܗ ܪܒܐ ܕܨܠܝܒܐ
+                                ܕܒܓܠܝܢܗ ܕܡܼܢ ܫܡܝܐ ܐܣܬܚܸܦ<note place="foot" xml:id="ftn3" n="3"
+                                    ><p> B
+                                        ܐܣܬܿܚܸܦܘ</p></note> ܡܫܪ̈ܝܬܐ ܕܒܥܠܕܒܒ̈ܐ. ܘܐܬܬܪܝܡܬܸ
+                                ܩܪܢܗܿ ܕܥܕܬܐ ܩܕܝܫܬܐ܆ ܨܵܒܝܐ ܐ̄ܢܐ ܕܐܦ ܐܢܐ ܐܘܪܒ ܫܡܗ ܕܡܫܝܚܐ ܒܟܠ ܐܬܿܪ
+                                ܒܥܕܬ̈ܐ ܕܒܲܢܝܐ ܐ̄ܢܐ. ܘܒܗܕܪܐ ܘܲܒܨܒܬܐ ܕܬܨܒ̈ܝܬܐ ܒܟܠ ܙܢܝܢ̈ . ܘܒܬܫܡܫܬܐ
+                                ܙܗܝܬܐ ܕܟܗ̈ܢܐ : <note place="foot" xml:id="ftnd" n="d"><p>
+                                    M<hi rend="subscript">3</hi> 104r</p></note>
+                                ܘܒܩܘܒܠܐ ܕܣܢܝ̈ܩܐ ܆ ܗܫܐ ܡܪܝ ܕܐܝܿܕܐ ܗ̄ܝܼ ܕܥܵܕܪܐ ܠܡܣܥܪ ܒܦܢܝܬܟܘܢ܆ ܘܒܟܡܐ
+                                ܡܕܝ̈ܢܬܐ ܦܩܚܐ ܠܡܒܢܐ. ܘܐܢ ܐܝܬ ܡܥܲܟܪܢܐ ܘܐܢ ܠܝܬ. ܥܠ ܗܠܝܢ ܠܚܛܝܘܬܝ
+                                ܒܟܬܝ̈ܒܬܟ ܢܬܝܕܥ. ܒܐܝܼܕܐ<note place="foot" xml:id="ftne" n="e"
+                                    ><p> C 13v</p></note> ܕܒܪܟ ܘܬܠܡܝܕܟ ܩܕܝܫܐ ܝܥܩܘܒ ܐܦܝܣܩܘܦܐ
+                                ܕܲܢܨܝܒܝܢ. ܘܨܿܠܐ ܥܠܝܢ ܘܥܠ ܒܪܟ ܩܘܣܛܢܛܝܢܘܣ ܡܠܟܐ ܘܥܠ ܟܠܗܿ ܡܕܒܪܢܘܬܗ
+                                ܕܒܨܠܘܬ̈ܟ ܬܸܨܠܚ ܒܟܠ ܥܒܼܕ ܛܒ ܘܡܫܲܠܡܢ.</p>
+                    </div>
+
+            </div>
+            <div type="translation">
+                <head><hi rend="bold">Translation</hi></head>
+                <div type="rubric">
+                    <p xml:lang="en">[Letter] of the queen Helena to Papa</p>
+                </div>
+                <div type="body" xml:lang="en">
+                    <p xml:lang="en">To the high priest of Christ and pure temple, the
+                        dwelling-place of the Holy Spirit, my lord Mar Papa, patriarch of the East;
+                        your servant Helena, in supplication, offers adoration to your holy feet. </p>
+                    <p xml:lang="en">How shall I recompense the Lord of all his gifts [given] to me,
+                        that a sinful woman like me with parrhesia can write and send letter and
+                        sacra (i.e. imperial rescripts) to saints and priests like you. I have
+                        learned, my lord, from David, the [man after] God’s own heart, who said: <hi
+                            rend="italic">I will glorify the Lord with my life, and I will sing to
+                            my God as long as I exist</hi> (cf. Ps 146, 2). My lord, I have
+                        meditated as well within myself that as Christ designated all this greatness
+                        for us and gave my son Constantine victory over all his enemies, through
+                        [his] power and aid, and through his great sign of the Cross that [was] in a
+                        revelation that [he had] from the sky that the enemy armies were defeated,
+                        and through the horn of the holy Church was exalted, I desire as well to
+                        make great the name of Christ in every land through the churches that I
+                        build, and through the honor and the decoration of adornments in every way,
+                        with the honorable liturgical office of the priests and the hospitality for
+                        the poor. Now, my lord, inform me, a sinner, in your writings, through your
+                        son and disciple the holy Jacob bishop of Nisibis whether there is anything
+                        useful [I could] to provide in your region, or how many churches would be
+                        advantageous to build, and whether there is anything that impedes or this or
+                        not. And pray for us, and for my son, the king Constantine, and for his
+                        entire government, that, through your prayers, he may greatly and fully
+                        prosper in everything he does.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a">Letter from the saint Papa to the queen
+                    Helena</title>
+                <title level="s">Digital Syriac Corpus</title>
+                <author>Papa bar Aggai</author>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dtaylor">David G.K. Taylor,
+                    University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="general editor" ref="http://syriaca.org/person.xml#jwalters">James E.
+                    Walters, Rochester College</editor>
+                <respStmt>
+                    <resp>TEI XML encoding by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#adirienzo">Annunziata Di
+                        Rienzo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#adirienzo">Annunziata Di
+                        Rienzo</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+                <respStmt>
+                    <resp>edited by</resp>
+                    <name>
+                        <persName>
+                            <forename>Annunziata</forename>
+                            <surname>Di Rienzo</surname>
+                        </persName>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
+                </distributor>
+                <authority>Digital Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/688</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">Creative Commons — Attribution 4.0 International — CC BY
+                            4.0</p>
+                        <p xml:lang="en">https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                    <ab>
+                        <note>This electronic edition is designed for open access reuse. The Syriac
+                            base text is in the public domain. The TEI XML edition is copyrighted by
+                            James E. Walters and is released under a Creative Commons Attribution
+                            4.0 International Public License (CC BY 4.0).</note>
+                    </ab>
+                    <ab>
+                        <note>The HTML page is copyrighted by Vanderbilt University and released
+                            under a under a Creative Commons Attribution 4.0 International Public
+                            License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+                            Attribution for reuse should follow the suggested citation and also
+                            credit the copyright holder of the TEI XML edition.</note>
+                    </ab>
+
+                </availability>
+                <date calendar="Gregorian"
+                    ><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p xml:lang="en">Digital Syriac Corpus is collaboration of University of Oxford,
+                    Brigham Young University, Vanderbilt University, and the Center of Digital
+                    Humanities Research (CoDHR) at Texas A&amp;M University. </p>
+
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+            <creation>
+                <origDate type="composition" from="0300" to="0400">4th century</origDate>
+            </creation>
+        </profileDesc>
+        <revisionDesc status="ProofedDigitalEdition">
+            <change when="2025-05-09" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="BornDigitalDiplomaticEdition">
+        <front>
+            <div type="title">
+                <bibl>
+                    <title>Letter from the saint Papa to the queen Helena</title>
+                    <editor>
+                        <name type="person">Annunziata Di Rienzo</name>
+                    </editor>
+                </bibl>
+            </div>
+            <div type="preface" xml:lang="en">
+                <head>Preface</head>
+                <div xml:lang="en">
+                    <p xml:lang="en">This text is a born-digital edition of the <hi rend="italic"
+                            >Letter from the <ref target="http://syriaca.org/person/669">saint
+                                Papa</ref> to the <ref target="https://syriaca.org/person/1265"
+                                >>queen Helena</ref></hi>. The letter is part of a corpus of eight
+                        letters representing the correspondence of Papa bar Aggai, early 4th-century
+                        bishop of Seleucia, with some exponents of the western political and
+                        religious power. Beside the <hi rend="italic">Letter from the saint Papa to
+                            the queen Helena</hi>, the corpus includes: a letter from Eusebius of
+                        Rome to Papa, a letter from Judah Kyriakos bishop of Jerusalem to Papa, a
+                        letter of the Empress Helena to Papa, a letter from Jacob bishop of Nisibis
+                        to Papa, a letter from Ephrem to Papa, a letter from Papa to the citizens of
+                        Nisibis, the letter sent by the Western Fathers on the illegal removal of
+                        Papa.</p>
+                </div>
+                <div xml:lang="en">
+                    <p xml:lang="en">This edition is based on the following manuscript witnesses: </p>
+                    <div xml:lang="en">
+                        <p xml:lang="en">Erbil 509 (olim Alqoš 169/ Baghdad 509), f. 71v-72r (E)
+                            (the most ancient and principal source, probably direct or indirect
+                            source for the later extant witnesses);</p>
+                        <p xml:lang="en">Rome, Vatican Library, Borg. Sir. 82, f. 115v-116r; 109v
+                            (B);</p>
+                        <p xml:lang="en">Birmingham, Mingana Collection Syr. 47, f. 35v-36r (M<hi
+                                rend="subscript">1);</hi></p>
+                        <p xml:lang="en">Birmingham, Mingana Collection Syr. 586, f. 104r/v (M<hi
+                                rend="subscript">3);</hi></p>
+                        <p>Trichur, Chaldean Syrian Church, APSTCH THRI 65, f. 48v-49r (A) (the
+                            manuscript has been digitized, and it can be viewed <ref
+                                target="https://www.vhmml.org/readingRoom/view/511738"
+                                >here</ref><hi>);</hi></p>
+                        <p>Baghdad, Chaldean Catholic Church. Patriarchate of Baghdad 377, f.
+                            13v/14v (C) (the manuscript has been digitized, and it can be viewed
+                                <ref target="https://www.vhmml.org/readingRoom/view/609956"
+                                >here</ref>).</p>
+                    </div>
+
+                    <div xml:lang="en">
+                        <p xml:lang="en">This text has never been published in any prior edition. </p>
+                        <p xml:lang="en">This edition should not be considered as definitive but as
+                            a still in-progress material.</p>
+                        <p xml:lang="en">There is an old German translation of the entire corpus
+                            (based on the Syriac text preserved in ms Borg. Sir. 82) in O. Braun,
+                            "Der Briefwechsel des Katholikos Papa von Seleucia. Ein Beitrag zur
+                            Geschichte der ostsyrischen Kirche im vierten Jahrhundert", <hi
+                                rend="italic"> Zeitschrift für katholische Theologie </hi><hi>18
+                                (1894), pp. 163-182, 546-565.</hi></p>
+                        <p xml:lang="en">An English translation is provided along with the Syriac
+                            text.</p>
+                        <p xml:lang="en">This edition is an outcome of the Marie Skłodowska-Curie
+                            Global Fellowship 2022 – Project "ForM - FORGED MEMORIES: the Church of
+                            Late Antique Iran and the West", funded by the European Commission.</p>
+                    </div>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div type="text">
+                <head><hi rend="bold">Text</hi></head>
+                <div type="rubric">
+                    <p xml:lang="syr"><note place="foot" xml:id="ftna" n="a"><p> E 71v; A 48v; B
+                                115v; <hi>M</hi><hi rend="subscript">1</hi> 35v; C 13v;
+                                    <hi>M</hi><hi rend="subscript">3</hi> 104r</p></note> ܕܡܼܢ ܩܕܝܫܐ
+                        ܦܦܐ ܠܘܬ ܗܹܠܹܢܐ ܡܠܟܬܐ.</p>
+                </div>
+                <div type="body">
+                    <p xml:lang="syr">ܠܐܡܐ ܒܪܝܟܬܐ ܡܠܟܬܐ ܡܗܝܡܢܬܐ ܗܹܠܹܢܐ: ܦܦܐ ܥܒܕܗ ܕܝܫܘܥ ܘܣܵܓܘܕܐ
+                        ܘܡܝܩܪܢܐ ܕܨܠܝܒܗ܆ ܫܠܵܡ. ܐܝܠܝܢ ܡܪܬܝ ܡܠܟܬܐ ܕܬܒܥܬܝ ܡܸܢܢ܆ ܠܐ ܣܦܩܝܢ ܙܘܥܝܢ̈ ܕܢܕܪܟ
+                        ܐܲܝܕܐ ܕܥܵܕܪܐ܇ ܘܢܟܬܘܒ ܠܟܝ. ܡܛܠ ܕܟܪ̈ܣܛܝܢܐ ܕܦܢܝܬܢ ܒܡܣܟܢܘܬܐ ܡܫܬܒܗܪܝܢ. ܘܒܐܣܘܪ̈ܐ
+                        ܘܒܐܘܠܨ̈ܢܐ ܕܓܢܸܣ ܓܢܸܣ. ܘܟܘܪܚܐ ܙܥܘܪܐ܆ ܪܘܝܼܚ ܗ̄ܘܼ ܠܒܝܬ ܨܠܘܬܐ ܕܝܠܢ. ܘܠܘ ܡܛܠ
+                        ܕܐܝܬܝܢ ܚܒܢ̈ܢܐ ܘܡܩܛ̈ܥܐ ܡܼܢ ܒܢܝ̈ܢܐ܇ ܐܠܐ ܡܛܠ ܕܠܐ ܢܥܘܠ ܥܠܲܝܢ ܚܣܡܐ ܕܚܢ̈ܦܐ ܒܝܕ
+                        ܒܢܝ̈ܢܐ ܪܘܪ̈ܒܐ܇ ܘܡܬܒܨܪ ܬܘܠܡܕܐ ܕܟܪܣܛܝܢܘܬܐ ܒܩܘܢܕܝܢܘܣ ܕܪ̈ܕܘܦܝܐ ܕܡܩܝܡܝܢ ܥܠܝܢ. ܘܐܦ
+                        ܬܫܡܫܬܐ ܕܡܢܟܘܢ ܐܫܬܕܪܬܸ ܠܢ܆ ܐܠܝܼܨܝܼܢܢ ܒܢܛܘܪܬܗܿ. ܘܕܢܦܩܝܗܿ ܠܓܠܝܐ ܘܢܫܡܫ ܒܗܿ ܆
+                        ܕܚܠܝܢܢ ܕܠܡܐ ܒܥܠܠܬ̈ܐ ܡܬܢܣܒܐ ܡܢܢ. ܘܠܐ ܗ̄ܘܼܵܐ<note place="foot" xml:id="ftn2"
+                            n="2"><p> E corrupted/lacuna; M<hi rend="subscript">3</hi>
+                            ܗܵܕܹܐ</p></note>ܒܠܚܘܕ ܡܼܢ ܚܢ̈ܦܐ ܩܢܛܝܢܢ܆ ܐܠܐ ܐܦ ܡܼܢ ܝܗܘ̈ܕܝܼܐ
+                            ܘܡܪ̈ܩܝܘܢܐ.<note place="foot" xml:id="ftn3" n="3"><p> M<hi
+                                    rend="subscript">1</hi> 36r</p></note> ܕܡܼܢ ܕܐܬܩܦܚܘ ܒܐܘܚܕܢܟܘܢ
+                            <note place="foot" xml:id="ftn4" n="4"><p> C 14r</p></note> ܒܫܘܠܛܢܐ
+                        ܕܡܠܟܘܬܟܘܢ܆ ܠܦܢܝܬܢ<note place="foot" xml:id="ftn5" n="5"><p> BC ܠܦܢܝܼܬܵܐ ; E
+                                corrupted/lacuna; M<hi rend="subscript">3</hi> ܠܣܲܢܝܘܼ </p></note>
+                        ܗܕܐ ܥܪܩܘ ܘܐܬܼܘ ܡܼܢ ܩܕܡ ܦܘܩܕܢܟܼܘܢ܆ ܣܢܐܬܐ ܡܫܡܠܝܬܐ ܐܘܣܸܦܘ<note place="foot"
+                            xml:id="ftn6" n="6"><p> E corrupted/lacuna; B om.</p></note> ܘܣܢܼܘ ܠܢ .
+                        ܘܒܟܠ ܙܒܢ ܡܪܟܒܝܢ ܥܠܝܢ ܥ̈ܠܠܬܐ <note place="foot" xml:id="ftn7" n="7"><p> B
+                                116r/231</p></note> ܕܓܠܬ̈ܐ. ܘܗܘܝܢ ܠܢ ܩܛܐܓܪ̈ܢܐ ܒܝܬ ܕܝ̈ܢܐ ܥܠܡܝ̈ܢܝܐ.
+                        ܚܢܢ ܗܵܠܝܹܢ ܕܠܘܬܢ ܕܢܟܬܘܒ ܘܢܘܕܥ ܠܟܝ ܐܝܟ ܟܪܝܼܗܐ ܕܡܚܘܐ ܟܐܒܗ ܘܟܘܪܗܢܗ ܠܐܣܝܐ. ܘܡܐ
+                        ܕܚܼܙܐ ܐܣܝܐ ܚܟܝܡܐ ܐܢ ܐܝܬ ܥܠܘܗܝ ܣܒܪܐ<note place="foot" xml:id="ftn8" n="8"><p>
+                                E corrupted/lacuna; AM<hi rend="subscript">3</hi> om (blank space);
+                                    M<hi rend="subscript">1</hi> ܣܲܡܵܐ</p></note> ܗܸܘ ܝܿܕܿܥ ܕܢܥܒܕ ܠܗ
+                        ܐܣܝܘܬܐ. ܗܵܠܝܹܢ ܕܬܚܸܝܬܼ<note place="foot" xml:id="ftn9" n="9"><p> AM<hi
+                                    rend="subscript">3</hi> om (blank space); C ܕܲܬܼܚܘܿܬܼ</p></note>
+                        ܫܘܠܛܢܢ ܣܝ̈ܡܢ ܒܦܢܝ̈ܬܢ ܒܦܣܝ̈ܩܬܐ ܪܫܡܢܢ <note place="foot" xml:id="ftn10" n="10"
+                                ><p> M<hi rend="subscript">3</hi> 104v</p></note> ܐܢܝ̈ܢ ܠܡܠܟܘܬܟܝ.
+                        ܘܫܘܠܛܢܐ ܘܚܟܡܬܐ ܘܕܪܥܐ ܘܓܢܒܪܘܬܐ ܘܙܟܘܬܐ ܕܡܫܝܚܐ ܆ ܠܘܬܟܘܢ<note place="foot"
+                            xml:id="ftn11" n="11"><p> E corrupted/lacuna; AM<hi rend="subscript"
+                                    >3</hi> om (blank space); M<hi rend="subscript">1</hi> ܐܸܢܘܿܢ ;
+                            </p></note>. ܐܢ̄ܬܘܢ ܙܕܩܿ ܕܬܒܚܪܘܢ ܒܝܕܥܬܟܘܢ ܘܬܕܥܘܢ<note place="foot"
+                            xml:id="ftn12" n="12"><p> E corrupted/lacuna; AM<hi rend="subscript"
+                                    >3</hi> om (blank space); M<hi rend="subscript">1</hi>
+                                ܘܲܬܿܬܲܪܨܘܼܢ ; C presents two alternative versions: ܘܲܬܕܘܼܢܘܼܢ (put
+                                into brackets) or ܘܲܬܕܲܒܿܪܘܼܢ</p></note> ܒܫܘܠܛܢܐ. ܘܐܿܝܕܐ ܕܝܕܥܝܢ
+                        ܐܢ̄ܬܘܢ ܕܥܕܪܐ ܐܘܕܥܘܢ ܠܐܟܣܢܝܘܬܢ. ܡܿܪܬܝ ܠܨܒܝܢܐ ܛܒܐ<note place="foot"
+                            xml:id="ftn13" n="13"><p> E corrupted/lacuna; C ܛܲܢܵܢܵܐ</p></note>
+                        ܕܡܠܟܘܬܟܘܢ ܩܒܠܢܢ. ܐܝܟ ܡܘܗܒܬܐ ܕܪܒܐ<note place="foot" xml:id="ftn14" n="14"><p>
+                                E corrupted/lacuna; AM<hi rend="subscript">3</hi> om (blank
+                                space)</p></note> ܡܼܢ ܒܢܝܢܗܿ ܕܥܕܬܐ. ܘܐܦ ܒܟܘܢ ܫܒܚܝܢ<note place="foot"
+                            xml:id="ftn15" n="15"><p> E corrupted/lacuna; AM<hi rend="subscript"
+                                    >3</hi> om (blank space); M<hi rend="subscript">1</hi>C:
+                                ܫܲܒܲܚܢ</p></note> ܠܐܠܗܐ ܡܪܝܐ ܡܫܝܚܐ: ܘܒܬܟܫܦܬܐ ܘܒܬܚܢܢܬܐ<note
+                            place="foot" xml:id="ftn16" n="16"><p> E corrupted; A
+                                ܘܲܒܼܬܼܵܘܕܝܼܬܼܵܐ</p></note> ܘܒܚܘܒܐ ܘܒܕܚܠܬܐ ܡܼܢ ܐܲܢܘܼܣܝܵܐ ܕܠܒܐ<note
+                            place="foot" xml:id="ftn17" n="17"><p> M<hi rend="subscript">1</hi> ܕܠܒܢ
+                                ; E corrupted: ...ܕܠܒ</p></note> ܒܥܕܬܗ ܕܐܠܗܐ ܨܠܘܬܐ ܥܠܲܝܟܘܢ
+                            ܩܪܒܝܢܢ<note place="foot" xml:id="ftn18" n="18"><p> EA: ...ܩܪܒ ; BM<hi
+                                    rend="subscript">1</hi>C ܩܲܪܸܒܼܢܲܢ</p></note> [.]<note
+                            place="foot" xml:id="ftn19" n="19"><p> M<hi rend="subscript">1</hi>C add
+                                (E presents a lacuna here, A a blank space)</p></note> ܘܝܬܝܪܐܝܬ܆ ܐܢܐ
+                        ܦܦܐ ܡܚܝܼܠܐ ܘܚܛܝܐ ܘܙܥܘܪܐ ܕܟܠܗܘܢ <note place="foot" xml:id="ftn20" n="20"><p>
+                                C 14v</p></note> ܬܠܡܝ̈ܕܘܗܝ ܕܡܫܝܚܐ ܒܕܡ̈ܥܐ ܚܢܝ̈ܓܬܐ ܡܬܟܫܦ ܐ̄ܢܐ ܠܗ
+                            ܠܡܪܝܐ<note place="foot" xml:id="ftn21" n="21"><p> E corrupted/lacuna; B
+                                ܠܡܪܝ ; M<hi rend="subscript">3</hi> ܠܡܫܝܚܐ</p></note> ܕܗܘܸ
+                            ܢܦܩܘܕ<note place="foot" xml:id="ftn22" n="22"><p> Sic! Based on the
+                                meaning, this could be a wrong reading for ܢܦܪܘܣ (a second hand in C
+                                proposes this reading adding it in the line-spacing) or ܢܦܫܘܛ . The
+                                mistake should have happened in E (or before).</p></note> ܝܡܝܢܗ
+                        ܥܠܝܟܘܢ. ܘܢܦܩܘܕ ܠܡܠܐܟܘ̈ܗܝ ܩܕ̈ܝܫܐ ܆ ܕܢܢܛܪܘܢܟܘܢ ܒܟܠܗܝܢ<note place="foot"
+                            xml:id="ftn23" n="23"><p> E corrupted/lacuna; M<hi rend="subscript"
+                                    >3</hi> ܒܟܼܠ</p></note> ܐܘܪ̈ܚܬܟܘܢ. ܘܐܝܟ ܪܥܝܐ ܕܡܫܩܠ ܠܐܡܪ̈ܘܗܝ<note
+                            place="foot" xml:id="ftn24" n="24"><p> E corrupted/lacuna; M<hi
+                                    rend="subscript">3</hi> ܠܐ ܢܵܫܐ</p></note>
+                        <note place="foot" xml:id="ftn25" n="25"><p> A 49r</p></note> ܘܠܥܪ̈ܒܘܗܝ ܥܠ
+                        ܟܬܦܬ̈ܗ ܆ ܗܟܢܐ ܬܫܩܠܘܢ<note place="foot" xml:id="ftn26" n="26"><p> E
+                                corrupted/lacuna; A partially omits (ܬܫ then blank space); M<hi
+                                    rend="subscript">3</hi> ܬܸܫܩܘܿܠ</p></note> ܐܢܘܢ ܠܒܢܝ̈ܗܿ ܕܥܕܬܐ ܥܠ
+                        ܟܬ̈ܦܬܐ [ܕܫܘܠܛܟܘܢ<note place="foot" xml:id="ftn27" n="27"><p> B: ܕܫܘܠܛܵܢܐ ;
+                                Then B continues with a different text (from the Letters of Papa to
+                                the Nisibenes). The finale of the Letter of Papa to Helena can be
+                                found, in B, at f. 109v. At f. 109v a marginal note, in Latin,
+                                informs us: <hi rend="italic">Desunt hic nonnulla quae vide pag. 228
+                                    Finis epistulae Papae ad imperatricem</hi>. The order of the
+                                letters in B is different (probably owe to the fact the leaves of
+                                the original manuscript were dismembered at that
+                            time).</p></note>.<note place="foot" xml:id="ftn28" n="28"><p> E 72r; C
+                                ends (early)</p></note> ܘܟܠܗܘܢ ܡܗܝ̈ܡܢܐ ܒܬܘܩܢ ܡܠܟܘܬܟܘܢ ܢܬܚܝܠܘܢ. ܘܒܟܘܢ
+                        ܢܬܥܫܢܘܢ ܟܠܗܘܢ]<note place="foot" xml:id="ftn29" n="29"><p> This paragraphs
+                                is particularly damaged in E (AM<hi rend="subscript">3</hi> both
+                                leave blank spaces where E is illegible; B leaves a long blank
+                                space).</p></note><note place="foot" xml:id="ftn30" n="30"><p> B
+                                109v/219</p></note> ܟܪ̈ܣܛܝܵܢܹܐ ܥܡܪ̈ܝ ܬܒܝܠ܇ ܫܠܡܐ ܒܟܬܒܬܸ ܐܝܕܐ ܕܝܠܝ ܦܦܐ
+                        ܫܕܪܬ ܠܡܠܟܘܬܟܘܢ ܡܗܝܡܢܬܐ. ܨܠܝܒܗ ܕܦܪܘܩܢ ܡܫܝܚܐ : ܕܒܗ ܐܬܬܪܝܡܬܸ ܘܐܬܪܡܪܡܬܸ ܡܠܟܘܬܟܘܢ
+                        ܆ ܗܘܸ ܢܢܛܪ ܠܟܠܗܿ ܥܕܬܐ ܕܬܚܝܬܸ ܫܡܝܐ ܐܡܝܢ.</p>
+                </div>
+
+            </div>
+            <div type="translation">
+                <head><hi rend="bold">Translation</hi></head>
+                <div type="rubric">
+                    <p xml:lang="en">From the saint Papa to the queen Helena</p>
+                </div>
+                <div type="body" xml:lang="en">
+                    <p xml:lang="en">To the blessed mother, the believing queen Helena, Papa servant
+                        of Jesus and worshipper and devotee of His cross. Peace.</p>
+                    <p xml:lang="en">My lady queen, these [things] that you seek from us, our mental
+                        faculties are not sufficient to reach [an idea of] what is useful and [then]
+                        to write to you, because the Christians of our region glorify themselves in
+                        poverty, chains and in [their] various sufferings. And a small hut is large
+                        as our house of prayer; and [this] not because we are lazy and negligent
+                        concerning the buildings, but so that the jealousy of the pagans does not
+                        act wickedly against us because of the greatness [of our] buildings; the
+                        catechizing of Christianity is absent because of the danger of persecutions
+                        raised against us. And we are compelled to keep safe the liturgical office
+                        that you sent to us, but we are afraid to offer it openly and to perform the
+                        office according to its rite, lest it is taken away from us with pretexts.
+                        And it is not only the pagans that we fear, but also the Jews and
+                        Marcionites, who, as they were oppressed in your jurisdiction from the
+                        authority of your kingdom, flee in this region of ours, and they came here
+                        before your decree. They have entirely increased enmity, and they hated us.
+                        And every time, they set against us clear pretexts, and they accuse us in
+                        the secular tribunals. We briefly delineated to your majesty these things
+                        about us – in order to write and let you know, as one who is sick with a
+                        disease [informs] his physician of his pain and his illness; and when the
+                        wise physician see if there is hope<note place="foot" xml:id="ftn1" n="1"
+                                    ><p>M<hi rend="subscript">1</hi>: medicine</p></note> for him,
+                        he knows the cure that is good for him – those [things] that are put under
+                        your authority in our regions. And the authority, the wisdom, the arm, the
+                        heroism and the victory of Christ [are] with you. It is right for you to
+                        examine according to your knowledge and to understand<note place="foot"
+                            xml:id="ftn2" n="2"><p>C: to (judge)/manage; M<hi rend="subscript"
+                                    >1</hi>: to be directed</p></note> according to your authority.
+                        Inform us who are foreigners what you think you could do to help. My lady,
+                        we receive the good will of your majesty as a gift greater than building
+                        churches. And also in you we glorify God Lord Christ, and with
+                        supplications, fervent prayer<note place="foot" xml:id="ftn3" n="3"><p> A:
+                                thanksgiving</p></note>, love and with the fear that comes from the
+                        anxiety of the heart, we offer a prayer for you in the Church of God; and
+                        especially me, the poor and sinner Papa, and the least of all the disciples
+                        of Christ, with sad tears I supplicate the Lord to command (<hi
+                            rend="italic">sic</hi><note place="foot" xml:id="ftn4" n="4"><p>Probably
+                                mistaken reading for: "to stretch out"</p></note>) his right hand
+                        upon you, and to command to his holy angels to guard you in all your ways
+                        (cf. Ps 91 [90], 11), and as a shepherd who carries his lambs and his sheep
+                        on his shoulders, so you will carry the sons of the Church on the shoulders
+                        of your authority. And all the believers, in the institution of your
+                        regality, will take courage and in you will be strengthened all the
+                        Christians who inhabits the habitable world. A salutation, through a writing
+                        of my own hand, I, Papa, send to your believing majesty. May the Cross of
+                        our Savior Christ, through which your majesty has been exalted and became
+                        great, guard the whole church that is under the heaven. Amen.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
