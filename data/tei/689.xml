@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a">Letter from the saint Jacob bishop to Papa</title>
+                <title level="s">Digital Syriac Corpus</title>
+                <author>Jacob of Nisibis</author>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dtaylor">David G.K. Taylor,
+                    University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="general editor" ref="http://syriaca.org/person.xml#jwalters">James E.
+                    Walters, Rochester College</editor>
+                <respStmt>
+                    <resp>TEI XML encoding by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#adirienzo">Annunziata Di
+                        Rienzo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#adirienzo">Annunziata Di
+                        Rienzo</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+                <respStmt>
+                    <resp>edited by</resp>
+                    <name>
+                        <persName>
+                            <forename>Annunziata</forename>
+                            <surname>Di Rienzo</surname>
+                        </persName>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
+                </distributor>
+                <authority>Digital Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/689</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">Creative Commons — Attribution 4.0 International — CC BY
+                            4.0</p>
+                        <p xml:lang="en">https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                    <ab>
+                        <note>This electronic edition is designed for open access reuse. The Syriac
+                            base text is in the public domain. The TEI XML edition is copyrighted by
+                            James E. Walters and is released under a Creative Commons Attribution
+                            4.0 International Public License (CC BY 4.0).</note>
+                    </ab>
+                    <ab>
+                        <note>The HTML page is copyrighted by Vanderbilt University and released
+                            under a under a Creative Commons Attribution 4.0 International Public
+                            License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+                            Attribution for reuse should follow the suggested citation and also
+                            credit the copyright holder of the TEI XML edition.</note>
+                    </ab>
+
+                </availability>
+                <date calendar="Gregorian"
+                    ><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p xml:lang="en">Digital Syriac Corpus is collaboration of University of Oxford,
+                    Brigham Young University, Vanderbilt University, and the Center of Digital
+                    Humanities Research (CoDHR) at Texas A&amp;M University. </p>
+
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+            <creation>
+                <origDate type="composition" from="0300" to="0400">4th century</origDate>
+            </creation>
+        </profileDesc>
+        <revisionDesc status="ProofedDigitalEdition">
+            <change when="2025-05-09" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="BornDigitalDiplomaticEdition">
+        <front>
+            <div type="title">
+                <bibl>
+                    <title>Letter from the saint Jacob bishop to Papa</title>
+                    <editor>
+                        <name type="person">Annunziata Di Rienzo</name>
+                    </editor>
+                </bibl>
+            </div>
+            <div type="preface" xml:lang="en">
+                <head>Preface</head>
+                <div xml:lang="en">
+                    <p xml:lang="en">This text is a born-digital edition of the <hi rend="italic">Letter from the
+                        saint Jacob bishop to Papa</hi>. The letter is part of a corpus of eight letters
+                        representing the correspondence of Papa bar Aggai, early 4th-century bishop
+                        of Seleucia, with some exponents of the western political and religious
+                        power. Beside the <hi rend="italic">Letter from the saint Jacob bishop (of Nisibis) to Papa</hi>,
+                        the corpus includes: a letter from Eusebius of Rome to Papa, a letter from
+                        Judah Kyriakos of Jerusalem to Papa, a letter from the Empress Helena to
+                        Papa, a letter from Papa to the Empress Helena, a letter from Ephrem to
+                        Papa, a letter from Papa to the citizens of Nisibis, the letter sent by the
+                        Western Fathers on the illegal removal of Papa.</p>
+                </div>
+                <div xml:lang="en">
+                    <p xml:lang="en">This edition is based on the following manuscript witnesses: </p>
+                    <div xml:lang="en">
+                        <p xml:lang="en">Erbil 509 (olim Alqoš 169/ Baghdad 509), f. 72r/v (E)
+                            (the most ancient and principal source, probably direct or indirect
+                            source for the later extant witnesses);</p>
+                        <p xml:lang="en">Rome, Vatican Library, Borg. Sir. 82, f. 109v-111r; 109v
+                            (B);</p>
+                        <p xml:lang="en">Birmingham, Mingana Collection Syr. 47, f. 36r-37v  (M<hi
+                                rend="subscript">1);</hi></p>
+                        <p xml:lang="en">Birmingham, Mingana Collection Syr. 586, f. 104v-106r (M<hi
+                                rend="subscript">3);</hi></p>
+                        <p>Trichur, Chaldean Syrian Church, APSTCH THRI 65, f. 49r/v (A) (the
+                            manuscript has been digitized, and it can be viewed <ref
+                                target="https://www.vhmml.org/readingRoom/view/511738"
+                                >here</ref><hi>);</hi></p>
+                        <p>Baghdad, Chaldean Catholic Church. Patriarchate of Baghdad 377, f.
+                            2r/4v (C) (the manuscript has been digitized, and it can be viewed
+                                <ref target="https://www.vhmml.org/readingRoom/view/609956"
+                                >here</ref>).</p>
+                    </div>
+
+                    <div xml:lang="en">
+                        <p xml:lang="en">This text has never been published in any prior edition. </p>
+                        <p xml:lang="en">This edition should not be considered as definitive but as
+                            a still in-progress material.</p>
+                        <p xml:lang="en">There is an old German translation of the entire corpus
+                            (based on the Syriac text preserved in ms Borg. Sir. 82) in O. Braun,
+                            "Der Briefwechsel des Katholikos Papa von Seleucia. Ein Beitrag zur
+                            Geschichte der ostsyrischen Kirche im vierten Jahrhundert", <hi
+                                rend="italic"> Zeitschrift für katholische Theologie </hi><hi>18
+                                (1894), pp. 163-182, 546-565.</hi></p>
+                        <p xml:lang="en">An English translation is provided along with the Syriac
+                            text.</p>
+                        <p xml:lang="en">This edition is an outcome of the Marie Skłodowska-Curie
+                            Global Fellowship 2022 – Project "ForM - FORGED MEMORIES: the Church of
+                            Late Antique Iran and the West", funded by the European Commission.</p>
+                    </div>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div type="text">
+                <head><hi rend="bold">Text</hi></head>
+                <div type="rubric">
+                    <note place="foot" xml:id="ftna" n="a"><p> E 72r; A 49r; B 109v/219; M<hi
+                        rend="subscript">1</hi> 36r; M<hi rend="subscript">3</hi> 104v;
+                        C 2v</p></note><p xml:lang="syr">ܐܓܪܬܐ ܕܩܕܝܫܐ ܝܥܩܘܒ
+                        ܐܦܣܩܘܦܐ ܇ ܠܘܬܗ ܕܦܵܦܵܐ.</p>
+                </div>
+                <div type="body">
+                    <p xml:lang="syr">ܠܐܒܘܢ ܩܕܝܫܐ܆ ܘܪܒܢ ܒܢܡܘܣܐ ܘܡܪܒܝܢܢ ܒܡܫܝܚܐ: <note place="foot" xml:id="ftnb"
+                        n="b"><p>
+                            M<hi rend="subscript">1</hi> 36v</p></note> ܟܗܢܐ ܙܗܝܐ ܘܣܒܐ
+                        ܝܩܝܪܐ ܆ ܡܪܐ ܕܝܠܝ ܡܪܝ ܦܵܦܵܐ ܦܛܪܝܪܟܝܣ : ܝܥܩܘܒ ܥܒܼܕܟ ܘܬܠܡܝܕܐ ܙܥܘܪܐ ܕܬܪܒܝܬܟ ܒܡܪܢ ܆
+                        ܫܠܡ. ܡܪܝ ܚܕܬ̈ܬܐ ܕܕܠܐ ܛܟܣܐ ܐܣܬܥܪ ܡ̣ܢ ܦܠܚܘ̈ܗܝ ܕܒܥܠܕܪܗ ܕܓܢܣܢ : ܠܘܬ ܪܒܘܬ ܟܗܢܘܬܟܘܢ.
+                        ܟܕ ܐܬܝܒܠ ܛܒܗܝܢ ܠܘܬܢ ܒܟܬܝ̈ܒܬܐ ܕܐܚܝ̈ܢ ܘܒܢܝ̈ܢ ܩܠܝܪ̈ܝܩܐ ܡܗܝ̈ܡܢܐ: ܬܩ̈ܢܐ ܘܫܪܝܪ̈ܐ
+                        ܕܥܡܟܘܢ. ܟܕ ܐܬܩܪܝ ܟܬܝ̈ܒܬܐ ܆ ܨܘܪ̈ܢܐ ܐܚܕܘ ܠܢ ܆ ܘܬܸܡܗܐ ܪܒܐ ܢܦܲܠ ܥܠܝܢ : ܘܟܪܝܘܬܐ
+                        ܘܥܩܬܐ<note place="foot" xml:id="ftn1" n="1"><p> E lacuna; M<hi
+                            rend="subscript">3</hi>
+                            ܬܡܝܼܗܬܐ
+                        </p></note> ܐܡܠܟܬܸ ܥܠܝܢ : ܘܥܠ ܡܠܦܢܐ ܡܪܝ ܐܦܪܝܡ܇ ܗܿܘ ܕܐܝܟ ܢܒܝܐ ܒܓܘ ܥܕܿܬܗ ܕܐܠܗܐ
+                        ܐܫܬܡܗ<note place="foot" xml:id="ftn2" n="2"><p> E lacuna; CM<hi
+                            rend="subscript">1</hi>M<hi rend="subscript">3</hi>
+                            ܡܸܫܬܡܲܗ</p></note>܆ ܝܬܝܪܐܝܬ܆ ܢܫ̈ܐ <note place="foot"
+                                xml:id="ftnc" n="c"><p>
+                                    M<hi rend="subscript">3</hi> 105r</p></note> ܡܗܝ̈ܡܢܬܐ ܐܝܠܝܢ
+                        ܕܩܢܝ̈ ܥܘܕܪܢܐ <note place="foot" xml:id="ftnd" n="d"><p> B
+                            110r/220</p></note> ܠܟܐܒܝ̈ܗܝܢ ܡܼܢ ܐܒܗܘܬܟܘܢ. ܘܥܠܝܡ̈ܬܐ ܕܐܬܢܣܝ ܗܢܝ̈ܢ ܘܐܚܝ̈ܗܝܢ
+                        ܡܼܢ ܗܿܘ ܕܠܩܘܒܠܐ ܘܒܟܘܢ ܐܙܕܓܪ. ܘܥܩܪ̈ܬܐ ܕܐܲܦܪܝܼ ܒܨ̈ܠܘܬܟܘܢ ܘܒܒܘܪ̈ܟܬܟܘܢ. ܘܚܙܝ̈ ܦܐܪ̈ܐ
+                        ܪ̈ܓܝܓܐ ܡܼܢ ܟܪ̈ܣܬܗܝܢ. ܐ̄ܚܪ̈ܢܐ ܓܒܪ̈ܐ ܘܢܫ̈ܐ ܐܝܠܝܢ ܕܫܩܠܘ ܨܘܬܿܗ<note
+                            place="foot" xml:id="ftn3" n="3"><p> E lacuna; A ܨܘܼܪܬܹܿܗ
+                            </p></note> ܕܥܢܝܢܟ ܪܘܚܢܝܐ : ܘܐܬܥܕܪܘ ܡܢܟܘܢ. ܘܙܒܢܐ <note place="foot"
+                                xml:id="ftne" n="e"><p> C 3r</p></note> ܒܙܒܢܗ ܒܟܘܢ ܐܬܦܲܢܝ ܠܗܘܢ ܫܐܠܬܗ̈ܘܢ ܆
+                        ܘܠܐ<note place="foot" xml:id="ftn4" n="4"><p> E lacuna; CM<hi
+                            rend="subscript">1</hi>M<hi rend="subscript">3</hi>
+                            ܠܐ</p></note> ܐܫܟܚܘ ܠܡܚܡܣܢܘ ܘܠܡܣܝܒܪܘ ܆ ܒܡܚ̈ܘܬܐ ܒܝ̈ܫܬܐ ܕܒܼܠܥܘ ܡܼܢ
+                        ܩܪܝܢܐ ܕܟܬܼܝ̈ܒܬܐ. ܐܬܩܫܝ ܐܒܠܐ ܘܡܪܩܘܕܬܐ ܒܡܕܝܢ̄ܬܟܘܢ. ܝܬܝܪ ܡܼܢ ܗܵܝܿ ܕܗܘܹܬ ܥܠ ܝܘܫܝܐ
+                        ܡܠܟܐ ܕܝܗܘܕܐ. ܘܡܪܡܪܘ ܠܟܠܗ ܟܢܫܢ ܒܩ̈ܠܐ ܕܐܘܠܝܬ̈ܗܘܢ ܟܕ ܐܡܪܝܢ. ܒܝܬ ܓܘܣܐ ܕܨܠܘܬܢ :
+                        ܘܠܡܐܢܐ ܪܒܐ ܕܒܘܪܟܬܢ. ܡܲܢܼܘ ܫܲܠܝܼ ܩܠܟ ܘܫܬܿܩ ܩܝ̈ܢܬܟ. ܡܲܢܘܼ ܝܲܒܸܫ ܝܡܝܢܟ ܡܒܪܟܬܐ :
+                        ܕܬܘܒ ܒܗܿ ܠܐ ܢܨܛܲܠܸܒ<note place="foot" xml:id="ftn5" n="5"><p> E partially
+                            illegible (the ending ܠܸܒ suggests that the reading reported by A,
+                            B and M<hi rend="subscript">3</hi> should be the original E
+                            reading) ; ABM<hi rend="subscript">3</hi>
+                            ܢܸܨܛܠܹܒܼ ; C ܢܬܥܨܒ ; M<hi rend="subscript">1</hi>
+                            adds on the margin a possible reading: ܟܒܲܪ ܢܸܬܼܥܨܒ</p></note>:
+                        ܘܥܠܝܢ ܠܐ ܬܪܲܚܸܦ ܐܝܟ ܥܝܕܟ. ܡܲܢܼܘ<note place="foot" xml:id="ftn6" n="6"><p>
+                            E lacuna; M<hi rend="subscript">3</hi>
+                            ܐܸܒܲܕ</p></note> ܦܣܩ<note place="foot" xml:id="ftn7"
+                                n="7"><p> E lacuna; M<hi rend="subscript">3</hi>
+                                    ܘܲܦܣܲܩ</p></note> ܫܒܝ̈ܠܝܢ ܡܼܢ ܠܘܬܟ : ܘܡܪܕܝܬܐ ܕܐܘܪܚܢ ܕܬܘܒ ܠܐ
+                        ܢܬܝܵܒܠ ܠܘܬܟ. ܠܐܝܟܐ ܢܐܙܠ ܐܘ ܐܒܘܢ ܒܪܝܟܐ ܒܙܒܢ ܐܘܠܨܢܝ̈ܢ : ܒܬܪܥܐ ܕܡܲܢܼܘܼ ܢܩܘܫ ܕܗܐ
+                        ܐܬܓܪܕܝ ܠܗ ܕܪܢ ܡܼܢ ܐܒܗ̈ܬܐ ܩܕܝ̈ܫܐ ܕܐܟܘܬܟ. ܒܗܠܝܢ ܒܢܬ̈ ܩ̈ܠܐ ܕܒ̈ܢܝܐ ܘܕܒ̈ܢܬܐ ܕܐܒܗܘܬܟܘܢ
+                        ܐܬܪܫܠܸܘ<note place="foot" xml:id="ftn8" n="8"><p> Orig.
+                            ܕܐܸܬܼܪܫܠܘ (everywhere but C), correxi</p></note> ܚܘܫܒ̈ܐ ܥܡ
+                        ܗܕܡ̈ܐ. ܘܐܸܚܕ ܪܨܲܦ ܠܒܐ ܠܣܓ̈ܝܐܐ. ܘܐܝܟ ܡܒܘܥܐ ܕܡܝ̈ܐ. ܗܟܢ ܢܚ̈ܬܢ ܕܡܥܝ̈ܢ ܡܼܢ ܒܒ̈ܬܐ
+                        ܕܥܝ̈ܢܐ<note place="foot" xml:id="ftn9" n="9"><p> C
+                            ܥܲܝ̈ܢܹܐ</p></note> ܕܒܢܝ̈ܢܫܐ. <note place="foot" xml:id="ftnf"
+                                n="f"><p>
+                                    M<hi rend="subscript">1</hi> 37r</p></note> ܘܡܦܝܣܝܢܢ ܕܒܥܓܠ
+                        ܢܸܥܒܪ ܚܫܐ ܗܢܐ ܡܼܢ ܡܕܝܢ̄ܬܢ. ܘܐܒܠܢ ܘܒܝܬ ܒܲܟܝܢ ܢܩܒܠ ܒܘܝܐܐ ܆ ܒܟܬܝ̈ܒܬܐ ܩܕܝ̈ܫܬܐ ܕܡܢܟܘܢ
+                        <note place="foot" xml:id="ftng" n="g"><p> C 3v</p></note> ܠܢ ܡܫܬܕܪ̈ܢ
+                        : ܗܿܢܘܢ ܕܝܢ ܟܗ̈ܢܐ ܕܚܛܝܬܐ ܕܚܛܘ ܘܐܲܚܛܝܸܘ ܥܡܗܘܢ ܠܐܢ̈ܫܐ ܦܫܝ̈ܛܐ. ܠܗܿܢܘܢ ܕܒܝܬ ܥܩܒܠܗܐ
+                        ܘܡܝܠܣ ܘܚܒܝܒ ܘܚܒܪ̈ܝܗܘܢ ܕܐܝܬܝܗܘܢ ܬܠܡܝ̈ܕܝܟ. ܝܕܥܝܢ ܐܢ̄ܬܘܢ ܒܪܝܪܘܬܗܘܢ ܘܡܦܣܝܢ ܐܢ̄ܬܘܢ
+                        ܒܟܠܗܿ ܦܫܝܛܘܬܗܘܢ. ܘܣܿܓܝ ܐܬܟܫܦܘ<note place="foot" xml:id="ftn10" n="10"><p>
+                            AEM<hi rend="subscript">3</hi> ܐܬܟܫܦ</p></note>
+                        ܒܟܬܝܒܬ̈ܗܘܢ. ܕܢܦܝܣ ܚܠܦܗܘܢ ܠܚܣܝܘܬܟܘܢ. ܐܢ ܦܩܕܝܢ ܐܢ̄ܬܘܢ ܘܥܕܪܐ ܢܬܚܣܐ ܠܗܘܢ. ܡܛܠ ܕܕܠܐ
+                        ܒܝܼܫܘ ܐܢܘܢ. ܘܐܝܟܢܐ ܕܫܒܲܩܬܿ ܠܡܪܝ <note place="foot" xml:id="ftnh" n="h"><p>
+                            M<hi rend="subscript">3</hi> 105v</p></note> ܫܡܥܘܢ ܆ ܐܦ ܠܗܘܢ
+                        ܆<note place="foot" xml:id="ftni" n="i"><p> B 110v/221</p></note>
+                        ܐܢ̄ܬ ܩܲܕܫܬܿ ܐܢܘܢ ܠܩܝܵܡܐ ܆ ܘܩܲܪܒܬܿ ܐܢܘܢ ܠܟܗܢܘܬܐ. ܘܒܨܠܘܬܐ ܘܒܘܪܟܬܐ ܕܩܒܠܘ ܡܢܟܘܢ ܆
+                        ܬܘܠܡܕܐ ܐܬܦܪܢܣ ܒܐܝܕܝ̈ܗܘܢ ܘܡܛܠ ܕܡܼܢ ܥܠܡܐ ܐܬܘ ܘܦܫܝܛܘܬܐ ܐܝܟ ܕܒܬܪܒܝܬܗܘܢ ܩܢܹܝܢ ܗ̄ܘܘ ܆
+                        ܠܗܿܘ ܕܠܐ ܝܕܥܬܐ<note place="foot" xml:id="ftn11" n="11"><p> A ܒܝܼܕܲܥܬܼܐ
+                            (in E the ܒ is probably added by a second
+                            hand)</p></note> ܐܬܕܒܪܘ ܡܼܢ ܗܿܢܘܢ ܥܘ̈ܠܐ ܕܠܘܚܝ̈ܗܿ ܕܥܕܬܐ. ܕܥܠܘܒܝܐ ܕܐܒܗܘܬܟܘܢ
+                        ܘܒܘܠܒܠܐ ܕܥܠ ܠܟܠܗܿ ܥܕܬܐ ܆ ܢܗܦܘܟ ܒܪܝܫܗܘܢ ܩܠܝܠܐܝܬ ܆ ܘܢܫܬܡܠܐ ܒܗܘܢ ܪܘܓܙܐ ܕܚܝܠܐ ܒܬܒܥܬܐ
+                        ܕܟܐܢܘܬܐ. ܚܢܢ ܐܘ ܡܪܝ ܟܠܗܝܢ ܐܝܟ ܕܗܿܢܘܢ ܣܥܼܪܘ ܆ ܘܐܝܟ ܕܐܦ ܐܒܗܘܬܟܘܢ ܥܠ ܐܘܢܓܠܝܘܢ
+                        ܐܘܫܛܬܸ ܐܝܕܐ : ܘܥܠ ܢܣܝܘܢܐ ܕܡܛܐ ܒܗܿ ܒܫܥܬܐ<note place="foot" xml:id="ftnj"
+                            n="j"><p> C 4r</p></note> ܆ ܠܐܒܗܘܬܟܘܢ : ܟܠܗܝܢ ܢܗܝܪܐܝܬ ܟܬܒܢܢ ܘܠܐܒܗ̈ܝܢ ܩܕܝ̈ܫܐ
+                        ܫܕܪܢܢ ܆ ܒܐܝܕ̈ܝ ܒܢܝ̈ܐ ܕܫܹܐܠܬܟܘܢ ܘܬܠܡܝܕ̈ܐ ܕܬܪܒܝܬܟܘܢ. ܕܗܼܢܘܢ ܩܿܪܒܼܘ ܠܢ ܦܝܣܐ
+                        ܕܒܐܝ̈ܕܝܗܘܢ ܢܬܝܒ̈ܠܢ ܟܬܝ̈ܒܬܢ. ܘܒܬܪܗܘܢ܆ ܐܦ ܬܪ̈ܬܝܢ ܙܒܢܝ̈ܢ ܐ̄ܚܪ̈ܢܝܢ ܟܬܒܢܢ ܆ ܘܫܕܪܢܢ.
+                        ܘܩܠܝܠܐܝܬ ܡܬܡܢܥܝܢ ܗܼܢܘܢ ܥܡ ܟܬܝ̈ܒܬܐ ܕܐܒܗ̈ܬܢ ܠܘܬܟܘܢ. ܡܪܝ ܚܢܢ ܘܟܠܗܿ ܥܕܿܬܐ ܕܥܡܢ
+                        ܛܥܝܼܢܝܼܢ ܠܗ ܠܚܫܟ. ܘܡܫܬܘܬܦܝܢܢ ܠܗ ܠܢܣܝܘܢܟ ܕܒܡܥܒܕܢܘܬܐ ܕܬܠܡܝ̈ܕܐ ܕܙܸܐܦܐ ܥܠ ܕܠܐ ܣܝܒܪܬܿ
+                        ܛܠܘܡܝܐ ܘܥܫܘܩܝܐ ܘܥܘܠܐ ܕܡܼܢ ܦܘܡܗܘܢ ܇ ܓܵܣܝܸܢ ܗ̄ܘܘ ܩܕܡ ܐܘܢܓܠܝܘܢ ܆ ܐܙܕܟܝܬܿ ܡܼܢ ܚܡܬܐ.
+                        ܘܐܝܟ <note place="foot" xml:id="ftnk" n="k"><p> A 49v</p></note> ܡܪܚܐ
+                        ܐܬܚܙܝܼܬ. ܘܠܐ ܐܚܣܪܬܟ ܡܪܕܘܬܐ ܗܕܐ ܕܒܪ̈ܚܡܐ ܡܼܢ ܡܪܟ ܐܬܝܗܒܬܸ ܠܟ. <note
+                            place="foot" xml:id="ftnl" n="l"><p>
+                                M<hi rend="subscript">1</hi> 37v</p></note> ܘܐܢ <note
+                                    place="foot" xml:id="ftnm" n="m"><p> E 72v</p></note> ܫܦܼܪ ܠܟܘܢ ܗܿܢܘܢ ܕܒܝܬ
+                        ܡܝܠܣ ܘܥܩܒܠܗܐ ܘܚܒܝܒ ܥܡ ܐܚܝ̈ܗܘܢ : ܐܢ ܐܫܟܚܬ ܪ̈ܚܡܐ ܒܥܝܢܝ̈ܟ ܡܪܝ ܆ ܚܫܘܒ ܐܢܘܢ ܠܗܠܝܢ ܆
+                        ܐܝܟ ܗܿܢܘܢ ܕܐܪܡܝܼܘ ܠܟ ܣܡܐ ܕܡܘܬܐ ܒܟܣܐ ܕܩܘܕܫܐ. ܘܥܡ ܗܿܢܘܢ ܕܝܗ̄ܒܼܘ ܒܟ ܣܗܕܘܬܐ ܕܫܘܩܪܐ :
+                        ܒܥܕܢܐ ܕܡܬܝܚ ܐܢ̄ܬ ܠܢܓܕ̈ܐ ܩܕܡ ܕܲܝ̈ܢܸܐ ܕܚܢܦܘܬܐ. ܘܡܛܠ ܣܗܕܘܬܗܘܢ ܐܬܬܘܣܦܘ ܠܟ ܚܫ̈ܐ
+                        ܘܐܘܠܨ̈ܢܐ ܘܣܪ̈ܩܐ ܘܢܓܕ̈ܐ. ܘܠܚܪܬܐ ܫܒܩܬܿ ܠܗܘܢ. ܘܕܪܓܐ ܕܐܦܝܣܩܘܦܘܬܐ <note
+                            place="foot" xml:id="ftnn" n="n"><p> C 4v</p></note> ܙܲܘܕܬܿ ܐܢܘܢ. ܐܦ ܗܼܢܘܢ
+                        ܢܬܡܢܘܢ ܐܟܘܬܗܘܢ<note place="foot" xml:id="ftn12" n="12"><p> EABM<hi
+                            rend="subscript">3</hi> ܐܲܟܼܘܵܬܼܟܼܘܿܢ</p></note>܆
+                        <note place="foot" xml:id="ftno" n="o"><p>
+                            M<hi rend="subscript">3</hi> 106r</p></note> ܘܢܫܬܒܸܩ ܠܗܘܢ. ܘܐܦ
+                        ܥܠ ܒܨܝܪܘܬܝ ܘܥܠ <note place="foot" xml:id="ftnp" n="p"><p> B
+                            111r/222</p></note> ܡܕܝܢ̄ܬܢ ܘܐܬܪܢ. ܕܒܨܠܘܬܟܘܢ ܐܚܝܕܝܢ ܓܘܣܐ ܆ ܒܟܠܙܒܢ ܢܗܘܐ ܥܠܝܢ
+                        ܥܘܗܕܢܐ ܕܨܠܘܬܟܘܢ.</p>
+                </div>
+
+            </div>
+            <div type="translation">
+                <head><hi rend="bold">Translation</hi></head>
+                <div type="rubric">
+                    <p xml:lang="en">Letter from the saint Jacob
+                        bishop to Papa.</p>
+                </div>
+                <div type="body" xml:lang="en">
+                    <p xml:lang="en">To our holy father, master in the law, and foster-father
+                        in Christ, the distinguished priest and honorable elder, our lord Mar Papa the
+                        patriarch: From Jacob, your servant and lowly disciple, [formed by] your upbringing
+                        in Our Lord. Peace. My lord, when the report of the unregulated novelties committed
+                        against your high priesthood by those who worship the enemy of our race was
+                        transmitted to us in the writings of our reliable and trustworthy brothers and sons,
+                        the believing clergymen who are with you, we were seized with consternation upon
+                        reading those writings [and] a great stupor fell upon us. Sadness and sorrow<note
+                            place="foot" xml:id="ftn13" n="13"><p> M<hi rend="subscript"
+                                >3</hi>: astonishment</p></note> reigned upon us, upon the doctor Mar
+                        Ephrem, he who is called prophet within the Church of God, and especially upon the
+                        believing women who received healing from their disease through your fatherhood, the
+                        young women and their brothers who were possessed by that one who [thrust himself]
+                        against you but through you was restrained; and the barren women who generated
+                        thanks to your prayers and your blessings, and saw choice fruits of their wombs; the
+                        other men and women who received the voice<note place="foot" xml:id="ftn14" n="14"><p
+                           > A: image</p></note> of your spiritual business and
+                        received help by you, and after a time, in due season, whose requests through you
+                        were answered. The reading of the writings struck them so powerfully that they could
+                        not remain strong enough to endure within their evil afflictions. The mourning and
+                        the lamentation in your city became more grievous than the one that was upon Josiah,
+                        king of Judah, and they saddened our entire assembly with the voices of their
+                        mourning, saying: "Refuge of our prayer, and great harbor of our blessing, why was
+                        your voice silent and [why] did your songs stop? Why did your blessed right hand dry
+                        up, so that with it (i.e. the right hand) we are not signed with the sign of cross
+                        anymore, and you cannot take care of us as you used to do? Who broke off our paths
+                        from being with you, and our journey, so that we cannot be led to you anymore? Where
+                        will we go, our blessed father, in the time of our sufferings? Whose door will us
+                        knock at, as, lo, our generation is deprived of holy fathers like you?". At these
+                        voices of your sons and daughters, oh father, thoughts and limbs became paralyzed,
+                        and the hearts of many were held close; and like a source of water, tears descended
+                        from the pupils of the men's eyes. We desire for this suffering to pass quickly away
+                        from our city and for our mourning and lamentations to receive consolation from the
+                        holy writings that you send to us. Those sinner priests committed sin and caused to
+                        sin with them [some] simple men, those companions of ‘Aqbalaha, Miles and Habib and
+                        their associates who were your disciples. You know their ignorance and are
+                        acquainted with all their simplicity. In their writings, they greatly pleaded with
+                        us to persuade your holiness on their behalf. If you give order and it is useful,
+                        may they be absolved, for they are not evil. And as you forgave Mar Shem‘un,
+                        [forgive] them as well. You consecrated them to the covenant and brought them to
+                        priesthood. Through the prayer and the blessing that they received from you,
+                        instruction was dispensed through them. As they came from the world and attained
+                        simplicity, according to their education, they were led to that ignorance by those
+                        wicked agitators of the church, upon whose heads the fraud against you, oh father,
+                        and the disorder upon the entire church will swiftly turn. Upon them, fearful anger
+                        will be fully executed through a just punishment. My lord, all these things that
+                        those ones did, and also how you, oh father, stretched out your hand against the
+                        Gospel, and about the trial that at that very moment befell you, oh father, all
+                        these [things] we clearly wrote and sent to our holy Fathers through sons that you
+                        requested (lit. sons of your request) and disciples of your education. They brought
+                        us a request to have our writings transmitted through them. After them, we also
+                        wrote and sent two other times, and they swiftly reached you, with the writings of
+                        our Fathers. My lord, we and the entire church that is with us bear your pains and
+                        we share your trial that [is] caused by the action of disciples of fraud, because
+                        you did not bear the injustice, the calumny and the iniquity that [came] from their
+                        mouth; they vomited at the presence of the Gospel; the rage overcame you, and you
+                        appeared as bold. You did not withhold from yourself this discipline that, with
+                        mercy, was given to you from your Lord, and if it pleases you that those companions
+                        of Miles, ‘Aqbalaha and Habib with their associates, if you found mercy before your
+                        eyes, my lord, count them to the same things as those who offered to you a mortal
+                        poison in the eucharistic chalice and with those ones who gave false witness against
+                        you in the time when you were offered to torment before pagan judges, and because of
+                        their witness increased your sufferings, oppressions, lacerations and torments. In
+                        the end, you forgave them and provided them with the rank of the episcopate. May
+                        also they be counted like them and be forgiven. And also may we— my humble self, our
+                        city, and our region—who take refuge in your prayers, be forever remembered in your
+                        prayers.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

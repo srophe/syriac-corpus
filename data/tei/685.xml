@@ -187,14 +187,14 @@
         <body>
             <div type="text">
                 <head>Text</head>
-                <div type="rubric" xml:lang="syr">
+                <div type="rubric">
                     <p xml:lang="syr">ܐܓܲܪܬܵܐ ܕܡܼܢ ܐܹܘܣܹܒܿܝܼܣ ܦܵܛܪܝܵܪܟܵܐ ܕܪܗ̄ܘܿܡܹܐ ܆ ܠܘܵܬܼ ܦܵܦܵܐ
                         ܩܵܬܼܘܿܠܝܼܩܵܐ ܕܡܲܕܢܚܵܐ <note place="foot" xml:id="ftna" n="a"><p
                                 xml:lang="en" rend="footnote text">E 71r, A 48r, B 114v, C 12r; M<hi
                                     rend="subscript">1</hi> 34v, M<hi rend="subscript">2</hi> 235r,
                                     M<hi rend="subscript">3</hi> 103r</p></note> . </p>
                 </div>
-                <div xml:lang="syr">
+                <div type="body">
 
                     <p xml:lang="syr">ܠܡܵܪܐ ܕܝܼܠܝ ܩܕܝܼܫܵܐ ܡܵܪܝ<note place="foot" xml:id="ftn1" n="1">
                             <p xml:lang="en" rend="footnote text">M<hi rend="subscript">2</hi>
@@ -229,11 +229,11 @@
             </div>
             <div>
                 <head>Translation</head>
-                <div type="rubric" xml:lang="en">
+                <div type="rubric">
                     <p xml:lang="en">Letter from Eusebius, patriarch of Rome, to Papa, Catholicos of
                         the East</p>
                 </div>
-                <div xml:lang="en">
+                <div type="body" xml:lang="en">
                     <p xml:lang="en">To my lord, the holy Mar Papa the patriarch, Eusebius your
                         brother pays you respect to you. As the glory of God is not hidden, nor the
                         triumphs of His saints, the Almighty (sic), victorious, forever-blessed
