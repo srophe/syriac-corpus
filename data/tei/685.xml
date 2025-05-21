@@ -188,8 +188,11 @@
             <div type="text">
                 <head>Text</head>
                 <div type="rubric">
-                    <p xml:lang="syr">ܐܓܲܪܬܵܐ ܕܡܼܢ ܐܹܘܣܹܒܿܝܼܣ ܦܵܛܪܝܵܪܟܵܐ ܕܪܗ̄ܘܿܡܹܐ ܆ ܠܘܵܬܼ ܦܵܦܵܐ
-                        ܩܵܬܼܘܿܠܝܼܩܵܐ ܕܡܲܕܢܚܵܐ <note place="foot" xml:id="ftna" n="a"><p
+                    <p xml:lang="syr">ܐܓܲܪܬܵܐ ܕܡܼܢ 
+                        <persName ref="http://syriaca.org/person/1723">ܐܹܘܣܹܒܿܝܼܣ ܦܵܛܪܝܵܪܟܵܐ ܕܪܗ̄ܘܿܡܹܐ</persName>
+                        ܆ ܠܘܵܬܼ 
+                        <persName ref="http://syriaca.org/person/669">ܦܵܦܵܐ ܩܵܬܼܘܿܠܝܼܩܵܐ ܕܡܲܕܢܚܵܐ</persName> 
+                        <note place="foot" xml:id="ftna" n="a"><p
                                 xml:lang="en" rend="footnote text">E 71r, A 48r, B 114v, C 12r; M<hi
                                     rend="subscript">1</hi> 34v, M<hi rend="subscript">2</hi> 235r,
                                     M<hi rend="subscript">3</hi> 103r</p></note> . </p>
