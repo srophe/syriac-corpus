@@ -5,6 +5,7 @@
             <titleStmt>
                 <title xml:lang="en" level="a">Letter from Judah Kyriakos, bishop of Jerusalem, to
                     Papa bar Aggai</title>
+                <title xml:lang="en" level="s">The Letters of Papa bar Aggai</title>
                 <title level="s">Digital Syriac Corpus</title>
                 <author>Judah Kyriakos</author>
                 <sponsor>University of Oxford</sponsor>
@@ -122,7 +123,7 @@
                     <title>Letter from Judah Kyriakos, bishop of Jerusalem, to Papa bar
                         Aggai</title>
                     <editor>
-                        <name type="person">Annunziata Di Rienzo</name>
+                        Edited by: <name type="person">Annunziata Di Rienzo</name>
                     </editor>
                 </bibl>
             </div>
@@ -183,9 +184,10 @@
         <body>
             <div type="text">
                 <head><hi rend="bold">Text</hi></head>
+                <pb n="Text begins: E 71r; A 48r; B 114v; C
+                    12r; M1 34v; M3 103r"/>
                 <p xml:lang="syr"> ܐ̄ܚܪܬܼܐ ܕܝܗܘܕܐ ܩܘܼܪܝܵܩܘܿܣ
-                    ܐܲܦܸܝܣܩܘܦܐ ܕܐܘܿܪܸܫܠܸܡ ܠܘܵܬܹܗ ܕܦܵܦܵܐ.<pb n="E 71r; A 48r; B 114v; C
-                        12r; M1 34v; M3 103r"/> </p>
+                    ܐܲܦܸܝܣܩܘܦܐ ܕܐܘܿܪܸܫܠܸܡ ܠܘܵܬܹܗ ܕܦܵܦܵܐ. </p>
                 <p xml:lang="syr"> ܠܦܵܦܝܲܐ ܦܵܦܵܐ ܪܲܒܵܐ ܕܟܼܵܗ̈ܢܐ ܘܪܸܫܵܐ <pb n="B 115r; M1
                     35r"/>  ܕܐܸܘܲܢܓܲܠܣ̈ܛܐ: <note place="foot" xml:id="ftn1" n="1"><p>
                             <hi>M</hi><hi rend="subscript">1</hi> adds (ܟܹܐܡܲܬܼ ܕܐܲܪܒܿܥܐ

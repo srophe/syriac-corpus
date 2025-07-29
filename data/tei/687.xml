@@ -4,6 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="en" level="a">Letter of the queen Helena to Papa bar Aggai</title>
+                <title xml:lang="en" level="s">The Letters of Papa bar Aggai</title>
                 <title level="s">Digital Syriac Corpus</title>
                 <author>Queen Helena</author>
                 <sponsor>University of Oxford</sponsor>
@@ -121,7 +122,7 @@
                 <bibl>
                     <title>Letter of the queen Helena to Papa bar Aggai</title>
                     <editor>
-                        <name type="person">Annunziata Di Rienzo</name>
+                        Edited by: <name type="person">Annunziata Di Rienzo</name>
                     </editor>
                 </bibl>
             </div>
@@ -185,9 +186,8 @@
             <div type="text">
                 <head><hi rend="bold">Text</hi></head>
                 <div type="rubric">
-                    <p xml:lang="syr"><note place="foot" xml:id="ftna" n="a"><p> B 115r/229;
-                                    M<hi rend="subscript">1</hi> 35r; A 48v; E 71v; C 13r;
-                        M<hi rend="subscript">3</hi> 103v</p></note> [ܐܓܪܬܐ] <note
+                    <p xml:lang="syr"><pb n="Text begins: B 115r/229; M1 35r; A 48v; E 71v; C 13r;
+                        M3 103v"/> [ܐܓܪܬܐ] <note
                             place="foot" xml:id="ftn1" n="1"><p> M<hi rend="subscript">1</hi>C
                                 add</p></note>.ܕܗܹܠܹܢܹܐ ܡܠܟܬܐ ܠܘܬܗ ܕܦܵܦܐ </p>
                 </div>
@@ -196,11 +196,8 @@
                             ܕܝܠܝ ܡܪܝ ܦܵܦܵܐ ܦܛܪܝܪܟܝܣ ܕܡܕܢܚܐ : ܐܡܬܟ ܗܹܠܹܢܐ ܒܬܟܫܦܬܐ ܣܓܕܬܐ ܠܪ̈ܓܠܝܟ
                             ܩܕܝ̈ܫܬܐ ܡܩܪܒܐ. ܡܢܐ ܐܦܪܘܥ ܠܡܪܝܐ ܕܟܠܗܘܢ ܦܘܪ̈ܥܵܢܘܗܝ ܥܠܝ. ܕܐܢ̄ܬܬܐ ܚܛܝܬܐ
                             ܕܐܟܘܬܝ܆ ܠܩܕܝ̈ܫܐ ܘܟܗ̈ܢܐ ܕܐܟܘܬܟܘܢ ܐܓܪܬܐ ܘܣܹܩܪܐܣ ܒܦܪܗܣܝܐ ܬܟܬܘܒ ܘܬܫܕܪ.
-                            ܝܸܠܦܸܬ ܡܪܝ ܡܼܢ ܠܒܗ ܕܐܠܗܐ ܕܘܝܕ ܕܐܡ̇ܪ: ܕܐܫܒܚ ܠܡܪܝܐ <note place="foot"
-                                xml:id="ftnb" n="b"><p>
-                                    M<hi rend="subscript">1</hi> 35v</p></note> ܒܚܝܝ̈:
-                                ܘܐܙܡܪ ܠܐܠܗܝ ܥܕ ܩܝܵܡ ܐ̄ܢܐ. ܐܦ ܐܢܐ ܡܪܝ ܪܲܢܹܬܼ ܒܢܦܫܝ܆ <note
-                                place="foot" xml:id="ftnc" n="c"><p> B 115v/230</p></note> ܕܟܕ
+                            ܝܸܠܦܸܬ ܡܪܝ ܡܼܢ ܠܒܗ ܕܐܠܗܐ ܕܘܝܕ ܕܐܡ̇ܪ: ܕܐܫܒܚ ܠܡܪܝܐ <pb n="M1 35v"/> ܒܚܝܝ̈:
+                                ܘܐܙܡܪ ܠܐܠܗܝ ܥܕ ܩܝܵܡ ܐ̄ܢܐ. ܐܦ ܐܢܐ ܡܪܝ ܪܲܢܹܬܼ ܒܢܦܫܝ܆ <pb n="B 115v/230"/> ܕܟܕ
                                 ܡܫܝܚܐ ܠܗܕܐ ܟܠܗܿ ܪܒܘܬܐ ܩܪܼܐ ܠܢ܆ ܘܠܒܪܟ ܩܘܣܛܢܬܝܢܘܣ ܝܗܼ̄ܒ ܠܗ ܙܟܘܬܐ ܥܠ
                                 ܟܠܗܘܢ<note place="foot" xml:id="ftn2" n="2"><p> B om
                                 </p></note> ܒܥܠܕܒܒܘ̈ܗܝ : ܒܚܝܠܐ ܘܒܥܘܕܪܢܐ܆ ܒܢܝܫܗ ܪܒܐ ܕܨܠܝܒܐ
@@ -209,12 +206,10 @@
                                         ܐܣܬܿܚܸܦܘ</p></note> ܡܫܪ̈ܝܬܐ ܕܒܥܠܕܒܒ̈ܐ. ܘܐܬܬܪܝܡܬܸ
                                 ܩܪܢܗܿ ܕܥܕܬܐ ܩܕܝܫܬܐ܆ ܨܵܒܝܐ ܐ̄ܢܐ ܕܐܦ ܐܢܐ ܐܘܪܒ ܫܡܗ ܕܡܫܝܚܐ ܒܟܠ ܐܬܿܪ
                                 ܒܥܕܬ̈ܐ ܕܒܲܢܝܐ ܐ̄ܢܐ. ܘܒܗܕܪܐ ܘܲܒܨܒܬܐ ܕܬܨܒ̈ܝܬܐ ܒܟܠ ܙܢܝܢ̈ . ܘܒܬܫܡܫܬܐ
-                                ܙܗܝܬܐ ܕܟܗ̈ܢܐ : <note place="foot" xml:id="ftnd" n="d"><p>
-                                    M<hi rend="subscript">3</hi> 104r</p></note>
+                                ܙܗܝܬܐ ܕܟܗ̈ܢܐ : <pb n="M3 104r"/>
                                 ܘܒܩܘܒܠܐ ܕܣܢܝ̈ܩܐ ܆ ܗܫܐ ܡܪܝ ܕܐܝܿܕܐ ܗ̄ܝܼ ܕܥܵܕܪܐ ܠܡܣܥܪ ܒܦܢܝܬܟܘܢ܆ ܘܒܟܡܐ
                                 ܡܕܝ̈ܢܬܐ ܦܩܚܐ ܠܡܒܢܐ. ܘܐܢ ܐܝܬ ܡܥܲܟܪܢܐ ܘܐܢ ܠܝܬ. ܥܠ ܗܠܝܢ ܠܚܛܝܘܬܝ
-                                ܒܟܬܝ̈ܒܬܟ ܢܬܝܕܥ. ܒܐܝܼܕܐ<note place="foot" xml:id="ftne" n="e"
-                                    ><p> C 13v</p></note> ܕܒܪܟ ܘܬܠܡܝܕܟ ܩܕܝܫܐ ܝܥܩܘܒ ܐܦܝܣܩܘܦܐ
+                                ܒܟܬܝ̈ܒܬܟ ܢܬܝܕܥ. ܒܐܝܼܕܐ<pb n="C 13v"/> ܕܒܪܟ ܘܬܠܡܝܕܟ ܩܕܝܫܐ ܝܥܩܘܒ ܐܦܝܣܩܘܦܐ
                                 ܕܲܢܨܝܒܝܢ. ܘܨܿܠܐ ܥܠܝܢ ܘܥܠ ܒܪܟ ܩܘܣܛܢܛܝܢܘܣ ܡܠܟܐ ܘܥܠ ܟܠܗܿ ܡܕܒܪܢܘܬܗ
                                 ܕܒܨܠܘܬ̈ܟ ܬܸܨܠܚ ܒܟܠ ܥܒܼܕ ܛܒ ܘܡܫܲܠܡܢ.</p>
                     </div>
