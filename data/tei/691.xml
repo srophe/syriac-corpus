@@ -5,6 +5,7 @@
             <titleStmt>
                 <title xml:lang="en" level="a">Letter from Mar Papa to the
                     citizens of Nisibis</title>
+                <title xml:lang="en" level="s">The Letters of Papa bar Aggai</title>
                 <title level="s">Digital Syriac Corpus</title>
                 <author>Papa bar Aggai</author>
                 <sponsor>University of Oxford</sponsor>
@@ -123,7 +124,7 @@
                     <title>Letter from Mar Papa to the
                         citizens of Nisibis</title>
                     <editor>
-                        <name type="person">Edited by: Annunziata Di Rienzo</name>
+                        Edited by: <name type="person">Annunziata Di Rienzo</name>
                     </editor>
                 </bibl>
             </div>

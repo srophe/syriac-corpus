@@ -5,6 +5,7 @@
             <titleStmt>
                 <title xml:lang="en" level="a">Synodical letter from the Western Fathers to Mar Papa
                     catholicos</title>
+                <title xml:lang="en" level="s">The Letters of Papa bar Aggai</title>
                 <title level="s">Digital Syriac Corpus</title>
                 <sponsor>University of Oxford</sponsor>
                 <sponsor>Brigham Young University</sponsor>
@@ -121,7 +122,7 @@
                 <bibl>
                     <title>Synodical letter from the Western Fathers to Mar Papa catholicos</title>
                     <editor>
-                        <name type="person">Edited by: Annunziata Di Rienzo</name>
+                        Edited by: <name type="person">Annunziata Di Rienzo</name>
                     </editor>
                 </bibl>
             </div>
