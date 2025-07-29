@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a">Letter from Mar Papa to the
+                    citizens of Nisibis</title>
+                <title level="s">Digital Syriac Corpus</title>
+                <author>Papa bar Aggai</author>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dtaylor">David G.K. Taylor,
+                    University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="general editor" ref="http://syriaca.org/person.xml#jwalters">James E.
+                    Walters, Rochester College</editor>
+                <respStmt>
+                    <resp>TEI XML encoding by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#adirienzo">Annunziata Di
+                        Rienzo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#adirienzo">Annunziata Di
+                        Rienzo</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+                <respStmt>
+                    <resp>edited by</resp>
+                    <name>
+                        <persName>
+                            <forename>Annunziata</forename>
+                            <surname>Di Rienzo</surname>
+                        </persName>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
+                </distributor>
+                <authority>Digital Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/691</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">Creative Commons — Attribution 4.0 International — CC BY
+                            4.0</p>
+                        <p xml:lang="en">https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                    <ab>
+                        <note>This electronic edition is designed for open access reuse. The Syriac
+                            base text is in the public domain. The TEI XML edition is copyrighted by
+                            James E. Walters and is released under a Creative Commons Attribution
+                            4.0 International Public License (CC BY 4.0).</note>
+                    </ab>
+                    <ab>
+                        <note>The HTML page is copyrighted by Vanderbilt University and released
+                            under a under a Creative Commons Attribution 4.0 International Public
+                            License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+                            Attribution for reuse should follow the suggested citation and also
+                            credit the copyright holder of the TEI XML edition.</note>
+                    </ab>
+
+                </availability>
+                <date calendar="Gregorian"
+                    ><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p xml:lang="en">Digital Syriac Corpus is collaboration of University of Oxford,
+                    Brigham Young University, Vanderbilt University, and the Center of Digital
+                    Humanities Research (CoDHR) at Texas A&amp;M University. </p>
+
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+            <creation>
+                <origDate type="composition" from="0300" to="0400">4th century</origDate>
+            </creation>
+        </profileDesc>
+        <revisionDesc status="ProofedDigitalEdition">
+            <change when="2025-07-29" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="BornDigitalDiplomaticEdition">
+        <front>
+            <div type="title">
+                <bibl>
+                    <title>Letter from Mar Papa to the
+                        citizens of Nisibis</title>
+                    <editor>
+                        <name type="person">Edited by: Annunziata Di Rienzo</name>
+                    </editor>
+                </bibl>
+            </div>
+            <div type="preface" xml:lang="en">
+                <head>Preface</head>
+                <div xml:lang="en">
+                    <p xml:lang="en">This text is a born-digital edition of 
+                        <hi rend="italic">The letter that <persName ref="http://syriaca.org/person/669">Mar Papa</persName> wrote to the
+                            citizens of <placeName ref="http://syriaca.org/place/142">Nisibis</placeName></hi>. The letter is part of a corpus of eight letters
+                        representing the correspondence of Papa bar Aggai, early 4th-century bishop of
+                        Seleucia, with some exponents of the western political and religious power.
+                        Beside the 
+                        <hi rend="italic">The letter that Mar Papa wrote to the
+                            citizens of Nisibis</hi>, the corpus includes: a letter from Eusebius of Rome to
+                        Papa, a letter from Judah Kyriakos of Jerusalem to Papa, a letter from the
+                        Empress Helena to Papa, a letter from Papa to the Empress Helena, a letter from
+                        Jacob bishop of Nisibis to Papa, a letter from Ephrem to Papa, the letter sent
+                        by the Western Fathers on the illegal removal of Papa.</p>
+                </div>
+                <div xml:lang="en">
+                    <p xml:lang="en">This edition is based on the following manuscript witnesses: </p>
+                    <div xml:lang="en">
+                        <p xml:lang="en">Erbil 509 (olim Alqoš 169/ Baghdad 509), f. 73v-74v (E)
+                            (the most ancient and principal source, probably direct or indirect
+                            source for the later extant witnesses);</p>
+                        <p xml:lang="en">Rome, Vatican Library, Borg. Sir. 82, f. 113v-114r; 116r (B);</p>
+                        <p xml:lang="en">Birmingham, Mingana Collection Syr. 47, f. 40r-42v (M<hi
+                                rend="subscript">1);</hi></p>
+                        <p xml:lang="en">Birmingham, Mingana Collection Syr. 586, f. 108v-111r (M<hi
+                                rend="subscript">3);</hi></p>
+                        <p>Trichur, Chaldean Syrian Church, APSTCH THRI 65, f. 50v-51v (A) (the
+                            manuscript has been digitized, and it can be viewed <ref
+                                target="https://www.vhmml.org/readingRoom/view/511738"
+                                >here</ref>);</p>
+                        <p>Baghdad, Chaldean Catholic Church. Patriarchate of Baghdad 377, f. 15r-20r
+                            (C) (the manuscript has been digitized, and it can be viewed <ref
+                                target="https://www.vhmml.org/readingRoom/view/609956"
+                            >here</ref>).</p>
+                    </div>
+
+                    <div xml:lang="en">
+                        <p xml:lang="en">This text has never been published in any prior edition. </p>
+                        <p xml:lang="en">This edition should not be considered as definitive but as
+                            a still in-progress material.</p>
+                        <p xml:lang="en">There is an old German translation of the entire corpus
+                            (based on the Syriac text preserved in ms Borg. Sir. 82) in O. Braun,
+                            "Der Briefwechsel des Katholikos Papa von Seleucia. Ein Beitrag zur
+                            Geschichte der ostsyrischen Kirche im vierten Jahrhundert", <hi
+                                rend="italic"> Zeitschrift für katholische Theologie </hi>18
+                                (1894), pp. 163-182, 546-565.</p>
+                        <p xml:lang="en">A new English translation is forthcoming.</p>
+                        <p xml:lang="en">This edition is an outcome of the Marie Skłodowska-Curie
+                            Global Fellowship 2022 – Project "ForM - FORGED MEMORIES: the Church of
+                            Late Antique Iran and the West", funded by the European Commission.</p>
+                    </div>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div type="text">
+                <head><hi rend="bold">Text</hi></head>
+                <div type="rubric">
+                    <pb n="Text begins: B 113v; M1 40r; E 73v; A 50v; C 15r; M3
+                        108v"/>
+                    <p xml:lang="syr">ܐܓܪܬܐ ܕܐܬܟܬܒܬܸ ܡܼܢ ܡܪܝ ܦܵܦܵܐ ܠܒܢ̈ܝ ܢܨܝܒܝܢ.</p>
+                </div>
+                <div type="body">
+                    <p xml:lang="syr">
+                        ܩܕܝܫܐ ܥܡ ܪ̈ܿܥܝܐ. ܘܡܠܦ̈ܢܐ ܘܟܗ̈ܢܐ ܘܟܠ ܡܘܫܚ̈ܢ ܇ ܕܡܗܝ̈ܡܢܐ ܘܡܗܝܡ̈ܢܬܐ ܥܡ ܝܠܘܕ̈ܐ ܘܓܕܘ̈ܕܐ
+                        ܘܒܬܘ̈ܠܬܐ. ܦܦܐ ܚܠܫܐ ܪܫ ܐܦܝܣܩ̈ܘܦܐ ܕܡܕܢܚܐ : ܒܝܫܘܥ ܡܫܝܚܐ ܡܢܛܪܢܐ<note place="foot"
+                            xml:id="ftn1" n="1"><p> E lacuna; M<hi rend="subscript">3</hi> ܡܕܲܒܿܪܵܢܐ
+                            </p></note> ܕܥܕܬܗ ܣܿܓܝ ܫܠܼܡ. ܚܒܝ̈ܒܝ ܆ ܠܘ ܠܒܢܝ̈ܢܫܐ ܦܸܠܚܬܼ ܡܼܢ ܛܠܝܘܬܝ : ܕܡܼܢ
+                        ܒܢܝ̈ܢܫܐ ܐܩܲܒܠ ܐܲܓܪܐ<note place="foot" xml:id="ftn2" n="2"><p> E lacuna; M<hi
+                            rend="subscript">3</hi> ܐܝܼܩܵܪܵܐ </p></note> ܒܝܕ ܩܘܠܣ̈ܐ ܕܒܡܠܬܐ ܘܒܟܬܝ̈ܒܬܐ
+                        ܇ ܘܠܘ ܐܝܟ ܪܒܘܬܗ<note place="foot" xml:id="ftn3" n="3"><p> E lacuna; BM<hi
+                            rend="subscript">3</hi> om (blank space)</p></note> ܕܕܪܓܐ ܕܿܠܗ ܐܼܬܩܿܪܝܬܼ
+                        ܗܟܢܐ ܐܝܬܝ. ܐܠܐ ܒܟܠܗܝܢ ܝܬܝܪ ܡܼܢ ܟܠܢܵܫ ܒܨܝܪ ܐ̄ܢܐ. ܘܗܫܐ ܙܒܢܐ ܗܸ̄ܘ ܠܝ ܕܐܹܡܪ ܐܝܟ ܐܠܝܐ
+                        ܢܒܝܐ ܆ ܕܣܲܒ ܢܦܫܝ ܡܸܢܝ. ܡܛܠ ܕܠܐ ܗܘܿܝܬܼ ܛܒ ܐ̄ܢܐ ܡܼܢ ܐܒܗܝ̈. ܐܢ ܐܠܝܐ ܒܟܠܗܝܢ ܓܒܪ̈ܘܵܬܗ
+                        ܐܡܼܪ܆ ܕܠܐ ܛܒ ܐܝܟ ܐܒܗܘ̈ܗܝ ܆ ܐܢܐ ܕܠܐ ܣܦܩܿܬܼ ܠܡܬܡܲܛܝܘ ܠܡܘ̈ܫܚܬܐ ܙܥܘܪ̈ܝܬܐ ܕܐܒܗ̈ܝ ܆ ܐܝܟܢܐ
+                        ܥܡ <pb n="M3 109r"/> ܪܒܘܬܗܘܢ ܘܓܢ̄ܒܪܘܬܗܘܢ ܡܡܲܪܐ ܐ̄ܢܐ. ܐܢ ܠܘܬ ܚܸܠܐ ܕܪ̈ܓܠܝܗܘܢ ܪܸܗܛܬܼ
+                        ܘܠܐ ܡܲܛܝܼܬܼ ܆ ܠܘܬܼ ܛܘܪܐ ܕܕܘܒܪ̈ܝܗܘܢ ܆ ܠܡܢܐ <pb n="M1 40v"/> ܪܗܛ ܐ̄ܢܐ. ܝܬܝܪܐܝܬ ܒܙܒܢܐ
+                        ܗܢܐ ܕܙܩܝܼܦܝܼܢ ܡܚܫܘ̈ܠܐ.<note place="foot" xml:id="ftn4" n="4"><p> E lacuna; A
+                            ܡܵܡ̈ܘܠܐ</p></note> ܘܡܪܝܼܡܝܼܢ ܓܠ̈ܠܐ ܘܥܙܝܼܙܝܢ <pb n="C 15v"/> ܟܝܡ̈ܘܢܐ ܘܩܫܸܝܢ
+                        ܩܪ̈ܒܐ ܕܥܬܝܕܝܢ ܩܠܝܠܐܝܬܼ ܠܡܐܬܐ ܥܠ ܥܕܬܗ ܕܐܠܗܐ. ܘܐܢܐ ܥܡ ܗܝܿ ܕܒܘܼܪܐ ܐ̄ܢܐ ܒܡܠܲܬܝ
+                        ܘܒܪܝܪ<note place="foot" xml:id="ftn5" n="5"><p> E lacuna; M<hi rend="subscript"
+                            >3</hi> ܘܒܼܘܼܪܵܐ ; BM<hi rend="subscript">1</hi>C ܘܲܒܼܨܝܼܪ</p></note>
+                        ܐ̄ܢܐ ܒܝܼܕܥܬܝ ܆ ܐܠܐ ܣܛܪ ܡܼܢ ܗܝܿ ܕܒܚ̈ܛܗܐ<note place="foot" xml:id="ftn6" n="6"><p> E
+                            lacuna; AM<hi rend="subscript">3</hi> om have initial ܕܒ then blank space; C
+                            originally ܕܒܼܚ̈ܛܗܐ corrected in ܕܒܲܚ̈ܛܵܐ</p></note> ܐܬܢܵܘܠܹܬܼ ܒܡ̈ܠܐ
+                        ܘܒܟܘܪ̈ܗܢܐ. ܘܐܲܫܦܠܬܼ ܡܼܢ ܣܘܓܐܐ ܕܢܣܝ̈ܘܢܐ ܕܥܒܼܪܘ ܥܠܝ. ܐܠܐ ܐܦ ܣܝܒܘܬܐ ܬܲܒܪܬܼܢܝ
+                        ܘܡܲܟܸܟܼܬܼܢܝ. ܝܬܝܪܐܝܬ ܚܐܦܐ ܕܢܣܝ̈ܘܢܐ ܕܥܕܘ ܥܠܝ : ܡܼܢ ܗܿܢܘܢ <pb n="B
+                            114r/227"/> ܚܢܦ̈ܐ<note place="foot" xml:id="ftn7" n="7"
+                                ><p> E lacuna; A om (blank space); M<hi rend="subscript">3</hi> ܐܢܵܫܵܐ ;
+                                    M<hi rend="subscript">1</hi> ܚܲܠܵܦܹܐ </p></note> ܟܣܝ̈ܐ ܕܡܛܲܫܝܢ ܒܓܘ ܥܕܬܐ
+                        ܕܒܫܡܐ ܣܪܝܩܐ ܡܬܩܪܸܝܢ ܥܡܘ̈ܕܐ ܘܫܬܐ̈ܣܐ. ܘܗܫܐ ܗܼܢܘܢ ܐܝܬܝܗܘܢ ܣܬܘܪ̈ܐ ܘܥܩܘܪ̈ܐ. ܘܡܚܘܝܢ ܢܦܫܗܘܢ
+                        ܠܒܢܝ̈ܢܫܐ ܆ ܕܒܢܝ̈ܐ ܐܢܘܢ ܘܐܪ̈ܕܟܠܐ<note place="foot" xml:id="ftn8" n="8"><p> AEM<hi
+                            rend="subscript">3</hi> ܕܐܪ̈ܕܟܠܵܐ</p></note>. ܘܗܠܝܢ ܥܕܟܝܠ : ܪܫܐ ܐܢܘܢ
+                        ܕܚܹܒ̈ܠܐ ܕܥܬܝܕܝܢ ܕܢܐܬܘܢ<note place="foot" xml:id="ftn9" n="9"><p> E lacuna; AM<hi
+                            rend="subscript">3</hi> ܕܢܸܗܘܘܢ</p></note>. ܠܡܿܢܐ ܡܬܒܥܹܝܢ ܠܝ ܚܝ̈ܐ. ܟܕ
+                        ܒܥܠܕܒܒ̈ܝܢ ܬܠܡܝܕܝ̈ܢ ܆ ܘܩܛܐܓܪ̈ܢܝܢ. ܘܕܝܵܢ̈ܝܢ ܒܢܝ̈ܢ. ܘܡܛܠ ܕܠܘ ܒܢܝ̈ܐ ܐܢܘܢ ܫܪܝܪ̈ܐ ܆ ܠܐ
+                        ܐܫܬܟܚ ܒܗܘܢ ܚܘܼܒܵܐ <pb n="A
+                            51r"/> ܕܠܘܬ ܐܠܗܐ. ܟܕ ܕܝܢ ܡܼܢ ܩܕܝܡ ܩܡ ܥܠܝ ܐܓܘܢܐ ܗܘܿ ܕܡܼܢ ܗܿܢܘܢ
+                        ܕܝܬܝܪ ܡܼܢ ܡܢܝܵܢܐ ܕܩܘܪ̈ܝܗܘܢ <pb n="E 74r"/><note place="foot" xml:id="ftn10" n="10"
+                            ><p>B has a small blank space of about two lines; a marginal note in Latin
+                                says: "<hi rend="italic">Cetera pag. 232</hi>", and a second note, at the
+                                end of the blank says: "<hi rend="italic">Vide pag. 219</hi>". B here
+                                continues with part of another text, the Letter to the Nisibenes restart at
+                                f. 116r (p. 232)</p></note> ܗܘܘ<note place="foot" xml:id="ftn11" n="11"><p>
+                                    The following part in B is dislocated at the end of the Letter of Papa to
+                                    Helena (f. 116r/p. 231), introduced by a marginal note in Latin: Continuatio
+                                    epistolae ad Nisibenos. v. pag. 228.</p></note> ܐܠܗܝ̈ܗܘܢ : ܘܣܓܝ̈ܐܐ ܡܼܢ
+                        ܟܪ̈ܣܛܝܢܐ ܕܬܚܒܸܘ ܟܦܪܘ<note place="foot" xml:id="ftn12" n="12"><p> E lacuna; A om
+                            (blank space); M<hi rend="subscript">3</hi> ܗ̄ܘܵܘ </p></note> ܒܡܫܝܚܐ.
+                        ܘܠܒܨܝܪܘܬܝ ܠܒܟܘ ܘܐܲܣܪܘ ܒܐܣܘܪ̈ܐ <pb n="C 16r"/> ܩܫܝ̈ܐ. ܘܫܲܢܩܘܼܢܝ ܒܟܦܢܐ ܘܒܨܗܝܐ.
+                        ܘܒܼܢܓܕ̈ܐ ܘܒܡܚ̈ܘܬܐ. ܘܒܟܠܗܘܢ ܚܫ̈ܐ ܕܥܒܼܪܘ ܥܠܝ ܠܐ ܗܘܼܐ ܐܝܟ ܕܒܚܫܐ ܕܡܚܲ̈ܛܹܐ ܘܨܢܪ̈ܝܵܬܐ :
+                        ܕܬܚܬ ܛܦܪ̈ܐ ܕܐܝܕ̈ܝ ܘܕܪ̈ܓܠܝ ܣܡܼܘ. ܘܐܦ ܟܕ ܒܲܙܲܥܘ ܐܝܕ̈ܝ ܘܪ̈ܓܠܝ : ܘܐܿܥܸܠܘ ܡܲܬ̈ܢܸܐ ܒܒܙ̈ܥܐ
+                        ܕܓܘܫܡܝ܆ ܘܬܼܠܐܵܘܼܢܝ ܒܡܨܥܬܼ ܟܢܘܫܬܐ ܕܕܝ̈ܿܢܐ : ܘܐܫܠܚܘܢܝ ܘܦܲܪܣܝܘܢܝ ܘܐܟܪܟܘܢܝ ܒܫܘܩܵܐ ܆
+                        ܘܡܫܝܚܐ ܥܕܪ ܠܡܚܝܠܘܬܝ. ܘܣܲܥܪܢܝ<note place="foot" xml:id="ftn13" n="13"><p> E lacuna;
+                            AM<hi rend="subscript">3</hi> ܘܥܲܕܪܢܝ</p></note> ܒܥܘܙܐ ܕܟܐܒܝ̈܆ ܘܐܪܘܚ ܠܝ
+                        ܒܟܢܘܫܝܐ ܕܟܘܪ̈ܗܢܝ : ܘܐܢܝܚ ܠܝ ܒܡܪܝܪܘܬܐ ܕܚܫܝ̈ܝ: ܘܒܟܠܗܝܢ ܗܠܝܢ ܠܐ ܚܸܫܿܬܼ ܐܝܟ ܕܒܟܐܒܐ ܗܢܐ ܆
+                        <pb n="M3 109v"/> ܕܗܠܝܢ ܚܢ̈ܦܐ <pb n="B116v/232"/> ܟܣܝ̈ܐ ܘܒܥܠܕܒ̈ܒܐ ܓ̈ܠܲܝܐ
+                        ܕܡܫܚܛܵܐܝܬ ܘܒܠܝܠܐܝܬ<note place="foot" xml:id="ftn14" n="14"><p> E lacuna ; A
+                            ܘܲܩܲܠܝܼܠܐܝܼܬܼ</p></note> ܟܲܢܝܼܘ ܢܦܫܗܘܢ ܐܦܝܣܩܘ̈ܦܐ܆ ܡܢܗܘܢ ܒܟܬܝ̈ܒܬܐ ܕܦܘܩܕܢܐ
+                        ܕܗܘܿ ܕܥܼܢܕ : ܕܐܝܬܘܗܝ ܗܘܼܐ ܐܦܝܣܩܘܦܐ ܘܕܠܐ ܣܝܡ ܐܝܕܐ ܝܬܒ ܗܘܼܐ ܥܠ ܟܘܪܣܝܐ : <pb n="M1 41r"
+                        /> ܘܟܲܢܼܝ ܢܦܫܗ ܐܦܝܣܩܘܦܐ܆ ܘܡܢܗܘܢ ܕܣܝܡܝܢ ܡܼܢ ܚܕ ܚܕ ܐܦܝܣܩܘܦܐ ܇ ܘܐܚܪ̈ܢܐ ܐܡܪܝܢ ܕܣܝܡܝܼܢܢ ܆
+                        ܘܟܕ ܐܬܒܚܢܸܬܼ [ܨܒܘܬܗܘܢ ܐܫܬܟܚܘ ܕܠܐ ܣܝܡܝܢ. <pb n="C 16v"/> ܘܐܚܪ̈ܢܐ ܕܐܬܬܣܝܡܘ]<note
+                            place="foot" xml:id="ftn15" n="15"><p> Portion of text missing in E, where it is
+                                added, by a different hand, as marginal note (perpendicular to the text).
+                                The addition of the missing part should be anyway antecedent to the copy of
+                                the later manuscripts, as they all have (concordely) this portion of
+                                text.</p></note> ܩܢܘܢܐܝܬ. [ܘܟܕ ܡܝܬܘ]<note place="foot" xml:id="ftn16" n="16"
+                                    ><p> E lacuna; AM<hi rend="subscript">3</hi> om (blank space)</p></note>
+                        ܐܦܝܣܩܘ̈ܦܐ ܕܡܕܝ̈ܢܬܐ ܡܫܡ̈ܗܬܐ ܫܲܢܝܘ ܡܼܢ ܟܘܖ̈ܣܘܬܗܘܢ ܘܗܘܘ ܓܝܪ̈ܐ ܒܫܘܬܦܘܬܐ ܛܢܦܬܐ<note
+                            place="foot" xml:id="ftn17" n="17"><p> E lacuna; ABM<hi rend="subscript">3</hi>
+                                om (blank space)</p></note> ܒܙܘܘܓܐ ܪܘܚܢܝܐ. ܘܒܗܕܐ ܛܢܦܘܗܝ ܠܟܠܗ ܓܘܫܡܐ ܕܥܕܬܐ
+                        ܩܕܝܫܬܐ ܆ ܘܐܚܪ̈ܢܐ ܒܡܥܕܪ̈ܢܘܬܐ ܕܡܪ̈ܚܐ ܕܐܟܘܬܗܘܢ ܛܪܕܘ [ܟܠܗܘܢ]<note place="foot"
+                            xml:id="ftn18" n="18"><p> M<hi rend="subscript">3</hi> add</p></note> ܠܐܦܣܩܘ̈ܦܐ
+                        ܡܼܢ ܟܘܖ̈ܣܘܬܗܘܢ ܆ ܘܝܬܹܒܘ ܗܼܢܘܢ ܒܕܘܟܬܗܘܢ<note place="foot" xml:id="ftn19" n="19"><p> E
+                            lacuna; BM<hi rend="subscript">1</hi>C ܚܠܵܦܝܗܘܢ</p></note>. ܘܩܲܛܠܘ ܘܝܼܪܹܬܘ
+                        ܒܓܘ ܥܕܬܐ. ܘܐܚܪ̈ܢܐ ܒܣܘܥܪ̈ܢܐ ܕܢܘܟܪܝܘܬܐ ܐܬܩܛܪܓܘ܆ ܘܐܚܪ̈ܢܐ ܒܥܠܬ ܥܡܘܪ̈ܝܵܬܐ ܕܒܗܝܢ ܐܫܬܲܪܚܘ ܆
+                        ܚܘܼܒܵܠܐ<note place="foot" xml:id="ftn20" n="20"><p> B om; E lacuna; AM<hi
+                            rend="subscript">3</hi> om (blank space)</p></note> ܕܒܲܛܢܐ ܆ ܘܐܒܕܢܐ
+                        ܕܥܘܼ̈ܠܐ ܐܫܼܬܡܫ<note place="foot" xml:id="ftn21" n="21"><p> B ܐܫܬܡܫܘ</p></note>
+                        ܡܢܗܘܢ<note place="foot" xml:id="ftn22" n="22"><p> E lacuna; AM<hi
+                            rend="subscript">3</hi> om (blank space)</p></note>. ܘܐܚܪ̈ܢܐ ܡܛܠ ܕܙܲܒܢܸܘ
+                        ܩܢܝ̈ܢܐ ܕܥܕ̈ܬܐ ܘܕܝܪ̈ܬܐ ܆ ܘܐܥܬܪܘ ܒܗܿ<note place="foot" xml:id="ftn23" n="23"><p> M<hi
+                            rend="subscript">1</hi>C ܒܗܘܿܢ</p></note> ܠܐܢܫ̈ܘܬܗܘܢ. ܘܐܚܪ̈ܢܐ
+                        ܕܡܚܘܝܢ<note place="foot" xml:id="ftn24" n="24"><p> E lacuna; M<hi
+                            rend="subscript">3</hi> om (blank space); B ܟܕ ܡܚܵܘܝܢ</p></note> ܢܦܫܗܘܢ
+                        ܡܣܲܪ̈ܩܹܐ ܘܢܙܝܪ̈ܐ ܆ ܐܫܬܟܚܘ ܕܚܡܪܐ<note place="foot" xml:id="ftn25" n="25"><p> E
+                            lacuna; AM<hi rend="subscript">3</hi> om (blank space); M<hi
+                                rend="subscript">1</hi> ܡܝܲܩܪ̈ܐ ; C ܛܡܝܼܪܸ̈ܐ</p></note> ܒܟܠܝ̈ܠܐ ܘܒܙܡܲܪܐ
+                        ܫܬܿܝܢ ܗܘܘ ܐܝܟܐ ܕܠܐ ܘܵܠܐ. ܘܐܫܬܟܚܘ ܕܡܫܡܫܝܢ ܚܛܗܐ ܒܓܘ ܚܛܗܐ<note place="foot"
+                            xml:id="ftn26" n="26"><p> E lacuna; AM<hi rend="subscript">3</hi> om (blank
+                                space)</p></note>. ܡܛܠ ܕܣܘܓܐܗܘܢ ܒܪܦܝܘܬܗܘܢ [ܣܛܵܘ ܐܟܚܕܐ]<note place="foot"
+                                    xml:id="ftn27" n="27"><p> E lacuna; AM<hi rend="subscript">3</hi> om (blank
+                                        space)</p></note> ܘܐܣܬܠܝܼܘ. ܟܕ ܨܒܲܝܵܢܢ ܕܟܣܝܐܝܬ ܐܝܟ ܒܢܝ̈ܐ ܢܩܢܐ ܐܢܘܢ ܒܝܕ
+                        ܡܪܬܝܢܘܬܐ <pb n="C17r"/> ܕܡܢܢ. ܘܡܬܬܘܝܢܘܬܐ<note place="foot" xml:id="ftn28" n="28"><p>
+                            E illegible; B ܕܡܬܬܘܝܢܘܬܼܵܐ ; M<hi rend="subscript">3</hi>
+                            ܒܡܸܬܬܵܘܝܵܢܘܬܼܵܐ</p></note> ܕܡܚܘܝܢ ܗܼܢܘܢ ܐܝܟ ܙܵܢܝܼܬܐ ܟܪܘܡܬܢܝܬܐ. ܘܝܬܝܪ ܡܢܗܿ
+                        ܩܼܢܵܘ<note place="foot" xml:id="ftn29" n="29"><p> E ܩܢܼܘ ; B ܩܢܹܝܢ</p></note>
+                        ܚܘܨܦܐ. ܘܡܛܠ ܕܢܗܘܘܢ ܕܠܐ ܪܫܐ ܘܕܠܐ ܕܝܵܢܐ ܘܕܠܐ ܬܒܥܬܐ. ܘܕܠܐ ܕܹܚܠܐ ܘܩܸܢܛܐ ܢܓܡܪܘܢ ܨܒܝܢܐ
+                        ܕܪ̈ܓܝܓܬܗܘܢ ܛܢܦܬ̈ܐ ܆ ܐܸܬܲܒܪܘ ܟܠܗܘܢ ܥܡ ܚܕܕ̈ܐ. ܘܬܐܓܘܪܬܐ ܕܐܝܟ ܗܕܐ ܐܬܬܓܪܘ ܠܥܕܬܗ ܕܐܠܗܐ.
+                        ܘܗܐ ܥܒܝܕܝܢ ܒܗܹܬܬܐ ܘܬܲܗܠܠܬܐ ܘܓܼܚܟܝܢ ܘܡܡܲܝܩܝܢ ܒܢ ܚܢ̈ܦܐ ܘܝܗ̄ܘܕ̈ܝܐ ܆<pb n="M3 110r"/>
+                        ܐܟܚܕܐ ܆ ܘܗܫܐ ܕܝܠܝ ܠܐ ܬܹܪܢܘܢ. ܡܛܠ ܕܐܢܐ ܦܦܐ ܠܐ̄ܢܫ ܡܕܡ ܠܐ ܚܝܵܒܼ ܐ̄ܢܐ ܇ ܐܠܐ ܟܠܗܿ ܚܝܒܘܬܝ
+                        ܠܐܠܗܵܐ ܗܘܼ ܒܠܚܘܕ ܚܝܵܒ ܐ̄ܢܐ. ܘܕܝܿܕܥ ܕܠܝܬ ܠܝ ܕܐܦܪܘܥ <pb n="B 117r/233"/> ܠܗ ܆ ܫܒܿܩ ܠܝ
+                        ܚܘܒܬ̈ܝ ܒܪ̈ܚܡܘܗܝ. ܡܛܠ ܕܠܗ ܒܠܚܘܕܘܗܝ ܚܛܿܝܬܼ. ܘܦܩܚܐ ܗܝܼ ܕܐܬܲܬܕܝܢ ܡܼܢ ܗܘܿ ܕܠܗ ܚܝܵܒ ܐ̄ܢܐ܆
+                        ܝܬܝܪ ܡܼܢ <pb n="M1 41v"/> ܕܐܬܬܕܝܢ ܡܼܢ ܗܿܢܘܢ ܕܠܐ ܚܝܵܒ ܐ̄ܢܐ ܠܗܘܢ. ܘܗܼܢܘܢ ܚܝܵܒܝܢ ܠܝ.
+                        ܘܟܠܝܘܡ ܡܨܲܚܝܢ ܠܝ ܇ ܘܐܢ̄ܬ ܐܚܘܢ ܡܪܝ ܝܥܩܘܒ ܪܥܝܐ ܘܡܕܒܪܢܐ ܕܢܨܝܒܝܢ܆ ܕܬܒܥܼܬܿ ܡܢܢ ܟܬܝ̈ܒܬܐ
+                        ܕܒܘܝܐܐ ܇ ܐܼܬܦܩܕܬܼ ܕܐܘܕܥܟ. ܕܐܲܥܒܪ <pb n="C 17v"/> ܡܢܟ ܢܝܚ̈ܐ<note place="foot"
+                            xml:id="ftn30" n="30"><p> M<hi rend="subscript">3</hi> ܚܲܝܹ̈ܐ</p></note>. ܘܛܲܝܸܒ
+                        ܐܦܝܟ̈ ܠܚܫ̈ܐ. ܘܣܝܼܡ ܢܦܫܟ ܠܐܘ̈ܠܨܢܐ. ܘܝܬܝܪ ܡܼܢ ܩܘܒܲܪܢܹܝܛܐ ܥܠ ܣܘܟܢܐ ܕܐܠܦܗ܆ ܗܘܸܝ ܥܝܼܪ
+                        ܘܢܲܛܪ ܘܫܗܿܪ ܒܨܠܘܬܐ܇ ܥܠ ܐܘܠܨ̈ܢܐ ܕܡܕܝܢ̄ܬܟ ܘܥܠ ܬܒܪܗܿ<note place="foot" xml:id="ftn31"
+                            n="31"><p> C ܬܿܒܼܵܪܵܐ</p></note> ܕܟܢܘܫܬܟ ܘܥܠ ܒܸܙܬܗܵ<note place="foot"
+                                xml:id="ftn32" n="32"><p> C ܒܸܿܙܬܼܵܐ</p></note> ܕܥܕܬܟ܆ ܘܥܠ ܦܘܪܣܲܝܵܐ ܕܒ̈ܢܼܬ ܥܲܡܟ.
+                        ܘܠܵܐ ܬܲܫܦܸܠ ܡܼܢ ܩܕܡ ܐܠܘܨܐ. ܕܐܝܟ ܢܗܪܐ ܒܡܠܐܸܐ<note place="foot" xml:id="ftn33" n="33"
+                            ><p> M<hi rend="subscript">1</hi>M<hi rend="subscript">3</hi> ܒܡܸܠܐܹܗ
+                            </p></note> ܐܬܿܐ ܥܠܝܟܘܢ. ܡܛܠ ܕܪܘܚܗ ܕܡܪܝܐ ܡܡܟܟܐ<note place="foot" xml:id="ftn34"
+                                n="34"><p> A ܡܟܲܢܹܐ ; M<hi rend="subscript">3</hi> ܡܡܲܢܥܵܐ</p></note> ܠܗ. ܐܠܐ
+                        ܐܣܘܪ ܚܨ̈ܝܟ. ܘܩܘܡ ܓܢ̄ܒܪܐܝܬ. ܘܣܘܓ ܬܘܪܥܬܗ ܕܥܲܡܟ. ܘܠܐܒܗ̈ܝܟ ܕܒܡܥܪܒܐ ܐܘܕܥ ܐܢܘܢ. ܕܪܕܘܦܝܐ
+                        ܗܢܐ ܕܒܝܬ ܐܪܝܘܣ܆ ܩܠܝܠܐܝܬ ܒܿܛܠ. ܘܒܬܪ ܙܒܢܐ ܬܘܒ ܗܘܿܐ ܪܕܘܦܝܐ ܪܒܐ ܒܡܕܝܢ̄ܬܟܘܢ. ܘܐܟܚܕܐ ܐܬܿܐ
+                        ܪܕܘܦܝܐ ܥܠ ܡܪ̈ܥܝܬܐ ܘܪ̈ܥܘܬܗܝܢ. ܘܗܘܿܐ ܥܩܘܪܝܐ ܕܥܕܬܐ ܘܣܚܘܦܝܐ ܕܡܕܒܚ̈ܐ ܘܒܸܙܚܐ ܘܨܥܪܐ ܒܟܬ̈ܒܐ
+                        ܘܒܐܪ̈ܙܐ ܩܕ̈ܝܫܐ. ܒܪܡ ܕܝܢ ܐܲܫܕ<note place="foot" xml:id="ftn35" n="35"><p> C
+                            ܡܐܫܲܕ</p></note> ܕܡܐ ܕܒܢܝ̈ܢܫܐ ܠܐ ܢܫܬܡܫ. ܘܡܐ<note place="foot" xml:id="ftn36"
+                                n="36"><p> M<hi rend="subscript">3</hi> ܝܲܘܡܵܐ</p></note> ܕܗܘܿܐ ܫܸܠܝܐ ܒܥܕܬܐ
+                        ܕܡܥܪܒܐ܆ ܢܗܘܐ ܩܪܒܐ ܪܒܐ ܒܥܕܬܐ <pb n="C 18 r"/> ܕܒܡܕܢܚܐ. ܘܢܗܘܐ ܐܘܠܨܢܐ ܘܪܕܘܦܝܐ ܕܠܐ
+                        ܐܬܟܬܸܒ ܘܠܐ ܐܫܬܡܗ ܐܟܘܬܗ. ܘܬܸܪܘܹܐ ܐܪܥܐ ܆ ܡܼܢ ܕܡܐ ܕܩܕܝ̈ܫܐ. ܘܢܐܟܠ̈ܢ ܚܝܘ̈ܬܐ ܘܢܼܣ̈ܒܥܢ. ܡܼܢ
+                        ܫܠܕܝ̈ܗܘܢ ܘܢܲܘܬܪ̈ܢ.<pb n="A 51v"/> ܘܐܦ<note place="foot" xml:id="ftn37" n="37"><p>
+                            M<hi rend="subscript">3</hi> ܘܐܦܠܲܐ</p></note> ܠܩܕ̈ܝܫܐ ܒܢܲܝܢ̈ ܚܒܝ̈ܒܐ
+                        ܥܩܒܠܗܐ ܘܡܝܼܠܝܼܣ<note place="foot" xml:id="ftn38" n="38"><p> M<hi rend="subscript"
+                            >1</hi>C (here and elsewhere) ܘܡܝܼܠܹܣ</p></note>܆ ܡܼܢ ܩܕܡ ܕܢܹܐܬ̈ܝܢ
+                        ܟܬܝܒ̈ܬܟܘܢ. <pb n="M3 110v"/> ܩܲܒܸܠܢ ܘܫܲܘܬܸܦܢ ܐܢܘܢ ܥܡܢ ܒܐܪ̈ܙܐ. ܘܝܲܗܒܢܢ ܠܗܘܢ ܫܘܠܛܢܐ
+                        ܠܡܫܡܫܘ ܒܕܪ̈ܓܗܘܢ. ܐܝܟ ܕܡܼܢ ܩܕܝܡ ܡܛܠ<pb n="E 74v"/> ܕܚܬ̈ܢܐ ܐܢܘܢ ܕܕܡܐ ܠܥܕܬܐ ܩܕܝܫܬܐ. ܒܪܡ
+                        ܠܐ ܐܝܟ ܒܪܝ ܚܒܝܒܐ ܡܪܝ ܫܡܥܘܢ. ܡܬܐܲܠܨܝܢ ܒܐܓܘܢܝ̈ܗܘܢ. ܐܦܠܐ ܐܝܟ ܐܲܒܕܘܡܲܐ ܩܫܝܫܐ ܘܪܒܝܬܐ.
+                        ܘܢܗܘܐ ܢܲܓܪ ܐܘܠܨܢܐ ܒܥܕܬܐ ܕܡܕܢܚܐ܆ ܐܪܒܥܐ ܫܒܘܥ̈ܝܢ ܕܫܢ̈ܝܐ. ܘܬܠܬܐ <pb n="B 117v/234"/>
+                        ܦܛܪܝܪ̈ܟܐ ܚܕ ܒܬܪ ܚܕ ܐܝܟ ܪ̈ܒܝ ܚܝ̈ܠܘܬܐ ܒܪܝܫ ܡܫܪ̈ܝܬܗܘܢ ܢܫܬܠܡܘܢ ܠܡܘ̈ܬܐ <pb
+                            n="M1 42r; C 18v"/> ܕܚ̈ܝܼܠܐ. ܘܐܢ̄ܬ ܡܠܦܢܐ ܡܪܝ ܐܦܪܝܡ ܆ ܕܐܝܟ ܢܒܝܐ ܐܫܬܲܡܵܗܬܿ ܒܥܕܬܐ
+                        ܩܕܝܫܬܐ ܆ ܘܲܒܥܵܝܬܿ ܠܢ ܡܲܦܣܢܘܬܐ ܕܟܼܠܝܵܢܟ ܒܡܟܬܒܢܘܬܐ ܕܬܫ̈ܥܝܬܐ ܕܥܠܝܢ ܬܼܥܒܸܕ ܕܐܝܬܝܢ ܡܝ̈ܬܐ
+                        ܒܚܛܗ̈ܝܢ ܆ ܠܐ<note place="foot" xml:id="ftn39" n="39"><p> B ܐܠܐ (sic!)</p></note>
+                        ܐ̄ܢܬ ܘܠܐ ܐ̄ܢܫ ܐ̄ܚܪܝܢ ܢܫܬܠܛ ܠܡܥܒܕ ܥܠܝܢ ܟܬܝ̈ܒܬܐ. ܘܐܦܠܐ ܬܘܒ ܗ̈ܢܝܢ ܟܬܝܒ̈ܬܐ ܕܒܦܘܠܚܢܐ
+                        ܘܟܬܘ̈ܒܐ ܘܒܦܼܢܩ̈ܝܬܐ ܕܝܠܗܘܢ ܥܒܼܕܘ ܘܫܕܪܘ ܠܐܬܪ̈ܘܬܐ ܇ [ܠܐ ܫܠܝܛܝܢ ܡܕܒܪ̈ܢܐ ܕܐܬܪ̈ܘܬܐ]<note
+                            place="foot" xml:id="ftn40" n="40"><p> B om (saut du même au même)</p></note> ܟܕ
+                        ܡܼܫܟܚܝܢ ܠܗ̈ܝܢ ܒܥܕܬܗܘܢ ܘܒܕܝܪ̈ܬܗܘܢ ܠܟܬܝܒ̈ܬܐ ܗܿܢܝ̈ܢ ܕܟܬܒܘ ܆ ܡܪ̈ܚܐ ܡܛܠ ܒܙܚܐ ܘܨܥܪܐ ܕܝܠܝ܆
+                        ܠܐ ܢܬܸܠܚܘܢ ܘܠܐ ܢܘܩܕܘܢ ܘܠܐ ܢܸܠܚܘܢ ܐܢܝܢ̈. ܘܠܐ ܕܢܥܒܕܘܢ ܒܗܸܝܢ̈ ܬܘܪܨܐ ܡܕܡ ܐܝܟ ܕܠܒܢܝܢܐ
+                        ܕܝܠܝ. ܐܠܐ ܗܟܢܐ ܢܬܢܛܪ̈ܢ ܟܠ ܟܪ <pb n="C 19r"/> ܕܐܝܬܝܗ̈ܝܢ ܆ ܥܕܡܐ ܠܚܪܬܐ ܕܝܘܡ̈ܬܐ. ܘܗܘܸ
+                        ܡܪܢ ܒܟܐܢܘܬܗ ܐܝܟ ܝܕܥܬܐ ܕܐܠܗܘܬܗ ܢܼܒܥܐ ܕܝܼܢܐ ܕܥܕܬܗ ܩܕܝܫܬܐ܆ ܒܗܘܿ ܝܘܡܐ ܪܒܐ ܕܕܝܼܢܐ. ܘܐܢ̄ܬ
+                        ܒܪܢ ܚܒܝܒܐ ܡܪܝ ܐܦܪܝܡ܆ ܐܡܼܪ ܠܒܢܬܸ ܨܘܒܐ. ܝܬܝܪܐܝܬ܆ ܠܗ̈ܢܝܢ ܕܐܝܬܝܗ̈ܝܢ ܬܪܒܝܬܐ ܕܬܘܠܡܕܢ ܆
+                        ܕܫܒܘܩܝ ܐܒܠܐ ܘܒܝܬ ܒܟܐ̈ ܕܥܠܝ ܦܦܐ. ܘܪ̈ܢܝܝ<note place="foot" xml:id="ftn41" n="41"><p>
+                            M<hi rend="subscript">3</hi> ܘܲܪܢܵܝ ; E incerte legitur ܘܲܪܢܵܝܝ ; AB om
+                            (blank space).</p></note> ܘܐܬܚܲܫܵܒܹ̈ܝܢ ܥܠ ܗܘܿ ܒܝܬ ܒܟܐ̈ ܕܝܠܟܝܢ̈ ܘܕܡܕܝܢ̄ܬܟܹܝܢ.
+                        ܘܢܩܕ̈ܡܢ ܢܪ̈ܟܒܢ ܆ ܩܠ̈ܐ ܕܐܘ̈ܠܝܬܐ. ܘܐܢܬܬܐ ܠܚܒܪܬܗܿ܆ ܬܲܠܸܦ ܩܝܼܢܬܐ ܕܚܫܐ. ܘܢܩܕ̈ܡܢ ܢܹܐ̈ܠܦܢ ܆
+                        ܘܢܲܠܦܢ ܠܚܕܕ̈ܐ. ܘܙܲܗܪ ܐܢܝܢ̈ ܕܣܿܥܹܪܟܹܿܝܢ ܕܢܛܝܪ ܠܓܹܙܵܐ<note place="foot" xml:id="ftn42"
+                            n="42"><p> E ܠܓܙܐ M<hi rend="subscript">1</hi> ܠܓܲܙܵܐ</p></note>܆ ܠܐ ܬܪܒܝܼܢܵܝܗܝ
+                        ܒܲܚܦܘܦܐ ܘܒܡܫ̈ܚܢܐ. ܘܦܓܪ̈ܝܟܝܢ ܕܢܛܝܪܝܢ ܠܐܒܠܐ <pb n="M3 111r"/> ܘܠܡܪܩܘܕܬܐ: ܘܠܡܘܬܒܐ ܕܥܠ
+                        ܐܪܥܐ ܘܠܒܵܘܬܐ ܕܥܠ ܐܹܓܲܪܹ̈ܐ. ܠܐ ܬܩܕ̈ܡܢ ܬܦܲܢܩܲܢ ܐܢܘܢ. ܘܐܦ ܐܢ̄ܬ ܆ ܦܘܩ ܒܒܥܬܐ ܕܫܟܚ̈ܬܐ.
+                        ܘܛܲܝܸܒܼ ܠܟ ܩܠܐ̈ ܡܫܚ̈ܠܦܐ ܘܢܥܡ̈ܬܐ ܕܟܠ ܙܢܝ̈ܢ ܘܐܥܝܪ ܢܦܫܟ. ܘܟܿܢܹܫ ܚܘܫܒ̈ܝܟ ܘܛܲܝܹܒ ܠܟ ܕܘܟܬܐ
+                        ܕܫܸܠܝܐ. ܘܦܘܠܚܢܐ ܘܟܬܘ̈ܒܐ <pb n="C 19v"/> ܘܠܘܚܐ̈ ܣܓܝܐܬ̈ܐ ܠܨܚܚ̈ܐ. ܡܛܠ ܕܡܬܩܲܫܐ ܡܢܟ ܥܡܠܐ
+                        ܆ ܐܪܒܥܐ ܫܒܘ̈ܥܝܢ ܕܫܢܝܐ̈ ܘܬܪ̈ܬܝܢ<note place="foot" xml:id="ftn43" n="43"><p> E lacuna;
+                            AM<hi rend="subscript">3</hi> om (blank space).</p></note> ܡܢܘܬ̈ܗ ܕܫܒܘܥܐ
+                        ܕܚܡܫܐ. ܟܬܘܒ<note place="foot" xml:id="ftn44" n="44"><p> M<hi rend="subscript">3</hi>
+                            ܟܲܬܼܘܿܒܼܐ ; M<hi rend="subscript">1</hi> om ; E incerte legitur (the ending
+                            could be missing)</p></note> ܘܣܝܡ<note place="foot" xml:id="ftn45" n="45"
+                                ><p> E lacuna; ABM<hi rend="subscript">3</hi> om (blank space)</p></note>
+                        ܥܘܗܕܢܐ ܕܟܠܗܝܢ ܒܝܫܬܐ̈ ܕܐܬ̈ܝܢ ܥܠ ܥܠܡܐ<note place="foot" xml:id="ftn46" n="46"><p> E
+                            lacuna; ABM<hi rend="subscript">3</hi> om (blank space)</p></note>. ܟܦܢܐ̈
+                        ܘܡܘܬ̈ܢܐ: ܘܩܪ̈ܒܐ ܕܥܠ ܥܕܬܐ. ܘܩܪ̈ܒܐ<note place="foot" xml:id="ftn47" n="47"><p> E
+                            lacuna; A om (blank space); M<hi rend="subscript">1</hi>
+                            ܘܬܲܟܬܿܘܼܫܹ̈ܐ</p></note> ܕܡܠܟܘ̈ܬܐ܇ ܘܚܛܘܦܝܐ ܘܒܙܬܐ <pb n="M1 42v"/> ܕܚܕ <pb
+                                n="B 118r/235"/> ܡܼܢ ܚܕ. ܙܘ̈ܥܐ ܘܢܘ̈ܕܐ ܕܡܕܝܢܬܐ ܪܘܪ̈ܒܬܐ. ܓܠܝܙܘܬܐ ܕܡܛܪܐ<note
+                                    place="foot" xml:id="ftn48" n="48"><p> E lacuna; A om (blank space)</p></note>.
+                        ܘܩܡܨܐ ܕܐܚܿܕ ܢܘ̈ܡܐ ܫܢܝܐ̈ ܥܣܪ. ܐܢܐ ܦܦܐ ܐܝܟ ܕܐܬܦܲܩܿܕܬܼ ܪܫܡܿܬܼ ܒܐܓܪܬܐ ܗܕܐ. ܥܠ ܐܚܪ̈ܢܝܬܐ
+                        ܕܒܐܓܪܬܐ ܠܐ ܪ̈ܫܝܡܢ ܆ ܝܠܦܬܘܢ<note place="foot" xml:id="ftn49" n="49"><p> E incerte
+                            legitur (the ending is illegible) ...ܝܲܠܦ ; M<hi rend="subscript">3</hi>
+                            ܝܲܠܦܝܼܢܲܢ ; M<hi rend="subscript">1</hi> ܝܵܠܦܝܢ</p></note> ܡܼܢ ܒܪܢ ܚܒܝܒܐ
+                        ܘܩܕܝܫܐ ܡܪܝ ܫܡܥܘܢ. ܕܠܗ ܐܲܦܹܣܢܲܢ ܕܢܐܚܘܕ ܡܕܒܪܢܘܬܐ ܕܦܛܪܝܪܟܘܬܐ ܡܼܢ ܒܬܪܢ. ܕܟܠ ܡܕܡ ܠܗ ܦܩܕܢܢ
+                        ܘܙܲܗܲܪܢܢ<note place="foot" xml:id="ftn50" n="50"><p> E lacuna; A om (blank
+                            space)</p></note> ܒܐܝܠܝܢ ܕܐܬܝܗܸܒ ܠܢ ܠܡܕܥ. ܐܦ ܚܢܢ ܐܘܕܥܢܢ ܠܗ ܠܡܪܝ ܫܡܥܘܢ
+                        ܒܩܪܝܒܘܬܐ ܕܡܪܝ ܐܲܒܕܘܡܵܐ<note place="foot" xml:id="ftn51" n="51"><p> E lacuna; AM<hi
+                            rend="subscript">3</hi> om (blank space); B ܐܦܛܡܐ</p></note> ܩܫܝܫܐ
+                        ܘܪܒܝܬܐ. ܘܐܢܐ ܐܙܿܠ ܐ̄ܢܐ ܠܩܒܪܐ ܆ ܟܕ ܛܥܝܢ ܐ̄ܢܐ ܚܫܐ̈ ܥܠ ܚܫܝ̈܆ ܘܟܘܪ̈ܗܢܐ ܥܠ ܟܘܪ̈ܗܢܝ. ܐܝܟ
+                        ܐܒܐ ܕܚܿܙܐ ܥܩܘܪܝܐ ܘܚܘܪܒܐ<note place="foot" xml:id="ftn52" n="52"><p> E lacuna; A om
+                            (blank space); M<hi rend="subscript">1</hi>C ܘܚܘܼܿܒܵܠܵܐ</p></note> ܕܒܝܬܗ.
+                        ܘܐܒܕܢܐ <pb n="C 20r"/> ܕܒܢܘ̈ܗܝ ܘܕܒܢܬ̈ܗ ܘܕܟܠܗܿ<note place="foot" xml:id="ftn53"
+                            n="53"><p> E lacuna; AM<hi rend="subscript">3</hi>B om (blank space)</p></note>
+                        ܐ̄ܢܫܘܬܗ. ܗܠܝܢ ܟܠܗܝܢ ܆ ܟܬܒܿܬܼ ܘܪ̈ܚܝܩܢ ܚܕ<note place="foot" xml:id="ftn54" n="54"><p>
+                            E lacuna; A om; M<hi rend="subscript">3</hi> om (blank space)</p></note>
+                        ܫܒܘܥܐ ܕܫܢܝܐ̈. ܒܪܫ ܫܒܘܥܐ ܕܬܪ̈ܝܢ<note place="foot" xml:id="ftn55" n="55"><p> E lacuna;
+                            AM<hi rend="subscript">3</hi> om (blank space)</p></note>. ܢܬܬܥܝܪ̈ܢ ܚܕܐ
+                        ܒܬܪ ܚܕܐ. ܘܠܘ ܟܠܗܝܢ ܐܟܚܕܐ<note place="foot" xml:id="ftn56" n="56"><p> E lacuna; AM<hi
+                            rend="subscript">3</hi> om (blank space)</p></note> ܇ ܩܪܘ ܐܓܪܬܐ ܘܡܼܢ
+                        ܒܬܪܗܿ ܠܐ ܢܬܟܬܸܒ ܡܕܡ. ܘܐܝܢܐ ܕܡܡܪܚ ܆ ܢܗܘܐ ܢܘܟܪܝܐ ܆ ܠܗܝܿ ܝܪܬܘܬܐ ܕܡܫܝܚܐ ܇ ܛܿܝܸܒ
+                        ܠܣܓܘܕܘ̈ܗܝ ܒܡܠܟܘܬܐ ܕܫܡܝܐ. ܟܠܗܿ ܥܕܬܐ ܕܦܢܝܬܟܘܢ ܬܬܢܛܪ ܒܥܘܕܪܢܗ ܕܡܫܝܚܐ. ܘܒܨ̈ܠܘܬܐ ܕܓܿܡܪ̈ܝ
+                        ܨܒܝܢܗ<note place="foot" xml:id="ftn57" n="57"><p> E lacuna; A om (blank space);
+                            M<hi rend="subscript">3</hi> ܨܹܒܼܝܵܢ</p></note>. ܡܪܢ ܥܡܢ ܘܥܡܟܘܢ. ܘܥܡ
+                        ܟܠܗܿ ܥܕܬܐ ܩܕܝܫܬܐ ܐܡܝܢ. </p>
+
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>

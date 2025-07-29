@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" level="a">Synodical letter from the Western Fathers to Mar Papa
+                    catholicos</title>
+                <title level="s">Digital Syriac Corpus</title>
+                <sponsor>University of Oxford</sponsor>
+                <sponsor>Brigham Young University</sponsor>
+                <sponsor>Vanderbilt University</sponsor>
+                <sponsor>Initiative for Digital Humanities, Media, and Culture at Texas A&amp;M
+                    University</sponsor>
+                <funder/>
+                <principal>Kristian S. Heal</principal>
+                <principal>David G.K. Taylor</principal>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dtaylor">David G.K. Taylor,
+                    University of Oxford</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#abutts">Aaron Butts, The
+                    Catholic University of America</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#kheal">Kristian S. Heal,
+                    Brigham Young University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#gkiraz">George A. Kiraz,
+                    Beth Mardutho: The Syriac Institute</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dmichelson">David A.
+                    Michelson, Vanderbilt University</editor>
+                <editor role="editor" ref="http://syriaca.org/person.xml#dschwartz">Daniel L.
+                    Schwartz, Texas A&amp;M University</editor>
+                <editor role="general editor" ref="http://syriaca.org/person.xml#jwalters">James E.
+                    Walters, Rochester College</editor>
+                <respStmt>
+                    <resp>TEI XML encoding by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#jwalters">James E.
+                        Walters</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#adirienzo">Annunziata Di
+                        Rienzo</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Syriac text transcribed by</resp>
+                    <name type="person" ref="http://syriaca.org/person.xml#adirienzo">Annunziata Di
+                        Rienzo</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.1"/>
+                <respStmt>
+                    <resp>edited by</resp>
+                    <name>
+                        <persName>
+                            <forename>Annunziata</forename>
+                            <surname>Di Rienzo</surname>
+                        </persName>
+                    </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>
+                    <placeName>Jean and Alexander Heard Library System, Vanderbilt University,
+                        Nashville, Tennessee, USA</placeName>
+                </distributor>
+                <authority>Digital Syriac Corpus</authority>
+                <idno type="URI">https://syriaccorpus.org/692</idno>
+                <availability>
+                    <p/>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">
+                        <p xml:lang="en">Creative Commons — Attribution 4.0 International — CC BY
+                            4.0</p>
+                        <p xml:lang="en">https://creativecommons.org/licenses/by/4.0/</p>
+                    </licence>
+                    <ab>
+                        <note>This electronic edition is designed for open access reuse. The Syriac
+                            base text is in the public domain. The TEI XML edition is copyrighted by
+                            James E. Walters and is released under a Creative Commons Attribution
+                            4.0 International Public License (CC BY 4.0).</note>
+                    </ab>
+                    <ab>
+                        <note>The HTML page is copyrighted by Vanderbilt University and released
+                            under a under a Creative Commons Attribution 4.0 International Public
+                            License (CC-BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+                            Attribution for reuse should follow the suggested citation and also
+                            credit the copyright holder of the TEI XML edition.</note>
+                    </ab>
+
+                </availability>
+                <date calendar="Gregorian"
+                    ><!-- Our date of publication of this XML document--></date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p xml:lang="en">Digital Syriac Corpus is collaboration of University of Oxford,
+                    Brigham Young University, Vanderbilt University, and the Center of Digital
+                    Humanities Research (CoDHR) at Texas A&amp;M University. </p>
+
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="syr">Unvocalized Syriac of any variety or period</language>
+            </langUsage>
+            <creation>
+                <origDate type="composition" from="0300" to="0400">4th century</origDate>
+            </creation>
+        </profileDesc>
+        <revisionDesc status="ProofedDigitalEdition">
+            <change when="2025-07-29" who="http://syriaca.org/person.xml#jwalters">Created:
+                file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="BornDigitalDiplomaticEdition">
+        <front>
+            <div type="title">
+                <bibl>
+                    <title>Synodical letter from the Western Fathers to Mar Papa catholicos</title>
+                    <editor>
+                        <name type="person">Edited by: Annunziata Di Rienzo</name>
+                    </editor>
+                </bibl>
+            </div>
+            <div type="preface" xml:lang="en">
+                <head>Preface</head>
+                <div xml:lang="en">
+                    <p xml:lang="en">This text is a born-digital edition of <hi rend="italic">The
+                            Synodical letter that the Western Fathers wrote to <persName
+                                ref="http://syriaca.org/person/669">Mar Papa
+                            catholicos</persName></hi>. The letter is part of a corpus of eight
+                        letters representing the correspondence of Papa bar Aggai, early 4th-century
+                        bishop of Seleucia, with some exponents of the western political and
+                        religious power. Beside the <hi rend="italic">The Synodical letter that the
+                            Western Fathers wrote to Mar Papa catholicos</hi>, the corpus includes:
+                        a letter from Eusebius of Rome to Papa, a letter from Judah Kyriakos of
+                        Jerusalem to Papa, a letter from the Empress Helena to Papa, a letter from
+                        Papa to the Empress Helena, a letter from Jacob bishop of Nisibis to Papa, a
+                        letter from Ephrem to Papa, a letter from Papa to the citizens of Nisibis.
+                    </p>
+                </div>
+                <div xml:lang="en">
+                    <p xml:lang="en">This edition is based on the following manuscript witnesses: </p>
+                    <div xml:lang="en">
+                        <p xml:lang="en">Erbil 509 (olim Alqoš 169/ Baghdad 509), f. 74v-75v (E)
+                            (the most ancient and principal source, probably direct or indirect
+                            source for the later extant witnesses);</p>
+                        <p xml:lang="en">Rome, Vatican Library, Borg. Sir. 82, f. 118r-120v; 116r
+                            (B);</p>
+                        <p xml:lang="en">Birmingham, Mingana Collection Syr. 47, f. 42v-45r (M<hi
+                                rend="subscript">1);</hi></p>
+                        <p xml:lang="en">Birmingham, Mingana Collection Syr. 586, f. 111r-114r (M<hi
+                                rend="subscript">3);</hi></p>
+                        <p>Trichur, Chaldean Syrian Church, APSTCH THRI 65, f. 51v-53r (A) (the
+                            manuscript has been digitized, and it can be viewed <ref
+                                target="https://www.vhmml.org/readingRoom/view/511738"
+                            >here</ref>);</p>
+                    </div>
+
+                    <div xml:lang="en">
+                        <p xml:lang="en">This text has never been published in any prior edition. </p>
+                        <p xml:lang="en">This edition should not be considered as definitive but as
+                            a still in-progress material.</p>
+                        <p xml:lang="en">There is an old German translation of the entire corpus
+                            (based on the Syriac text preserved in ms Borg. Sir. 82) in O. Braun,
+                            "Der Briefwechsel des Katholikos Papa von Seleucia. Ein Beitrag zur
+                            Geschichte der ostsyrischen Kirche im vierten Jahrhundert", <hi
+                                rend="italic"> Zeitschrift für katholische Theologie </hi>18 (1894),
+                            pp. 163-182, 546-565.</p>
+                        <p xml:lang="en">A new English translation is forthcoming.</p>
+                        <p xml:lang="en">This edition is an outcome of the Marie Skłodowska-Curie
+                            Global Fellowship 2022 – Project "ForM - FORGED MEMORIES: the Church of
+                            Late Antique Iran and the West", funded by the European Commission.</p>
+                    </div>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div type="text">
+                <head><hi rend="bold">Text</hi></head>
+                <div type="rubric">
+                    <pb n="B 118r; M1 42v; A 51v; E 74v; M3"/>
+                    <p xml:lang="syr">[ܬܘܒ] <note place="foot" xml:id="ftn2" n="2"><p> M<hi
+                                    rend="subscript">1</hi> add</p></note> ܐܓܪܬܐ ܕܣܘܢܗܘܕܝܼܩܘܢ
+                        ܕܐܬܟܬܒܬܸ ܡܼܢ ܐܒܗ̈ܬܐ ܡܥܪ̈ܒܝܐ ܠܘܬ ܡܪܝ ܦܦܐ ܩܬܘܠܝܩܐ [ܦܛܪܝܪܟܝܣ] <note
+                            place="foot" xml:id="ftn3" n="3"><p> M<hi rend="subscript">1</hi>
+                                add</p></note> ܕܐܝܬ ܒܗܿ ܫܪܵܝܐ ܕܐܝܠܝܢ ܕܐܣܬܥܲܪ ܠܩܘܒܠܗ ܡܼܢ ܕܒܝܬ ܡܝܼܠܝܣ
+                        ܘܚܒܪ̈ܝܗܘܢ. </p>
+                </div>
+                <div type="body">
+                    <p xml:lang="syr">ܠܡܝܬܪܐ <note place="foot" xml:id="ftn4" n="4"><p> E partially
+                                illegible (due to the damaged margin), ...ܠܡ ; A ܠܡ followed by a
+                                blank space; B ܠܡܪܐ (a blank space follows); M<hi rend="subscript"
+                                    >3</hi> ܠܡܪܢ</p></note> ܐܚܘܢ ܘܒܪ ܬܫܡܫܬܢ ܣܒܝܣ ܒܢܨܚ̈ܢܐ <note
+                            place="foot" xml:id="ftn5" n="5"><p> B ܒܢܨܚ̈ܢܘܢܗܝ, followed by a blank
+                                space; E partially illegible (due to the damaged margin); A ܒܢܨ
+                                followed by a blank space.</p></note>. ܐܠܝܐ ܬܪܝܢܐ ܒܚܡܝܡܘܬ ܛܢܢܗ
+                        ܕܒܡܫܝܚܐ ܡܪܝ ܦܦܐ ܦܛܪܝܪܟܝܣ ܘܡܝܛܪܦܘܠܝܛܐ <note place="foot" xml:id="ftn6" n="6"
+                                ><p> M<hi rend="subscript">1</hi> om. Being E partially damaged, a
+                                blank space follows in all the other witnesses.</p></note> ...
+                        ܓܲܐܝܼܘܣ ܘܦܛܪܐ ܘܦܲܘܠܸܐ ܘܲܟܠܘܝܵܢܘܣ <note place="foot" xml:id="ftn7" n="7"><p>
+                                The name is probably a mistake for ܦܠܘܝܵܢܘܣ, inherited in all the
+                                witnesses. Being E partially damaged, a blank space follows in all
+                                the other witnesses.</p></note> ܘܩܠܝܼܘܢ ܘܦܝܠܝܦܘܣ ܘܐܠܟܣܢܕܪܘܣ <note
+                            place="foot" xml:id="ftn8" n="8"><p> Being E partially damaged, a blank
+                                space follows in all the other witnesses.</p></note> ܘܐܘܣܒܝܣ
+                        ܘܓܪܝܓܘܪܝܘܣ. [ܘܡܲܓܢܘܣ <note place="foot" xml:id="ftn9" n="9"><p> E partially
+                                illegible (due to the damaged margin), ... ܘܡܓ ; Being E partially
+                                damaged, a blank space follows in all the other
+                            witnesses.</p></note>
+                        <pb n="A 52r"/> ܘܲܓܕܝܼܘܣ. ܘܓܪܝܓܘܪܝܘܣ] <note place="foot" xml:id="ftn11"
+                            n="11"><p> B om (saut même au même)</p></note> ܘܐܲܪܡܲܢܝܛܝܣ <note
+                            place="foot" xml:id="ftn12" n="12"><p> E partially illegible (due to the
+                                damaged margin)... ܘܐܲܪܡܲܢܝ ; M<hi rend="subscript">3</hi> ܘܐܪܡܢܝ
+                                followed by blank; A ܘܐܲܪܡܲܢܝܓܝܣ ; M<hi rend="subscript">1</hi>
+                                ܘܐܲܪܡܲܢܝܛܪܝܘܣ.</p></note> ܘܒܲܣܝܼܠܝܼܩܘܣ ܥܡ ܫܪܟܐ ܕܟܠܗܘܢ ܐܚܝܢ̈
+                        ܐܦܝܣܩܘ̈ܦܐ ܕܥܡܢ: ܒܟܢܘܫܝܐ ܥܕܬܢܝܐ܆ ܒܝܫܘܥ ܡܪܢ ܘܦܪܘܩܢ ܡܫܝܚܐ. ܫܠܡܐ <pb n="E 75r"/>
+                        [ܢܣܓܐ <pb n="B 118v/236; M1 43r"/> ܠܟܘܢ <note place="foot" xml:id="ftn15"
+                            n="15"><p> M<hi rend="subscript">1</hi> ܐܲܚܘܼܢ</p></note>. ܟܕ] <note
+                            place="foot" xml:id="ftn16" n="16"><p> E lacuna</p></note> ܒܚܕ ܚܘܫܒܐ
+                        ܐܓܪܬܐ ܠܚܣܝܘܬܟ ܟܬܒܢܢ <note place="foot" xml:id="ftn17" n="17"><p> M<hi
+                                    rend="subscript">3</hi> ܟܬܲܒܼܘ</p></note> ܐܘ ܡܪܝ܆ ܡܛܠ ܕܟܕ ܟܢܝܫܝܢ
+                        ܗܘܼܝܢ ܕܛܵܟ <note place="foot" xml:id="ftn18" n="18"><p> E lacuna (for
+                                damaged margins); A has the final ܟ preceeded by a blank
+                            space</p></note> ܒܐܘܝܘܬܢ ܕܥܡ ܚܕܕ̈ܐ : ܢܫܟܚ ܕܡܼܢ ܡܸܠܟܐ <note place="foot"
+                            xml:id="ftn19" n="19"><p> E lacuna (for damaged margins); A has the
+                                final ܐ preceeded by a blank space; M<hi rend="subscript">3</hi>
+                                ܠܟܐ</p></note> ܓܵܘܵܢܵܝܐ ܫܘܘܙܒܐ ܢܫܟܚ ܠܥܕܬܗ ܕܐܠܗܐ ܕܠܘܬܢ <note
+                            place="foot" xml:id="ftn20" n="20"><p> E lacuna (for damaged margins); A
+                                has the final ܬܢ preceeded by a blank space</p></note>܆ ܡܛܠ ܕܟܕ ܠܐ
+                        ܐܫܬܘܙܒܬܸ ܡܼܢ ܡܫܒ̈ܐ ܘܓܠܠܐ̈ <note place="foot" xml:id="ftn21" n="21"><p> E
+                                lacuna (for damaged margins); A has the final ܠܐ preceeded by a
+                                blank space</p></note> ܕܚܢܦܘܬܐ: ܒܕܠܐ ܥܕܟܝܠ ܡܛܬܸ ܐܠܦܐ ܠܠܡܐܢܐ <note
+                            place="foot" xml:id="ftn22" n="22"><p> E lacuna (for damaged margins); A
+                                has the final ܐܢܐ preceeded by a blank space</p></note>܆ ܢܦܩܘ ܥܠܝܢ
+                        ܟܝܡܘ̈ܢܐ ܕܒܝܬ ܐܪܝܘܣ܆ ܐܝܟ ܕܐܒ̈ܐ ܓܝܪ ܡܚܒ̈ܠܢܐ ܥܠܘ ܥܠ ܓܙܪܗ ܕܡܫܝܚܐ: ܘܟܕ ܥܠ ܗܠܝܢ
+                        ܐܒܝܠܝܢ ܗܘܼܝܢ: ܘܡܬܬܢܚܝܢ ܘܒܵܟܵܝܢ̈ <note place="foot" xml:id="ftn23" n="23"><p>
+                                E lacuna (for damaged margins); A om seyome ; M<hi rend="subscript"
+                                    >3</hi> ܒܵܥܲܝܢ ; M<hi rend="subscript">1</hi>
+                            ܘܲܟܿܪܝܼܗܝܢ</p></note> ܗܘܼܝܢ ܕܒܐܝܠܝܢ ܦܘܪ̈ܣܸܐ ܕܡܕܘܕܝܢ ܨܠܘ̈ܬܐ ܘܒܥܘܬ̈ܐ ܢܛܘܪ
+                        ܠܗܿ ܠܥܕܬܐ ܫܪܪܐ ܕܗܝܡܢܘܬܗ: ܘܟܕ ܥܕܟܝܠ ܒܘܝܐܐ ܠܐܒܠܢ ܗܢܐ ܠܐ ܐܫܟܚܝܢ: ܐܬܬܘܣܦܬܸ ܠܢ
+                        ܡܚܘܬܐ ܒܝܫܬܐ ܒܫܘܚܢܢ <note place="foot" xml:id="ftn24" n="24"><p> E lacuna
+                                (for damaged margins); M<hi rend="subscript">3</hi> om (blank
+                                space); M<hi rend="subscript">1</hi> ܕܫܘܚܢܢ</p></note> ܩܫܝܐ ܘܡܪܝܪܐ܇
+                        ܡܼܢ ܩܪܝܢܐ ܕܐܓܪ̈ܬܐ ܬܪ̈ܬܝܢ <note place="foot" xml:id="ftn25" n="25"><p> M<hi
+                                    rend="subscript">3</hi> ܐܲܝܠܝܹܢ</p></note> ܕܐܫܬܕܪ ܠܢ ܡܼܢ ܐܚܘܢ
+                        ܩܕܝܫܐ ܡܪܝ ܝܥܩܘܒ ܐܦܝܣܩܘܦܐ ܕܢܨܝܒܝܢ. ܘܡܼܢ ܩܕܝܫܐ ܡܪܝ ܐܦܪܝܡ ܐܪܡܝܐ. ܕܐܝܟ ܢܒܝܐ ܒܕܪܢ
+                        ܐܸܬܼܚܙܝ. ܘܟܕ <note place="foot" xml:id="ftn26" n="26"><p> M<hi
+                                    rend="subscript">3</hi> om (blanck space)</p></note> ܐܓܪ̈ܬܗܘܢ
+                        ܡܼܢ ܐܪܡܝܐ ܠܝܘܢܝܐ ܢܦܼܩ ܘܐܬܩܪܝ ܒܟܢܘܫܝܐ <note place="foot" xml:id="ftn27"
+                            n="27"><p> M<hi rend="subscript">3</hi> ܠܟܢܘܫܝܐ</p></note>܆ ܘܡܸܢܗܝܢ
+                        ܐܬܝܼܕܥ ܠܢ ܥܠ ܡܪܚܘܬܐ ܕܥܒܲܕܘ ܛܥܝܐ̈ <note place="foot" xml:id="ftn28" n="28"
+                                ><p> E lacuna; the reading elsewhere is uncertain ( ܛܠܝܐ̈
+                            ?).</p></note> ܦܩܪ̈ܐ ܒܫܠܡܘܬܐ ܕܐ̄ܢܫܐ ܡܩܕ̈ܫܐ ܕܡܸܢܟ <note place="foot"
+                            xml:id="ftn29" n="29"><p> M<hi rend="subscript">3</hi> om
+                            (spazio)</p></note> ܐܬܟܲܢܝܼܘ ܐܦܝܣܩ̈ܘܦܐ. ܗܿܢܘܢ ܕܫܒܪܝܢ ܠܝܕܥܬܐ <note
+                            place="foot" xml:id="ftn30" n="30"><p> E lacuna; M<hi rend="subscript"
+                                    >1</hi> ܒܝܕܥܬܐ ; M<hi rend="subscript">3</hi> has the final ܥܬܐ
+                                preceeded by a blank space.</p></note> ܘܒܪܝܪܝܢ ܠܫܟܚܬܐ ܕܒܝܕ ܥܡܠܐ
+                        ܘܕܘܪܫܐ܇ ܒܫܡܐ <note place="foot" xml:id="ftn31" n="31"><p> E lacuna; AM<hi
+                                    rend="subscript">3</hi> have final ܡܐ preceeded by a blank
+                                space.</p></note> ܠܡ ܕܡܝܬܪܘܬܐ <pb n="M3 112r"/> ܐܣܒܪܘ ܠܗܘܢ ܕܟܠ ܡܕܡ
+                        ܠܡ ܫܠܝܛܝܢ ܠܡܣܥܪ. ܘܝܗܼܒܘ ܐܝܕܐ ܠܓܘܡ̈ܕܢܐ ܘܠܡܪ̈ܚܐ ܗܿܢܘܢ ܕܒܐܝܕܐ ܕܗܝܸ [ܥܸܠܬܐ]
+                            <note place="foot" xml:id="ftn33" n="33"><p> M<hi rend="subscript"
+                                    >1</hi> add (E lacuna; ABM<hi rend="subscript">3</hi> leave a
+                                blank space)</p></note> ܡܼܢ ܩܕܝܫܘܬܟ ܐܬܒܛܠܘ ܘܐܫܬܡܕܘ. ܘܐܚܪ̈ܢܐ <note
+                            place="foot" xml:id="ftn34" n="34"><p> E lacuna; A has the final ܪ̈ܢܐ
+                                preceeded by a blank space; M<hi rend="subscript">3</hi>
+                                ܘܠܐܚܪ̈ܢܐ</p></note> ܕܐܙܕܓܪܘ ܒܬܘܚܡܐ ܕܡܼܢ ܬܫܡܫܬܐ ܕܕܪ̈ܓܝܗܘܢ. ܘܩܛܪܘ ܓܘܕܐ
+                        ܐܝܟ ܕܐܒ̈ܐ ܚܪ̈ܡܢܐ: ܘܒܥܘ <note place="foot" xml:id="ftn35" n="35"><p> E
+                                lacuna; M<hi rend="subscript">1</hi> ܨܒܼܵܘ ; M<hi rend="subscript"
+                                    >3</hi> ܘܐܸܬܼܵܘ</p></note> ܠܡܘܒܕܘ ܠܥܕܬܐ ܪܕܝܦܬܐ ܕܒܡܕܢܚܐ ܒܡܥܒܕܢܘܬܐ
+                        ܕܐܒܘܗܘܢ ܣܛܢܐ. ܘܐܬܚܫܼܒܘ ܕܠܘܩܕܡ <note place="foot" xml:id="ftn36" n="36"><p> E
+                                lacuna ; AM<hi rend="subscript">3</hi> ܠܘܼܩܕܵܡ </p></note> ܒܪܒܐ ܘܪܫܐ
+                        ܕܪ̈ܥܘܬܐ ܢܪܡܘܢ ܐܿܝܕܐ. ܘܠܐ ܐܸܬܟܚܕܘ ܡܼܢ ܥܡܠܝܟ̈ ܣܒܝܣܐ̈ ܘܡܼܢ ܥܘܡܩܐ ܕܣܝܒܘܬܟ܆ ܘܡܼܢ
+                        ܡܬܚܐ ܘܢܘܓܪܐ ܕܡܕܒܪܢܘܬܟ ܥܠܝܗܘܢ <note place="foot" xml:id="ftn37" n="37"><p> E
+                                lacuna; M<hi rend="subscript">3</hi> om (blank); A has the final ܘܢ
+                                preceeded by a blank space; M<hi rend="subscript">1</hi>
+                                ܕܲܥܠܲܝܗܘܿܢ</p></note>. ܕܗܐ ܫܬܿܝܢ ܘܬܡܢܐ ܫܢܝܢ̈ ܡܬܚܬܸ ܡܕܒܪܢܘܬܐ <note
+                            place="foot" xml:id="ftn38" n="38"><p> E lacuna; M<hi rend="subscript"
+                                    >3</hi> ܦܵܛܪܝܼܵܪܟܿܘܼܬܼܐ</p></note> ܕܪܒܘܬܼ ܒܝܬܝܘܬܟ ܒܓܘ <pb
+                            n="M1 43v"/> ܥܕܬܗ ܕܐܠܗܐ. ܘܐܬܗܪܬܸ <note place="foot" xml:id="ftn40"
+                            n="40"><p> E lacuna; M<hi rend="subscript">3</hi>
+                            ܘܐܸܬܼܢܲܗܪܲܬܸ</p></note> ܪܒܘܬܼ ܟܗܢܘܬܟ ܠܡܕܢܚܐ ܘܠܡܥܪܒܐ ܐܟܚܕܐ. ܘܠܐ ܙܥܘ
+                        ܘܕܚܸܠܘ <note place="foot" xml:id="ftn41" n="41"><p> M<hi rend="subscript"
+                                    >3</hi> om</p></note> ܡܼܢ <pb n="B 119r/237"/> ܕܝܢܐ ܟܐܢܐ <note
+                            place="foot" xml:id="ftn43" n="43"><p> E lacuna; M<hi rend="subscript"
+                                    >3</hi> om; A om (blank); M<hi rend="subscript">1</hi>
+                                ܕܚܝܼܠܵܐ</p></note> ܕܐܠܗܐ. ܗܿܢܘܢ ܡܪ̈ܚܐ ܕܩܕܡ ܡܕܒܚܐ ܘܐܘܢܓܠܝܘܢ. <note
+                            place="foot" xml:id="ftn44" n="44"><p> E lacuna; A has the final ܓܠܝܘܢ
+                                preceeded by a blank space</p></note> ܕܡܸܢܗܘܢ ܢܸܗܘܘܢ ܩܛܐܓܪ̈ܢܐ.
+                        ܘܡܢܗܘܢ ܣܗ̈ܕܐ ܕܒܡܨܥܝܘܬܐ ܕܐܘܢܓܠܝܘܢ ܐܠܸܦܘ ܠܫܢܗܘܢ ܕܓܠܘܬܐ. ܡܛܠ ܕܐܝܬܝܗܘܢ ܕܠܐ ܐܠܗܿ
+                        ܘܕܠܐ ܕܚܠܬܐ. ܘܕܠܐ ܒܗܬܬܐ ܐܡܪܚܘ ܠܡܚܘܝܘ ܣܝܵܢܵܐ ܣܪܝܐ ܕܡ̈ܠܝܗܘܢ ܒܝܕ ܩܘܛܪ̈ܓܐ ܕܥܠ
+                        ܪܒܘܬ ܟܗܢܘܬܟ. ܘܛܥܼܘ ܘܐܥܒܪܘ ܡܼܢ ܩܕܡ ܥܝܢܝܗ̈ܘܢ ܟܠܗܝܢ ܪܘܪ̈ܒܬܐ ܘܫܒܝܚܬ̈ܐ ܕܐܣܬܥܪ
+                        ܠܘܬܗܘܢ: ܡܼܢ ܒܝܬ ܐܝܕ̈ܝܟ ܘܐܝܠܝܢ ܕܠܐ ܡܨܿܝ̈ܢ ܕܒܦܓܪܟ ܩܕܝܫܐ ܢܬܗܝ̈ܡܢܢ. ܐܡܪܚܘ ܘܟܬܒܘ
+                        ܘܩܪܘ ܒܟܢܘܫܝܐ ܕܐܦܢ ܢܛܪ ܬܪܥܐ ܕܚܕܐ ܡܼܢ ܩܘܪ̈ܝܐ ܗܘܬܸ ܠܗܘܢ ܐܒܗܘܬܟ܆ ܫܬܝܢ ܘܬܡܢܐ
+                        ܫܢ̈ܝܢ܆ ܚܝܒܝܢ ܗܘܘ ܕܢܼܛܪܘܢ ܩܝܡܐ ܠܥܡ̈ܠܝܟ ܕܚܠܦܝܗܘܢ. ܟܡܐ ܕܝܢ ܝܬܝܪܐܝܬ ܚܝܵܒܝܢ ܗܫܐ܆
+                        ܕܫܩܠܼܬܿ ܝܘܩܪܐ ܕܟܠܗܿ ܡܕܢܚܐ. ܘܣܝܒܼܪܬܿ ܚܫ̈ܐ ܣܒܝ̈ܣܐ ܕܥܛܠܘܬܗܘܢ܇ ܘܡܛܠܬܗܘܢ ܦܪܕܬܸ
+                        ܫܼܢܬܐ ܡܼܢ ܥܝܢ̈ܝܟ. ܘܢܝܚܐ ܡܼܢ ܓܘܫܡܟ. ܘܗܫܐ ܕܒܛܠܸܘ ܠܗܘܢ ܗܕܡ̈ܝܟ ܡܼܢ ܥܡܠܐ܆ ܟܡܐ
+                        ܚܝܒܝܢ ܗܘܘ ܕܢܦܪܥܘܢ ܚܘ̈ܒܠܐ ܛܒ̈ܐ ܠܐܒܗܘܬܟ܆ ܕܐܝܟ ܐܒܐ ܡܪܚܡܢܐ ܩܲܒܠܬܿ ܐܢܘܢ. ܘܚܠܦ
+                        ܗܠܝܢ ܛܒ̈ܬܐ ܕܡܢܟ܆ ܗܼܢܘܢ ܐܝܟ ܚܘ̈ܘܬܐ <pb n="M3 112v"/> ܚܪ̈ܡܢܐ ܣܥܘ ܥܠ ܣܝܒܘܬܟ
+                        ܗܕܝܪܬܐ ܕܥܡ ܚܪܡܢܘܬܗܘܢ ܕܫܐܕ̈ܐ ܚܝܓܝܢ ܘܗܦܟܝܢ ܠܒܣܬܪܗܘܢ ܡܼܢ ܚܙܬܐ ܕܟܠܝܠܐ ܡܫܒܚܐ
+                        ܕܣܝܒܘܬܟ. ܘܐܢ ܗܿܢܘܢ ܐܘܫܒܘ ܐܝܕܐ ܥܠ ܪܒܘܬ ܟܗܢܘܬܟ܆ ܡܛܠ ܕܠܗܕܐ ܢܩܝܢ ܗܘܘ ܘܡܛܝܒܝܢ.
+                        ܚܣܝܘܬܟ܆ ܠܡܢܐ ܠܐܘܢܓܠܝܘܢ ܡܚܝܐ ܗܘܬܸ. ܘܒܨܝܪ ܩܠܝܠ܆ ܠܚܒܩܘܩ ܢܒܝܐ ܐܬܕܡܝܬܿ. ܕܡܛܠ
+                        ܥܘܼܠܐ ܕܚܼܙܐ ܥܠ ܒܪܘܝܗ܆ ܡܛܝܒ ܗܘܼܐ ܕܢܕܘܢ. ܘܡܛܠ ܗܕܐ ܓܙܪ ܕܝܢܐ ܒܩܢܘܡܟ ܩܒܠܬܿ. ܘܠܘ
+                        ܐܝܟܢܐ ܕܬܡܢ ܐܬܗܝܡܢܬܸ ܠܣܟܠܐ̈: ܕܡܛܠ ܫܟܝܪ̈ܬܐ ܕܐܝܬ ܗܘܼܐ ܒܗ ܩܿܒܠ ܦܦܐ ܡܣܡ ܒܪܫܐ. ܚܣ
+                        ܕܚܢܢ ܐܟܘܬܗܘܢ ܢܬܪܥܐ. ܐܢ ܕܝܢ ܟܕ ܪܩܘ ܒܐܦܘ̈ܗܝ ܕܡܫܝܚܐ ܘܡܚܐܘܗܝ ܥܠ <pb n="M1 44r"/>
+                        ܦܟܘ̈ܗܝ. ܘܩܦܚܘܗܝ ܥܠ ܪܫܗ ܘܒܙܚܘ ܒܗ܆ ܘܒܬܪ ܒܬܪ ܥܩܪܘ ܡܕܒܚܐ̈ ܘܩܛܼܠܘ ܟܗ̈ܢܐ܆ ܘܕܵܫܼܘ
+                        ܩܘܕܫܐ ܕܐܝܬܘܗܝ ܦܓܪܗ <pb n="B 119v/238"/> ܡܚܣܝܢܐ: ܘܗܼܢܝܢ̈ ܗܠܝܢ ܠܘ ܒܠܚܘܕ ܡܼܢ
+                        ܒܥܠܕܒܒ̈ܐ ܐܫܬܡܫ <note place="foot" xml:id="ftn48" n="48"><p> BM<hi
+                                    rend="subscript">1</hi> ܐܫܬܡܫܘ</p></note>܆ ܐܠܐ ܡܼܢ ܒܝ̈ܬܝܐ
+                        ܝܬܝܪܐܝܬ ܡܼܢ ܗܿܢܘܢ ܕܩܿܪܝܢ ܢܦܫܗܘܢ ܪ̈ܥܘܬܐ܆ ܕܐܦ ܗܫܐ ܢܘܪܐ ܕܝܠܗܘܢ ܣܲܦܝ̈ܦܐ ܒ̈ܥܕܬܢ.
+                        ܘܠܐ ܣܒܥܝܢ ܡܼܢ ܩܛܠܐ ܘܐܒܕܢܐ ܕܝܠܢ. ܘܐܪ̈ܬܕܘܟܣܐ ܕܥܡܢ <pb n="A 52v"/> ܘܡܣܡ ܒܪ̈ܫܐ
+                        ܠܐ ܩܲܒܠܘ. ܩܕܝܫܘܬܟ ܕܝܢ ܠܘ ܡܛܠ ܗܿܢܝܢ̈ ܕܥܠܝܟ ܐܬܐܡܪ ܩܒܼܠܬܿ ܡܣܡ ܒܪܫܐ. ܡܛܠ ܕܓܠܝ̈ܢ
+                        ܘܕܢܝ̈ܚܢ. ܕܟܠܗܝܢ ܕܥܘܼܠܐ ܐܢܝܢ̈ ܘܕܛܠܘܡܝܐ ܒܡܪܚܘܬܗܘܢ ܕܩܕܡ ܡܕܒܚܐ <pb n="E 75v"/>
+                        ܘܐܘܢܓܠܝܘܢ. ܘܢܛܝܪܐ ܠܗܘܢ ܬܒܥܬܐ ܕܚܝܠܬܐ ܒܗܿܘ ܝܘܡܐ ܕܚܝܼܠܐ ܕܕܝܵܢܼܐ. ܗܝܿ ܕܝܢ
+                        ܕܩܿܕܝܫܘܬܟ ܟܕ ܐܙܕܟܝܬܸ ܡܼܢ ܚܡܬܐ ܕܛܠܘܡܘܬܗܘܢ܆ ܐܡܪܚܬܸ ܥܠ ܐܘܢܓܠܝܘܢ ܠܐ ܨܒܼܐ ܡܪܝܐ
+                        ܕܢܛܥܐ ܥܒܕ̈ܝܟ ܛܒ̈ܐ. ܘܢܼܛܠܘܡ ܕܘܒܪ̈ܝܟ ܫܦܝܪ̈ܐ: ܘܢܛܘܿܪ ܠܟ ܗܕܐ܆ ܠܝܘܡܐ ܕܕܝܢܐ
+                        ܐܟܘܬܗܘܢ. ܕܐܝܟ ܗܿܢܘܢ ܡܬܬܕܝܢܝܢ ܒܡܪܚܘܬܗܘܢ <note place="foot" xml:id="ftn51"
+                            n="51"><p> In E, added by a second hand (after erasing a previous
+                                reading, now lost).</p></note>. ܐܦ ܐܢ̄ܬ ܥܡܗܘܢ ܘܐܟܘܬܗܘܢ ܬܬܕܝܢ. ܐܠܐ
+                        ܗܿܘ ܡܪܚܡܢܐ ܡܪܟ ܕܒܠܒܐ ܕܟܝܐ ܦܠܚܬܝܗܝ: ܘܒܟܠܙܒܢ <pb n="M3 113r"/> ܩܿܒܠ ܨ̈ܠܘܬܟ
+                        ܕܩܪܒܬܿ ܩܕܡܘܗܝ ܡܬܚܐ ܕܡܵܐܐ ܫܢܝܢ̈ ܘܝܬܝܪ. ܗܸܘ ܢܣܼܒ ܒܐܦܝܟ̈ ܘܚܲܣܝ ܘܲܫܒܲܩ ܠܟ
+                        ܣܟ̈ܠܘܬܟ. ܒܡܣܡܒܪܝܫܐ ܩܠܝܠܐ: ܕܐܦܿܩ ܥܠ ܓܘܫܡܟ ܩܕܝܫܐ: ܘܒܓܙܪ ܕܝܢܐ ܙܥܘܪܐ ܥܒܘܪܐ
+                        ܘܡܫܬܪܝܢܐ܆ ܐܥܒܪܗ ܡܢܟ ܠܕܝܢܐ ܕܥܬܝܕ܆ ܘܟܕ ܛܒ ܚܫܟ ܒܗ <note place="foot"
+                            xml:id="ftn53" n="53"><p> B om</p></note> ܟܠܢ ܫܘܬܦ̈ܐ ܐܝܬܝܢ܆ ܐܠܐ ܐܝܬ ܠܢ
+                        ܒܘܝܐܐ ܒܗܕܐ. ܕܫܡܥܢܢ܆ ܕܒܪ ܫܥܬܗ ܒܥܩܒܐ ܕܣܟܠܘܬܐ܆ ܡܣܡ ܒܪܫܐ ܕܓܘܫܡܟ ܐܬܚܙܝ ܆ ܡܗܝܡܢܐ
+                        ܗܝܼ ܣܗܕܘܬܗ ܕܐܠܗܐ ܕܥܠܝܟ. ܕܪܒܝܬܗ ܐܝܬܝܟ <note place="foot" xml:id="ftn54"
+                            n="54"><p> For a matter of general meaning, here I accept the reading of
+                                    M<hi rend="subscript">1</hi> (it is not possible to state if it
+                                is based on a different antigraph or made by the copyist ope
+                                ingenio). All other witnesses have ܐܝܬܘܗܝ</p></note> ܡܗܝܡܢܐ ܘܫܪܝܪܐ.
+                        ܘܒܕܘܒܪ̈ܐ ܕܡܪܥܝܢ ܠܐܠܗܐ ܐܬܪܒܝܬܿ܆ ܥܕܡܐ ܠܫܘܪܥܬܐ ܗܝܿ. ܘܐܦ ܠܗܿ ܠܗܝܿ ܐܝܟ ܕܠܒܪܐ
+                        ܚܒܝܒܐ ܡܚܟ ܒܫܒܛܐ ܕܡܪܕܘܬܗ. ܘܗܿܢܘܢ ܕܐܝܬܝܗܘܢ ܢܘܟܪ̈ܝܐ ܘܠܐ ܒܢ̈ܝܐ܆ ܡܛܠ ܗܕܐ ܠܐ
+                        ܐܬܝܗܒܬܸ ܠܗܘܢ ܡܪܕܘܬܐ ܐܟܡܐ <note place="foot" xml:id="ftn55" n="55"><p> B
+                                ܟܡܐ</p></note> ܕܐܬܝܗܒܬܸ ܠܐܒܗܘܬܟ܆ ܐܢ̄ܬ ܡܛܠ ܕܪܚܿܡ ܗܘܼܐ <pb n="M1 44v"
+                        /> ܠܟ ܡܪܝܐ ܪܕܟ ܘܩܢܟ. ܘܐܦ ܥܠܝܗܘܢ ܕܗܿܢܘܢ ܕܟܪܝܐ ܠܟ ܕܢܛܝܪܝܢ ܠܬܫܢܝܩܐ ܕܠܥܠܡ. ܥܠ
+                        ܚܫܐ ܕܝܢ ܕܚܠܦ ܟܠܗܿ ܡܪܥܝܬܐ ܕܦܢܝܬܟܘܢ <pb n="B 120r/239"/> ܕܝܠܹܦܢܢ ܕܐܝܠܝܢ
+                        ܒܠܝܠܬܐ̈ ܘܫܓܫ̈ܬܐ ܘܦܠܓ̈ܘܬܐ ܐܪܡܝ ܣܛܢܐ ܒܦܢܝܬܟܘܢ ܟܕ ܠܐ ܣܦܩܘ ܒܝܬܝܐ̈ ܠܡܩܪܒܘ ܥܡ
+                        ܒܪ̈ܝܐ܆ ܐܦ ܗܼܢܘܢ ܢܲܦܼܠܘ ܚܕ ܒܚܕ. ܘܐܬܩܫܝ ܩܪܒܐ ܕܠܓܘ ܡܼܢ ܕܠܒܪ. ܘܝܕܥܝܢܢ ܕܠܚܪܬܐ܆
+                        ܚܝܠܐ ܪܒܐ ܫܩܼܠ ܩܪܒܐ ܕܒܪ̈ܝܐ ܡܼܢ ܗܢܐ ܩܪܒܐ ܕܓܘܝܐ̈. ܒܗܝܿ ܕܗܿܢܘܢ ܡܫܡܕ̈ܐ ܘܒ̈ܛܝܠܐ܆
+                        ܡܚܘܝܢ ܠܗܘܢ ܫܒ̈ܝܠܐ܆ ܘܐܘܪ̈ܚܬܐ ܒܝܫܬܐ̈. ܘܐܝܬ ܠܟܘܢ ܕܬܚܙܘܢ ܪܕܘܦܝܐ ܪܒܐ܆ ܕܡܩܝܡܝܢ ܥܠ
+                        ܥܕܬܗ ܕܐܠܗܐ ܕܒܦܢܝܬܟܘܢ. ܘܒܗܠܝܢ ܐܝܬ ܠܢ ܠܡܐܡܪ. ܕܦܩܚܐ ܗܘܼܬ ܕܠܐ ܐܬܝܗܒܬܸ ܡܘܗܒܬܐ
+                        ܪܒܬܐ ܕܦܛܪܝܪܟܘܬܐ܆ ܠܟܘܪܣܝܐ ܕܩܕܝܫܘܬܟܘܢ. ܘܡܛܠ ܕܠܐ ܐܬܬܣܝܡܘ ܡܝܛܪ̈ܦܘܠܝܛܐ ܒܦܢܝܬܐ
+                        ܕܡܕܢܚܐ܆ ܟܠܗܘܢ ܐܦܣܩ̈ܘܦܐ܆ ܡܫܥܒ̈ܕܐ ܗܘܼܘ ܠܟܘܪܣܝܐ ܕܩܕܝܫܘܬܟܘܢ. ܘܗܫܐ ܒܥܸܠܲܬܼ
+                        ܦܛܪܝܪܟܘܬܐ ܐܝܩܪܟܘܢ ܐܬܒܨܪ. ܘܓܠܝܐ ܗܝܼ ܕܡܛܠ ܪܡܘܬܐ ܘܠܐ <pb n="M3 113v"/>
+                        ܡܬܛܦܝܣܢܘܬܐ ܕܡܝܛܪ̈ܦܘܠܝܛܐ ܕܣܡܬܘܢ܆ ܐܬܒܨܪ ܐܝܩܪܟܘܢ. ܘܝܕܥܝܢܢ ܕܡܝܛܪ̈ܦܘܠܝܛܐ܆ ܐܠܘ
+                        ܪܥܝܢܐ ܡܫܥܒܕܐ ܩܢܹܝܢ ܗܘܘ ܠܘܬ ܦܛܪܝܪ̈ܟܐ ܕܝܠܗܘܢ܆ ܠܐ ܫܒܩܝܢ ܗܘܘ ܕܢܬܪܒܘܢ ܚܪ̈ܝܢܐ
+                            <note place="foot" xml:id="ftn59" n="59"><p> E lacuna; AM<hi
+                                    rend="subscript">3</hi> have the initial ܚ followed by a blank
+                                space</p></note> ܒܦܢܝܬܐ ܕܝܠܟܘܢ. ܐܠܐ ܐܬܝܕܥܬܸ ܡܼܢ ܣܘܟܠܐ <note
+                            place="foot" xml:id="ftn60" n="60"><p> E lacuna ; M<hi rend="subscript"
+                                    >3</hi> ܣܘܓܼܵܐܐ ; B ܣܘܥܪ̈ܢܸܐ</p></note>. ܘܐܦ ܡܼܢ ܟܬܝܒܬܗ̈ ܕܐܚܘܢ
+                        ܡܪܝ ܝܥܩܘܒ܆ ܕܗܼܢܘܢ ܡܘܠܕܝܢ ܠܗܘܢ܆ ܘܗܢܼܘܢ ܡܪܒܝܢ ܠܗܘܢ. ܒܕܠܐ ܪܥܸܝܢ ܡܝܛܪ̈ܦܘܠܝܛܐ܇
+                        ܕܦܛܪܝܪܟܝܣ ܢܗܘܐ ܕܝܿܢܐ ܘܬܒܘܥܐ ܕܣܟܠܘܬ̈ܗܘܢ܆ ܘܒܙܒܢ ܙܒܢ ܒܒܘܓܢܐ ܕܡܼܢ ܦܛܪܝܪܟܐ
+                        ܕܝܠܗܘܢ܆ ܐܠܙܘ <note place="foot" xml:id="ftn61" n="61"><p> E lacuna; AM<hi
+                                    rend="subscript">3</hi> have the initial ܐܠ followed by a blank
+                                space; M<hi rend="subscript">1</hi> ܐܲܠܐܝܼܘ</p></note> ܠܐܒܗ̈ܬܐ ܕܝܠܢ.
+                        ܘܟܕ ܐܬܦܩܕܘ ܘܐܬܒܚܢܘ ܩܘܛܪ̈ܓܝܗܘܢ. ܠܘ ܒܠܚܘܕ ܙܟܝ̈ܐ ܐܫܬܟܚܘ ܦܛܪܝܪ̈ܟܐ ܒܩܘܛܪ̈ܓܐ
+                        ܕܥܠܝܗܘܢ܆ ܐܠܐ ܡܝܛܪ̈ܦܘܠܝܛܐ ܘܐܦܝܣ̈ܩܘܦܐ ܆ ܚܝܒܐ̈ ܐܫܬܟܚܘ. ܘܡܢܗܘܢ ܐܫܬܡܕܘ ܘܒܛܠܘ ܡܼܢ
+                        ܕܪ̈ܓܝܗܘܢ. ܘܡܛܠ ܥܩܬܐ ܘܣܢܐܬܐ ܕܐܬܪܒܝܬܸ ܒܝܢܬܗܘܢ܆ ܡܪܕܘܬܐ <note place="foot"
+                            xml:id="ftn62" n="62"><p> E lacuna; M<hi rend="subscript">3</hi> blank
+                                space; A has the initial ܘ followed by blank space</p></note> ܠܐ
+                        ܩܲܒܠܘ ܘܬܘܪܨܐ ܠܐ ܥܒܼܕܘ. ܘܗܐ ܡܚܝܢ <note place="foot" xml:id="ftn63" n="63"><p>
+                                E lacuna; M<hi rend="subscript">3</hi> blank space </p></note> ܠܗܿ
+                            <note place="foot" xml:id="ftn64" n="64"><p> E lacuna; Aܾ blank
+                                space</p></note> ܠܥܕܬܐ ܕܦܢܝܬܟܘܢ ܒܥܪ̈ܩܐ ܕܣܕ̈ܩܝܗܘܢ ܘܒܥܘܪܐ <note
+                            place="foot" xml:id="ftn65" n="65"><p> Difficult word. The extant
+                                reading are mosty unacceptable. E incerte legitur (ܘܒܟܝܘܪܐ or
+                                ܘܒܥܝܘܪܐ); A ܘܒܟܝܘܪܐ; BM<hi rend="subscript">3</hi> ܘܒܥܝܘܪܐ (Braun
+                                suggests to correct B in ܒܥܝܪܐ; M<hi rend="subscript">3</hi> could
+                                be read as ܘܒܥܘܪܐ) ; M<hi rend="subscript">1</hi> ܘܲܒܼܚܘܼܛܪܹ̈ܐ.
+                                Another possible hypotesis could be ܒܥܪܘܪܐ</p></note> ܕܦܠܓܘܬܗܘܢ
+                            <note place="foot" xml:id="ftn66" n="66"><p> M<hi rend="subscript"
+                                    >1</hi> add seyome</p></note>. ܘܗܕܐ ܕܢܢ <note place="foot"
+                            xml:id="ftn67" n="67"><p> E lacuna; M<hi rend="subscript">3</hi> has the
+                                initial ܕܢ than blank space</p></note> ܘܐܬܪܥܝܢܢ <note place="foot"
+                            xml:id="ftn68" n="68"><p> E lacuna; AM<hi rend="subscript">3</hi> om
+                                (blank space); M<hi rend="subscript">1</hi> ܘܲܦܼܣܲܩܢ</p></note>
+                        ܒܢܦܫܢ܆ ܕܥܕܪܐ <pb n="M1 45r"/> ܠܥܕܬܗ ܕܐܠܗܐ ܕܦܢܝܬܢ ܘܕܦܢܝܬܟܘܢ܆ ܕܗܝܿ ܕܐܒܗ̈ܝܢ
+                        ܩܕܡܝܐ̈ ܙܕܩܘ <note place="foot" xml:id="ftn70" n="70"><p> E lacuna; AM<hi
+                                    rend="subscript">3</hi> om (blank space); M<hi rend="subscript"
+                                    >1</hi> ܗܵܢܿܘܿܢ</p></note> ܕܟܕ ܝܗܒܼܘ ܡܦܣܢܘܬܐ <pb n="B120v/240"/>
+                        ܗܝܿ ܕܦܛܪܝܪܟܘܬܐ ܠܟܘܪܣܝܐ ܗܘܿ ܕܡܕܢܚܐ ܕܝܠܟܘܢ ܕܒܥܕܬܐ ܕܟܘ̈ܟܐ܆ ܕܗܘܸ ܢܣܝܡ
+                        ܡܝܛܪ̈ܦܘܠܝܛܐ. ܐܝܟܐ ܕܗܘܸ ܝܿܕܥ ܕܥܕܪܐ: ܘܗܘܸ ܢܗܘܐ ܫܠܝܛ ܒܗܘܢ [ܘܐܦ] <note
+                            place="foot" xml:id="ftn72" n="72"><p> M<hi rend="subscript">1</hi> add;
+                                    M<hi rend="subscript">3</hi>B om; E lacuna; A blank
+                            space</p></note> ܠܡܩܡܘܬܗܘܢ ܟܕ ܫܘܸܝܢ܆ ܘܠܡܒܛܠܘܬܗܘܢ ܡܛܠ ܣܟܠܘܬ̈ܗܘܢ܆ ܗܟܢܐ ܐܦ
+                        ܒܟܠܗܘܢ ܐܦܝܣܩܘ̈ܦܐ ܕܡܕܢܚܐ: ܗܘܸ ܦܛܪܝܪܟܝܣ ܢܗܘܐ ܬܒܘܥܐ ܘܕܲܝܵܢܐ ܒܟܠܗܿ ܥܕܬܗ ܕܐܠܗܐ
+                        ܕܦܢܝܬܐ ܕܡܕܢܚܐ <note place="foot" xml:id="ftn73" n="73"><p> E lacuna; A om
+                                (blank space); M<hi rend="subscript">3</hi> ܗܵܕܐ</p></note>. ܗܸܘ
+                        ܢܫܬܠܛ ܘܢܐܚܘܕ. ܐܦ ܚܢܢ ܟܕ ܫܠܡܢܢ ܠܗܕܐ܆ ܙܕܩܢܢ. ܕܟܠ ܦܪܨܘܦܐ ܐܝܢܐ ܕܡܬܚܪܐ <note
+                            place="foot" xml:id="ftn74" n="74"><p> E lacuna; AM<hi rend="subscript"
+                                    >3</hi> have the initial ܕܡ followed by blank space</p></note>
+                        ܘܫܿܓܫ: ܘܡܦܠܥ <note place="foot" xml:id="ftn75" n="75"><p> M<hi
+                                    rend="subscript">1</hi> ܘܲܡܦܲܠܸܛ</p></note> ܨܘܪܗ ܡܼܢ ܫܘܥܒܕܐ
+                        ܕܪܫܢܘܬܗ <note place="foot" xml:id="ftn76" n="76"><p> E lacuna; M<hi
+                                    rend="subscript">3</hi> om; A om (blank space); M<hi
+                                    rend="subscript">1</hi> ܕܝܼܠܹܗ </p></note> ܕܦܛܪܝܪܟܝܣ܆ ܗܘܸ
+                        ܦܛܪܝܪܟܝܣ ܢܒܛܠܝܗܝ <note place="foot" xml:id="ftn77" n="77"><p> E lacuna; M<hi
+                                    rend="subscript">3</hi> ܢܒܛܠ</p></note> ܠܦܪܨܘܦܐ ܗܿܘ܆ ܘܢܣܝܡ
+                        ܐ̄ܚܪܢܐ ܚܠܦܘܗܝ. ܘܗܘܸ <note place="foot" xml:id="ftn78" n="78"><p> E lacuna;
+                                    AM<hi rend="subscript">3</hi> om; M<hi rend="subscript">1</hi>
+                                ܕܗܘܸ</p></note> ܫܠܝܛ ܒܟܠܗܘܢ ܣܝܡܐ̈ ܘܫܪ̈ܝܐ ܘܒܘ̈ܛܠܐ <pb n="A 53r"/>
+                        [ܕܕܲܝ̈ܢܐ] <note place="foot" xml:id="ftn80" n="80"><p> E lacuna; M<hi
+                                    rend="subscript">1</hi> add ; B blank space</p></note> ܘܬܘܪ̈ܨܐ
+                        ܘܣܝܡܐ ܕܩܢܘ̈ܢܐ. ܘܠܡܘܣܦܘ ܘܠܲܡܒܲܨܪܘܼ <note place="foot" xml:id="ftn81" n="81"
+                                ><p> E lacuna; M<hi rend="subscript">3</hi> om; A om (blank space);
+                                B ܘܠܡܪܥܐ</p></note> ܥܕܬ̈ܐ ܘܕܝܪ̈ܬܐ. <pb n="M3 114r"/> ܘܐܦ ܟܘܖ̈ܣܘܬܐ
+                        ܕܐܦܝܣܩܘ̈ܦܐ <note place="foot" xml:id="ftn83" n="83"><p> E lacuna; A has the
+                                initial ܕܐ followed by blank space</p></note> ܘܐܦܢ ܐܠܨܐ ܠܡܒܨܪܘ ܡܛܠ
+                        ܩܘܝܡܐ ܘܝܘܬܪܢܐ <note place="foot" xml:id="ftn84" n="84"><p> E lacuna; AM<hi
+                                    rend="subscript">3</hi> om (blank space)</p></note> ܕܥܕ̈ܬܐ
+                        ܐ̄ܚܪ̈ܢܝܬܐ ܘܕܟܘܪ̈ܣܘܬܐ <pb
+                            n="E ends in lacuna; M3 ends (the rest of f. 114r is left
+                            blank)"/> ܕܐܦܣܩܘ̈ܦܐ <pb
+                            n="A ends (the rest of f. 53r is left blank)"/> ܫܠܡܝܢܢ <pb n="M1 ends"/>
+                        [ܕܗܘܸ] <note place="foot" xml:id="ftn88" n="88"><p> E lacuna; B add; a
+                                marginal note in Latins says: cetera vide pag. 228</p></note>
+                        <pb n="B ends (the rest
+                            of f. 120v is left blank)"/>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
