@@ -130,7 +130,7 @@
                 <head>Preface</head>
                 <div xml:lang="en">
                     <p xml:lang="en">This text is a born-digital edition of the <hi rend="italic"
-                            >Letter from Eusebius of Rome to Papa bar Aggai</hi>. The letter is part
+                        >Letter from <persName ref="http://syriaca.org/person/1723">Eusebius of Rome</persName> to <persName ref="http://syriaca.org/person/669">Papa bar Aggai</persName></hi>. The letter is part
                         of a corpus of eight letters representing the correspondence of Papa bar
                         Aggai, early 4th-century bishop of Seleucia, with some exponents of the
                         western political and religious power. Beside the <hi rend="italic">Letter
@@ -188,44 +188,53 @@
             <div type="text">
                 <head>Text</head>
                 <div type="rubric">
-                    <p xml:lang="syr">ܐܓܲܪܬܵܐ ܕܡܼܢ 
-                        <persName ref="http://syriaca.org/person/1723">ܐܹܘܣܹܒܿܝܼܣ ܦܵܛܪܝܵܪܟܵܐ ܕܪܗ̄ܘܿܡܹܐ</persName>
+                    <p xml:lang="syr">
+                        <pb n="Text begins: E 71r, A 48r, B 114v, C 12r; M1 34v, M2 235r,
+                            M3 103r"/>
+                        ܐܓܲܪܬܵܐ ܕܡܼܢ  
+                        ܐܹܘܣܹܒܿܝܼܣ ܦܵܛܪܝܵܪܟܵܐ ܕܪܗ̄ܘܿܡܹܐ
                         ܆ ܠܘܵܬܼ 
-                        <persName ref="http://syriaca.org/person/669">ܦܵܦܵܐ ܩܵܬܼܘܿܠܝܼܩܵܐ ܕܡܲܕܢܚܵܐ</persName> 
-                        <note place="foot" xml:id="ftna" n="a"><p
-                                xml:lang="en" rend="footnote text">E 71r, A 48r, B 114v, C 12r; M<hi
-                                    rend="subscript">1</hi> 34v, M<hi rend="subscript">2</hi> 235r,
-                                    M<hi rend="subscript">3</hi> 103r</p></note> . </p>
+                        ܦܵܦܵܐ ܩܵܬܼܘܿܠܝܼܩܵܐ ܕܡܲܕܢܚܵܐ . </p>
                 </div>
                 <div type="body">
 
-                    <p xml:lang="syr">ܠܡܵܪܐ ܕܝܼܠܝ ܩܕܝܼܫܵܐ ܡܵܪܝ<note place="foot" xml:id="ftn1" n="1">
+                    <p xml:lang="syr">ܠܡܵܪܐ ܕܝܼܠܝ ܩܕܝܼܫܵܐ
+                        ܡܵܪܝ<note place="foot" xml:id="ftn1" n="1">
                             <p xml:lang="en" rend="footnote text">M<hi rend="subscript">2</hi>
                                 omits</p>
-                        </note> ܦܵܦܵܐ ܦܵܛܪܝܲܪܟܿܝܼܣ : ܐܹܘܣܹܒܿܝܼܣ ܐܲܚܘܼܟ : ܣܵܓܕ ܠܵܟ. ܐܝܟ ܕܠܵܐ
+                        </note> 
+                        ܦܵܦܵܐ ܦܵܛܪܝܲܪܟܿܝܼܣ : ܐܹܘܣܹܒܿܝܼܣ ܐܲܚܘܼܟ : ܣܵܓܕ ܠܵܟ. ܐܝܟ ܕܠܵܐ
                         ܡܹܬܼܚܲܦܸܐ ܫܘܼܒܼܚܹܗ ܕܐܼܠܵܗܵܐ܆ ܐܦܵܠܵܐ ܢܸܨܚ̈ܢܹܐ ܕܩܲܕܝ̈ܫܵܘܗܝ. ܦܲܢܛܲܩܪܲܐܲܛܘ
                         ܙܲܟܵܝܵܐ ܩܘܼܣܛܲܢܛܝܼܢܘܿܣ ܡܲܠܟܵܐ ܡܒܲܪܟܵܐ ܕܲܠܥܠܲܡ܆ ܥܲܡ ܐܸܡܹܗ ܡܲܠܟܬܼܵܐ ܡܗܲܝܡܲܢܬܿܐ
-                        ܇ ܚܕܵܘ ܒܢܹܨܚܵܢ̈ܝܟ<note place="foot" xml:id="ftn2" n="2">
+                        ܇ ܚܕܵܘ 
+                        ܒܢܹܨܚܵܢ̈ܝܟ<note place="foot" xml:id="ftn2" n="2">
                             <p xml:lang="en" rend="footnote text">BM<hi rend="subscript">2</hi> omit
                                 seyome</p>
-                        </note>. ܘܐܸܬܿܕܲܡܲܪܘ ܒܬܼܕܡܪ̈ܬܟ. ܘܐܲܝܟ ܕܲܒܼܗܹܪ̈ܘܿܡܹܐ ܪܹ̈ܫܵܝܹܐ ܐܬܒܲܣܲܡܼܘ
+                        </note>
+                        . ܘܐܸܬܿܕܲܡܲܪܘ ܒܬܼܕܡܪ̈ܬܟ. ܘܐܲܝܟ ܕܲܒܼܗܹܪ̈ܘܿܡܹܐ ܪܹ̈ܫܵܝܹܐ ܐܬܒܲܣܲܡܼܘ
                         ܒܫܸܡ̈ܥܸܐ ܫܲܪܝܼܼܪܹ̈ܐ ܕܕܘܼܒܵܪ̈ܝܟ ܐܲܠܗܝܹ̈ܐ : ܘܐܵܦ ܢܸܬܼܒܲܪܟܼܘܼܢ ܡܼܢ ܪܲܒܿܘܼܬܼ
-                        ܟܵܗܢܘܬܼܟܼܘܢ ܆ ܘܡܼܢ ܟܘܼܪܣܝܵܐ ܩܲܕܝܼܫܵܐ ܕܡܵܪܝ ܬܐܘܿܡܵܐ ܫܠܝܼܚܵܐ܇ ܕܡܚܝܵܢ<note
+                        ܟܵܗܢܘܬܼܟܼܘܢ ܆ ܘܡܼܢ ܟܘܼܪܣܝܵܐ ܩܲܕܝܼܫܵܐ ܕܡܵܪܝ ܬܐܘܿܡܵܐ ܫܠܝܼܚܵܐ܇ 
+                        ܕܡܚܝܵܢ<note
                             place="foot" xml:id="ftn3" n="3">
                             <p xml:lang="en" rend="footnote text">M<hi rend="subscript">1</hi>
                                 ܕܡܲܬܼܩܲܢ ; EAM<hi rend="subscript">3</hi> ܕܡ ـܢ ; C ܕܡܟܲܝܢ</p>
-                        </note> ܠܐܕܝ ܫܠܝܼܚܵܐ ܇ ܐܲܝܟ ܡܲܫܠܡܵܢܘܼܬܼܵܐ ܕܥܹܕܬܵܐ. ܡܲܐܢܝ̈ ܬܹܫܡܸܫܬܵܐ ܥܼܒܲܕܘ
-                        ܘܫܲܕܿܪܘ ܠܟܼܘܿܢ ܥܡ ܫܐܠܬܸ<note place="foot" xml:id="ftn4" n="4">
+                        </note>
+                        ܠܐܕܝ ܫܠܝܼܚܵܐ ܇ ܐܲܝܟ ܡܲܫܠܡܵܢܘܼܬܼܵܐ ܕܥܹܕܬܵܐ. ܡܲܐܢܝ̈ ܬܹܫܡܸܫܬܵܐ ܥܼܒܲܕܘ
+                        ܘܫܲܕܿܪܘ ܠܟܼܘܿܢ ܥܡ 
+                        ܫܐܠܬܸ<note place="foot" xml:id="ftn4" n="4">
                             <p xml:lang="en" rend="footnote text">M<hi rend="subscript">1</hi> ܫܐܠܬܐ
                                 ; C ܫܹܐܲܠܬܼ ; B ܫܹܐܠܬܗܘܢ</p>
-                        </note> ܫܠܵܡܗܘܿܢ<note place="foot" xml:id="ftn5" n="5">
+                        </note>
+                        ܫܠܵܡܗܘܿܢ<note place="foot" xml:id="ftn5" n="5">
                             <p xml:lang="en" rend="footnote text">C ܫܠܵܡܟܼܘܿܢ (similarly in M<hi
-                                    rend="subscript">2</hi>, where a later hand corrects, in
+                                rend="subscript">2</hi>, where a later hand corrects, in
                                 pencil).</p>
-                        </note> ܕܒܼܣܩܪܐܣ<note place="foot" xml:id="ftn6" n="6">
+                        </note>
+                        ܕܒܼܣܩܪܐܣ<note place="foot" xml:id="ftn6" n="6">
                             <p xml:lang="en" rend="footnote text">M<hi rend="subscript">2</hi>
                                 ܕܲܒܣܲܩܪܣ</p>
-                        </note>. ܩܲܒܹܿܠ ܡܵܪܝ ܚܲܕܝܵܐܝܼܬܼ. ܘܣܝܼܡ ܥܘܼܗܕܵܢܗܘܢ ܒܓܵܘ ܥܹܕܬܵܟ. ܘܢܸܗܘܸܐ
+                        </note>
+                        . ܩܲܒܹܿܠ ܡܵܪܝ ܚܲܕܝܵܐܝܼܬܼ. ܘܣܝܼܡ ܥܘܼܗܕܵܢܗܘܢ ܒܓܵܘ ܥܹܕܬܵܟ. ܘܢܸܗܘܸܐ
                         ܠܕܘܟܼܪܢܐ ܕܲܠܥܠܲܡ. ܘܡܼܢ ܝܲܡܵܐ ܕܒܼܘܼܪ̈ܟܵܬܼܟ ܆ ܢܸܫܬܲܦܼܥ ܥܠܲܝܗܘܵܢ ܡܲܠܝܵܐܝܼܬܼ.
                         ܘܲܥܠܲܝܢ ܘܥܲܠ ܡܕܝܢ̄ܬܐ ܗܵܕܐ ܆ ܘܲܠܟܼܠܹܗ ܐܼܘܚܕܵܢܲܢ. ܨܠܘܬܐ ܕܠܵܐ ܫܲܠܘܵܐ ܬܸܬܼܩܲܪܒܼ. </p>
                 </div>
