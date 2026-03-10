@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="en" level="a" ref="http://syriaca.org/work/9071"
-                    >Letter 1: Untitled - <foreign xml:lang="syr">Syriac title</foreign></title>
+                    >Letter 1: Untitled</title>
                 <title xml:lang="en" level="s" ref="http://syriaca.org/work/9177">Letters of Mar Ishoʿyahb III</title>
                 <title level="s">Digital Syriac Corpus</title>
                 <author ref="http://syriaca.org/person/561">Ishoʿyahb III of Adiabene</author>
@@ -118,7 +118,8 @@
     <text type="PrintTranscription">
         <front>
             <div xml:lang="en">
-                <p xml:lang="en">From Part 1: When Ishoʿyahb was a bishop</p>
+                <p xml:lang="en">The Letters of Mar Ishoʿyahb III</p>
+                <p xml:lang="en">From Part 1: When he was a bishop</p>
             </div>
         </front>
         <body>
